@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3b478188-00db-4518-a9d8-62437136e1fc",
+    "id": "bundle--8cf54400-8e42-483e-b732-f1777baa3a07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.913Z",
+            "modified": "2026-09-02T20:50:12.693Z",
             "description": "[Golden Cup](https://attack.mitre.org/software/S0535) can collect various pieces of device information, such as serial number and product information.(Citation: Symantec GoldenCup)",
             "relationship_type": "uses",
             "source_ref": "malware--f3975cc0-72bc-4308-836e-ac701b83860e",

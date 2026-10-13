@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83c99430-6284-4ddb-8479-d180facd8947",
+    "id": "bundle--e7271ca7-99b4-4884-881f-26adce2ba572",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.115Z",
+            "modified": "2026-09-02T21:40:44.810Z",
             "description": "[TriangleDB](https://attack.mitre.org/software/S1216) has obtained a list of files using the `fts` API and has obtained files that match a specified regular expression.(Citation: SecureList OpTriangulation 21Jun2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--1393fb21-d09f-4ce8-96cf-1bcc9881765f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f073eb2-c6b0-4c9b-bd42-975362c506ee",
+    "id": "bundle--fde9f2df-a655-4bf1-8400-ff63af7959ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.130Z",
+            "modified": "2026-09-02T18:52:35.874Z",
             "description": " [Gustuff](https://attack.mitre.org/software/S0406) can use SMS for command and control from a defined admin phone number.(Citation: Talos Gustuff Apr 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

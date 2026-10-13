@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b879baa5-4836-4336-afe1-3fbf060db221",
+    "id": "bundle--14ded895-afdd-4f46-b8ca-dd5f2b3c9fd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:42:21.634Z",
             "name": "Analytic 1803",
-            "description": "Defender correlates a chain where a device establishes a new trusted USB host pairing or enters developer/debug configuration state, followed by device data extraction activity, configuration manipulation, or abnormal application behavior shortly after the pairing event.",
+            "description": "For iOS, detect Replication Through Removable Media from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Host Status via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]; Protected Configuration via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]; System Settings via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,38 +34,29 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
-                    "name": "iOS:MDMLog",
-                    "channel": "Developer Mode enabled, supervised-device restriction changed, or trust-related protected device posture changed"
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "iOS:MDMLog",
-                    "channel": "Trusted computer / host relationship established or relevant device trust setting changed"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "iOS:MDMLog",
-                    "channel": "Device risk, compliance, or security posture changes after trusted host pairing or developer-state transition"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Observed device-service, trust-service, backup/service interaction, or other privileged framework activity associated with physical host access"
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "PairingEventWindow",
-                    "description": "Time window between trusted host pairing and suspicious device behavior."
+                    "field": "USBInstallWindow",
+                    "description": "Default 300s between USB mode change and install or file delivery event. Tightening: 60s \u2014 synchronous USB delivery."
                 },
                 {
-                    "field": "AllowedTrustedHosts",
-                    "description": "Enterprise-authorized computers permitted to pair with managed devices."
-                },
-                {
-                    "field": "DeveloperModePolicy",
-                    "description": "Whether developer mode is permitted in the organization."
+                    "field": "AuthorizedDeveloperDevices",
+                    "description": "Device serial numbers authorized for developer mode (test/dev fleet only). Derive from IT device management. Production devices should have empty list."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a11814e5-ee13-4a4b-96f1-ab7b45ce491f",
+    "id": "bundle--fe52f6ed-4226-42a3-b86e-53f01c12c30e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.184Z",
+            "modified": "2026-09-02T21:48:05.190Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can record video.(Citation: CyberMerchants-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

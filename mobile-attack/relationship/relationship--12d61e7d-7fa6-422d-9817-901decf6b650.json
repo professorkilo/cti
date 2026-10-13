@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3ac0bfc-3cf8-42eb-b750-5ee9b4f1cbf5",
+    "id": "bundle--dc0ff049-ce54-408b-9fa8-1716d63ccf0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.930Z",
+            "modified": "2026-09-02T22:13:12.708Z",
             "description": "[Pallas](https://attack.mitre.org/software/S0399) uses phishing popups to harvest user credentials.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c41a8b7c-3e42-4eee-b87d-ad8a100ee878",

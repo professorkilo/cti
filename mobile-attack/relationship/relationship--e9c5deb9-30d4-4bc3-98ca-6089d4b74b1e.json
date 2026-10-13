@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5530ad1-8475-4727-a717-61e40184c71c",
+    "id": "bundle--e39fd7aa-1072-4529-9ccc-96a29cc29688",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-02T21:49:27.157Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has accessed the list of installed apps.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",

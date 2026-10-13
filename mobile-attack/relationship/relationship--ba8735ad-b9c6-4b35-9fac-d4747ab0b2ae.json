@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bba9cc3-80f9-4da1-8621-6dc2e04abaa0",
+    "id": "bundle--9420eaf5-1531-4640-aae8-af825191e4b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.179Z",
+            "modified": "2026-09-02T21:40:44.888Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) has searched device storage for various files, including .amr files (audio recordings) and superuser binaries.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

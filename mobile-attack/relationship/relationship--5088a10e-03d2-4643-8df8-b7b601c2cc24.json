@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de80922d-d6fb-42b8-af48-16dab0e4040b",
+    "id": "bundle--d5f2eb69-9a80-4a6d-b8bd-583bf82aa9c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.035Z",
+            "modified": "2026-09-02T21:36:48.877Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can track the device\u2019s location.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

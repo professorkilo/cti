@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f927569-9568-4472-a8dc-51ba34065c8e",
+    "id": "bundle--a173c97e-8b7f-470b-9023-c4cf91c5a817",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-02T21:41:04.006Z",
             "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) has the ability to record audio.(Citation: Lookout-Pegasus)",
             "relationship_type": "uses",
             "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",

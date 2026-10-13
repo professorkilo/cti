@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50a4cf0b-66f7-45a3-8092-89114aa3948c",
+    "id": "bundle--34ebe630-3864-40b3-b976-17de795c31cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.085Z",
+            "modified": "2026-09-02T21:48:27.600Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can record the screen.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

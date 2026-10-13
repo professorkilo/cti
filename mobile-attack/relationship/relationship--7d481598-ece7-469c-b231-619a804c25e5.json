@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--133263a4-cdae-4b0d-92e4-7b3de933cdbc",
+    "id": "bundle--0b4d4840-d1e3-4daa-9908-aef752ea5504",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
+            "modified": "2026-09-02T21:35:58.274Z",
             "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) captures SMS messages that the victim sends or receives.(Citation: Lookout-Pegasus)",
             "relationship_type": "uses",
             "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a88d992-d4a9-4d5e-a62d-feafdbd46b0e",
+    "id": "bundle--0b7005d9-25ce-4d3d-a54b-769a55455136",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.090Z",
+            "modified": "2026-09-02T21:35:36.074Z",
             "description": "[BrainTest](https://attack.mitre.org/software/S0293) stores a secondary Android app package (APK) in its assets directory in encrypted form, and decrypts the payload at runtime.(Citation: Lookout-BrainTest)",
             "relationship_type": "uses",
             "source_ref": "malware--e13d084c-382f-40fd-aa9a-98d69e20301e",

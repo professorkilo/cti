@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bbc7059-027e-4aaa-a1c5-854b04509e10",
+    "id": "bundle--80d8b8f3-4870-454a-88bf-568980592833",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.027Z",
+            "modified": "2026-09-02T22:20:20.322Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can forward SMS messages.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

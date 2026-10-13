@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd765158-3331-4a4d-9372-2775fbf3c20b",
+    "id": "bundle--db822a5f-a241-4c41-a1ee-279d8531c9c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.158Z",
+            "modified": "2026-09-02T22:13:45.521Z",
             "description": "Users should be wary of granting applications dangerous or privacy-intrusive permissions, such as keyboard registration or accessibility service access.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

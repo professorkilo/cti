@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--674e4296-228d-45fb-aef0-c99b5c411998",
+    "id": "bundle--8c87f16c-e258-4a1f-af70-5299928be4cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.991Z",
+            "modified": "2026-09-02T18:52:07.825Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can collect a list of running processes.(Citation: Zimperium z9)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

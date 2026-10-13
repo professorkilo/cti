@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c38d13e1-5ea6-4fa5-9893-c773005f1632",
+    "id": "bundle--68ab6388-e5f7-4b8e-86f3-a11fe67af8d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.092Z",
+            "modified": "2026-09-02T21:48:27.616Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can record the screen and stream the data off the device.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

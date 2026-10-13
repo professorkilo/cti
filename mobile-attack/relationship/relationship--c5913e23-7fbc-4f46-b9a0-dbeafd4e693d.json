@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--056c334c-6dfa-4cce-b2c9-aa43f2320d6b",
+    "id": "bundle--ecac1180-fd24-40d8-8f42-b058907957d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-02T20:56:11.487Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has used a romance trap scam to convince victims into downloading the trojanized application.(Citation: ESET_VajraSpy_Feb2024)  ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

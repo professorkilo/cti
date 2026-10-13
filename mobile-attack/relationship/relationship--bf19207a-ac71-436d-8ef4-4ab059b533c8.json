@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eabdfb58-f7a3-4c8b-805f-ca401769ffd8",
+    "id": "bundle--2d4f6b0e-8dd6-4c4d-98e6-8000b78f6d04",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-02T22:17:30.092Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) uses root access to establish reboot hooks to re-install the application from `/data/misc/adn`.(Citation: FortiGuard-FlexiSpy) At boot, [FlexiSpy](https://attack.mitre.org/software/S0408) spawns daemons for process monitoring, call monitoring, call managing, and system.(Citation: FortiGuard-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

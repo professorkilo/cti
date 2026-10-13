@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--435ecf3d-2a1b-4766-b54b-5a4ce8abc760",
+    "id": "bundle--0819edb0-966c-4563-926e-f4dcd5645540",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T22:20:49.855Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) has deleted call log entries coming from known C2 sources.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

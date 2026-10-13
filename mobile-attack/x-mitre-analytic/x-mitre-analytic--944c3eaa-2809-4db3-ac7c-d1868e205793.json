@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ec40f31-712f-4987-a107-0845a759b5b4",
+    "id": "bundle--24c3acb6-b3d5-4f6e-bfa2-ca0c9fde838f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.380Z",
+            "modified": "2026-10-13T17:40:58.272Z",
             "name": "Analytic 1842",
-            "description": "Correlates (1) suppression or disablement of launcher-visible application components or effective reduction of user-facing launcher presence, (2) persistence of installed application state after icon suppression, and (3) continued runtime activity such as background execution, framework use, sensor access, or network communication after the icon becomes unavailable or is replaced by reduced-discoverability launcher behavior. The defender observes a causal chain where an app removes or reduces its launcher visibility while remaining operational and continuing meaningful activity.",
+            "description": "For Android, detect Suppress Application Icon from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes PackageManager.setComponentEnabledSetting() to COMPONENT_ENABLED_STATE_DISABLED on its own LAUNCHER activity while continuing active background or foreground-service execution]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,39 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "installed application remains present while launcher-visible activity or component discoverability changes to hidden, disabled, or synthesized-settings-entry state prior to later runtime activity"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes package or component state changes affecting launcher-facing activity availability and subsequently continues operational framework activity after icon suppression"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes PackageManager.setComponentEnabledSetting() to COMPONENT_ENABLED_STATE_DISABLED on its own LAUNCHER activity while continuing active background or foreground-service execution"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between icon suppression and later runtime activity"
+                    "field": "KnownHeadlessApps",
+                    "description": "Enterprise apps legitimately designed without launcher icons (MDM agent, background sync daemons). Derive from MDM catalog. Tightening: empty \u2014 all icon suppression during active execution is flagged."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Baseline of legitimate apps permitted to reduce launcher visibility, such as managed agents, work-profile utilities, or system applications"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether post-suppression behavior is only suspicious when no recent foreground interaction is present"
-                },
-                {
-                    "field": "SuppressionMode",
-                    "description": "Environment-specific handling of hidden, disabled, or synthesized launcher behavior depending on Android version and management posture"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum outbound traffic volume used to distinguish meaningful hidden operation from benign background maintenance"
-                },
-                {
-                    "field": "SensorAfterSuppressionThreshold",
-                    "description": "Threshold for sensor access frequency after launcher visibility is reduced"
+                    "field": "ApprovedMediaApps",
+                    "description": "Media editing, backup, and secure note apps with legitimate need to manage media file visibility. Derive from MDM catalog. Tightening: empty \u2014 any app hiding multimedia files post-collection is anomalous."
                 }
             ]
         }

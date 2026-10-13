@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--526bf973-80b2-4350-aa23-c00e507f0afb",
+    "id": "bundle--7ef74370-491a-4891-a780-6cc11abff74d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.945Z",
+            "modified": "2026-09-02T21:35:57.825Z",
             "description": "[Bread](https://attack.mitre.org/software/S0432) can access SMS messages in order to complete carrier billing fraud.(Citation: Google Bread)",
             "relationship_type": "uses",
             "source_ref": "malware--108b2817-bc01-404e-8e1b-8cdeec846326",

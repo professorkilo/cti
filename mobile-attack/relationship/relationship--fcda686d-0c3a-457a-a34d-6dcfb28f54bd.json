@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--404b48bb-b4a9-4a0d-8676-e45360c09c76",
+    "id": "bundle--041a1ffc-326a-4faa-9795-b6845100cab0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.268Z",
+            "modified": "2026-09-02T22:17:30.140Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) registers for the `BOOT_COMPLETED` intent to auto-start after the device boots.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eebf9fb5-7f47-415f-90a2-e3cbd72f715f",
+    "id": "bundle--87e8521b-93fc-4457-a6a6-e6349139ea31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.015Z",
+            "modified": "2026-09-02T18:49:49.863Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) uses HTTP data exfiltration.(Citation: SecureList - ViceLeaker 2019)(Citation: Bitdefender - Triout 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

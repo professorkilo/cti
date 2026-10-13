@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--756f0516-278a-48ea-8322-1220a77a0054",
+    "id": "bundle--e7945190-ad27-4c40-ae9e-9645a9f2b14e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.378Z",
+            "modified": "2026-10-13T17:41:01.268Z",
             "name": "Analytic 1851",
-            "description": "Defender correlates a sandboxed app writing high-entropy or encoded artifacts (often in app-private or shared storage), performing decode/decompress/reassembly, then dynamically loading/execing the resulting code (DexClassLoader/JNI dlopen) or spawning a helper process. Sequence: high-entropy file writes \u2192 decode/unpack bursts \u2192 new .dex/.so/.jar creation in temp/obfuscated paths \u2192 dynamic load or shell spawn within a tight window.",
+            "description": "For Android, detect Obfuscated Files or Information by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT on path LIKE '/data/data/%/files/%' for binary or dex content by app_package NOT IN $LegitDynamicLoaders$]; Module Load via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: DexClassLoader() or dlopen() called with path argument matching file written in preceding $DecryptExecWindow$]; Network Connection Creation via Android Enterprise Network Logging / Enterprise VPN [DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,58 +35,36 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "android:logcat",
-                    "channel": "App UID writes new file with suspicious extension/location (.tmp, .dat, .enc, /data/data/<pkg>/files/, /sdcard/Download/) and high estimated entropy"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT on path LIKE '/data/data/%/files/%' for binary or dex content by app_package NOT IN $LegitDynamicLoaders$"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
-                    "name": "android:logcat",
-                    "channel": "DexClassLoader/PathClassLoader load attempt from non-standard path or recently created file"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() or dlopen() called with path argument matching file written in preceding $DecryptExecWindow$"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
-                    "name": "android:logcat",
-                    "channel": "Short burst of file I/O followed by JNI/dlopen of a newly created .so"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "android:logcat",
-                    "channel": "SELinux AVC related to execute_no_trans/execmem after decode/unpack activity by the same app UID"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "TLS/HTTP download with atypical MIME (application/octet-stream, application/x-zip, application/x-gzip) followed by local decode/write"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Max interval to correlate write\u2192decode\u2192load stages (e.g., 5\u201360s depending on device performance)."
+                    "field": "LegitDynamicLoaders",
+                    "description": "React Native, Unity, Xamarin runtime packages \u2014 legitimate apps that use dynamic code loading. Tightening: empty list (all dynamic loading flagged). Loosening: broad list reduces FP for game engines. Derive from MDM-approved app catalog."
                 },
                 {
-                    "field": "PayloadEntropyThreshold",
-                    "description": "Shannon entropy threshold to flag likely obfuscated blobs (e.g., \u2265 7.2)."
+                    "field": "DecryptExecWindow",
+                    "description": "Default 60s between file write and module load. Tightening: 10s \u2014 synchronous decrypt-load pattern."
                 },
                 {
-                    "field": "SuspiciousWriteDirs",
-                    "description": "Directories to monitor (e.g., app /files, cache, /sdcard/Download). OEMs vary."
+                    "field": "AppCDNList",
+                    "description": "Per-app known CDN/update endpoints from 30-day network baseline. Derive by measurement."
                 },
                 {
-                    "field": "ChunkCountThreshold",
-                    "description": "Minimum count of small sequential writes (split payload reassembly)."
-                },
-                {
-                    "field": "NetworkCDNAllowlist",
-                    "description": "Benign CDNs/hosts for large opaque downloads to reduce FPs."
-                },
-                {
-                    "field": "ExecPathRegex",
-                    "description": "Regex for newly loaded .dex/.so/.jar/temp artifacts."
-                },
-                {
-                    "field": "UserContext",
-                    "description": "Foreground/background or developer mode context to suppress test noise."
+                    "field": "PostLoadWindow",
+                    "description": "Default 120s between module load and novel network connection."
                 }
             ]
         }

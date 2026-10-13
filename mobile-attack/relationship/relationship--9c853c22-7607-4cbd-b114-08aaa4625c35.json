@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff6d71b4-11b6-4bb3-b12e-68b21c979208",
+    "id": "bundle--50b36345-2466-4979-962b-c4149adea2ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-02T20:50:13.063Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can collect device information and can check if the device is running MIUI on a Xiaomi device.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

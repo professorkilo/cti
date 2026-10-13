@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a635f7c6-2491-41b0-b198-be97e08e8903",
+    "id": "bundle--7b48c2b6-29e7-410a-8109-eb0ea6d5d14d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.272Z",
+            "modified": "2026-09-02T21:41:04.186Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) captures live recordings of the device's surroundings.(Citation: Wandera-RedDrop)",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

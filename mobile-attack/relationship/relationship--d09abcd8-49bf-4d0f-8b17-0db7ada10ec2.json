@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbbeb173-8e65-4ab9-a9d3-4c6b065810f4",
+    "id": "bundle--9a6f821a-844a-46cd-8f2e-0d1e57c8791d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.211Z",
+            "modified": "2026-09-02T22:20:20.563Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) can automatically reply to SMS messages, and optionally delete them.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

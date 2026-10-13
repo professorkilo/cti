@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71a01434-c6b7-45cb-b9f0-7fa9d2dbf9e7",
+    "id": "bundle--1941bfc6-83ec-421d-8f01-c811f06361c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.226Z",
+            "modified": "2026-09-02T21:35:58.639Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can exfiltrate SMS logs.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

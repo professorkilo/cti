@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a39bdb69-5b2c-46d1-a8f3-a5463e6a6bf0",
+    "id": "bundle--550eaba2-13aa-4efb-baa6-47a67db26642",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T20:50:12.770Z",
             "description": "[XLoader for iOS](https://attack.mitre.org/software/S0490) can obtain the device\u2019s UDID, version number, and product number.(Citation: TrendMicro-XLoader-FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--29944858-da52-4d3d-b428-f8a6eb8dde6f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58b925c6-0b46-429a-9bdb-0002bee1b031",
+    "id": "bundle--77dc647d-0137-4c38-b5f9-28bcf7857973",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-02T21:49:26.813Z",
             "description": "[Agent Smith](https://attack.mitre.org/software/S0440) obtains the device\u2019s application list.(Citation: CheckPoint Agent Smith)",
             "relationship_type": "uses",
             "source_ref": "malware--a6228601-03f6-4949-ae22-c1087627a637",

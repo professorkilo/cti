@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efd233cc-43e2-450b-98c7-971a1bda184c",
+    "id": "bundle--83da0e38-e561-4e7c-8201-f4738c2e73b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.068Z",
+            "modified": "2026-09-02T21:48:04.983Z",
             "description": "[DroidJack](https://attack.mitre.org/software/S0320) can capture video using device cameras.(Citation: Zscaler-SuperMarioRun)",
             "relationship_type": "uses",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",

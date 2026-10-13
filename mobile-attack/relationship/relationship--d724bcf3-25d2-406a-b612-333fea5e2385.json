@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2f46cef-e4e3-45be-88f2-092ff96014c0",
+    "id": "bundle--5134633d-52f7-42dd-8ebb-8dedcdaeb4d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.219Z",
+            "modified": "2026-09-02T22:13:13.042Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can show phishing popups when a targeted application is running.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

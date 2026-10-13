@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b2d2c99-1720-4e1a-bedc-af1c5191db9d",
+    "id": "bundle--61fc8eb7-cd14-4775-8c43-bc8a221b39a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.990Z",
+            "modified": "2026-09-02T22:13:45.378Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can record the user's keystrokes.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

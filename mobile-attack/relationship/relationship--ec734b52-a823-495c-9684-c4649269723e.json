@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--697cc048-2b5f-4370-bc08-5c443d9c0833",
+    "id": "bundle--97615fec-caca-450e-beed-dcf4e4036b20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.247Z",
+            "modified": "2026-09-02T22:19:31.624Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can uninstall itself and other applications.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

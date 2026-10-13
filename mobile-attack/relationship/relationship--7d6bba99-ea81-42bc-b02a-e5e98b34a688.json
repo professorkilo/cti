@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--052663ef-ebc3-424e-9a2a-f32980e82360",
+    "id": "bundle--688078d4-375a-4252-b9dc-1c4f66e63e44",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
+            "modified": "2026-09-02T22:18:03.593Z",
             "description": "[Agent Smith](https://attack.mitre.org/software/S0440) can hide its icon from the application launcher.(Citation: CheckPoint Agent Smith)",
             "relationship_type": "uses",
             "source_ref": "malware--a6228601-03f6-4949-ae22-c1087627a637",

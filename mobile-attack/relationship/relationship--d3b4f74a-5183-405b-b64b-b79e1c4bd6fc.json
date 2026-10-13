@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed488062-c943-4d6e-95c0-8415e085a0fd",
+    "id": "bundle--ef65a2ce-d086-4a90-b20d-e25fb2841696",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-02T21:49:04.071Z",
             "description": "[Corona Updates](https://attack.mitre.org/software/S0425) can collect device network configuration information, such as Wi-Fi SSID and IMSI.(Citation: TrendMicro Coronavirus Updates)",
             "relationship_type": "uses",
             "source_ref": "malware--366c800f-97a8-48d5-b0a6-79d00198252a",

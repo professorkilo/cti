@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6234265-ac6e-4ba5-a345-f0577f86991c",
+    "id": "bundle--4c3c2a39-7439-4192-886e-08a8bec131db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.035Z",
+            "modified": "2026-09-02T21:36:21.368Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has accessed the call logs.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",

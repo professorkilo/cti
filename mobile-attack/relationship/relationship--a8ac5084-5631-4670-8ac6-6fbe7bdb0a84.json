@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38be6e1e-e7de-4b9c-be93-5a2e2a0266e4",
+    "id": "bundle--fb0d4cb8-fd03-4fc1-87c1-52621bde9cb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-02T21:36:49.288Z",
             "description": "[Pallas](https://attack.mitre.org/software/S0399) tracks the latitude and longitude coordinates of the infected device.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c41a8b7c-3e42-4eee-b87d-ad8a100ee878",

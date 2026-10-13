@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd787a17-e6c9-4299-a7b5-110b54ed9ad0",
+    "id": "bundle--2eefd280-9d1d-4a5a-923d-477c35a73e74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.228Z",
+            "modified": "2026-09-02T21:35:58.664Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) can access the device\u2019s SMS and MMS messages.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

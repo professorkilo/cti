@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a95ede9-e5e5-455e-806e-d9aedf0f50e8",
+    "id": "bundle--609d3902-ff23-415e-b1cb-58799d3e6805",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.227Z",
+            "modified": "2026-09-02T21:49:27.093Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can retrieve the list of installed applications.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46e30191-67c2-4e87-886c-948d8f71620f",
+    "id": "bundle--d6042be8-34d4-4580-bdd4-8f0802d3dda1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-02T18:45:47.236Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can obtain the device\u2019s contact list.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

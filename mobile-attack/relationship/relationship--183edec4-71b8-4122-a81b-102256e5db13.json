@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cb29a86-fc22-438b-ad71-21900cf124be",
+    "id": "bundle--17bcc056-12e8-48e3-aa5f-bd5463140604",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.937Z",
+            "modified": "2026-09-02T22:14:31.404Z",
             "description": "After accessibility service is granted, [Anubis](https://attack.mitre.org/software/S0422) lures the victim into changing the Accessibility settings on the device, disabling application removal, and executes screen taps and other commands without the victim\u2019s knowledge.(Citation: Cyble_Anubis_May2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

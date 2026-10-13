@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06a77c0f-bb27-41cf-bba2-e62e7f1e5be1",
+    "id": "bundle--c8efd1c6-174e-4011-ab1b-fb0ab8da5d9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.963Z",
+            "modified": "2026-09-02T21:36:21.254Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can access the device\u2019s call log.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",

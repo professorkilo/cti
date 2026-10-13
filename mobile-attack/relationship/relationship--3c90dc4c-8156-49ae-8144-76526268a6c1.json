@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23374f2c-aaa1-4df9-a8c5-c248d8ef455e",
+    "id": "bundle--dd49b3b8-8d50-4ea0-8c94-f22af6d15b17",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.007Z",
+            "modified": "2026-09-02T22:16:14.714Z",
             "description": "[Sunbird](https://attack.mitre.org/software/S1082) can request device administrator privileges. (Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--feae299d-e34f-4fc9-8545-486d0905bd41",

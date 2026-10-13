@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fe034b3-4544-4d9f-a8c3-5eedcd1b79b6",
+    "id": "bundle--b1d44c8b-f9e3-4adf-9751-a0c0a7aef03e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.113Z",
+            "modified": "2026-09-02T21:41:03.904Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) can record phone calls.(Citation: fb_arid_viper)",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",

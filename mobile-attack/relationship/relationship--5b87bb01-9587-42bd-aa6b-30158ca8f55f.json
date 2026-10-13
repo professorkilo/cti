@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f498f7c-647b-46e5-b2b8-a635e0985610",
+    "id": "bundle--f445101a-6b26-486d-9e1b-6137d3b8c5b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-02T22:20:20.345Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can send, receive, and delete SMS messages.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

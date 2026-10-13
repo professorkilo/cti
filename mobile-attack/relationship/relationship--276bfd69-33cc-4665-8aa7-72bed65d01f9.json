@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--599c1160-d549-442f-b82c-e2607bc02c42",
+    "id": "bundle--e6dec969-e984-490e-8888-2dab42492f96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T21:36:48.761Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can request location permissions.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

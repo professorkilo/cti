@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51c28316-d59f-44e5-8ff8-c94541a43450",
+    "id": "bundle--5264953a-2a20-4a72-b9d1-b5b8c7e45098",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.061Z",
+            "modified": "2026-09-02T21:41:03.753Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can turn on a device\u2019s microphone to capture audio.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",

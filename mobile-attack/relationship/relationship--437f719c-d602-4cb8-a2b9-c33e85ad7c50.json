@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--804a3332-3064-4cb3-a87e-6d33929cca9f",
+    "id": "bundle--60f33104-3adf-4d73-bbe8-5cb1af23db7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-02T18:56:23.271Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) can obtain the device\u2019s contact list.(Citation: Threat Fabric Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

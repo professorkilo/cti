@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0107985-699d-4b5b-b6c7-a66de2151dd3",
+    "id": "bundle--fe71af46-57f2-4606-bdfe-225a4acb9b80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-02T21:49:41.118Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can encrypt its data before exfiltration.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

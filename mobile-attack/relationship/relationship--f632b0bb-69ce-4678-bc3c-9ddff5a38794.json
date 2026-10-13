@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd6f39fb-979c-4be1-b106-c8e176899535",
+    "id": "bundle--88b8fff9-5f23-4ff2-93d8-5cc413596c88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T21:41:04.143Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can record audio from the device\u2019s microphone and can record phone calls together with the caller ID.(Citation: SecureList - ViceLeaker 2019)(Citation: Bitdefender - Triout 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

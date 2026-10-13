@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c5e0096-47f9-4d3d-8eec-1ab76557b4f6",
+    "id": "bundle--a9aa0d2e-1fd8-4392-a4de-73400f05946a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.132Z",
+            "modified": "2026-09-02T21:48:27.690Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can take screenshots.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

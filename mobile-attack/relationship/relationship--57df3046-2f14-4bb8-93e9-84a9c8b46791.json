@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9e30bb5-0610-40a6-a56b-73c0c5afb5d2",
+    "id": "bundle--fb85c0fc-4891-4357-b27d-bec7cfc5ddf0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.045Z",
+            "modified": "2026-09-02T22:19:31.552Z",
             "description": "Inform users that device rooting or granting unnecessary access to the accessibility service presents security risks that could be taken advantage of without their knowledge.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

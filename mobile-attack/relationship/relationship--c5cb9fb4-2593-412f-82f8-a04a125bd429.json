@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1adbe3be-4ac8-45bb-b53d-d0f609caf297",
+    "id": "bundle--faa5b55d-0d42-4252-9267-01887a8c6224",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-02T20:56:56.887Z",
             "description": "Security updates frequently contain patches to vulnerabilities that can be exploited for root access.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d",

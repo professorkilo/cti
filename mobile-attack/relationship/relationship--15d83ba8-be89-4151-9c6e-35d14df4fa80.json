@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bf6aa9c-c010-4cbe-9e05-3528af31aae4",
+    "id": "bundle--ea5f84ab-5a9e-4d35-b4c5-986b93249737",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.934Z",
+            "modified": "2026-09-02T22:19:31.445Z",
             "description": "Security updates typically provide patches for vulnerabilities that enable device rooting.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d",

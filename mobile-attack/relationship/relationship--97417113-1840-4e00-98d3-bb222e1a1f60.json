@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d093fc82-5265-4477-915f-520eb104d9ef",
+    "id": "bundle--b8a13087-71ad-4ae4-9d74-998427394eb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.131Z",
+            "modified": "2026-09-02T21:35:36.136Z",
             "description": "[Zen](https://attack.mitre.org/software/S0494) base64 encodes one of the strings it searches for.(Citation: Google Security Zen)",
             "relationship_type": "uses",
             "source_ref": "malware--22faaa56-a8ac-4292-9be6-b571b255ee40",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fe16f92a-6c0b-475c-90e0-61a95924e270",
+    "id": "bundle--23a8c628-b283-4b0d-baf6-d56d4d4934ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.027Z",
+            "modified": "2026-09-02T22:18:03.515Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can hide its icon if it detects that it is being run on an emulator.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

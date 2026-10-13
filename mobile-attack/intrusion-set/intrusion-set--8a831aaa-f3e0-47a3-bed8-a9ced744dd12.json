@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2a83f06-b14c-4df7-87ab-7929c340a784",
+    "id": "bundle--090fab4d-272d-4e20-ae09-89fde157056d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,7 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:40.500Z",
+            "modified": "2026-09-02T18:51:43.655Z",
             "name": "Dark Caracal",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) is threat group that has been attributed to the Lebanese General Directorate of General Security (GDGS) and has operated since at least 2012. (Citation: Lookout Dark Caracal Jan 2018)",
             "aliases": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53f453fb-2918-4ef1-91d9-0c990b72606c",
+    "id": "bundle--3417aae7-c73c-442b-9331-10cfb2dd095d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.130Z",
+            "modified": "2026-09-02T22:14:31.444Z",
             "description": "Once accessibility permissions are granted, [DocSwap](https://attack.mitre.org/software/S9005) has abused the Accessibility Service to execute a keylogging capability.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)    ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

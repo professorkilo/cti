@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2570822e-f213-4bd8-a345-aa326562c053",
+    "id": "bundle--add01641-b851-4027-8a76-6eca452a2293",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T21:33:42.695Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) has used Firebase for C2 communication.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",

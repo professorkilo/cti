@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f02f604-82c5-449a-9c80-3fe8e762d31b",
+    "id": "bundle--201d019c-a7a0-467c-966f-adf9b9775dec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.974Z",
+            "modified": "2026-09-02T22:14:09.357Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `FOREGROUND_SERVICE` permission.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025) [DocSwap](https://attack.mitre.org/software/S9005) has also used the StartForeground API to generate a notification saying \u201cTap to view more details or stop the app\u201d in Korean and to maintain persistence.(Citation: S2W_DocSwap_Mar2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

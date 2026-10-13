@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c841293-4313-4801-ac95-7b677c687718",
+    "id": "bundle--b2a95e69-d43f-4e5e-803d-9cbadb9dfce3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.998Z",
+            "modified": "2026-09-02T21:48:27.525Z",
             "description": "[S.O.V.A.](https://attack.mitre.org/software/S1062) can take screenshots and abuse the Android Screen Cast feature to capture screen data.(Citation: cleafy_sova_1122)",
             "relationship_type": "uses",
             "source_ref": "malware--4b53eb01-57d7-47b4-b078-22766b002b36",

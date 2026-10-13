@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e83a0094-6242-497b-810d-ccabadf3831d",
+    "id": "bundle--b2fb6bc6-8778-474c-9ddf-dfc29236003f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.231Z",
+            "modified": "2026-09-02T21:49:27.109Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has collected information about installed applications.(Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

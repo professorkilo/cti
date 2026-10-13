@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6d0dff1-df5c-4f35-a5a2-d9eb857916e5",
+    "id": "bundle--415529d8-a89a-497b-a593-3a5b9c5d2e77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.004Z",
+            "modified": "2026-09-02T22:13:45.390Z",
             "description": "When using Samsung Knox, third-party keyboards must be explicitly added to an allow list in order to be available to the end-user.(Citation: Samsung Keyboards)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",

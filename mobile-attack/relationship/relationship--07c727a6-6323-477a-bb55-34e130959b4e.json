@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afc408e6-cb16-430f-a5dd-0b72856b3396",
+    "id": "bundle--78027290-457b-419a-b5eb-ce05c4a06117",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.914Z",
+            "modified": "2026-09-02T21:32:27.208Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can mimic an app called \u201cStorage Settings\u201d if it cannot hide its icon.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

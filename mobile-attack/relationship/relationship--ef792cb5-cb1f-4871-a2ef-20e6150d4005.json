@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f73a7689-1cb1-4aa5-b68e-8f7e0603e727",
+    "id": "bundle--ea6ff335-7021-454d-b318-1e3b9894f5a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-02T21:32:27.900Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has been embedded into trojanized versions of applications such as Voxer, TalkBox, and Amaq News.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",

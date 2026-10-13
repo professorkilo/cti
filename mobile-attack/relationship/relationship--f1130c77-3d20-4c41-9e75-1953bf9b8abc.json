@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53cce11e-1825-405a-bcda-7729b6dd6790",
+    "id": "bundle--49d3630f-1f79-4fd4-9fbb-1ccaa9fc2906",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.253Z",
+            "modified": "2026-09-02T18:49:26.034Z",
             "description": "[eSurv](https://attack.mitre.org/software/S0507) has exfiltrated data using HTTP PUT requests.(Citation: Lookout eSurv)",
             "relationship_type": "uses",
             "source_ref": "malware--680f680c-eef9-4f8a-b5f5-f451bf47e403",

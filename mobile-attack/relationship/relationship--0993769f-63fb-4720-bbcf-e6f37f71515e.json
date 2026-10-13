@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3901a01e-f81e-4aeb-b48a-825ad7035788",
+    "id": "bundle--85e3deee-114a-43e3-a9b0-70c5cdce976a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.916Z",
+            "modified": "2026-09-02T20:50:12.704Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can collect the device\u2019s name, serial number, iOS version, total disk space, and free disk space.(Citation: Google Project Zero Insomnia) ",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

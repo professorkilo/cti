@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cab29c4-b94b-4ace-b7da-a057959196d8",
+    "id": "bundle--83c344ed-4b00-4b47-9c8a-03519ca8e55f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.146Z",
+            "modified": "2026-09-02T20:50:13.073Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can collect system information, such as Android version and device identifiers.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

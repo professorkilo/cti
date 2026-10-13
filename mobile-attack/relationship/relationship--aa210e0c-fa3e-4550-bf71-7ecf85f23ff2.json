@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4571087d-331e-4571-9fb0-59caf0c24575",
+    "id": "bundle--0d5bdb9a-ec57-4fbb-9685-210ed9285cdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T22:17:30.083Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has registered the following intents to automatically execute MainService on device reboot: `android.intent.action.BOOT_COMPLETED`, `android.intent.action.ACTION_POWER_CONNECTED`, and `android.intent.action.ACTION_POWER_DISCONNECTED`.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)    ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

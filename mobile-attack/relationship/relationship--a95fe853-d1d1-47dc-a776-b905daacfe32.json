@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6437a01f-946f-4123-bde5-92edcd659086",
+    "id": "bundle--280b5bf6-4f0a-4c06-868c-d33b2cae74f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T22:10:25.067Z",
             "description": "[DEFENSOR ID](https://attack.mitre.org/software/S0479) has used Firebase Cloud Messaging for C2.(Citation: ESET DEFENSOR ID) ",
             "relationship_type": "uses",
             "source_ref": "malware--5a5dca4c-03c1-4b99-bfcf-c206e20aa663",

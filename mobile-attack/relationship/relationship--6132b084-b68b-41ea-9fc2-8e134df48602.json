@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ec989bb-bb51-486f-a230-2d516853de46",
+    "id": "bundle--248305ec-cc48-4465-97d1-60c5594fbcc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.057Z",
+            "modified": "2026-09-02T21:48:04.971Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has the ability to start and stop camera recording.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

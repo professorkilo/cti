@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bcbc0ef-831f-44fb-b982-8e96062b3729",
+    "id": "bundle--9c919726-c725-4aad-b886-cc4cfa29b2b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-02T21:36:48.681Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can track the device's location.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7bd8160-98d4-4765-836b-2cab0a8a6c15",
+    "id": "bundle--60a3ca29-740f-4a95-b5cc-e172c2bc6b14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-02T21:41:03.834Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has captured audio from the device by taking control of the microphone.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

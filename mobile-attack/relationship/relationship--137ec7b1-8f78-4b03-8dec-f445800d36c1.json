@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9dde64d-f937-4275-ad6f-bdd56de8ea7c",
+    "id": "bundle--01327b31-e93f-4c4f-9e37-f949f7c864e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-02T22:14:31.392Z",
             "description": "After accessibility permissions  are granted, [CherryBlos](https://attack.mitre.org/software/S1225) has used the Accessibility Service to monitor when a wallet application launches and to steal credentials.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

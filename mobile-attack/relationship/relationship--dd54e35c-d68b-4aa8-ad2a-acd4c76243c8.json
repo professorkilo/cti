@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e6a28b8-b75c-4f77-844d-289e31a11d42",
+    "id": "bundle--165e923b-a1d1-4044-af3c-7d219b27a963",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.227Z",
+            "modified": "2026-09-02T22:12:46.272Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can use RC4 to encrypt C2 payloads.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8aab54be-71e5-4d87-bf60-a9ec3de2fd0c",
+    "id": "bundle--ad1b8734-86db-4cbf-a906-c494b9b0d6a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:41:11.444Z",
             "name": "Analytic 1779",
-            "description": "Defender correlates a look-alike prompt inside an app (e.g., faux Apple ID password view, webview of brand login) with timing against scene/foreground activation, optional push notification bait, then local form cache writes and/or small egress. Chain: scene activation around sensitive UI \u2192 suspicious prompt creation (UIKit events without expected auth controller) or webview navigated to look-alike domain \u2192 local cache write \u2192 near-term egress",
+            "description": "For iOS, detect GUI Input Capture by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,46 +34,41 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Presentation of credential-like view (UIAlertController with text fields / custom modal) not backed by system auth controller; frequent editingChanged in secureTextEntry fields"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Scene/foreground transitions for <bundle_id> to contextualize timing"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "iOS:unifiedlog",
-                    "channel": "WKWebView navigation to domain visually similar to target brand (IDN/punycode/alike score)"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "iOS:unifiedlog",
-                    "channel": "CREATE/WRITE of form cache/credential-like artifacts (forms.db, creds.json) in container"
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Max time from prompt to persist/exfil (e.g., 5\u201360s)."
+                    "field": "TargetAppList",
+                    "description": "Banking, enterprise SSO, auth apps."
                 },
                 {
-                    "field": "LookalikeDomainScore",
-                    "description": "Threshold for domain visual similarity (e.g., \u22650.85)."
+                    "field": "MDMApprovedCatalog",
+                    "description": "MDM-managed app list. Derive from MDM platform."
                 },
                 {
-                    "field": "PersistPathRegex",
-                    "description": "Regex for credential/form cache artifacts in container."
+                    "field": "ImpersonationTriggerWindow",
+                    "description": "Default 60s \u2014 adversary overlays target app context."
                 },
                 {
-                    "field": "ExfilDomainAllowlist",
-                    "description": "Enterprise/analytics endpoints to suppress FPs"
+                    "field": "EnterpriseDestList",
+                    "description": "Enterprise IdP and app backends."
                 },
                 {
-                    "field": "UserContext",
-                    "description": "MDM policy, Focus mode, foreground requirement."
+                    "field": "CredentialExfilWindow",
+                    "description": "Default 30s."
                 }
             ]
         }

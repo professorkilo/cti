@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1cf48045-5330-4a2c-8dcb-1022a12c02a0",
+    "id": "bundle--a971c2d1-d034-42c1-b950-1bd4385afd12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.101Z",
+            "modified": "2026-09-02T22:20:49.696Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can delete various piece of device data, such as contacts, call logs, applications, SMS messages, email, plugins, and files in external storage.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

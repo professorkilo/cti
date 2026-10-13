@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb04ba50-5c6c-41c7-a73e-661ba2c5072d",
+    "id": "bundle--b7bdd70e-ec76-4451-b119-5d627bbaa40f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T22:17:29.932Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) has registered to receive the `BOOT_COMPLETED` broadcast intent.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

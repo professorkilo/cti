@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6762627b-bcd3-47ef-a756-d64e1425bec6",
+    "id": "bundle--677e98f1-113a-4542-9531-7d860fa810eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.384Z",
+            "modified": "2026-10-13T17:40:50.938Z",
             "name": "Analytic 1712",
-            "description": "Correlates (1) application access to or staging of local files likely to be of operational, evidentiary, or user value, (2) deletion of those files or wipe-like destructive actions through ordinary storage access, administrative controls, or privileged/rooted paths, and (3) continued app or device activity after deletion, including cleanup, concealment, or outbound transfer. The defender observes a causal chain where files are first accessed or prepared, then removed, and device-side behavior continues after evidence or data is gone.",
+            "description": "For Android, detect File Deletion from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Deletion via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App deletes, truncates, or removes files that were recently written by the same app (collected data, staged exfil artifacts, operation logs) within $PostExfilCleanupWindow$ of network upload event \u2014 post-exfil cleanup chain]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes file management, storage-clear, or wipe operations in background state following network upload without user-initiated delete action]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,49 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application holds device administrator, device owner, or other managed authority capable of wipe or destructive device-level action before bulk file loss or wipe event"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "device posture indicates rooted, compromised, or non-compliant state before protected or atypical filesystem deletion activity"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application deletes, truncates, or removes user, operational, or evidence-bearing files after prior access or staging and before later continued execution or communication"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App deletes, truncates, or removes files that were recently written by the same app (collected data, staged exfil artifacts, operation logs) within $PostExfilCleanupWindow$ of network upload event \u2014 post-exfil cleanup chain"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes file-management, package, storage, or administrative wipe operations immediately before loss of expected local files or file collections"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes file management, storage-clear, or wipe operations in background state following network upload without user-initiated delete action"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between file access or staging, deletion event, and subsequent activity"
+                    "field": "PostExfilCleanupWindow",
+                    "description": "Default 300s after network upload event within which subsequent file deletions by the same app are causally linked to post-exfil cleanup. Tightening: 60s."
                 },
                 {
-                    "field": "FileScopeSet",
-                    "description": "File paths, storage scopes, and data classes monitored for suspicious deletion, such as documents, databases, media, email stores, or update artifacts"
-                },
-                {
-                    "field": "DeletionVolumeThreshold",
-                    "description": "Threshold for number, size, or concentration of deleted files required before escalation"
-                },
-                {
-                    "field": "AllowedCleanupApps",
-                    "description": "Legitimate applications expected to rotate, purge, or clean up files in the environment"
-                },
-                {
-                    "field": "ProtectedRoleSet",
-                    "description": "Administrative or rooted control paths that materially increase destructive file deletion capability"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold used to distinguish exfiltration-linked cleanup from benign maintenance activity"
+                    "field": "EvidenceFilePatterns",
+                    "description": "Audio/video files in app private storage, SQLite databases, screenshot files, log files written by malware. Derive from expected malware artifact patterns."
                 }
             ]
         }

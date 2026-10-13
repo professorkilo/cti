@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0756ff7a-f978-4f15-927f-e6fdbcf1e4c1",
+    "id": "bundle--0b5a686b-edbb-43ad-a16f-139e31ace781",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:42:29.513Z",
             "name": "Analytic 1828",
-            "description": "The defender correlates managed-app or supervised-device outbound sessions where protocol indicators such as TLS handshake, HTTP semantics, or other application-layer behaviors are observed over destination ports outside the approved baseline for that protocol and bundle role. The strongest iOS evidence is network telemetry showing repeated or persistent sessions using recognizable application protocols over uncommon ports, particularly during background refresh, while the device is locked, or without recent user interaction. Because direct local runtime attribution is weaker than Android, the primary iOS analytic should be anchored on network protocol-versus-port mismatch plus supervised managed-app context and device-state enrichment.",
+            "description": "For iOS, detect Non-Standard Port by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,73 +34,38 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "TLS handshake, HTTP method/header pattern, or WebSocket upgrade was observed on destination port outside approved port set for detected protocol during app-attributed outbound session"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "Repeated app-attributed sessions to same destination or service class used non-standard destination port with stable recurrence interval or persistent connection behavior"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "Observed protocol-to-port pairing was outside approved mapping for managed bundle or service class and did not match enterprise proxy, relay, or developer tooling exception"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "DeviceLockState=locked during outbound session using non-standard protocol-to-port pairing"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "LastUserInteractionDelta exceeded threshold before app-attributed session using non-standard protocol-to-port pairing"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "App identity using non-standard protocol-to-port pairing was unmanaged, outside approved app baseline, or not permitted to communicate using detected protocol/service over observed destination port"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Background work scheduler, job execution, foreground-service start, or persistent service activation immediately preceded outbound session using non-standard protocol-to-port pairing"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Background task or persistent networking event activates"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "AllowedProtocolPortMappings",
-                    "description": "Approved protocol-to-port pairings vary by bundle, business workflow, proxy architecture, and enterprise policy."
+                    "field": "ApprovedPortMap",
+                    "description": "Protocol-to-port allowlist: HTTPS:443, HTTP:80, DNS:53, SMTP:587, IMAP:993, etc. Derive from enterprise network policy. Any TLS outside 443, 8443 (if approved) is non-standard."
                 },
                 {
-                    "field": "SupervisedRequired",
-                    "description": "Strongest bundle-governance and protocol-port baseline analytics depend on supervised iOS devices."
+                    "field": "ApprovedNetworkApps",
+                    "description": "Apps approved for non-standard port use (enterprise network tools, VoIP apps with custom ports). Derive from MDM catalog. Tightening: empty \u2014 all non-standard port use flagged."
                 },
                 {
-                    "field": "AllowedManagedApps",
-                    "description": "Approved managed bundle identities vary by organization and device profile."
-                },
-                {
-                    "field": "AllowedServiceClasses",
-                    "description": "Expected external service classes differ across managed app categories and enterprise mobile workflows."
-                },
-                {
-                    "field": "TimeWindow",
-                    "description": "Correlation window linking non-standard-port sessions with lifecycle or local context signals."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Defines how close a session must be to user activity to be considered expected."
-                },
-                {
-                    "field": "BeaconIntervalTolerance",
-                    "description": "Allowed recurrence interval for benign polling, sync, or persistent sessions differs by bundle type."
-                },
-                {
-                    "field": "EnterpriseExceptionList",
-                    "description": "Known enterprise proxies, relays, developer tooling, and security products may legitimately use uncommon ports."
+                    "field": "InteractionThreshold",
+                    "description": "Default 300s. Sessions starting >5min after last user interaction with no foreground trigger are background-initiated."
                 }
             ]
         }

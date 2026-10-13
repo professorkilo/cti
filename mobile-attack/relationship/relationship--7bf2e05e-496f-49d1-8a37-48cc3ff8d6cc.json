@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd1e1966-d8ec-4a7d-84b5-53f154cdffe4",
+    "id": "bundle--eee00f59-d23e-4317-99fd-f22c7e917961",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-02T20:56:56.824Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can modify administrator settings and disable Play Protect.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

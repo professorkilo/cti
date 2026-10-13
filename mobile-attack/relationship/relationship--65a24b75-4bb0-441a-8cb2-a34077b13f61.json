@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d84107a-c3d9-4c57-b3c3-7ac932218856",
+    "id": "bundle--2174a59f-a7b1-420f-8f51-5a911bf1af00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.063Z",
+            "modified": "2026-09-02T18:45:47.292Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can collect local accounts on the device, pictures, bookmarks/histories of the default browser, and files stored on the SD card. [GolfSpy](https://attack.mitre.org/software/S0421) can list image, audio, video, and other files stored on the device. [GolfSpy](https://attack.mitre.org/software/S0421) can copy arbitrary files from the device.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

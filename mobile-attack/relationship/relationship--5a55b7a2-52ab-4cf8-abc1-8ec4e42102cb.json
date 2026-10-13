@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5928d33-7825-4e48-8e03-5fe6beb2a348",
+    "id": "bundle--d7f7b11f-7a4b-40e8-8499-4968fbc0b1c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-02T21:36:48.954Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can access the device's location.(Citation: SentinelLabs AridViper 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

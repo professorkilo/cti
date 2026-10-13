@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a463f71-9b22-4a10-9916-e6fe10a37f7b",
+    "id": "bundle--89528856-9761-4620-b4cb-26d5af992f06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.961Z",
+            "modified": "2026-09-02T21:35:35.843Z",
             "description": "[Bread](https://attack.mitre.org/software/S0432) uses various tricks to obfuscate its strings including standard and custom encryption, programmatically building strings at runtime, and splitting unencrypted strings with repeated delimiters to break up keywords. [Bread](https://attack.mitre.org/software/S0432) has also abused Java and JavaScript features to obfuscate code. [Bread](https://attack.mitre.org/software/S0432) payloads have hidden code in native libraries and encrypted JAR files in the data section of an ELF file. [Bread](https://attack.mitre.org/software/S0432) has stored DEX payloads as base64-encoded strings in the Android manifest and internal Java classes.(Citation: Check Point-Joker)(Citation: Google Bread)",
             "relationship_type": "uses",
             "source_ref": "malware--108b2817-bc01-404e-8e1b-8cdeec846326",

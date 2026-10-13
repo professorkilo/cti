@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf9599f9-a967-4afd-8e18-cb4b767cfa75",
+    "id": "bundle--d189c3f2-cd00-4d3c-ae0c-54b6a08dcf07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-02T21:36:21.474Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has requested for the `READ_CALL_LOG` and `WRITE_CALL_LOG` permissions and has the ability to send call logs.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

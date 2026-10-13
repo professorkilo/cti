@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a124e056-d3ea-4193-94bd-7e1b7d87b1f4",
+    "id": "bundle--96b2a579-1d55-42b2-a07b-ad4b75620387",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-02T20:50:13.165Z",
             "description": "[RuMMS](https://attack.mitre.org/software/S0313) gathers device model and operating system version information and transmits it to a command and control server.(Citation: FireEye-RuMMS)",
             "relationship_type": "uses",
             "source_ref": "malware--936be60d-90eb-4c36-9247-4b31128432c4",

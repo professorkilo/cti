@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffcc18b7-d63f-45c2-b0c1-14048565ec94",
+    "id": "bundle--e46cf68a-bc4f-4ae7-9ba2-63aeddd5b859",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.209Z",
+            "modified": "2026-09-02T20:46:41.040Z",
             "description": "Users should be encouraged to only install apps from authorized app stores, which are less likely to contain malicious repackaged apps.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

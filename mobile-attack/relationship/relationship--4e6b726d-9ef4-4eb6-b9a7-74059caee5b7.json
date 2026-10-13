@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7550542-f136-41ca-a664-fab0ae7bb48b",
+    "id": "bundle--62f6c067-d034-4eb6-86f1-a0c02594f9b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-02T21:35:58.072Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) can collect SMS messages.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

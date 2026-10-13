@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--117eac5e-c0a1-410a-9161-85cf137b1e28",
+    "id": "bundle--bc8549e3-9bb2-4537-92ad-524f13cbb715",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-02T20:57:21.378Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has sent the victim back to the home screen when the victim navigates to the malicious application's settings and has automatically approved any permission requests by clicking on the \"Allow\" button when a system dialogue appears.(Citation: TrendMicro_CherryBlos_July2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

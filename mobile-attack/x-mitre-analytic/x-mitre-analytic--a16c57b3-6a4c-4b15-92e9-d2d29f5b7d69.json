@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0bf3e02-3f4e-43a4-b9b0-c5be4812c1bb",
+    "id": "bundle--ea0c17f0-1862-412e-b6bb-f410c14da9fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:41:29.999Z",
             "name": "Analytic 1682",
-            "description": "Defender observes an application establishing recurrent HTTPS or APNS-related communications exhibiting structured cadence, abnormal session persistence, or notification-triggered network bursts inconsistent with user interaction patterns or declared application behavior.",
+            "description": "For iOS, detect Web Protocols by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate API Calls via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: UNUserNotificationCenter or legacy UIApplication.registerForRemoteNotifications with Apple Team ID NOT IN $APNSAllowList$ \u2014 rogue APNS sender registration]; Network Connection Creation via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,23 +34,33 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: UNUserNotificationCenter or legacy UIApplication.registerForRemoteNotifications with Apple Team ID NOT IN $APNSAllowList$ \u2014 rogue APNS sender registration"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "HTTPS sessions exhibiting periodic request cadence or structured payload exchanges inconsistent with application baseline"
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "NotificationWakeFrequencyThreshold",
-                    "description": "Baseline deviation tolerance for background wake events"
+                    "field": "AppBaselineDomains",
+                    "description": "Per-app CDN/update domains from 30-day baseline."
                 },
                 {
-                    "field": "HTTPSCadenceAnomalyThreshold",
-                    "description": "Acceptable deviation in recurring web traffic timing"
+                    "field": "APNSAllowList",
+                    "description": "Enterprise Apple Team IDs for deployed apps. Derive from Apple Developer account."
                 },
                 {
-                    "field": "SessionPersistenceThreshold",
-                    "description": "Threshold for abnormal TLS session duration"
+                    "field": "BeaconVarianceThreshold",
+                    "description": "Default 15% interval variance."
                 }
             ]
         }

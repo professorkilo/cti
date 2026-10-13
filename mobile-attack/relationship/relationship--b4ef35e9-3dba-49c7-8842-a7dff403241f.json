@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9a441ef-c783-4409-995d-f97e4731f211",
+    "id": "bundle--439252cf-cddd-4bf9-9be3-303e0409dd72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-02T21:48:05.155Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can access the device\u2019s camera.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

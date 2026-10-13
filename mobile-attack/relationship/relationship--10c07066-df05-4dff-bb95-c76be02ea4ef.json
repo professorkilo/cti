@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e63519d-cc7e-41ab-ad90-d1d453303c76",
+    "id": "bundle--828883d5-32cf-47d2-81e0-95635223d559",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.927Z",
+            "modified": "2026-09-02T18:49:25.779Z",
             "description": "[eSurv](https://attack.mitre.org/software/S0507) imposes geo-restrictions when delivering the second stage.(Citation: Lookout eSurv)",
             "relationship_type": "uses",
             "source_ref": "malware--680f680c-eef9-4f8a-b5f5-f451bf47e403",

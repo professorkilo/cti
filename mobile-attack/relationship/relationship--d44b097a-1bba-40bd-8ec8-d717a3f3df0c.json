@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0769bd2-5de5-479f-b643-2cd12f495ce8",
+    "id": "bundle--9b043189-99bd-42e0-83ca-3ab3d65bdcf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-02T18:50:11.394Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has hijacked normal application\u2019s launch routines to display ads.(Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

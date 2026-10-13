@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fdaf99b-6df0-4147-b075-0821a278ab58",
+    "id": "bundle--835375c2-0077-4cdb-9603-50e96c9a5e92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-02T22:20:20.334Z",
             "description": "[Stealth Mango](https://attack.mitre.org/software/S0328) deletes incoming SMS messages from specified numbers, including those that contain particular strings.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--085eb36d-697d-4d9a-bac3-96eb879fe73c",

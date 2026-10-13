@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3716709b-0ac3-467f-acdf-8858fec673df",
+    "id": "bundle--388bc43c-c2a4-4101-9834-8cca0de26aba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.107Z",
+            "modified": "2026-09-02T22:10:24.950Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) can communicate with the command and control server using JSON payloads sent in HTTP POST request bodies. It can also communicate by using JSON messages sent through Google Cloud Messaging.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

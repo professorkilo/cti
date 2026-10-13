@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f876a62-045e-4917-9ee0-40a5ccc09f0e",
+    "id": "bundle--0e37bfcd-169f-4f4e-9f25-8b42493be3e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.917Z",
+            "modified": "2026-09-02T20:56:11.340Z",
             "description": "Users can be trained to identify social engineering techniques and phishing emails.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

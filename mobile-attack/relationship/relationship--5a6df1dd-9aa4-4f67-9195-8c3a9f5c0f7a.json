@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f36fb81d-3b26-4c27-8ade-03168074882e",
+    "id": "bundle--a8dd2ab6-32d3-4021-9daa-9a00386b8ced",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.049Z",
+            "modified": "2026-09-02T18:46:09.892Z",
             "description": "[MazarBOT](https://attack.mitre.org/software/S0303) can send messages to premium-rate numbers.(Citation: Tripwire-MazarBOT)",
             "relationship_type": "uses",
             "source_ref": "malware--5ddf81ea-2c06-497b-8c30-5f1ab89a40f9",

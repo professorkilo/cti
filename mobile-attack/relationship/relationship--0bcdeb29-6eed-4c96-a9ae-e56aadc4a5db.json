@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02ac189c-5a11-4700-8194-145e963a9ab5",
+    "id": "bundle--9dfb4805-76a6-4cf5-854e-2623f7f0e99e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-02T21:48:04.574Z",
             "description": "[Stealth Mango](https://attack.mitre.org/software/S0328) can record and take pictures using the front and back cameras.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--085eb36d-697d-4d9a-bac3-96eb879fe73c",

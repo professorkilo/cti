@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8812b891-92af-4bcb-a2ac-60c577e7d4a0",
+    "id": "bundle--afbdaa36-077c-4cd0-a6d2-7018c0c3a8da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.577Z",
+            "modified": "2026-09-02T21:40:44.693Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included file enumeration in the malicious apps deployed as part of Operation BULL and Operation ROCK.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

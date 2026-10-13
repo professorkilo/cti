@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3628b7dd-d737-48dd-b39b-be04183bfa63",
+    "id": "bundle--afedef81-467c-42c4-89ef-f138907cffea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.936Z",
+            "modified": "2026-09-02T18:46:03.441Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect the device\u2019s contact list.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

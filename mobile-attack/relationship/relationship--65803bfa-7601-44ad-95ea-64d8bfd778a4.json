@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56989f02-e01d-4fa4-8939-69670a4a9a60",
+    "id": "bundle--0d5715cc-6b51-43d8-90ac-92e3d8baad29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.063Z",
+            "modified": "2026-09-02T21:48:27.590Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can capture device screenshots and stream them back to the C2.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",

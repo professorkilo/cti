@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb0dfb2f-1896-4ad5-b665-3889dd8d1b36",
+    "id": "bundle--271f1acf-91cf-4f96-816e-f45bd272826b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:42:50.241Z",
             "name": "Analytic 1806",
-            "description": "Correlates (1) application acquisition or use of elevated control paths capable of altering defensive tooling or protected system state, such as device administration, root-enabled modification, or security-setting manipulation, (2) direct changes to security-tool configuration, service state, package state, or protected enforcement settings such as SELinux-relevant files or security-app components, and (3) immediate degradation, suppression, or disappearance of expected security telemetry while the device and initiating application remain active. The defender observes a causal chain where a security control is modified first, then monitoring or protection weakens, and subsequent activity continues under reduced defensive visibility.",
+            "description": "For Android, detect Disable or Modify Tools from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes to or modifies protected configuration files or local control structures of deployed security tools]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes package manager operations (disable component, clear data, request uninstall) or settings modifications targeting security tool packages IN $SecurityToolPackageList$]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,49 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "device posture changes to rooted, non-compliant, weakened security state, or elevated control role becomes active before security-tool degradation"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "security-relevant application package state, enabled status, administrator state, or managed protection setting changes immediately before monitoring degradation"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes package, settings, or privileged framework operations capable of disabling security software, altering security enforcement, or interfering with reporting before telemetry loss"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application modifies protected configuration, local control files, security settings, or tool-related data immediately before security service degradation or non-reporting state"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes to or modifies protected configuration files or local control structures of deployed security tools"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes package manager operations (disable component, clear data, request uninstall) or settings modifications targeting security tool packages IN $SecurityToolPackageList$"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between security-setting change, tool degradation, and subsequent continued activity"
+                    "field": "SecurityToolPackageList",
+                    "description": "MDM agent, MTD (Zimperium, Lookout, MS Defender), AV packages deployed on managed fleet. Derive from MDM enrollment configuration. Update when new tools deployed."
                 },
                 {
-                    "field": "CriticalToolSet",
-                    "description": "Security-relevant applications or components expected to remain enabled and reporting, such as mobile EDR, Play Protect-associated controls, or agent services"
-                },
-                {
-                    "field": "TelemetryGapThreshold",
-                    "description": "Duration or volume threshold defining abnormal loss of expected security telemetry"
-                },
-                {
-                    "field": "ProtectedSettingSet",
-                    "description": "Protected settings or files treated as suspicious if modified, including SELinux-relevant enforcement state or security-app configuration"
-                },
-                {
-                    "field": "AllowedAdminApps",
-                    "description": "Legitimate applications or management agents allowed to modify security-relevant posture"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold used to confirm continued meaningful activity during reduced defensive visibility"
+                    "field": "ElevationAllowList",
+                    "description": "MDM agent only for legitimate Device Admin operations against security tools."
                 }
             ]
         }

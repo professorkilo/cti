@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e0f5495-3722-43fb-80f7-7401e3353b37",
+    "id": "bundle--44ceba99-48db-4811-a4f3-7393cd449352",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.061Z",
+            "modified": "2026-09-02T21:41:03.764Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can grant itself microphone permissions.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

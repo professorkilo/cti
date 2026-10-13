@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4165e8c0-2ed6-49e9-ad56-15c693700607",
+    "id": "bundle--9d4b8d58-33e9-4d7a-9f67-e1226e3c86c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:33.233Z",
+            "modified": "2026-09-02T20:56:11.478Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) used SMS-based phishing to target victims with malicious links.(Citation: Leonard TAG 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",

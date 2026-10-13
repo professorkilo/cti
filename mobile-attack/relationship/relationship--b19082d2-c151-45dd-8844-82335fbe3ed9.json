@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce9cac40-7bb6-4f38-b946-85219e08725c",
+    "id": "bundle--17e6d6bb-b46a-471f-9ae7-92cd22b5341e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-02T22:20:20.478Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can send text messages.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

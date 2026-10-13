@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43c78d46-a520-42aa-9d38-ef0c512c10bf",
+    "id": "bundle--2dac817a-7ddc-489c-a014-ebed297e0bf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-02T18:51:23.761Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can obtain a list of installed applications and can detect if an antivirus application is running, and close it if it is.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

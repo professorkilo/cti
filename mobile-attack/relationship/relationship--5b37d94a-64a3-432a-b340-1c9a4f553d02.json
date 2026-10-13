@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b895fa4-bf39-49e6-80b8-0d5fd3eee588",
+    "id": "bundle--04e53877-ebf5-43f0-9c33-4ee239e9fa31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-02T21:35:35.979Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) has obfuscated components using XOR, ZIP with a single-byte key or ZIP/Zlib compression wrapped with RC4 encryption.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

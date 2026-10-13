@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b342613-28a4-4032-bea5-43612cb1444c",
+    "id": "bundle--c3f31b0d-3f14-479f-be0d-9ef57323506b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-02T21:49:27.019Z",
             "description": "Android 11 introduced privacy enhancements to package visibility, filtering results that are returned from the package manager. iOS 12 removed the private API that could previously be used to list installed applications on non-app store applications.(Citation: Android Package Visibility)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",

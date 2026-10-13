@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01bb0edc-0675-45e8-828b-6ee7e30e50a4",
+    "id": "bundle--8fbc75ac-89d4-4672-91b2-9a65355ee489",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.600Z",
+            "modified": "2026-09-02T21:48:04.899Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included video recording in the malicious apps deployed as part of Operation BULL.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

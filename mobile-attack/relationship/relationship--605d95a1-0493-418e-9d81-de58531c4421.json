@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b07d0fce-487d-4cef-822f-99cbf50d41f1",
+    "id": "bundle--cba98291-f911-4a97-924b-d74ff8739cb3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.056Z",
+            "modified": "2026-09-02T22:10:24.874Z",
             "description": "[Concipit1248](https://attack.mitre.org/software/S0426) communicates with the C2 server using HTTP requests.(Citation: TrendMicro Coronavirus Updates)",
             "relationship_type": "uses",
             "source_ref": "malware--89c3dbf6-f281-41b7-be1d-a0e641014853",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c04f9b9b-64cd-4223-97cc-e11cce40f167",
+    "id": "bundle--6603f163-d42d-4c69-bf7d-e3f9d454e213",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T22:20:49.651Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can delete arbitrary files on the device, and can also uninstall itself and clean up staging files.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

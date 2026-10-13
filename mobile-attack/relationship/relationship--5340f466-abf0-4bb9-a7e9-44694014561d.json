@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34897713-a41e-4fae-aba6-7323e6da2783",
+    "id": "bundle--ad8183a6-1ae4-4b84-9274-57dd82de8ed5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.039Z",
+            "modified": "2026-09-02T21:36:21.409Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has accessed the device\u2019s call log.(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2023)(Citation: Threatfabric LightSpy 2024)(Citation: Shoshin_Kaspersky LightSpy 2020)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

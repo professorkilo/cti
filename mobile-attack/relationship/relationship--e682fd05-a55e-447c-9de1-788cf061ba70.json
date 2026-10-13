@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--366437e1-a912-45c6-b61a-7782e171d9d3",
+    "id": "bundle--86da118c-ca97-48ce-877c-84be58e15d6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.239Z",
+            "modified": "2026-09-02T22:20:20.593Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has sent and deleted SMS messages.(Citation: Threatfabric LightSpy 2023)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

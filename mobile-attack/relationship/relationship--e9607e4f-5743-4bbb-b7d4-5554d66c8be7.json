@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76d4ec3b-d11b-43dc-bff0-6e03760a6fa3",
+    "id": "bundle--f7e34d13-0cc0-40dc-8dbc-2b67e6a52f8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-02T22:15:43.813Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) injects input to set itself as the default SMS handler by clicking the appropriate places on the screen. It can also close or minimize targeted antivirus applications and the device security settings screen.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

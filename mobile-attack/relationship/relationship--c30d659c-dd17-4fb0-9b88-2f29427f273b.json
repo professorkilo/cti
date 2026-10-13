@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1139ae93-017a-4fee-bcc4-77be2042be54",
+    "id": "bundle--7c32c6c0-941b-4811-9cd6-767ee827981b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-02T22:14:31.464Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) abuses accessibility features in three ways: steal application credentials, evade detection and removal, and send SMS for lateral movement.(Citation: SahinSRLabs_FluBot_Dec2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

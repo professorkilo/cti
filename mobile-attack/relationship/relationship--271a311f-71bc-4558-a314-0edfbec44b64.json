@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76b2fcbd-1849-4fd4-884a-9d829855b914",
+    "id": "bundle--6a91f766-b9f4-4a54-8cbd-ff3510bfd88f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T20:50:12.749Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) collects device information, including the device model and OS version.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

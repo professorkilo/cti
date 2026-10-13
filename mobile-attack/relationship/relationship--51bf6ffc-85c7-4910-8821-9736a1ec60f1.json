@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--494ac72b-bc5d-4c4f-a301-6f664169247f",
+    "id": "bundle--5862ee0f-acc2-44f7-ad98-d01f8b85fd1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.037Z",
+            "modified": "2026-09-02T22:13:45.426Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can record keystrokes and analyze them for keywords.(Citation: FlexiSpy-Features)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

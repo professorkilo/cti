@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6c741a2-6c18-47a5-9abb-ba6ae204d453",
+    "id": "bundle--17a71c66-8e7e-4ce0-8c76-2ee3b24f72f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.054Z",
+            "modified": "2026-09-02T18:52:16.344Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) procedurally generates subdomains for command and control communication.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

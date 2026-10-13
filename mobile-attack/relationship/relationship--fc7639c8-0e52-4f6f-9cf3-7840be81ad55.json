@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fadb4d52-43cd-4e6d-a2d7-b83f2eaf2d64",
+    "id": "bundle--962535c2-cf8b-48ee-b042-ecd50965c23d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-02T20:50:13.338Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has collected the device UUID.(Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

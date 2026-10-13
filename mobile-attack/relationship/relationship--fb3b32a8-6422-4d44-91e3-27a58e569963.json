@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a7056e4-c400-4ab5-8cb3-877b7fb8ed5a",
+    "id": "bundle--822a0c0e-4c7d-4654-b2f3-0fdd957f4bf8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.266Z",
+            "modified": "2026-09-02T21:48:27.910Z",
             "description": " [Exodus](https://attack.mitre.org/software/S0405) Two can take screenshots of any application in the foreground.(Citation: SWB Exodus March 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--3049b2f2-e323-4cdb-91cb-13b37b904cbb",

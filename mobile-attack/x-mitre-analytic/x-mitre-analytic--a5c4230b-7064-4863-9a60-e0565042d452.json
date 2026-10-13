@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c583b88-a4f5-4daa-b482-2275177a89b4",
+    "id": "bundle--a0e3da75-19ff-40a8-b740-9a14a2e4170d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:40:45.071Z",
             "name": "Analytic 1652",
-            "description": "Correlates (1) acquisition or presence of elevated control paths capable of forcing a lock state or blocking user interaction, (2) invocation of screen-locking or UI-denial behavior such as DevicePolicyManager lock operations, persistent overlays, accessibility-driven navigation interruption, or foreground lock-screen impersonation, and (3) immediate transition of the device into an unavailable or repeatedly re-locked state while the responsible application remains installed and active. The defender observes a causal chain where an application first gains the ability to control lock-related behavior, then forces or simulates lockout, and the device becomes unusable to the legitimate user.",
+            "description": "For Android, detect Device Lockout from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes DevicePolicyManager.lockNow(), creates persistent fullscreen overlay (TYPE_APPLICATION_OVERLAY covering full screen), or uses accessibility to block UI interaction \u2014 lock or UI-denial API invocation]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,44 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application enabled as device administrator, device owner, or profile owner before screen-lock or password-control activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application granted accessibility service privileges capable of intercepting UI flow or sustaining user-interaction denial before lockout event"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes lock-related or UI-denial framework operations, including DevicePolicyManager lock actions, persistent overlay behavior, or accessibility-driven navigation interference immediately before device enters locked or unusable state"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes DevicePolicyManager.lockNow(), creates persistent fullscreen overlay (TYPE_APPLICATION_OVERLAY covering full screen), or uses accessibility to block UI interaction \u2014 lock or UI-denial API invocation"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between privileged control acquisition, lockout action, and resulting device lock state"
+                    "field": "MDMAdminAllowList",
+                    "description": "MDM agent packages only. Any other app with Device Admin or accessibility-based lock capability is anomalous."
                 },
                 {
-                    "field": "ProtectedRoleSet",
-                    "description": "Set of elevated roles that materially increase lockout capability, such as device admin, device owner, profile owner, or accessibility service"
-                },
-                {
-                    "field": "LockActionSet",
-                    "description": "Framework actions treated as lockout-relevant, including lockNow, password-control changes, overlay persistence, and UI-denial actions"
-                },
-                {
-                    "field": "AllowedAdminApps",
-                    "description": "Baseline of legitimate enterprise or security apps expected to invoke lock-related controls"
-                },
-                {
-                    "field": "RelockThreshold",
-                    "description": "Number of repeated lock or lock-like transitions in a short interval required before escalation"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold confirming continued meaningful activity after lockout"
+                    "field": "LockDurationThreshold",
+                    "description": "Default 60s. Legitimate app-initiated locks (screen timeout) are brief; sustained programmatic lock without user interaction = lockout evasion."
                 }
             ]
         }

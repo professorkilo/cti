@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2739021c-0d0f-434c-bd9f-0e294cf1a6da",
+    "id": "bundle--cfb353d7-15e8-4b24-b36f-a766d925f6b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-02T21:35:36.196Z",
             "description": "[XLoader for Android](https://attack.mitre.org/software/S0318) loads an encrypted DEX code payload.(Citation: TrendMicro-XLoader)",
             "relationship_type": "uses",
             "source_ref": "malware--2740eaf6-2db2-4a40-a63f-f5b166c7059c",

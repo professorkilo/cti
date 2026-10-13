@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77e8f7f9-5e0c-4127-a9e7-3b8c5a00d630",
+    "id": "bundle--5b0fdec2-9904-447f-97c0-b0376d428fed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-02T20:50:12.866Z",
             "description": "[Sunbird](https://attack.mitre.org/software/S1082) can exfiltrate the victim device ID, model, manufacturer, and Android version.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--feae299d-e34f-4fc9-8545-486d0905bd41",

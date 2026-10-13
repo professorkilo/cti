@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba99c7bb-115a-4bb4-967e-5030b1d3d911",
+    "id": "bundle--cf3a924d-64e6-440d-be2b-860df976ad12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.072Z",
+            "modified": "2026-09-02T21:49:26.835Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can collect a list of installed applications to compare to a list of targeted applications.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

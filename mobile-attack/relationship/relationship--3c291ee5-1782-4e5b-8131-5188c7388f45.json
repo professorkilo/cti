@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43822c4c-a320-4ce2-8963-b54281946fa4",
+    "id": "bundle--51ebf342-ce14-4b44-b9e3-97f2e072fb51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.004Z",
+            "modified": "2026-09-02T18:51:51.930Z",
             "description": "[RuMMS](https://attack.mitre.org/software/S0313) gathers the device phone number and IMEI and transmits them to a command and control server.(Citation: FireEye-RuMMS)",
             "relationship_type": "uses",
             "source_ref": "malware--936be60d-90eb-4c36-9247-4b31128432c4",

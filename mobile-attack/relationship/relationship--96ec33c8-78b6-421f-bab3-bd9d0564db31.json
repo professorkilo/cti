@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5f88e9d-5504-4c04-b93a-9706f45df6f7",
+    "id": "bundle--5a93f6b7-f3d4-421e-9038-0ee25b81049e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:14.712Z",
+            "modified": "2026-09-02T21:40:44.838Z",
             "description": "During [Operation Dust Storm](https://attack.mitre.org/campaigns/C0016), the threat actors used Android backdoors capable of enumerating specific files on the infected devices.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "campaign--4603cf2f-06d0-4970-9c5d-5071b08c817f",

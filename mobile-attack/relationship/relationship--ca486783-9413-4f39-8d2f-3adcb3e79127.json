@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94d259a4-e83c-4b2a-b515-d782cf3871b2",
+    "id": "bundle--8205ea75-dc86-4aee-8449-818d476ca091",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.202Z",
+            "modified": "2026-09-02T21:35:36.288Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has used an AES encrypted file in the assets folder with an unsuspecting name (e.g. \u2018GoogleMusic.png\u2019) for holding configuration and C2 information.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",

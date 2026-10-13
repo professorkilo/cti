@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--427908cb-0eaf-4fae-9e2f-fb594917f4b8",
+    "id": "bundle--f5c9927f-1e2d-47dd-ac95-4ff9c3b45a34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-02T21:33:42.707Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has used Firebase and Google Cloud Storage to send and receive C2 communications and to send collected data.(Citation: ESET_VajraSpy_Feb2024)(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

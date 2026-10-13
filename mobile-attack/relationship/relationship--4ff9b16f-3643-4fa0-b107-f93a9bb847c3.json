@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e2a4ee6-439c-4504-aad6-85a50334ae26",
+    "id": "bundle--b8600e01-c9a7-4f08-b1be-cd909c760e3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.034Z",
+            "modified": "2026-09-02T22:13:12.818Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can use overlays to cover legitimate applications or screens.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

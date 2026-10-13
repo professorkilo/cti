@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac41cca8-6858-4bb5-8484-d074acafa75b",
+    "id": "bundle--a5d10264-7e43-456d-8d33-8f5924d684f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.005Z",
+            "modified": "2026-09-02T22:17:29.921Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can register for the `BOOT_COMPLETED` broadcast Intent.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ab4f1e2-2aee-4481-afa8-68e9c89b92a7",
+    "id": "bundle--9ac80646-f02a-4958-8afb-17f46e411056",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.202Z",
+            "modified": "2026-09-02T22:13:45.546Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can capture keystrokes.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78e09c63-b628-47b6-ad5e-ecffac50c7c5",
+    "id": "bundle--a03cd9b3-f1c0-4950-b814-778fc3fcff10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-02T22:15:43.687Z",
             "description": " [Ginp](https://attack.mitre.org/software/S0423) can inject input to make itself the default SMS handler.(Citation: ThreatFabric Ginp) ",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",

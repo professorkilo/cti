@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90552ac4-3e48-4bec-9d5d-b2dc41787122",
+    "id": "bundle--106acc5c-607f-498c-bf57-92b30a0f512e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.987Z",
+            "modified": "2026-09-02T21:41:03.614Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) can record call audio.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

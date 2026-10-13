@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--850db380-3ef8-4efb-957e-e5118ed7b376",
+    "id": "bundle--a42e7c4c-24e8-4d4c-9cf1-1e7abc8d65a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.134Z",
+            "modified": "2026-09-02T22:18:03.617Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) hides its icon after first launch.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

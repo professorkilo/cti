@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a1ad978-f435-409e-af46-a099bcab88d7",
+    "id": "bundle--2816796b-d608-4154-8822-44a35585b1d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.086Z",
+            "modified": "2026-09-02T18:52:00.426Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) can collect various pieces of device network configuration information, such as mobile network operator.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

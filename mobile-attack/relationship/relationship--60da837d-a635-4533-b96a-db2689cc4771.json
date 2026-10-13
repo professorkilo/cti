@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1444b9de-80a4-4370-9ca4-1257df0e216b",
+    "id": "bundle--9fa5db23-9160-444a-a6e0-ccf855a95348",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.057Z",
+            "modified": "2026-09-02T22:20:20.357Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can send SMS messages.(Citation: welivesecurity_apt-c-23)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b855546-9233-4adc-8118-145c3725d5ec",
+    "id": "bundle--2e033771-0560-4e6c-bac2-bbedd66f1f9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.914Z",
+            "modified": "2026-09-02T20:56:11.308Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has concealed itself behind variants of a phone number spoofing application, which was distributed through links on social media and communication platforms.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

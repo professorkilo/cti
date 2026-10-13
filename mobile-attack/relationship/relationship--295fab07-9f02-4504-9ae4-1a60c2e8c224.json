@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ad4e7c7-5d9d-4b2a-919f-9e1acbbd823f",
+    "id": "bundle--2ad7fe67-8d47-49cd-a0a8-d08b9f092727",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.961Z",
+            "modified": "2026-09-02T18:52:35.806Z",
             "description": " [Gustuff](https://attack.mitre.org/software/S0406) can capture files and photos from the compromised device.(Citation: Talos Gustuff Apr 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

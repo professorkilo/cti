@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a75dd7a-360b-4e12-9543-0c2ae2d94c73",
+    "id": "bundle--9f36c0dd-8b85-4d96-995a-180c61096d37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-02T18:49:42.230Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can detect if it is running in an emulator and adjust its behavior accordingly.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

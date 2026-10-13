@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f9f1db8-fe33-4221-8189-affcb34c86f9",
+    "id": "bundle--7e28fff5-0e53-4b7c-91af-1bb51e6ade28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-02T18:48:07.353Z",
             "description": "[Twitoor](https://attack.mitre.org/software/S0302) can be controlled via Twitter.(Citation: ESET-Twitoor)",
             "relationship_type": "uses",
             "source_ref": "malware--41e3fd01-7b83-471f-835d-d2b1dc9a770c",

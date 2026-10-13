@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d25634eb-bcf3-4355-8a2e-518d7bbbfb85",
+    "id": "bundle--1f457512-cebb-4022-aa8d-02aa5d5d4bb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.907Z",
+            "modified": "2026-09-02T21:35:57.740Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can collect SMS messages.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

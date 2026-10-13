@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70188076-793b-477e-b5fd-d235f040240d",
+    "id": "bundle--3848fe7e-58fa-4ed5-ae8e-6829e3ca2ef1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-02T22:10:24.809Z",
             "description": "[RuMMS](https://attack.mitre.org/software/S0313) uses HTTP for command and control.(Citation: FireEye-RuMMS)",
             "relationship_type": "uses",
             "source_ref": "malware--936be60d-90eb-4c36-9247-4b31128432c4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7f72907-4579-42e9-9bab-8a0fd289f97b",
+    "id": "bundle--980e485f-106a-4a3d-b671-82c4ed90de24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.964Z",
+            "modified": "2026-09-02T21:35:57.920Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) can read SMS messages.(Citation: fb_arid_viper) ",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",

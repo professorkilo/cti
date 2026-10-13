@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9628462-68a8-4526-9fe7-de9b3b8fd71d",
+    "id": "bundle--dce1aee2-b038-4758-82f8-2d3f6228e6cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-02T21:32:27.812Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) has masqueraded as legitimate messaging applications.(Citation: welivesecurity_apt-c-23)(Citation: checkpoint_hamas_android_malware)(Citation: sophos_android_apt_spyware)(Citation: SentinelLabs AridViper 2023)(Citation: Cyware APT-C-23 2020)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

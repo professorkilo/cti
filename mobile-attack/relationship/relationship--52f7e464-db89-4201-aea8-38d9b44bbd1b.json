@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6d6ddd8-76da-4a6f-8b3e-8cf5da75d99b",
+    "id": "bundle--5eff93ea-d99f-41f5-93c9-8e9a3c971a26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-02T22:14:09.378Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) has utilized foreground services.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",

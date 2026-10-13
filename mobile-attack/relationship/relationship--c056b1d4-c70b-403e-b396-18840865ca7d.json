@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90a7bd97-28ab-45a3-9425-f665323482c7",
+    "id": "bundle--918733bb-b107-4d93-944b-b28a357a03ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.188Z",
+            "modified": "2026-09-02T18:51:23.838Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can obtain the device\u2019s IMEI, phone number, and IP address.(Citation: Threat Fabric Exobot) ",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

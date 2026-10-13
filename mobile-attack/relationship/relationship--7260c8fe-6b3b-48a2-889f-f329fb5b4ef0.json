@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f727cfaa-962c-47bf-9c15-21146b103a14",
+    "id": "bundle--0740eab9-aad1-45ee-9e58-1c17cc700615",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.081Z",
+            "modified": "2026-09-02T21:40:44.761Z",
             "description": "Security architecture improvements in each new version of Android and iOS make it more difficult to escalate privileges. Additionally, newer versions of Android have strengthened the sandboxing applied to applications, restricting their ability to enumerate file system contents.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",

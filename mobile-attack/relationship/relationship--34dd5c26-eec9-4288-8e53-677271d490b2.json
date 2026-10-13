@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0a10d76-abeb-41d3-9f24-2d731d49ed7e",
+    "id": "bundle--057e347d-3109-4557-85e5-a0e63852e3fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.990Z",
+            "modified": "2026-09-02T22:13:45.363Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can use accessibility event logging to steal data in text fields.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

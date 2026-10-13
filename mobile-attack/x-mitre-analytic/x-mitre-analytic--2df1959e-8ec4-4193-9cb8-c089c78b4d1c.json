@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac684518-200b-4897-a9af-73c6f901748d",
+    "id": "bundle--92b78885-2342-4eee-b266-cbfd6e2ae9bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:42:33.709Z",
             "name": "Analytic 1711",
-            "description": "The defender correlates foreground service start or promotion activity with persistent-notification presentation, long-lived application execution, and continued access to while-in-use sensors or network activity outside expected user-driven context. The analytic looks for an application invoking foreground service APIs, sustaining a foreground state longer than expected for its declared role, and retaining camera, microphone, location, or other sensor access while the device is locked, the app lacks recent interaction, or the notification identity/function does not match the application\u2019s behavior.",
+            "description": "For Android, detect Foreground Persistence by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes startForegroundService() or startForeground() NOT IN $ApprovedForegroundServiceApps$]; System Settings via Android Enterprise DPC [DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,49 +34,33 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application calls startForegroundService() or startForeground() / ServiceCompat.startForeground() and transitions to persistent foreground-service execution at the start of the chain"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Persistent foreground-service notification is created, updated, or remains visible while app behavior or notification identity is inconsistent with declared function during the persistence interval"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes startForegroundService() or startForeground() NOT IN $ApprovedForegroundServiceApps$"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Foreground service continues accessing camera, microphone, location, or other while-in-use sensors after service promotion and outside recent user interaction"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps legitimately expected to run foreground services such as navigation, fitness, calling, media playback, enterprise VPN, accessibility, or device-management apps"
-                },
-                {
-                    "field": "AllowedServiceTypes",
-                    "description": "Approved foreground service types and role-to-type mappings, especially for Android 14+ and later"
+                    "field": "ApprovedForegroundServiceApps",
+                    "description": "Media players, navigation apps, VoIP apps, approved fitness trackers \u2014 apps with legitimate foreground service need. Derive from MDM catalog. Tightening: strict list."
                 },
                 {
                     "field": "ForegroundDurationThreshold",
-                    "description": "Duration a foreground service may legitimately remain active before suspicion increases"
+                    "description": "Default 3600s (1 hour) sustained foreground service. Legitimate foreground services (music playback, navigation) have user-aligned durations. Extended overnight foreground service is persistence abuse."
                 },
                 {
-                    "field": "SensorAfterPromotionWindow",
-                    "description": "Maximum expected delay between service promotion and sensor activation for legitimate workflows"
-                },
-                {
-                    "field": "NotificationMismatchPatterns",
-                    "description": "Patterns indicating misleading or impersonating foreground notifications, such as benign-looking text or mismatched app function"
-                },
-                {
-                    "field": "RecentInteractionThreshold",
-                    "description": "How recently the user must have interacted with the app for sensor or network activity to be considered expected"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum sustained outbound volume or beacon frequency during persistent foreground execution"
+                    "field": "InteractionThreshold",
+                    "description": "Default 300s. Foreground service accessing sensors >5min after last user touch is covert."
                 }
             ]
         }

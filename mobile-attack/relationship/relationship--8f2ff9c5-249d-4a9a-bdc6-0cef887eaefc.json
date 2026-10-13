@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eec33bc6-0608-490f-83ff-1aa1cc1fb519",
+    "id": "bundle--13a8bb6b-586d-4d0f-8477-19b5f32d121e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-02T21:35:36.108Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) obfuscates its hardcoded C2 URLs.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

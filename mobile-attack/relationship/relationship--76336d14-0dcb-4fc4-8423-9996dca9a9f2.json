@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e40d34f-9182-4ce1-9dcd-b167bf449bb6",
+    "id": "bundle--fb94360b-2f9b-4778-baed-efcb1077f1c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-02T21:35:36.048Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) has used obfuscation techniques to hide its hardcoded C2 address.(Citation: welivesecurity_apt-c-23)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

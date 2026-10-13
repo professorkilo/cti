@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9ca95ab-5c1d-4afc-b3ea-d9bd0f4ae600",
+    "id": "bundle--6d248946-a771-4098-937c-add675fc2059",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.124Z",
+            "modified": "2026-09-02T20:56:11.445Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) has been distributed via malicious links in SMS messages.(Citation: Europol FluBot Jun2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

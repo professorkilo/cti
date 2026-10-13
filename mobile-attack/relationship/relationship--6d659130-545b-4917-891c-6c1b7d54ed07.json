@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f766610-a98b-43a5-9cc9-c149283804e1",
+    "id": "bundle--8986e7b0-9c8f-4c78-a25a-d07733fd66a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-02T22:20:20.381Z",
             "description": "[Tiktok Pro](https://attack.mitre.org/software/S0558) can send SMS messages.(Citation: Zscaler TikTok Spyware)",
             "relationship_type": "uses",
             "source_ref": "malware--c6abcaf8-1765-41f8-9fe5-03d42fd0f6c0",

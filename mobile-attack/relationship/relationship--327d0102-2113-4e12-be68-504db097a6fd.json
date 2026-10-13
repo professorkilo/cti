@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea46cbe1-0c7d-4fbf-b43e-c1b310a45f65",
+    "id": "bundle--79a7925b-7891-46c8-a102-bb2184c4b4b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.985Z",
+            "modified": "2026-09-02T22:10:24.675Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) communicates with the command and control server using HTTP requests.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

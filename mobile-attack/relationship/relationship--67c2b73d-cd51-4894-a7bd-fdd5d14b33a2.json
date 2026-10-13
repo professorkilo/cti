@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb03f6e5-7032-4050-9af3-52c152ce9e3e",
+    "id": "bundle--d6ac2978-1bdf-4ca4-9347-ec19637846c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.066Z",
+            "modified": "2026-09-02T18:52:35.834Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) code is both obfuscated and packed with an FTT packer.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

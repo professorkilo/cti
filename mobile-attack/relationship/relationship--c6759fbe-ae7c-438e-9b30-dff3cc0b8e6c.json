@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff4861b8-e738-4e1b-902f-6e241c4d60f8",
+    "id": "bundle--3e8c0eb7-3807-4e30-a466-b35d84c05720",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-02T22:19:52.609Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214) can execute an automated phone call.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",

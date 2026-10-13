@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eac71838-e0c1-40da-ae1a-60b0d9bff9b7",
+    "id": "bundle--8d622963-4184-497e-9641-704a070a6025",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-02T21:49:26.635Z",
             "description": "[Pallas](https://attack.mitre.org/software/S0399) retrieves a list of all applications installed on the device.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c41a8b7c-3e42-4eee-b87d-ad8a100ee878",

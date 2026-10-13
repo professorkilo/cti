@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d1d2bb5-426b-4f28-abfe-f7d031cc2dd1",
+    "id": "bundle--4102b705-b73b-4115-ad70-b6925c6ca2be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-02T20:50:12.922Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) has gathered device metadata, including model, manufacturer, SD card size, disk usage, memory, CPU, and serial number.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f9b7c9b-85ba-4a7c-b3e4-0594d64731e1",
+    "id": "bundle--2ecb6301-918a-46c2-bffc-39a323981f4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:39.942Z",
+            "modified": "2026-09-02T21:32:27.678Z",
             "description": "[APT-C-23](https://attack.mitre.org/groups/G1028) has masqueraded malware as legitimate applications.(Citation: welivesecurity_apt-c-23)(Citation: checkpoint_hamas_android_malware)(Citation: sophos_android_apt_spyware)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8332952e-b86b-486b-acc3-1c2a85d39394",

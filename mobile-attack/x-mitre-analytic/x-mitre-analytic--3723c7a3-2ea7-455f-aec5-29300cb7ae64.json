@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0c5831c-ff65-4997-8138-7e972064e92c",
+    "id": "bundle--55b558c0-aea3-443b-82a2-f2c34f0744e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:41:32.626Z",
             "name": "Analytic 1669",
-            "description": "A defender correlates navigation to external web content in a browser or embedded WebView with immediate script-heavy or exploit-preparation network activity, followed by abnormal browser/WebView process behavior, suspicious file or download artifacts, or rapid post-visit capability shifts such as new package install attempts, overlay prompts, permission requests, or outbound command traffic inconsistent with normal browsing.",
+            "description": "For Android, detect Drive-By Compromise by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT for APK or binary file in /sdcard/ or /data/local/tmp/ by browser process within $DriveByWindow$ \u2014 payload drop confirms exploit code execution]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]; Process Creation via Application Vetting / Managed Device Telemetry [execve()]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,59 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "New permission prompt, package install attempt, accessibility/overlay special access request, or other post-browse capability escalation following browser/WebView activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Browser/WebView framework usage indicating external URL load, script execution enablement, file download initiation, intent handoff, or package install prompt sequence"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT for APK or binary file in /sdcard/ or /data/local/tmp/ by browser process within $DriveByWindow$ \u2014 payload drop confirms exploit code execution"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "Application-layer web traffic showing suspicious redirect chains, iframe/ad-tech cascades, user-agent or environment fingerprinting requests, or staged payload retrieval after page visit"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Browser/WebView process creates downloaded payloads, temporary files, dropped archives, or unusual cached web artifacts shortly after visiting external content"
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Browser or WebView-hosting application brought to foreground and navigates to external content, followed by abnormal state transition, crash, restart, or process spawn behavior"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "execve()"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "NavigationToExploitWindow",
-                    "description": "Time window used to correlate web navigation with redirects, fingerprinting, downloads, or post-visit capability changes."
+                    "field": "URLReputationThreshold",
+                    "description": "Default score 50/100. Derive from threat intel feed vendor scoring."
                 },
                 {
-                    "field": "AllowedBrowserApps",
-                    "description": "Allow-list of expected browsers or sanctioned WebView-hosting apps used in the enterprise."
+                    "field": "DomainAgeDays",
+                    "description": "Default 30 days. Newly registered domain + browser exploit = high-confidence."
                 },
                 {
-                    "field": "RedirectChainThreshold",
-                    "description": "Threshold for suspicious number of redirects or cross-domain hops during a single browsing session."
+                    "field": "KnownBrowserChildren",
+                    "description": "Renderer, GPU process, browser service workers. Derive from browser process baseline."
                 },
                 {
-                    "field": "NewDomainBurstThreshold",
-                    "description": "Threshold for the number of newly observed domains contacted in a short browsing window."
-                },
-                {
-                    "field": "DownloadArtifactThreshold",
-                    "description": "Threshold for suspicious downloaded or cached artifacts created after navigation."
-                },
-                {
-                    "field": "PostVisitCapabilityShiftRequired",
-                    "description": "Determines whether to require a new install/prompt/permission/overlay event after browsing to raise confidence."
-                },
-                {
-                    "field": "AllowedAdTechDomains",
-                    "description": "Baseline of normal advertising/CDN/tracking domains to reduce false positives from legitimate browsing."
+                    "field": "DriveByWindow",
+                    "description": "Default 30s between URL navigation and process spawn."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d27605a-6768-4906-ab1a-19990f687f77",
+    "id": "bundle--4a86f52a-a2a3-4ffb-873c-082521fc7731",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-02T21:36:21.587Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can access the device\u2019s call log.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

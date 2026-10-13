@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3936adea-edd1-4d56-b8ea-86470eee96b5",
+    "id": "bundle--2ba8be76-6c86-4178-bfe9-aca7b9199667",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-02T21:32:27.716Z",
             "description": "[FrozenCell](https://attack.mitre.org/software/S0577) has masqueraded as fake updates to chat applications such as Facebook, WhatsApp, Messenger, LINE, and LoveChat, as well as apps targeting Middle Eastern demographics.(Citation: Lookout FrozenCell) ",
             "relationship_type": "uses",
             "source_ref": "malware--96ea1e13-d50f-45f1-b0cf-4ac9bc5a2d62",

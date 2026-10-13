@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb657bc6-65d5-4b39-a620-4cbb8ddd902d",
+    "id": "bundle--dbbf1193-ab5c-4d55-84f9-b62385821a4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.104Z",
+            "modified": "2026-09-02T21:35:58.290Z",
             "description": "[Corona Updates](https://attack.mitre.org/software/S0425) can collect SMS messages.(Citation: TrendMicro Coronavirus Updates)",
             "relationship_type": "uses",
             "source_ref": "malware--366c800f-97a8-48d5-b0a6-79d00198252a",

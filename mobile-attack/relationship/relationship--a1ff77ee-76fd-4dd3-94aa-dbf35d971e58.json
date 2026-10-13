@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--868d041b-90d7-4ae0-bafb-f41ad540d7a6",
+    "id": "bundle--f1bdc52f-286b-4bda-aedf-4d0f4198d39d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-02T22:10:25.039Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can use both HTTP and WebSockets to communicate with the C2 server.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

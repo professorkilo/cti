@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9fd2cd8-e9e8-43fc-9956-5092b376b1a7",
+    "id": "bundle--0b96011d-d0a6-41f8-bce8-cbc718a92f40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-09-02T22:13:12.793Z",
             "description": "[Red Alert 2.0](https://attack.mitre.org/software/S0539) has used malicious overlays to collect banking credentials.(Citation: Sophos Red Alert 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--6e282bbf-5f32-476a-b879-ba77eec463c8",

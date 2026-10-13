@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b720090d-ba90-4c96-abcc-f61ce32fa49a",
+    "id": "bundle--af60eacc-7546-4617-9bfc-3af2b14c9329",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-02T18:49:25.984Z",
             "description": "[eSurv](https://attack.mitre.org/software/S0507) can exfiltrate device pictures.(Citation: Lookout eSurv)",
             "relationship_type": "uses",
             "source_ref": "malware--680f680c-eef9-4f8a-b5f5-f451bf47e403",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--765aeddb-229b-441d-a174-a2d7c15955c6",
+    "id": "bundle--bc734c4d-9739-4269-9c8b-d2f8c4242256",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.180Z",
+            "modified": "2026-09-02T21:49:27.032Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can obtain a list of installed applications.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

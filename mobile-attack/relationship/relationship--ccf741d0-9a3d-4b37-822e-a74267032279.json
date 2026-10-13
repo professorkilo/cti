@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1dcd93c2-c666-48e9-85ce-9ae7016e414e",
+    "id": "bundle--5abed040-23fa-4311-95b4-701d335b2216",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.205Z",
+            "modified": "2026-09-02T20:56:11.520Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has generated fake notifications to lure the victim to phishing pages.(Citation: MerkleScience_Godfather_April2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

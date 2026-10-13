@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c239f1a5-2dd9-4de4-ae8e-1ba499396c64",
+    "id": "bundle--d8e5ad25-d889-4c3e-9143-87bb91a4edac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.248Z",
+            "modified": "2026-09-02T22:18:03.733Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has hidden the app icon from iOS springboard.(Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

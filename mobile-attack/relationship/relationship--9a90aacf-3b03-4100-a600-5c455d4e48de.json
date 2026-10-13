@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2905cb13-3598-4383-b4a5-63ad6dae85a4",
+    "id": "bundle--9330660f-82a8-47e6-9b46-d6d805461147",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:22.176Z",
+            "modified": "2026-09-02T21:41:03.948Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors used a microphone-recording module.(Citation: SecureList OpTriangulation 23Oct2023) ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",

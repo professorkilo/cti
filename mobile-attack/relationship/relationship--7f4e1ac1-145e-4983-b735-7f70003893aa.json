@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--251ec121-fe3d-4e7e-a008-e038babeb6d6",
+    "id": "bundle--dca30007-b893-4736-96f6-dab205b2bbb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-02T21:36:21.485Z",
             "description": "[Sunbird](https://attack.mitre.org/software/S1082) can exfiltrate call logs.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--feae299d-e34f-4fc9-8545-486d0905bd41",

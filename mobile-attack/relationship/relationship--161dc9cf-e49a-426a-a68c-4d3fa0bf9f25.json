@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff7003df-3386-4818-8312-855abd8fb169",
+    "id": "bundle--296a93ba-b29f-477f-9bcf-f523b93f589c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.934Z",
+            "modified": "2026-09-02T21:36:21.199Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has collected and exfiltrated the call log.(Citation: ESET_VajraSpy_Feb2024)(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70a4d4de-19a7-4e63-ad61-21203e6e4add",
+    "id": "bundle--ae41243a-a079-4937-a81e-a289fc9b4b51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-02T21:36:21.397Z",
             "description": "[Stealth Mango](https://attack.mitre.org/software/S0328) uploads call logs.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--085eb36d-697d-4d9a-bac3-96eb879fe73c",

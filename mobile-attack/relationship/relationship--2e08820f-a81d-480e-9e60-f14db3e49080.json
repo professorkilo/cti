@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45c8dfd0-de72-4acb-8601-bea5a2a3e02c",
+    "id": "bundle--05820b1c-7a07-4a38-807d-dada1a88fd92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-02T21:48:04.808Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can take photos and videos.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

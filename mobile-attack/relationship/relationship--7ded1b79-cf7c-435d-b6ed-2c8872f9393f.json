@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a74f4e4-f0ed-4d58-8dd8-3d899350799f",
+    "id": "bundle--68677cd4-1ec9-403d-b213-e02cf69772c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
+            "modified": "2026-09-02T21:48:05.043Z",
             "description": "[GoldenEagle](https://attack.mitre.org/software/S0551) has taken photos with the device camera.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--0b9c5d11-651a-4378-b129-5c584d0242c5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33ddad72-db42-4315-937b-5183328c5bff",
+    "id": "bundle--cc4b07f6-d68e-410b-9717-b4cd3a5c5e8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-02T18:46:03.548Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect network configuration data from the device, including phone number, SIM operator, and network operator.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

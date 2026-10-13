@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e57707f5-dd0a-4214-9b39-3c8e1940c496",
+    "id": "bundle--dd6d74d5-9fe4-4e23-a9c7-cf953eb714a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,9 +24,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:41:28.140Z",
             "name": "Analytic 1753",
-            "description": "Defender observes anomalous signaling network queries targeting subscriber information associated with a device, including unexpected routing requests, location information exchanges, or node-origin inconsistencies indicative of SS7 signaling abuse. (Citation: CSRIC5-WG10-FinalReport) The CSRIC also suggests threat information sharing between telecommunications industry members.",
+            "description": "For Android, detect Impersonate SS7 Nodes by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Network Communication via Android Enterprise Network Logging / Enterprise VPN [DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]; Network Traffic Flow via Android Enterprise Network Logging / Enterprise VPN [DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -39,28 +39,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--764ee29e-48d6-4934-8e6b-7a606aaaafc0",
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "TelecomLogs:SS7Signaling",
-                    "channel": "Subscriber information queries, routing requests, or location update messages with anomalous node identifiers or unexpected origin patterns"
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
-                    "name": "TelecomLogs:MobilityEvents",
-                    "channel": "Unexpected location resolution events or abnormal subscriber tracking requests"
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "NodeIdentityDeviationThreshold",
-                    "description": "Defines acceptable variance for signaling node identifiers"
+                    "field": "LegitimateRoamingPartners",
+                    "description": "Carrier-maintained verified roaming partner GT/PC list."
                 },
                 {
-                    "field": "SubscriberQueryFrequencyThreshold",
-                    "description": "Baseline-dependent threshold for excessive subscriber queries"
+                    "field": "MonitoredMSISDNList",
+                    "description": "Enterprise employee MSISDN list for targeted monitoring. Derive from HR."
                 },
                 {
-                    "field": "GeographicRoutingDeviation",
-                    "description": "Expected signaling path vs observed routing anomalies"
+                    "field": "SS7QueryThreshold",
+                    "description": "Default 3 queries for same MSISDN within window."
+                },
+                {
+                    "field": "SS7QueryWindow",
+                    "description": "Default 3600s."
                 }
             ]
         }

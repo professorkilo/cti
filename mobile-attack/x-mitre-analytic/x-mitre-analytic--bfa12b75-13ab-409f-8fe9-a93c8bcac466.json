@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--247db6e5-36b9-4c0b-b97a-a22ef0dff8cb",
+    "id": "bundle--76229192-e623-459c-8874-92cf06593fa5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:42:41.644Z",
             "name": "Analytic 1767",
-            "description": "The defender correlates recent access to locally collected or protected data with subsequent compression, packaging, or encryption behavior inside the same app context, followed by creation of archive-like or high-entropy output and optional near-term network transmission. The analytic prioritizes Android runtime and storage effects: application data access or sensor-derived collection, compression/encryption framework use, archive/blob creation in app-accessible storage, and background or device-locked execution inconsistent with the app\u2019s declared function.",
+            "description": "For Android, detect Archive Collected Data from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads files across multiple directories or databases in background state (collection phase) then invokes archive or compression routines on collected content \u2014 read-then-archive sequence is the staging chain]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes archive-like container, high-entropy packaged blob, or .zip/.gz output to app-private or cache path after bulk data collection \u2014 archive artifact in private storage is the staging evidence]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,29 +34,29 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application reads multiple user-data files, media objects, message stores, or app-private records in burst sequence immediately before packaging or encryption activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application writes archive-like container or high-entropy packaged blob to app storage, cache, temp path, or shared external path after burst collection activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application invokes archive, compression, or bulk-buffer packaging routines on previously accessed local data within the same execution chain"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application encrypts newly created archive or staged data blob after collection and before storage or outbound transfer"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Managed application with no declared backup, sync, export, or media-editing role performs bulk local packaging or encrypted archive generation"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads files across multiple directories or databases in background state (collection phase) then invokes archive or compression routines on collected content \u2014 read-then-archive sequence is the staging chain"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes archive-like container, high-entropy packaged blob, or .zip/.gz output to app-private or cache path after bulk data collection \u2014 archive artifact in private storage is the staging evidence"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes ZIP, GZIP, or bulk-buffer packaging routines (ZipOutputStream, DeflaterOutputStream, similar) on previously accessed local data in background state"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App applies encryption to newly created archive or staged data blob before network transmission \u2014 encrypt-after-archive confirms adversary-controlled packing for exfil"
                 }
             ],
             "x_mitre_mutable_elements": [

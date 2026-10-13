@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da615742-5743-488f-8105-b7698018d86a",
+    "id": "bundle--dde0c59b-4791-4757-a757-d00b3c1af8b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.216Z",
+            "modified": "2026-09-02T20:56:11.541Z",
             "description": "[FjordPhantom](https://attack.mitre.org/software/S1208) has been distributed via email, SMS and other messaging applications.(Citation: Promon FjordPhantom Oct2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfe91950-c01f-4e1f-ada1-7ac9b4f79fd4",

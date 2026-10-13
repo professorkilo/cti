@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95ffc8be-f4a1-481d-8413-4836b403c657",
+    "id": "bundle--8f781481-a0c9-49b4-b4a5-ef43ec3629fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-02T21:40:44.901Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can access external storage.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

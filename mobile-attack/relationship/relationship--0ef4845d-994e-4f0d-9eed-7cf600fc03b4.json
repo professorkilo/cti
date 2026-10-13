@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66b706f0-57fd-4e3c-95bc-7b24cf5acd6f",
+    "id": "bundle--c8ada555-9c9c-4124-a773-a0d5c1f9a315",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-02T21:36:48.632Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can track the device\u2019s location.(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

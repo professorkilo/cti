@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71bb63b1-00e0-454f-8579-325f05f880f4",
+    "id": "bundle--4842c63f-f3f8-4a07-af25-1645cd97c567",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.231Z",
+            "modified": "2026-09-02T21:41:04.100Z",
             "description": "[Dendroid](https://attack.mitre.org/software/S0301) can record audio and outgoing calls.(Citation: Lookout-Dendroid)",
             "relationship_type": "uses",
             "source_ref": "malware--317a2c10-d489-431e-b6b2-f0251fddc88e",

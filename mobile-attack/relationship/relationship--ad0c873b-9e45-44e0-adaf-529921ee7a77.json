@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4deb0f5e-3c52-47ad-a2d9-738910a53d60",
+    "id": "bundle--89f2386e-c46b-4e8e-a935-0f085c3613a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.160Z",
+            "modified": "2026-09-02T20:50:13.116Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) can collect device information, such as the default SMS app and device locale.(Citation: Threat Fabric Cerberus)(Citation: CheckPoint Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

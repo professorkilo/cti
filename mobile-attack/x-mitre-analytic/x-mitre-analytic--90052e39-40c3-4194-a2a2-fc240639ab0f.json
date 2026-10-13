@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a755ba5-cb9d-479f-96d4-fbcd817abdaa",
+    "id": "bundle--c87206a5-6cae-47ff-a572-ef0254f0617c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.380Z",
+            "modified": "2026-10-13T17:40:55.029Z",
             "name": "Analytic 1800",
-            "description": "Correlates (1) modification or replacement of system runtime libraries or API resolution paths, (2) repeated invocation of hijacked APIs across multiple applications, and (3) inconsistent or suppressed outputs from those APIs compared to expected OS-enforced behavior. The defender observes a causal chain where system-level API behavior is altered, resulting in multiple applications exhibiting consistent anomalies in sensor access, permission checks, or system state reporting.",
+            "description": "For Android, detect System Runtime API Hijacking primarily during application vetting or controlled analysis rather than assuming a live device SOC feed. Correlate OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Multiple applications invoking core system APIs (sensor, permission, telephony, PackageManager) show inconsistent, suppressed, or modified return values compared to OS-expected behavior \u2014 cross-app API result inconsistency is the runtime hi]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Device integrity degradation (root detected, system partition modification, SafetyNet/Play Integrity failure) coincident with anomalous system API behavior affecting runtime resolution]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,31 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "multiple applications invoking core system APIs (e.g., sensor, permission, telephony) with abnormal or inconsistent return values across apps within short interval"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Multiple applications invoking core system APIs (sensor, permission, telephony, PackageManager) show inconsistent, suppressed, or modified return values compared to OS-expected behavior \u2014 cross-app API result inconsistency is the runtime hi"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "device integrity degradation + root detected or system partition modification affecting runtime libraries (e.g., /system/lib*, /vendor/lib*)"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Device integrity degradation (root detected, system partition modification, SafetyNet/Play Integrity failure) coincident with anomalous system API behavior affecting runtime resolution"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window across multiple applications invoking affected APIs"
+                    "field": "APIBaselineValues",
+                    "description": "Expected return values for key system APIs on clean device of this model/version. Derive from fleet measurement on known-good devices. Deviations from baseline indicate runtime hijacking."
                 },
                 {
-                    "field": "SensitiveAPISet",
-                    "description": "Set of APIs monitored for integrity (e.g., location, telephony, permission checks)"
-                },
-                {
-                    "field": "CrossAppConsistencyThreshold",
-                    "description": "Number of applications required to exhibit anomalous API behavior to trigger detection"
-                },
-                {
-                    "field": "ExpectedAPIBaseline",
-                    "description": "Baseline of expected API return values or behavior patterns per device state"
+                    "field": "MultiAppInconsistencyThreshold",
+                    "description": "Default 3 distinct apps showing API result anomalies simultaneously. Single-app anomaly may be app bug; multi-app simultaneous anomaly indicates system-level hook."
                 }
             ]
         }

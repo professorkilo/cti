@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55779e2d-d069-484a-a75f-bf64104c40db",
+    "id": "bundle--1b8d1358-f11f-494d-8c11-5320ff99354c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.996Z",
+            "modified": "2026-09-02T21:32:27.376Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) has used icons from popular applications.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

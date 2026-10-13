@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0557f748-e0a8-4238-97fe-01b0ebdc796a",
+    "id": "bundle--15ba18af-fc84-4e76-a3aa-b9d8b64a3944",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.947Z",
+            "modified": "2026-09-02T21:35:57.839Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can collect SMS messages.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",

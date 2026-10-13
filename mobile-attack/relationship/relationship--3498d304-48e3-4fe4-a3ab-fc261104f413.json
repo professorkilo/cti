@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6d08bcc-92be-4dc4-916c-53f01ef61315",
+    "id": "bundle--fd30f142-38f5-4792-ad0d-1bef7bf6bdea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.989Z",
+            "modified": "2026-09-02T21:41:03.624Z",
             "description": "[Stealth Mango](https://attack.mitre.org/software/S0328) can record audio using the device microphone.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--085eb36d-697d-4d9a-bac3-96eb879fe73c",

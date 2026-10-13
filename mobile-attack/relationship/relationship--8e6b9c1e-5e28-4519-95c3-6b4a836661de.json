@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--153c79ad-c97f-44e9-912f-ce9ff0bc104e",
+    "id": "bundle--1c887a61-42d0-4b2b-82bf-6ec3f26d28ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.119Z",
+            "modified": "2026-09-02T21:35:36.098Z",
             "description": "[Drinik](https://attack.mitre.org/software/S1054) has used custom encryption to hide strings, potentially to evade antivirus products.(Citation: cyble_drinik_1022)",
             "relationship_type": "uses",
             "source_ref": "malware--d6e009b7-df5e-447a-bfd2-d5b77374edfe",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a5a232c-b25d-4809-b8ab-ed5483a76b95",
+    "id": "bundle--1604bb4c-ad88-4ac8-af83-7a0fdaac2e4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:42:30.229Z",
             "name": "Analytic 1666",
-            "description": "The defender correlates Android accessibility or UI-automation-capable behavior from an app identity with injected user-interface actions occurring on behalf of the user in another foreground application. The strongest Android evidence is accessibility-enabled or similarly privileged app behavior that triggers programmatic clicks, global actions, or text insertion into another app's active UI, especially when those actions occur without matching user touch interaction, while the injecting app is backgrounded or foreground-service-only, or when the target foreground app belongs to a sensitive category such as banking, payments, identity, communications, or enterprise access. The detection is strengthened when the injected input sequence is followed by target-app navigation, form submission, transaction progression, or network activity from the target context.",
+            "description": "For Android, detect Input Injection from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Accessibility-enabled app NOT IN $AccessibilityAllowList$ invokes performAction() click, global action (GLOBAL_ACTION_BACK/HOME/RECENTS), or insertText() on a UI element belonging to a different foregrounded app \u2014 cross-app UI action is the]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,72 +34,28 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Accessibility-enabled app invoked programmatic click or action on behalf of user while a different app was foregrounded and injected action was not mapped to approved accessibility or autofill workflow"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Accessibility-enabled app invoked global action such as back, home, recents, or navigation control while target foreground app context changed within TimeWindow"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Accessibility-enabled app inserted text into active field of different foreground app without user keyboard activity or approved autofill relationship"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Injecting app remained backgrounded or foreground-service-only while injected click, global action, or text insertion occurred in a different foreground app"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "LastUserInteractionDelta exceeded threshold before injected UI action and no matching touch interaction was observed for the target foreground app during injection sequence"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Sensitive app category remained foregrounded during injected UI sequence from different app identity"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Accessibility-enabled app NOT IN $AccessibilityAllowList$ invokes performAction() click, global action (GLOBAL_ACTION_BACK/HOME/RECENTS), or insertText() on a UI element belonging to a different foregrounded app \u2014 cross-app UI action is the"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window linking injected actions to target-app navigation, submission, or downstream network effects."
+                    "field": "AccessibilityAllowList",
+                    "description": "Approved assistive technology apps with legitimate UI automation need. Minimal list. Derive from MDM catalog accessibility policy."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Approved accessibility, autofill, remote-assist, or QA/testing apps vary by organization and device group."
+                    "field": "InjectionInteractionThreshold",
+                    "description": "Default 5s. UI actions occurring >5s after last detected user touch without expected foreground transition are injection-driven. Tightening: 2s."
                 },
                 {
-                    "field": "AllowedAccessibilityApps",
-                    "description": "Approved accessibility-enabled apps vary by assistive and enterprise workflow."
-                },
-                {
-                    "field": "AllowedAutofillApps",
-                    "description": "Approved password managers or autofill-capable apps may legitimately inject text into fields."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Defines how close an injected action must be to user interaction to be considered expected."
-                },
-                {
-                    "field": "SensitiveForegroundAppCategories",
-                    "description": "Categories such as banking, payments, identity, communications, and enterprise access may warrant higher sensitivity."
-                },
-                {
-                    "field": "GlobalActionBurstThreshold",
-                    "description": "Threshold for repeated programmatic global actions within a short window."
-                },
-                {
-                    "field": "TextInjectionLengthThreshold",
-                    "description": "Minimum inserted text length or field-population pattern considered suspicious outside approved autofill workflows."
-                },
-                {
-                    "field": "ConsentOrSetupGracePeriod",
-                    "description": "Grace period allowed after explicit user enablement of approved accessibility or autofill workflows before injection is treated as suspicious."
+                    "field": "TargetAppList",
+                    "description": "Banking, enterprise SSO, authentication, payment app packages. Injections against these raise confidence from Medium to High."
                 }
             ]
         }

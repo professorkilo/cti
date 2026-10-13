@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de830b5c-77e7-497d-aae8-3fe30f2d24fc",
+    "id": "bundle--1c6143e2-7ef4-41f8-8c88-7507d7795cb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:42:26.332Z",
             "name": "Analytic 1854",
-            "description": "Anchor on supervised managed-app install/update or version drift, then correlate with unexpected background activity, managed-app state changes, or egress inconsistent with the app's historical and policy baseline.",
+            "description": "For iOS, detect Compromise Software Supply Chain from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Launch services, extension-handling, or framework subsystem anomalies occur near install or first launch of recently updated trusted app on supervised device]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,18 +35,18 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Supervised managed app is newly installed or updated and presents unexpected version transition, inventory drift, managed-state change, or app attribute mismatch against approved procurement and release baseline"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Recently installed or updated managed app begins background activity, persistent refresh, or lock-state-adjacent activity inconsistent with expected first-run behavior, user interaction timing, or historical baseline"
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Supplemental managed app or system subsystem anomalies near install/update, launch services, extension handling, app activation, or background execution temporally adjacent to suspicious network or lifecycle behavior"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Launch services, extension-handling, or framework subsystem anomalies occur near install or first launch of recently updated trusted app on supervised device"
                 }
             ],
             "x_mitre_mutable_elements": [

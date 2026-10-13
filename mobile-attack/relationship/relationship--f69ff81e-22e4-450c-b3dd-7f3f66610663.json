@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fa85788-998e-45e1-83a6-1e4523f22dfd",
+    "id": "bundle--4540ad41-1c06-4476-a70a-16a08203ca18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T20:56:56.897Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has the ability to disable Google Play Protect.(Citation: cyble_chameleon_0423)(Citation: ThreatFabric_Chameleon_Dec2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e24cdea-2054-4956-9bed-ca1aeeb45ca7",
+    "id": "bundle--d476d3cf-cb73-4611-9880-b54c1a7d3d66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.078Z",
+            "modified": "2026-09-02T21:36:21.460Z",
             "description": "[SpyDealer](https://attack.mitre.org/software/S0324) harvests phone call history from victims.(Citation: PaloAlto-SpyDealer)",
             "relationship_type": "uses",
             "source_ref": "malware--86fc6f0c-86d9-473e-89f3-f50f3cb9319b",

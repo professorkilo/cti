@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5274fa2e-144e-423d-95f2-8eb607788b04",
+    "id": "bundle--20a15676-772f-4b34-8558-92e154c96f3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:40:39.609Z",
             "name": "Permissions Request",
             "description": "System prompts triggered when an application requests new or additional permissions",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -33,6 +33,14 @@
                 {
                     "name": "User Interface",
                     "channel": "None"
+                },
+                {
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
+                },
+                {
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 }
             ]
         }

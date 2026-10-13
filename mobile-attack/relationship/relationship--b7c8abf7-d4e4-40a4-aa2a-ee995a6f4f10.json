@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91fba268-f708-4f49-9123-a7df282aed9d",
+    "id": "bundle--41f73bcb-a190-4e7c-af0f-21ff5869583f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-02T21:36:21.554Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can access device call logs.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

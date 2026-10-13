@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e3cd215-dc8b-4a20-9565-622461cb6708",
+    "id": "bundle--b2a297e9-b265-4c51-9009-c65fd5f1872c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.226Z",
+            "modified": "2026-09-02T21:36:21.654Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can request permission to view call logs.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

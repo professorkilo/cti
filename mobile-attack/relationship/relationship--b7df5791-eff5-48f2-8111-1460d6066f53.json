@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7561ded9-05ba-46cc-9b65-7dfe0e53fab2",
+    "id": "bundle--51b157d8-4eac-4091-afb6-5fe369f632ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-02T21:48:27.832Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has taken a screenshot of the Google Authenticator application using its Accessibility Logging feature. The authentication codes are then sent to the C2 server.(Citation: ThreatFabric_Crocodilus_March2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2909f8bf-2ba9-41e3-bf72-7e6a7555b031",
+    "id": "bundle--a9f71762-48b3-471c-a4d2-cdf82c6c5da8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-02T20:56:11.510Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) has been distributed using phishing techniques, such as push notifications from compromised websites.(Citation: securelist_brata_0819)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4ecab4f-490c-4813-ac86-cea527a120b6",
+    "id": "bundle--02207a1b-f9fe-4dd5-9e5c-56f0dbbf4a9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-02T18:48:07.279Z",
             "description": "[Twitoor](https://attack.mitre.org/software/S0302) encrypts its C2 communication.(Citation: ESET-Twitoor)",
             "relationship_type": "uses",
             "source_ref": "malware--41e3fd01-7b83-471f-835d-d2b1dc9a770c",

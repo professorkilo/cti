@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--989208eb-bd27-4641-a167-214187a070a8",
+    "id": "bundle--fe03b4d2-b872-4044-909b-ea303ce868cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.961Z",
+            "modified": "2026-09-02T21:36:21.230Z",
             "description": "[AndroRAT](https://attack.mitre.org/software/S0292) collects call logs.(Citation: Lookout-EnterpriseApps)(Citation: forcepoint_bitter) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",

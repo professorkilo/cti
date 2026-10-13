@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a7e2fd2-68c6-42ce-b89b-984871c26935",
+    "id": "bundle--ed2dbcf7-be2b-4646-8e35-c0b2349064f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.006Z",
+            "modified": "2026-09-02T21:36:48.807Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has gathered device location data.(Citation: cyble_chameleon_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

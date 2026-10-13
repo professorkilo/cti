@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0ec348e-f23d-4958-9b17-b136b20488fe",
+    "id": "bundle--83ebb313-da63-4b6f-a36d-27903a492b51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-02T21:36:21.153Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) has collected all outgoing phone numbers that start with \u201c86\u201d.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

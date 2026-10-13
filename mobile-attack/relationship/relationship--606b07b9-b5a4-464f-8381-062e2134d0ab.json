@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70fad57b-af9f-4c3f-9008-485a48c87ddd",
+    "id": "bundle--8967f881-0523-49ac-a1d2-9d234d9ea699",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.056Z",
+            "modified": "2026-09-02T20:56:56.783Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can remove installed antivirus applications as well as disable Google Play Protect.(Citation: cleafy_brata_0122)(Citation: mcafee_brata_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

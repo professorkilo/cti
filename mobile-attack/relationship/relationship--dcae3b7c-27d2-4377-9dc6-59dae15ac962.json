@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99e74942-2cf8-4718-aa8c-1daa7fb04b0f",
+    "id": "bundle--13a3826e-a0db-4730-a97c-6a62f054b947",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.227Z",
+            "modified": "2026-09-02T22:18:48.765Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) can lock an HTML page in the foreground, requiring the user enter credit card information that matches information previously intercepted in SMS messages, such as the last 4 digits of a credit card number. If attempts to revoke administrator permissions are detected, [Rotexy](https://attack.mitre.org/software/S0411) periodically switches off the phone screen to inhibit permission removal.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

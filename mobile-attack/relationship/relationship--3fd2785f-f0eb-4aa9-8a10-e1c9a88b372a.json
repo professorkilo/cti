@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5369bd8-d887-408c-8dd2-347f39502625",
+    "id": "bundle--f52f1a40-e204-40b3-a32f-a66f256fa194",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-02T22:13:12.770Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can display popups over running applications.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

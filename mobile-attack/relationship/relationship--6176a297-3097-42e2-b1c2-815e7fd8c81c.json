@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fce391b5-676c-46df-8975-9f37d29ee194",
+    "id": "bundle--2ad6abe5-c404-4801-b618-fc092c8a45db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.058Z",
+            "modified": "2026-09-02T18:49:49.917Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can download attacker-specified files.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

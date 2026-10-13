@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38d3241a-87d5-43f8-bd6c-36df6419195e",
+    "id": "bundle--8cdfc65c-b512-4377-b180-2e948f88b70c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.104Z",
+            "modified": "2026-09-02T22:10:24.937Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) has communicated with the C2 using HTTP POST requests.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

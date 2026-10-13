@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba58c01e-25aa-4f62-af19-748e2d3ff6ee",
+    "id": "bundle--436a8cad-4eb9-4f7d-bdb6-e711384f5013",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.209Z",
+            "modified": "2026-09-02T21:48:05.242Z",
             "description": "[RCSAndroid](https://attack.mitre.org/software/S0295) can capture photos using the front and back cameras.(Citation: TrendMicro-RCSAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",

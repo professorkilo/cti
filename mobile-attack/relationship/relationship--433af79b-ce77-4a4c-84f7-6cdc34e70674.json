@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55b0e496-c4d4-4441-8b9f-cde9eded6b35",
+    "id": "bundle--25b49082-4afe-4f44-b717-c17916adb9c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-02T21:35:58.033Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can intercept SMS messages.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

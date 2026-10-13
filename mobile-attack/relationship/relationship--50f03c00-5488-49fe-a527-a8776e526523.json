@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99bcff15-5030-4d91-b463-cc6b4b23e0a5",
+    "id": "bundle--5b14bba3-c8fa-4df7-ba36-ed9952de0104",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-02T21:49:26.746Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) can collect a list of installed applications.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",

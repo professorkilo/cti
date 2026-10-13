@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce76dbb8-3069-42b9-9074-b0706f57a69a",
+    "id": "bundle--6e01e2a4-cb5b-4ff3-87a9-6c5b3c4171e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.170Z",
+            "modified": "2026-09-02T21:35:58.534Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can intercept SMS messages.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

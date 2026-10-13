@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45d2bed0-4454-49a9-b2af-1c42eb67e365",
+    "id": "bundle--a31a0ad6-da93-4238-b202-36c08c3dc898",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.263Z",
+            "modified": "2026-09-02T22:20:20.615Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) can send SMS messages.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",

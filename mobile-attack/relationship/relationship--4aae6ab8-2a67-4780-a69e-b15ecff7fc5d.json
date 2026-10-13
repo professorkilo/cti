@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edd49e34-f2b9-41c6-b0f3-64e5ddbea5ba",
+    "id": "bundle--b5b0fa92-2459-447c-bcb7-0f1f351a9eca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.027Z",
+            "modified": "2026-09-02T22:19:52.496Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can make and block phone calls.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

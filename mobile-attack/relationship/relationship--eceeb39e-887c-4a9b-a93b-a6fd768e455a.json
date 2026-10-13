@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c2ddcac-4b6c-4883-adcf-1732baffa375",
+    "id": "bundle--94291a5a-6ddf-4461-a2cb-91f90f19f73c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.247Z",
+            "modified": "2026-09-02T20:50:13.300Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can access device configuration information and status, including Android version, battery level, device model, country, and SIM operator.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

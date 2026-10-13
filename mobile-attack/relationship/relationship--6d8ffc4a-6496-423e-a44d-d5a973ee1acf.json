@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6562d824-9da9-4368-b980-92ccead10bf2",
+    "id": "bundle--722d3cb7-bc9d-446a-969d-1c61c5e6b4d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-02T21:41:03.810Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can record phone calls and audio.(Citation: welivesecurity_apt-c-23)(Citation: sophos_android_apt_spyware)(Citation: SentinelLabs AridViper 2023)(Citation: Cyware APT-C-23 2020)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

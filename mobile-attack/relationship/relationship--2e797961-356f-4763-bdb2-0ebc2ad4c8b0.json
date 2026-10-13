@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b22de64a-eeaf-4390-acba-c6522a40f96c",
+    "id": "bundle--a54fb13a-67fa-44f6-b344-d8740c2f000d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-02T21:48:27.500Z",
             "description": "Enterprise policies should block access to the Android Debug Bridge (ADB) by preventing users from enabling USB debugging on Android devices unless specifically needed (e.g., if the device is used for application development). An EMM/MDM can use the Android `DevicePolicyManager.setPermittedAccessibilityServices` method to set an explicit list of applications that are allowed to use Android's accessibility features. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",

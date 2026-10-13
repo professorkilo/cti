@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f5f3b93-df43-4843-b402-a1a42a72379e",
+    "id": "bundle--d52c7da8-6c71-4b13-8427-5c6c98fbe3ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.527Z",
+            "modified": "2026-09-02T18:52:46.882Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included contact list exfiltration in the malicious apps deployed as part of Operation BULL.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

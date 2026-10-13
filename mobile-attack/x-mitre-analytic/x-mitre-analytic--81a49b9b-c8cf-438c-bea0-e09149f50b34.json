@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56135441-cd4f-48c0-b85e-b921e1b74411",
+    "id": "bundle--87e14f3a-642c-41a2-91b5-e5123ca0f24b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:40:52.102Z",
             "name": "Analytic 1724",
-            "description": "Defender correlates an iOS-specific reduced-confidence chain where a supervised or managed device transitions from locked or inactive state to interactive or application-active state with weak evidence of expected user authentication, often accompanied by abnormal protected posture change, trust-state change, unexpected app wake, sensor use, or immediate downstream communication. Because direct visibility into lockscreen bypass mechanics on iOS is limited, the analytic prioritizes strong device-state effects and post-unlock behavior rather than pretending to observe the exact bypass method.",
+            "description": "For iOS, detect Lockscreen Bypass from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Protected Configuration via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,48 +34,28 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
-                    "name": "iOS:MDMLog",
-                    "channel": "Passcode, biometrics, attention-aware authentication, or supervised-device lock policy changed in a way that weakens or alters the authentication boundary"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application wakes, becomes active, refreshes, or foregrounds immediately after locked or inactive state transition with weak recent user interaction"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Maximum allowed span between locked or inactive device state, suspicious app/service activity, and interactive transition."
+                    "field": "AuthPolicyAllowList",
+                    "description": "MDM-managed authentication policy changes only. Any lock policy weakening outside MDM-authorized change is anomalous. Derive from MDM policy management logs."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps allowed to wake, foreground, or access protected resources near legitimate authentication events."
+                    "field": "ElevationAllowList",
+                    "description": "Approved accessibility and Device Admin apps that may interact with lockscreen for legitimate purposes (enterprise kiosk). Derive from MDM catalog."
                 },
                 {
-                    "field": "SupervisedOnly",
-                    "description": "Whether the analytic should only apply to supervised devices with high-confidence MDM policy telemetry."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Time threshold for treating the transition as expected and user-driven."
-                },
-                {
-                    "field": "ExpectedUnlockPopulation",
-                    "description": "User or device groups expected to use atypical enterprise lockscreen workflows, kiosk-like modes, or accessibility accommodations."
-                },
-                {
-                    "field": "SensorUseAllowList",
-                    "description": "Apps expected to access camera or biometric-adjacent resources near the authentication boundary."
-                },
-                {
-                    "field": "TrustedDestinationAllowList",
-                    "description": "Expected destinations contacted immediately after legitimate app activation post-authentication."
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Threshold for suspicious immediate outbound traffic after suspicious unlock-adjacent activity."
+                    "field": "LockBypassWindow",
+                    "description": "Default 10s between lock state and anomalous app activity. Lock-bypass is near-instantaneous."
                 }
             ]
         }

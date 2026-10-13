@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4bb82dd-a903-4898-b07d-8ba8c57a4b5e",
+    "id": "bundle--760b23fc-a793-414b-8bb2-8125bb08a603",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.375Z",
+            "modified": "2026-10-13T17:41:30.678Z",
             "name": "Analytic 1747",
-            "description": "A defender correlates a sudden carrier identity/service state change (SIM/line identifier change or unexpected loss of cellular service) with near-term device messaging/telephony disruption and a concurrent shift in authentication traffic patterns\u2014such as a spike in SMS-based verification flows or account recovery activity from the same user\u2019s identities\u2014indicating the user\u2019s number may have been transferred to a different SIM/device (SIM swap impact).",
+            "description": "For Android, detect SIM Card Swap by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Host Status via Android Enterprise DPC [DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported]; System Settings via Android Enterprise DPC [DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported]; User Account Authentication via Application Vetting / Identity Provider Telemetry [App authentication flow instrumentation or IdP sign-in/audit events]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,55 +34,29 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Cellular service state transitions (in-service\u2192no-service), SIM state change, carrier/operator identifier change, or baseband/telephony stack state change observed by agent telemetry"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Agent-observable telephony subscription/state API signals indicating SIM/eSIM subscription change (vendor-agnostic: 'telephony subscription changed')"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Device inventory changes involving phone number/line identifier fields (when available), eSIM profile presence, or compliance signal indicating SIM profile change"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "Near-term increase in traffic to identity endpoints associated with SMS MFA, account recovery, or OTP verification (IdP, banking, crypto), correlated to SIM/service loss"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "Abrupt shift from cellular egress to Wi-Fi-only egress, or new VPN/proxy session establishment following cellular service loss"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a953ca55-921a-44f7-9b8d-3d40141aa17e",
+                    "name": "idp:AuditLog",
+                    "channel": "App authentication flow instrumentation or IdP sign-in/audit events"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "ServiceLossDurationThreshold",
-                    "description": "Minimum duration of unexpected cellular service loss before considering it suspicious (reduces noise from transient coverage issues)."
+                    "field": "CellularLossThreshold",
+                    "description": "Default 300s service loss. Brief outages are normal; sustained loss + ICCID change is anomalous."
                 },
                 {
-                    "field": "SimStateChangeTypes",
-                    "description": "Which SIM-related state changes to alert on (SIM removed, SIM refresh, operator changed, eSIM profile changed)."
-                },
-                {
-                    "field": "SwapCorrelationWindow",
-                    "description": "Time window to correlate SIM/service state change with downstream identity traffic anomalies (e.g., 30m\u20136h)."
-                },
-                {
-                    "field": "IdentityEndpointAllowList",
-                    "description": "Baseline of expected IdP/banking/crypto identity endpoints for the org; used to reduce false positives."
-                },
-                {
-                    "field": "AuthTrafficSpikeThreshold",
-                    "description": "Threshold for increase in OTP/MFA/account recovery traffic volume relative to user baseline."
-                },
-                {
-                    "field": "UserTravelContext",
-                    "description": "Optional enrichment\u2014treat carrier changes as lower risk during known travel/roaming windows."
+                    "field": "SIMSwapWindow",
+                    "description": "Default 3600s correlation window."
                 }
             ]
         }

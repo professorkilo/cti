@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43ea603d-0a14-43ec-bc38-f83ad976e9ba",
+    "id": "bundle--8afe2fd8-0205-43c1-8b41-7e83c6003aec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.378Z",
+            "modified": "2026-10-13T17:40:50.394Z",
             "name": "Analytic 1701",
-            "description": "Correlates (1) activation of Device Administrator privileges by an application, (2) absence or mismatch of legitimate user interaction during the approval flow, and (3) immediate execution of administrator-level control actions (e.g., password reset, device lock, policy enforcement, prevention of uninstall). The defender observes a causal chain where an application transitions into a privileged device control role and rapidly exercises those capabilities outside expected user-driven patterns.\n\nApplication vetting services can check for the string `BIND_DEVICE_ADMIN` in the application\u2019s manifest. ",
+            "description": "For Android, detect Device Administrator Permissions from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes DevicePolicyManager.resetPassword(), lockNow(), wipeData(), or setCameraDisabled() immediately after Device Admin activation without MDM-initiated policy context or user interaction]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,32 +34,24 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes DevicePolicyManager APIs (e.g., resetPassword, lockNow, setCameraDisabled) immediately following admin activation"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application granted Device Administrator privilege + abnormal activation pattern (e.g., rapid enablement after install or no recent user interaction)"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes DevicePolicyManager.resetPassword(), lockNow(), wipeData(), or setCameraDisabled() immediately after Device Admin activation without MDM-initiated policy context or user interaction"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Defines correlation window between Device Admin activation and subsequent privileged actions"
+                    "field": "MDMAdminAllowList",
+                    "description": "MDM agent packages authorized for Device Admin. Any other app receiving Device Admin is anomalous. Derive from MDM enrollment documentation."
                 },
                 {
-                    "field": "AllowedAdminApps",
-                    "description": "Baseline of legitimate applications expected to request Device Administrator privileges (e.g., enterprise MDM agents)"
-                },
-                {
-                    "field": "UserInteractionThreshold",
-                    "description": "Defines acceptable timing between user interaction and admin activation"
-                },
-                {
-                    "field": "PrivilegedActionSet",
-                    "description": "List of high-risk DevicePolicyManager API actions monitored for abuse"
+                    "field": "AdminActivationWindow",
+                    "description": "Default 10s between Device Admin activation and first admin API invocation. Legitimate Device Admin apps wait for user-initiated admin action."
                 }
             ]
         }

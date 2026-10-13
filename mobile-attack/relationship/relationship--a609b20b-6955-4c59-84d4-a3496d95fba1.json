@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddcd5eaa-516c-49b9-bf91-f3300698c83c",
+    "id": "bundle--cabd32d5-11af-43cf-a3ef-803a6b2fe181",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-02T21:49:41.175Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) has compressed data with the `zlib` library before exfiltration.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

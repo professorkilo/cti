@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30866821-cb7d-4979-bb6e-95a2b56b76ec",
+    "id": "bundle--b79b4a58-1340-4d86-b144-c55be133d7bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.962Z",
+            "modified": "2026-09-02T21:35:57.907Z",
             "description": "[RuMMS](https://attack.mitre.org/software/S0313) uploads incoming SMS messages to a remote command and control server.(Citation: FireEye-RuMMS)",
             "relationship_type": "uses",
             "source_ref": "malware--936be60d-90eb-4c36-9247-4b31128432c4",

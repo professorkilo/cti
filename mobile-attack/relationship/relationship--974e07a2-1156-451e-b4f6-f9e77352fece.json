@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9ee8f7c-2922-4af8-9d9b-e5862e15e963",
+    "id": "bundle--70fa0455-b23a-4fca-aadc-afdf0fc8c9c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.131Z",
+            "modified": "2026-09-02T20:51:52.987Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has uploaded collected data to a Secure File Transfer Protocol (SFTP) server.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

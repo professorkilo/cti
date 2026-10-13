@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30406b2d-8d0e-48b7-a8c3-1c2d194011a0",
+    "id": "bundle--685c7c50-d185-41f0-96f9-7ed76ce3b0c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.079Z",
+            "modified": "2026-09-02T20:50:12.910Z",
             "description": "[Dvmap](https://attack.mitre.org/software/S0420) checks the Android version to determine which system library to patch.(Citation: SecureList DVMap June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--22b596a6-d288-4409-8520-5f2846f85514",

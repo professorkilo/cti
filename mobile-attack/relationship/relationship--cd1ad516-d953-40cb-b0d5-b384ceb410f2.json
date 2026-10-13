@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91cebddd-78bf-4e5a-a518-0a0fd7f9a114",
+    "id": "bundle--4b65e0e6-cbfc-4ad0-91a3-de45734f116b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.206Z",
+            "modified": "2026-09-02T21:48:27.844Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has a plugin that can take screenshots.(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

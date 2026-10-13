@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2735dfd6-e209-4e76-89a2-d432bc9cc836",
+    "id": "bundle--8f79b6b8-4fa1-4efe-a1ea-00205b1e52f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.922Z",
+            "modified": "2026-09-02T22:14:31.382Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has exploited accessibility features to intercept and exfiltrate communication from WhatsApp, WhatsApp Business and Signal and to automatically enable necessary permissions on the user\u2019s behalf.(Citation: ESET_VajraSpy_Feb2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

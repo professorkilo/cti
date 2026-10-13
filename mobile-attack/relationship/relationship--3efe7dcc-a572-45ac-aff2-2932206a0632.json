@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee4a06ad-baa6-4f3c-b4a9-10a12bb56f1b",
+    "id": "bundle--c6fbc272-7ae1-4ffa-816d-fe1b0b563e02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T18:45:24.457Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) can access and upload the device's contact list to the command and control server.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

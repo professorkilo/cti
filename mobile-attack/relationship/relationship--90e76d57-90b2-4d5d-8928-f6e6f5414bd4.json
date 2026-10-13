@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c82688f-ffdf-4373-8565-8a0d399bdaf4",
+    "id": "bundle--e65d8efa-44ca-4c7b-b597-442caa7f6f16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.123Z",
+            "modified": "2026-09-02T20:56:11.434Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has delivered malicious links through Telegram channels and Instagram posts.(Citation: FirshSecureList LightSpy 2020)(Citation: Shoshin_Kaspersky LightSpy 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

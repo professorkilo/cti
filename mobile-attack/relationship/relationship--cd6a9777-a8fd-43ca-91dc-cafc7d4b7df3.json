@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--990f9695-b54f-4a44-b4e0-3f54d31ff950",
+    "id": "bundle--d055ba42-572e-4045-a5c0-3a2e7dc3ace0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.206Z",
+            "modified": "2026-09-02T18:45:47.338Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can obtain a list of running processes.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

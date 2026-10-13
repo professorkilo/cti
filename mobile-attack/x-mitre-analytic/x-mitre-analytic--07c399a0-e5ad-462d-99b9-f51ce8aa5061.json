@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5eaa3907-dc4b-405b-8999-d0232a77474b",
+    "id": "bundle--cac5bbb2-29a3-4a2d-b2d0-6650ffb422b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.375Z",
+            "modified": "2026-10-13T17:42:37.187Z",
             "name": "Analytic 1829",
-            "description": "The defender correlates creation or registration of deferred, repeating, or constraint-based background work with later task execution in the same app context, especially when the task executes without recent user interaction, from background state, or with follow-on file, sensor, or network behavior inconsistent with the app's declared role. The analytic prioritizes Android-observable control-plane effects: WorkManager enqueue operations, JobScheduler or AlarmManager scheduling, later wake or execution of the scheduled work, and post-trigger activity such as network sessions, local staging, or sensor access.",
+            "description": "For Android, detect Scheduled Task/Job primarily during application vetting or controlled analysis rather than assuming a live device SOC feed. Correlate OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App enqueues WorkManager work, schedules JobScheduler job, or sets AlarmManager with repeating interval NOT IN $ApprovedSchedulerApps$]; Scheduled Job Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: Scheduled task execution creates file, accesses sensor, or initiates network connection immediately after firing, with no recent user interaction triggering the task]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,43 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application enqueues WorkManager work request or schedules JobScheduler or AlarmManager task with delay, periodic interval, or execution constraints during the persistence/execution setup phase"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App enqueues WorkManager work, schedules JobScheduler job, or sets AlarmManager with repeating interval NOT IN $ApprovedSchedulerApps$"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--f42df6f0-6395-4f0c-9376-525a031f00c3",
-                    "name": "MobiledEDR:telemetry",
-                    "channel": "Scheduled task execution creates cache, staged payload, local output, or collected data artifact immediately after wake or job trigger"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: Scheduled task execution creates file, accesses sensor, or initiates network connection immediately after firing, with no recent user interaction triggering the task"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between task registration and later execution, and between execution and follow-on behavior"
+                    "field": "ApprovedSchedulerApps",
+                    "description": "Apps with legitimate scheduled background work: MDM agent (policy sync), email clients (push sync), approved enterprise apps. Derive from MDM catalog. Any unapproved app using repeating scheduled tasks is anomalous."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps legitimately expected to use WorkManager, JobScheduler, or AlarmManager such as mail, sync, backup, calendar, or enterprise management apps"
-                },
-                {
-                    "field": "AllowedConstraintProfiles",
-                    "description": "Expected charging, network, idle, or timing constraints for legitimate scheduled work"
-                },
-                {
-                    "field": "AllowedScheduleIntervals",
-                    "description": "Expected delay or periodic interval ranges for legitimate app behavior"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether follow-on activity from a scheduled task should only occur during active user-driven workflows for a given app"
-                },
-                {
-                    "field": "TriggerToNetworkWindow",
-                    "description": "Maximum expected delay between scheduled job trigger and outbound communication"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum outbound volume after scheduled execution to treat network behavior as meaningful"
+                    "field": "ScheduledIntervalThreshold",
+                    "description": "Default 900s (15 min) minimum suspicious repeat interval. Shorter intervals indicate high-frequency C2 check-in pattern. Derive from legitimate app scheduler baseline."
                 }
             ]
         }

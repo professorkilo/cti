@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c7d0f0b-8e64-4d59-b7c0-b907c2a4f890",
+    "id": "bundle--3bd90634-c457-40da-8395-fa1dccae2903",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:23.673Z",
+            "modified": "2026-09-02T18:45:29.545Z",
             "name": "Bouncing Golf",
             "description": "[Bouncing Golf](https://attack.mitre.org/groups/G0097) is a cyberespionage campaign targeting Middle Eastern countries.(Citation: Trend Micro Bouncing Golf 2019)",
             "aliases": [

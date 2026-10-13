@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39651aff-9525-4696-ae49-b652722bd6cc",
+    "id": "bundle--ae34de48-6a5f-41fa-869b-11d9ae0479da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-09-02T18:50:30.652Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) tricks the user into sending SMS messages to premium services and then deletes those messages.(Citation: Wandera-RedDrop)",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

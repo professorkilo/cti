@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--effce259-1743-4236-be1b-e54635c08708",
+    "id": "bundle--9a6cbbae-dc51-44d3-8ea9-f925ce806241",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-02T22:14:31.423Z",
             "description": "First, users should be wary of clicking on suspicious text messages, links and emails. Secondly, users should be wary of granting applications accessibility features. Users may check applications that have been granted accessibility features by going to Settings, then Accessibility. Finally, users should be wary of downloading applications; although applications may be on the Google Play Store, they may not be benign (see [Application Versioning](https://attack.mitre.org/techniques/T1661)). ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

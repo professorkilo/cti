@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57bb4771-da45-4c6c-9c47-2e54577cea7c",
+    "id": "bundle--21a585f0-8b5e-4c53-9ba6-82f612b8273b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.994Z",
+            "modified": "2026-09-02T22:10:24.709Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) uses HTTP requests for C2 communication.(Citation: Wandera-RedDrop)",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

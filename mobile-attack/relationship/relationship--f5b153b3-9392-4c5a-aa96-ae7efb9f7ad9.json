@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd92d1af-74c0-47b7-82cf-4f2cffdcadb7",
+    "id": "bundle--0fbc7774-de7d-43a1-b081-a5cc40b18c26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.259Z",
+            "modified": "2026-09-02T21:49:27.216Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has obtained and exfiltrated a list of installed applications.(Citation: ESET_VajraSpy_Feb2024)(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

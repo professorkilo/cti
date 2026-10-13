@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5520a37a-ed35-45e0-9f3d-194787443ffd",
+    "id": "bundle--7ba8940a-a865-43c4-b99a-d42278f747bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-02T21:41:03.599Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can record both incoming and outgoing phone calls, as well as microphone audio.(Citation: CyberMerchants-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

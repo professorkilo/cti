@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b004621f-60c0-45d4-8bfa-8e0997e9bc4c",
+    "id": "bundle--f0f61bc8-9260-4968-be5e-2d00835aa2a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-02T22:13:45.333Z",
             "description": "When an accessibility event occurs, [DocSwap](https://attack.mitre.org/software/S9005) has used a keylogger to record the target application\u2019s icon, package name, event text, and timestamp.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)    ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

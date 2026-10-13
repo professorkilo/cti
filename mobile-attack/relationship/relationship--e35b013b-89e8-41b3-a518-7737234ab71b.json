@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ab2319f-c711-43bc-a9ae-9541f4304b21",
+    "id": "bundle--517e4e7f-3579-4811-bf56-12c594a3a8d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-02T21:48:27.878Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can take screenshots.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

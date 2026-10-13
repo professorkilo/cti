@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a63d2cb7-77f6-4ee3-b689-e166a4db35bd",
+    "id": "bundle--4966aeba-0ccb-472c-bc22-0ee21eccd833",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-02T21:33:42.546Z",
             "description": "[BusyGasper](https://attack.mitre.org/software/S0655) can be controlled via IRC using freenode.net servers.(Citation: SecureList BusyGasper)",
             "relationship_type": "uses",
             "source_ref": "malware--e110f94a-e2c5-4f5f-ba78-9c2ab6d2d9e4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--957e4050-cf44-49a9-99c3-5a9a5b6dfed1",
+    "id": "bundle--b4b36ce2-9ffb-4185-af07-abc3b80582e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.098Z",
+            "modified": "2026-09-02T22:19:12.769Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has requested for `android.permission.DISABLE_KEYGUARD` to disable the device lock screen password.(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

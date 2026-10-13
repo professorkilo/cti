@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da879e44-d27b-46b2-9645-c032f9cf01ae",
+    "id": "bundle--42c35bdb-d95e-4ae8-becf-56e4bc2d1ce7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.127Z",
+            "modified": "2026-09-02T21:36:49.186Z",
             "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) update and sends the location of the phone.(Citation: Lookout-Pegasus)",
             "relationship_type": "uses",
             "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",

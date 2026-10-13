@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7749a594-0eb5-4f7c-807f-7d242850ebec",
+    "id": "bundle--65ed8896-0c3e-4326-b591-dd4376753dcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-02T22:15:43.722Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can use input injection via Accessibility Services to simulate user touch inputs, prevent applications from opening, change device settings, and bypass MFA protections.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

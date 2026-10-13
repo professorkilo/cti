@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0463906a-bcb5-4615-aae0-17bf5e99bee6",
+    "id": "bundle--143d4afb-5ef1-4853-930f-c81ef7f8f57e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.083Z",
+            "modified": "2026-09-02T21:32:27.502Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) has masqueraded as \u201cGoogle service\u201d, \u201cGooglePlay\u201d, and \u201cFlash update\u201d.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

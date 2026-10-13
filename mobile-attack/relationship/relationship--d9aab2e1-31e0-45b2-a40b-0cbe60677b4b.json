@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a3a1600-3a2f-4dd8-a1b2-40c8b35da9c6",
+    "id": "bundle--64a22702-51cf-4cf6-85d9-302b868601d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-02T22:16:14.809Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can request device administrator permissions.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

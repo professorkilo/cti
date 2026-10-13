@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a743d6c-dfee-421a-984e-8ea018b94415",
+    "id": "bundle--1c54505c-d371-403a-bbc4-345e5bb980a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.936Z",
+            "modified": "2026-09-02T22:20:20.267Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to send SMS messages to a specified number, to a list of numbers, or to all contacts. Additionally, [Crocodilus](https://attack.mitre.org/software/S9004) has the ability to perform Unstructured Supplementary Service Data (USSD) requests.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

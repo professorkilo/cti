@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53a963d8-d4ac-45d7-be4a-80f720bd7d4c",
+    "id": "bundle--ff324c8e-a23a-42a7-b9ed-aab61347743c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.107Z",
+            "modified": "2026-09-02T21:49:04.019Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can collect the device\u2019s phone number, ICCID, IMEI, and the currently active network interface (Wi-Fi or cellular).(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

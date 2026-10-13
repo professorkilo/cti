@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b200856-6cf8-4be8-968f-eaedf9482ad4",
+    "id": "bundle--40593a48-5392-4e0a-bc6b-e1b4e5bdd058",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.075Z",
+            "modified": "2026-09-02T20:50:12.897Z",
             "description": "[Desert Scorpion](https://attack.mitre.org/software/S0505) can collect device metadata and can check if the device is rooted.(Citation: Lookout Desert Scorpion)",
             "relationship_type": "uses",
             "source_ref": "malware--3271c107-92c4-442e-9506-e76d62230ee8",

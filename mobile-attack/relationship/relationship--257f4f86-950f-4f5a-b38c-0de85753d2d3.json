@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f752143c-ff2f-4367-ae1f-b3da7afc4e0d",
+    "id": "bundle--cf15ef5a-66df-4c50-b078-88ee9349de9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.956Z",
+            "modified": "2026-09-02T22:19:31.484Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can uninstall itself and remove traces of infection.(Citation: securelist_brata_0819)(Citation: mcafee_brata_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

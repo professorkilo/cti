@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdbca8f7-48f0-4848-9818-6a99f48b2f54",
+    "id": "bundle--3c95b8cf-63b1-45eb-9f6a-c060c1967a92",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.964Z",
+            "modified": "2026-09-02T21:36:21.267Z",
             "description": "[Android/Chuli.A](https://attack.mitre.org/software/S0304) stole call logs.(Citation: Kaspersky-WUC)",
             "relationship_type": "uses",
             "source_ref": "malware--d05f7357-4cbe-47ea-bf83-b8604226d533",

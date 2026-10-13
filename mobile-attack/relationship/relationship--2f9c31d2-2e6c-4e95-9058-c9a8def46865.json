@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a2ea10b-4b38-499a-83dd-924e737e5d50",
+    "id": "bundle--20c08057-6a14-439f-a443-c84a0ed51d97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.974Z",
+            "modified": "2026-09-02T21:48:04.820Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can take photos using the device cameras.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

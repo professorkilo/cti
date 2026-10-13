@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dab5e6e7-40ec-4be5-835e-34990a548469",
+    "id": "bundle--6bc3bac8-8078-4f0a-b0cf-454bdd07b281",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.117Z",
+            "modified": "2026-09-02T22:20:49.722Z",
             "description": "[Desert Scorpion](https://attack.mitre.org/software/S0505) can delete copies of itself if additional APKs are downloaded to external storage.(Citation: Lookout Desert Scorpion)",
             "relationship_type": "uses",
             "source_ref": "malware--3271c107-92c4-442e-9506-e76d62230ee8",

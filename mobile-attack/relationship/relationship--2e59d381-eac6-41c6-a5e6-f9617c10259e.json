@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--998b2960-7c68-4555-a351-0e448087a46d",
+    "id": "bundle--376ce58e-31ab-4cc0-9077-b3d797c3ed4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-02T21:35:35.861Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) obfuscates various pieces of information within the application.(Citation: Volexity Insomnia) ",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

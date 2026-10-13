@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ff4e9a3-7388-4ffa-964e-d428bb0b5447",
+    "id": "bundle--4d73e6f3-bd7c-40fc-84dc-edd5a5da4792",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.236Z",
+            "modified": "2026-09-02T22:10:25.182Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has sent a POST request to downcat.php while recording the access time and APK URL path.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

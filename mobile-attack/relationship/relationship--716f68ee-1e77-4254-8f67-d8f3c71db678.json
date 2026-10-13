@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33c64a88-1ea7-480c-b112-e9ae505a0af8",
+    "id": "bundle--b122454f-c72e-4e52-9243-75d47d6b6e77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-02T22:19:52.554Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can be controlled via phone call from a set of \"control phones.\"(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

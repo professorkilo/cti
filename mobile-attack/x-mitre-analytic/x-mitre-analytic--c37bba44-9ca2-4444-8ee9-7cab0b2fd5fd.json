@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e020ff65-6206-4391-9f9e-d0a1338d2a8d",
+    "id": "bundle--78b93a73-132b-42ce-9328-bd6555dba58f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:42:22.306Z",
             "name": "Analytic 1781",
-            "description": "An application with access to broad file scopes or sensitive storage areas becomes active, performs abnormal burst file reads and writes across many user or shared-storage locations, transforms file content or extensions at scale in a short window, and causes rapid file inaccessibility, rewrite, or replacement inconsistent with normal sync, backup, media processing, or document-editing behavior. The defender correlates capability state, app lifecycle, framework use, bulk file-write effects, and optional network communications to distinguish encrypt-for-impact behavior from benign bulk file operations.",
+            "description": "For Android, detect Data Encrypted for Impact by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: ContentResolver, DocumentProvider, StorageAccessFramework, or bulk stream I/O invocations exceed $FileModificationRateThreshold$ operations per minute across distinct file paths \u2014 API-level operation rate distinguishes ransomware from norma]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,66 +34,42 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
-                    "name": "android:MDMLog",
-                    "channel": "Managed storage, backup, enterprise file access, or device policy state remains unchanged while bulk destructive file transformation occurs"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application holds or is granted broad storage, document-provider, media, or file-management capability inconsistent with its expected role before or during bulk file transformation"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application runs in foreground, service, or sustained background-active state while concentrated file transformation occurs with weak or no recent user interaction"
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Content resolver, document provider, media store, storage access framework, bulk stream processing, or repeated crypto-adjacent framework use observed during multi-file transformation"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: ContentResolver, DocumentProvider, StorageAccessFramework, or bulk stream I/O invocations exceed $FileModificationRateThreshold$ operations per minute across distinct file paths \u2014 API-level operation rate distinguishes ransomware from norma"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Maximum correlation span between app activation, framework use, and burst file transformation."
+                    "field": "ApprovedFileManagerApps",
+                    "description": "Approved file management and backup apps. Derive from MDM catalog. Tightening: empty \u2014 all MANAGE_EXTERNAL_STORAGE holders flagged outside MDM agent."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Approved apps allowed to perform legitimate broad file operations such as backup, sync, AV scanning, enterprise migration, media editing, or document management."
+                    "field": "FileModificationRateThreshold",
+                    "description": "Default 50 file writes/minute across 3+ directories. Derive from legitimate backup/sync app baseline. Tightening: 20 writes/min \u2014 catches slower encryption."
                 },
                 {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether a benign bulk file operation is expected to occur only while the app is visible and actively used."
+                    "field": "MinDirectoryCount",
+                    "description": "Default 3 distinct parent directories within window. Single-directory encryption is less confident."
                 },
                 {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Threshold for determining whether large-scale file transformation was user-driven versus unattended."
-                },
-                {
-                    "field": "FileWriteBurstThreshold",
-                    "description": "Threshold for number of file create, overwrite, rename, or replace actions within the correlation window."
-                },
-                {
-                    "field": "DistinctDirectoryThreshold",
-                    "description": "Threshold for number of distinct folders or content roots touched during the file-impact burst."
-                },
-                {
-                    "field": "ExtensionChangeThreshold",
-                    "description": "Threshold for suspicious file extension changes or replacement-file patterns indicative of mass transformation."
-                },
-                {
-                    "field": "BytesWrittenThreshold",
-                    "description": "Threshold for cumulative bytes written during the impact window."
-                },
-                {
-                    "field": "ProtectedPathAllowList",
-                    "description": "Known paths, document roots, or work-profile storage locations where benign enterprise migration or sync tooling may rewrite many files."
-                },
-                {
-                    "field": "DestinationAllowList",
-                    "description": "Expected network destinations contacted by legitimate storage, sync, backup, or MDM remediation apps."
+                    "field": "RansomwareWindow",
+                    "description": "Default 60s observation window for rate calculation."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bd57670-daac-4d34-815b-a321dcd2b76c",
+    "id": "bundle--f99bb499-d36d-42f3-a9cc-d4957db986cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.117Z",
+            "modified": "2026-09-02T22:17:30.036Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) has registered several broadcast receivers.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",

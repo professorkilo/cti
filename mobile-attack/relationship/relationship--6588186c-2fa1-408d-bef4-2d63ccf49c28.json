@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--517ae61a-b490-4fa0-9bb0-cbc8147a97ba",
+    "id": "bundle--629676b1-4200-41d1-bb5c-ed3158672148",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.063Z",
+            "modified": "2026-09-02T21:32:27.424Z",
             "description": "[CHEMISTGAMES](https://attack.mitre.org/software/S0555) has masqueraded as popular South Korean applications.(Citation: CYBERWARCON CHEMISTGAMES)",
             "relationship_type": "uses",
             "source_ref": "malware--a0d774e4-bafc-4292-8651-3ec899391341",

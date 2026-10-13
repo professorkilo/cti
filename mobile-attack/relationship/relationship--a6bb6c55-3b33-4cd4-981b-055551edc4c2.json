@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01e0a0b4-50e7-4701-8bbd-335998ab86c2",
+    "id": "bundle--972d895e-5f5a-4288-bf59-930c5c76505b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.152Z",
+            "modified": "2026-09-02T21:35:36.206Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) can use a Domain Generation Algorithm to decode the C2 server location.(Citation: nccgroup_sharkbot_0322) ",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85faf609-b4dc-4bff-bbf4-2b26c989a00e",
+    "id": "bundle--ee3faf24-4123-4c6d-9e55-52bb1fa33b31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.255Z",
+            "modified": "2026-09-02T22:18:03.744Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) includes code to hide its icon, but the function does not appear to be called in an analyzed version of the software.(Citation: Bitdefender - Triout 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

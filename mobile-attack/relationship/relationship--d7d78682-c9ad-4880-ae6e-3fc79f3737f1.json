@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6813bfa3-74a8-4aaf-9a2f-526b6ac8797c",
+    "id": "bundle--a2002450-4ec6-46a9-9a5e-36cbd2260984",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-02T22:20:49.791Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) can delete data from a compromised device.(Citation: CyberMerchants-FlexiSpy)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

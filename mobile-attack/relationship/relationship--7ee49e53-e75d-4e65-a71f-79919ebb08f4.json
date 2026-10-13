@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2ced58d-35f5-4b86-9b78-cfdaf7ef1929",
+    "id": "bundle--8fc75fb2-2609-4a75-b3a4-9f6f5624b944",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-02T18:52:07.916Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can use its ransomware module to encrypt device data and hold it for ransom.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

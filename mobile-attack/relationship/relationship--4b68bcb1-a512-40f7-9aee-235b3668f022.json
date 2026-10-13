@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--168a8baf-aa51-4f6f-854c-9a5527836697",
+    "id": "bundle--8698306c-9700-4077-96fb-8425d6f87b6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-02T18:45:47.259Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can obtain clipboard contents.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

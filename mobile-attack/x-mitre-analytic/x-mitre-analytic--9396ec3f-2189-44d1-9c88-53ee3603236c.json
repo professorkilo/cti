@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6df5a135-3648-42b1-9295-511c3b9e0e47",
+    "id": "bundle--5995ea2e-877a-4648-8dfb-71e5db9325a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.380Z",
+            "modified": "2026-10-13T17:41:58.537Z",
             "name": "Analytic 1794",
-            "description": "A defender observes an application generating application-layer communications that blend with normal traffic (HTTP(S), WebSocket, DNS, mail protocols) but show deviations from enterprise baselines for that bundle ID\u2014such as persistent background network sessions, regular low-volume polling intervals, anomalous SNI/Host destinations, uncommon DNS patterns, or uniform request/response sizing\u2014suggesting command and control over legitimate-looking protocols without relying on tool signatures.",
+            "description": "For iOS, detect Application Layer Protocol by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Connection Creation via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,33 +34,51 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
-                    "name": "NSM:Flow",
-                    "channel": "Application-layer protocol traffic exhibiting beacon-like periodicity, anomalous session structure, or protocol misuse patterns"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "Application-layer indicators observable via enterprise network controls (HTTP method, URI path pattern class, TLS SNI, JA3/ALPN when available, DNS qname/type) showing anomalous or low-and-slow command polling behavior"
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Framework-based networking usage spikes or uncommon networking stacks observed by agent telemetry (e.g., repeated URLSession/OkHttp-like patterns) without corresponding foreground/user interaction"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "CadenceAnomalyThreshold",
-                    "description": "Defines acceptable deviation in protocol communication timing"
+                    "field": "MDMApprovedCatalog",
+                    "description": "MDM-managed app list."
                 },
                 {
-                    "field": "SessionPersistenceThreshold",
-                    "description": "Baseline deviation tolerance for long-lived sessions"
+                    "field": "AppBaselineDomains",
+                    "description": "Per-app CDN/update domains, 30-day baseline."
                 },
                 {
-                    "field": "AppNetworkBehaviorBaseline",
-                    "description": "Expected mapping of application functionality to protocol usage"
+                    "field": "BeaconVarianceThreshold",
+                    "description": "Default 15% interval variance. Derive from baseline traffic analysis."
+                },
+                {
+                    "field": "PayloadVarianceThreshold",
+                    "description": "Default 100 bytes stdev."
+                },
+                {
+                    "field": "BeaconMinCount",
+                    "description": "Default 10 connections."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8543583e-8e46-4787-a621-5460addcd107",
+    "id": "bundle--c53a7a06-2801-4762-9968-3cf7dc2ade83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:42:46.862Z",
             "name": "Analytic 1737",
-            "description": "Correlates (1) application access to device- or environment-specific attributes used to validate target conditions, (2) suppression of sensitive behavior until those attributes match an expected value, and (3) immediate transition into protected actions such as sensor use, file access, or network communication only after the condition is satisfied. The defender observes a causal chain where an app repeatedly evaluates device state or environment context and withholds execution until a target-specific match occurs.",
+            "description": "For Android, detect Execution Guardrails from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App performs burst of environmental check APIs (Build properties, TelephonyManager IMSI, PackageManager security-tool query) at cold launch before user interaction \u2014 multi-category environment fingerprint is the guardrail setup]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,39 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application holds permissions enabling environment validation (e.g., location, phone state, nearby device/network context) and subsequently delays protected activity until qualifying values are present"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application queries target-selection attributes (e.g., location, SIM/operator, locale, device state, network identity) and then conditionally invokes sensitive framework APIs only after expected value is observed"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App performs burst of environmental check APIs (Build properties, TelephonyManager IMSI, PackageManager security-tool query) at cold launch before user interaction \u2014 multi-category environment fingerprint is the guardrail setup"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between environment checks and subsequent guarded execution"
+                    "field": "GuardrailCheckWindow",
+                    "description": "Default 30s at cold launch. Environmental checks at launch before user interaction are guardrail setup. Post-interaction checks may be feature-driven."
                 },
                 {
-                    "field": "TargetAttributeSet",
-                    "description": "Environment attributes treated as likely guardrail inputs, such as locale, geolocation, carrier, Wi-Fi identity, device model, or lock state"
-                },
-                {
-                    "field": "DormancyThreshold",
-                    "description": "Amount of suppressed or low-activity runtime before sensitive behavior begins"
-                },
-                {
-                    "field": "AllowedAppList",
-                    "description": "Baseline of legitimate apps expected to evaluate environment attributes before conditional feature activation"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether guarded execution is only suspicious when activated from background or without recent user interaction"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum outbound traffic volume used to distinguish meaningful guarded execution from benign telemetry"
+                    "field": "PopulationComparisonRequired",
+                    "description": "Behavioral fork detection requires telemetry across multiple device populations (enrolled vs unenrolled). Without population comparison, single-device detection is Low confidence."
                 }
             ]
         }

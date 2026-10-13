@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbf8469b-ae6b-4b71-9be3-609131c7648d",
+    "id": "bundle--a220994c-e277-41fc-b216-e0b6e640dc64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-02T21:48:27.556Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) can record the screen and take screenshots to capture messages from Line, Facebook Messenger, and WhatsApp.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

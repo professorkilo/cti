@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e4a910b-b74f-4f12-a6e7-090b76173110",
+    "id": "bundle--df14a147-7db4-4ccb-9c46-7840409d8c2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:42:40.930Z",
             "name": "Analytic 1815",
-            "description": "Correlates (1) continuous or repeated use of motion or interaction-inference signals that do not require overt user-facing privilege prompts, (2) suppression of higher-risk behavior while user presence or active handling is inferred, and (3) resumption of background execution, sensor use, local data handling, or network activity only when device interaction falls below a threshold. The defender observes a causal chain where an application senses user/device interaction state and intentionally gates malicious behavior to user-inactive periods.",
+            "description": "For Android, detect User Evasion from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes SensorManager.registerListener() for TYPE_ACCELEROMETER or TYPE_GYROSCOPE NOT IN $ApprovedMotionApps$ followed by conditional execution branching correlated with sensor readings \u2014 motion sensing followed by behavioral conditiona]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,14 +34,14 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes motion-sensor or device-activity framework operations followed by conditional execution of sensitive framework activity only after inferred user absence"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application reduces or halts operational activity during periods of active user interaction and resumes background execution or periodic work only during low-motion or idle intervals"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes SensorManager.registerListener() for TYPE_ACCELEROMETER or TYPE_GYROSCOPE NOT IN $ApprovedMotionApps$ followed by conditional execution branching correlated with sensor readings \u2014 motion sensing followed by behavioral conditiona"
                 }
             ],
             "x_mitre_mutable_elements": [

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca19727d-ae6f-4eac-b7b1-38f9e2ca360c",
+    "id": "bundle--335f78e7-bbc1-4c02-98bc-306ba2dbb1ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.129Z",
+            "modified": "2026-09-02T20:56:56.855Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) has disabled play protect.(Citation: welivesecurity_apt-c-23)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

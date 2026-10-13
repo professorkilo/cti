@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--661075b7-1ab4-4ea9-b417-ecb04ada9e04",
+    "id": "bundle--024de7af-bf28-4ae7-8629-e6dc38a63886",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.035Z",
+            "modified": "2026-09-02T20:50:12.822Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can collect the device\u2019s ID.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

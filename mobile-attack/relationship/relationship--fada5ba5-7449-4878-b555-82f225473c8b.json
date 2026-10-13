@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37d118eb-d80c-41fa-8ccf-2e1153139816",
+    "id": "bundle--c46a8e01-00b1-44c8-aa1f-4b910f5ae48c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.265Z",
+            "modified": "2026-09-02T20:57:49.833Z",
             "description": "Attestation can detect unauthorized modifications to devices. Mobile security software can then use this information and take appropriate mitigation action. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--ff4821f6-5afb-481b-8c0f-26c28c0d666c",

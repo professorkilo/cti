@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--495acb72-6d81-4b75-b1bf-fe592d8a7355",
+    "id": "bundle--b9f4046c-251c-48fc-8e00-4cd237fcce01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.049Z",
+            "modified": "2026-09-02T21:36:21.432Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can collect the device\u2019s call log.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

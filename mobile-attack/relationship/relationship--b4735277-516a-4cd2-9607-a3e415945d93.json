@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--202c3d76-ceb0-4d98-83ad-02da17e1c117",
+    "id": "bundle--8ab4ee2c-8040-4819-9173-1774d81d6730",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-02T21:41:03.994Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) can remotely capture device audio.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--671ca2ab-e352-4f3d-baf3-2d6030f5a56c",
+    "id": "bundle--2e47a853-e05a-41b2-a18d-daf5c92fd552",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.968Z",
+            "modified": "2026-09-02T21:35:57.935Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can collect SMS messages.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

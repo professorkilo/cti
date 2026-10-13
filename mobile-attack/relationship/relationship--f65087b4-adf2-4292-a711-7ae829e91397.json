@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c89249f-3925-4cae-9388-ab49dd657dbd",
+    "id": "bundle--c0101063-841a-434b-89c0-77b03d79928d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T21:49:27.237Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can list applications installed on the device.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

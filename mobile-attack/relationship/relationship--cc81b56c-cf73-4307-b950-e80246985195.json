@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4461419b-c60b-4a43-98d8-3ab610c1080c",
+    "id": "bundle--e24ab5e0-5298-47fb-8fc1-1d9f19c412c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.205Z",
+            "modified": "2026-09-02T22:19:12.808Z",
             "description": "OS security updates typically contain exploit patches when disclosed.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d",

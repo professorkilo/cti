@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--220a8065-f98f-4061-9736-46232ebe008e",
+    "id": "bundle--b2af94ef-5e2b-4353-800a-2dd786c1d947",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-02T21:49:41.267Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) has encrypted C2 communications using Base64-encoded RC4.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

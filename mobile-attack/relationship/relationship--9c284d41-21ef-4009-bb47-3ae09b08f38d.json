@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5c26a31-abf1-445e-8e8a-9ebc169f7eeb",
+    "id": "bundle--1dd96e88-4f37-4028-a0bf-9854cac322ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-02T21:36:49.217Z",
             "description": "Users should be wary of granting applications dangerous or privacy-intrusive permissions, such as access to location information. Users should also protect their account credentials and enable multi-factor authentication options when available. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

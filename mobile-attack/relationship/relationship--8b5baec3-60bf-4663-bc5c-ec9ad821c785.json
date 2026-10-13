@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ee6bad0-aa14-470c-b600-db007aee8634",
+    "id": "bundle--9d3feb07-5ae7-45bb-ac30-21ab07534734",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.115Z",
+            "modified": "2026-09-02T20:56:11.424Z",
             "description": "[Pegasus for iOS](https://attack.mitre.org/software/S0289) has been distributed via malicious links in SMS messages.(Citation: CitizenLab Great iPwn)",
             "relationship_type": "uses",
             "source_ref": "malware--33d9d91d-aad9-49d5-a516-220ce101ac8a",

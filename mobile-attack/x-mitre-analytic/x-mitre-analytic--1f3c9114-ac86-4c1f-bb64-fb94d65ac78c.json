@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac30a656-aff8-4840-83bb-bcd6c240fd7f",
+    "id": "bundle--3d4c14e4-06e4-4673-afee-75dcfb1e39f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:40:53.836Z",
             "name": "Analytic 1762",
-            "description": "An application generates, imports, or accesses asymmetric keypairs (e.g., RSA/ECC), uses a public key to encrypt outbound data or establish encrypted sessions, and transmits resulting ciphertext in structured communication patterns. Detection correlates keypair lifecycle activity + asymmetric crypto API usage + data transformation + background execution context + network transmission, especially when inconsistent with expected application functionality.",
+            "description": "For Android, detect Asymmetric Cryptography from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes asymmetric-encrypted blob or encoded ciphertext to local staging path before network transmission \u2014 encrypted staging artifact]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,51 +34,43 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "App invokes asymmetric cryptographic operations (e.g., RSA/ECC keypair generation OR public key encryption OR signature operations) on outbound data buffers"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Keypair generation, import, or access events (public/private key usage) occurring prior to network communication"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "App writes asymmetric-encrypted blobs or encoded ciphertext to local buffers or files prior to transmission"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Asymmetric crypto operations occur while app_state=background OR device_locked=true OR no recent user interaction"
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "App not in approved cryptographic or secure communication category performing keypair + encryption + transmission behavior"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes asymmetric-encrypted blob or encoded ciphertext to local staging path before network transmission \u2014 encrypted staging artifact"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes RSA/ECC keypair generation, public-key import, or asymmetric encryption operations (KeyPairGenerator, Cipher.RSA, ECDH) NOT IN $ApprovedCryptoApps$ before network transmission"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Keypair generation, import, or private-key access events occurring prior to outbound communication not matching app declared secure-communication function"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between keypair usage and outbound communication"
+                    "field": "ApprovedCryptoApps",
+                    "description": "VPN clients, enterprise secure messaging, MDM agent, apps with documented asymmetric crypto need (certificate-pinned enterprise apps). Derive from MDM catalog."
                 },
                 {
-                    "field": "AllowedCryptoApps",
-                    "description": "Apps expected to use asymmetric cryptography (e.g., secure messaging, VPN, enterprise auth apps)"
+                    "field": "InteractionThreshold",
+                    "description": "Default 300s."
                 },
                 {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether key generation/encryption should occur only during user interaction"
-                },
-                {
-                    "field": "KeyGenerationThreshold",
-                    "description": "Frequency of keypair generation/import events considered anomalous"
-                },
-                {
-                    "field": "PayloadSizeVariance",
-                    "description": "Expected variability in payload sizes due to asymmetric encryption overhead"
+                    "field": "AppCDNList",
+                    "description": "30-day per-app network destination baseline."
                 }
             ]
         }

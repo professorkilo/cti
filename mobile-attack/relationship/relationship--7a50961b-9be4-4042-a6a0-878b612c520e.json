@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e1ba18a-5ddd-41e2-be5f-be3d4e6f1eaa",
+    "id": "bundle--f5256e09-e65a-4b18-8607-81d024ba668f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.093Z",
+            "modified": "2026-09-02T21:41:03.854Z",
             "description": "[FinFisher](https://attack.mitre.org/software/S0182) uses the device microphone to record phone conversations.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",

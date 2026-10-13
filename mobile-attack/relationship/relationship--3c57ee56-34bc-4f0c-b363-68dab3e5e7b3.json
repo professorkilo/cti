@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c90b8856-2896-4966-adac-b8c481827ccb",
+    "id": "bundle--5bd2c6e0-be88-44d6-8833-a0062cb860f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.006Z",
+            "modified": "2026-09-02T21:32:27.389Z",
             "description": "[DroidJack](https://attack.mitre.org/software/S0320) included code from the legitimate Pokemon GO app in order to appear identical to the user, but it also included additional malicious code.(Citation: Proofpoint-Droidjack)",
             "relationship_type": "uses",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",

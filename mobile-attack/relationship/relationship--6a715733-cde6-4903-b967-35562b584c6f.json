@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8119f68e-fd19-4f97-b0ec-b050541414f4",
+    "id": "bundle--a92f49a1-b234-41b3-8276-d66b4ffaa33e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-02T21:49:26.803Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can obtain a list of installed non-Apple applications.(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

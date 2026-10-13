@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5f5aa95-0dbe-46e9-8fc5-ab694de2a2d8",
+    "id": "bundle--e58c402f-9b94-4a9c-85c3-85f1f06e1d1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.045Z",
+            "modified": "2026-09-02T22:20:49.661Z",
             "description": "[DoubleAgent](https://attack.mitre.org/software/S0550) has deleted or renamed specific files.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--3d6c4389-3489-40a3-beda-c56e650b6f68",

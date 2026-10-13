@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--525b317a-1e56-44a6-bbea-8f300ce0afbc",
+    "id": "bundle--b6f15c53-d66f-4aba-b356-cd4d71e6cbd5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-02T21:35:35.939Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) has stored encrypted strings in the APK file.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6693be01-4a37-4818-b794-42c4ac5a454e",
+    "id": "bundle--48f245fe-8e2c-47cd-b90d-4dede5a7dbf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-02T18:56:23.258Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) avoids being analyzed by only activating the malware after recording a certain number of steps from the accelerometer.(Citation: Threat Fabric Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

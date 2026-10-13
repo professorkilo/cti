@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5693c86a-0f06-4fe3-8642-0dd56e7a2516",
+    "id": "bundle--a245e77c-3a70-40d8-81a4-d6998f5c7909",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-02T21:35:36.258Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) dynamically loads its malicious functionality at runtime from an RC4-encrypted TTF file. [EventBot](https://attack.mitre.org/software/S0478) also utilizes ProGuard to obfuscate the generated APK file.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

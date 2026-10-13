@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52f8ed42-ae80-4954-8025-36f38545577d",
+    "id": "bundle--98ce46c4-f965-496c-9b90-f91f8d0b3a9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.044Z",
+            "modified": "2026-09-02T21:35:58.109Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can retrieve SMS messages and iMessages.(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc7ea384-ca4b-4945-9e8a-26c6a8aebdd4",
+    "id": "bundle--807ecc00-7e62-49cc-a9c2-4d799675ff54",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.030Z",
+            "modified": "2026-09-02T22:19:31.531Z",
             "description": "[S.O.V.A.](https://attack.mitre.org/software/S1062) can uninstall itself.(Citation: threatfabric_sova_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--4b53eb01-57d7-47b4-b078-22766b002b36",

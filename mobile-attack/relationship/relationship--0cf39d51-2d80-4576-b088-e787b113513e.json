@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25c51d29-43f2-4660-8f0a-87bc075d9958",
+    "id": "bundle--4f2271c9-901e-4f44-a947-782286e79c74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.921Z",
+            "modified": "2026-09-02T22:10:24.522Z",
             "description": "[FlyTrap](https://attack.mitre.org/software/S1093) can use HTTP to communicate with the C2 server.(Citation: Zimperium FlyTrap)",
             "relationship_type": "uses",
             "source_ref": "malware--8338393c-cb2e-4ee6-b944-34672499c785",

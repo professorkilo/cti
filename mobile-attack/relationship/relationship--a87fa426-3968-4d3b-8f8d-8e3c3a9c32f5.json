@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5aec9ed-82ca-4c0f-ade0-dd558f4daf7c",
+    "id": "bundle--ef99d6b9-a7db-4ee6-9c57-2a93e890e125",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-02T20:50:13.105Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) gathers information about the device, including the default SMS application, if SafetyNet is enabled, the battery level, the operating system version, and if the malware has elevated permissions.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5cc0c15-1a7a-4c9e-a55d-baa2b3dca075",
+    "id": "bundle--aa663460-f165-4188-9fee-d0f1814d0bc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-02T21:41:03.983Z",
             "description": "[AndroRAT](https://attack.mitre.org/software/S0292) gathers audio from the microphone.(Citation: Lookout-EnterpriseApps)(Citation: forcepoint_bitter) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",

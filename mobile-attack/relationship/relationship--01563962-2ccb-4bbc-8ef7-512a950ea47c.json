@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abfdf074-fa67-408a-bc4b-16cf8b8b5234",
+    "id": "bundle--26d8f84e-8fb6-43a2-b727-3b40af14296e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:22.060Z",
+            "modified": "2026-09-02T21:49:26.413Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors have obtained a list of installed applications.(Citation: SecureList OpTriangulation 21Jun2023) ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d71b7851-5306-4e04-b4d9-fa6e41db90b6",
+    "id": "bundle--4934b098-0afa-40cc-8f08-080fa47d509b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-02T20:50:13.094Z",
             "description": "[ANDROIDOS_ANSERVER.A](https://attack.mitre.org/software/S0310) gathers the device OS version, device build version, manufacturer, and model.(Citation: TrendMicro-Anserver2)",
             "relationship_type": "uses",
             "source_ref": "malware--4bf6ba32-4165-42c1-b911-9c36165891c8",

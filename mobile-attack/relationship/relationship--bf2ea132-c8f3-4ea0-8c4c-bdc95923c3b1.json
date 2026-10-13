@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83308dac-adbf-49eb-9a9c-de3481e80582",
+    "id": "bundle--823f63dc-8dea-43c4-802f-bc7367301d1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-02T21:41:04.032Z",
             "description": "[SpyNote RAT](https://attack.mitre.org/software/S0305) can activate the victim's microphone.(Citation: Zscaler-SpyNote)",
             "relationship_type": "uses",
             "source_ref": "malware--20dbaf05-59b8-4dc6-8777-0b17f4553a23",

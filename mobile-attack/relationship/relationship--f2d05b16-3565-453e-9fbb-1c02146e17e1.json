@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b80d7431-73e7-4d3c-828a-ab3e29bd73e9",
+    "id": "bundle--7bdb1c55-ea5f-4287-a03d-7a98507d6a6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.255Z",
+            "modified": "2026-09-02T22:13:45.790Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) can record keystrokes.(Citation: Threat Fabric Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

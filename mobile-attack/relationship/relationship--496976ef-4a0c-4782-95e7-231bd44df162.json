@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1bdee8a7-dbe0-4433-bf1e-80330d1c5998",
+    "id": "bundle--d658c70a-7dd3-44d0-b07d-19f4de3b84e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-02T20:50:12.784Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) can collect various pieces of device information, including device model and OS version.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

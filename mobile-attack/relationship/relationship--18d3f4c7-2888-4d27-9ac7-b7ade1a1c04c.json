@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85ea06af-ed83-482e-8645-b711cddf4a27",
+    "id": "bundle--0cd7ceff-1482-4620-8359-962f3ad1821f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-02T21:35:57.811Z",
             "description": "[Adups](https://attack.mitre.org/software/S0309) transmitted the full contents of text messages.(Citation: NYTimes-BackDoor)",
             "relationship_type": "uses",
             "source_ref": "malware--f6ac21b6-2592-400c-8472-10d0e2f1bfaf",

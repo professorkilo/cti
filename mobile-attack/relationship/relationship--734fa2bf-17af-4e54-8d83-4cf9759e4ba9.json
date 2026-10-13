@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09126058-cb71-409a-a524-fd661d0b7500",
+    "id": "bundle--0ecb2e87-eb22-4bed-a2e5-22fbe9fd42a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.083Z",
+            "modified": "2026-09-02T22:20:20.394Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can block, forward, hide, and send SMS messages.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

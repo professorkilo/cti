@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63f21db5-1ee7-481a-8e8c-73d11fdaba80",
+    "id": "bundle--cae4e6d1-4c38-4a26-93ce-bb7b38923829",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.241Z",
+            "modified": "2026-09-02T20:46:41.056Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has displayed masqueraded wallet applications if the EnabledUIMode field is set to `true`. [CherryBlos](https://attack.mitre.org/software/S1225) has also displayed a fake user interface while victims make withdrawals in the legitimate Binance application if the EnableExchange field is set to `true`. The withdrawal transaction is ultimately transferred to the threat actor\u2019s controlled address.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

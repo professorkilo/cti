@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b3149c7-03bf-4ce7-ad97-a47f42872ba2",
+    "id": "bundle--abeae388-4b53-40ce-a65b-0b1babed6176",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.380Z",
+            "modified": "2026-10-13T17:42:32.334Z",
             "name": "Analytic 1840",
-            "description": "The defender correlates newly granted or recently exercised storage- or privilege-relevant access with burst reads of local files, local databases, or protected records from operating-system or external-storage locations, especially when the reads are inconsistent with app role, occur in background or locked-device context, or are followed by temporary data staging or network transmission. The analytic emphasizes Android-specific observables such as external storage access, app-private database reads where visible to the sensor, and repeated enumeration/read activity against local paths associated with media, tokens, caches, or exported application data.",
+            "description": "For Android, detect Data from Local System from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Access via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads files across $MinDirectoryCount$+ distinct parent directories with file_read_count > $FileReadRateThreshold$ within $DataCollectionWindow$ in background or low-interaction state \u2014 bulk cross-directory read is the collection signal]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes ContentResolver or SAF (Storage Access Framework) queries across multiple user-data paths outside its own sandbox in background state]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,48 +35,44 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Managed app granted or retaining storage-related or elevated access inconsistent with declared function prior to local data access activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application queries or opens multiple local SQLite or app-associated database stores containing records unrelated to the app's declared function during the collection phase"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application performs burst reads across local system paths, external storage, media directories, cache locations, or local database files within a short interval as the primary collection phase"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads files across $MinDirectoryCount$+ distinct parent directories with file_read_count > $FileReadRateThreshold$ within $DataCollectionWindow$ in background or low-interaction state \u2014 bulk cross-directory read is the collection signal"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes ContentResolver or SAF (Storage Access Framework) queries across multiple user-data paths outside its own sandbox in background state"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between permission state, local data reads, optional staging, and outbound transfer"
+                    "field": "ApprovedDataCollectionApps",
+                    "description": "Approved backup, sync, file manager, and media apps. Derive from MDM catalog. Tightening: strict list \u2014 any unapproved app with broad file access is flagged."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps legitimately expected to read local files or databases such as backup, sync, file manager, security, or media management apps"
+                    "field": "FileReadRateThreshold",
+                    "description": "Default 50 file reads within window across 3+ directories. Derive from approved backup app baseline. Tightening: 10 reads \u2014 catches targeted collection."
                 },
                 {
-                    "field": "AllowedPathList",
-                    "description": "Expected local paths, storage roots, and database locations for legitimate app behavior"
+                    "field": "MinDirectoryCount",
+                    "description": "Default 3 distinct parent directories. Single-directory reads may be legitimate (photo editor); cross-directory reads indicate collection sweep."
                 },
                 {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether sensitive local data access should happen only during active user-driven workflows"
+                    "field": "DataCollectionWindow",
+                    "description": "Default 60s observation window."
                 },
                 {
-                    "field": "BurstReadThreshold",
-                    "description": "Minimum number of file or record reads within a short interval required to indicate suspicious collection"
+                    "field": "AppCDNList",
+                    "description": "Per-app CDN baseline."
                 },
                 {
-                    "field": "SensitivePathPatterns",
-                    "description": "Environment-specific list of high-value local paths such as external media roots, app export folders, token stores, or browser data locations"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum upload size expected if collection is followed by exfiltration"
+                    "field": "ExfilWindow",
+                    "description": "Default 120s between staging and upload."
                 }
             ]
         }

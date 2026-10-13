@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a5cb97d-2cce-4de5-90d2-5fb7d59b2d0f",
+    "id": "bundle--486b0f02-74e7-4b01-a244-e28fbf75a9d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-02T22:20:20.243Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can send SMS phishing messages to other contacts on an infected device.(Citation: proofpoint_flubot_0421)(Citation: bitdefender_flubot_0524)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

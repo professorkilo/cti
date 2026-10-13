@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da3de0e6-b33b-44e1-9085-9551c23f879f",
+    "id": "bundle--72ee509c-9c55-422a-9b52-38750d60fa8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.768Z",
+            "modified": "2026-09-02T18:52:47.237Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included malware functionality capable of downloading new DEX files at runtime during Operation BULL.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

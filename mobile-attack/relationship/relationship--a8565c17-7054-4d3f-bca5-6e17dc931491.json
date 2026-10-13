@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f997303-a469-4175-a3cd-7067056c7dd6",
+    "id": "bundle--04fd2791-5d71-4abe-93ee-8ab565792bcd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-02T18:50:11.383Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has used private APIs to download and install other pieces of itself, as well as other malicious apps. (Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

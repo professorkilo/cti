@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72f10aee-d451-415e-ba50-3dca318f12af",
+    "id": "bundle--bc357f41-b4d0-4f37-b89f-2ff6ce987085",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.165Z",
+            "modified": "2026-09-02T22:15:43.779Z",
             "description": "[Zen](https://attack.mitre.org/software/S0494) can simulate user clicks on ads and system prompts to create new Google accounts.(Citation: Google Security Zen)",
             "relationship_type": "uses",
             "source_ref": "malware--22faaa56-a8ac-4292-9be6-b571b255ee40",

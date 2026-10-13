@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad75faa6-e524-4cfc-b9c0-ec83931c0c16",
+    "id": "bundle--21f9e22f-effa-4a28-9df9-89e6eb676a50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-02T21:49:27.054Z",
             "description": " [FlexiSpy](https://attack.mitre.org/software/S0408) can retrieve a list of installed applications.(Citation: FlexiSpy-Features) ",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

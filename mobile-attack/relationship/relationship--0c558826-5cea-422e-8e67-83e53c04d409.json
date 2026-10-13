@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--049d7f8a-725c-4ebc-9cc8-bded8c789281",
+    "id": "bundle--6096f78d-2793-42c4-b84c-acb78b7e8e48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-02T18:56:23.013Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) communicates with the C2 using HTTP requests over port 8888.(Citation: CheckPoint Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

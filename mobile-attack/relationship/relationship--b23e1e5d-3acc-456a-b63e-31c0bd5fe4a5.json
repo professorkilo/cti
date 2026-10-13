@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd218d70-cd2d-402a-9064-052b0a7bf023",
+    "id": "bundle--2d16ae1b-5324-46c7-9645-a4efa38d7fab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-02T21:49:04.049Z",
             "description": "Android 10 introduced changes that prevent normal applications from accessing sensitive device identifiers.(Citation: TelephonyManager) ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--0beabf44-e8d8-4ae4-9122-ef56369a2564",

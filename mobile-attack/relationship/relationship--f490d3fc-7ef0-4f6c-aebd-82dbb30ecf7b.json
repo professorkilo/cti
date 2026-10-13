@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb7efcd3-bbf8-4fd2-930a-a6479157f007",
+    "id": "bundle--b2917bfb-bbef-40f3-9e5c-a30d47717da7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.257Z",
+            "modified": "2026-09-02T22:13:45.825Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has logged keystrokes of an infected device.(Citation: ESET_VajraSpy_Feb2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

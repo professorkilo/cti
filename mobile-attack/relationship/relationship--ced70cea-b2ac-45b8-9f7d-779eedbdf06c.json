@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0fcc70ce-c7b8-47f9-8e8c-fc831e314848",
+    "id": "bundle--dd86a716-7aa3-4abf-adb6-11f4d86a162b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-02T21:41:04.053Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can record audio and phone calls.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

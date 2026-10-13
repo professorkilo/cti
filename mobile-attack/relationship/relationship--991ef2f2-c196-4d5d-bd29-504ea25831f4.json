@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c73d832-6854-4385-98c8-a5e5db2ff36d",
+    "id": "bundle--da1c9997-fbcf-4d43-89e3-dd27f94c8038",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.134Z",
+            "modified": "2026-09-02T21:48:05.095Z",
             "description": "[BusyGasper](https://attack.mitre.org/software/S0655) can record from the device\u2019s camera.(Citation: SecureList BusyGasper)",
             "relationship_type": "uses",
             "source_ref": "malware--e110f94a-e2c5-4f5f-ba78-9c2ab6d2d9e4",

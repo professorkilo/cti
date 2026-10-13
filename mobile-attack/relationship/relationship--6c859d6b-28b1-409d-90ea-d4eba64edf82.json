@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--649c96d3-550b-4254-af75-0b7af7c889b2",
+    "id": "bundle--9629a2e9-9988-47f8-a301-fa65b98feaba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.073Z",
+            "modified": "2026-09-02T20:50:12.876Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect system information, including brand, manufacturer, and serial number.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

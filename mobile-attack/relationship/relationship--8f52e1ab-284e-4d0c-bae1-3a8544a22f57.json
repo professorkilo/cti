@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53a713b0-430c-4322-abd4-a382425d10f9",
+    "id": "bundle--9880eccc-87b1-4ef5-b6cf-f13ef0e7fde9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-02T22:20:49.733Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) can wipe the device.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",

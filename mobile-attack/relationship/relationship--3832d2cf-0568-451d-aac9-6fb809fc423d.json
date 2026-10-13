@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61914a04-c02c-47df-935f-00a656b21372",
+    "id": "bundle--20c6d5be-9fa5-4aaf-b438-829e572b4861",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.570Z",
+            "modified": "2026-09-02T18:52:46.945Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has hidden multimedia files from the user.(Citation: Cyfirma Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

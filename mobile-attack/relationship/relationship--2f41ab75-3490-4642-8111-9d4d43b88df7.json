@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c18f806a-a7fb-4900-9a98-3576a56160cd",
+    "id": "bundle--8c55c3e4-46f8-465c-a55e-df9fd0ef6ba3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.970Z",
+            "modified": "2026-09-02T21:48:27.513Z",
             "description": "[Sunbird](https://attack.mitre.org/software/S1082) can take screenshots and abuse accessibility services to scrape BlackBerry Messenger and WhatsApp messages, contacts, and notifications(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--feae299d-e34f-4fc9-8545-486d0905bd41",

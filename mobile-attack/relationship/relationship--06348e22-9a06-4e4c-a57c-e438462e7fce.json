@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4aac3f79-2e0b-4c5b-8e91-5707cca92ce6",
+    "id": "bundle--dc4dc58f-1157-456e-aeb7-7352a0d5c799",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-02T21:41:03.354Z",
             "description": "[Skygofree](https://attack.mitre.org/software/S0327) can record audio via the microphone when an infected device is in a specified location.(Citation: Kaspersky-Skygofree)",
             "relationship_type": "uses",
             "source_ref": "malware--3a913bac-4fae-4d0e-bca8-cae452f1599b",

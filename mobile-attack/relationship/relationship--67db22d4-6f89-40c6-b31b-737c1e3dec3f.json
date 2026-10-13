@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c408e53-bae5-4b91-a091-9591e42e502d",
+    "id": "bundle--7712dccb-287f-44dd-ac3b-7c29708096ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.066Z",
+            "modified": "2026-09-02T18:52:07.860Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) has used motion sensor data  to attempt to determine if it is running in an emulator.(Citation: Trend Micro Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

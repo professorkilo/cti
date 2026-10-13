@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23abb739-10a1-486e-ac46-5708e3ed78ee",
+    "id": "bundle--61383561-5c88-4201-9b08-ed7c095735f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T21:35:58.560Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) can intercept incoming SMS messages.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

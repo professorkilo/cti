@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5043a5f-898b-4dca-848e-986137b5ea39",
+    "id": "bundle--5d882659-983f-4c06-b580-99e4ea671bad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-02T21:36:49.422Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can access a device's location.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

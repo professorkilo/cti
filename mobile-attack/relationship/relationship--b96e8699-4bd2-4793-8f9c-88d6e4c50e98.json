@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb0e79ff-cf8f-4f9c-a237-03072c2f9d77",
+    "id": "bundle--72c6284d-721c-4059-85e7-e6444536580f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-02T22:13:12.989Z",
             "description": "[FlyTrap](https://attack.mitre.org/software/S1093) has used infected applications with Facebook login prompts to steal credentials.(Citation: Trend Micro FlyTrap)",
             "relationship_type": "uses",
             "source_ref": "malware--8338393c-cb2e-4ee6-b944-34672499c785",

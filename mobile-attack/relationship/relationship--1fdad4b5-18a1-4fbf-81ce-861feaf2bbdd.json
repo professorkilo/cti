@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af0a94c7-39fc-41ff-a1f6-238fac5d23b8",
+    "id": "bundle--4bcaf8cc-8173-437f-b7a0-460749d580cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.948Z",
+            "modified": "2026-09-02T18:52:07.794Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) can exfiltrate files encrypted with the ransomware module from the device and can modify external storage.(Citation: Cofense Anubis)(Citation: Trend Micro Anubis) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

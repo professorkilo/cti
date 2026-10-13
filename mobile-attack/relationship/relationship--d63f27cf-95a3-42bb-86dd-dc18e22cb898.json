@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ee018e6-a1f4-4b44-931e-9660da6d4b94",
+    "id": "bundle--26a7a03e-416c-408f-a2d6-98d556441a4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-02T21:36:21.634Z",
             "description": "[Monokle](https://attack.mitre.org/software/S0407) can retrieve call history.(Citation: Lookout-Monokle)",
             "relationship_type": "uses",
             "source_ref": "malware--6a7aaab1-3e0a-48bb-ba66-bbf7665c0a65",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1119ccb8-2f34-4778-b7ff-7651fc3bb025",
+    "id": "bundle--b1545776-49f2-4b6e-b6ae-424383ad3608",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.063Z",
+            "modified": "2026-09-02T22:13:12.864Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has performed overlay attacks against a device by injecting HTML phishing pages into a webview.(Citation: cyble_chameleon_0423) [Chameleon](https://attack.mitre.org/software/S1083) has launched overlay attacks through the \u201cInjection\u201d activity.(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

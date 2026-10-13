@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86870d58-dece-40e1-9005-e6c5df65b08b",
+    "id": "bundle--6e57ba6a-288c-463c-9617-4e8d2f1d2120",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.957Z",
+            "modified": "2026-09-02T18:50:11.221Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) has collected compromised device MAC addresses.(Citation: paloalto_yispecter_1015)",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

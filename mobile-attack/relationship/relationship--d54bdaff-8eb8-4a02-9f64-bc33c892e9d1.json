@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d43b3f91-21f0-4732-9e05-a51d77c708c7",
+    "id": "bundle--b4da48c4-9f05-47b4-9b63-8dd8302de4b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.217Z",
+            "modified": "2026-09-02T18:45:40.414Z",
             "description": "[ZergHelper](https://attack.mitre.org/software/S0287) attempts to extend its capabilities via dynamic updating of its code.(Citation: Xiao-ZergHelper)",
             "relationship_type": "uses",
             "source_ref": "malware--3c3b55a6-c3e9-4043-8aae-283fe96220c0",

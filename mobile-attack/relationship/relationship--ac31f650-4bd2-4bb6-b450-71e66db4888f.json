@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd6c26a2-c186-4390-bdd5-a71c6171a8f9",
+    "id": "bundle--d49d6e45-81ec-41cb-8729-89e9912d2cb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-02T20:57:49.809Z",
             "description": "Security updates typically provide patches for vulnerabilities that could be abused by malicious applications.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--bcecd036-f40e-4916-9f8e-fd0ccf0ece8d",

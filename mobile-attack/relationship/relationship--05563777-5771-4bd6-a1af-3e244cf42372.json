@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--254e1a81-0934-42e7-976f-7a8c384141e4",
+    "id": "bundle--34cbc04c-4f11-4a63-abd4-5e7c8bd647a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.910Z",
+            "modified": "2026-09-02T20:50:12.644Z",
             "description": "Most [KeyRaider](https://attack.mitre.org/software/S0288) samples search to find the Apple account's username, password and device's GUID in data being transferred.(Citation: Xiao-KeyRaider)",
             "relationship_type": "uses",
             "source_ref": "malware--3bc1f0ad-ef11-4afc-83c0-fcffe08d4e50",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41044d0b-d972-4ff4-b36f-0283cdc6bf6b",
+    "id": "bundle--ec2831c3-d383-4d35-9721-dbefd3a99c3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.185Z",
+            "modified": "2026-09-02T21:48:05.204Z",
             "description": "[Pegasus for Android](https://attack.mitre.org/software/S0316) has the ability to take pictures using the device camera.(Citation: Lookout-PegasusAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",

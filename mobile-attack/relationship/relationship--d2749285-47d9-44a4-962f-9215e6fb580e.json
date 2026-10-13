@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea8b8057-f705-41f8-a134-d6730d537653",
+    "id": "bundle--2d1834b4-ed38-464e-84d3-f5c684b5ee82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-02T18:51:23.887Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can access the device\u2019s contact list.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

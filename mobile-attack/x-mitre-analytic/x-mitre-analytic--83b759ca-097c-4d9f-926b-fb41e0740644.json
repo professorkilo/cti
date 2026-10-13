@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f78a0ce-e2cc-4bec-aea8-c608f205d6b6",
+    "id": "bundle--23edae75-6b18-4c1a-a769-b90d28e17619",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:41:25.683Z",
             "name": "Analytic 1776",
-            "description": "Defender correlates an application gaining/retaining fine or background location capability with subsequent location sensor sessions that occur while the app is backgrounded or the device is locked, followed by repeated location reads at a periodic cadence and near-term outbound connections to domains not typical for fleet navigation/MDM services, indicating covert location tracking.",
+            "description": "For Android, detect Location Tracking by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate API Calls via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: LocationManager.requestLocationUpdates() called with minTime < $LocationUpdateFreqThreshold$ by app NOT IN $LocationAllowList$]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]; Permissions Request via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,49 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "android:logcat",
-                    "channel": "Application invokes LocationManager, FusedLocationProviderClient, or GPS/location sensor APIs"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: LocationManager.requestLocationUpdates() called with minTime < $LocationUpdateFreqThreshold$ by app NOT IN $LocationAllowList$"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
-                    "name": "EDR:telemetry",
-                    "channel": "Sustained or high-frequency location sensor access, including background location usage"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Application granted/retaining ACCESS_FINE_LOCATION and/or ACCESS_COARSE_LOCATION; background location capability present (ACCESS_BACKGROUND_LOCATION on Android 10+)"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "LocationSamplingFrequencyThreshold",
-                    "description": "Defines acceptable rate of location queries before triggering anomaly conditions"
+                    "field": "LocationAllowList",
+                    "description": "Navigation, delivery, enterprise fleet management apps. Derive from MDM catalog."
                 },
                 {
-                    "field": "BackgroundLocationPolicy",
-                    "description": "Baseline of legitimate background location usage across applications"
+                    "field": "LocationUpdateFreqThreshold",
+                    "description": "Default 60000ms (1 min) \u2014 below this = continuous surveillance vs occasional check-in."
                 },
                 {
-                    "field": "LocationToNetworkTimeWindow",
-                    "description": "Temporal linkage between location access and outbound traffic"
+                    "field": "LocationCDNList",
+                    "description": "Google Maps, Apple Maps, Mapbox, enterprise fleet CDN endpoints."
                 },
                 {
-                    "field": "UserInteractionWindow",
-                    "description": "Maximum time since last user interaction before location access becomes suspicious."
-                },
-                {
-                    "field": "AllowedLocationApps",
-                    "description": "Allow-list of expected location-heavy apps (maps, rideshare, fleet apps) for the enterprise device population"
-                },
-                {
-                    "field": "DevicePolicySensitivity",
-                    "description": "Tuning for how aggressively to treat background location permission as risky depending on org policy."
-                },
-                {
-                    "field": "AllowedDestinationsBaseline",
-                    "description": "Baseline of expected domains/IPs for legitimate location services (OEM, mapping SDKs, MDM endpoints) to reduce false positives."
+                    "field": "ExfilWindow",
+                    "description": "Default 300s."
                 }
             ]
         }

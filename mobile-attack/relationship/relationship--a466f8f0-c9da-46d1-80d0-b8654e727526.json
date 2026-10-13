@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--194218d5-64d0-41c9-92c0-ec0a55f2d19a",
+    "id": "bundle--21427d12-1a9b-47de-b0e0-ebbd4be51e8c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.149Z",
+            "modified": "2026-09-02T21:49:26.963Z",
             "description": "[Sunbird](https://attack.mitre.org/software/S1082) can exfiltrate a list of installed applications.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--feae299d-e34f-4fc9-8545-486d0905bd41",

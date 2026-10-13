@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d39f85a-0898-4ab3-a1bc-2e3479959555",
+    "id": "bundle--1592b8ad-91e9-412b-a677-e794c0112ed1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.104Z",
+            "modified": "2026-09-02T22:20:20.424Z",
             "description": "[Dendroid](https://attack.mitre.org/software/S0301) can send and block SMS messages.(Citation: Lookout-Dendroid)",
             "relationship_type": "uses",
             "source_ref": "malware--317a2c10-d489-431e-b6b2-f0251fddc88e",

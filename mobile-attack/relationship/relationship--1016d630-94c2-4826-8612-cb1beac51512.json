@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4075004-5bc0-44fe-8591-86b677714a50",
+    "id": "bundle--bb312e9b-5060-4cc6-895a-08095f2b4a5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-02T22:10:24.561Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has used HTTP POST requests for communicating with its C2 server.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

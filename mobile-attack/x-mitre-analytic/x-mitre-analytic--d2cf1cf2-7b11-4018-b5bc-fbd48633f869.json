@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dacc6d45-e32d-4c1c-87f0-a57c06fb4316",
+    "id": "bundle--7af8f78b-3e23-4f5a-9cbd-dc26974a09d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:42:39.220Z",
             "name": "Analytic 1822",
-            "description": "The defender correlates call-control capability or telecom role state with subsequent unauthorized call initiation, answer, block, redirect, or concealment behavior by an application outside expected telephony workflows. The analytic prioritizes Android-observable control-plane effects: dangerous or role-gated call-control permissions, default dialer or ConnectionService-related role changes, telecom framework invocation for call placement or handling, write activity against call-log records, and call-control activity occurring from background or locked-device context without recent user interaction.",
+            "description": "For Android, detect Call Control from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Modification via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App inserts, updates, or deletes call log records via CallLog.Calls ContentProvider immediately after call-control action \u2014 call log tampering to conceal interception]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes TelecomManager.answerCall(), placeCall(), endCall(), or ConnectionService call-handling operations without corresponding user-initiated call UI interaction]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,57 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Managed app granted call-control-relevant permissions or telecom role state inconsistent with approved enterprise function before call-control activity"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Default phone or telecom-handling role changes to non-baselined application or managed app unexpectedly becomes dialer/call-handling app during call-control phase"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application invokes call placement, answer, redirect, block, screening, or ConnectionService call-handling APIs during unauthorized call-control phase"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application inserts, updates, deletes, or rewrites call-log records immediately after call-control action to conceal, alter, or synthesize call history"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App inserts, updates, or deletes call log records via CallLog.Calls ContentProvider immediately after call-control action \u2014 call log tampering to conceal interception"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes TelecomManager.answerCall(), placeCall(), endCall(), or ConnectionService call-handling operations without corresponding user-initiated call UI interaction"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between permission or role state, call-control action, call-log mutation, and follow-on network communication"
+                    "field": "ApprovedTelecomApps",
+                    "description": "Default dialer, approved VoIP apps, enterprise call manager. Derive from MDM catalog. Tightening: system dialer and MDM-pushed VoIP only."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps legitimately expected to initiate or manage calls, such as default dialers, carrier tools, enterprise communications apps, or approved call-screening apps"
-                },
-                {
-                    "field": "AllowedDialerRoles",
-                    "description": "Approved packages allowed to become default dialer or telecom-managing app on managed devices"
-                },
-                {
-                    "field": "AllowedDestinationList",
-                    "description": "Approved network destinations associated with legitimate VoIP, carrier, or enterprise communications workflows"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether call-control actions should occur only during active user-driven workflows"
-                },
-                {
-                    "field": "CallLogModificationThreshold",
-                    "description": "Number of call-log insert, update, or delete operations within a short interval required before alerting"
-                },
-                {
-                    "field": "CallActionRateThreshold",
-                    "description": "Maximum expected rate of call placement, answer, redirect, or block actions for legitimate app behavior"
-                },
-                {
-                    "field": "HighRiskNumberPatterns",
-                    "description": "Environment-specific list of suspicious, premium-rate, or adversary-known phone-number patterns"
+                    "field": "CallInteractionThreshold",
+                    "description": "Default 10s between incoming call event and app call-answer action without user UI. Silent answer within 10s of ring without user touch is covert."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1464b71d-9ced-4c1b-b21f-424cd0f9fe37",
+    "id": "bundle--74b38514-74c2-4bfa-98e2-63c36e5582a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.238Z",
+            "modified": "2026-09-02T21:49:41.282Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) encrypts data using a simple XOR operation with a pre-configured key prior to exfiltration.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db6c0a09-1577-4af9-8ba4-ab71a44520d3",
+    "id": "bundle--b4264789-bd19-4d8d-b238-ffeda21ecbaf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-02T18:52:00.414Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) has implemented functions in native code.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

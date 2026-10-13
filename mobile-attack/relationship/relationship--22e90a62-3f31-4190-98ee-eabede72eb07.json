@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8506dd68-20a4-4c9f-b49a-839db9ae0fee",
+    "id": "bundle--c58ea95d-9c2d-4c7d-9653-cf2c0c02760e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:22.100Z",
+            "modified": "2026-09-02T22:12:46.230Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors used 3DES and AES to encrypt C2 communication and data.(Citation: SecureList OpTriangulation 21Jun2023)(Citation: SecureList OpTriangulation 23Oct2023) ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",

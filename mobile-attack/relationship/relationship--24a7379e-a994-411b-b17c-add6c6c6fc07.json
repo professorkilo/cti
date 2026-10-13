@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96f22b47-2991-4c56-bbc5-2f86aeada33f",
+    "id": "bundle--50ea2417-8ceb-466a-b167-51eee6a60198",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-02T21:35:35.807Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) has hidden malicious functionality in a second stage file and has encrypted C2 server information.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

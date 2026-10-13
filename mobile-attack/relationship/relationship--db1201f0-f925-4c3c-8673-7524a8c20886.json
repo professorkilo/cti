@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d430ce2-5903-4756-99a9-52dc48bf9d48",
+    "id": "bundle--b97f8dd9-a599-47da-ad0c-4774c7933731",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.224Z",
+            "modified": "2026-09-02T21:41:04.091Z",
             "description": "[FrozenCell](https://attack.mitre.org/software/S0577) has recorded calls.(Citation: Lookout FrozenCell)",
             "relationship_type": "uses",
             "source_ref": "malware--96ea1e13-d50f-45f1-b0cf-4ac9bc5a2d62",

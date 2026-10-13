@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94e240c9-44bf-44d3-8b62-6a32617e9752",
+    "id": "bundle--b9b4af6d-8369-4271-a354-df40ff19da28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-02T21:32:27.744Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) has masqueraded as popular Korean banking apps.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",

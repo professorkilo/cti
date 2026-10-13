@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0b52d20-86fa-4885-8003-0d5473f06099",
+    "id": "bundle--90bda5ea-20e7-4b50-9854-1fcea60205b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-02T21:48:27.655Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) can take and exfiltrate screenshots.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

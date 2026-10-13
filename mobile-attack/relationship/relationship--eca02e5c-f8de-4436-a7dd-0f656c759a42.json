@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ee3a172-c92d-4b1d-89cd-0f52fc4474f8",
+    "id": "bundle--b141a41d-25e5-4849-8463-eccf80817c2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.247Z",
+            "modified": "2026-09-02T21:48:27.888Z",
             "description": "[BusyGasper](https://attack.mitre.org/software/S0655) can use its keylogger module to take screenshots of the area of the screen that the user tapped.(Citation: SecureList BusyGasper)",
             "relationship_type": "uses",
             "source_ref": "malware--e110f94a-e2c5-4f5f-ba78-9c2ab6d2d9e4",

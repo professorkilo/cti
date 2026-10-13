@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3feb712d-28b5-429b-bcc4-4d13910d41b1",
+    "id": "bundle--d0348ca3-6a16-4700-b2bf-b687c8c1ab55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.380Z",
+            "modified": "2026-10-13T17:42:23.637Z",
             "name": "Analytic 1698",
-            "description": "A managed or supervised app, app update, or enterprise-distributed build retains a legitimate-seeming identity but exhibits post-delivery behavior inconsistent with its expected role, prior version, or distribution context. Because iOS exposes less direct visibility into bundled dependency tampering or component-level supply-chain insertion, the defender prioritizes supervised app inventory, signing/provisioning trust posture, entitlement and behavior drift after update, new sensor/resource use, and new downstream network effects soon after install or version change.",
+            "description": "For iOS, detect Supply Chain Compromise from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Known app begins first-seen use of protected framework categories (location, microphone, contacts) or background task patterns post-update]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,58 +34,38 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
-                    "name": "iOS:MDMLog",
-                    "channel": "Managed app distribution, supervised install posture, or provisioning trust context remains expected while a known app exhibits materially different behavior after version change"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Known application version declares, activates, or exhibits new entitlements, privacy permissions, or capability use inconsistent with prior baseline or business role"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Updated or newly delivered application wakes, foregrounds, refreshes, or becomes active shortly after version change with weak recent user interaction"
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Known application begins first-seen or expanded use of protected frameworks, account services, background task APIs, crypto/network service APIs, or other runtime behaviors after update/install"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Known app begins first-seen use of protected framework categories (location, microphone, contacts) or background task patterns post-update"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Maximum span between app install/version change and first suspicious post-delivery behavior."
+                    "field": "AppNetworkBaseline",
+                    "description": "30-day per-app network destination baseline anchored to prior version. Updated on each planned release. Derive by measurement. Tightening: strict domain allowlist per version."
                 },
                 {
-                    "field": "SupervisedOnly",
-                    "description": "Whether the analytic should only apply to supervised devices with high-confidence app inventory and managed distribution telemetry."
+                    "field": "AppBehaviorBaseline",
+                    "description": "Per-app permission and API call baseline from prior version. Derive from MDM telemetry on known-good version. Any new API category post-update is anomalous."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Approved apps expected to expand capabilities or contact new destinations because of legitimate releases."
-                },
-                {
-                    "field": "AllowedVersionChangeWindow",
-                    "description": "Grace period after approved releases during which some behavior drift may be expected."
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether certain behaviors should only be treated as suspicious when they occur without expected visible user interaction."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Threshold for distinguishing autonomous post-update behavior from expected user-driven first-run flows."
-                },
-                {
-                    "field": "DestinationAllowList",
-                    "description": "Expected new domains, APIs, telemetry services, or CDNs associated with approved app updates."
-                },
-                {
-                    "field": "CapabilityDriftThreshold",
-                    "description": "Threshold for how much entitlement or capability drift is tolerated for a known app."
+                    "field": "PostInstallWindow",
+                    "description": "Default 86400s (24hr) behavioral observation window post-install/update. Tightening: 3600s \u2014 catches immediate post-install C2."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8cd5f6a7-3c2d-49b0-a4c5-bc4a97eb1fa5",
+    "id": "bundle--6fe23791-8a52-4845-ac10-f8a93789ee24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:41:12.771Z",
             "name": "Analytic 1647",
-            "description": "Defender correlates attempts to inventory installed apps via LaunchServices/URL-scheme probing or private APIs (e.g., LSApplicationWorkspace) with checks for high-value targets and quick persistence/egress. Chain: capability/attempt (URL scheme spray or LSWorkspace calls) \u2192 large scheme/app probe set \u2192 optional webview hits to brand domains \u2192 local inventory cache \u2192 small egress.",
+            "description": "For iOS, detect Software Discovery by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate API Calls via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: UIApplication.canOpenURL() called > $URLProbeThreshold$ times with schemes NOT declared in app's LSApplicationQueriesSchemes within $ProbeWindow$]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Connection Creation via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,45 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "iOS:unifiedlog",
-                    "channel": "LSApplicationWorkspace or canOpenURL probe bursts for many URL schemes"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: UIApplication.canOpenURL() called > $URLProbeThreshold$ times with schemes NOT declared in app's LSApplicationQueriesSchemes within $ProbeWindow$"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Repeated canOpenURL checks across diverse schemes (\u2265N within short window)"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "iOS:unifiedlog",
-                    "channel": "CREATE/WRITE container paths like /Library/Caches/app_inventory.*\\\\.(json|plist|db)"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Max time from probe burst to persist/exfil (e.g., 10\u2013120s)."
+                    "field": "URLProbeThreshold",
+                    "description": "Default 10 undeclared scheme probes within window. iOS enforces 50-probe limit total."
                 },
                 {
-                    "field": "MinProbeCount",
-                    "description": "Minimum count of scheme/app probes to treat as inventory (e.g., \u226540)."
+                    "field": "ProbeWindow",
+                    "description": "Default 30s."
                 },
                 {
-                    "field": "TargetBundleWatchlist",
-                    "description": "Bundle IDs/schemes of sensitive targets (banking/IdP/AV/MDM)."
+                    "field": "AppCDNList",
+                    "description": "Per-app CDN. Derive by measurement."
                 },
                 {
-                    "field": "PersistPathRegex",
-                    "description": "Regex for inventory artifacts in container."
-                },
-                {
-                    "field": "ExfilDomainAllowlist",
-                    "description": "Allowlist of enterprise analytics/CDN to reduce FPs."
-                },
-                {
-                    "field": "JailbreakContext",
-                    "description": "Flag to escalate if private APIs appear on non-managed devices."
+                    "field": "FollowOnWindow",
+                    "description": "Default 120s."
                 }
             ]
         }

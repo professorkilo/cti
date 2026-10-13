@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa099551-8fd4-4eca-9794-08f983d41e37",
+    "id": "bundle--6aa9cd6d-3522-468f-99ad-2079fb5162f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.268Z",
+            "modified": "2026-09-02T18:49:26.047Z",
             "description": "[eSurv](https://attack.mitre.org/software/S0507)\u2019s Android version is distributed in three stages: the dropper, the second stage payload, and the third stage payload which is [Exodus](https://attack.mitre.org/software/S0405).(Citation: Lookout eSurv)",
             "relationship_type": "uses",
             "source_ref": "malware--680f680c-eef9-4f8a-b5f5-f451bf47e403",

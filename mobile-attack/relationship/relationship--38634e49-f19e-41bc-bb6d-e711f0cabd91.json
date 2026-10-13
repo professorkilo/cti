@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52bc5dc5-9acd-4044-9a85-bef07b2596b4",
+    "id": "bundle--d800cf95-97aa-4599-ba0a-95546ff3f3a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-02T22:18:03.499Z",
             "description": "[Android/AdDisplay.Ashas](https://attack.mitre.org/software/S0525) can hide its icon and create a shortcut based on the C2 server response.(Citation: WeLiveSecurity AdDisplayAshas)",
             "relationship_type": "uses",
             "source_ref": "malware--f7e7b736-2cff-4c2a-9232-352cd383463a",

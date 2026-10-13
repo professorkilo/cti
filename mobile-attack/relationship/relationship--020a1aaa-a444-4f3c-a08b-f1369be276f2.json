@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b8bbd49a-addd-486c-ab68-9e02ed54d8b7",
+    "id": "bundle--11996ea2-e018-4526-a2c0-748aae4314f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.905Z",
+            "modified": "2026-09-02T18:49:41.998Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect device networking information, including phone number, IMEI, and IMSI.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

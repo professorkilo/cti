@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a74fb0f-b2a2-49b5-9316-5d3c1a2ee7c3",
+    "id": "bundle--b031feee-ceff-4c72-b125-ba5f1e16d0a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-02T21:48:04.957Z",
             "description": " [Exodus](https://attack.mitre.org/software/S0405) Two can take pictures with the device cameras.(Citation: SWB Exodus March 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--3049b2f2-e323-4cdb-91cb-13b37b904cbb",

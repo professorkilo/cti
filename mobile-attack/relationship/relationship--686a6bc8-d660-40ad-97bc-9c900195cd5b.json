@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66b74d75-a98a-4f51-ac2d-17683829ff7d",
+    "id": "bundle--b4a5dfc9-4257-4b61-9c21-06491c2f7e0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:22.136Z",
+            "modified": "2026-09-02T21:40:44.749Z",
             "description": "During [Operation Triangulation](https://attack.mitre.org/campaigns/C0054), the threat actors have obtained a list of files in a specified directory using the `fts` API.(Citation: SecureList OpTriangulation 21Jun2023) ",
             "relationship_type": "uses",
             "source_ref": "campaign--d0695b5f-b761-49e0-b3e3-2e5307f8def3",

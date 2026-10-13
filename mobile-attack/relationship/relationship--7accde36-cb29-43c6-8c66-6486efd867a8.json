@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25b4806f-bb32-4ca1-a76b-cd55e67c53fc",
+    "id": "bundle--78af63af-7b3e-4716-abf4-7c49b32d2183",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.093Z",
+            "modified": "2026-09-02T21:36:49.053Z",
             "description": "[Tangelo](https://attack.mitre.org/software/S0329) contains functionality to gather GPS coordinates.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--35aae10a-97c5-471a-9c67-02c231a7a31a",

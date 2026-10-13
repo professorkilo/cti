@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1bab17f-eeed-43d7-8c77-7aec7b46cc91",
+    "id": "bundle--66ae3d44-a749-4708-aaf8-bce61c23aa71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.933Z",
+            "modified": "2026-09-02T21:49:03.852Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) uses the WifiList (or `libWifiList`) plugin to gather Wi-Fi network information, such as the SSID, BSSID, signal strength (RSSI), channel, security type, and previously saved networks.(Citation: MelikovBlackBerry LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025)(Citation: Threatfabric LightSpy 2024)(Citation: Threatfabric LightSpy 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

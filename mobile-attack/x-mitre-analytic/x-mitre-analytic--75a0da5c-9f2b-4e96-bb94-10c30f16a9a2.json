@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1207c7ba-4d60-4ab1-8f76-b83708f555ab",
+    "id": "bundle--4616fa6f-07c5-49b4-ba09-05690002b5a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.378Z",
+            "modified": "2026-10-13T17:41:03.637Z",
             "name": "Analytic 1721",
-            "description": "From the defender view: a sandboxed process receives/creates a high-entropy Mach-O/bundle or encrypted segment, performs in-memory decrypt/unpack (mmap/mprotect RW\u2192RX or RWX), optionally drops a transient image in app-writable dirs, then loads it through dyld/dlopen or spawns it. We correlate: (1) opaque blob write/arrival \u2192 (2) kernel memory protection changes \u2192 (3) dyld/dlopen from app-writable path or posix_spawn of a recently created image \u2192 (4) (optional) code-sign evaluation anomalies for the new image.",
+            "description": "For iOS, detect Software Packing by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Network Traffic Flow via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]; Protected Configuration via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,45 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Create/write of high-entropy Mach-O/bundle or generic blob in /var/mobile/Containers/Data/Application/<GUID>/(tmp|Library/Caches)/"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "iOS:unifiedlog",
-                    "channel": "mmap/mprotect transitions to PROT_EXEC for pages associated with recently written files"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
-                    "name": "iOS:unifiedlog",
-                    "channel": "dlopen/image load from app-writable path (tmp, Caches) outside bundled resources"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Correlation window from write\u2192rwx\u2192load/exec (e.g., 5\u201345s)."
+                    "field": "MDMApprovedCatalog",
+                    "description": "MDM-managed app list. All enterprise-cert-signed apps should be in this catalog."
                 },
                 {
-                    "field": "PayloadEntropyThreshold",
-                    "description": "Entropy to flag packed blobs (e.g., \u2265 7.3)."
+                    "field": "AppCDNList",
+                    "description": "Per-app declared CDN from app documentation or 30-day baseline."
                 },
                 {
-                    "field": "RWXPageMinKB",
-                    "description": "Minimum RWX allocation size (e.g., \u2265 32KB)."
+                    "field": "CertInstallWindow",
+                    "description": "Default 3600s between cert profile and app install."
                 },
                 {
-                    "field": "KnownJITAllowlist",
-                    "description": "Bundle IDs legitimately using JIT to avoid RWX false positives."
-                },
-                {
-                    "field": "WritableLoadPathRegex",
-                    "description": "Regex for app-writable load paths (tmp, Caches) outside app bundle."
-                },
-                {
-                    "field": "UnsignedExecPolicy",
-                    "description": "Tuning if enterprise/dev provisioning allows non-App Store binaries."
+                    "field": "PostLaunchWindow",
+                    "description": "Default 300s after first app launch."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--331c86a4-25fb-4c74-abd5-8cd51acc2cae",
+    "id": "bundle--c56d6af5-93e9-4b60-9a55-7c7f0b04e858",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-02T22:10:24.995Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has communicated to HTTP C2 nodes.(Citation: ThreatFabric_Crocodilus_March2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11231a9b-08eb-4eb6-b940-2385f0854944",
+    "id": "bundle--adaa83d6-07ba-4045-9bf6-65420e09d92e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-02T18:50:11.404Z",
             "description": "[YiSpecter](https://attack.mitre.org/software/S0311) is believed to have initially infected devices using internet traffic hijacking to generate abnormal popups.(Citation: paloalto_yispecter_1015) ",
             "relationship_type": "uses",
             "source_ref": "malware--a15c9357-2be0-4836-beec-594f28b9b4a9",

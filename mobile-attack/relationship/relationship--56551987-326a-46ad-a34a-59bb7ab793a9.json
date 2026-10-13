@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--083c9f2c-bb50-4223-8408-6133dda99fbe",
+    "id": "bundle--550ac25a-a1cb-45d3-9c23-00e24d9c8f7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-02T22:16:14.735Z",
             "description": "[Red Alert 2.0](https://attack.mitre.org/software/S0539) can request device administrator permissions.(Citation: Sophos Red Alert 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--6e282bbf-5f32-476a-b879-ba77eec463c8",

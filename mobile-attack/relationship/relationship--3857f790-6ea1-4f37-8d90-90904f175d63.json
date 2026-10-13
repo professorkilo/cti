@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acab4f1d-3b3d-4f7b-a8fd-21736b3374c7",
+    "id": "bundle--5afec966-5f5f-4ca8-9153-197edd84a58c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-02T22:19:31.508Z",
             "description": "[SharkBot](https://attack.mitre.org/software/S1055) has C2 commands that can uninstall the app from the infected device.(Citation: nccgroup_sharkbot_0322)",
             "relationship_type": "uses",
             "source_ref": "malware--9cd72f5c-bec0-4f7e-bb6d-296937116291",

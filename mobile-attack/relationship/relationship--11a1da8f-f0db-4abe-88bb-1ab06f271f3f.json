@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6eb00a9a-6eac-48c6-a212-f525a1838e1b",
+    "id": "bundle--fd5b2f37-8c48-4cb3-a5d7-2808e9bbc067",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-02T21:32:27.315Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506)\u2019s second stage has masqueraded as \u201cSystem Updates\u201d, \u201cViber Update\u201d, and \u201cWhatsApp Update\u201d.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

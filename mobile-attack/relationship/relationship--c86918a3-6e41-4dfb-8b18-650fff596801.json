@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--595926db-edb6-4ae9-bf76-bb637f94c6ec",
+    "id": "bundle--16cee6c4-46ba-42c8-bbaf-c9f641940392",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-02T18:46:03.515Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect device photos, PDF documents, Office documents, browser history, and browser bookmarks.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

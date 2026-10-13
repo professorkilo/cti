@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38c06436-a6c1-4403-b88f-5af47cb8cc57",
+    "id": "bundle--901e8922-ab7c-4183-a2a5-ad76e7cb4ef6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.129Z",
+            "modified": "2026-09-02T21:35:58.396Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has accessed the device\u2019s SMS messages, including messages that were in the inbox, sent, draft, outbox, failed, and queued.(Citation: Lookout_DCHSpy_July2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

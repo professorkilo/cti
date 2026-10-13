@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0596af5-eaa2-48d9-ae21-8809ff2e7f22",
+    "id": "bundle--12bafe75-6099-4601-a245-7fd410b48d5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.914Z",
+            "modified": "2026-09-02T22:20:49.520Z",
             "description": "Users should be trained on what device administrator permission request prompts look like, and how to avoid granting permissions on phishing popups.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

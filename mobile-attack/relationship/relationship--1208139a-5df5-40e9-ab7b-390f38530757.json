@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--542cc53e-f9fa-458e-8260-6cf4e10f8ffd",
+    "id": "bundle--ede2f860-8534-495d-b64e-afb55bf938fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.929Z",
+            "modified": "2026-09-02T21:48:04.659Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to start and stop image streaming from the device\u2019s front camera.(Citation: ThreatFabric_Crocodilus_March2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

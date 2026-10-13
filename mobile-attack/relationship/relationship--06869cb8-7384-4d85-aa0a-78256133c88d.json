@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6cb391a-d76d-43f3-b802-9a4ee68fb9d4",
+    "id": "bundle--18a16436-8f20-4fe0-a027-62d0458586c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.912Z",
+            "modified": "2026-09-02T22:19:52.310Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can make phone calls.(Citation: welivesecurity_apt-c-23)(Citation: SentinelLabs AridViper 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

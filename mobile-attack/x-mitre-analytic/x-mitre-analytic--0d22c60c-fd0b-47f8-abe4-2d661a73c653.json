@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c62eb78-2706-44a7-9c0d-1c3ee0a0eff1",
+    "id": "bundle--021d3110-385f-4df5-b264-b635ac53df13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.375Z",
+            "modified": "2026-10-13T17:42:44.655Z",
             "name": "Analytic 1727",
-            "description": "The defender correlates application registration for system event triggers (e.g., broadcast receivers, WorkManager, JobScheduler, SMS/BOOT events) with subsequent execution of application code immediately following the triggering event, without direct user interaction. Confidence increases when execution occurs in background or locked state, is tied to sensitive triggers (SMS received, boot completed, connectivity change), and produces follow-on file or network activity inconsistent with the application\u2019s expected role.",
+            "description": "For Android, detect Event Triggered Execution from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App registers BroadcastReceiver or schedules job for system events (BOOT_COMPLETED, SMS_RECEIVED, ACTION_PACKAGE_REPLACED, CONNECTIVITY_CHANGE, ACTION_USER_PRESENT) NOT IN $ApprovedEventTriggerApps$ \u2014 sensitive system event registration is ]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,40 +34,24 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application registers broadcast receiver, WorkManager job, JobScheduler task, or intent filter tied to system event such as BOOT_COMPLETED, SMS_RECEIVED, CONNECTIVITY_CHANGE during persistence setup phase"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "System event occurs (e.g., SMS received, device boot completed, network state changed) acting as trigger event for execution phase"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App registers BroadcastReceiver or schedules job for system events (BOOT_COMPLETED, SMS_RECEIVED, ACTION_PACKAGE_REPLACED, CONNECTIVITY_CHANGE, ACTION_USER_PRESENT) NOT IN $ApprovedEventTriggerApps$ \u2014 sensitive system event registration is"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between event trigger occurrence and execution behavior"
+                    "field": "ApprovedEventTriggerApps",
+                    "description": "MDM agent (BOOT_COMPLETED for policy enforcement), approved enterprise apps with documented event trigger need. Derive from MDM catalog. Tightening: MDM agent and system apps only."
                 },
                 {
-                    "field": "SensitiveEventList",
-                    "description": "List of high-risk trigger events such as BOOT_COMPLETED, SMS_RECEIVED, CONNECTIVITY_CHANGE, PACKAGE_ADDED"
-                },
-                {
-                    "field": "AllowedAppList",
-                    "description": "Applications legitimately expected to use background scheduling or event-driven execution (e.g., messaging, system services)"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether execution should only occur during active user interaction for specific app categories"
-                },
-                {
-                    "field": "ExecutionDelayThreshold",
-                    "description": "Maximum allowed delay between event trigger and execution to still be considered causal"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum outbound data volume after event-triggered execution to indicate meaningful activity"
+                    "field": "EventInteractionThreshold",
+                    "description": "Default 60s. App execution within 60s of system event with no user touch is event-triggered. After 60s, user may have interacted."
                 }
             ]
         }

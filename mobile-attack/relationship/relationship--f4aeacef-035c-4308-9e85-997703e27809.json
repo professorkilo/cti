@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--648400ca-497e-463c-9f9b-6d664f6dd311",
+    "id": "bundle--07113778-102b-4391-a9d6-3a9d6a9095ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.257Z",
+            "modified": "2026-09-02T22:20:49.840Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can delete arbitrary files on the device.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

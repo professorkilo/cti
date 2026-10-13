@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--910c1f88-1c7d-4c36-8d2b-ea045d5e8e20",
+    "id": "bundle--d457d71d-dbf4-4462-8991-6e9419142151",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:42:42.358Z",
             "name": "Analytic 1768",
-            "description": "The defender correlates managed-app data access and lifecycle context with indirect evidence of packaging or encryption prior to outbound transfer. Because direct archive/compression visibility is generally weaker on iOS, the analytic anchors on app lifecycle state, file/output effects observable by mobile EDR where available, managed app role via MDM, and downstream network uploads that closely follow creation of new large or high-entropy local artifacts. Confidence is lower when only network effects are available.",
+            "description": "For iOS, detect Archive Collected Data from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes large container, temp package, or high-entropy blob to container-local storage after clustered data access \u2014 staged archive artifact]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,23 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Supervised managed app without expected export, backup, or sync role performs local data staging behavior followed by opaque upload activity"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Managed app enters background-capable execution or resumes processing immediately before archive-like file creation or upload behavior"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application performs bulk data transformation or packaging-like processing on collected records prior to file creation or upload"
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application writes new large container, temp package, or high-entropy blob after clustered local data access and before outbound communication"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes large container, temp package, or high-entropy blob to container-local storage after clustered data access \u2014 staged archive artifact"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App performs bulk data transformation or packaging-like processing on collected records prior to outbound transfer on supervised device"
                 }
             ],
             "x_mitre_mutable_elements": [

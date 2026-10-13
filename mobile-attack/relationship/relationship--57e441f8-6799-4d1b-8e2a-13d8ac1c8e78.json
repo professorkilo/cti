@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d145513e-b164-46f4-b542-ea7604558a54",
+    "id": "bundle--746f8bd6-e0d6-4650-856c-9040d9b846a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.045Z",
+            "modified": "2026-09-02T21:35:35.953Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can obfuscated class, string, and method names in newer malware versions.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

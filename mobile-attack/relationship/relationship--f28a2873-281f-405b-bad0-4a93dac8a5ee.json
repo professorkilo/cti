@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26426b03-fa6f-42fb-b21b-12bc982bec58",
+    "id": "bundle--1e3d2f33-a2dc-492d-b8df-b18a913d1292",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.255Z",
+            "modified": "2026-09-02T22:13:13.071Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) can show a phishing WebView pretending to be a Google service that collects credit card information.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",

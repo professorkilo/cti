@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75ea7cb5-03ad-48ae-9618-b470a368e7f0",
+    "id": "bundle--4bb80542-05f5-4b6c-a8cf-be5907be9dc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.103Z",
+            "modified": "2026-09-02T21:40:44.786Z",
             "description": "[SameCoin](https://attack.mitre.org/software/S9030) can use libexampleone.so to list files to be deleted.(Citation: Check Point Wirte NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e164a21-3fbe-4aaa-be69-2513fdba90f7",

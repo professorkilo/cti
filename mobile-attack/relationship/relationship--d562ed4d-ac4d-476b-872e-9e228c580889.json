@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--851f65a7-0d0b-4ca2-9373-c3a0ec8b8356",
+    "id": "bundle--564f316c-5f9f-433e-aa5e-c130a6d96a7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.217Z",
+            "modified": "2026-09-02T21:49:27.080Z",
             "description": "[Golden Cup](https://attack.mitre.org/software/S0535) can obtain a list of installed applications.(Citation: Symantec GoldenCup)",
             "relationship_type": "uses",
             "source_ref": "malware--f3975cc0-72bc-4308-836e-ac701b83860e",

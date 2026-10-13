@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d2b4f9b-0021-4fe0-856a-abfd960860e0",
+    "id": "bundle--5719e784-0e5b-44cf-b7e9-036bcb0a363f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.245Z",
+            "modified": "2026-09-02T22:20:20.605Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can send SMS messages.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10c095e6-99f7-4afd-ae81-6a30a942eaa0",
+    "id": "bundle--9465f5e9-9291-4cba-9c55-39e78519b635",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:42:49.563Z",
             "name": "Analytic 1644",
-            "description": "Correlates (1) an application obtaining or maintaining elevated control mechanisms capable of resisting removal (device administrator, accessibility control, managed-owner posture), (2) user navigation into uninstall or application-management flows, and (3) immediate UI redirection, back-navigation injection, modal dismissal, or failed uninstall completion followed by continued app presence. Defender observes a causal chain where a removal attempt is actively disrupted and the target application remains installed.",
+            "description": "For Android, detect Prevent Application Removal from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes accessibility global actions (back, home, recents) or DevicePolicyManager removal-resistance operations when package-management or uninstall UI is in foreground \u2014 active uninstall interference]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,44 +35,19 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application enabled as device administrator, device owner, profile owner, or equivalent elevated management role before uninstall attempt"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application granted accessibility service privileges capable of screen observation or global action invocation before removal attempt"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes accessibility global actions (back/home/recents) or observes package-management UI immediately after uninstall/settings screen becomes foreground"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes accessibility global actions (back, home, recents) or DevicePolicyManager removal-resistance operations when package-management or uninstall UI is in foreground \u2014 active uninstall interference"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between uninstall UI entry, interference event, and continued install state"
-                },
-                {
-                    "field": "ProtectedRoleSet",
-                    "description": "Set of elevated roles considered removal-resistant (device admin, owner modes, accessibility)"
-                },
-                {
-                    "field": "GlobalActionSet",
-                    "description": "UI actions considered suspicious during uninstall flows (BACK, HOME, RECENTS)"
-                },
-                {
-                    "field": "AllowedAccessibilityApps",
-                    "description": "Known legitimate accessibility services expected to use global actions"
-                },
-                {
-                    "field": "UninstallRetryThreshold",
-                    "description": "Number of repeated uninstall attempts before escalation"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold confirming continued meaningful activity after failed removal"
+                    "field": "RemovalResistanceAllowList",
+                    "description": "MDM agent (legitimate Device Admin that cannot be removed by user is expected). Any other app using removal-resistance mechanisms should be flagged. Derive from MDM enrollment policy."
                 }
             ]
         }

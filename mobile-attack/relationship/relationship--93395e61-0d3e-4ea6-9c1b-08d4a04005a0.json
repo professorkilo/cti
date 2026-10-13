@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2759361-31e2-40d8-a0cc-318904c25e97",
+    "id": "bundle--06188ddd-3ac5-4529-bea0-10abf91cf3c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-09-02T22:13:12.944Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) can open a fake Google Play screen requesting bank card credentials and mimic the screen of relevant mobile banking apps to request user/bank card details.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

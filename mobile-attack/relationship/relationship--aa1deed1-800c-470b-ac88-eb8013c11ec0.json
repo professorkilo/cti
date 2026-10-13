@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc710fec-ab0b-4ad8-8660-3b6f1427cd2f",
+    "id": "bundle--c9b2794b-2ce1-46ce-80c7-b0d5dcfb62f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T22:13:12.966Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) uses WebView overlays to prompt the user for their device unlock code, as well as banking and cryptocurrency application credentials. [Gustuff](https://attack.mitre.org/software/S0406) can also send push notifications pretending to be from a bank, triggering a phishing overlay.(Citation: Talos Gustuff Apr 2019)(Citation: Group IB Gustuff Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

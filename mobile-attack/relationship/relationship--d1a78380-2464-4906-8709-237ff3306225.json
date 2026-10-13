@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--672fc48d-f548-4abb-9c08-6d954debaa6d",
+    "id": "bundle--46566d8c-0dd5-40b8-b2da-1227f4841d57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.212Z",
+            "modified": "2026-09-02T22:16:14.785Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to request device administrator permissions.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

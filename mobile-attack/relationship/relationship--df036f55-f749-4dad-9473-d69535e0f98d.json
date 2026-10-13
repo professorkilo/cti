@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12140c01-5eb3-494c-b451-0b96fecb97f1",
+    "id": "bundle--7d6d6149-cb4c-4896-8b7c-16cb76faade5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.229Z",
+            "modified": "2026-09-02T22:13:45.601Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can abuse Android\u2019s accessibility service to record the screen PIN.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

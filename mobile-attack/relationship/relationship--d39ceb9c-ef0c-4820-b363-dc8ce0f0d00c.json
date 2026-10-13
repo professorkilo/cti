@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60826aa5-bf77-4143-901a-1f1d00f94659",
+    "id": "bundle--3cc8e1d5-cbc6-4466-a1a7-2d54667e7b89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-02T21:32:27.835Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) masquerades as local postal service applications.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

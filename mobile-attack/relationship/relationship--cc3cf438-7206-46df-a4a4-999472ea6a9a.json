@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74bbcd6b-2f38-471f-9e78-348c429db90c",
+    "id": "bundle--deb97b31-87ad-47c2-b78d-57a8b96822f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.204Z",
+            "modified": "2026-09-02T22:18:03.690Z",
             "description": "[SimBad](https://attack.mitre.org/software/S0419) hides its icon from the application launcher.(Citation: CheckPoint SimBad 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f79c01eb-2954-40d8-a819-00b342f47ce7",

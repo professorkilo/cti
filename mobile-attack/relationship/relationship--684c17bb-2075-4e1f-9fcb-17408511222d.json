@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e18a021-a7a9-453b-9674-525115bda549",
+    "id": "bundle--405298b2-9adc-490c-9064-b68dbe633ee3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.067Z",
+            "modified": "2026-09-02T22:19:52.530Z",
             "description": "[CarbonSteal](https://attack.mitre.org/software/S0529) can silently accept an incoming phone call.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--007ebf84-4e14-44c7-a5aa-151d5de85320",

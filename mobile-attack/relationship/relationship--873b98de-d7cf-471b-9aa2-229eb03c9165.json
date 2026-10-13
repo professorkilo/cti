@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d353602-08ea-42d8-a00b-55fb207c1867",
+    "id": "bundle--2cc632fc-939c-4ef1-b90d-df02127a7720",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.110Z",
+            "modified": "2026-09-02T20:50:12.980Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect device information, including OS version and device model.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

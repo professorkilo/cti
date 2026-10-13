@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80aa8efa-6a74-472c-ba54-fa4bc5c1b4e3",
+    "id": "bundle--0dedd6f0-6853-441f-bf51-644062bb3150",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.047Z",
+            "modified": "2026-09-02T21:36:48.939Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has exfiltrated the device\u2019s location.(Citation: ESET_VajraSpy_Feb2024) [VajraSpy](https://attack.mitre.org/software/S9006) has also requested for `android.permission.ACCESS_FINE_LOCATION` and `android.permission.ACCESS_COARSE_LOCATION` to obtain the device\u2019s location.(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--89950a76-ea72-4fe1-b656-dfaa1869e6ec",
+    "id": "bundle--adc0ff43-824a-4681-ad54-ddce56c1488b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.035Z",
+            "modified": "2026-09-02T21:36:48.865Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can access a device\u2019s location.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",

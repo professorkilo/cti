@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e294b08-9736-4997-9347-4c4061d9d68f",
+    "id": "bundle--71fbbce0-84e7-4f13-8003-472c080bcb65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-02T22:10:24.604Z",
             "description": "[CHEMISTGAMES](https://attack.mitre.org/software/S0555) has used HTTPS for C2 communication.(Citation: CYBERWARCON CHEMISTGAMES)",
             "relationship_type": "uses",
             "source_ref": "malware--a0d774e4-bafc-4292-8651-3ec899391341",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c1d854c-d6d8-4f96-ab21-0991676ac419",
+    "id": "bundle--3fad4125-25a4-49bc-a425-3b0b89b9e5c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-02T18:50:30.726Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) uses ads or other links within websites to encourage users to download the malicious apps using a complex content distribution network (CDN) and series of network redirects. [RedDrop](https://attack.mitre.org/software/S0326) also downloads additional components (APKs, JAR files) from different C2 servers.(Citation: Wandera-RedDrop) ",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

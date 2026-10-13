@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b51e6197-0485-4324-9cd2-024d6638d819",
+    "id": "bundle--38e5959d-d88c-4797-99fb-935712b4ad6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-02T22:19:52.573Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can hide incoming calls by setting ring volume to 0 and showing a blank screen overlay.(Citation: mcafee_brata_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

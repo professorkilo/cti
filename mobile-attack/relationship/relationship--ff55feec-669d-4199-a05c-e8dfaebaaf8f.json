@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19002989-ebd3-44bf-b419-8603438ce2de",
+    "id": "bundle--3d57587a-fd33-4851-97ad-4d7a8200017f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.272Z",
+            "modified": "2026-09-02T21:32:27.914Z",
             "description": "[AndroidOS/MalLocker.B](https://attack.mitre.org/software/S0524) has masqueraded as popular apps, cracked games, and video players. (Citation: Microsoft MalLockerB)",
             "relationship_type": "uses",
             "source_ref": "malware--9b86f8c3-33ab-44cf-a66d-c0fd6070e2ce",

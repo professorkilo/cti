@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--feebedd2-8587-4327-949c-c91588e5bcff",
+    "id": "bundle--13aa39ca-71a4-42e9-b832-b46c75b1ca55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-02T22:10:24.960Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) communicates with the C2 server using HTTP.(Citation: CheckPoint Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

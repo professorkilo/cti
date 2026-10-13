@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33c8b8bf-0992-464e-b8d9-ee130639ee38",
+    "id": "bundle--29778d97-5ea1-4d5d-b4a0-9cf9326c1430",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.918Z",
+            "modified": "2026-09-02T21:35:35.691Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) obfuscated command information using a custom base85-based encoding.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

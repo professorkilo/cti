@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--724509b9-dfad-453e-9067-7ccfc0a96eb7",
+    "id": "bundle--9e32b3ec-a9a8-47fd-a044-d78b0c1039b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.040Z",
+            "modified": "2026-09-02T22:10:24.823Z",
             "description": "[Trojan-SMS.AndroidOS.FakeInst.a](https://attack.mitre.org/software/S0306) uses Google Cloud Messaging (GCM) for command and control.(Citation: Kaspersky-MobileMalware)",
             "relationship_type": "uses",
             "source_ref": "malware--28e39395-91e7-4f02-b694-5e079c964da9",

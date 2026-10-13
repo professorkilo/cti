@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cadbbe15-7b16-4ed7-b277-7ee1076952f1",
+    "id": "bundle--ace11769-8558-426c-b383-3e0218ff96a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-02T21:35:36.062Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) stores its malicious code in encrypted asset files that are decrypted at runtime. Newer versions of [FakeSpy](https://attack.mitre.org/software/S0509) encrypt the C2 address.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

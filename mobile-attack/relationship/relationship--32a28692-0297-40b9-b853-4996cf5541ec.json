@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d504dd7-5c55-4771-9b8d-88062161b85d",
+    "id": "bundle--8d693072-6363-4c3e-8edc-a5f2d43c5abd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.985Z",
+            "modified": "2026-09-02T21:48:04.847Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has captured photos from the device by taking control of the camera.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5113077c-5e55-42d7-8772-8351febfd1c5",
+    "id": "bundle--f49143b7-4ec1-467e-8951-bebb89e2b47c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-02T21:48:04.610Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can record video.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

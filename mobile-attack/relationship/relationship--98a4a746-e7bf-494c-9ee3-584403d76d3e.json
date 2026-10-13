@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2077f9e2-3134-4591-855a-3b0c1502764b",
+    "id": "bundle--b5cc2e01-1767-4ca3-b319-4d9cbf5cf1c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-02T22:10:25.011Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can use HTTP POST requests on port 80 for communicating with its C2 server.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

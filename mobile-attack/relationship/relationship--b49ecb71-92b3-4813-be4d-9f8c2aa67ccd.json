@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b38c056b-a6b2-42d3-a677-da1172c556a8",
+    "id": "bundle--3fbd922c-da99-435b-b266-32e1cbb0bf23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.689Z",
+            "modified": "2026-09-02T18:52:47.122Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has installed malicious MDM profiles on iOS devices as part of Operation ROCK.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

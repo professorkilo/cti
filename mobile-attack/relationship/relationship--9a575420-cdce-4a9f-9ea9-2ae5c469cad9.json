@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1076e29-346e-4947-8bf5-d760ab8850ba",
+    "id": "bundle--2fe79d90-3551-48d4-91d5-6f648db86cb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:38.839Z",
+            "modified": "2026-09-02T21:32:27.654Z",
             "description": "[MoustachedBouncer](https://attack.mitre.org/groups/G1019) has used legitimate looking filenames for malicious executables including MicrosoftUpdate845255.exe.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7251b44b-6072-476c-b8d9-a6e32c355b28",

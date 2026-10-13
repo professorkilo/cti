@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab0a5f3b-612f-4c15-a24e-a329b7d0b0e6",
+    "id": "bundle--b1d04aca-0aba-4b0c-ac2e-9e985cbba743",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-02T21:36:21.543Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can access call logs.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0333025e-3089-4d08-aac8-3df99abb613a",
+    "id": "bundle--6f5d8c91-8af1-498c-8741-3f0b8cf419f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.152Z",
+            "modified": "2026-09-02T22:21:08.795Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can view a device through VNC.(Citation: cleafy_brata_0122)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

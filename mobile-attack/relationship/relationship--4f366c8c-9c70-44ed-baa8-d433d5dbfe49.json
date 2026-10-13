@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b3dc0cc-1208-42ea-b20f-cca2fdacf33c",
+    "id": "bundle--e18dc185-fa73-4e10-adb3-bff7edafe377",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.033Z",
+            "modified": "2026-09-02T21:36:21.348Z",
             "description": "[Pegasus for Android](https://attack.mitre.org/software/S0316) accesses call logs.(Citation: Lookout-PegasusAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",

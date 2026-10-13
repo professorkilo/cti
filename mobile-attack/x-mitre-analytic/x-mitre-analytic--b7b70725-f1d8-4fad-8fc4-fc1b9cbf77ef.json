@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bb968b1-22d4-416f-9165-07c50d6a7640",
+    "id": "bundle--d1e09623-9068-4a23-b0ef-e67d544c9756",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:42:33.001Z",
             "name": "Analytic 1841",
-            "description": "The defender correlates supervised-device app posture and lifecycle context with repeated local file or local-database access effects, especially when a managed app reads browser, messaging, keychain-adjacent, or application-container data outside its expected role and then stages or uploads the result. Because direct low-level local system access visibility is weaker on iOS, the primary analytic is effect-based: managed app identity, file/database access where visible to the mobile sensor, background execution context, and near-term outbound communication.",
+            "description": "For iOS, detect Data from Local System primarily during application vetting or controlled analysis rather than assuming a live device SOC feed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; File Access via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads multiple files from Photos library, Files provider, or iCloud Drive in background or lock-adjacent state exceeding $FileReadRateThreshold$ within $DataCollectionWindow$]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Managed app accesses broad local data scope without user-initiated document picker interaction on supervised device]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,48 +35,44 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Supervised managed app without expected local export, sync, or forensic role accesses or stages local records inconsistent with policy baseline"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application performs repeated record access, container traversal, or local data extraction processing against local stores before staging or transmission"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--235b7491-2d2b-4617-9a52-3c0783680f71",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application reads multiple local container files, browser-history artifacts, messaging artifacts, or local records in rapid sequence during the collection phase"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads multiple files from Photos library, Files provider, or iCloud Drive in background or lock-adjacent state exceeding $FileReadRateThreshold$ within $DataCollectionWindow$"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Managed app accesses broad local data scope without user-initiated document picker interaction on supervised device"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between managed app posture, local access activity, optional staging, and upload"
+                    "field": "ApprovedDataCollectionApps",
+                    "description": "Approved backup, sync, file manager, and media apps. Derive from MDM catalog. Tightening: strict list \u2014 any unapproved app with broad file access is flagged."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Managed apps expected to access local records such as enterprise sync, backup, or approved investigation tools"
+                    "field": "FileReadRateThreshold",
+                    "description": "Default 50 file reads within window across 3+ directories. Derive from approved backup app baseline. Tightening: 10 reads \u2014 catches targeted collection."
                 },
                 {
-                    "field": "AllowedContainerPatterns",
-                    "description": "Expected app-container or local artifact locations for legitimate workflows"
+                    "field": "MinDirectoryCount",
+                    "description": "Default 3 distinct parent directories. Single-directory reads may be legitimate (photo editor); cross-directory reads indicate collection sweep."
                 },
                 {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether local record access should happen only during active user interaction"
+                    "field": "DataCollectionWindow",
+                    "description": "Default 60s observation window."
                 },
                 {
-                    "field": "BurstReadThreshold",
-                    "description": "Minimum number of local file or record reads in a short interval required for alerting"
+                    "field": "AppCDNList",
+                    "description": "Per-app CDN baseline."
                 },
                 {
-                    "field": "SensitiveArtifactPatterns",
-                    "description": "Environment-specific list of high-value browser, messaging, token, or local record artifacts"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Minimum outbound volume consistent with recent local data collection"
+                    "field": "ExfilWindow",
+                    "description": "Default 120s between staging and upload."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac1e3564-35d3-430d-adc7-820ef7f62dd7",
+    "id": "bundle--1aeb3655-80fb-4cc8-95b0-fb284cdf60b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.046Z",
+            "modified": "2026-09-02T20:50:12.845Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can retrieve Android system and hardware information.(Citation: securelist_brata_0819)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

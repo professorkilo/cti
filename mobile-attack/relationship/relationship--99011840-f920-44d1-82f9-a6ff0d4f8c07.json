@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9e7f6d2-f235-469f-abfb-7d62f774be13",
+    "id": "bundle--dd29f47e-a2e2-4e05-a10a-6e1cfd140224",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.134Z",
+            "modified": "2026-09-02T20:50:13.053Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) can collect device metadata.(Citation: fb_arid_viper) ",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",

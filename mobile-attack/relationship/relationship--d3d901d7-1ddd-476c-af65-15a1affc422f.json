@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bd21b41-fbbe-48d7-b217-f0f669d51d9b",
+    "id": "bundle--3caddf02-e83c-403b-b9ac-63fe6e766453",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-02T21:48:05.258Z",
             "description": "[Phenakite](https://attack.mitre.org/software/S1126) can capture pictures and videos.(Citation: fb_arid_viper)",
             "relationship_type": "uses",
             "source_ref": "malware--f97e2718-af50-41df-811f-215ebab45691",

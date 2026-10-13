@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a8bd28a-498e-4700-8b6c-f56fe2201b48",
+    "id": "bundle--da14578d-16c5-4637-89a4-c47a2603e127",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.383Z",
+            "modified": "2026-10-13T17:40:47.482Z",
             "name": "Analytic 1664",
-            "description": "The defender correlates repeated retrieval-oriented communication from a supervised device or managed iOS app to a legitimate public web-service platform where the activity remains primarily inbound and does not produce corresponding writeback to that same service class during the operational window. The strongest iOS evidence is managed-app or device-attributed communication to collaboration, social, messaging, storage, or generic HTTPS platforms where inbound fetches or content pulls recur during background refresh, while the device is locked, or without recent user interaction, and no matching POST, upload, update, or message-send activity to that same public service class is observed. Because direct local runtime visibility is weaker than Android, the primary analytic is anchored on network directionality plus supervised managed-app and device-state context.",
+            "description": "For iOS, detect One-Way Communication by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,72 +34,33 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "App-attributed HTTP GET, content fetch, sync pull, or inbound-oriented HTTPS session to public web-service domain recurred within TimeWindow without app-attributed POST, PUT, PATCH, upload, comment, message send, or API write to same service class"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "Repeated app-attributed retrieval from same public web-service domain or API endpoint occurred at stable recurrence interval with low outbound volume relative to inbound content"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "Inbound content retrieval from public web-service domain occurred without subsequent writeback to same service class and was followed by local or downstream activity outside normal app sync profile"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "DeviceLockState=locked during repeated inbound retrieval sequence from public web-service platform"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "LastUserInteractionDelta exceeded threshold before repeated retrieval sequence from public web-service domain from same app identity"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Bundle performing repeated one-way retrieval was not present in approved managed-app baseline or was not permitted to use detected public web-service class for background content retrieval"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window used to evaluate recurring retrieval and absence of same-service writeback."
+                    "field": "ApprovedPlatformApps",
+                    "description": "Apps approved for periodic read access to each platform. News readers (RSS/social), weather apps \u2014 legitimate pollers. Unknown apps periodically polling paste/code platforms are anomalous."
                 },
                 {
-                    "field": "SupervisedRequired",
-                    "description": "Strongest app-governance and bundle-baseline analytics depend on supervised iOS devices."
+                    "field": "PollingIntervalThreshold",
+                    "description": "Default 900s (15 min) maximum interval between fetches to same platform from background. More frequent background polling without user activity = C2 check-in."
                 },
                 {
-                    "field": "AllowedManagedApps",
-                    "description": "Approved managed bundle identities vary by organization and device profile."
-                },
-                {
-                    "field": "AllowedServiceClasses",
-                    "description": "Some managed apps legitimately retrieve content from storage, collaboration, or messaging services."
-                },
-                {
-                    "field": "AllowedReadOnlyMappings",
-                    "description": "Defines which bundles are expected to retrieve without writeback, and in what context."
-                },
-                {
-                    "field": "BackgroundRefreshBaseline",
-                    "description": "Expected background retrieval behavior differs across managed app categories."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Defines how close retrieval must be to user activity to be considered expected."
-                },
-                {
-                    "field": "BeaconIntervalTolerance",
-                    "description": "Allowed recurrence interval for benign refresh, polling, or sync behavior differs by bundle type."
-                },
-                {
-                    "field": "InboundOutboundRatioThreshold",
-                    "description": "Expected ratio of inbound to outbound bytes for benign managed-app refresh behavior varies by workflow."
+                    "field": "CommandProcessWindow",
+                    "description": "Default 30s between platform content retrieval and behavioral change (new connection, file write). Command processing is near-synchronous."
                 }
             ]
         }

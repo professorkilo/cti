@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc7fafa5-3b31-46b1-b8a5-2264d4d9eb91",
+    "id": "bundle--750f30e0-5a12-4958-932a-e0cd48634b73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-02T21:35:58.623Z",
             "description": "Access to SMS messages is an uncommonly needed permission, so users should be instructed to use extra scrutiny when granting access to their SMS messages. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",

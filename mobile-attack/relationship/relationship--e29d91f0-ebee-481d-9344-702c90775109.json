@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb92f262-768d-4847-84d5-71b7f4928161",
+    "id": "bundle--2fa95aa8-c815-4c6a-9144-d48d2f191dde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.234Z",
+            "modified": "2026-09-02T18:53:38.966Z",
             "description": "[Agent Smith](https://attack.mitre.org/software/S0440) can inject fraudulent ad modules into existing applications on a device.(Citation: CheckPoint Agent Smith)",
             "relationship_type": "uses",
             "source_ref": "malware--a6228601-03f6-4949-ae22-c1087627a637",

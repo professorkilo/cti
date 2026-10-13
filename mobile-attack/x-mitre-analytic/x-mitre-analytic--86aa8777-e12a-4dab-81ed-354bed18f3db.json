@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3482d50b-0487-4539-8f1d-edce3d762294",
+    "id": "bundle--48838f2c-910d-4d5a-a413-1e0cf4b43674",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.379Z",
+            "modified": "2026-10-13T17:42:34.367Z",
             "name": "Analytic 1848",
-            "description": "The defender correlates an application establishing outbound retrieval to a non-baselined external source with immediate local creation of a new executable, module, staged payload, overlay asset, or secondary file in app-controlled or shared storage, followed by optional load, invocation, handoff, or repeat retrieval behavior. The analytic prioritizes Android-observable effects: network download activity, DownloadManager or direct HTTP retrieval, file creation in package-specific or external paths, and execution context inconsistent with recent user interaction or the app\u2019s declared role.",
+            "description": "For Android, detect Ingress Tool Transfer by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes newly retrieved binary, archive, native library (.so), DEX, or script to /data/data/<app>/files/, cache, or shared storage within $IngressWriteWindow$ of network retrieval from non-CDN source]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,59 +34,47 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "Application retrieves remote content from non-baselined domain or IP and the transfer direction is inbound to device during the file acquisition phase"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application invokes direct file retrieval, DownloadManager usage, or streaming write from network response to local storage immediately after remote session establishment"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Application writes newly retrieved binary, archive, script-like asset, overlay content, library, or opaque payload to app-private, cache, temp, or shared external path as the primary local effect of transfer"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Ingress transfer and local file creation occur while app_state=background or device_locked=true or recent_user_interaction=false during the acquisition phase"
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Managed app without approved content-download, update, browser, or file-sync role performs remote payload retrieval and local tool staging"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App writes newly retrieved binary, archive, native library (.so), DEX, or script to /data/data/<app>/files/, cache, or shared storage within $IngressWriteWindow$ of network retrieval from non-CDN source"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes DownloadManager, URLConnection, or OkHttp download to write retrieved content to app-controlled path outside original APK scope \u2014 programmatic download of executable artifact"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between remote retrieval, local write, and any follow-on load or transfer completion"
+                    "field": "AppCDNList",
+                    "description": "30-day per-app network destination baseline. Any download from outside this list is anomalous."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Apps legitimately expected to download files such as browsers, enterprise app stores, backup/sync tools, or content delivery apps"
+                    "field": "ApprovedDownloadApps",
+                    "description": "Browser, MDM agent, enterprise content apps approved for remote retrieval. Derive from MDM catalog."
                 },
                 {
-                    "field": "AllowedDestinationList",
-                    "description": "Approved software distribution, CDN, MDM, and enterprise update endpoints"
+                    "field": "IngressWriteWindow",
+                    "description": "Default 60s between network retrieval and local file write. Tightening: 15s \u2014 synchronous download-write."
                 },
                 {
-                    "field": "AllowedPathList",
-                    "description": "Expected local download, cache, and update paths for legitimate app behavior"
-                },
-                {
-                    "field": "IngressBytesThreshold",
-                    "description": "Minimum inbound transfer size consistent with a staged secondary tool or payload"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether file retrieval should occur only during active user-driven workflows"
-                },
-                {
-                    "field": "FileTypeRiskPatterns",
-                    "description": "Environment-specific set of retrieved file classes considered suspicious such as apk, dex, jar, so, zip, html overlay, or opaque blob"
+                    "field": "IngressExecWindow",
+                    "description": "Default 120s between local file write and exec invocation. Tightening: 30s \u2014 immediate load after write."
                 }
             ]
         }

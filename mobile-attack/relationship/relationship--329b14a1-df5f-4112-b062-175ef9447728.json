@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb5d820-3d25-440d-a9e8-f1b0f803f718",
+    "id": "bundle--1f3b178a-2a10-4e11-9c68-0009dc027aac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.985Z",
+            "modified": "2026-09-02T21:40:44.676Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has checked for the `READ_EXTERNAL_STORAGE` and `MANAGE_EXTERNAL_STORAGE` permissions.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)   ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

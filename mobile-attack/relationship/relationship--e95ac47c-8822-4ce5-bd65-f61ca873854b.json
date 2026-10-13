@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37b0eab4-b842-4be6-818b-c34cbd93832f",
+    "id": "bundle--595c34b8-7557-44e8-9115-dd173894037d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-02T22:13:45.635Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can collect application keylogs.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

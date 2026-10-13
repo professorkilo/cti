@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3fb3b61-d7eb-4cf7-b7e3-acb8a9667186",
+    "id": "bundle--96af28b5-2ee4-48a0-a77f-3ee1f6b3b8f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:23.917Z",
+            "modified": "2026-09-02T21:32:27.593Z",
             "description": "[Bouncing Golf](https://attack.mitre.org/groups/G0097) distributed malware as repackaged legitimate applications, with the malicious code in the `com.golf` package.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--049cef3b-22d5-4be6-b50c-9839c7a34fdd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a8b0914-a765-4a78-9712-bf9ae9e32382",
+    "id": "bundle--891b3c6a-f902-44a2-a65c-753c81a0058f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.696Z",
+            "modified": "2026-09-02T21:36:49.340Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included location tracking capabilities in the malicious apps deployed as part of Operation BULL and Operation ROCK.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

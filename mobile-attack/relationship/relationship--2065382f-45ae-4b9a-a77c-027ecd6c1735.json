@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a54559e2-b1cc-4775-affe-e1abcc3d91e7",
+    "id": "bundle--5853c075-09a3-49c2-8599-b3695f1fffaa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.949Z",
+            "modified": "2026-09-02T21:35:57.852Z",
             "description": "[RCSAndroid](https://attack.mitre.org/software/S0295) can collect SMS, MMS, and Gmail messages.(Citation: TrendMicro-RCSAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--363bc05d-13cb-4e98-a5b7-e250f2bbdc2b",

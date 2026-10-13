@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f78d089a-2c52-4dd8-9d0c-74cbf528e47d",
+    "id": "bundle--ef00a859-72b7-40f1-9e59-61e94ef1b520",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.184Z",
+            "modified": "2026-09-02T20:51:53.013Z",
             "description": "[Drinik](https://attack.mitre.org/software/S1054) has code to use Firebase Cloud Messaging for receiving C2 instructions.(Citation: cyble_drinik_1022)",
             "relationship_type": "uses",
             "source_ref": "malware--d6e009b7-df5e-447a-bfd2-d5b77374edfe",

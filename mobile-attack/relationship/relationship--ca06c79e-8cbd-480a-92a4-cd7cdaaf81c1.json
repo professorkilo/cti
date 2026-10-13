@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca3fa168-9fda-4bff-88c5-aaf7d273f9e0",
+    "id": "bundle--66b6d507-98f5-4c6e-9a88-876c0c51bbfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-02T21:49:04.060Z",
             "description": "[Pegasus for Android](https://attack.mitre.org/software/S0316) checks if the device is on Wi-Fi, a cellular network, and is roaming.(Citation: Lookout-PegasusAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",

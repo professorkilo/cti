@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afb72790-fae7-4d78-90e7-681eb676f7a3",
+    "id": "bundle--74029bab-8092-42cc-80a7-ed3ffa0868ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.165Z",
+            "modified": "2026-09-02T21:41:03.962Z",
             "description": "[Tangelo](https://attack.mitre.org/software/S0329) contains functionality to record calls as well as the victim device's environment.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--35aae10a-97c5-471a-9c67-02c231a7a31a",

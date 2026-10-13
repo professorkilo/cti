@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d53e1fc-f058-41a0-a9e6-734e787304e5",
+    "id": "bundle--093805d4-4bd0-4a65-aac6-79dabc56ed7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-02T22:20:20.277Z",
             "description": "[AndroRAT](https://attack.mitre.org/software/S0292) can send SMS messages.(Citation: forcepoint_bitter) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",

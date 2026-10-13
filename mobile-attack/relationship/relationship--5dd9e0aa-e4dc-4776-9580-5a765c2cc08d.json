@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ec436a5-8544-43ee-a518-685a988fc338",
+    "id": "bundle--7a73fc2d-94ba-46c2-85a9-11d45a36fefc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-02T21:35:58.137Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can intercept SMS messages containing two factor authentication codes.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

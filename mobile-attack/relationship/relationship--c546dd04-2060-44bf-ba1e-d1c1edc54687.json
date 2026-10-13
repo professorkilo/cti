@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48356098-e454-4b21-8da5-4bade1ce6eaa",
+    "id": "bundle--98a67a50-1caf-49a2-a735-849e23d2f480",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-02T21:32:27.801Z",
             "description": "[SimBad](https://attack.mitre.org/software/S0419) was embedded into legitimate applications.(Citation: CheckPoint SimBad 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f79c01eb-2954-40d8-a819-00b342f47ce7",

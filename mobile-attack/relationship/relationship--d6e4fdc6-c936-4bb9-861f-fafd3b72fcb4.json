@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ef1f7fe-8c55-45c6-b7cb-9f64988625dd",
+    "id": "bundle--dff82c67-2e97-474b-b1fe-a3754a26777d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.219Z",
+            "modified": "2026-09-02T21:49:41.258Z",
             "description": "[FrozenCell](https://attack.mitre.org/software/S0577) has compressed and encrypted data before exfiltration using password protected .7z archives.(Citation: Lookout FrozenCell)",
             "relationship_type": "uses",
             "source_ref": "malware--96ea1e13-d50f-45f1-b0cf-4ac9bc5a2d62",

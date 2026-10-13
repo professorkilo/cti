@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d28f29fc-d30a-41b2-8638-844b77ddcbf5",
+    "id": "bundle--82c959a9-72e4-4368-941b-6cd1a3eb99d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.042Z",
+            "modified": "2026-09-02T18:48:17.519Z",
             "description": "[Tiktok Pro](https://attack.mitre.org/software/S0558) can execute commands .(Citation: Zscaler TikTok Spyware)",
             "relationship_type": "uses",
             "source_ref": "malware--c6abcaf8-1765-41f8-9fe5-03d42fd0f6c0",

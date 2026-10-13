@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b190c067-075c-468a-add8-40be477a1d73",
+    "id": "bundle--6188f7e9-160c-49ef-972c-005f39893961",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.040Z",
+            "modified": "2026-09-02T21:49:26.757Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can obtain a list of running apps.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

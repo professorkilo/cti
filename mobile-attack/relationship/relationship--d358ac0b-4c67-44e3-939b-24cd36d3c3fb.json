@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aeed9243-f495-4d44-80e8-7bdc2a58cf36",
+    "id": "bundle--c63a5159-b126-48b9-b836-d93cfa3b82c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.214Z",
+            "modified": "2026-09-02T18:46:03.537Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect the device\u2019s cell tower information.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

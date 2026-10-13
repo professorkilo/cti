@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d34b5da-dba6-425e-af23-2913cf8f9ee8",
+    "id": "bundle--ac65d4e7-424e-4a65-8667-3fcd175d808b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.984Z",
+            "modified": "2026-09-02T18:52:16.325Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) can be controlled through SMS messages.(Citation: securelist rotexy 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

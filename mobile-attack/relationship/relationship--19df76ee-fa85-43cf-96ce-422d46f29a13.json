@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b85bb6f8-b4f5-4554-901c-a7dcf6e76cd3",
+    "id": "bundle--79564d05-6b2a-47ac-8eee-6c37b80fb78f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-02T22:17:29.870Z",
             "description": "[Pegasus for Android](https://attack.mitre.org/software/S0316) listens for the `BOOT_COMPLETED` broadcast intent in order to maintain persistence and activate its functionality at device boot time.(Citation: Lookout-PegasusAndroid)",
             "relationship_type": "uses",
             "source_ref": "malware--93799a9d-3537-43d8-b6f4-17215de1657c",

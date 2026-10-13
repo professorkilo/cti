@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59aa2a3b-fa69-450a-bfd7-7a6bda5bc728",
+    "id": "bundle--3fe9dcf9-e003-44e7-899b-d471e96ab644",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-02T18:52:25.847Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can access the device\u2019s contact list.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

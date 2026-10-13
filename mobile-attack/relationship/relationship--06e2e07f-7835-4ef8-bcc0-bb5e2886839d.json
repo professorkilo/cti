@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--692d8fd1-1891-4f28-8111-7757b9dd057d",
+    "id": "bundle--5bc35e05-1c05-4f0b-8873-17e963e7aa5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.913Z",
+            "modified": "2026-09-02T20:50:12.681Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has the ability to gather basic device information, such as version, model, root status, and country.(Citation: cyble_chameleon_0423) [Chameleon](https://attack.mitre.org/software/S1083) has also checked the restricted settings status of the device. If the Android 13 Restricted Settings status is present, an HTML page with instructions on how to enable the Accessibility Service will be shown to the user. Additionally, [Chameleon](https://attack.mitre.org/software/S1083) has checked the keyguard\u2019s status regarding how the device is locked (e.g. pattern, PIN or password).(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

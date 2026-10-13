@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d15dea40-d18b-408c-9d91-077d172b32c7",
+    "id": "bundle--76817e60-3f6b-44c5-b3b2-3c2c89b286c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-02T21:49:27.251Z",
             "description": " [Exodus](https://attack.mitre.org/software/S0405) Two can obtain a list of installed applications.(Citation: SWB Exodus March 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--3049b2f2-e323-4cdb-91cb-13b37b904cbb",

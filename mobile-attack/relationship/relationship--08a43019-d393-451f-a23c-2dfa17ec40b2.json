@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fac50a40-8454-402d-992b-63b5f4c88130",
+    "id": "bundle--e7510a71-f36e-420a-880f-d7e5ebf062c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.915Z",
+            "modified": "2026-09-02T22:20:20.212Z",
             "description": "[Drinik](https://attack.mitre.org/software/S1054) can steal incoming SMS messages and send SMS messages from compromised devices. (Citation: cyble_drinik_1022)",
             "relationship_type": "uses",
             "source_ref": "malware--d6e009b7-df5e-447a-bfd2-d5b77374edfe",

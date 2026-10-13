@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--046cecdd-2155-4a5c-9c1b-dc62a705c657",
+    "id": "bundle--b254a194-0b33-4e21-9008-c42f9d86a3c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-02T22:10:25.055Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) communicates with the command and control server using HTTP requests.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

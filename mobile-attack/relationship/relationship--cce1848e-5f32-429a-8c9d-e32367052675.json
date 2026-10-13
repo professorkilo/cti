@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5fa6166-0b50-42b0-b06e-ae4f6da1702f",
+    "id": "bundle--bb9c46eb-4e9d-4992-a3a8-5c255fd80c0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.205Z",
+            "modified": "2026-09-02T21:32:27.823Z",
             "description": "[AndroRAT](https://attack.mitre.org/software/S0292) masquerades as legitimate applications.(Citation: forcepoint_bitter)(Citation: blackberry_mobile_malware_apt_esp) ",
             "relationship_type": "uses",
             "source_ref": "malware--a3dad2be-ce62-4440-953b-00fbce7aba93",

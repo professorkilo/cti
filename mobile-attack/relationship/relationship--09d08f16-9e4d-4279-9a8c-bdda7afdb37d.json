@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--880d7e00-3b3d-4e37-b000-8e4eeafaa214",
+    "id": "bundle--f5c70f8b-ee46-443c-a40b-d26c74891423",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.917Z",
+            "modified": "2026-09-02T21:35:35.680Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) has encoded files, such as exploit binaries, to potentially use during and after the rooting process.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

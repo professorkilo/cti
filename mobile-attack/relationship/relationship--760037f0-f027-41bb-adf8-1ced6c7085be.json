@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef8b526b-27fc-44a7-92cd-2ea6d94a200c",
+    "id": "bundle--7d95f823-c086-4520-8353-eb0bf47269d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-02T21:32:27.527Z",
             "description": "[Android/AdDisplay.Ashas](https://attack.mitre.org/software/S0525) has mimicked Facebook and Google icons on the \u201cRecent apps\u201d screen to avoid discovery and uses the `com.google.xxx` package name to avoid detection.(Citation: WeLiveSecurity AdDisplayAshas)",
             "relationship_type": "uses",
             "source_ref": "malware--f7e7b736-2cff-4c2a-9232-352cd383463a",

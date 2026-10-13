@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f1f0f91-d6eb-4028-b5ab-ddc6bee0776e",
+    "id": "bundle--e35f1eb3-a63c-4b84-b5d8-47ef5d7747d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.003Z",
+            "modified": "2026-09-02T20:57:21.353Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has intercepted API returns from banking apps that detect malicious services, and modifies the methods to return back an empty list hiding the presence of the malware and other active services.(Citation: ZimperiumOrtegaPratapagiri_GodFather_Jun2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

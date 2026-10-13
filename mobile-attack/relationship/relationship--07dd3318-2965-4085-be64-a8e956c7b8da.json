@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--096bf613-8258-46be-9a36-c3daaebba55d",
+    "id": "bundle--1f0621de-c3c1-427b-adea-25b801a89f6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.914Z",
+            "modified": "2026-09-02T21:35:35.668Z",
             "description": "[TERRACOTTA](https://attack.mitre.org/software/S0545) has stored encoded strings.(Citation: WhiteOps TERRACOTTA)",
             "relationship_type": "uses",
             "source_ref": "malware--e296b110-46d3-4f7a-894c-cc71ea50168c",

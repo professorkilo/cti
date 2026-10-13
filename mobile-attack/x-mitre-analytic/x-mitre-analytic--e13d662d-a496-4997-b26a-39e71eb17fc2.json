@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4dd73446-ce89-4ea5-9fb0-f44fa6e1ac6d",
+    "id": "bundle--d99b43e5-acb7-4aad-af04-9d8cf9fbdf8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.383Z",
+            "modified": "2026-10-13T17:42:48.880Z",
             "name": "Analytic 1797",
-            "description": "Correlates (1) application-driven modification of device security posture or monitoring capability (e.g., accessibility abuse, disabling security app components, altering monitoring configuration), (2) immediate degradation or cessation of expected telemetry sources such as mobile EDR, sensor visibility, or system monitoring, and (3) subsequent application activity continuing with reduced observability. The defender observes a causal chain where defensive visibility or enforcement is altered first, followed by continued execution under reduced monitoring conditions.",
+            "description": "For Android, detect Impair Defenses from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes package management, DevicePolicyManager, or settings operations capable of disabling security tooling \u2014 API invocation to disable security control]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,44 +35,23 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "change to security-relevant device configuration or managed policy (e.g., accessibility enablement, app admin changes, security service state change) preceding telemetry degradation"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "ecurity or monitoring application transitions to disabled, inactive, or non-reporting state while other applications remain active"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes system framework operations that alter monitoring, accessibility, or execution visibility followed by reduction in expected telemetry generation"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes package management, DevicePolicyManager, or settings operations capable of disabling security tooling \u2014 API invocation to disable security control"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between configuration change, telemetry degradation, and subsequent activity"
+                    "field": "ElevationAllowList",
+                    "description": "MDM agent and approved Device Admin apps only. Any other app acquiring Device Admin then modifying security settings is Impair Defenses."
                 },
                 {
-                    "field": "ExpectedTelemetrySources",
-                    "description": "Baseline set of telemetry sources expected to report continuously (EDR, sensor feeds, monitoring services)"
-                },
-                {
-                    "field": "TelemetryGapThreshold",
-                    "description": "Duration or volume threshold defining abnormal loss of telemetry"
-                },
-                {
-                    "field": "AllowedAppList",
-                    "description": "Applications legitimately capable of modifying device configuration or security posture"
-                },
-                {
-                    "field": "CriticalControlSet",
-                    "description": "Set of security-relevant controls considered high-impact if altered (EDR, accessibility, admin APIs)"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold used to confirm continued activity during telemetry loss"
+                    "field": "SecurityToolPackageList",
+                    "description": "MDM agent, AV, MTD packages deployed on managed fleet. Derive from MDM enrollment configuration."
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9661a16-5d0a-4081-a9b7-9cb60eec6952",
+    "id": "bundle--e60c6f5e-4682-4f11-8197-616a941a25fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.166Z",
+            "modified": "2026-09-02T21:32:27.705Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) has been installed using the package name `com.android.callservice`, pretending to be an Android system service.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

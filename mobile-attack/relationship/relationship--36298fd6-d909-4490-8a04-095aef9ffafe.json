@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0da36d29-5fd3-4090-a4f3-9e0b8f70b585",
+    "id": "bundle--7cfa5824-c9d3-45c6-8b46-adc3affe1b14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.993Z",
+            "modified": "2026-09-02T21:41:03.643Z",
             "description": "[Golden Cup](https://attack.mitre.org/software/S0535) can record audio from the microphone and phone calls.(Citation: Symantec GoldenCup) ",
             "relationship_type": "uses",
             "source_ref": "malware--f3975cc0-72bc-4308-836e-ac701b83860e",

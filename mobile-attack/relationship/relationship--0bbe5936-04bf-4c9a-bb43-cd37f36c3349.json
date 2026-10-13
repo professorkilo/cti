@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8345f034-530c-4f76-8959-f9776b7ab402",
+    "id": "bundle--13245a59-0c64-4a96-b1a4-16f62e4fc9e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-02T22:17:29.849Z",
             "description": "[AndroidOS/MalLocker.B](https://attack.mitre.org/software/S0524) has registered to receive 14 different broadcast intents for automatically triggering malware payloads. (Citation: Microsoft MalLockerB)",
             "relationship_type": "uses",
             "source_ref": "malware--9b86f8c3-33ab-44cf-a66d-c0fd6070e2ce",

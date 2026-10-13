@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb6ce471-2dd4-4d90-bb12-960b7ccb8c86",
+    "id": "bundle--b5fb0d43-b992-4e7f-aa64-ca32ac848e1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-02T21:49:26.626Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has obtained a list of installed cryptocurrency wallet applications.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

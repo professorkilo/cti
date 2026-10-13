@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b47178ab-30d6-4012-8527-bd04b173a8b2",
+    "id": "bundle--f3485d1a-094e-45de-997e-eb6ab3aef158",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.052Z",
+            "modified": "2026-09-02T22:10:24.864Z",
             "description": "[AbstractEmu](https://attack.mitre.org/software/S1061) can use HTTP to communicate with the C2 server.(Citation: lookout_abstractemu_1021)",
             "relationship_type": "uses",
             "source_ref": "malware--2aec175b-4429-4048-8e09-3ef6cbecfc64",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bed5f48-1f58-45e2-9d79-a429cfa0bd99",
+    "id": "bundle--8170989e-9f1a-47b5-b276-d61b1b64cc88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.206Z",
+            "modified": "2026-09-02T21:36:49.433Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) can track the device\u2019s location.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

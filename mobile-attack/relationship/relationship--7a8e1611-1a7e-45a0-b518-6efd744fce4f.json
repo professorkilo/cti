@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf738ef2-a9a6-4307-b714-554f8a5bc619",
+    "id": "bundle--a078c253-3cb0-47e6-b455-b3e484ee10b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.093Z",
+            "modified": "2026-09-02T22:20:20.415Z",
             "description": "[GoldenEagle](https://attack.mitre.org/software/S0551) has sent messages to an attacker-controlled number.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--0b9c5d11-651a-4378-b129-5c584d0242c5",

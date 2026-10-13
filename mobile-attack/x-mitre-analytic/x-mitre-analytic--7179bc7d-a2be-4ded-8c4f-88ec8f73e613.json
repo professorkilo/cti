@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab88e23b-bdeb-4024-9a3a-2e1e3ba78f20",
+    "id": "bundle--38bb00c8-0251-47dc-9f0e-d9d6c68c7b7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.378Z",
+            "modified": "2026-10-13T17:41:08.561Z",
             "name": "Analytic 1826",
-            "description": "Defender observes an app enabling or using input-capture surfaces (custom keyboard extension with Full Access, abnormal UI text entry interception, pasteboard polling adjacent to login screens), then persisting and/or exfiltrating captured input. Chain: capability/consent (TCC for keyboard Full Access or input privacy domains) \u2192 intercept behavior (keyboard extension active, repeated text field \u2018editingChanged\u2019/secure entry focus, background pasteboard reads) \u2192 local write \u2192 near-term egress.",
+            "description": "For iOS, detect Input Capture by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Traffic Flow via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]; Permissions Request via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,45 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--1887a270-576a-4049-84de-ef746b2572d6",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Keyboard extension Full Access change; privacy grant touching input/keyboard categories for <bundle_id>"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "iOS:unifiedlog",
-                    "channel": "UIWindow/UIView events indicating secure text entry focus, editingChanged bursts, unexpected firstResponder cycling"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "iOS:unifiedlog",
-                    "channel": "CREATE/WRITE clipboard/keylog artifacts (clipboard.db, keys_*.txt) in container"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Max time from intercept to persist/exfil (e.g., 5\u201360s)."
+                    "field": "KeyboardAllowList",
+                    "description": "IT-approved keyboard bundle IDs. Keep minimal."
                 },
                 {
-                    "field": "MinKeyEventBurst",
-                    "description": "Minimum key/commit or editingChanged count to flag harvesting (e.g., \u226510)."
+                    "field": "KeyboardVendorEndpoints",
+                    "description": "Known cloud sync endpoints for each approved keyboard vendor."
                 },
                 {
-                    "field": "KeyboardFullAccessRequired",
-                    "description": "Require keyboard Full Access to escalate severity (true/false)."
+                    "field": "KeystrokeFrequencyThreshold",
+                    "description": "Default 2 packets/sec \u2014 matches human average typing rate. Derive from keystroke baseline measurement."
                 },
                 {
-                    "field": "PersistPathRegex",
-                    "description": "Regex for keylog/clipboard dump files."
-                },
-                {
-                    "field": "ExfilDomainAllowlist",
-                    "description": "Known-good enterprise/analytics endpoints."
-                },
-                {
-                    "field": "UserContext",
-                    "description": "Foreground state, Focus modes, MDM policy."
+                    "field": "KeylogSessionThreshold",
+                    "description": "Default 300s sustained \u2014 confirms ongoing capture vs one-time sync."
                 }
             ]
         }

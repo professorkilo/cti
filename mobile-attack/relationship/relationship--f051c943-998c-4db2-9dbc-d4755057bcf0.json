@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--275086a4-8848-4ac4-b5b5-0f406c22591a",
+    "id": "bundle--b875cba4-8d9b-4d24-8233-9ed21ea737e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-02T22:13:13.058Z",
             "description": "An EMM/MDM can use the Android `DevicePolicyManager.setPermittedAccessibilityServices` method to set an explicit list of applications that are allowed to use Android's accessibility features.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",

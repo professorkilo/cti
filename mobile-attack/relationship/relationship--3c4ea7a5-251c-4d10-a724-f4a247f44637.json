@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f880d56c-e7f5-4d1b-9fd9-b2f6dac0db12",
+    "id": "bundle--9bbd14ff-5ac6-4b89-85a3-eda409a2ba16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.005Z",
+            "modified": "2026-09-02T21:35:35.925Z",
             "description": "Using an XOR-chain algorithm, [LightSpy](https://attack.mitre.org/software/S1185) decrypts an embedded configuration blob containing URLs for jailbreak components and next-stage payloads. It also decrypts modules in memory and on disk using AES-ECB with the hardcoded key `3e2717e8b3873b29`.(Citation: Threatfabric LightSpy 2023)(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025) Additionally, [LightSpy](https://attack.mitre.org/software/S1185)\u2019s plugins have been encrypted during transmission.(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

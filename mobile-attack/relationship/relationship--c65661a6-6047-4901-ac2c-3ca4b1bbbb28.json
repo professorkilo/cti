@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e65be9e-8070-4374-9bbf-a12a66d76bc3",
+    "id": "bundle--30f33967-4b58-471a-8ecb-3df28cdabded",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-02T21:36:21.611Z",
             "description": "[DroidJack](https://attack.mitre.org/software/S0320) captures call data.(Citation: Zscaler-SuperMarioRun)",
             "relationship_type": "uses",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",

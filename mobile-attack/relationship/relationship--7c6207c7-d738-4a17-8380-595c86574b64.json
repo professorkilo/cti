@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72a52646-a17d-47ef-b455-8fdb8a83c36e",
+    "id": "bundle--28de5ea9-04b4-4ac8-8153-39a009b9d437",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-02T21:36:49.068Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can track the device\u2019s location.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

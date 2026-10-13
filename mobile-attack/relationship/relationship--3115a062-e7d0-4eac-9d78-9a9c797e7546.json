@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd0b0326-bb09-4511-8579-0d468810dd6d",
+    "id": "bundle--7f3be40c-65c6-4241-bb8d-933dfcab8503",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.979Z",
+            "modified": "2026-09-02T21:48:04.834Z",
             "description": "[Fakecalls](https://attack.mitre.org/software/S1080) can request camera permissions.(Citation: kaspersky_fakecalls_0422)",
             "relationship_type": "uses",
             "source_ref": "malware--429e1526-6293-495b-8808-af7f9a66c4be",

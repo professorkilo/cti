@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29514620-fe3d-4142-bb8a-c06f46c4dfd9",
+    "id": "bundle--fbee8e63-8f83-4343-9f57-10cbc5e7e75b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-02T21:49:41.151Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) collects and compresses data to be exfiltrated using SSZipArchive.(Citation: LinkedIn Dmitry LightSpy 2025)(Citation: Threatfabric LightSpy 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

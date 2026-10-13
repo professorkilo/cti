@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd28e47d-17c0-41ff-be7a-55922d677609",
+    "id": "bundle--fd9a6587-7ac6-4aca-9a2c-11df49842617",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-02T21:49:26.779Z",
             "description": "[Triada](https://attack.mitre.org/software/S0424) is able to modify code within the com.android.systemui application to gain access to `GET_REAL_TASKS` permissions. This permission enables access to information about applications currently on the foreground and other recently used apps.(Citation: Google Triada June 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082fc59-0317-49cf-971f-a1b6296ebb52",

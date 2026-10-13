@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9e635ff-bbc3-4dfe-94aa-6b5da9789aef",
+    "id": "bundle--2be95631-f2cf-442f-bded-efad373b4a6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.933Z",
+            "modified": "2026-09-02T22:15:43.606Z",
             "description": "[DEFENSOR ID](https://attack.mitre.org/software/S0479) can abuse the accessibility service to perform actions on behalf of the user, including launching attacker-specified applications to steal data.(Citation: ESET DEFENSOR ID)",
             "relationship_type": "uses",
             "source_ref": "malware--5a5dca4c-03c1-4b99-bfcf-c206e20aa663",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--171b266d-dd0a-4248-9431-4ded9cb3b39c",
+    "id": "bundle--5d93d685-7242-46f6-ae44-0b78053ce45e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.268Z",
+            "modified": "2026-09-02T22:13:13.092Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has used its AccessibilityLogging feature to collect user data, such as private keys of specific cryptocurrency wallets.(Citation: ThreatFabric_Crocodilus_June2025)  ",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

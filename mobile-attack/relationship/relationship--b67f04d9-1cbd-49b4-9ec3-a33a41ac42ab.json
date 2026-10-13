@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--98f40ebd-013b-4c9e-b92a-2f490f511b63",
+    "id": "bundle--e026f819-d7e1-41a4-bf97-29650b22629a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T21:35:36.238Z",
             "description": "[OBAD](https://attack.mitre.org/software/S0286) contains encrypted code along with an obfuscated decryption routine to make it difficult to analyze.(Citation: TrendMicro-Obad)",
             "relationship_type": "uses",
             "source_ref": "malware--ca4f63b9-a358-4214-bb26-8c912318cfde",

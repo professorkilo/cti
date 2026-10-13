@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfdec3d2-a92d-4900-b23e-7714f7545d65",
+    "id": "bundle--8b8026e2-ece6-45e0-8d36-7f26ed608a9c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-02T21:48:04.742Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can capture pictures and videos.(Citation: welivesecurity_apt-c-23)(Citation: sophos_android_apt_spyware)(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

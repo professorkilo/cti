@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--218f52f5-46f4-4f11-99d0-96b6d2bd92ee",
+    "id": "bundle--18bb6fda-d3b8-423e-ad43-b8494146ce45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-02T18:52:35.815Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) checks for antivirus software contained in a predefined list.(Citation: Talos Gustuff Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

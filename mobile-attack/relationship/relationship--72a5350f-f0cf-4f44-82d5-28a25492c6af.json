@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8da49015-3a76-41b8-a2e5-400049c7feae",
+    "id": "bundle--44f43ccc-a943-4e60-9a59-d257b1de4bdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-02T21:48:05.009Z",
             "description": "[Corona Updates](https://attack.mitre.org/software/S0425) can take pictures using the camera and can record MP4 files.(Citation: TrendMicro Coronavirus Updates)",
             "relationship_type": "uses",
             "source_ref": "malware--366c800f-97a8-48d5-b0a6-79d00198252a",

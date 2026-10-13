@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f00802dd-693e-4bc6-b8dd-94ee37a6ce66",
+    "id": "bundle--7b10449f-07cb-454f-bed6-ef97b5fcb7b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-02T22:21:08.835Z",
             "description": "When devices are enrolled in an EMM/MDM using device owner (iOS) or fully managed (Android) mode, the EMM/MDM can collect a list of installed applications on the device. An administrator can then act on, for example blocking, specific remote access applications from being installed on managed devices. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",

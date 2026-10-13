@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0eb66018-f4a6-4480-96fc-7129393b39a9",
+    "id": "bundle--09442ed2-c20c-4fa4-b02f-9fc580a92025",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.216Z",
+            "modified": "2026-09-02T20:56:11.552Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has used phishing messages (smishing) and emails to gain initial access to devices.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

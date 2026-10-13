@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c12d98b1-32f3-4482-8e03-73a890440418",
+    "id": "bundle--7b8c1f03-51f7-477e-85f0-463229e1d77b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-02T22:18:48.695Z",
             "description": "[TrickMo](https://attack.mitre.org/software/S0427) can prevent the user from interacting with the UI by showing a WebView with a persistent cursor.(Citation: SecurityIntelligence TrickMo)",
             "relationship_type": "uses",
             "source_ref": "malware--21170624-89db-4e99-bf27-58d26be07c3a",

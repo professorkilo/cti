@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7939807-a869-49b0-81f7-a986da79fba5",
+    "id": "bundle--bc74d912-1055-41ca-93f3-c8aeb7fbeeea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.147Z",
+            "modified": "2026-09-02T21:48:27.725Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can abuse Android\u2019s accessibility service to capture data from installed applications.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

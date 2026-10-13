@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab00620f-f95a-495c-9429-e86ad07d5b5b",
+    "id": "bundle--9b18443c-a810-42c9-b7d1-19452e8a9b97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.094Z",
+            "modified": "2026-09-02T20:56:56.813Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) disables Google Play Protect to prevent its discovery and deletion in the future.(Citation: Threat Fabric Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

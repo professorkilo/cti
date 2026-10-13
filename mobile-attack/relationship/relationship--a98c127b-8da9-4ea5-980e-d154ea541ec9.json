@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--432ee871-4313-4228-93e7-24c98bb6f1c3",
+    "id": "bundle--d4372605-bc08-477b-bf4b-31ac0b5fca52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T21:36:49.299Z",
             "description": "Filtering requests by checking request origin information may provide some defense against spurious operators.(Citation: CSRIC5-WG10-FinalReport) ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e829ee51-1caf-4665-ba15-7f8979634124",

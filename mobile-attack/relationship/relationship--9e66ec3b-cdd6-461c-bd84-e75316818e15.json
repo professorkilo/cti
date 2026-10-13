@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64bab8c7-edc3-431d-8786-305666014416",
+    "id": "bundle--f574ca95-3d72-4c1f-a743-b2772734d07b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-02T21:36:49.243Z",
             "description": "[X-Agent for Android](https://attack.mitre.org/software/S0314) was believed to have been used to obtain locational data of Ukrainian artillery forces.(Citation: CrowdStrike-Android)",
             "relationship_type": "uses",
             "source_ref": "malware--56660521-6db4-4e5a-a927-464f22954b7c",

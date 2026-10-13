@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3e2a73b-9776-44c7-806a-4779a75bd7d2",
+    "id": "bundle--ee87c80b-5745-42cf-8520-82f4fd13d311",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-02T21:40:44.800Z",
             "description": "[Hornbill](https://attack.mitre.org/software/S1077) has a list of file extensions that it may use to log certain operations (creation, open, close, modification, movement, deletion) on files of those types.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--15d78a95-af6a-4b06-8dae-76bedb0ec5a1",

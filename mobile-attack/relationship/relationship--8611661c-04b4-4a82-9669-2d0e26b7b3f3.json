@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74ed19b6-95b6-4c2c-a650-22239b6275ca",
+    "id": "bundle--db886e65-b43f-4227-b915-215fbf7e7733",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-02T20:56:56.835Z",
             "description": "[Mandrake](https://attack.mitre.org/software/S0485) can disable Play Protect.(Citation: Bitdefender Mandrake)",
             "relationship_type": "uses",
             "source_ref": "malware--52c994fa-b6c8-45a8-9586-a4275cf19307",

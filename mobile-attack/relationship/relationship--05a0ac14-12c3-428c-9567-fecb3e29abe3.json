@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4bf4744-2b0b-42a6-8715-3f273c2b70d9",
+    "id": "bundle--a8262c4c-e926-49e4-950d-9977b53319e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-02T22:14:09.308Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has utilized foreground services by showing a notification to evade detection.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

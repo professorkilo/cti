@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fec3b3c-cbed-469f-be78-6e8e3fd7d328",
+    "id": "bundle--6ede15c7-05c5-4bbd-ab15-b22d9b990092",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.912Z",
+            "modified": "2026-09-02T21:41:03.398Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has the ability to start and stop audio recording.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

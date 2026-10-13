@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bb4aa14-0b5d-4ade-99be-ae010c922d36",
+    "id": "bundle--f9f56f76-1f69-4a96-911f-d3632af795ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.377Z",
+            "modified": "2026-10-13T17:42:51.647Z",
             "name": "Analytic 1733",
-            "description": "Detects indirect evidence of host-side indicator removal by correlating (1) local artifact creation or compromise-state-relevant activity, (2) later disappearance, alteration, or reporting loss for those artifacts or state indicators, and (3) continued application or device activity under reduced visibility. Because iOS provides weaker direct visibility into some Android-style artifact and jailbreak-indicator manipulation patterns, the defender relies more on app-private artifact lifecycle changes, managed posture shifts, and continued runtime or network activity after expected evidence disappears.",
+            "description": "For iOS, detect Indicator Removal on Host from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes file deletion, container-local database truncation, or cache-clear operations on supervised device within $CleanupWindow$ of prior data access or upload event]; System Settings via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,39 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes file deletion, container-local database truncation, or cache-clear operations on supervised device within $CleanupWindow$ of prior data access or upload event"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between artifact disappearance, posture change, and continued activity"
+                    "field": "ApprovedCleanupApps",
+                    "description": "Privacy cleaner apps approved by IT, MDM agent for managed wipe. Derive from MDM catalog. Tightening: MDM agent only \u2014 all other post-exfil cleanup is anomalous."
                 },
                 {
-                    "field": "ArtifactTypeSet",
-                    "description": "Host artifacts and state indicators monitored for suspicious removal, alteration, or disappearance"
-                },
-                {
-                    "field": "ExpectedTelemetrySources",
-                    "description": "Baseline sources expected to continue exposing artifact presence or compromise-relevant state"
-                },
-                {
-                    "field": "TelemetryGapThreshold",
-                    "description": "Threshold defining abnormal loss of artifact visibility or managed-state continuity"
-                },
-                {
-                    "field": "ExpectedManagementChanges",
-                    "description": "Known legitimate posture or inventory changes that may remove or update artifacts"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold used to confirm meaningful continued activity after indicator removal"
+                    "field": "CleanupWindow",
+                    "description": "Default 300s after exfiltration event (network upload) within which subsequent cleanup is causally linked. Tightening: 60s \u2014 immediate post-exfil cleanup."
                 }
             ]
         }

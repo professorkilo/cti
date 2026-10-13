@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84b13224-1b7c-4269-89d4-a2e9c21bec72",
+    "id": "bundle--5d77b332-a6dd-4e5d-8636-0b5934b714cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-02T21:48:27.475Z",
             "description": " [FlexiSpy](https://attack.mitre.org/software/S0408) can take screenshots of other applications.(Citation: FlexiSpy-Features) ",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

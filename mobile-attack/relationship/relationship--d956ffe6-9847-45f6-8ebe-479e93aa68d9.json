@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c49e12ad-9f99-434b-a439-b27a9e92585b",
+    "id": "bundle--a8ab4e13-398b-420a-80be-abf89cb5e139",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-02T22:18:03.712Z",
             "description": "[FlixOnline](https://attack.mitre.org/software/S1103) can hide its application icon.(Citation: checkpoint_flixonline_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--0ec9593f-3221-49b1-b597-37f307c19f13",

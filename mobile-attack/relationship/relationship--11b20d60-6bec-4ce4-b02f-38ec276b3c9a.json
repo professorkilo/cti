@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8fae0a5f-120e-4cfa-921d-59e6a9c0f138",
+    "id": "bundle--0ffcb7cd-9a65-4fad-baf9-4c23c2ad0264",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-02T20:56:56.685Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214) has attempted to detect anti-spam call applications.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--660bae7a-3279-4c77-84e5-d1ed761d8245",
+    "id": "bundle--ca51fd04-763c-459e-9d1c-e2a8bf45ea00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-02T18:49:42.060Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect account information stored on the device, as well as data in external storage.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

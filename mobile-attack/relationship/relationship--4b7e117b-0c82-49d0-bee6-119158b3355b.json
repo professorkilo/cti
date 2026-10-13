@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--277982fa-945d-41b7-b603-53022aab4880",
+    "id": "bundle--3fd5bd04-0d79-432d-948d-b8fa9106fcb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-02T20:56:56.773Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can disable Google Play Protect to prevent detection.(Citation: proofpoint_flubot_0421)(Citation: Europol FluBot Jun2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc313f85-1e92-4693-9b4c-e88d2aec4d1c",
+    "id": "bundle--6a5fd4cb-fedb-4261-8529-522fd4395ef7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.209Z",
+            "modified": "2026-09-02T22:21:08.845Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can use VNC to remotely control an infected device.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

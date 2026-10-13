@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bac55f2-f98e-4454-9803-8a91bfe7a75f",
+    "id": "bundle--73f6034b-6d65-4672-ad2c-f8d3dd34a1c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.041Z",
+            "modified": "2026-09-02T20:50:12.834Z",
             "description": "[Hornbill](https://attack.mitre.org/software/S1077) can collect the device ID, model, manufacturer, and Android version. It can also check available storage space and if the screen is locked.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--15d78a95-af6a-4b06-8dae-76bedb0ec5a1",

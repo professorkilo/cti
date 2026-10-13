@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f1827f9-664f-44b6-a3e5-851768a71d74",
+    "id": "bundle--850dad36-f4a1-4d9f-b8ad-9852bbc00ccc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-02T21:36:21.381Z",
             "description": "[Tangelo](https://attack.mitre.org/software/S0329) contains functionality to gather call logs.(Citation: Lookout-StealthMango)",
             "relationship_type": "uses",
             "source_ref": "malware--35aae10a-97c5-471a-9c67-02c231a7a31a",

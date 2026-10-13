@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d38ff5c2-1637-4611-bdbe-ee7435245ece",
+    "id": "bundle--b9cff989-213d-4cc1-b852-bb0502483d5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.212Z",
+            "modified": "2026-09-02T21:35:58.611Z",
             "description": "[FluBot](https://attack.mitre.org/software/S1067) can intercept SMS messages and USSD messages from Telcom operators.(Citation: proofpoint_flubot_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--f5ff006c-702f-4ded-8e60-ca6c540d91bc",

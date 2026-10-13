@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e79efd8b-c8eb-40eb-a46d-66343161ac2a",
+    "id": "bundle--8158ed46-c53a-4ceb-85b8-c7fa9f5f5485",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.966Z",
+            "modified": "2026-09-02T21:48:04.786Z",
             "description": "[TangleBot](https://attack.mitre.org/software/S1069) can record video from the device camera.(Citation: cloudmark_tanglebot_0921)",
             "relationship_type": "uses",
             "source_ref": "malware--68156e5a-4c3a-46dd-9c5e-c0bfdec6651f",

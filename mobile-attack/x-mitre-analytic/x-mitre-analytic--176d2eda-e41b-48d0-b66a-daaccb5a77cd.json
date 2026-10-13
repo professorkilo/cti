@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3474f781-fdcb-4240-b146-ba75a26c4ad6",
+    "id": "bundle--82ef5949-b7f9-441d-bfda-0cff1dd05686",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:40:55.589Z",
             "name": "Analytic 1801",
-            "description": "Correlates (1) a malicious application gaining or using a removal-capable control path, such as device owner or delegated app-management authority, accessibility service control over uninstall UI, or rooted filesystem access, (2) initiation of uninstall or package-removal behavior, and (3) disappearance of the application from installed-state inventory or app runtime immediately afterward, often with a short-lived final burst of local cleanup or outbound communication. The defender observes a causal chain where the application first establishes the ability to remove itself, then triggers uninstall or deletion, and then vanishes from expected app presence while device activity continues.",
+            "description": "For Android, detect Uninstall Malicious Application from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; File Deletion via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: App deletes package files or local state immediately before package inventory disappearance \u2014 pre-removal evidence cleanup]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes PackageInstaller uninstall or pm uninstall for own package or companion package NOT IN $ProtectedPackageList$ without user-initiated UI flow matching]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,54 +35,28 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application holds device-owner, profile-owner, or delegated app-management authority capable of package removal before uninstall event"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application has accessibility service privileges immediately before package-removal UI flow and subsequent application disappearance"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "device posture indicates rooted, compromised, or non-compliant state before package files disappear without standard managed uninstall workflow"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes uninstall-related package-management operations, accessibility-driven uninstall confirmation actions, or privileged file-removal operations immediately before installed-state loss"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application deletes package files, cleanup artifacts, or app-local state immediately before disappearance from installed inventory or runtime"
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App deletes package files or local state immediately before package inventory disappearance \u2014 pre-removal evidence cleanup"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes PackageInstaller uninstall or pm uninstall for own package or companion package NOT IN $ProtectedPackageList$ without user-initiated UI flow matching"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between uninstall-capable control, removal action, and app disappearance"
+                    "field": "MDMAgentList",
+                    "description": "MDM agent packages authorized for managed uninstall. Derive from MDM enrollment policy."
                 },
                 {
-                    "field": "RemovalAuthoritySet",
-                    "description": "Roles or privileges considered capable of enabling silent or assisted uninstall, such as device owner, delegated app-management authority, accessibility, or rooted filesystem access"
-                },
-                {
-                    "field": "AllowedRemovalApps",
-                    "description": "Legitimate enterprise or device-management apps allowed to uninstall applications"
-                },
-                {
-                    "field": "RemovalAttemptSignalSet",
-                    "description": "Signals used to recognize uninstall initiation, such as package-removal actions, uninstall intent flows, or accessibility-driven confirmation steps"
-                },
-                {
-                    "field": "DisappearanceThreshold",
-                    "description": "Maximum time between removal action and loss of installed-state visibility"
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Outbound traffic threshold used to confirm final activity before self-removal"
+                    "field": "ProtectedPackageList",
+                    "description": "Security-critical packages that should never be self-uninstalled: MDM agent, MTD, enterprise required apps. Any self-uninstall of these is highest-confidence malicious."
                 }
             ]
         }

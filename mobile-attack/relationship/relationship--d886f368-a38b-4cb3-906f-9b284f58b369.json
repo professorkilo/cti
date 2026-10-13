@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2c893e7-08e6-471a-b459-2f11cc2daaeb",
+    "id": "bundle--8be41250-82a2-4330-9e86-d8f8d6b16388",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-02T21:35:36.345Z",
             "description": "[Dvmap](https://attack.mitre.org/software/S0420) decrypts executables from archive files stored in the `assets` directory of the installation binary.(Citation: SecureList DVMap June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--22b596a6-d288-4409-8520-5f2846f85514",

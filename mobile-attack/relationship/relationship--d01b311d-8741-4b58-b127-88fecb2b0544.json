@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1bade3d-964b-4122-a84d-8cebd0020a75",
+    "id": "bundle--1f482531-fc4b-47cd-b626-61250767125b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.210Z",
+            "modified": "2026-09-02T22:13:45.574Z",
             "description": "[Anubis](https://attack.mitre.org/software/S0422) has a keylogger that works in every application installed on the device.(Citation: Cofense Anubis)",
             "relationship_type": "uses",
             "source_ref": "malware--a3c59d82-2c7c-44e5-a869-68e0a3e5935e",

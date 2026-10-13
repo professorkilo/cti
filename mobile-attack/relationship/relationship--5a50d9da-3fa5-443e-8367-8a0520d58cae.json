@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a529b36-d382-4468-baeb-d4d792c69e00",
+    "id": "bundle--92b4a1b9-5393-4d83-97a5-6633b94c8494",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-02T22:10:24.852Z",
             "description": "[GoldenEagle](https://attack.mitre.org/software/S0551) has used HTTP POST requests for C2.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--0b9c5d11-651a-4378-b129-5c584d0242c5",

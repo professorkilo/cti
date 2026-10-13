@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc453d95-7958-4414-93e2-ea1830a87904",
+    "id": "bundle--39ede39a-3de6-4459-8934-48d303274ec9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-02T22:20:20.573Z",
             "description": "[GodFather](https://attack.mitre.org/software/S1231) has requested for the `SEND_SMS` permission to send SMS messages.(Citation: MerkleScience_Godfather_April2023)",
             "relationship_type": "uses",
             "source_ref": "malware--bf064476-25b8-493c-a1e7-dd707b3f7f52",

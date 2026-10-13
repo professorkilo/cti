@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65ddb716-3ffa-4cb0-81c3-53366b36b2ba",
+    "id": "bundle--e427bd7d-7297-497c-a92e-6ac25e47b6b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T21:49:26.979Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can obtain a list of installed applications.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

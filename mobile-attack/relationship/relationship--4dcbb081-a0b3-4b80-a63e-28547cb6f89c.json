@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d3f436c-531a-44d3-b65b-9d61ee0e7412",
+    "id": "bundle--767a62d8-97a9-4690-89a9-188dbabd0fe1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-02T22:13:45.414Z",
             "description": "[BRATA](https://attack.mitre.org/software/S1094) can log device keystrokes.(Citation: securelist_brata_0819)(Citation: cleafy_brata_0122)(Citation: mcafee_brata_0421)",
             "relationship_type": "uses",
             "source_ref": "malware--5aff44ab-5a41-49bb-b5d1-b4876d0437f4",

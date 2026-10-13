@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3381e566-2870-4c51-836b-d05f4e6d6f85",
+    "id": "bundle--76ec512a-2607-4c38-b0ac-14e64ea30b59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T21:49:41.195Z",
             "description": "[Triada](https://attack.mitre.org/software/S0424) encrypts data prior to exfiltration.(Citation: Google Triada June 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082fc59-0317-49cf-971f-a1b6296ebb52",

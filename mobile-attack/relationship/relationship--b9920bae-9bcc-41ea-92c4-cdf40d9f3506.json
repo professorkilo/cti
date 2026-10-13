@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df28016a-6b79-43b8-abd7-0657f549a246",
+    "id": "bundle--f3631c33-d971-43c5-b8e5-cc6d31ea415e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-02T21:36:49.353Z",
             "description": "[DocSwap](https://attack.mitre.org/software/S9005) has the ability to collect location information and to start/stop location information from being sent to the C2 server.(Citation: EnkiWhiteHat_KimsukyDOCSWAP_Dec2025)(Citation: S2W_DocSwap_Mar2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3dbef387-12df-4547-9dd3-075c7ffec9e3",

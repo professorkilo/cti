@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8342f68b-aa8a-4f81-966b-6ff958e000a4",
+    "id": "bundle--4d96e10f-1588-434a-bb09-5fd9566b798b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-02T21:32:27.438Z",
             "description": "[Cerberus](https://attack.mitre.org/software/S0480) has pretended to be an Adobe Flash Player installer.(Citation: Forbes Cerberus)",
             "relationship_type": "uses",
             "source_ref": "malware--037f44f0-0c07-4c7f-b40e-0325b5b228a9",

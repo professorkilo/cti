@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59f4c402-688d-4385-a19e-6e2de06b2277",
+    "id": "bundle--35ed5f10-e02c-40c7-a9f6-6bbd46bf3fb4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
+            "modified": "2026-09-02T22:10:24.926Z",
             "description": "[BOULDSPY](https://attack.mitre.org/software/S1079) uses unencrypted HTTP traffic between the victim and C2 infrastructure.(Citation: lookout_bouldspy_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--a2ee7d2d-fb45-44f3-8f67-9921c7810db1",

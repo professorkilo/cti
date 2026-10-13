@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87b97be3-3a4b-4d78-888a-429b0996169e",
+    "id": "bundle--dcacdeff-4d21-4af9-8a14-c2d769ee68b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.384Z",
+            "modified": "2026-10-13T17:40:57.728Z",
             "name": "Analytic 1837",
-            "description": "Correlates (1) application registration or activation of broadcast receivers tied to system or app-generated intents, (2) event-triggered execution while the application is not in the foreground, and (3) immediate follow-on actions such as network communication or data access. The defender observes a causal chain where an external event (e.g., BOOT_COMPLETED, SMS_RECEIVED, USER_PRESENT, CONNECTIVITY_CHANGE) triggers application execution that bypasses normal user-driven lifecycle expectations, followed by background processing or outbound activity.",
+            "description": "For Android, detect Broadcast Receivers primarily during application vetting or controlled analysis rather than assuming a live device SOC feed. Correlate OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Application registers BroadcastReceiver via registerReceiver() or manifest-declared receiver for sensitive system intents (BOOT_COMPLETED, SMS_RECEIVED, ACTION_PACKAGE_REPLACED, CONNECTIVITY_CHANGE, USER_PRESENT) NOT IN $ApprovedReceiverApp]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,26 +35,18 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application registers or invokes broadcast receiver via registerReceiver() or manifest-declared receiver + intent filter tied to system or app events"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Application registers BroadcastReceiver via registerReceiver() or manifest-declared receiver for sensitive system intents (BOOT_COMPLETED, SMS_RECEIVED, ACTION_PACKAGE_REPLACED, CONNECTIVITY_CHANGE, USER_PRESENT) NOT IN $ApprovedReceiverApp"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Time correlation window between broadcast event and subsequent execution or network activity"
+                    "field": "ApprovedReceiverApps",
+                    "description": "MDM agent (BOOT_COMPLETED for policy enforcement), approved enterprise apps with documented broadcast receiver need. Derive from MDM catalog."
                 },
                 {
-                    "field": "SensitiveIntentList",
-                    "description": "List of broadcast intents considered high-risk (e.g., BOOT_COMPLETED, SMS_RECEIVED)"
-                },
-                {
-                    "field": "AllowedAppList",
-                    "description": "Baseline of legitimate applications expected to use broadcast receivers for these intents"
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Determines whether execution without foreground presence increases detection confidence"
+                    "field": "ReceiverWindow",
+                    "description": "Default 60s between broadcast receipt and follow-on activity."
                 }
             ]
         }

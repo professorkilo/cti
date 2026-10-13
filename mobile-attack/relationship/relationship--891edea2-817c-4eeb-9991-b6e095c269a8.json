@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afb18257-bed3-4728-9af8-c9b328c3fcf9",
+    "id": "bundle--21518532-18b7-4274-823d-c808a528f688",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.112Z",
+            "modified": "2026-09-02T21:36:21.494Z",
             "description": "[INSOMNIA](https://attack.mitre.org/software/S0463) can retrieve the call history.(Citation: Google Project Zero Insomnia)",
             "relationship_type": "uses",
             "source_ref": "malware--21b7e0b0-0dea-4ccc-8ad4-8da51fe3a901",

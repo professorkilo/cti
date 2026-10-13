@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50af5aa3-2541-4735-9b08-978bf01e7444",
+    "id": "bundle--2538cdd6-7439-4415-a491-d21fbe3642a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.658Z",
+            "modified": "2026-09-02T22:13:45.509Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has included keylogging capabilities as part of Operation ROCK.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

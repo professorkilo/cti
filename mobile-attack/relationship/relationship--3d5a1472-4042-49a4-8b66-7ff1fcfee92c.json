@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0cceb0d-19be-40bb-bfd5-154f00301ade",
+    "id": "bundle--22712a5f-f4c9-498a-a693-a43313411e2b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:34.180Z",
+            "modified": "2026-09-02T20:56:11.399Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has sent SMS phishing messages to employee phone numbers with a link to a site configured with a fake credential harvesting login portal.(Citation: MSTIC Octo Tempest Operations October 2023)(Citation: Mandiant UNC3944 May 2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

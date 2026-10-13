@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60ee196e-830f-4f23-8a9c-696f9e954bf0",
+    "id": "bundle--0d48d9ec-8a1d-4165-a4fb-99d5d17c21ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-02T22:18:03.645Z",
             "relationship_type": "revoked-by",
             "source_ref": "attack-pattern--fd658820-cbba-4c95-8ac9-0fac6b1099e2",
             "target_ref": "attack-pattern--f05fc151-aa62-47e3-ae57-2d1b23d64bf6",

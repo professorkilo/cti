@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7f78b26-f522-431a-8fb0-9c66825e6177",
+    "id": "bundle--f5dc4aa5-62ad-4847-8309-79b2b3a4ed3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.211Z",
+            "modified": "2026-09-02T20:56:11.529Z",
             "description": "Some mobile security products offer a loopback VPN used for inspecting traffic. This could proactively block traffic to websites that are known for phishing or appear to be conducting a phishing attack.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--78671282-26aa-486c-a7a5-5921e1616b58",

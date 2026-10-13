@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5b6129fc-dde2-4632-8af6-2f03342fc5ca",
+    "id": "bundle--6efb040f-83ef-4e5b-9cb7-0bd8fd8ec8c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.229Z",
+            "modified": "2026-09-02T21:48:05.288Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has the ability to take one picture, continuous pictures or event-related pictures using the device\u2019s camera.(Citation: FirshSecureList LightSpy 2020)(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2023)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025) For iOS devices, the default file type for pictures is in High Efficiency Image Format (HEIC); for Android devices, the default file type for pictures is in JPEG format. ",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

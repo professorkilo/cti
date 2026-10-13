@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--944fe5a0-7107-4de7-b41a-f6f4e361e150",
+    "id": "bundle--7d608045-2006-4712-b74d-a0830a91fd97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--44d378d8-575b-41c8-b75c-375abcf3e2db",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,10 +19,11 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:42:14.178Z",
             "name": "Analytic 1769",
-            "description": "The user may view applications with administrator access through the device settings and may also notice if user data is inexplicably missing. \nCommand-line activities can potentially be detected through Mobile Threat Defense (MTD) integrations with lower-level OS APIs. This could grant the MTD agents access to running processes and their parameters, potentially detecting file deletion processes.  \nThe user is prompted for approval when an application requests device administrator permissions.\nApplication vetting services may detect API calls for deleting files.  \nMobile security products can detect which applications can request device administrator permissions. Application vetting services could be extra scrutinous of applications that request device administrator permissions.",
+            "description": "For Android, detect Data Destruction from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Command Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: pm uninstall OR rm -f called by process NOT IN $MDMAgentPackageList$ for package_count > $BulkUninstallThreshold$ within $DestructionWindow$ \u2014 command-line destruction activity]; File Deletion via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: unlink() or rmdir() on path IN /data/data/ OR /data/user/ OR /sdcard/ by process NOT IN $MDMAgentPackageList$ at rate > $DeletionRateThreshold$ within $DestructionWindow$]; Process Creation via Application Vetting / Managed Device Telemetry [sh or cmd process spawned with arguments containing 'pm uninstall' or 'rm' by parent NOT IN $MDMAgentPackageList$ \u2014 shell invocation for destruction commands]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -32,32 +34,39 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--56c2b384-77f8-461f-a71a-76f7888ebfb6",
-                    "name": "User Interface",
-                    "channel": "None"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
-                    "name": "Command",
-                    "channel": "None"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: pm uninstall OR rm -f called by process NOT IN $MDMAgentPackageList$ for package_count > $BulkUninstallThreshold$ within $DestructionWindow$ \u2014 command-line destruction activity"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--e2f72131-14d1-411f-8e8c-aa3453dd5456",
-                    "name": "User Interface",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: unlink() or rmdir() on path IN /data/data/ OR /data/user/ OR /sdcard/ by process NOT IN $MDMAgentPackageList$ at rate > $DeletionRateThreshold$ within $DestructionWindow$"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "Application Vetting",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "Application Vetting",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "sh or cmd process spawned with arguments containing 'pm uninstall' or 'rm' by parent NOT IN $MDMAgentPackageList$ \u2014 shell invocation for destruction commands"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "MDMAgentPackageList",
+                    "description": "MDM agent, OTA update service."
+                },
+                {
+                    "field": "DeletionRateThreshold",
+                    "description": "Default 100 file deletions within window. Derive from MDM-managed wipe baseline."
+                },
+                {
+                    "field": "BulkUninstallThreshold",
+                    "description": "Default 5 packages within window. MDM wipe uses different API."
+                },
+                {
+                    "field": "DestructionWindow",
+                    "description": "Default 300s."
+                }
+            ]
         }
     ]
 }

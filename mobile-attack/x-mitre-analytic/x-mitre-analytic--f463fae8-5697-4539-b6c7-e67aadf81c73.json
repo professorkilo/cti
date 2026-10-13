@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34a798c4-bcf3-42fd-86f6-fbe6d0bbe94b",
+    "id": "bundle--4adaadad-cfd9-4c6f-8999-0046ea025e2e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.384Z",
+            "modified": "2026-10-13T17:40:59.991Z",
             "name": "Analytic 1758",
-            "description": "From the defender\u2019s perspective, this strategy correlates signals that a previously unprivileged Android app or process has gained higher privileges through exploitation rather than normal OS or MDM flows. \nObservable behaviors include: \n(1) unprivileged app processes issuing sensitive syscalls or accessing privileged device interfaces, \n(2) bursts of SELinux denials followed by an unexpected domain or permission change, \n(3) creation of new processes running with system or root UID whose lineage traces back to an app sandbox path, and \n(4) crashes or abnormal restarts of privileged system services followed shortly by a new connection or binder interaction from the same low-privileged app. The focus is on unusual privilege transitions, anomalous process ancestry, and OS security policy violations, not on specific exploit binaries or CVE signatures.",
+            "description": "For Android, detect Exploitation for Privilege Escalation by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Host Status via Android Enterprise DPC [DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported]; Network Traffic Flow via Android Enterprise Network Logging / Enterprise VPN [DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,41 +34,37 @@
             ],
             "x_mitre_log_source_references": [
                 {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
+                },
+                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "AndroidLogs:Crash",
-                    "channel": "Crash or abnormal restart of privileged system services (for example, system_server, mediaserver, installd) followed shortly by new privileged process activity or binder connections from a single app UID"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "AndroidLogs:Kernel",
-                    "channel": "Unprivileged app process (app UID, non-system) invoking sensitive syscalls or device interfaces associated with privilege escalation (setuid, ptrace, perf_event_open, vulnerable drivers)"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "AndroidLogs:Framework",
-                    "channel": "Creation of a new process running as system or root UID whose executable path resides under an app container path (for example, /data/app or /data/user/0/<pkg>), or whose parent process originates from an app sandbox"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window (for example, 60\u2013300 seconds) between SELinux events, crashes, and privilege changes to reduce noise while still capturing exploit chains."
+                    "field": "PatchLagThreshold",
+                    "description": "Default 30 days. Align to org patch SLA."
                 },
                 {
-                    "field": "AppUidRange",
-                    "description": "UID ranges that represent unprivileged application accounts in a specific Android OEM or enterprise deployment."
+                    "field": "PrivilegedAppList",
+                    "description": "MDM agent, OTA update service, approved Device Admin apps."
                 },
                 {
-                    "field": "SensitiveSyscalls",
-                    "description": "List of syscalls considered indicative of privilege escalation attempts; may vary by kernel version, OEM drivers, and threat model."
+                    "field": "EscalationWindow",
+                    "description": "Default 600s after root detection. Adjust to MDM check-in interval."
                 },
                 {
-                    "field": "PrivilegedServices",
-                    "description": "Set of high-value Android system services where crashes or restarts are particularly suspicious (for example, system_server, mediaserver)."
-                },
-                {
-                    "field": "PrivilegedUids",
-                    "description": "Enterprise-defined mapping of UIDs considered elevated (for example, root, system, radio) for alert scoping."
+                    "field": "AppBaselineDomains",
+                    "description": "Per-device CDN baseline, 30-day measurement."
                 }
             ]
         }

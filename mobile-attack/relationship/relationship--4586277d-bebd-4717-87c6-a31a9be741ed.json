@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25ec06f7-4db0-457a-877e-7e900975405f",
+    "id": "bundle--b4007531-3ad1-4681-b7af-4d59a1140b8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-02T21:40:44.719Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can get file lists on the SD card.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

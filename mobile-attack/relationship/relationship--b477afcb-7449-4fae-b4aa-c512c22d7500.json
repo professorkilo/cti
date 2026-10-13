@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--749916db-efb7-4dc5-8bb3-5a76cf8291e7",
+    "id": "bundle--5f81ba39-2252-49d8-bf1e-87799afad173",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-02T22:20:20.489Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can send SMS messages.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

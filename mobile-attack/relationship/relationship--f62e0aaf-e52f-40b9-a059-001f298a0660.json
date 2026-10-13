@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdb135eb-21d6-4fd2-a1d9-fab945bca428",
+    "id": "bundle--87009b9e-9620-4b50-a57c-7940fdb5d7f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T22:10:25.220Z",
             "description": "[Skygofree](https://attack.mitre.org/software/S0327) can be controlled via HTTP, XMPP, FirebaseCloudMessaging, or GoogleCloudMessaging in older versions.(Citation: Kaspersky-Skygofree)",
             "relationship_type": "uses",
             "source_ref": "malware--3a913bac-4fae-4d0e-bca8-cae452f1599b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af35043d-90ae-477d-89ce-537cbef1e154",
+    "id": "bundle--a52138b6-accd-4c5c-b2ae-d3e2f58f5f01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-02T21:36:21.531Z",
             "description": "[SpyC23](https://attack.mitre.org/software/S1195) can exfiltrate the call log.(Citation: threatpost AndroidSpyware 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--95811c0a-abe0-4e7f-a0cc-b0662ced5807",

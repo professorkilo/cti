@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a73c597-10fc-4c2d-ac78-a679c949ccb6",
+    "id": "bundle--9d400dc4-87b8-44b7-9b69-1c3d7b5aa184",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T22:10:24.769Z",
             "description": "[Hornbill](https://attack.mitre.org/software/S1077) can use HTTP and HTTP POST to communicate information to the C2.(Citation: lookout_hornbill_sunbird_0221)",
             "relationship_type": "uses",
             "source_ref": "malware--15d78a95-af6a-4b06-8dae-76bedb0ec5a1",

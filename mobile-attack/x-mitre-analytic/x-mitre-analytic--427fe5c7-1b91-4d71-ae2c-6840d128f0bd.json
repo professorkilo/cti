@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ba700a1-6f1c-485d-a630-2ef85f22b1e0",
+    "id": "bundle--7713c394-ee4e-4e18-a58d-aeddec382d30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.377Z",
+            "modified": "2026-10-13T17:40:54.426Z",
             "name": "Analytic 1764",
-            "description": "The defender correlates Android screen-capture-capable behavior from an app identity with runtime context showing that foreground content from another app is being captured outside expected user-driven workflows. The strongest Android evidence is MediaProjection-like capture initiation, accessibility-assisted observation of foreground UI content, or privileged screencap or screenrecord behavior, followed by screenshot or video artifact creation, buffer growth, or outbound transfer. The detection is strengthened when the capturing app is backgrounded, operates as a foreground service without clear user-driven recording intent, captures while another sensitive app is foregrounded, runs with accessibility or elevated access inconsistent with its role, or performs capture without recent user interaction.",
+            "description": "For Android, detect Screen Capture from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: MediaProjection capture session, accessibility-based foreground content observation, or privileged screencap/screenrecord invocation from app while different app is foregrounded \u2014 cross-app screen content access]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,77 +34,33 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "MediaProjection-style screen capture session began from app identity while a different app was foregrounded and capture path was not mapped to approved recording workflow"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Accessibility-service activity from app identity coincided with foreground content observation and subsequent screenshot, frame buffer, or screenrecord artifact behavior within TimeWindow"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Privileged screencap, screenrecord, adb-driven capture, or root-context screen acquisition behavior occurred from app, shell, or elevated identity while foreground app context changed or sensitive app remained active"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Capturing app remained backgrounded or foreground-service-only while screen capture session occurred and another app was foregrounded during capture interval"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "LastUserInteractionDelta exceeded threshold before screen capture session start and no expected foreground transition or consent-linked interaction occurred during capture interval"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Sensitive app category remained foregrounded during screen capture session from different app identity"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "App identity performing screen capture had unapproved accessibility posture, capture-related special access, unmanaged state, or was not approved for screen recording or assistive observation workflows"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: MediaProjection capture session, accessibility-based foreground content observation, or privileged screencap/screenrecord invocation from app while different app is foregrounded \u2014 cross-app screen content access"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window linking capture-path invocation, foreground-app context, artifact creation, and optional upload."
+                    "field": "ScreenCaptureAllowList",
+                    "description": "Approved screen recording apps (enterprise device management, approved accessibility tools, MDM-provisioned remote support). Minimal list. Derive from MDM catalog."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Approved screen-recording, accessibility, remote-support, or QA/testing apps vary by organization and device group."
+                    "field": "CaptureInteractionThreshold",
+                    "description": "Default 10s. Screen capture sessions starting >10s after last user interaction with capture app not foregrounded are covert."
                 },
                 {
-                    "field": "AllowedAccessibilityApps",
-                    "description": "Approved accessibility-enabled apps vary by assistive and enterprise workflow."
-                },
-                {
-                    "field": "AllowedForegroundServiceCaptureApps",
-                    "description": "Some approved apps may legitimately use foreground services during screen recording."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Defines how close capture initiation must be to user interaction to be considered expected."
-                },
-                {
-                    "field": "SensitiveForegroundAppCategories",
-                    "description": "Categories such as banking, identity, messaging, or enterprise apps may warrant higher sensitivity during capture."
-                },
-                {
-                    "field": "ArtifactWriteThreshold",
-                    "description": "Minimum screenshot/video/cache write volume indicating probable screen-capture output."
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Threshold for suspicious outbound transfer after capture."
-                },
-                {
-                    "field": "ConsentInteractionGracePeriod",
-                    "description": "Grace period allowed for expected user consent or explicit initiation before capture is treated as suspicious."
+                    "field": "TargetAppList",
+                    "description": "Banking, enterprise SSO, auth, email apps. Screen capture of these is highest-confidence malicious."
                 }
             ]
         }

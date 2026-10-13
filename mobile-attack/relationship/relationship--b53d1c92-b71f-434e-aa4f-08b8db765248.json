@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5fc80cf-d428-48f4-bf87-6e9de38d4bf5",
+    "id": "bundle--11237f38-2e07-41e4-b750-85350ab82386",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.173Z",
+            "modified": "2026-09-02T21:36:49.327Z",
             "description": "[FinFisher](https://attack.mitre.org/software/S0182) tracks the latitude and longitude coordinates of the infected device.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a5528622-3a8a-4633-86ce-8cdaf8423858",

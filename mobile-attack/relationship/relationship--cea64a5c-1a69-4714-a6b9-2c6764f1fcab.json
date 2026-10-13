@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82ea8037-7b74-464d-abe2-8b78ac2f6988",
+    "id": "bundle--8c5ebe0c-50d0-42a2-8709-1e24ede5e9c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-02T21:49:41.248Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has compressed and encrypted collected data with a password from the C2 server.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

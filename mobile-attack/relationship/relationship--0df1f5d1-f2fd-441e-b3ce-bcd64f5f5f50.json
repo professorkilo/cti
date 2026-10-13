@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06548cb9-7649-42b5-a1ee-4fcb0136ee44",
+    "id": "bundle--aa64c619-5751-4785-816d-ba2e28966bf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.922Z",
+            "modified": "2026-09-02T22:10:24.534Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has used both HTTPS and Websockets to communicate with the C2.(Citation: Threatfabric LightSpy 2023)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

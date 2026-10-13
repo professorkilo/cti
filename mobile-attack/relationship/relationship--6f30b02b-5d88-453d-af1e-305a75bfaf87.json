@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a6f98cb-1383-483b-a973-ad40038834c6",
+    "id": "bundle--3725b0f8-aab2-418c-8c9a-4af7ca1e9c19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.077Z",
+            "modified": "2026-09-02T21:49:26.845Z",
             "description": "[DEFENSOR ID](https://attack.mitre.org/software/S0479) can retrieve a list of installed applications.(Citation: ESET DEFENSOR ID)",
             "relationship_type": "uses",
             "source_ref": "malware--5a5dca4c-03c1-4b99-bfcf-c206e20aa663",

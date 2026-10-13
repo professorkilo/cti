@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73d67358-2e7e-4b1f-9b21-b800f81f29b7",
+    "id": "bundle--c9b8debe-820c-42a2-8081-4073f060d7d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-02T21:36:49.229Z",
             "description": "[Android/Chuli.A](https://attack.mitre.org/software/S0304) stole geo-location data.(Citation: Kaspersky-WUC)",
             "relationship_type": "uses",
             "source_ref": "malware--d05f7357-4cbe-47ea-bf83-b8604226d533",

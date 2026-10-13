@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1996d752-5d0d-4e57-a749-cc97def5caa4",
+    "id": "bundle--badd3b8b-10c8-44de-a8b5-67961c4d4ee6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.116Z",
+            "modified": "2026-09-02T21:36:49.136Z",
             "description": "[RatMilad](https://attack.mitre.org/software/S1241) has collected the device\u2019s last known location.(Citation: ZimperiumGupta_RatMilad_Oct2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--6ceb0644-0ae9-4ee1-a659-3888687cb03b",

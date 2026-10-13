@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--682c1179-89c7-4c55-871a-69e0ea14eb79",
+    "id": "bundle--bfca6caf-5338-4e1d-a018-9ebfb5106230",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.253Z",
+            "modified": "2026-09-02T21:35:58.748Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185) has accessed SMS messages.(Citation: MelikovBlackBerry LightSpy 2024)(Citation: Threatfabric LightSpy 2023)(Citation: Threatfabric LightSpy 2024)(Citation: LinkedIn Dmitry LightSpy 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

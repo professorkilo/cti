@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16f908eb-d4bc-44da-89df-7875093bff43",
+    "id": "bundle--da247d9f-5d23-4161-995f-fce2aae9943f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.254Z",
+            "modified": "2026-09-02T22:13:45.713Z",
             "description": "[Crocodilus](https://attack.mitre.org/software/S9004) has the ability to enable or disable keylogging.(Citation: ThreatFabric_Crocodilus_March2025)",
             "relationship_type": "uses",
             "source_ref": "malware--eed7b988-0279-4c4f-bfa9-d81f5444a04b",

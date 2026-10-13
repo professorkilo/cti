@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c22beb22-9a47-4ef0-8a55-bf523f0b2609",
+    "id": "bundle--072ff9da-d5ee-481c-826b-e69772f30c81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.085Z",
+            "modified": "2026-09-02T21:32:27.514Z",
             "description": "[Dendroid](https://attack.mitre.org/software/S0301) can be bound to legitimate applications prior to installation on devices.(Citation: Lookout-Dendroid)",
             "relationship_type": "uses",
             "source_ref": "malware--317a2c10-d489-431e-b6b2-f0251fddc88e",

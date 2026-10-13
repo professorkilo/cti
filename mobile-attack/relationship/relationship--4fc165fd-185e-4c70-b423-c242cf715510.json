@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--778c5c91-0f49-4bb1-b8d5-da0e443ed2cd",
+    "id": "bundle--5a649d43-f2aa-436f-89d4-272a4ba8fad8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.034Z",
+            "modified": "2026-09-02T18:52:16.335Z",
             "description": "[Rotexy](https://attack.mitre.org/software/S0411) checks if it is running in an analysis environment.(Citation: securelist rotexy 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--0626c181-93cb-4860-9cb0-dff3b1c13063",

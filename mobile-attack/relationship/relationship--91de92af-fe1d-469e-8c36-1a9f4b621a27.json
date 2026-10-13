@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90df8693-46c8-45e3-ad17-ff09bfc06d1f",
+    "id": "bundle--570b34b3-a51b-4a36-93b8-fa32d4458817",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.124Z",
+            "modified": "2026-09-02T21:35:36.120Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489)\u2019s code is obfuscated.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

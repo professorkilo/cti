@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86344e1d-93e9-49f8-b40d-e29bdd6d09cb",
+    "id": "bundle--42751293-9665-4c86-9e34-8dc04b9ca97a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.205Z",
+            "modified": "2026-09-02T20:50:13.243Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) can obtain the device\u2019s battery level, network operator, connection information, sensor information, and information about the device\u2019s storage and memory.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

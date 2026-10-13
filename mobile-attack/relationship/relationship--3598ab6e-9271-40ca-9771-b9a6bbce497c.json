@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--662ede10-01bc-4e4e-8e7c-2664fb46ebfd",
+    "id": "bundle--24e14708-f4fc-4871-8c3b-bb3e7d3a46b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-09-02T22:10:24.698Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has used HTTP to communicate with the C2 server.(Citation: cyble_chameleon_0423)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf29d2c6-2983-44ca-ac47-5c0ecccb9751",
+    "id": "bundle--48592ec4-6cce-4559-bf8b-2a9d1e4ce29e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.170Z",
+            "modified": "2026-09-02T21:32:27.731Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) has been incorporated into trojanized applications, including Uyghur/Arabic focused keyboards, alphabets, and plugins, as well as official-looking Google applications.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

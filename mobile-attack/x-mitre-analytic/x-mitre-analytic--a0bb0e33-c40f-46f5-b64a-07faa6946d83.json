@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ac9a576-c411-4cf7-a1fd-305943348674",
+    "id": "bundle--f9477d59-8ab8-45ea-a84c-3c280e38293b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.381Z",
+            "modified": "2026-10-13T17:42:28.065Z",
             "name": "Analytic 1771",
-            "description": "The defender correlates communication to legitimate external web-service platforms with supervised managed-app context and device-state information showing that the traffic is inconsistent with the app's expected role, background-refresh profile, or user interaction timing. On iOS, the strongest reliable evidence is network telemetry tied to a managed app or device plus app state and supervision context, especially when traffic to social, collaboration, cloud-storage, or generic HTTPS platforms occurs shortly after background activity, while the device is locked, or without expected user-driven foreground execution. Direct low-level framework visibility is weaker than Android, so primary analytic confidence should be anchored to supervised app context plus network behavior rather than assumed host-level proof.",
+            "description": "For iOS, detect Web Service by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Application Vetting [Code-signing entitlements and Info.plist privacy usage-description keys]; Application State via Apple MDM [InstalledApplicationList / ManagedApplicationList]; Network Traffic Content via Enterprise Secure Web Gateway / Proxy [DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,62 +34,38 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "VPN:MobileProxy",
-                    "channel": "Supervised device or managed app communicates with legitimate external web-service infrastructure such as cloud storage, messaging, collaboration, social, paste, or generic HTTPS API platforms in a pattern inconsistent with expected service baseline, managed app role, or normal background refresh behavior"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
+                    "name": "mobile:ApplicationVetting",
+                    "channel": "Code-signing entitlements and Info.plist privacy usage-description keys"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Managed app shows background activity, refresh, or lock-state-adjacent execution temporally aligned to web-service communication without expected foreground use or recent user interaction"
+                    "name": "iOS:MDM",
+                    "channel": "InstalledApplicationList / ManagedApplicationList"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "iOS:MDMLog",
-                    "channel": "Managed app communicating with legitimate web-service infrastructure is newly installed, recently updated, outside expected managed-app set, or displays baseline drift in app role, release path, or business justification"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "webproxy:applog",
+                    "channel": "DNS/HTTP(S) inspection or proxy transaction metadata where enterprise decryption/inspection is deployed"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "iOS:unifiedlog",
-                    "channel": "Supplemental launch, background task, networking, or extension-handling anomalies occur temporally adjacent to suspicious web-service communication from a managed app or supervised device"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Background task or networking subsystem event occurs immediately before web-service resolver fetch"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Correlation window between app state changes and communication with legitimate web-service infrastructure."
+                    "field": "ApprovedWebServiceApps",
+                    "description": "Per-platform approved apps for each web service (e.g., GitHub: com.github.android; Dropbox: com.dropbox.android). Derive from MDM catalog. Apps accessing web service platforms outside their declared function are anomalous."
                 },
                 {
-                    "field": "SupervisedRequired",
-                    "description": "Strongest app context and managed state analytics depend on supervised iOS devices."
+                    "field": "AppDeclaredCDN",
+                    "description": "Per-app declared network destinations from Info.plist or AndroidManifest network config. Legitimate web-service access should be declared."
                 },
                 {
-                    "field": "AllowedManagedApps",
-                    "description": "Approved managed apps and expected business use vary by organization and device profile."
-                },
-                {
-                    "field": "AllowedServiceClasses",
-                    "description": "Some managed apps legitimately communicate with collaboration, cloud-storage, or messaging services."
-                },
-                {
-                    "field": "AllowedDestinations",
-                    "description": "Expected Apple, enterprise, SaaS, CDN, and API destinations vary by app and tenant."
-                },
-                {
-                    "field": "BackgroundRefreshBaseline",
-                    "description": "Normal background network behavior differs across mail, chat, navigation, and enterprise apps."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Defines how close traffic must be to user activity to be considered expected."
-                },
-                {
-                    "field": "BeaconIntervalTolerance",
-                    "description": "Allowed periodicity for sync, push, and refresh traffic varies across app categories."
-                },
-                {
-                    "field": "UplinkBytesThreshold",
-                    "description": "Threshold for suspicious transfer volume to legitimate web-service platforms."
+                    "field": "ResolverPivotWindow",
+                    "description": "Default 120s between web-service platform session and novel C2 connection. Tightening: 30s \u2014 synchronous resolve-then-connect. Loosening: 300s \u2014 catches deferred pivot."
                 }
             ]
         }

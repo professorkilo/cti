@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf3835b0-b934-42fb-a205-5a3897f57d85",
+    "id": "bundle--33bed402-1c78-4b79-b4ac-3f1d8afe8b7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.913Z",
+            "modified": "2026-09-02T18:46:03.345Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) has been installed in two stages and can secretly install new applications.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

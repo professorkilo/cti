@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e51c9fc-6e4b-4965-b95c-68e8863edc48",
+    "id": "bundle--dc78a40d-be6b-4416-965d-52ede13d9985",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.139Z",
+            "modified": "2026-09-02T22:10:25.027Z",
             "description": "[Bread](https://attack.mitre.org/software/S0432) communicates with the C2 server using HTTP requests.(Citation: Google Bread)",
             "relationship_type": "uses",
             "source_ref": "malware--108b2817-bc01-404e-8e1b-8cdeec846326",

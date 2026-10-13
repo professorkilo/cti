@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6c96ef5-bd50-4cdd-8507-5a784ff826d4",
+    "id": "bundle--f04470e8-c99f-41ee-8b98-2c0e92e7f493",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.122Z",
+            "modified": "2026-09-02T21:36:49.162Z",
             "description": "[FlyTrap](https://attack.mitre.org/software/S1093) can collect device geolocation data.(Citation: Trend Micro FlyTrap)",
             "relationship_type": "uses",
             "source_ref": "malware--8338393c-cb2e-4ee6-b944-34672499c785",

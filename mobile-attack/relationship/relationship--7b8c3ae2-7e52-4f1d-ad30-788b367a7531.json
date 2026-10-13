@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15315c15-da3c-4b6d-9a84-6cf97e886a20",
+    "id": "bundle--63732855-7644-49b1-906b-8859c8ba71c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-02T20:50:12.943Z",
             "description": "[Riltok](https://attack.mitre.org/software/S0403) can query various details about the device, including phone number, country, mobile operator, model, root availability, and operating system version.(Citation: Kaspersky Riltok June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c0efbaae-9e7d-4716-a92d-68373aac7424",

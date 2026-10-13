@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12ca894c-be05-48b9-b530-827fe22eaf51",
+    "id": "bundle--31755e6a-6c21-4a56-99e3-969e3a7fdc61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.249Z",
+            "modified": "2026-09-02T21:32:27.887Z",
             "description": "[DCHSpy](https://attack.mitre.org/software/S1243) has masqueraded as legitimate applications, such as VPN and banking applications.(Citation: Lookout_DCHSpy_July2025) ",
             "relationship_type": "uses",
             "source_ref": "malware--6d5c257d-e6de-4c95-a7e8-09ac9386007d",

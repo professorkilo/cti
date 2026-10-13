@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f3429a1-9d15-4ef0-8d6f-e1220e1a0d0b",
+    "id": "bundle--bc98459b-d71f-49c6-83fa-19b1d50cf10d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-02T22:13:12.729Z",
             "description": "[Xbot](https://attack.mitre.org/software/S0298) uses phishing pages mimicking Google Play's payment interface as well as bank login pages.(Citation: PaloAlto-Xbot)",
             "relationship_type": "uses",
             "source_ref": "tool--da21929e-40c0-443d-bdf4-6b60d15448b4",

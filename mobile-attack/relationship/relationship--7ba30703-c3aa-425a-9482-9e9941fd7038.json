@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2c430ba-668e-43f0-bbf1-47985224e97f",
+    "id": "bundle--6c07664b-dd46-4846-966e-4b01d01b98dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-02T21:48:05.031Z",
             "description": "[SilkBean](https://attack.mitre.org/software/S0549) can access the camera on the device.(Citation: Lookout Uyghur Campaign)",
             "relationship_type": "uses",
             "source_ref": "malware--ddbe5657-e21e-4a89-8221-2f1362d397ec",

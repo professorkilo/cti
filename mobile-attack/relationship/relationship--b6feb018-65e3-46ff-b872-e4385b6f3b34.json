@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14927bce-616f-4559-a6bb-8f79f361b6d4",
+    "id": "bundle--1979b8e3-ebe8-4921-86c7-f6407c1f916c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-02T18:52:35.926Z",
             "description": "[Gustuff](https://attack.mitre.org/software/S0406) may prevent application removal by abusing Android\u2019s ` performGlobalAction(int)` API call. ",
             "relationship_type": "uses",
             "source_ref": "malware--ff8e0c38-be47-410f-a2d3-a3d24a87c617",

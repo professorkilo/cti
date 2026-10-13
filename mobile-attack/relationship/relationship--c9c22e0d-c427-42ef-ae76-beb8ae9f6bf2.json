@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c87c7c2c-204c-4697-a3dd-17468ceca9e9",
+    "id": "bundle--46414de3-11b2-4131-9753-93024a70b9ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-02T18:49:42.302Z",
             "description": "[FakeSpy](https://attack.mitre.org/software/S0509) can collect the device\u2019s network information.(Citation: Cybereason FakeSpy)",
             "relationship_type": "uses",
             "source_ref": "malware--838f647e-8ff8-48bd-bbd5-613cee7736cb",

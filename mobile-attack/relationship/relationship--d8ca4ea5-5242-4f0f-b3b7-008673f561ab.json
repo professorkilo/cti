@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38d4c8f2-1b0a-4ca3-ba8e-debe4a01b78f",
+    "id": "bundle--bbb7526a-87c3-4071-a0c9-a08b21e51a54",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-02T21:41:04.075Z",
             "description": "[ViperRAT](https://attack.mitre.org/software/S0506) can collect and record audio content.(Citation: Lookout ViperRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--f666e17c-b290-43b3-8947-b96bd5148fbb",

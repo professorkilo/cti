@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbf42073-24c6-46fe-aac4-e961b7f2afd9",
+    "id": "bundle--1d052794-2d66-4c1f-b2ca-475bf5a5beda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-09-02T22:17:29.944Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) registers for the `USER_PRESENT` broadcast intent and uses it as a trigger to take photos with the front-facing camera.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

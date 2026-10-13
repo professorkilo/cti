@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6aadb585-292f-4055-b7ca-e0e8ba4189d3",
+    "id": "bundle--ca1028fb-43cd-454e-8e0d-83eccf8e6372",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.127Z",
+            "modified": "2026-09-02T18:50:30.711Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) uses standard HTTP for exfiltration.(Citation: Wandera-RedDrop)",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

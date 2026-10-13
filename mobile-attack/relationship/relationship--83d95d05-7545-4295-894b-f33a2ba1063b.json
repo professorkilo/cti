@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df49ab79-0196-4fc3-bffa-1725ce8a9835",
+    "id": "bundle--26299074-f903-452d-a376-b74e9b39dc36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.105Z",
+            "modified": "2026-09-02T22:17:30.026Z",
             "description": "[HenBox](https://attack.mitre.org/software/S0544) has registered several broadcast receivers.(Citation: Palo Alto HenBox)",
             "relationship_type": "uses",
             "source_ref": "malware--aef537ba-10c2-40ed-a57a-80b8508aada4",

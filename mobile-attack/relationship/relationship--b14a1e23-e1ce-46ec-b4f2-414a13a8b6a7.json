@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d509a811-509b-4efb-a454-152cc7d8fd60",
+    "id": "bundle--b94811ad-be87-44cd-aa97-5c19ed378bbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-02T22:19:12.796Z",
             "description": "[Chameleon](https://attack.mitre.org/software/S1083) has the ability to bypass the biometric prompt for unlocking an infected device, forcing the victim to use PIN authentication. To do so, [Chameleon](https://attack.mitre.org/software/S1083) will first check specified conditions, then will use the AccessibilityEvent action to transition from biometric authentication to PIN authentication.(Citation: ThreatFabric_Chameleon_Dec2023) ",
             "relationship_type": "uses",
             "source_ref": "malware--2cf00c5a-857d-4cb6-8f03-82f15bee0f6f",

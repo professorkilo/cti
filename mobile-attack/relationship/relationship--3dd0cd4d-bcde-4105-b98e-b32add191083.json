@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--beb49af4-2541-4db4-8fd5-dc908167839b",
+    "id": "bundle--7cb4e391-b9c2-4177-9832-a357cce06fd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.009Z",
+            "modified": "2026-09-02T18:45:47.224Z",
             "description": "[GolfSpy](https://attack.mitre.org/software/S0421) exfiltrates data using HTTP POST requests.(Citation: Trend Micro Bouncing Golf 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c19cfc89-5ac6-4d2d-a236-70d2b32e007c",

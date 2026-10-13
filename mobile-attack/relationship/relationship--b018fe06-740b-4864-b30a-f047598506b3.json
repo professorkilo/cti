@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b234f4f-1150-4a6a-85a1-c09dcc23d51c",
+    "id": "bundle--6959487b-e742-4ccb-80a0-97a86c04d1b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.165Z",
+            "modified": "2026-09-02T20:50:13.127Z",
             "description": "[Corona Updates](https://attack.mitre.org/software/S0425) can collect various pieces of device information, including OS version, phone model, and manufacturer.(Citation: TrendMicro Coronavirus Updates) ",
             "relationship_type": "uses",
             "source_ref": "malware--366c800f-97a8-48d5-b0a6-79d00198252a",

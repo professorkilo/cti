@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--315df0a2-c5f3-486b-95d5-0379c5f61732",
+    "id": "bundle--997364ba-de30-4181-9b05-492eb9d77265",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.962Z",
+            "modified": "2026-09-02T21:49:03.969Z",
             "description": "[TrickMo](https://attack.mitre.org/software/S0427) can collect device network configuration information such as IMSI, IMEI, and Wi-Fi connection state.(Citation: SecurityIntelligence TrickMo)",
             "relationship_type": "uses",
             "source_ref": "malware--21170624-89db-4e99-bf27-58d26be07c3a",

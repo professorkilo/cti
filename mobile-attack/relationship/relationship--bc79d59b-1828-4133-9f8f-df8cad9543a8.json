@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba322c8c-fb4c-4719-9226-d54fddac3dea",
+    "id": "bundle--466ec869-e7ba-41af-851a-726f44aa56df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.182Z",
+            "modified": "2026-09-02T22:20:49.755Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can delete arbitrary files from the device.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

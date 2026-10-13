@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4817b9de-2115-42bb-b61b-6457ee342534",
+    "id": "bundle--c4e2a8be-7721-4db1-b62b-cab10bd52818",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-02T22:19:52.639Z",
             "description": "[VajraSpy](https://attack.mitre.org/software/S9006) has requested for `android.permission.CALL_PHONE`.(Citation: K7Dhanalakshmi_VajraSpy_April2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--8205a875-3ed5-4be2-ab9b-14a7d29431d0",

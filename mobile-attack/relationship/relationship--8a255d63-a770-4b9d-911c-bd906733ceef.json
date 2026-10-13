@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4615d8a-6170-46c3-8e2f-db0ee38bde6a",
+    "id": "bundle--2a04adb0-e6b8-442e-84eb-b3fb0ad785f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-02T22:14:09.404Z",
             "description": "[Drinik](https://attack.mitre.org/software/S1054) has C2 commands that can move the malware in and out of the foreground. (Citation: cyble_drinik_1022)",
             "relationship_type": "uses",
             "source_ref": "malware--d6e009b7-df5e-447a-bfd2-d5b77374edfe",

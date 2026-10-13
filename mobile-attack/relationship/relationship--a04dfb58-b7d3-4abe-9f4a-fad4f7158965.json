@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ecc4910-fa5c-4e75-b31d-6efe821d6c39",
+    "id": "bundle--655a7ad8-eed5-4347-bef6-fcd29d148bdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-02T21:49:26.938Z",
             "description": "[Ginp](https://attack.mitre.org/software/S0423) can obtain a list of installed applications.(Citation: ThreatFabric Ginp)",
             "relationship_type": "uses",
             "source_ref": "malware--6146be90-470c-4049-bb3a-9986b8ffb65b",

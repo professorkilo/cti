@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc5b39cf-84ff-4f33-8e1a-a1ecf700fd3a",
+    "id": "bundle--f392e96b-6ab3-4ed6-8740-2ea4a3001a38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:42:46.170Z",
             "name": "Analytic 1718",
-            "description": "Correlates (1) application interaction with elevation control mechanisms (e.g., Accessibility Service, Device Admin, overlay permissions, package installer flows), (2) rapid transition to elevated capability state without expected user interaction patterns, and (3) immediate privileged actions such as sensor access, UI manipulation, or background persistence. The defender observes a causal chain where an application gains elevated privileges through abuse of system-controlled consent flows and subsequently performs actions inconsistent with normal user-driven authorization.",
+            "description": "For Android, detect Abuse Elevation Control Mechanism from documented management, network, or vetting evidence; treat state queries as periodic observations rather than real-time events. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: App invokes privileged framework APIs (accessibility performAction, WindowManager.addView TYPE_APPLICATION_OVERLAY, PackageInstaller) immediately after acquiring elevation control mechanism without expected user settings navigation time]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,31 +35,27 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "application granted high-risk permission or special access (AccessibilityService, SYSTEM_ALERT_WINDOW, DeviceAdmin) with abnormal grant pattern (e.g., no recent user interaction or rapid sequence of grants)"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "application invokes privileged framework APIs (Accessibility events, UI automation, package install flows) immediately following permission grant"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App invokes privileged framework APIs (accessibility performAction, WindowManager.addView TYPE_APPLICATION_OVERLAY, PackageInstaller) immediately after acquiring elevation control mechanism without expected user settings navigation time"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Defines correlation window between permission grant and privileged behavior"
+                    "field": "ElevationAllowList",
+                    "description": "Approved apps for each elevation mechanism: accessibility (approved screen readers), SYSTEM_ALERT_WINDOW (approved chat bubbles), INSTALL_PACKAGES (MDM agent, approved enterprise installer). Derive from MDM catalog."
                 },
                 {
-                    "field": "HighRiskPermissionSet",
-                    "description": "List of permissions or access types considered high-risk (Accessibility, Device Admin, overlay)"
+                    "field": "ElevationActionWindow",
+                    "description": "Default 30s between permission acquisition and privileged action invocation. Legitimate use requires user to navigate settings before granting; immediate action post-acquisition is suspicious."
                 },
                 {
-                    "field": "UserInteractionThreshold",
-                    "description": "Defines acceptable proximity of user interaction to permission grant"
-                },
-                {
-                    "field": "AllowedAppList",
-                    "description": "Baseline of legitimate apps expected to use high-risk permissions"
+                    "field": "TargetAppList",
+                    "description": "Banking, auth, enterprise apps. Elevation control abuse against these is high-confidence malicious."
                 }
             ]
         }

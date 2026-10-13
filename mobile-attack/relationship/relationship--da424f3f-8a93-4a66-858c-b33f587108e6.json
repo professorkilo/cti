@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9917a82-5407-429f-964b-3dfd83e0c4a5",
+    "id": "bundle--342a22a2-854a-4c88-b855-a236a2780324",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.223Z",
+            "modified": "2026-09-02T20:50:13.255Z",
             "description": "[Exobot](https://attack.mitre.org/software/S0522) can obtain the device\u2019s country and carrier name.(Citation: Threat Fabric Exobot)",
             "relationship_type": "uses",
             "source_ref": "malware--c91cec55-634c-4670-ba10-2dc7ceb28e98",

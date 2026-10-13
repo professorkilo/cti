@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8284448-84f6-465f-89fc-0051f19f7819",
+    "id": "bundle--f04c1fcb-f859-4ad3-ad7b-05d2ab1ffd30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.983Z",
+            "modified": "2026-09-02T20:56:11.387Z",
             "description": "[CherryBlos](https://attack.mitre.org/software/S1225) has been distributed through the threat actors\u2019 Telegram group, fake TikTok and Twitter accounts, and YouTube videos.(Citation: TrendMicro_CherryBlos_July2023)  ",
             "relationship_type": "uses",
             "source_ref": "malware--3cf81957-489a-469f-b013-362d548a96c1",

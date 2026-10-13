@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91af8ec3-a331-4c66-a57b-c2fd2660754d",
+    "id": "bundle--046dd946-3dde-45be-b530-cb0efa29a795",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:42:22.973Z",
             "name": "Analytic 1697",
-            "description": "An app or app update arrives through an expected delivery path or presents as a known legitimate package identity, but its post-install or post-update behavior materially changes in ways inconsistent with its historical role. The defender correlates package identity and install/update context, newly expanded capability state, changed runtime framework use, new sensor or storage behaviors, and new network destinations shortly after installation or update to identify likely supply-chain compromise rather than ordinary malicious sideloading or unrelated post-compromise activity.",
+            "description": "For Android, detect Supply Chain Compromise by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Application Permission via Android Enterprise DPC / Application Vetting [DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review]; Application State via Android Enterprise / EMM [Managed package inventory/status and package metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Known application begins first-seen or expanded use of content providers, account services, accessibility, or network destinations not in $AppBehaviorBaseline$ post-update]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,58 +34,38 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
-                    "name": "android:MDMLog",
-                    "channel": "Managed app catalog, enterprise update policy, or trusted distribution posture remains unchanged while a known app exhibits materially different post-update behavior"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--b1e0bb80-23d4-44f2-b919-7e9c54898f43",
-                    "name": "android:MDMLog",
-                    "channel": "Known application or newly updated version declares, gains, or activates expanded storage, sensor, communications, accessibility, or device-management capability inconsistent with prior baseline or app role"
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager.getPermissionGrantState(); PackageManager manifest/requested-permission review"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--55c669d9-b42a-4cf6-a38a-07161b228ce9",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Updated or newly delivered application becomes active, launches background services, or executes shortly after install/update with minimal user interaction inconsistent with baseline"
+                    "name": "android:EMM",
+                    "channel": "Managed package inventory/status and package metadata"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "MobileEDR:telemetry",
-                    "channel": "Known application begins first-seen or expanded use of content providers, account services, accessibility, package services, cryptographic routines, dynamic loading, or other framework interactions after update/install"
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Known application begins first-seen or expanded use of content providers, account services, accessibility, or network destinations not in $AppBehaviorBaseline$ post-update"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--6c62144a-cd5c-401c-ada9-58c4c74cd9d2",
+                    "name": "android:DevicePolicyManager",
+                    "channel": "DevicePolicyManager policy/compliance/security-state queries and SecurityLog events where supported"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindow",
-                    "description": "Maximum span between app install/update event and first suspicious post-delivery behavior."
+                    "field": "AppNetworkBaseline",
+                    "description": "30-day per-app network destination baseline anchored to prior version. Updated on each planned release. Derive by measurement. Tightening: strict domain allowlist per version."
                 },
                 {
-                    "field": "AllowedAppList",
-                    "description": "Approved apps expected to change permissions, add services, or contact new destinations because of legitimate feature releases."
+                    "field": "AppBehaviorBaseline",
+                    "description": "Per-app permission and API call baseline from prior version. Derive from MDM telemetry on known-good version. Any new API category post-update is anomalous."
                 },
                 {
-                    "field": "AllowedVersionChangeWindow",
-                    "description": "Grace period after a documented app release during which some behavior drift may be expected."
-                },
-                {
-                    "field": "ForegroundStateRequired",
-                    "description": "Whether certain behaviors should only be considered suspicious when they occur without visible user interaction."
-                },
-                {
-                    "field": "RecentUserInteractionWindow",
-                    "description": "Threshold for determining whether immediate post-update activity was user-driven or autonomous."
-                },
-                {
-                    "field": "DestinationAllowList",
-                    "description": "Expected new destinations, APIs, CDNs, or telemetry endpoints associated with approved app updates."
-                },
-                {
-                    "field": "CapabilityDriftThreshold",
-                    "description": "Threshold for how many newly added or newly exercised permissions/capabilities are considered abnormal for a known app."
-                },
-                {
-                    "field": "BehaviorBaselinePopulation",
-                    "description": "Population of prior devices, versions, or user cohorts used to baseline normal app behavior."
+                    "field": "PostInstallWindow",
+                    "description": "Default 86400s (24hr) behavioral observation window post-install/update. Tightening: 3600s \u2014 catches immediate post-install C2."
                 }
             ]
         }

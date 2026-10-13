@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59528dfd-6fa0-4790-af25-2810d84ae543",
+    "id": "bundle--ef2da48b-2438-4382-b0b5-b899a7f16985",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.065Z",
+            "modified": "2026-09-02T21:35:58.191Z",
             "description": "[Android/SpyAgent](https://attack.mitre.org/software/S1214) has exfiltrated SMS and MMS messages.(Citation: McAfee MoqHao 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--f082d7dd-20a9-4157-93c0-75e7aea09e42",

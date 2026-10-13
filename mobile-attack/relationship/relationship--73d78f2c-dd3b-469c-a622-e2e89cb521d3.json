@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--443fc699-9e1d-4c8e-9a37-58522aa77c8b",
+    "id": "bundle--719e1f65-f1f1-4660-9ab4-eb6502dc3092",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-09-02T22:19:12.758Z",
             "description": "Enterprises can provision policies to mobile devices that require a minimum complexity (length, character requirements, etc.) for the device passcode, and cause the device to wipe all data if an incorrect passcode is entered too many times. Both policies would mitigate brute-force, guessing, or shoulder surfing of the device passcode. Enterprises can also provision policies to disable biometric authentication, however, biometric authentication can help make using a longer, more complex passcode more practical because it does not need to be entered as frequently. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--649f7268-4c12-483b-ac84-4b7bca9fe2ee",

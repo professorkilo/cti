@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--117e1f9b-4e5e-45e2-84a9-e4087ae5bcb9",
+    "id": "bundle--f65007cc-56b7-470c-8936-3ee199b26b76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-02T21:48:27.781Z",
             "description": "[AhRat](https://attack.mitre.org/software/S1095) can record the screen.(Citation: welivesecurity_ahrat_0523)",
             "relationship_type": "uses",
             "source_ref": "malware--24c8f6db-71e0-41ef-a1dc-83399a5b17e5",

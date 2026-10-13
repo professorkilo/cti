@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--941a5558-7ca4-4567-8ac7-bfc4cf0be53d",
+    "id": "bundle--4945d00f-c09a-4a91-ab79-c0a38e901a19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:29.148Z",
+            "modified": "2026-09-02T20:56:11.456Z",
             "description": "[UNC788](https://attack.mitre.org/groups/G1029) has used phishing and social engineering to distribute malware.(Citation: Meta Adversarial Threat Report 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1f322d74-4822-4d60-8f64-414eea8a9258",

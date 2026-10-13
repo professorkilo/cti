@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--077f870b-dc9b-4b5b-b66a-09f8d9aedbab",
+    "id": "bundle--ae19ba3c-a0ac-4a2c-aade-5e6b77632bc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-02T21:32:27.790Z",
             "description": "[Asacub](https://attack.mitre.org/software/S0540) has masqueraded as a client of popular free ads services.(Citation: Securelist Asacub)",
             "relationship_type": "uses",
             "source_ref": "malware--a76b837b-93cc-417d-bf28-c47a6a284fa4",

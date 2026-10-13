@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e03aee52-9a55-44c1-8e22-0bd47e40873a",
+    "id": "bundle--09e53a3d-2d50-41b7-96f5-e962cb336cdc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-02T21:36:49.091Z",
             "description": "[Charger](https://attack.mitre.org/software/S0323) checks the local settings of the device and does not run its malicious logic if the device is located in Ukraine, Russia, or Belarus.(Citation: CheckPoint-Charger)",
             "relationship_type": "uses",
             "source_ref": "malware--d1c600f8-0fb6-4367-921b-85b71947d950",

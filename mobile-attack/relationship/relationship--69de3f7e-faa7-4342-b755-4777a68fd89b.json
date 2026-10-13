@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--852d416f-cd8f-4936-8c03-6eacc28057be",
+    "id": "bundle--deed7b21-2541-471b-9e12-8a6ac34961ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.069Z",
+            "modified": "2026-09-02T21:41:03.797Z",
             "description": "[DroidJack](https://attack.mitre.org/software/S0320) is capable of recording device phone calls.(Citation: Zscaler-SuperMarioRun)",
             "relationship_type": "uses",
             "source_ref": "malware--05c4f87c-be8f-46ea-8d9a-2a0aad8f52c1",

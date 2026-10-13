@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2fe174b-bb49-4ee2-a9c1-8f16442174fe",
+    "id": "bundle--f1437051-ff92-4849-a56a-af3b15f3e506",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.207Z",
+            "modified": "2026-09-02T22:20:20.552Z",
             "description": "[Escobar](https://attack.mitre.org/software/S1092) can modify, send, and delete SMS messages.(Citation: Bleeipng Computer Escobar)",
             "relationship_type": "uses",
             "source_ref": "malware--ec13d292-6d8d-4c7a-b07c-a2bd2402569a",

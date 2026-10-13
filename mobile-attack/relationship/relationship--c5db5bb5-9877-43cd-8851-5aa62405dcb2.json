@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--073574cb-c542-4c3e-84c4-377c9b7d4918",
+    "id": "bundle--b90562b7-fd11-4478-845d-064d113b5e59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-02T21:48:05.230Z",
             "description": "[ViceLeaker](https://attack.mitre.org/software/S0418) can take photos from both the front and back cameras.(Citation: SecureList - ViceLeaker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--6fcaf9b0-b509-4644-9f93-556222c81ed2",

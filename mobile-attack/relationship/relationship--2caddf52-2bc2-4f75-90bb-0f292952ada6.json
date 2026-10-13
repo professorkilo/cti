@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6083511f-13ca-42b8-9f5e-07f456f3553e",
+    "id": "bundle--e2ce8f64-9105-47fb-b395-6c2c3f1d12a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.965Z",
+            "modified": "2026-09-02T22:13:12.759Z",
             "description": "[TianySpy](https://attack.mitre.org/software/S1056) can utilize WebViews to display fake authentication pages that capture user credentials.(Citation: trendmicro_tianyspy_0122) ",
             "relationship_type": "uses",
             "source_ref": "malware--fd6d56b2-d84e-4d2a-b37d-d4678d3e08a6",

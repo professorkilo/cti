@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4c0b2298-a21b-4c95-9c87-db68a7f98173",
+    "id": "bundle--16c09ce2-d0fc-4c4a-a072-f872c7c113f3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-02T20:50:12.715Z",
             "description": "[CHEMISTGAMES](https://attack.mitre.org/software/S0555) has fingerprinted devices to uniquely identify them.(Citation: CYBERWARCON CHEMISTGAMES)",
             "relationship_type": "uses",
             "source_ref": "malware--a0d774e4-bafc-4292-8651-3ec899391341",

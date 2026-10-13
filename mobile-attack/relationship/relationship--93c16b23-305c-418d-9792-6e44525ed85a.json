@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3409019-2fb3-4393-b9d1-77fc4c9061aa",
+    "id": "bundle--ee65a6d5-95c8-4c2f-9c4b-7c4314d35291",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-09-02T21:36:49.173Z",
             "description": "[HilalRAT](https://attack.mitre.org/software/S1128) can access a device\u2019s location.(Citation: Meta Adversarial Threat Report 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--55714f87-6178-4b89-b3e5-d3a643f647ca",

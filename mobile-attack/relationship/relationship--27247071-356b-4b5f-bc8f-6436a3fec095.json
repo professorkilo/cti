@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f99e57b5-5e35-4573-ab70-f51120f10109",
+    "id": "bundle--ce7db4ef-cf3e-41da-9663-e3a0937cda6c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T21:36:48.747Z",
             "description": "[PJApps](https://attack.mitre.org/software/S0291) has the capability to collect and leak the victim's location.(Citation: Lookout-EnterpriseApps)",
             "relationship_type": "uses",
             "source_ref": "malware--c709da93-20c3-4d17-ab68-48cba76b2137",

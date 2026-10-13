@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34bbc3d3-2c7d-4069-9523-e30e0fe9ad0d",
+    "id": "bundle--7711f053-1e88-4f6e-9bd8-de658d3e95a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.376Z",
+            "modified": "2026-10-13T17:41:00.657Z",
             "name": "Analytic 1759",
-            "description": "Correlates app sandbox escape attempts via unsigned binary execution, mmap memory permission changes (RWX), and sandbox profile violations. Detection chain includes app leveraging JIT/JSC to execute shellcode or triggering kernel exploit via crafted IOKit or Mach port abuse.",
+            "description": "For iOS, detect Exploitation for Privilege Escalation by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate Host Status via Apple MDM [DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries]; Network Traffic Flow via Apple Network Extension / Enterprise VPN [NEFilterFlow / per-app VPN / secure-web-gateway flow metadata]; OS API Execution via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: Unified Log entry at level=fault in subsystem com.apple.kernel or com.apple.sandbox within $KernelFaultWindow$ of integrity_check failure \u2014 kernel-level fault coincident with integrity failure is the exploit-execution signal; requires super]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -35,27 +35,32 @@
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--85a533a4-5fa4-4dba-b45d-f0717bedd6e6",
-                    "name": "iOS:unifiedlog",
-                    "channel": "code signature validation failure / exec of invalidly-signed payload from sandboxed app"
+                    "name": "iOS:MDM",
+                    "channel": "DeviceInformation / SecurityInfo / ProfileList / restrictions and compliance queries"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--5ae32c6a-2d12-4b8f-81ca-f862f2be0962",
-                    "name": "iOS:unifiedlog",
-                    "channel": "mmap with PROT_EXEC and PROT_WRITE by sandboxed app"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--a7f22107-02e5-4982-9067-6625d4a1765a",
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Unified Log entry at level=fault in subsystem com.apple.kernel or com.apple.sandbox within $KernelFaultWindow$ of integrity_check failure \u2014 kernel-level fault coincident with integrity failure is the exploit-execution signal; requires super"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "ExecutableHashAllowList",
-                    "description": "Allowlist known benign unsigned binaries for reducing FP."
+                    "field": "KernelFaultWindow",
+                    "description": "Default 60s between integrity failure and kernel fault."
                 },
                 {
-                    "field": "RWXThreshold",
-                    "description": "Adjustable threshold for RWX page allocation frequency or size."
+                    "field": "AppBaselineDomains",
+                    "description": "Per-device CDN baseline, 30-day."
                 },
                 {
-                    "field": "JITContextDetection",
-                    "description": "May require tuning based on OS version and legitimate app usage (e.g., Safari JIT)."
+                    "field": "PostExploitWindow",
+                    "description": "Default 300s after integrity failure."
                 }
             ]
         }

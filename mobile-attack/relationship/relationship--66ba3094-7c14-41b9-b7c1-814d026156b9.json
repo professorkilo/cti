@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a717916-7630-44ef-ad97-ff6dcfbd1b94",
+    "id": "bundle--3660e749-0f31-4ecb-9a46-640cb1379815",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.065Z",
+            "modified": "2026-09-02T22:20:20.370Z",
             "description": "[WolfRAT](https://attack.mitre.org/software/S0489) can delete and send SMS messages.(Citation: Talos-WolfRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--dfdac962-9461-47f0-a212-36dfce2a97e6",

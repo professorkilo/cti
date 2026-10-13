@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14d49c84-7d38-451a-9174-1958cade30a5",
+    "id": "bundle--b7add40e-a06e-44e1-a614-09e76b5c3491",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.044Z",
+            "modified": "2026-09-02T21:36:21.420Z",
             "description": "[AhRat](https://attack.mitre.org/software/S1095) can collect the device\u2019s call log.(Citation: welivesecurity_ahrat_0523)",
             "relationship_type": "uses",
             "source_ref": "malware--24c8f6db-71e0-41ef-a1dc-83399a5b17e5",

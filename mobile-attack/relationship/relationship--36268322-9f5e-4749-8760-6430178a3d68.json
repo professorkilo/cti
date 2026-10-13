@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9797ad57-bfb0-4b99-897f-c9799de8e9e6",
+    "id": "bundle--456cde23-cb38-47ea-a050-2d2a784ca95b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.993Z",
+            "modified": "2026-09-02T21:35:57.976Z",
             "description": "[EventBot](https://attack.mitre.org/software/S0478) can intercept SMS messages.(Citation: Cybereason EventBot)",
             "relationship_type": "uses",
             "source_ref": "malware--aecc0097-c9f8-4786-9b39-e891ff173f54",

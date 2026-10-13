@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0aae12c-67df-4107-863d-8cdfda6b3402",
+    "id": "bundle--68c73533-c04b-4250-a506-9353834bf9fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.091Z",
+            "modified": "2026-09-02T22:16:14.746Z",
             "description": "[GPlayed](https://attack.mitre.org/software/S0536) can request device administrator permissions.(Citation: Talos GPlayed)",
             "relationship_type": "uses",
             "source_ref": "malware--a993495c-9813-4372-b9ec-d168c7f7ec0a",

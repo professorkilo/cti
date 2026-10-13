@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ab205c7-44b7-4960-b4b3-b6e279775c9b",
+    "id": "bundle--a451990b-d79c-4aff-b97d-0d4ea79d40bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.245Z",
+            "modified": "2026-09-02T21:36:21.712Z",
             "description": "[Red Alert 2.0](https://attack.mitre.org/software/S0539) can collect the device\u2019s call log.(Citation: Sophos Red Alert 2.0)",
             "relationship_type": "uses",
             "source_ref": "malware--6e282bbf-5f32-476a-b879-ba77eec463c8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--629d49f1-6f0c-40e9-a8df-bef94e63b656",
+    "id": "bundle--76793246-a4bf-4483-8136-e71e593300b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.116Z",
+            "modified": "2026-09-02T22:18:03.605Z",
             "description": "[FlexiSpy](https://attack.mitre.org/software/S0408) is capable of hiding SuperSU's icon if it is installed and visible.(Citation: FortiGuard-FlexiSpy) [FlexiSpy](https://attack.mitre.org/software/S0408) can also hide its own icon to make detection and the uninstallation process more difficult.(Citation: FlexiSpy-Features)",
             "relationship_type": "uses",
             "source_ref": "tool--1622fd3d-fcfc-4d02-ac49-f2d786f79b81",

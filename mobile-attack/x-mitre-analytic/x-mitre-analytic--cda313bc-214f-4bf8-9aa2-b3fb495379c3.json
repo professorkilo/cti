@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bc13d67-b53d-45eb-bc1b-45d862f250c6",
+    "id": "bundle--24067912-fcb1-4187-9635-e03edb2ebda2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.382Z",
+            "modified": "2026-10-13T17:41:02.476Z",
             "name": "Analytic 1780",
-            "description": "Defender correlates an app's opaque media ingress (download/IPC) with high-entropy or anomalous edits to image/audio/video files in app-writable storage (e.g., bursts of bitmap/codec operations, EXIF/IPTC/XMP mutation, suspicious container growth), followed by decoding/extraction behavior (new non-media artifact derived from the edited media) and optional exfiltration/sharing of the stego media. Focus is on: (1) opaque media arrival \u2192 (2) rapid metadata or pixel-domain mutations with atypical size/entropy deltas \u2192 (3a) decoded payload creation or dynamic load from decoded path, and/or (3b) upload/share of the modified media within a tight window.",
+            "description": "For Android, detect Steganography by correlating analyst-visible device/network evidence and management state; use streaming or batched telemetry only where the documented collector is deployed. Correlate File Creation via Application Vetting / Forensic Acquisition [Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT on binary-typed path in /data/data/<app>/ within $StegoExecWindow$ of media file download from same session]; Module Load via Application Vetting / Instrumented Dynamic Analysis [Dynamic API/runtime trace: DexClassLoader() or dlopen() on path written within $StegoExecWindow$ of media download event \u2014 download-write-load chain confirms steganographic payload delivery]; Network Connection Creation via Android Enterprise Network Logging / Enterprise VPN [DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata]. Alert on a sequence or state change inconsistent with the device/app baseline, approved management policy, or expected user workflow; do not infer unobserved API calls, file/process activity, or payload content from management state alone.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.1",
@@ -34,53 +34,29 @@
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "NSM:Flow",
-                    "channel": "HTTP(S)/QUIC media download with opaque content types (image/*, audio/*, video/*) from non-gallery domains or CDNs not previously used by the app"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8",
-                    "name": "android:logcat",
-                    "channel": "INSERT or UPDATE of image/*, audio/*, video/* via ContentResolver with same URI re-written within short window; abnormal MIME/container change"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "android:logcat",
-                    "channel": "App UID writes edited media to container paths (e.g., /data/data/<pkg>/files/, .../cache/, /storage/emulated/0/Pictures/<pkg>/) with high delta in size vs. original and elevated estimated segment entropy  "
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() with O_CREAT on binary-typed path in /data/data/<app>/ within $StegoExecWindow$ of media file download from same session"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--c0a4a086-cc20-4e1e-b7cb-29d99dfa3fb1",
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() or dlopen() on path written within $StegoExecWindow$ of media download event \u2014 download-write-load chain confirms steganographic payload delivery"
+                },
+                {
+                    "x_mitre_data_component_ref": "x-mitre-data-component--181a9f8c-c780-4f1f-91a8-edb770e904ba",
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
                 }
             ],
             "x_mitre_mutable_elements": [
                 {
-                    "field": "TimeWindowSeconds",
-                    "description": "Max time between media download/ingress, edit, and payload use/share (e.g., 10\u2013120s depending on device performance)."
+                    "field": "AppMediaCDNList",
+                    "description": "App's known image/audio CDN domains from 30-day baseline. Derive by measurement."
                 },
                 {
-                    "field": "PayloadEntropyThresholdMediaSegment",
-                    "description": "Minimum Shannon entropy for edited media regions or container deltas (e.g., \u2265 7.1) to flag likely embedded payloads."
-                },
-                {
-                    "field": "SizeDeltaRatio",
-                    "description": "Minimum growth ratio between pre/post edit media (e.g., \u2265 1.25) to reduce noise from normal compression."
-                },
-                {
-                    "field": "EditBurstWriteCount",
-                    "description": "Minimum sequential small-write count to indicate chunked embedding or re-encode bursts."
-                },
-                {
-                    "field": "SuspiciousMimeTransitions",
-                    "description": "List of atypical MIME/container transitions (e.g., PNG\u2192JPEG with EXIF injection, WAV\u2192M4A) for local tuning."
-                },
-                {
-                    "field": "KnownGoodMediaAppsAllowlist",
-                    "description": "Trusted editors/camera apps allowed to perform frequent edits without alerting."
-                },
-                {
-                    "field": "NetworkCDNAllowlist",
-                    "description": "CDNs/domains expected to host user media for the enterprise; suppresses FP for legitimate apps."
-                },
-                {
-                    "field": "UserContext",
-                    "description": "Foreground, Work Profile, developer mode flags used to scope analytics."
+                    "field": "StegoExecWindow",
+                    "description": "Default 120s from download to write-then-load chain. Tightening: 30s \u2014 synchronous extraction."
                 }
             ]
         }

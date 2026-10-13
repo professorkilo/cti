@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64175447-31b2-4540-86b6-e1e1a0c96f92",
+    "id": "bundle--217c9be3-8a46-4c91-aed3-ba75754f8931",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-02T18:50:30.752Z",
             "description": "[RedDrop](https://attack.mitre.org/software/S0326) collects and exfiltrates information including IMEI, IMSI, MNC, MCC, nearby Wi-Fi networks, and other device and SIM-related info.(Citation: Wandera-RedDrop)",
             "relationship_type": "uses",
             "source_ref": "malware--9ed10b5a-ff20-467f-bf2f-d3fbf763e381",

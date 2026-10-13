@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fef63a9b-7dad-42eb-94da-3707d0cdc127",
+    "id": "bundle--293e5e94-97b9-41c3-9d9d-6fc1b68e219d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-02T20:57:21.411Z",
             "description": "Providing user guidance around commonly abused features, such as the modal that requests for administrator permissions, should aid in preventing impairing defenses.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--653492e3-27be-4a0e-b08c-938dd2b7e0e1",
