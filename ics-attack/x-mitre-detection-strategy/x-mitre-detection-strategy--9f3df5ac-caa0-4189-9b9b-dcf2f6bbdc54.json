@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9037ed91-a0ab-40f5-b25f-bc4b0f1f067c",
+    "id": "bundle--4759b63d-99a3-4f73-8dd8-0aee42e5a6fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.686Z",
+            "modified": "2026-10-13T17:48:05.325Z",
             "name": "Detection of Hooking",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--05ca4f07-df4f-4e88-b216-f40ca6ce39b8"
+                "x-mitre-analytic--05ca4f07-df4f-4e88-b216-f40ca6ce39b8",
+                "x-mitre-analytic--ad07439d-e13e-438a-9f4b-330d61f2607b",
+                "x-mitre-analytic--05e52883-89d1-43f9-9836-d0dfc2f1d3e3",
+                "x-mitre-analytic--5b7ee346-9061-4e8e-9bec-4d629cf488c5"
             ]
         }
     ]

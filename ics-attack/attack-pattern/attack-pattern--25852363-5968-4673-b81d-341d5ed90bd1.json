@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72f725ee-c432-4fd2-9dea-0052bd87bea9",
+    "id": "bundle--6e8665d2-afec-4c66-b25f-76a924d23a24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:11.231Z",
+            "modified": "2026-10-13T17:48:49.639Z",
             "name": "Point & Tag Identification",
             "description": "Adversaries may collect point and tag values to gain a more comprehensive understanding of the process environment. Points may be values such as inputs, memory locations, outputs or other process specific variables. (Citation: Dennis L. Sloatman September 2016) Tags are the identifiers given to points for operator convenience. \n\nCollecting such tags provides valuable context to environmental points and enables an adversary to map inputs, outputs, and other values to their control processes. Understanding the points being collected may inform an adversary on which processes and values to keep track of over the course of an operation.",
             "kill_chain_phases": [
@@ -33,7 +33,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Jos Wetzels - Midnight Blue"
             ],
@@ -44,7 +44,10 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
             ],
             "x_mitre_version": "1.1"
         }

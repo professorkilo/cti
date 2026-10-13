@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50d25665-7579-4ad8-98eb-79987a145bc2",
+    "id": "bundle--f309eec3-2c40-43bb-a37e-174c7ba357c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.768Z",
+            "modified": "2026-10-13T16:51:10.478Z",
             "name": "Switch",
             "description": "A switch is a network device that connects endpoints (e.g., workstations, servers, HMIs, PLCs, etc.) so that they can communicate and share data and resources. Switches may operate at either Layer 2 or Layer 3 of the OSI Model and intelligently forward packets across the network based on the specified address (Media Access Control (MAC) address for Layer 2 and Internet Protocol (IP) address for Layer 3). Switches are typically used to define network segments and connect the devices within a particular level of the Purdue Model.  ",
             "x_mitre_sectors": [
@@ -65,7 +65,7 @@
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
                 "Embedded",
-                "Network"
+                "Network Devices"
             ],
             "x_mitre_deprecated": false,
             "x_mitre_domains": [

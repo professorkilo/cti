@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27e31a99-e292-46da-8a0c-64cbf4ee8b05",
+    "id": "bundle--248b88a9-2743-4d17-9eac-a4db5d2a7b31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.718Z",
+            "modified": "2026-10-13T17:48:37.554Z",
             "name": "Remote System Discovery",
             "description": "Adversaries may attempt to get a listing of other systems by IP address, hostname, or other logical identifier on a network that may be used for subsequent Lateral Movement or Discovery techniques. Functionality could exist within adversary tools to enable this, but utilities available on the operating system or vendor software could also be used.(Citation: Enterprise ATT&CK January 2018)",
             "kill_chain_phases": [
@@ -41,7 +41,10 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
             ],
             "x_mitre_version": "1.1"
         }

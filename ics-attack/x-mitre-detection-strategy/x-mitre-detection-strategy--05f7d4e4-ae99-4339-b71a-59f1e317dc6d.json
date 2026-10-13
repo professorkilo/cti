@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09ca439b-7661-452d-8f3c-862257b944a9",
+    "id": "bundle--112e943f-13fb-47cc-905f-320626267fcf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.667Z",
+            "modified": "2026-10-13T17:47:31.175Z",
             "name": "Detection of Block Reporting Message",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--393d7e7b-0790-49e7-9bcd-87ab4662b05e"
+                "x-mitre-analytic--393d7e7b-0790-49e7-9bcd-87ab4662b05e",
+                "x-mitre-analytic--d2a6ecfe-089b-47cc-8f10-260ad2de9c2e",
+                "x-mitre-analytic--d585c9c1-aa82-4b3c-a42d-eb499d996219",
+                "x-mitre-analytic--d6db8902-24b1-4e69-bc3d-78585c78a5d4"
             ]
         }
     ]

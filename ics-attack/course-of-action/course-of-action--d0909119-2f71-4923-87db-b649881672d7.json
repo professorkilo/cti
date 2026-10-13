@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7290a9f-13a1-488b-ab95-71e5343157ee",
+    "id": "bundle--4413162f-5734-4d54-a9a4-1a1d4357d36a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:32.177Z",
+            "modified": "2026-10-07T17:50:45.716Z",
             "name": "Disable or Remove Feature or Program",
             "description": "Remove or deny access to unnecessary and potentially vulnerable software to prevent abuse by adversaries.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

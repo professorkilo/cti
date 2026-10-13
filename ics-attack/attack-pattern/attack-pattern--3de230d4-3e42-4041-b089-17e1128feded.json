@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e340eaa-589e-465b-a32f-3e3cfc8782f7",
+    "id": "bundle--c1082563-2e09-4002-8bd7-24e64c69a771",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:58:24.843Z",
+            "modified": "2026-10-13T17:48:36.361Z",
             "name": "Automated Collection",
             "description": "Adversaries may automate collection of industrial environment information using tools or scripts. This automated collection may leverage native control protocols and tools available in the control systems environment. For example, the OPC protocol may be used to enumerate and gather information. Access to a system or interface with these native protocols may allow collection and enumeration of other attached, communicating servers and devices.",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
@@ -36,7 +36,9 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux"
             ],
             "x_mitre_version": "1.1"
         }

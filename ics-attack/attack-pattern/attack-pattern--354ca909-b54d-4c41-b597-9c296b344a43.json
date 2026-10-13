@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb43eac9-c466-4d31-b4ab-6cc1b9d6ebff",
+    "id": "bundle--d418a073-499f-48cc-b73c-16aa65f71d06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.625Z",
+            "modified": "2026-10-13T17:48:56.775Z",
             "name": "Siemens Project File Format",
             "description": "Adversaries may infect Siemens PLC project files (i.e., Step 7, WinCC, etc.) to achieve [Execution](https://attack.mitre.org/tactics/TA0104), [Persistence](https://attack.mitre.org/tactics/TA0110), and [Lateral Movement](https://attack.mitre.org/tactics/TA0109) objectives. Adversaries may modify an existing project file or bring their own project files into the environment.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)\n\nThe ability for an adversary to deploy an infected project file relies on access to a workstation with Siemens PLC programming software installed on it from which a program download can be performed.\n",
             "kill_chain_phases": [
@@ -40,6 +40,10 @@
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Windows",
+                "Linux"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

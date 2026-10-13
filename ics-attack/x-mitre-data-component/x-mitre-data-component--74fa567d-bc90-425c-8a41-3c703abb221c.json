@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bbe5997-baef-4e97-9b9d-c055031df782",
+    "id": "bundle--619a69bf-ff8e-4761-8a53-31eeffde1f77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.774Z",
+            "modified": "2026-10-13T17:43:56.009Z",
             "name": "Service Metadata",
             "description": "Contextual data about a service/daemon, which may include information such as name, service executable, start type, etc.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -118,6 +118,14 @@
                 {
                     "name": "auditd:DAEMON",
                     "channel": "auditd stopped, config changed, logging suspended"
+                },
+                {
+                    "name": "WinEventLog:System",
+                    "channel": "EventCode=7034, 7036 for Industrial Control Systems (ICS) service within detection window of connection flood"
+                },
+                {
+                    "name": "WinEventLog:System",
+                    "channel": "EventCode=7036 critical Industrial Control Systems (ICS) service transitions to Stopped without preceding change ticket reference"
                 }
             ]
         }

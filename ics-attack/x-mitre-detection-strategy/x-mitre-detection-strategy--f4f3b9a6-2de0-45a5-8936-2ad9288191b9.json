@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--282b1162-1757-4c08-a0ea-2aa0e8ea3e9c",
+    "id": "bundle--8e1d7a97-694f-4c2e-9d0e-b21a90fe95a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.698Z",
+            "modified": "2026-10-13T17:46:07.587Z",
             "name": "Detection of Network Sniffing",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--28eb77c1-1834-4b7a-a06f-afebb7f2e756"
+                "x-mitre-analytic--28eb77c1-1834-4b7a-a06f-afebb7f2e756",
+                "x-mitre-analytic--9fac6c8a-9320-47d1-aa1d-3bdd4f5856d3",
+                "x-mitre-analytic--795181c0-57b0-4c2f-ac9a-1c6a1c62b813",
+                "x-mitre-analytic--9b1bb08d-5aba-47f4-86d7-a5788c99e1ac"
             ]
         }
     ]

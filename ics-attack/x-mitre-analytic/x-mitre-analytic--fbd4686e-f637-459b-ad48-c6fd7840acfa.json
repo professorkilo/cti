@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b9f69551-35f1-4f26-a7e2-1d9c694bb099",
+    "id": "bundle--67f902dc-586a-4cfd-b6e7-292e7e6a8f76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--fbd4686e-f637-459b-ad48-c6fd7840acfa",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,26 +19,36 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:46:59.428Z",
             "name": "Analytic 1927",
-            "description": "Detecting software exploitation may be difficult depending on the tools available. Software exploits may not always succeed or may cause the exploited process to become unstable or crash.",
+            "description": "Real-time monitoring identifies malformed or out-of-spec ICS protocol exchanges targeting an embedded device from a source outside the approved communication baseline. OT operational-fidelity gate: Alert only when execution violates an approved signer/hash/path/parent/process or tool allowlist, or originates from an unauthorized user/tool, and is tied to an OT asset or follow-on OT-relevant action. Suppress vendor-signed software, approved engineering utilities, diagnostics, patching, backup, and documented maintenance.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "ics-attack"
             ],
             "x_mitre_platforms": [
-                "None"
+                "Embedded"
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "Application Log",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Content",
+                    "channel": "anomalous protocol exchange preceding device behavioral change (reboot, altered configuration)"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ExploitCrashCorrelationWindow",
+                    "description": "Time window correlating a memory access event with a subsequent crash."
+                },
+                {
+                    "field": "TrustedSecurityToolList",
+                    "description": "Allowlist of legitimate security/diagnostic tools authorized to perform cross-process memory access."
+                }
+            ]
         }
     ]
 }

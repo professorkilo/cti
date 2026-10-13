@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff13b3e9-7aa2-4390-9db1-cb137094ab5c",
+    "id": "bundle--149b2d68-5172-4e0e-a8da-912d133a38a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.668Z",
+            "modified": "2026-10-13T17:44:16.359Z",
             "name": "Detection of Project File Infection",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,8 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--6e046c4c-6c93-4fdf-a69e-5d81b52d1e9c"
+                "x-mitre-analytic--6e046c4c-6c93-4fdf-a69e-5d81b52d1e9c",
+                "x-mitre-analytic--aef5883b-f520-4309-aacc-d233b31ec860"
             ]
         }
     ]

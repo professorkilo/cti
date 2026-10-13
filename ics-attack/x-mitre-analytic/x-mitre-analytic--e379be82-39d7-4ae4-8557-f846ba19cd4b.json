@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9acd8811-3463-44f0-a6a6-f2a5ad7d0c36",
+    "id": "bundle--01dc44d1-e8b1-4a6d-9251-221e9b2ac055",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,9 +19,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:30:18.383Z",
+            "modified": "2026-10-13T17:47:07.989Z",
             "name": "Analytic 2056",
-            "description": "Monitor device alarms for program downloads, although not all devices produce such alarms.\n\nMonitor for protocol functions related to program download or modification. Program downloads may be observable in ICS automation protocols and remote management protocols.\n\nConsult asset management systems to understand expected program versions.\n\nMonitor devices configuration logs which may contain alerts that indicate whether a program download has occurred. Devices may maintain application logs that indicate whether a full program download, online edit, or program append function has occurred.\n",
+            "description": "Real-time monitoring identifies an Industrial Control System (ICS) protocol session reading back the complete program, configuration, and data block set from a field device in a single session from a source not in the approved engineering workstation list, distinguished from a partial Program Upload by the comprehensiveness of the read. OT operational-fidelity gate: Alert only when the action is not attributable to an authorized operator/engineering source for the specific target and function, and it is either outside an approved change/maintenance window or lacks matching change-control context; where telemetry permits, require corroborating device, configuration, or process-state effect. Suppress activity that fully matches approved maintenance, commissioning, failover, recovery, or tested control procedures.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
@@ -30,28 +30,32 @@
                 "ics-attack"
             ],
             "x_mitre_platforms": [
-                "None"
+                "Embedded"
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9d56be63-3501-4dd3-bb5f-63c580833298",
-                    "name": "Operational Databases",
-                    "channel": "None"
-                },
-                {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "Traffic",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--b05a614b-033c-4578-b4f2-c63a9feee706",
-                    "name": "Asset",
-                    "channel": "None"
+                    "name": "NSM:Content",
+                    "channel": "S7comm Upload ALL or Common Industrial Protocol (CIP) full program upload from source not in engineering workstation list, bytes_recv exceeding full upload size threshold"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "Application Log",
-                    "channel": "None"
+                    "name": "engineeringworkstation:ApplicationLog",
+                    "channel": "full upload session outside backup window schedule without documented backup purpose"
+                }
+            ],
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "BackupWindowSchedule",
+                    "description": "Scheduled periods during which routine full backups are expected."
+                },
+                {
+                    "field": "EngineeringWorkstationList",
+                    "description": "IP allowlist of workstations authorized to perform full program uploads."
+                },
+                {
+                    "field": "FullUploadSizeThreshold",
+                    "description": "Byte count threshold distinguishing a full program upload from a partial/diagnostic read."
                 }
             ]
         }

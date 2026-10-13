@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e36bb399-c152-4e67-8283-d6f660eb0970",
+    "id": "bundle--c3e04e16-4707-41d2-bae7-4ce500fafa1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-15T19:59:23.577Z",
+            "modified": "2026-10-13T17:48:40.258Z",
             "name": "Data from Local System",
             "description": "Adversaries may target and collect data from local system sources, such as file systems, configuration files, or local databases. This can include sensitive data such as specifications, schematics, or diagrams of control system layouts, devices, and processes.\n\nAdversaries may do this using [Command-Line Interface](https://attack.mitre.org/techniques/T0807) or [Scripting](https://attack.mitre.org/techniques/T0853) techniques to interact with the file system to gather information. Adversaries may also use [Automated Collection](https://attack.mitre.org/techniques/T0802) on the local system. ",
             "kill_chain_phases": [
@@ -28,7 +28,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
@@ -36,7 +36,10 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
             ],
             "x_mitre_version": "1.0"
         }

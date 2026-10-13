@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ffb9353-5a48-4a67-8652-0d8e9c4618dc",
+    "id": "bundle--92925c35-9d0f-4541-a2eb-691f5ecabd35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-03T20:31:27.602Z",
             "description": "If a link is being visited by a user, network intrusion prevention systems and systems designed to scan and remove malicious downloads can be used to block activity.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",

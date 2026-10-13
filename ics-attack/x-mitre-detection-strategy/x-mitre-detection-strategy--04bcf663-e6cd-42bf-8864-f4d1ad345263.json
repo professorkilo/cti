@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cafa31b-49d4-46f0-9928-6099cfb4802b",
+    "id": "bundle--ff7caf27-fefd-4cf0-bbb5-ee0d63ef2b72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.667Z",
+            "modified": "2026-10-13T17:45:50.204Z",
             "name": "Detection of Rootkit",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--ec695157-8c3c-439b-9925-459c9d4172f0"
+                "x-mitre-analytic--ec695157-8c3c-439b-9925-459c9d4172f0",
+                "x-mitre-analytic--a2ab9718-e601-4c5d-94ad-6382df57987c",
+                "x-mitre-analytic--ee5da023-236b-4c86-b228-9280aa402119",
+                "x-mitre-analytic--f45c158a-7086-4172-9fe4-1684e0ca34ee"
             ]
         }
     ]

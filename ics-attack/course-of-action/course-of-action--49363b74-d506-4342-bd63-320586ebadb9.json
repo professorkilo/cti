@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5656b2e-886a-402a-a3e0-c5b3c0fc3875",
+    "id": "bundle--fdc99d19-a4dc-4d70-84ce-300e5d405ec0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:27.827Z",
+            "modified": "2026-10-07T17:50:11.297Z",
             "name": "Exploit Protection",
             "description": "Use capabilities to detect and block conditions that may lead to or be indicative of a software exploit occurring.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

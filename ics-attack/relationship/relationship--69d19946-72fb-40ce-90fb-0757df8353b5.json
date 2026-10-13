@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52ea0d2f-6be9-4974-a7bb-05c3b6398595",
+    "id": "bundle--75cf3bec-d9c8-467f-bcbe-78e16d0291a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.069Z",
+            "modified": "2026-09-03T20:30:36.574Z",
             "description": "[FrostyGoop](https://attack.mitre.org/software/S1165) communicates using the Modbus protocol over the standard port of TCP 502.(Citation: Dragos FROSTYGOOP 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--b34df04a-9d30-4d84-a03f-0d536ee19a05",

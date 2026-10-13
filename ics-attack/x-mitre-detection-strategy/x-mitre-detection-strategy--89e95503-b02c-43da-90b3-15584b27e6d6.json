@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fe9d679-eb5f-4957-8b89-7bc3944c13ef",
+    "id": "bundle--1e9fe146-1b33-44e2-ab58-46ed81a7045f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.684Z",
+            "modified": "2026-10-13T17:44:57.972Z",
             "name": "Detection of Drive-by Compromise",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,8 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--32db74f9-d46d-4728-891a-113a8b8e2b07"
+                "x-mitre-analytic--32db74f9-d46d-4728-891a-113a8b8e2b07",
+                "x-mitre-analytic--f571ba94-73ab-4590-ba2c-739a93cde075"
             ]
         }
     ]

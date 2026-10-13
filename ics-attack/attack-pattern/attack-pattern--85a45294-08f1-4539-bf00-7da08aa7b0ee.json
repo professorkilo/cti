@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02fca3f2-85b5-4c4d-8487-53d56332ed8c",
+    "id": "bundle--5baf4a89-8c29-4c50-b417-a78412e3f7f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:16.054Z",
+            "modified": "2026-10-13T17:48:44.918Z",
             "name": "Exploitation of Remote Services",
             "description": "Adversaries may exploit a software vulnerability to take advantage of a programming error in a program, service, or within the operating system software or kernel itself to enable remote service abuse. A common goal for post-compromise exploitation of remote services is for initial access into and lateral movement throughout the ICS environment to enable access to targeted systems. (Citation: Enterprise ATT&CK)\n\nICS asset owners and operators have been affected by ransomware (or disruptive malware masquerading as ransomware) migrating from enterprise IT to ICS environments: WannaCry, NotPetya, and BadRabbit. In each of these cases, self-propagating (wormable) malware initially infected IT networks, but through exploit (particularly the SMBv1-targeting MS17-010 vulnerability) spread to industrial networks, producing significant impacts. (Citation: Joe Slowik April 2019)",
             "kill_chain_phases": [
@@ -42,7 +42,7 @@
                     "phase_name": "lateral-movement"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
@@ -50,7 +50,10 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
             ],
             "x_mitre_version": "1.0"
         }

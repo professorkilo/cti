@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6845e7ee-50b1-4712-b8c7-c44a6adb9916",
+    "id": "bundle--1851759f-37c7-48f4-a214-bacf2be5181a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.628Z",
+            "modified": "2026-10-13T17:48:56.454Z",
             "name": "Insecure Credentials",
             "description": "Adversaries may target insecure credentials as a means to persist on a system or device or move laterally from one system or device to another. Insecure credentials may appear as default credentials which are pre-configured credentials on a system, device, or software that are well-known in documentation or hard-coded credentials which are built into the system, device, or software that cannot be changed or not easily changed because of the impact on control processes.(Citation: NIST SP 800-82r3)(Citation: ICS-ALERT-13-164-01)(Citation: OT IceFall)\n Adversaries often times use insecure credentials to evade detection as they are typically forgotten about by system and device owners.",
             "kill_chain_phases": [
@@ -54,6 +54,12 @@
             ],
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

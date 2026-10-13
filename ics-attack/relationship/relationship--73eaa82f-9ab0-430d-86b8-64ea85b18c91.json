@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e26c6bd-4507-4e8d-b452-22f21efe41ed",
+    "id": "bundle--f7f28212-bc4b-4f7b-adc1-768becb42db0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-07-31T20:48:14.195Z",
             "description": "In the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030), [TEMP.Veles](https://attack.mitre.org/groups/G0088) leveraged [Triton](https://attack.mitre.org/software/S1009) to send unauthorized command messages to the Triconex safety controllers.(Citation: FireEye TRITON 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",

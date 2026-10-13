@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a2a02bf-5e30-4c6d-be3b-8cf27efe754e",
+    "id": "bundle--d7ae6114-f697-4a10-a52e-d57979185916",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.115Z",
+            "modified": "2026-09-03T20:30:36.612Z",
             "description": "[Triton](https://attack.mitre.org/software/S1009) uses TriStations default UDP port, 1502, to communicate with devices.(Citation: MDudek-ICS)",
             "relationship_type": "uses",
             "source_ref": "malware--80099a91-4c86-4bea-9ccb-dac55d61960e",

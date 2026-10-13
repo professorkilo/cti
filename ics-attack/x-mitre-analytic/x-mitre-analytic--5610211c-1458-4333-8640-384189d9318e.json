@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37df2006-213f-43d3-b0e6-2f32d67464fb",
+    "id": "bundle--01615296-7549-45e2-963a-34b01b45b5c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--5610211c-1458-4333-8640-384189d9318e",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -33,41 +34,32 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:44:56.723Z",
             "name": "Analytic 1913",
-            "description": "Monitor for suspicious descendant process spawning from Microsoft Office and other productivity software.(Citation: Elastic - Koadiac Detection with EQL) For added context on adversary procedures and background see [Spearphishing Attachment](https://attack.mitre.org/techniques/T1566/001).\nMonitor for newly constructed files from a spearphishing emails with a malicious attachment in an attempt to gain access to victim systems.\nMonitor network traffic for suspicious email attachments. Consider correlation with process monitoring and command line to detect anomalous processes execution and command line arguments associated to traffic patterns (e.g., monitor anomalies in use of files that do not normally initiate connections for respective protocol(s)). Use web proxies to review content of emails including sender information, headers, and attachments for potentially malicious content.\nMonitor mail server and proxy logs for evidence of messages originating from spoofed addresses, including records indicating failed DKIM+SPF validation or mismatched message headers.(Citation: Microsoft Anti Spoofing)(Citation: ACSC Email Spoofing) Anti-virus can potentially detect malicious documents and attachments as they're scanned to be stored on the email server or on the user's computer.",
+            "description": "Real-time monitoring identifies an email client process on an Industrial Control System (ICS) Linux workstation spawning a child process inconsistent with normal email handling. OT operational-fidelity gate: Alert only when the account/device/session violates the approved identity + source host/jump path/zone policy and is corroborated by access to a protected OT asset, execution, configuration change, or another security-relevant follow-on event. Suppress approved shift activity, vendor support, break-glass use, commissioning, and documented remote-access windows.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "ics-attack"
             ],
             "x_mitre_platforms": [
-                "None"
+                "Linux"
             ],
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "Process",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--2b3bfe19-d59a-460d-93bb-2f546adc2d2c",
-                    "name": "File",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "Network Traffic",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "Application Log",
-                    "channel": "None"
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): syscall=execve; shell/interpreter process is spawned by an ICS network-facing service or other unexpected parent process"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ICSWorkstationInventory",
+                    "description": "Inventory of hosts classified as ICS engineering or operator workstations."
+                }
+            ]
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b18ee00-c8ab-4391-b4e6-6a45b6605e1a",
+    "id": "bundle--cb0c0383-5904-46a0-b3e7-aa19d79794b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.778Z",
+            "modified": "2026-10-13T17:43:48.544Z",
             "name": "Module Load",
             "description": "When a process or program dynamically attaches a shared library, module, or plugin into its memory space. This action is typically performed to extend the functionality of an application, access shared system resources, or interact with kernel-mode components.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -29,68 +29,132 @@
                 "enterprise-attack",
                 "mobile-attack"
             ],
-            "x_mitre_version": "3.0",
+            "x_mitre_version": "3.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
-                    "name": "Module",
-                    "channel": "None"
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader/PathClassLoader load attempt from non-standard path or recently created file"
                 },
                 {
-                    "name": "WinEventLog:Sysmon",
-                    "channel": "EventCode=7"
+                    "name": "android:logcat",
+                    "channel": "Short burst of file I/O followed by JNI/dlopen of a newly created .so"
                 },
                 {
-                    "name": "ETW:LoadImage",
-                    "channel": "provider: ETW LoadImage events for images from user-writable/UNC paths"
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader/PathClassLoader loading from app-writable path OR reflective defineClass on byte[] payload"
+                },
+                {
+                    "name": "android:logcat",
+                    "channel": "DexClassLoader|PathClassLoader load from app-writable path OR dlopen of a freshly created .so"
+                },
+                {
+                    "name": "auditd:file-events",
+                    "channel": "open of suspicious .so from non-standard paths"
+                },
+                {
+                    "name": "auditd:MMAP",
+                    "channel": "load: Loading of libzip.so, libz.so, or libbz2.so by processes not normally associated with archiving"
                 },
                 {
                     "name": "auditd:SYSCALL",
                     "channel": "openat/read/mmap: Open/mmap .so files from non-standard paths"
                 },
                 {
-                    "name": "linux:osquery",
-                    "channel": "select: Open files path LIKE '/tmp/%.so' OR '/dev/shm/%.so'"
-                },
-                {
-                    "name": "macos:unifiedlog",
-                    "channel": "dyld/unified log entries indicating image load from non-system paths"
-                },
-                {
-                    "name": "macos:osquery",
-                    "channel": "select: path LIKE '%/Library/%/*.dylib' OR '/tmp/*.dylib'"
-                },
-                {
-                    "name": "macos:unifiedlog",
-                    "channel": "dynamic loading of sleep-related functions or sandbox detection libraries"
+                    "name": "auditd:SYSCALL",
+                    "channel": "LD_PRELOAD Logging"
                 },
                 {
                     "name": "auditd:SYSCALL",
-                    "channel": "LD_PRELOAD Logging"
+                    "channel": "mmap"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "dmesg"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "module load or memory map path"
+                },
+                {
+                    "name": "esxi:vmkernel",
+                    "channel": "unexpected module load"
+                },
+                {
+                    "name": "esxi:vmkernel",
+                    "channel": "module load"
+                },
+                {
+                    "name": "ETW:LoadImage",
+                    "channel": "provider: ETW LoadImage events for images from user-writable/UNC paths"
+                },
+                {
+                    "name": "etw:Microsoft-Windows-Kernel-ImageLoad",
+                    "channel": "provider: Unsigned/user-writable image loads into msbuild.exe"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "dyld: dlopen/dyld_cache load from non-standard app-writable path"
+                },
+                {
+                    "name": "iOS:unifiedlog",
+                    "channel": "dlopen/image load from app-writable path (tmp, Caches) outside bundled resources"
+                },
+                {
+                    "name": "linux:osquery",
+                    "channel": "select: Open files path LIKE '/tmp/%.so' OR '/dev/shm/%.so'"
                 },
                 {
                     "name": "linux:osquery",
                     "channel": "Dynamic Linking State"
                 },
                 {
-                    "name": "macos:unifiedlog",
-                    "channel": "DYLD event subsystem"
-                },
-                {
                     "name": "linux:osquery",
                     "channel": "Process linked with libcrypto.so making external connections"
                 },
                 {
-                    "name": "macos:unifiedlog",
-                    "channel": "process execution events with dylib load activity"
+                    "name": "linux:osquery",
+                    "channel": "Processes linked with libssl/libcrypto performing network activity"
+                },
+                {
+                    "name": "linux:syslog",
+                    "channel": "kmod"
                 },
                 {
                     "name": "linux:Sysmon",
                     "channel": "EventCode=7"
                 },
                 {
-                    "name": "WinEventLog:Application",
-                    "channel": "CLR Assembly creation, loading, or modification logs via MSSQL CLR integration"
+                    "name": "m365:unified",
+                    "channel": "Non-standard Office startup component detected (e.g., unexpected DLL path)"
+                },
+                {
+                    "name": "macos:endpointsecurity",
+                    "channel": "ES_EVENT_TYPE_NOTIFY_KEXTLOAD"
+                },
+                {
+                    "name": "macos:osquery",
+                    "channel": "select: path LIKE '%/Library/%/*.dylib' OR '/tmp/*.dylib'"
+                },
+                {
+                    "name": "macos:syslog",
+                    "channel": "DYLD_INSERT_LIBRARIES anomalies"
+                },
+                {
+                    "name": "macos:unifiedlog",
+                    "channel": "dyld/unified log entries indicating image load from non-system paths"
+                },
+                {
+                    "name": "macos:unifiedlog",
+                    "channel": "dynamic loading of sleep-related functions or sandbox detection libraries"
+                },
+                {
+                    "name": "macos:unifiedlog",
+                    "channel": "DYLD event subsystem"
+                },
+                {
+                    "name": "macos:unifiedlog",
+                    "channel": "process execution events with dylib load activity"
                 },
                 {
                     "name": "macos:unifiedlog",
@@ -101,18 +165,6 @@
                     "channel": "Dylib loaded from abnormal location"
                 },
                 {
-                    "name": "WinEventLog:Security",
-                    "channel": "EventCode=3033"
-                },
-                {
-                    "name": "WinEventLog:Security",
-                    "channel": "EventCode=3063"
-                },
-                {
-                    "name": "auditd:MMAP",
-                    "channel": "load: Loading of libzip.so, libz.so, or libbz2.so by processes not normally associated with archiving"
-                },
-                {
                     "name": "macos:unifiedlog",
                     "channel": "Loading of libz.dylib, libarchive.dylib by non-standard applications"
                 },
@@ -121,32 +173,8 @@
                     "channel": "suspicious dlopen/dlsym usage in non-development processes"
                 },
                 {
-                    "name": "m365:unified",
-                    "channel": "Non-standard Office startup component detected (e.g., unexpected DLL path)"
-                },
-                {
-                    "name": "auditd:SYSCALL",
-                    "channel": "mmap"
-                },
-                {
-                    "name": "esxi:vmkernel",
-                    "channel": "unexpected module load"
-                },
-                {
-                    "name": "snmp:status",
-                    "channel": "Status change in cryptographic hardware modules (enabled -> disabled)"
-                },
-                {
-                    "name": "esxi:vmkernel",
-                    "channel": "module load"
-                },
-                {
                     "name": "macos:unifiedlog",
                     "channel": "delay/sleep library usage in user context"
-                },
-                {
-                    "name": "linux:syslog",
-                    "channel": "kmod"
                 },
                 {
                     "name": "macos:unifiedlog",
@@ -157,60 +185,72 @@
                     "channel": "loading of unexpected dylibs compared to historical baselines"
                 },
                 {
-                    "name": "auditd:file-events",
-                    "channel": "open of suspicious .so from non-standard paths"
-                },
-                {
-                    "name": "macos:syslog",
-                    "channel": "DYLD_INSERT_LIBRARIES anomalies"
-                },
-                {
-                    "name": "auditd:SYSCALL",
-                    "channel": "dmesg"
-                },
-                {
-                    "name": "macos:endpointsecurity",
-                    "channel": "ES_EVENT_TYPE_NOTIFY_KEXTLOAD"
-                },
-                {
-                    "name": "auditd:SYSCALL",
-                    "channel": "module load or memory map path"
-                },
-                {
                     "name": "macos:unifiedlog",
                     "channel": "launch and dylib load"
                 },
                 {
-                    "name": "linux:osquery",
-                    "channel": "Processes linked with libssl/libcrypto performing network activity"
+                    "name": "Module",
+                    "channel": "None"
                 },
                 {
-                    "name": "etw:Microsoft-Windows-Kernel-ImageLoad",
-                    "channel": "provider: Unsigned/user-writable image loads into msbuild.exe"
+                    "name": "snmp:status",
+                    "channel": "Status change in cryptographic hardware modules (enabled -> disabled)"
                 },
                 {
-                    "name": "android:logcat",
-                    "channel": "DexClassLoader/PathClassLoader load attempt from non-standard path or recently created file"
+                    "name": "WinEventLog:Application",
+                    "channel": "CLR Assembly creation, loading, or modification logs via MSSQL CLR integration"
                 },
                 {
-                    "name": "android:logcat",
-                    "channel": "Short burst of file I/O followed by JNI/dlopen of a newly created .so"
+                    "name": "WinEventLog:Security",
+                    "channel": "EventCode=3033"
                 },
                 {
-                    "name": "iOS:unifiedlog",
-                    "channel": "dyld: dlopen/dyld_cache load from non-standard app-writable path"
+                    "name": "WinEventLog:Security",
+                    "channel": "EventCode=3063"
                 },
                 {
-                    "name": "android:logcat",
-                    "channel": "DexClassLoader/PathClassLoader loading from app-writable path OR reflective defineClass on byte[] payload"
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7; scripting-engine module loads when useful "
                 },
                 {
-                    "name": "iOS:unifiedlog",
-                    "channel": "dlopen/image load from app-writable path (tmp, Caches) outside bundled resources"
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7; System.Management.Automation or unusual PowerShell-related modules"
                 },
                 {
-                    "name": "android:logcat",
-                    "channel": "DexClassLoader|PathClassLoader load from app-writable path OR dlopen of a freshly created .so"
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() or dlopen() called with path argument matching file written in preceding $DecryptExecWindow$"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() or dlopen() on path written within $StegoExecWindow$ of media download event \u2014 download-write-load chain confirms steganographic payload delivery"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() called at runtime with path NOT matching any file in original APK manifest within $PackerExecWindow$ of app launch"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: DexClassLoader() or System.load() or WebView.loadUrl(javascript:) called with content_source='network_download' within $CodeDownloadWindow$ of download event"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): syscall=init_module/finit_module; kernel module loaded from a path or hash not in the authorized ICS host module baseline"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7 of Industrial Control Systems (ICS) vendor communication Dynamic Link Library (DLL) with hash not in signed baseline"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7 where an ICS/vendor DLL is loaded by an image outside the authorized ICS application baseline"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=7 of GDI32.dll/User32.dll by process not in authorized screen capture tools on Human-Machine Interface (HMI)-classified host"
                 }
             ]
         }

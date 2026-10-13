@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a99d6787-43ea-404b-a26f-c41b3a396176",
+    "id": "bundle--7c9d1ab6-c218-4dae-8029-587fd95356ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.676Z",
+            "modified": "2026-10-13T17:46:48.197Z",
             "name": "Detection of Network Connection Enumeration",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--7aa60595-5a1c-4de2-be60-cc1f9fea2313"
+                "x-mitre-analytic--7aa60595-5a1c-4de2-be60-cc1f9fea2313",
+                "x-mitre-analytic--35c7f7bd-a79b-4125-ba0c-2bbf281ebf51",
+                "x-mitre-analytic--8d30e2a3-b7a5-403b-ad5f-243f37f44fa4",
+                "x-mitre-analytic--4effd386-490e-435b-9375-f53a3b44f0d0"
             ]
         }
     ]

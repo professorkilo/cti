@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--859920a1-1d0e-41b5-980c-ed5e6b501ac5",
+    "id": "bundle--a893c6d5-69a8-43e9-b7e7-dd9e440eaf5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.726Z",
+            "modified": "2026-10-13T17:48:58.081Z",
             "name": "Block Communications",
             "description": "Operational technology communications occur over serial COM, Ethernet, Wi-Fi, cellular (4G/5G), and satellite mediums. Adversaries may block communications to prevent reporting messages and command messages from reaching their intended target devices disrupting processes, operations, and causing cyber-physical impacts.(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)  \n\nAdversaries may block communications by either making modifications to software ([System Firmware](https://attack.mitre.org/techniques/T0857), [Module Firmware](https://attack.mitre.org/techniques/T0839), [Hooking](https://attack.mitre.org/techniques/T0874), and [Rootkit](https://attack.mitre.org/techniques/T0851)) and services ([Service Stop](https://attack.mitre.org/techniques/T0881), [Denial of Service](https://attack.mitre.org/techniques/T0814)) on systems and devices or by positioning themselves between systems and devices and intercepting and blocking the communications such as the case with an [Adversary-in-the-Middle](https://attack.mitre.org/techniques/T0830) attack.\n",
             "kill_chain_phases": [
@@ -40,6 +40,12 @@
             ],
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

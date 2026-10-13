@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36c872c1-00d8-4c0e-b9d0-f6ac59d11250",
+    "id": "bundle--326c3b14-76f0-4a8c-8789-63edea97b819",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.621Z",
+            "modified": "2026-10-13T17:48:49.021Z",
             "name": "Command Message",
             "description": "Adversaries may block a command message from reaching its intended target to prevent command execution. In OT networks, command messages are sent to provide instructions to control system devices. A blocked command message can inhibit response functions from correcting a disruption or unsafe condition.(Citation: Bonnie Zhu, Anthony Joseph, Shankar Sastry 2011)(Citation: Electricity Information Sharing and Analysis Center; SANS Industrial Control Systems March 2016)",
             "kill_chain_phases": [
@@ -45,6 +45,11 @@
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Embedded",
+                "Windows",
+                "Linux"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

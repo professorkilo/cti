@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--67301a5b-9d9c-41f8-9fd4-b8131e86445d",
+    "id": "bundle--1c3432f8-5d0c-4352-93f7-7517627b3520",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "attack-pattern--2d0d40ad-22fa-4cc8-b264-072557e1364b",
             "created": "2020-05-21T17:43:26.506Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-25T15:16:45.982Z",
+            "modified": "2026-10-13T17:48:34.856Z",
             "name": "Monitor Process State",
             "description": "Adversaries may gather information about the physical process state. This information may be used to gain more information about the process itself or used as a trigger for malicious actions. The sources of process state information may vary such as, OPC tags, historian data, specific PLC block information, or network traffic.",
             "kill_chain_phases": [
@@ -27,7 +28,7 @@
                     "phase_name": "collection"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_deprecated": false,
             "x_mitre_domains": [
                 "ics-attack"
@@ -35,10 +36,12 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
             ],
-            "x_mitre_version": "1.0",
-            "revoked": false
+            "x_mitre_version": "1.0"
         }
     ]
 }

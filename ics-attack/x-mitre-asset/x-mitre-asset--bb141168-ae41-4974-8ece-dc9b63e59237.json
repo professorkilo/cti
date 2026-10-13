@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59156d8d-ac82-4699-8586-cf9b193a523c",
+    "id": "bundle--46f7591d-c9bf-4f78-ae1a-3a4c84147dee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T14:53:28.476Z",
+            "modified": "2026-10-13T16:51:34.368Z",
             "name": "Firewall",
             "description": "A gateway that limits access between networks in accordance with local security policy.\n\nIn ICS networks, firewalls can exist in multiple locations in the network architecture and  serve a variety of purposes. The first, and often the most important, is the firewall segmenting the ICS network from the business network. This firewall acts as the primary network boundary point that controls the ingress/egress of network traffic between the ICS and business networks. This firewall may also be a single device connected to multiple network segments, where the firewall defines individual zones for the different network segments and can control access to the zones and between the zones. This can limit the ability of an adversary to traverse a network.\n",
             "x_mitre_sectors": [
@@ -46,7 +46,7 @@
                 "Embedded",
                 "Windows",
                 "Linux",
-                "Network"
+                "Network Devices"
             ],
             "x_mitre_deprecated": false,
             "x_mitre_domains": [

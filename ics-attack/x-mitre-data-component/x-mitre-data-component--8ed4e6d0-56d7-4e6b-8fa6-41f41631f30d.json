@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a9cfa7f-c4fa-4c8d-9b5e-65dd318e5e0e",
+    "id": "bundle--f82b69fe-035f-4b35-beb4-344365111e2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:43:43.366Z",
             "name": "Software",
             "description": "This includes sources of current and expected software or application programs deployed to a device, along with information on the version and patch level for vendor products, full source code for any application programs, and unique identifiers (e.g., hashes, signatures).",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -33,6 +33,14 @@
                 {
                     "name": "Asset",
                     "channel": "None"
+                },
+                {
+                    "name": "assetinventory:ProgramDiff",
+                    "channel": "current task-to-block assignment table differs from last known-good baseline without corresponding change ticket"
+                },
+                {
+                    "name": "assetinventory:ProgramHash",
+                    "channel": "program hash differs from last authorized baseline without corresponding change ticket reference"
                 }
             ]
         }

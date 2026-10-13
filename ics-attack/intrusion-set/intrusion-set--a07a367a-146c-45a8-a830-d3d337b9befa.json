@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4a9c454-ce77-43f6-8cfa-203e426e7c7a",
+    "id": "bundle--fbb7f856-9bf1-40b3-8a2c-3b48ad87cd76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -28,7 +28,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:42.789Z",
+            "modified": "2026-10-07T13:46:33.122Z",
             "name": "CyberAv3ngers",
             "description": "The [CyberAv3ngers](https://attack.mitre.org/groups/G1027) are a suspected Iranian Government Islamic Revolutionary Guard Corps (IRGC)-affiliated APT group. The [CyberAv3ngers](https://attack.mitre.org/groups/G1027) have been known to be active since at least 2020, with disputed and false claims of critical infrastructure compromises in Israel.(Citation: CISA AA23-335A IRGC-Affiliated December 2023)\n\nIn 2023, the [CyberAv3ngers](https://attack.mitre.org/groups/G1027) engaged in a global targeting and hacking of the Unitronics [Programmable Logic Controller (PLC)](https://attack.mitre.org/assets/A0003) with [Human-Machine Interface (HMI)](https://attack.mitre.org/assets/A0002). This PLC can be found in multiple sectors, including water and wastewater, energy, food and beverage manufacturing, and healthcare. The most notable feature of this attack was the defacement of the devices user interface.(Citation: CISA AA23-335A IRGC-Affiliated December 2023)",
             "aliases": [
@@ -40,7 +40,7 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
+            "x_mitre_version": "1.1",
             "x_mitre_attack_spec_version": "3.3.0"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e64ebe10-8d78-4e56-a00d-f7e3daa7c6e7",
+    "id": "bundle--ff2a6d00-db15-4b7e-afe8-ff458b74e24b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:55.220Z",
+            "modified": "2026-10-13T17:46:42.791Z",
             "name": "Detection of Port Scan",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--51a094bf-b7eb-452a-9b7a-ffac16fce1ac"
+                "x-mitre-analytic--51a094bf-b7eb-452a-9b7a-ffac16fce1ac",
+                "x-mitre-analytic--b03ff220-3bf8-41bd-a443-0ae287fa8e74",
+                "x-mitre-analytic--ff0f3e46-3817-4b77-a188-74720d721c03",
+                "x-mitre-analytic--bed265af-6f51-42c1-b4d2-691535a32d67"
             ]
         }
     ]

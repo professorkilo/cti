@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f497ebd-5a83-4545-927a-3dede09e0392",
+    "id": "bundle--2e9c6e7b-ca1f-424c-88d6-2628b6e68bde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.775Z",
+            "modified": "2026-10-13T17:43:50.698Z",
             "name": "Process History/Live Data",
             "description": "This includes any data stores that maintain historical or real-time events and telemetry recorded from various sensors or devices",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -37,6 +37,42 @@
                 {
                     "name": "Operational Databases",
                     "channel": "None"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "no new process value recorded for device_ip within 1.5x expected poll interval immediately following a flood alert"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "process value crosses known alarm threshold but no corresponding alarm event recorded within expected latency window"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "multiple safety-critical outputs toggle within rapid toggle window, pattern consistent with scripted issuance"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "I/O point value oscillates or changes state at frequency exceeding max normal state change rate, inconsistent with physical process response time"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "reported values show statistically improbable stability during a period when physical process is known to be actively changing"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "tag value deviates from rolling baseline mean by more than parameter drift threshold percent within time window following a flagged write"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "process value expected to change following a command does not change within command confirmation window"
+                },
+                {
+                    "name": "operationaldb:ProcessHistory",
+                    "channel": "no unsolicited report received from device_ip within 1.5x expected reporting interval, while direct polling confirms device is reachable"
+                },
+                {
+                    "name": "processsensor:RedundantComparison",
+                    "channel": "Independent process measurement comparison: controller I/O image value diverges from independent sensor/measurement beyond configured integrity tolerance"
                 }
             ]
         }

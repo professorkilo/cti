@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--474f2da0-1724-4331-b34d-fde4826c23bc",
+    "id": "bundle--407d56fd-d0d2-4b42-b691-b2de01e3ff63",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.714Z",
+            "modified": "2026-10-13T17:48:57.430Z",
             "name": "Broadcast Discovery",
             "description": "Adversaries may perform broadcast discovery requests to enumerate systems and devices on a network. Broadcast discovery works by one system or device sending messages to all systems and devices on a network (or subnet) and then waiting for a response. If a response is received that means the system or device that responded is live and can communicate over that protocol. Adversaries may leverage different protocols supported on the network for sending broadcast messages. \n\nSome common OT protocols that have broadcast discovery mechanisms are Building Automation and Control Network (BACNet) Who-Is requests, Common Industrial Protocol (CIP) List Identity User Datagram Protocol (UDP) broadcast requests, and Siemens S7 broadcast identification requests.(Citation: Broadcasting BACnet)(Citation: Cisco Active Discovery)\n",
             "kill_chain_phases": [
@@ -45,6 +45,12 @@
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Embedded",
+                "Windows",
+                "Linux",
+                "Network Devices"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

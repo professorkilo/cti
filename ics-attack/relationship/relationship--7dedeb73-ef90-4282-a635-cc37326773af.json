@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc269b94-9729-4585-978e-0033964d9a6a",
+    "id": "bundle--298a5068-6b71-4dc0-a852-4b82dd29f1d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,16 +11,16 @@
             "revoked": false,
             "external_references": [
                 {
-                    "source_name": "Gardiner, J.,  Cova, M., Nagaraja, S February 2014",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S 2014, February Command & Control Understanding, Denying and Detecting Retrieved. 2016/04/20 ",
-                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                    "source_name": "University of Birmingham C2",
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved September 3, 2026.",
+                    "url": "https://arxiv.org/pdf/1408.1136"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
-            "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools. (Citation: Gardiner, J.,  Cova, M., Nagaraja, S February 2014)\n",
+            "modified": "2026-09-03T20:31:27.561Z",
+            "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. Signatures are often for unique indicators within protocols and may be based on the specific protocol used by a particular adversary or tool and will likely be different across various malware families and versions. Adversaries will likely change tool C2 signatures over time or construct protocols in such a way as to avoid detection by common defensive tools.(Citation: University of Birmingham C2)\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",
             "target_ref": "attack-pattern--e6c31185-8040-4267-83d3-b217b8a92f07",

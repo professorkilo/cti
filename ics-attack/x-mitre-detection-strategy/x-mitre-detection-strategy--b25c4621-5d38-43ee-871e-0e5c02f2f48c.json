@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e311bb1-c032-4a5d-8c97-017dc4907e12",
+    "id": "bundle--50e814f2-85f7-4c3b-86a0-73605238a1e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.688Z",
+            "modified": "2026-10-13T17:46:46.543Z",
             "name": "Detection of Service Stop",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--6b3b3e92-bef7-4977-9895-29036bab29f1"
+                "x-mitre-analytic--6b3b3e92-bef7-4977-9895-29036bab29f1",
+                "x-mitre-analytic--62ef9334-2cb2-436d-bd50-2ae1213704aa",
+                "x-mitre-analytic--5346fb44-b04e-4820-8b14-eb62ee3a2ca8",
+                "x-mitre-analytic--27e8a172-0682-4d23-a7c2-e2eac526ea9c"
             ]
         }
     ]

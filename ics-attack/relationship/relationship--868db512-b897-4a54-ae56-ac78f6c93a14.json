@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--043f0492-88b2-4732-ac43-b8de2a102b44",
+    "id": "bundle--b47e3c79-6f10-462e-b002-486402170a2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T20:31:39.296Z",
             "description": "[INCONTROLLER](https://attack.mitre.org/software/S1045) can use a Telnet session to load a malware implant on Omron PLCs.(Citation: CISA-AA22-103A)(Citation: Wylie-22) ",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

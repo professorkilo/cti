@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9947cac1-fcf2-4a12-9393-538f69844278",
+    "id": "bundle--b4466858-80ea-40cd-a072-6f1ec0746b80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.689Z",
+            "modified": "2026-10-13T17:47:50.533Z",
             "name": "Detection of Spearphishing Attachment",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,9 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--5610211c-1458-4333-8640-384189d9318e"
+                "x-mitre-analytic--5610211c-1458-4333-8640-384189d9318e",
+                "x-mitre-analytic--fde26204-97d9-4635-82c4-c7e3ed3c9a2c",
+                "x-mitre-analytic--e3b493fc-9771-4e68-b7ec-e91556b22c46"
             ]
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b5986e5-3d39-4bba-b941-514f755d37a1",
+    "id": "bundle--241ad945-3c69-4a12-ac38-e9d505159b73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:57.712Z",
+            "modified": "2026-10-13T17:47:59.186Z",
             "name": "Detection of Unauthorized Message",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,9 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--613b28ef-88dd-4008-8d7e-206ce55a7cde"
+                "x-mitre-analytic--613b28ef-88dd-4008-8d7e-206ce55a7cde",
+                "x-mitre-analytic--18bf81d6-981c-49a2-9259-a08e1f1337b8",
+                "x-mitre-analytic--89b7a519-ee8c-4aac-a9ef-f82d32116d30"
             ]
         }
     ]

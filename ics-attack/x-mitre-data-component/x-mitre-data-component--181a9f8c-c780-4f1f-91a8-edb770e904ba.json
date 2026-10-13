@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95fbc99d-a295-4e41-a964-9fa14ca75e0c",
+    "id": "bundle--4ced1716-3ff5-446d-9bf4-c743f805c04d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.770Z",
+            "modified": "2026-10-13T17:43:42.443Z",
             "name": "Network Connection Creation",
             "description": "The initial establishment of a network session, where a system or process initiates a connection to a local or remote endpoint. This typically involves capturing socket information (source/destination IP, ports, protocol) and tracking session metadata. Monitoring these events helps detect lateral movement, exfiltration, and command-and-control (C2) activities.\n\n*Data Collection Measures:*\n\n- Windows:\n    - Event ID 5156 \u2013 Filtering Platform Connection - Logs network connections permitted by Windows Filtering Platform (WFP).\n    - Sysmon Event ID 3 \u2013 Network Connection Initiated - Captures process, source/destination IP, ports, and parent process.\n- Linux/macOS:\n    - Netfilter (iptables), nftables logs - Tracks incoming and outgoing network connections.\n    - AuditD (`connect` syscall) - Logs TCP, UDP, and ICMP connections.\n    - Zeek (`conn.log`) - Captures protocol, duration, and bytes transferred.\n- Cloud & Network Infrastructure:\n    - AWS VPC Flow Logs / Azure NSG Flow Logs - Logs IP traffic at the network level in cloud environments.\n    - Zeek (conn.log) or Suricata (network events) - Captures packet metadata for detection and correlation.\n- Endpoint Detection & Response (EDR):\n    - Detect anomalous network activity such as new C2 connections or data exfiltration attempts.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -29,13 +29,9 @@
                 "mobile-attack",
                 "enterprise-attack"
             ],
-            "x_mitre_version": "2.1",
+            "x_mitre_version": "2.2",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
-                {
-                    "name": "NSM:Flow",
-                    "channel": "log entries indicating network connection initiation on macOS"
-                },
                 {
                     "name": "auditd:SYSCALL",
                     "channel": "connect"
@@ -139,6 +135,22 @@
                 {
                     "name": "esxi:vmkernel",
                     "channel": "network session initiation with external HTTPS services"
+                },
+                {
+                    "name": "linux:osquery",
+                    "channel": "socket_events to broker/service, where deployed"
+                },
+                {
+                    "name": "linux:osquery",
+                    "channel": "socket_events to DNS/DoH/DoT destinations, where deployed"
+                },
+                {
+                    "name": "linux:osquery",
+                    "channel": "socket_events for Python-originated connections, where deployed"
+                },
+                {
+                    "name": "linux:osquery",
+                    "channel": "socket_events for runtime-originated connections, where deployed "
                 },
                 {
                     "name": "linux:osquery",
@@ -257,8 +269,16 @@
                     "channel": "Traffic from mirrored interface to mirror target IP"
                 },
                 {
+                    "name": "NetworkDevice:Syslog",
+                    "channel": "Permitted/denied connection creation where network devices record it"
+                },
+                {
                     "name": "networkdevice:syslog",
                     "channel": "Dynamic route changes"
+                },
+                {
+                    "name": "NSM:Connections",
+                    "channel": "New device-to-broker relationship outside documented profile"
                 },
                 {
                     "name": "NSM:Connections",
@@ -283,6 +303,10 @@
                 {
                     "name": "NSM:Firewall",
                     "channel": "proxy or TLS inspection logs"
+                },
+                {
+                    "name": "NSM:Flow",
+                    "channel": "log entries indicating network connection initiation on macOS"
                 },
                 {
                     "name": "NSM:Flow",
@@ -418,11 +442,131 @@
                 },
                 {
                     "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3; process-to-broker connection"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3; connection to DNS/DoH destination with process identity"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3; Python-originated connection to OT or external destination"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
                     "channel": "EventCode=3, 22"
                 },
                 {
                     "name": "WinEventLog:System",
                     "channel": "EventCode=8001"
+                },
+                {
+                    "name": "android:EnterpriseNetworkLog",
+                    "channel": "DevicePolicyManager.retrieveNetworkLogs(): DnsEvent / ConnectEvent; VPN flow metadata"
+                },
+                {
+                    "name": "iOS:NetworkExtension",
+                    "channel": "NEFilterFlow / per-app VPN / secure-web-gateway flow metadata"
+                },
+                {
+                    "name": "NSM:Connections",
+                    "channel": "device establishes new network connections or activates protocols not seen in pre-reboot baseline"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): bind/listen/connect syscalls show one process accepting ICS-protocol connections while also initiating an outbound connection to a non-ICS destination"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): execve of scripting interpreter with sustained network connect() calls to device subnet at rate exceeding poll baseline, by User Identifier (UID) not in service account allowlist"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): firmware updater connecting to device on firmware port, by User Identifier (UID) not in authorized firmware manager UIDs, outside maintenance window schedule"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): connect() syscall on port (e.g., 80, 443, 8080, etc.) to destination not in approved vendor domains, from Industrial Control Systems (ICS) service process"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): write Application Programming Interface (API) invocation rate to single Input/Output (I/O) point from Industrial Control Systems (ICS) service User Identifier (UID) exceeds max write rate per point"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): connect syscalls show a host outside the approved SCADA/master set opening ICS-protocol connections to multiple field devices"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): connect syscall from an ICS service/application process to a destination outside the approved network or vendor-service baseline"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): socket/connect activity from a process outside the approved ICS monitoring-tool baseline to an ICS multicast destination/group"
+                },
+                {
+                    "name": "NSM:Connections",
+                    "channel": "device process crash or unexpected restart immediately followed by privileged protocol command succeeding from same source session"
+                },
+                {
+                    "name": "NSM:Connections",
+                    "channel": "rapid sequential connection attempts to same device Internet Protocol (IP) address across multiple Industrial Control System (ICS) protocol ports from source not in approved Supervisory Control and Data Acquisition (SCADA) servers"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 process holds connections to both device subnet and external/inter-zone destination simultaneously, combined with proxy-capable process spawn"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 to device subnet within auth-to-device window of the anomalous logon"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 network connection to an RDP/VNC service on an ICS Windows host from a source outside the approved management CIDR baseline"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "EventCode=5157 or firewall rule changes blocking Industrial Control Systems (ICS) command message traffic"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 on remote service ports (e.g., 22, 445, 3389, 5985/5986) between hosts not in approved communication matrix"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "Microsoft-Windows-Sysmon/Operational Event ID 3 NetworkConnect: inbound connection rate to Industrial Control Systems (ICS) application port exceeds threshold per minute from unexpected sources"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 on port 80/443/8080 from process not matching Industrial Control Systems (ICS) vendor update process allowlist"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 same process holding connections to both device subnet and external Internet Protocol (IP) address simultaneously"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 from resulting process to destinations not in approved destinations list"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 unexpected Windows host opening Industrial Control Systems (ICS) protocol connections to multiple field device Internet Protocol (IP) addresses in polling pattern characteristic of master station"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 on Hypertext Transfer Protocol (HTTP)/Hypertext Transfer Protocol Secure (HTTPS)/Domain Name System (DNS) port from process not recognized as Industrial Control Systems (ICS) vendor application"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 to device subnet from process not in authorized Industrial Control Systems (ICS) applications"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 outbound User Datagram Protocol (UDP) broadcast traffic from process not in recognized Industrial Control Systems (ICS) asset management tools"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=3 outbound connection from a process outside the approved ICS monitoring-tool baseline to an ICS multicast destination"
                 }
             ]
         }

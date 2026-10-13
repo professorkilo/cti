@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b46e91e-6495-4eac-94df-7f977bc7c7e9",
+    "id": "bundle--8e39775f-3c18-4450-aa99-354384de510b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.667Z",
+            "modified": "2026-10-13T17:48:06.182Z",
             "name": "Detection of Masquerading",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--791310ad-7db5-41df-9fa5-fa4097d8a51d"
+                "x-mitre-analytic--791310ad-7db5-41df-9fa5-fa4097d8a51d",
+                "x-mitre-analytic--b011484e-65d1-408a-b361-67d945e9ca87",
+                "x-mitre-analytic--684fc82e-39d7-48c8-9123-5badd99afaa7",
+                "x-mitre-analytic--856d21f6-edc1-4e7b-84c5-692a467a2dbe"
             ]
         }
     ]

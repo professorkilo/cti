@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--087d6868-6d3b-4701-8995-5c0fc1efb708",
+    "id": "bundle--209cc5c7-bfa6-451b-9bdf-c0aaf2de062d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.183Z",
+            "modified": "2026-09-03T20:30:36.666Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) attempts to contact command and control servers on port 80 to send basic information about the computer it has compromised. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f8c16cd-ee58-4697-adad-5a1144811cb2",
+    "id": "bundle--3320a8f8-0612-4f56-a3ff-f9476a77899c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:57.971Z",
+            "modified": "2026-10-13T17:46:26.784Z",
             "name": "Detection of Block Ethernet",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--df7f8849-56a7-4e83-9fd7-a4f25227d960"
+                "x-mitre-analytic--df7f8849-56a7-4e83-9fd7-a4f25227d960",
+                "x-mitre-analytic--8cf7c363-594f-4efc-a1e8-30435b5f1feb",
+                "x-mitre-analytic--a97db312-a06f-4020-aef2-b28bb8d78c56",
+                "x-mitre-analytic--c17121b6-e945-4799-8a00-77d183501a1e"
             ]
         }
     ]

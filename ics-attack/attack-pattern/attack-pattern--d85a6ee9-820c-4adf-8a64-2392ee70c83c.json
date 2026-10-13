@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f5a8b15-dd61-4006-8421-a30636939001",
+    "id": "bundle--d99ab23f-f144-412e-be79-ee2d70a3f14b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.721Z",
+            "modified": "2026-10-13T17:48:59.738Z",
             "name": "Online Edit",
             "description": "Adversaries may execute an online edit of a PLC to update parts of an existing program. It does not require stopping the PLC which allows it to continue running during transfer and reconfiguration without interruption to process control. Adversaries may leverage this approach to minimize downtime and evade detection. \n\nThe ability to perform an online edit to the PLC typically relies on access to a workstation with the vendor-specific PLC programming software installed.\n",
             "kill_chain_phases": [
@@ -35,6 +35,9 @@
             ],
             "x_mitre_is_subtechnique": true,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_platforms": [
+                "Embedded"
+            ],
             "x_mitre_version": "1.0"
         }
     ]

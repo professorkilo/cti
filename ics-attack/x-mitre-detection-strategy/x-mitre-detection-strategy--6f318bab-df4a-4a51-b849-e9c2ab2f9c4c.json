@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7f4755e9-4187-4150-bd23-c52148639fa6",
+    "id": "bundle--ef34fa41-04c9-41ad-b833-9987b7726421",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:55.497Z",
+            "modified": "2026-10-13T17:47:34.378Z",
             "name": "Detection of Block Operational Technology Message",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,9 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--c556c91d-64a0-401c-9c41-18971eeca0f2"
+                "x-mitre-analytic--c556c91d-64a0-401c-9c41-18971eeca0f2",
+                "x-mitre-analytic--da7a9116-f290-4160-a24a-930d8961ddf4",
+                "x-mitre-analytic--869e2789-fd07-4bda-8d59-a6fc6c4ee96f"
             ]
         }
     ]

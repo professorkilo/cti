@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd7b5aa3-11f3-4042-a511-1d8e899b0d21",
+    "id": "bundle--c813cf5e-50c2-4a96-979f-94ab848a023b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-07-31T20:48:35.536Z",
             "relationship_type": "revoked-by",
             "source_ref": "intrusion-set--68ba94ab-78b8-43e7-83e2-aed3466882c6",
             "target_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

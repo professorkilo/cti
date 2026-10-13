@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4558207-634d-412d-9116-5aa8f5d83e8a",
+    "id": "bundle--60605dbc-cd4e-4556-8fed-f96a11ccdaaf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:14.277Z",
+            "modified": "2026-09-03T20:31:39.328Z",
             "description": "In the [Triton Safety Instrumented System Attack](https://attack.mitre.org/campaigns/C0030), [TEMP.Veles](https://attack.mitre.org/groups/G0088) made attempts on multiple victim machines to transfer and execute the WMImplant tool.(Citation: FireEye TEMP.Veles 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--45a98f02-852f-49b2-94c0-c63207bebbbf",

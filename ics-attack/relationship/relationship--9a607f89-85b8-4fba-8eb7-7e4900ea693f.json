@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75b6caec-317c-4c90-981f-f24774a8d841",
+    "id": "bundle--4e33443c-2b78-41e7-adda-07ab7cc33dd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.136Z",
+            "modified": "2026-09-03T20:31:27.572Z",
             "description": "Network intrusion prevention systems and systems designed to scan and remove malicious email attachments can be used to block activity.\n",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--3172222b-4983-43f7-8983-753ded4f13bc",

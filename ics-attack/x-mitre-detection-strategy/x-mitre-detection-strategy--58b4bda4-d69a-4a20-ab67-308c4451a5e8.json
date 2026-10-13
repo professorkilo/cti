@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--071b9179-04d0-4906-b7c9-9323f5a77f36",
+    "id": "bundle--a9f5e292-4266-4a32-9a8c-693c49dcdcdb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.678Z",
+            "modified": "2026-10-13T17:45:55.528Z",
             "name": "Detection of Supply Chain Compromise",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--899d0dce-64f7-4924-93a1-8e3c83dd510f"
+                "x-mitre-analytic--899d0dce-64f7-4924-93a1-8e3c83dd510f",
+                "x-mitre-analytic--c5bd7cb8-0223-4cc6-a390-80178e24e48d",
+                "x-mitre-analytic--9508cebc-ee97-47e6-b603-5fdf88f9f54f",
+                "x-mitre-analytic--c4d5acb4-61c8-4142-bf26-5865d235f02f"
             ]
         }
     ]

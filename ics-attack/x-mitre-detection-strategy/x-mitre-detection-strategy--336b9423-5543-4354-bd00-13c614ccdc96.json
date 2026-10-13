@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39790721-4765-475b-94bb-c87632bc4386",
+    "id": "bundle--c5ff9765-f9f6-48f4-8ca6-7e3104ed7b98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.674Z",
+            "modified": "2026-10-13T17:47:28.708Z",
             "name": "Detection of Change Credential",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--d3023733-5874-4746-a947-65925514e382"
+                "x-mitre-analytic--d3023733-5874-4746-a947-65925514e382",
+                "x-mitre-analytic--3fdeb2a5-e60c-4fac-b003-528676da2f05",
+                "x-mitre-analytic--2862e391-b78a-400f-819e-d44e672e3d3a",
+                "x-mitre-analytic--6c7a03f0-1697-4109-9b8c-70567ed5eaf4"
             ]
         }
     ]

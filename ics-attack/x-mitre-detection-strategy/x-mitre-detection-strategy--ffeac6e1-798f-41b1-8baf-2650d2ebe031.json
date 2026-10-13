@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f41f0e58-fa11-4d6a-99b9-12e9fe0c6b99",
+    "id": "bundle--819301cd-999d-42a9-850d-4687eb2c05e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.698Z",
+            "modified": "2026-10-13T17:46:32.018Z",
             "name": "Detection of Valid Accounts",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--ddfcd948-3526-4241-a12f-d7bf63468e40"
+                "x-mitre-analytic--ddfcd948-3526-4241-a12f-d7bf63468e40",
+                "x-mitre-analytic--d1985f23-da68-4b46-a5ab-9645ab91a25b",
+                "x-mitre-analytic--e2a6f7a5-8316-4367-8e90-9d6560818250",
+                "x-mitre-analytic--175f3f34-38ad-41ad-ae95-927479eacc14"
             ]
         }
     ]

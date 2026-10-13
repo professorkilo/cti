@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bce04d5c-35a5-4237-9cb8-d3d2f66bd3c0",
+    "id": "bundle--46936c46-80ec-4207-a4d1-5a40eb21b570",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T16:34:50.692Z",
+            "modified": "2026-10-13T17:46:44.772Z",
             "name": "Detection of Replication Through Removable Media",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_deprecated": false,
@@ -29,7 +29,10 @@
                 "ics-attack"
             ],
             "x_mitre_analytic_refs": [
-                "x-mitre-analytic--9ad83be0-5c88-4fb6-b59d-19db21176923"
+                "x-mitre-analytic--9ad83be0-5c88-4fb6-b59d-19db21176923",
+                "x-mitre-analytic--9510e414-3071-4e9c-af51-d07765393e32",
+                "x-mitre-analytic--9a06af00-5f21-43c8-a4a3-24eaa28655c2",
+                "x-mitre-analytic--b048b681-7bce-468e-896b-da76f8b81d49"
             ]
         }
     ]

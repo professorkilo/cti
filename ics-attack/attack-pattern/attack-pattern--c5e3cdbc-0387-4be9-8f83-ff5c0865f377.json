@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--817f784f-8bd9-4d01-865d-7859afc4be9f",
+    "id": "bundle--1b2c03c2-5125-44ac-b677-7880bc0b8dbf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.715Z",
+            "modified": "2026-10-13T17:48:40.879Z",
             "name": "Screen Capture",
             "description": "Adversaries may attempt to perform screen capture of devices in the control system environment. Screenshots may be taken of workstations, HMIs, or other devices that display environment-relevant process, device, reporting, alarm, or related data. These device displays may reveal information regarding the ICS process, layout, control, and related schematics. In particular, an HMI can provide a lot of important industrial process information. (Citation: ICS-CERT October 2017) Analysis of screen captures may provide the adversary with an understanding of intended operations and interactions between critical devices.",
             "kill_chain_phases": [
@@ -41,7 +41,9 @@
             "x_mitre_is_subtechnique": false,
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
             "x_mitre_platforms": [
-                "None"
+                "Embedded",
+                "Windows",
+                "Linux"
             ],
             "x_mitre_version": "1.0"
         }

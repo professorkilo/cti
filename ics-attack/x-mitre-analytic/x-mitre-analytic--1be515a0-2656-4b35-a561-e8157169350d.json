@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05b69ad0-87ea-4c5c-893f-9565cf932c84",
+    "id": "bundle--1db94d10-01ab-497f-817a-cc7345157f35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--1be515a0-2656-4b35-a561-e8157169350d",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,31 +19,49 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:46:11.613Z",
             "name": "Analytic 1860",
-            "description": "Monitor ICS automation network protocols for functions related to reading an operational process state (e.g., \u201cRead\u201d function codes in protocols like DNP3 or Modbus). In some cases, there may be multiple ways to monitor an operational process\u2019 state, one of which is typically used in the operational environment. Monitor for the operating mode being checked in unexpected ways.\nMonitor applications logs for any access attempts to operational databases (e.g., historians) or other sources of operational data within the ICS environment. These devices should be monitored for adversary collection using techniques relevant to the underlying technologies (e.g., Windows, Linux).",
+            "description": "Real-time network monitoring identifies a source issuing read-only Industrial Control System (ICS) protocol requests to multiple field devices at a polling rate exceeding the legitimate Supervisory Control and Data Acquisition (SCADA) baseline, from a source not in the approved control server allowlist. Because the action is read-only, source-identity and rate deviation are the only available distinguishing signals. OT operational-fidelity gate: Do not alert on novelty, scan/read volume, or enumeration alone. Alert when the source role is not authorized for discovery/polling and the target scope, address/tag range, protocol, or rate deviates from the established operational baseline. Suppress normal SCADA/HMI/historian polling, commissioning, asset inventory, backup, diagnostics, and approved engineering activity.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "ics-attack"
             ],
             "x_mitre_platforms": [
-                "None"
+                "Embedded"
             ],
             "x_mitre_log_source_references": [
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
-                    "name": "Network Traffic",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
+                    "name": "opc:applog",
+                    "channel": "client_id not in approved Open Platform Communications (OPC) clients issuing high-volume read requests"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9c2fa0ae-7abc-485a-97f6-699e3b6cf9fa",
-                    "name": "Application Log",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--3772e279-27d6-477a-9fe3-c6beb363594c",
+                    "name": "NSM:Content",
+                    "channel": "read-only function codes from source not in approved Supervisory Control and Data Acquisition (SCADA) servers at rate exceeding baseline poll rate or covering address ranges outside known tag ranges"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "ApprovedOPCClients",
+                    "description": "Allowlist of OPC client application identities authorized to connect."
+                },
+                {
+                    "field": "ApprovedSCADAServers",
+                    "description": "IP allowlist of legitimate SCADA/HMI/historian servers authorized to poll field devices."
+                },
+                {
+                    "field": "BaselinePollRate",
+                    "description": "Measured normal polling frequency per device, derived from actual baseline traffic capture."
+                },
+                {
+                    "field": "KnownTagAddressRanges",
+                    "description": "Documented register/tag address ranges that legitimate SCADA polling actually queries."
+                }
+            ]
         }
     ]
 }

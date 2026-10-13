@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21a1aeab-e79a-41a5-8b93-b4a353239041",
+    "id": "bundle--3398d732-42f7-47e4-a247-233a990f86f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.013Z",
+            "modified": "2026-09-03T20:28:48.912Z",
             "description": "The [INCONTROLLER](https://attack.mitre.org/software/S1045) PLCProxy module can add an IP route to the CODESYS gateway running on Schneider PLCs to allow it to route messages through the PLC to other devices on that network. This allows the malware to bypass firewall rules that prevent it from directly communicating with devices on the same network as the PLC.(Citation: Wylie-22)",
             "relationship_type": "uses",
             "source_ref": "malware--d3aa1058-b1b3-4c29-a3ba-9a9b90ccd93b",

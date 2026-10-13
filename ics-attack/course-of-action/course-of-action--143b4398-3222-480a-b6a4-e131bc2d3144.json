@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76fbda51-b66b-4dd7-befa-e5887a512240",
+    "id": "bundle--d43e2c2b-cf10-4119-b7f6-1907580946ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-04-16T21:26:26.226Z",
+            "modified": "2026-10-07T17:52:26.035Z",
             "name": "Restrict Web-Based Content",
             "description": "Restrict use of certain websites, block downloads/attachments, block Javascript, restrict browser extensions, etc.",
             "labels": [
@@ -32,8 +32,8 @@
             "x_mitre_domains": [
                 "ics-attack"
             ],
-            "x_mitre_version": "1.0",
-            "x_mitre_attack_spec_version": "3.2.0"
+            "x_mitre_version": "1.1",
+            "x_mitre_attack_spec_version": "3.3.0"
         }
     ]
 }

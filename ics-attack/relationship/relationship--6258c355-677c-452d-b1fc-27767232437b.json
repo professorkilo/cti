@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83aabab4-8f0e-436c-bf12-e5beba02fdd4",
+    "id": "bundle--5c5c5c67-4d89-4335-b60b-90eb99f364ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-03T20:31:39.284Z",
             "description": "[NotPetya](https://attack.mitre.org/software/S0368) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5719af9d-6b16-46f9-9b28-fb019541ddbb",

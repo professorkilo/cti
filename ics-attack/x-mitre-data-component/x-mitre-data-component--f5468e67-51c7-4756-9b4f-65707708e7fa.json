@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f02b022-4241-4c70-8329-5e05ae786874",
+    "id": "bundle--fe922162-1e90-4c46-9a15-772f40e84654",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-10-13T17:43:49.731Z",
             "name": "Network Share Access",
             "description": "Opening a network share, which makes the contents available to the requestor (ex: Windows EID 5140 or 5145)",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -58,6 +58,14 @@
                 {
                     "name": "m365:unified",
                     "channel": "FileUploaded, FileAccessed"
+                },
+                {
+                    "name": "fileserver:audit",
+                    "channel": "sequential access to above bulk document access threshold files within information repository time window from single session"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 5140/5145: EventCode=5145 for file write to Industrial Control Systems (ICS) host, source not in authorized file sources"
                 }
             ]
         }

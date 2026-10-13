@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--004d225a-3509-4f6e-936e-83ac7f7e3f4d",
+    "id": "bundle--c80c8810-8df7-467b-b9b8-c448cffcb1d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--55544bb8-440f-4b67-aa35-7e7af5952aca",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -18,61 +19,50 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-10-13T17:47:26.656Z",
             "name": "Analytic 1882",
-            "description": "Monitor executed commands and arguments that may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.\nMonitor for API calls that may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.\nMonitor for changes made to Windows Registry keys or values that may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware. For added context on adversary procedures and background see [Indicator Removal](https://attack.mitre.org/techniques/T1070) and applicable sub-techniques.\nMonitor for contextual file data that may show signs of deletion or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.\nMonitor Windows registry keys that may be deleted or alter generated artifacts on a host system, including logs or captured files such as quarantined malware. For added context on adversary procedures and background see [Indicator Removal](https://attack.mitre.org/techniques/T1070) and applicable sub-techniques.\nMonitor for a file that may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.\nMonitor for changes made to a file may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.\nMonitor for newly executed processes that may delete or alter generated artifacts on a host system, including logs or captured files such as quarantined malware.",
+            "description": "Real-time monitoring identifies an audit log clearing event or deletion/truncation of an Industrial Control System (ICS) vendor application log file, immediately preceded by other suspicious activity on the same host within a short lookback window. Documented in the CaddyWiper deployment alongside Industroyer2, explicitly intended to destroy evidence and slow forensic recovery. OT operational-fidelity gate: Alert only when execution violates an approved signer/hash/path/parent/process or tool allowlist, or originates from an unauthorized user/tool, and is tied to an OT asset or follow-on OT-relevant action. Suppress vendor-signed software, approved engineering utilities, diagnostics, patching, backup, and documented maintenance.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
                 "ics-attack"
             ],
             "x_mitre_platforms": [
-                "None"
+                "Windows"
             ],
             "x_mitre_log_source_references": [
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--685f917a-e95e-4ba0-ade1-c7d354dae6e0",
-                    "name": "Command",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--9bde2f9d-a695-4344-bfac-f2dce13d121e",
-                    "name": "Process",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--da85d358-741a-410d-9433-20d6269a6170",
-                    "name": "Windows Registry",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--639e87f3-acb6-448a-9645-258f20da4bc5",
-                    "name": "File",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--1177a4c5-31c8-400c-8544-9071166afa0e",
-                    "name": "Windows Registry",
-                    "channel": "None"
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4688: EventCode=1102 correlated with any other Medium+ confidence alert on the same host within log clear lookback window"
                 },
                 {
                     "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
-                    "name": "File",
-                    "channel": "None"
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "EventCode=23 or wevtutil/Clear-EventLog invocation deleting Industrial Control Systems (ICS) vendor application log file by process not in authorized log management tools"
                 },
                 {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--84572de3-9583-4c73-aabd-06ea88123dd8",
-                    "name": "File",
-                    "channel": "None"
-                },
-                {
-                    "x_mitre_data_component_ref": "x-mitre-data-component--3d20385b-24ef-40e1-9f56-f39750379077",
-                    "name": "Process",
-                    "channel": "None"
+                    "x_mitre_data_component_ref": "x-mitre-data-component--e905dad2-00d6-477c-97e8-800427abd0e8",
+                    "name": "WinEventLog:System",
+                    "channel": "EventCode=104 outside scheduled log rotation window"
                 }
             ],
-            "x_mitre_deprecated": false
+            "x_mitre_mutable_elements": [
+                {
+                    "field": "AuthorizedLogManagementTools",
+                    "description": "Allowlist of processes/accounts authorized to delete or truncate ICS application logs."
+                },
+                {
+                    "field": "LogClearLookbackWindow",
+                    "description": "Time window prior to a log-clear event within which other suspicious activity is considered correlated."
+                },
+                {
+                    "field": "ScheduledLogRotationWindow",
+                    "description": "Documented schedule for legitimate, automated log rotation/archival."
+                }
+            ]
         }
     ]
 }

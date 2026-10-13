@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cbe0f2e-c524-4a7e-9213-1dbdfe1109ef",
+    "id": "bundle--e25ef9a5-c452-4940-9a87-39dc21b861e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.216Z",
+            "modified": "2026-09-03T20:31:39.376Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) can move laterally through industrial networks by means of the SMB service. (Citation: Joe Slowik April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",
