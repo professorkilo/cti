@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b65975f-72c6-4fb3-b262-43375453481e",
+    "id": "bundle--eb0a55ec-ce11-4762-bf0c-23fb8c475b6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.625Z",
+            "modified": "2026-09-02T17:31:48.917Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used stolen access tokens to inject malicious code into CI/CD workflows and to exfiltrate sensitive data from cloud, developer, and container environments.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aikido TeamPCP Telnyx MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dd45360-0236-40f5-8664-4a088546787f",
+    "id": "bundle--6cc63991-f25e-428f-8519-30802f2afd10",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-03T19:46:54.468Z",
             "description": "[SUGARUSH](https://attack.mitre.org/software/S1049) has used port 4585 for a TCP connection to its C2.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--44e2a842-415b-47f4-8549-83fbdb8a5674",

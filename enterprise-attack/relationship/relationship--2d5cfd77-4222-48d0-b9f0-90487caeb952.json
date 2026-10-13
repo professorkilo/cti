@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6a5b1a3-67e8-406f-8cf5-df53938239b0",
+    "id": "bundle--fd84c931-eccd-49ba-a6af-482533d868b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:23.769Z",
+            "modified": "2026-09-08T20:15:04.685Z",
             "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) sent commands to compromised F5 BIG-IP devices in an encoded format requiring a passkey before interpretation and execution.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",

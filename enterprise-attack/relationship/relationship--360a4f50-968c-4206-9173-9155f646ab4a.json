@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7cd4393-52a8-454a-86af-64dce455dd94",
+    "id": "bundle--ceab287f-d4b5-42f6-adfc-575cab4e44ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.993Z",
+            "modified": "2026-09-03T19:46:57.918Z",
             "description": "[CreepySnail](https://attack.mitre.org/software/S1024) can use HTTP for C2.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--d23de441-f9cf-4802-b1ff-f588a11a896b",

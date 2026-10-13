@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd343b9f-ccd5-4cfd-8f30-84819ac5e466",
+    "id": "bundle--63c6d711-b1c4-487b-8062-bcc4e0859c88",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-03T19:46:50.234Z",
             "description": "[KEYPLUG](https://attack.mitre.org/software/S1051) has the ability to communicate over HTTP and WebSocket Protocol (WSS) for C2.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",

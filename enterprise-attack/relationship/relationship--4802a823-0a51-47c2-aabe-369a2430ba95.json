@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01e683e6-4d8d-4f8f-9bf7-4dfef9ef472c",
+    "id": "bundle--2d14bd84-0a51-4a1b-a341-19b7d0027ed2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.023Z",
+            "modified": "2026-09-03T19:46:53.243Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has encoded with XOR and encrypted with RC4 its beacon.(Citation: Lumen_SystemBC_Sept2025)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

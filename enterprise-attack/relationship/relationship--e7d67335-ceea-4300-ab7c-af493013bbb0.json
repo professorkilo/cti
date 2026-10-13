@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7c363e1-d549-4fa3-a0bf-642e25a32e14",
+    "id": "bundle--3d4e84e6-133a-4e9a-92db-867b97a22eba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.967Z",
+            "modified": "2026-09-02T17:31:49.145Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has pushed GitHub commits that modified the actions/checkout to reference an imposter commit that downloaded malicious files from attacker-controlled C2 domains.(Citation: Aqua Security Trivy Compromise MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

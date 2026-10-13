@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a337186b-2d8c-407b-9e42-6eec1f2ffdb7",
+    "id": "bundle--3f763984-ff8b-43e8-adaf-5a03180d13ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-03T19:47:05.169Z",
             "description": "[AsyncRAT](https://attack.mitre.org/software/S1087) has the ability to download files including over SFTP.(Citation: AsyncRAT GitHub)(Citation: ESET MirrorFace 2025)",
             "relationship_type": "uses",
             "source_ref": "tool--6a5947f3-1a36-4653-8734-526df3e1d28d",

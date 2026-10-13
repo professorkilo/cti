@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1874131-bd40-4048-a61f-cb3f94031cc5",
+    "id": "bundle--9bdda15d-7dbd-4eeb-a163-fefcc0aab3b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.093Z",
+            "modified": "2026-09-03T19:46:57.109Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has communicated with C2 IP addresses over ports 1224 or 1244.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

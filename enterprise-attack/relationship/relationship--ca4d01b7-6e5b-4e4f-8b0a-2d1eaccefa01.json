@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f37a343e-cde7-4dd1-9426-3d7e781e75f6",
+    "id": "bundle--d6363ce7-2628-4ff3-9a4c-1e03f5ad9510",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.202Z",
+            "modified": "2026-09-03T19:47:01.410Z",
             "description": "[CreepySnail](https://attack.mitre.org/software/S1024) can connect to C2 for data exfiltration.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--d23de441-f9cf-4802-b1ff-f588a11a896b",

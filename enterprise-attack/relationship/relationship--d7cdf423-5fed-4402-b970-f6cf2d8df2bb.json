@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a660db0e-3e2c-4f1f-9762-542982929626",
+    "id": "bundle--9572108a-3cc0-4938-b495-322d219c3b3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-02T20:07:47.776Z",
             "description": "[KEYMARBLE](https://attack.mitre.org/software/S0271) uses a customized XOR algorithm to encrypt C2 communications.(Citation: US-CERT KEYMARBLE Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--11e36d5b-6a92-4bf9-8eb7-85eb24f59e22",

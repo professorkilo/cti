@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0358330-9a00-4cf6-b6ba-20771037f9ee",
+    "id": "bundle--e6509e35-55c1-40cf-85c9-b3b27b07e0fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-03T19:47:00.672Z",
             "description": "[SMOKEDHAM](https://attack.mitre.org/software/S0649) has communicated with its C2 servers via HTTPS and HTTP POST requests.(Citation: FireEye SMOKEDHAM June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--7e0f8b0f-716e-494d-827e-310bd6ed709e",

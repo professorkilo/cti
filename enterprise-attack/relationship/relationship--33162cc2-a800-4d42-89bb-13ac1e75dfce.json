@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f49b0a1-5201-4711-9ff2-2349fe3b60b7",
+    "id": "bundle--ffaeda32-41c9-4028-9f07-a5ace8637f35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-03T19:46:59.746Z",
             "description": "[Sakula](https://attack.mitre.org/software/S0074) has the capability to download files.(Citation: Dell Sakula)",
             "relationship_type": "uses",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fee8b22c-ae19-43b6-abcb-97c163470d8f",
+    "id": "bundle--1199fcb8-1a7c-41f7-9937-7508c1be2670",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.932Z",
+            "modified": "2026-09-02T20:09:42.674Z",
             "description": "[Bazar](https://attack.mitre.org/software/S0534) can use TLS in C2 communications.(Citation: Zscaler Bazar September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",

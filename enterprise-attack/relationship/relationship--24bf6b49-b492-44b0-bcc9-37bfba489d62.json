@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--609b3a61-96cf-42dc-a00f-ce101389a93f",
+    "id": "bundle--f01a1c70-4b35-4ec3-b7cf-bf506477b3c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-03T19:46:58.990Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) obtains additional code to execute on the victim's machine, including the downloading of a secondary payload.(Citation: Palo Alto Sofacy 06-2018)(Citation: Unit42 Cannon Nov 2018)(Citation: ESET Zebrocy May 2019)(Citation: Accenture SNAKEMACKEREL Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

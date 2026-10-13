@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f42323a-9763-4f30-881f-c809f787459b",
+    "id": "bundle--75ef0329-7d98-4234-8b00-d3cda061ece4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.121Z",
+            "modified": "2026-09-02T20:07:47.219Z",
             "description": "[CASTLETAP](https://attack.mitre.org/software/S1224) can receive a 9-byte XOR encrypted activation string in the payload of an ICMP echo request packet.(Citation: Mandiant Fortinet Zero Day)\n",
             "relationship_type": "uses",
             "source_ref": "malware--15c7bcdb-23e1-4ce3-81a7-b109b4d2a4f1",

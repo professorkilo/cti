@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1cc30635-193b-41b7-9df3-e23a3f066b80",
+    "id": "bundle--e7817651-e4d9-44f0-997e-d006a10db8a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.091Z",
+            "modified": "2026-09-02T20:07:47.008Z",
             "description": "[ZIPLINE](https://attack.mitre.org/software/S1114) can use AES-128-CBC to encrypt data for both upload and download.(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d9765cbd-4c88-4805-ba98-4c6ccb56b864",

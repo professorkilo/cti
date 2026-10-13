@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48753ed2-54f0-471d-abcf-9a274f010028",
+    "id": "bundle--80f2b6da-b88a-4599-b16d-6343576f5f31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-03T19:47:01.537Z",
             "description": "[BBSRAT](https://attack.mitre.org/software/S0127) uses GET and POST requests over HTTP or HTTPS for command and control to obtain commands and send ZLIB compressed data back to the C2 server.(Citation: Palo Alto Networks BBSRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",

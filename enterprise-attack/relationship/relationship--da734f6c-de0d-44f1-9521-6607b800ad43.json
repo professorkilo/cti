@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff3cb497-488c-4c73-bb5b-224e8faeae72",
+    "id": "bundle--7a14002d-f028-490c-87ba-fc01f7fc47b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:26.473Z",
+            "modified": "2026-09-03T19:47:05.483Z",
             "description": "[Patchwork](https://attack.mitre.org/groups/G0040) payloads download additional files from the C2 server.(Citation: Securelist Dropping Elephant)(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fad77aca-2895-467c-bb0c-9180ecb9710c",
+    "id": "bundle--094ac1f6-d72e-4921-b0ba-2130bf13a469",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.991Z",
+            "modified": "2026-09-03T19:46:57.866Z",
             "description": "[MOPSLED](https://attack.mitre.org/software/S1221) can communicate to C2 nodes over HTTP.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--bfcb4a75-b6f0-489b-b506-836bfba3d70e",

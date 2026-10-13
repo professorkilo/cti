@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7ce900f-95b6-43c7-9baa-190b262bf2a5",
+    "id": "bundle--894a825f-5500-4329-b0a0-3aa3a3644dc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-09-03T19:47:02.509Z",
             "description": "[Orz](https://attack.mitre.org/software/S0229) can download files onto the victim.(Citation: Proofpoint Leviathan Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",

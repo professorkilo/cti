@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e62a011-87a2-4abc-8e1e-50eda72ed705",
+    "id": "bundle--c11e0052-8462-49be-a6be-d0094f7ce4a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.913Z",
+            "modified": "2026-09-03T19:46:52.925Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) has used ICMP in C2 communications.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",

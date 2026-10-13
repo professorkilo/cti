@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b239a2e0-ba8b-4ef4-b63e-3fb3cad524d7",
+    "id": "bundle--c4b85162-17a0-4b72-8d2c-59196b5c1c68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.057Z",
+            "modified": "2026-09-03T19:46:50.232Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) has routines for exfiltration over SMTP, FTP, and HTTP.(Citation: Talos Agent Tesla Oct 2018)(Citation: Bitdefender Agent Tesla April 2020)(Citation: SentinelLabs Agent Tesla Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",

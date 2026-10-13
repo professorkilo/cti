@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8ddac058-b1d4-4780-bd71-b559d6a32edb",
+    "id": "bundle--75de98a8-cded-4ec6-9e00-292b42b072a5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:23.493Z",
+            "modified": "2026-09-03T19:47:03.906Z",
             "description": "During [ShadowRay](https://attack.mitre.org/campaigns/C0045), threat actors downloaded and executed the XMRig miner on targeted hosts.(Citation: Oligo ShadowRay Campaign MAR 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--57899965-b171-48ed-bbb4-8faffa3d836a",

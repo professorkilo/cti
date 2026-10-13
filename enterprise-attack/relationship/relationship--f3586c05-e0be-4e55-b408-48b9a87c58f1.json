@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3fcd786-76bb-4ee5-8d7b-ed276fda453d",
+    "id": "bundle--4058a022-fc96-4134-bd54-795cef3b7454",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-15T20:03:13.187Z",
+            "modified": "2026-09-03T19:47:04.445Z",
             "description": "[TeamPCP Cloud Stealer](https://attack.mitre.org/software/S9041) has used `curl` to upload stolen data to attacker controlled domains.(Citation: Sysdig TeamPCP MAR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--fe5b2f0f-8fdc-459d-85b7-dd45c0217a0c",

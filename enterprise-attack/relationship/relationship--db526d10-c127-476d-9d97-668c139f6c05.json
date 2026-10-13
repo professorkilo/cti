@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4572d302-b0a2-4d9a-9c9a-29f982d4b25e",
+    "id": "bundle--195c48d9-a766-43b4-b66b-3d9485b1e474",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.225Z",
+            "modified": "2026-09-03T19:47:05.503Z",
             "description": "[Hannotog](https://attack.mitre.org/software/S1211) can download additional files to the victim machine.(Citation: Symantec Bilbug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--273e2b53-64ec-48be-9ad9-8f3dc0e53718",

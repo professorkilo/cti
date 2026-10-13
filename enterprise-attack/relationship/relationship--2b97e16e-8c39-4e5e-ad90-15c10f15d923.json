@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7abeaf51-5aac-4c81-9585-8e54b1672e9a",
+    "id": "bundle--a319678c-f309-4083-a5b5-f907f58c3da0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.964Z",
+            "modified": "2026-09-02T18:41:22.062Z",
             "description": "[USBStealer](https://attack.mitre.org/software/S0136) exfiltrates collected files via removable media from air-gapped victims.(Citation: ESET Sednit USBStealer 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--af2ad3b7-ab6a-4807-91fd-51bcaff9acbb",

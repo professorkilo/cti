@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddd93332-f491-4680-aade-8465f48469ac",
+    "id": "bundle--97913781-bbab-486d-9516-41bb3cd4c6f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.107Z",
+            "modified": "2026-09-03T19:46:59.885Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has exfiltrated data over its C2 channel.(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",

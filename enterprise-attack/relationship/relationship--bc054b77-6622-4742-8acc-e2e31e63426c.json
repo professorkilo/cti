@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38fd7f04-d6e9-40b9-957d-c223324009ca",
+    "id": "bundle--03edab59-3c24-47ec-819d-a493b22233cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.182Z",
+            "modified": "2026-09-02T20:07:47.521Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can use AES to encrypt system information sent to the C2.(Citation: Check Point Blind Eagle MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

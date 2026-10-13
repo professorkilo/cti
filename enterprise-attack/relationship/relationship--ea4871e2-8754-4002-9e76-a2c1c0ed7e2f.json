@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30507e9d-3972-4854-8b48-03a2fc94b4f2",
+    "id": "bundle--da0401b8-7c91-4987-8a9c-d14f83ca7b8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.244Z",
+            "modified": "2026-09-03T19:47:05.763Z",
             "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) can download and execute payloads in-memory or from disk.(Citation: wardle evilquest partii)",
             "relationship_type": "uses",
             "source_ref": "malware--727afb95-3d0f-4451-b297-362a43909923",

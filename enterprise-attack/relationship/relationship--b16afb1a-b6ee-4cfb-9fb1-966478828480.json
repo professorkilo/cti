@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a40dc23f-5db6-4d51-89bc-25055161341b",
+    "id": "bundle--af52e98b-5c8b-4dd0-9340-a8297373f47a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-03T19:47:00.980Z",
             "description": " [Bisonal](https://attack.mitre.org/software/S0268) has added the exfiltrated data to the URL over the C2 channel.(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4a84722-ac2e-4bbe-a83c-6a23365bd610",
+    "id": "bundle--b85fc26d-f718-48f8-9869-30cb3328e4aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:47:02.981Z",
             "description": "[DropBook](https://attack.mitre.org/software/S0547) can download and execute additional files.(Citation: Cybereason Molerats Dec 2020)(Citation: BleepingComputer Molerats Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3ae6097d-d700-46c6-8b21-42fc0bcb48fa",

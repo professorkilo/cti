@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65d4840a-be8f-4e2e-96d0-14b7d110c271",
+    "id": "bundle--df6533f7-8cbf-43c7-9b83-4b43d1b5c37e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-03T19:46:48.659Z",
             "description": "[BADCALL](https://attack.mitre.org/software/S0245) uses a FakeTLS method during C2.(Citation: Malware Analysis Report 10135536-G)",
             "relationship_type": "uses",
             "source_ref": "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2",

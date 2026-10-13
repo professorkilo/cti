@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--beebf078-6bca-43c1-ad97-96200ddf86e4",
+    "id": "bundle--cfdd783f-edaf-437b-828d-a6bfc03a2be1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.996Z",
+            "modified": "2026-09-03T19:46:55.462Z",
             "description": "[Drovorub](https://attack.mitre.org/software/S0502) can use TCP to communicate between its agent and client modules.(Citation: NSA/FBI Drovorub August 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",

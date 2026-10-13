@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e57b9288-00f0-4e2d-b4f6-c1d7f0b4d3ae",
+    "id": "bundle--1eb74d95-1647-430c-8f31-16338c7a1fd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-09-03T19:46:59.920Z",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) can download and execute additional files.(Citation: Palo Alto Gamaredon Feb 2017)(Citation: Symantec Shuckworm January 2022)(Citation: Unit 42 Gamaredon February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",

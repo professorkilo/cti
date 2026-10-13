@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8e9b2fb-4038-4a7d-9143-929d57122e02",
+    "id": "bundle--5376f162-58a0-44fa-be1c-ecaeb095bdab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.207Z",
+            "modified": "2026-09-03T19:46:59.101Z",
             "description": "The [Penquin](https://attack.mitre.org/software/S0587) C2 mechanism is based on TCP and UDP packets.(Citation: Kaspersky Turla Penquin December 2014)(Citation: Leonardo Turla Penquin May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--d18cb958-f4ad-4fb3-bb4f-e8994d206550",

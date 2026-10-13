@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08061ba9-d22d-4bda-8768-915fa97181a9",
+    "id": "bundle--0823e064-2156-4454-86db-c5b20186746f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.976Z",
+            "modified": "2026-09-03T19:46:54.898Z",
             "description": "[COATHANGER](https://attack.mitre.org/software/S1105) uses ICMP for transmitting configuration information to and from its command and control server.(Citation: NCSC-NL COATHANGER Feb 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--0c242cc5-58d3-4fe3-a866-b00a4b6fb817",

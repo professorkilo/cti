@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--81df7da5-563b-4c73-9d32-cda7ae180999",
+    "id": "bundle--d55e367a-acf4-4d4f-b929-35c88477855a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:46:58.694Z",
             "description": "[Cuckoo Stealer](https://attack.mitre.org/software/S1153) can use sockets for communications to its C2 server.(Citation: Kandji Cuckoo April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--457a5e8d-d964-4130-bde3-c07bb41a093e",

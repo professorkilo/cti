@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c73777ff-194e-4ce7-889a-5321b7cb17d7",
+    "id": "bundle--40174245-8585-4071-b0ae-4bed0745351f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.949Z",
+            "modified": "2026-09-03T19:46:54.293Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) can use ICMP to receive information on the destination server.(Citation: JPCert BlackTech Malware September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90acfcc7-c8eb-437e-b264-5e268de41135",
+    "id": "bundle--444390bd-eb68-424b-95f8-c1c556d47852",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:45.042Z",
+            "modified": "2026-09-02T18:23:57.265Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has split archived exfiltration files into chunks smaller than 1MB.(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b34c845-750c-42ad-ab73-c24099ab0f9a",
+    "id": "bundle--38809d66-823a-4bdd-8e68-591ba46e60f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.135Z",
+            "modified": "2026-09-08T20:15:04.782Z",
             "description": "[Linux Rabbit](https://attack.mitre.org/software/S0362) sends the payload from the C2 server as an encoded URL parameter. (Citation: Anomali Linux Rabbit 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0efefea5-78da-4022-92bc-d726139e8883",

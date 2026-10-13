@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85e2d474-ff42-43cc-ab92-4a60cc683378",
+    "id": "bundle--e026df71-5122-4733-b07f-cfe75f753c6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.253Z",
+            "modified": "2026-09-03T19:47:01.954Z",
             "description": "[GrimAgent](https://attack.mitre.org/software/S0632) has sent data related to a compromise host over its C2 channel.(Citation: Group IB GrimAgent July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",

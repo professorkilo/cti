@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34d14daa-2f8c-4d07-b6b8-59976ea6a1a7",
+    "id": "bundle--e7ecae66-0e05-4a96-bbd7-15f6417cb9b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-03T19:47:05.863Z",
             "description": "[Dtrack](https://attack.mitre.org/software/S0567)\u2019s can download and upload a file to the victim\u2019s computer.(Citation: Securelist Dtrack)(Citation: CyberBit Dtrack)",
             "relationship_type": "uses",
             "source_ref": "malware--f8774023-8021-4ece-9aca-383ac89d2759",

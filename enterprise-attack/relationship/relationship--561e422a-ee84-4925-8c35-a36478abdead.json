@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e8ab2fd-d2f6-4e16-830a-34ff0aa22c72",
+    "id": "bundle--0f144c1f-6fcc-46b2-9dba-c86d2a6aecc7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-02T20:09:42.926Z",
             "description": "[Mango](https://attack.mitre.org/software/S1169) can use TLS to encrypt C2 communications.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--c5ec3344-e156-4b41-accb-274362e5dae8",

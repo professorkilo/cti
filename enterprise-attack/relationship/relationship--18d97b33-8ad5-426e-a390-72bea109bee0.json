@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b3c405e-8d84-4a4b-9bc1-9a903c990082",
+    "id": "bundle--ef662b3d-2822-4ebf-a4d5-a818873007e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-03T19:46:57.903Z",
             "description": "[BabyShark](https://attack.mitre.org/software/S0414) has downloaded additional files from the C2.(Citation: Unit42 BabyShark Apr 2019)(Citation: CISA AA20-301A Kimsuky)",
             "relationship_type": "uses",
             "source_ref": "malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b",

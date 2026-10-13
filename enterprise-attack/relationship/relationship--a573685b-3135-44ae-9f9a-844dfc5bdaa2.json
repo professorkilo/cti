@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81b7dd2-1fa9-47c5-9cd5-5702b5bf873c",
+    "id": "bundle--6b696692-f1cf-450f-beaf-eec70ee7098d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:25.287Z",
+            "modified": "2026-09-03T19:46:49.503Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used e-mail to send exfiltrated data to C2 servers.(Citation: CISA AA20-301A Kimsuky)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

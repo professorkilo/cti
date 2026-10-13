@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--286ea0a5-bb45-4adb-a674-1e997ee4345e",
+    "id": "bundle--e73296d5-3359-474c-ad20-a14f41170562",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-03T19:46:55.303Z",
             "description": "[Milan](https://attack.mitre.org/software/S1015) can use a custom protocol tunneled through DNS or HTTP.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--aea6d6b8-d832-4c90-a1bb-f52c6684db6c",

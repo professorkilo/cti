@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10cc91f9-bf58-4622-8c7f-28f68857ab2b",
+    "id": "bundle--5b0c7bbf-c423-4724-8b10-e4dc0b57b6ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T20:09:42.751Z",
             "description": "[REvil](https://attack.mitre.org/software/S0496) has encrypted C2 communications with the ECIES algorithm.(Citation: Kaspersky Sodin July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ac61f1f9-7bb1-465e-9b8a-c2ce8e88baf5",

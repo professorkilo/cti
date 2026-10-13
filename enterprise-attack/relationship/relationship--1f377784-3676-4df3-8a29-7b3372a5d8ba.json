@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46d712cf-2e0e-4be7-b838-ad3f21311a78",
+    "id": "bundle--4d759277-c22c-4197-b358-8af13b10e9ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.947Z",
+            "modified": "2026-09-03T19:46:47.905Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) can use WinSCP for the secure file transfer of the Linux ransomware binary to a targeted system.(Citation: Trend Micro Agenda Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

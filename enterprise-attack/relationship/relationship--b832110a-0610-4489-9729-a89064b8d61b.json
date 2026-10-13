@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a297fe05-7e01-4f25-9175-c65291fea6a8",
+    "id": "bundle--4d5ae480-5c19-4ad5-8ade-c6ac58d7dc91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.177Z",
+            "modified": "2026-09-03T19:46:58.779Z",
             "description": "[LunarMail](https://attack.mitre.org/software/S1142) can ping a specific C2 URL with the ID of a victim machine in the subdomain.(Citation: ESET Turla Lunar toolset May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a5789a26-2b7b-4b2d-a25f-31182468d4bb",

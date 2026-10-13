@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--573782e4-1330-4c71-acea-4ab51afcf072",
+    "id": "bundle--1bcdc3ef-1185-4d25-a757-27fed43d0add",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.157Z",
+            "modified": "2026-09-03T19:47:02.722Z",
             "description": "[Explosive](https://attack.mitre.org/software/S0569) has used HTTP for communication.(Citation: CheckPoint Volatile Cedar March 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--6a21e3a4-5ffe-4581-af9a-6a54c7536f44",

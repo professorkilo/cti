@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b6bf2af1-7bc5-4def-b70f-1896beca6911",
+    "id": "bundle--f61cc3c6-8d69-4f67-9f78-52307a74bb09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.047Z",
+            "modified": "2026-09-03T19:47:01.564Z",
             "description": "[Spica](https://attack.mitre.org/software/S1140) can upload and download files to and from compromised hosts.(Citation: Google TAG COLDRIVER January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--824a230d-0f6a-4fd0-99df-8d464db2265e",

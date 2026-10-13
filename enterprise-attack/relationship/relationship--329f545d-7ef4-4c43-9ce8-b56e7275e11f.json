@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee547644-65d6-4a7f-96dc-48fbec0b80f6",
+    "id": "bundle--9e5839e3-a186-4f18-b61e-1960bbe0f904",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.985Z",
+            "modified": "2026-09-03T19:46:48.978Z",
             "description": "[SLIGHTPULSE](https://attack.mitre.org/software/S1110) can base64 encode all incoming and outgoing C2 messages.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d1008b78-960c-4b36-bdc4-39a734e1e4e3",

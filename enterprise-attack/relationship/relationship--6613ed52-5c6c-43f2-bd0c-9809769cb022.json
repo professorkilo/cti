@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61e4062b-3cc8-4627-abfc-f3e7e803ba5a",
+    "id": "bundle--89993df4-0a96-4e52-babb-4c3065ad18c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-02T20:07:46.856Z",
             "description": "[4H RAT](https://attack.mitre.org/software/S0065) obfuscates C2 communication using a 1-byte XOR with the key 0xBE.(Citation: CrowdStrike Putter Panda)",
             "relationship_type": "uses",
             "source_ref": "malware--8e461ca3-0996-4e6e-a0df-e2a5bbc51ebc",

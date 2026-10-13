@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a8c7100-5f6a-4b6c-a5d6-f8da1546613e",
+    "id": "bundle--2427424e-9d35-45dc-ab80-3da871ed50d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-09-03T19:46:59.092Z",
             "description": "[HAWKBALL](https://attack.mitre.org/software/S0391) has used HTTP to communicate with a single hard-coded C2 server.(Citation: FireEye HAWKBALL Jun 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--12a7450d-b03e-4990-a5b8-b405ab9c803b",

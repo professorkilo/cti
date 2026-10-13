@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9c2e876-8aff-48eb-8490-1342e12acff6",
+    "id": "bundle--3e8c8a2e-0ef3-4b20-be3c-922b2d207f5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -74,7 +74,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.587Z",
+            "modified": "2026-09-02T17:31:48.891Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has conducted coordinated supply chain attacks targeting open-source developer infrastructure including the NPM, VS Code, Docker, and PyPi ecosystems to compromise multiple software packages.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Aikido TeamPCP Telnyx MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)(Citation: Flashpoint Mini Shai-Hulud MAY 2026)(Citation: FBI TeamPCP JUL 2026)(Citation: Google AI Threat Tracker MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

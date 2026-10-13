@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e385b0b7-191c-4bfe-bf3f-de5a6b6c3b49",
+    "id": "bundle--4430237b-7355-4e0d-b67b-6b3553c53e32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:47:00.940Z",
             "description": "[GrimAgent](https://attack.mitre.org/software/S0632) has the ability to download and execute additional payloads.(Citation: Group IB GrimAgent July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",

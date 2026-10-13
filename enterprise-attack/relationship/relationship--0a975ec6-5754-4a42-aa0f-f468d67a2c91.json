@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d1f847c-5364-44d5-ae73-a5be3ae7b7cf",
+    "id": "bundle--9fa4ba92-00cd-4efb-b44d-43adc86c0601",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:26.914Z",
+            "modified": "2026-09-03T19:46:49.819Z",
             "description": "[Rancor](https://attack.mitre.org/groups/G0075) has used HTTP for C2.(Citation: Rancor Unit42 June 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f40eb8ce-2a74-4e56-89a1-227021410142",

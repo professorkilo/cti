@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--daefdfd8-eda8-44b2-b84e-e50ba321f3ef",
+    "id": "bundle--8bd25b1c-f28e-4ebc-b934-1f517c043694",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.959Z",
+            "modified": "2026-09-03T19:47:05.840Z",
             "description": "[Mustard Tempest](https://attack.mitre.org/groups/G1020) has deployed secondary payloads and third stage implants to compromised hosts.(Citation: Microsoft Ransomware as a Service)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0d4ac089-ced4-4cc4-a989-174d08e6d030",

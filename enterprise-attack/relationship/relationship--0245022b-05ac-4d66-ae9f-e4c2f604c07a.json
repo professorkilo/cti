@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf909be3-27ba-4b11-81c8-8cc383a6fc48",
+    "id": "bundle--bfb15a59-1d89-41d2-a852-ace883bbc21e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.906Z",
+            "modified": "2026-09-02T20:07:41.001Z",
             "description": "[Dridex](https://attack.mitre.org/software/S0384) has encrypted traffic with RC4.(Citation: Kaspersky Dridex May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f01e2711-4b48-4192-a2e8-5f56c945ca19",

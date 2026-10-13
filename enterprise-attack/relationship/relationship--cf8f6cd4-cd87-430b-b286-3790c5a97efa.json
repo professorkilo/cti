@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8603a377-e2ac-4c59-8afe-e6d0bca57dfa",
+    "id": "bundle--722fb848-0bb2-46ee-bb6a-b62707fe6888",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.209Z",
+            "modified": "2026-09-02T20:07:47.733Z",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has used RC4 to encrypt C2 traffic.(Citation: Proofpoint TA459 April 2017)(Citation: Proofpoint ZeroT Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",

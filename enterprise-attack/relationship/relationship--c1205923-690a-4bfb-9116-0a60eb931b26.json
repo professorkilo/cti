@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--251d4cd1-c772-4f2c-b751-4be7139a3728",
+    "id": "bundle--350cf2ee-f24b-4692-a1ae-c309c74bb8f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:29.280Z",
+            "modified": "2026-09-08T20:28:08.839Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Fast Reverse Proxy (FRP) for RDP traffic.(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",

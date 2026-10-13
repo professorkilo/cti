@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da0026a0-e296-436a-9420-d49ea2a6748d",
+    "id": "bundle--c576bbbf-5446-41ab-8f2b-a0a3135927bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.965Z",
+            "modified": "2026-09-03T19:46:48.950Z",
             "description": "[ODAgent](https://attack.mitre.org/software/S1170) can use the Microsoft Graph API to access an attacker-controlled OneDrive account and retrieve payloads and backdoor commands.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--42bf4ce8-415f-40e3-98b3-e3811875b406",

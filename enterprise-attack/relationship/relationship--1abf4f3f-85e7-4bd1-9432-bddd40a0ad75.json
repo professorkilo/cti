@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4c5d170-f3c2-4c4f-b50e-83096ce8966d",
+    "id": "bundle--44bc23ab-23bb-4c87-8c03-92fae9b2ab25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-02T18:23:57.100Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) exfiltrates command output and collected files to its C2 server in 1500-byte blocks.(Citation: Unit 42 OopsIE! Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42375f1a-7f77-4c77-a200-27023793bb57",
+    "id": "bundle--3aedddab-b476-48c7-aee9-a0d212553112",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-03T19:47:00.631Z",
             "description": "[PoetRAT](https://attack.mitre.org/software/S0428) has used HTTP and HTTPs for C2 communications.(Citation: Talos PoetRAT October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--cc5497f7-a9e8-436f-94da-b2b4a9b9ad3c",

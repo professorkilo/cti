@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e7edb0f-d44f-4462-8a56-fc421e1c3e2f",
+    "id": "bundle--be55cae7-cfa9-46f6-bb47-85962c321cd9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:31.400Z",
+            "modified": "2026-09-03T19:46:59.218Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) used its Cloudflare services C2 channels for data exfiltration.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

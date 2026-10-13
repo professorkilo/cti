@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1a85785-4e86-40df-8fe6-6a98d39a45f6",
+    "id": "bundle--ac098e49-8ec2-4f98-a069-7937ddfc2b33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:46:55.969Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) can sleep for a specific time and be set to communicate at specific intervals.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--055543a5-eeab-4886-b08d-446fe06521a0",
+    "id": "bundle--543d11b2-1326-48c0-acd9-b62af30f232e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:31.224Z",
+            "modified": "2026-09-03T19:47:01.797Z",
             "description": "[FIN13](https://attack.mitre.org/groups/G1016) has used HTTP requests to chain multiple web shells and to contact actor-controlled C2 servers prior to exfiltrating stolen data.(Citation: Mandiant FIN13 Aug 2022)(Citation: Sygnia Elephant Beetle Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fd66436e-4d33-450e-ac4c-f7810f1c85f4",

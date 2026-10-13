@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31e968e2-aab0-41e8-ab16-52967d6c6038",
+    "id": "bundle--28f5c837-9e5e-47bd-8db2-733e5b3cf511",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.030Z",
+            "modified": "2026-09-03T19:47:01.155Z",
             "description": "[AuditCred](https://attack.mitre.org/software/S0347) can download files and additional malware.(Citation: TrendMicro Lazarus Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--24b4ce59-eaac-4c8b-8634-9b093b7ccd92",

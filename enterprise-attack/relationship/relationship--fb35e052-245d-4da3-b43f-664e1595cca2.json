@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2cbaa3b9-f2fe-4f0b-ad89-bbef9f2efc8f",
+    "id": "bundle--e40b7ab3-e2ce-4808-a59a-feb602ada0a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:19.384Z",
+            "modified": "2026-09-03T19:47:02.073Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors exfiltrated stolen credentials and internal data over HTTPS to C2 infrastructure.(Citation: Microsoft SharePoint Exploit JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

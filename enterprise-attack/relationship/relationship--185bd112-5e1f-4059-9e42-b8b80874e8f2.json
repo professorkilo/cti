@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99d031a2-65ae-4d03-b5a9-465dd6d42f51",
+    "id": "bundle--38861107-8eb7-4d2d-8950-fffdb0917729",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-03T19:46:55.781Z",
             "description": "[DnsSystem](https://attack.mitre.org/software/S1021) can exfiltrate collected data to its C2 server.(Citation: Zscaler Lyceum DnsSystem June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900",

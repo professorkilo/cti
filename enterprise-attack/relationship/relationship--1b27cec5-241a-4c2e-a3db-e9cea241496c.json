@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb09e3fa-99c8-4920-9524-5af0899eb24a",
+    "id": "bundle--204c1983-781a-49f8-aee8-2f301eb8a9ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-08T20:28:08.033Z",
             "description": "[HTRAN](https://attack.mitre.org/software/S0040) can proxy TCP socket connections to obfuscate command and control infrastructure.(Citation: Operation Quantum Entanglement)(Citation: NCSC Joint Report Public Tools)",
             "relationship_type": "uses",
             "source_ref": "tool--d5e96a35-7b0b-4c6a-9533-d63ecbda563e",

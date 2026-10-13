@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa7d0ec9-f8e0-4218-bf87-7654bb6d1a97",
+    "id": "bundle--6a5b88f0-b02f-42a1-a206-67ae12c395af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-03T19:47:01.777Z",
             "description": "[reGeorg](https://attack.mitre.org/software/S1187) can use HTTP to tunnel connections in and out of targeted networks.(Citation: Fortinet reGeorg MAR 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34",

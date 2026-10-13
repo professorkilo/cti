@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--917a8c95-9a68-41b4-bccd-749a127a4e41",
+    "id": "bundle--b4159543-1989-483f-be38-cf9cf27aa91c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-03T19:46:57.821Z",
             "description": "[Hi-Zor](https://attack.mitre.org/software/S0087) has the ability to upload and download files from its C2 server.(Citation: Fidelis INOCNATION)",
             "relationship_type": "uses",
             "source_ref": "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",

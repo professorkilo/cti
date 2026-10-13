@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25e57346-6db1-4727-91b7-624dff66ce65",
+    "id": "bundle--e51a8a3a-8812-4b60-86f7-fa26306ad7d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-03T19:47:04.901Z",
             "description": "[HiddenWasp](https://attack.mitre.org/software/S0394) downloads a tar compressed archive from a download server to the system.(Citation: Intezer HiddenWasp Map 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--fc774af4-533b-4724-96d2-ac1026316794",

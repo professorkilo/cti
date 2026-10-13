@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--761ec849-08ca-4c8e-bb46-63bacab76dae",
+    "id": "bundle--46751647-4b8c-4d9b-822d-99a678b44ebd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-03T19:47:02.486Z",
             "description": "[njRAT](https://attack.mitre.org/software/S0385) has used HTTP for C2 communications.(Citation: Trend Micro njRAT 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",

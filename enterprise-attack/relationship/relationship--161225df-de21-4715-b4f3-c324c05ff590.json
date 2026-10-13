@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0be00853-ba69-4d2c-98bb-6abf6fd4b3e1",
+    "id": "bundle--d2f56246-1ed5-446f-905e-bb46d32e7786",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,13 +19,23 @@
                     "source_name": "FireEye APT38 Oct 2018",
                     "description": "FireEye. (2018, October 03). APT38: Un-usual Suspects. Retrieved November 17, 2024.",
                     "url": "https://services.google.com/fh/files/misc/apt38-un-usual-suspects.pdf"
+                },
+                {
+                    "source_name": "Microsoft Axios Compromise APR 2026",
+                    "description": "Microsoft Threat Intelligence. (2026, April 1). Mitigating the Axios npm supply chain compromise. Retrieved September 30, 2026.",
+                    "url": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/"
+                },
+                {
+                    "source_name": "Microsoft Sapphire Sleet APR 2026",
+                    "description": "Microsoft Threat Intelligence. (2026, April 16). Dissecting Sapphire Sleet\u2019s macOS intrusion from lure to compromise. Retrieved September 30, 2026.",
+                    "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:23.053Z",
-            "description": "[APT38](https://attack.mitre.org/groups/G0082) has used a utility called CLOSESHAVE that can securely delete a file from the system. They have also removed malware, tools, or other non-native files used during the intrusion to reduce their footprint or as part of the post-intrusion cleanup process.(Citation: FireEye APT38 Oct 2018)(Citation: CISA AA20-239A BeagleBoyz August 2020)",
+            "modified": "2026-09-30T19:02:52.005Z",
+            "description": "[APT38](https://attack.mitre.org/groups/G0082) has used a utility called CLOSESHAVE that can securely delete a file from the system. [APT38](https://attack.mitre.org/groups/G0082) has also removed malware, tools, scripts, or other non-native files used during the intrusion to reduce their footprint or as part of the post-intrusion cleanup process.(Citation: FireEye APT38 Oct 2018)(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: Microsoft Sapphire Sleet APR 2026)(Citation: Microsoft Axios Compromise APR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
             "target_ref": "attack-pattern--d63a3fb8-9452-4e9d-a60a-54be68d5998c",

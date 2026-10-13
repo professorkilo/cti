@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58dd8b65-503b-4552-9f5f-f377a1e27d4f",
+    "id": "bundle--e15b5dd0-adc9-4f91-b6ec-cef4a384feb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-02T20:07:46.616Z",
             "description": "The C2 server response to a beacon sent by a variant of [Emissary](https://attack.mitre.org/software/S0082) contains a 36-character GUID value that is used as an encryption key for subsequent network communications. Some variants of [Emissary](https://attack.mitre.org/software/S0082) use various XOR operations to encrypt C2 data.(Citation: Lotus Blossom Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eafea738-4262-44d0-ac05-6df1963613de",
+    "id": "bundle--989a1817-6a02-45d7-bd31-fac9bbeab7e0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.906Z",
+            "modified": "2026-09-03T19:46:52.715Z",
             "description": "[FRP](https://attack.mitre.org/software/S1144) can communicate over TCP, TCP stream multiplexing, KERN Communications Protocol (KCP), QUIC, and UDP.(Citation: FRP GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",

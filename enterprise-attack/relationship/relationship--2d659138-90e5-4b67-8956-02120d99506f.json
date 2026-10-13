@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--146ebff4-5d9d-408c-82e4-fe86f8ff30de",
+    "id": "bundle--e58a11e6-4d6d-4c63-b4f8-8b78c6457072",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.966Z",
+            "modified": "2026-09-03T19:46:56.567Z",
             "description": "[3PARA RAT](https://attack.mitre.org/software/S0066) uses HTTP for command and control.(Citation: CrowdStrike Putter Panda)",
             "relationship_type": "uses",
             "source_ref": "malware--7bec698a-7e20-4fd3-bb6a-12787770fb1a",

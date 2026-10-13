@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a573a68-0a65-48f7-a26b-05969d6d8a67",
+    "id": "bundle--6ae17a20-a8fb-4b0c-8d86-af24639e2b9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.908Z",
+            "modified": "2026-09-03T19:46:48.952Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) communicates to its C2 server over HTTP and embeds data within the Cookie HTTP header.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",

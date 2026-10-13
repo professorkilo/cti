@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c27582f-76aa-4491-a7e0-98a808cc00df",
+    "id": "bundle--73e7082a-6a47-4bc3-ab05-b0e4a035daf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-03T19:46:52.990Z",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) uses DNS TXT records for C2.(Citation: FireEye FIN7 March 2017)(Citation: Cisco DNSMessenger March 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",

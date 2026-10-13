@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cfd0c1c-c302-41fd-8b43-5d47c6aebf74",
+    "id": "bundle--a46df2f8-365a-46d7-90c8-e1d8227ff6d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-03T19:46:53.634Z",
             "description": "[WellMail](https://attack.mitre.org/software/S0515) can receive data and executable scripts from C2.(Citation: CISA WellMail July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--959f3b19-2dc8-48d5-8942-c66813a5101a",

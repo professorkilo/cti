@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba9c1295-c23f-406a-a630-53f015c25ba7",
+    "id": "bundle--57a07e40-0c67-4e8e-bc03-6e9942e17035",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.217Z",
+            "modified": "2026-09-03T19:47:03.767Z",
             "description": "[OwaAuth](https://attack.mitre.org/software/S0072) uses incoming HTTP requests with a username keyword and commands and handles them as instructions to perform actions.(Citation: Dell TG-3390)",
             "relationship_type": "uses",
             "source_ref": "malware--a60657fa-e2e7-4f8f-8128-a882534ae8c5",

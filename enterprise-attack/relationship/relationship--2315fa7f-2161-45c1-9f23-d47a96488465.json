@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34194e5e-f138-4ef9-ba90-e52fc921ba48",
+    "id": "bundle--355bc2b8-f330-4523-a67f-2e0d06e593b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-02T20:07:46.221Z",
             "description": "[StrifeWater](https://attack.mitre.org/software/S1034) can encrypt C2 traffic using XOR with a hard coded key.(Citation: Cybereason StrifeWater Feb 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--fb78294a-7d7a-4d38-8ad0-92e67fddc9f0",

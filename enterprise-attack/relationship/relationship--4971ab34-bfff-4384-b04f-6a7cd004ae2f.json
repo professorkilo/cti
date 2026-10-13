@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8f6771c9-8d8a-4106-a25c-7c70c2a2bbe2",
+    "id": "bundle--c4dad188-19a5-4f1d-91f9-1def5b8f1979",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:58.634Z",
             "description": "[S-Type](https://attack.mitre.org/software/S0085) has uploaded data and files from a compromised host to its C2 servers.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",

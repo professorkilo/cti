@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d30d2894-6953-4ff7-af67-7ea47de38706",
+    "id": "bundle--b0127425-a599-428f-b1e1-f6f67e2d9e27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-09-03T19:47:02.530Z",
             "description": "[certutil](https://attack.mitre.org/software/S0160) can be used to download files from a given URL.(Citation: TechNet Certutil)(Citation: LOLBAS Certutil)",
             "relationship_type": "uses",
             "source_ref": "tool--0a68f1f1-da74-4d28-8d9a-696c082706cc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--110c793d-8e9e-41be-9154-b4f8c8349156",
+    "id": "bundle--c941ea27-6373-4cf7-bfcd-59084200e01c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:55.136Z",
+            "modified": "2026-09-03T19:46:53.731Z",
             "description": "[APT37](https://attack.mitre.org/groups/G0067) uses HTTPS to conceal C2 communications.(Citation: Talos Group123)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4a2ce82e-1a74-468a-a6fb-bbead541383c",

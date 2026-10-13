@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba2e55fc-c7ed-456b-ba43-7acd19827c00",
+    "id": "bundle--aa821336-181a-49f4-b42a-71efe89a99f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.142Z",
+            "modified": "2026-09-03T19:47:00.464Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) can transfer files from an infected host to the C2 server.(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",

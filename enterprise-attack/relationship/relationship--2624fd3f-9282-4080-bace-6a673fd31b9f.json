@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bc038e9-ed76-47e6-9898-05f2b43ae10c",
+    "id": "bundle--184f616f-ed1b-44c8-bcf5-7281d6fc28b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.957Z",
+            "modified": "2026-09-02T20:07:46.246Z",
             "description": "[POWERTON](https://attack.mitre.org/software/S0371) has used AES for encrypting C2 traffic.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b",

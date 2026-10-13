@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f387e577-12a9-42b9-8bfa-f5566b8a3935",
+    "id": "bundle--359d33e3-72ba-4a4f-aa5b-62d7391fe7e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-03T19:47:02.789Z",
             "description": "[SDBbot](https://attack.mitre.org/software/S0461) has the ability to download a DLL from C2 to a compromised host.(Citation: Proofpoint TA505 October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--92b03a94-7147-4952-9d5a-b4d24da7487c",

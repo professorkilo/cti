@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b197ebf-797a-4b69-af9d-8eee506a396e",
+    "id": "bundle--9818e3d5-6ee0-4859-91c1-62a4e918d8a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.915Z",
+            "modified": "2026-09-03T19:46:49.714Z",
             "description": "[LIGHTWIRE](https://attack.mitre.org/software/S1119) can use HTTP for C2 communications.(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5dc9e8ec-9917-4de7-b8ab-16007899dd80",

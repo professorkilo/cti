@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d46b5c8-21b4-4a68-8559-e8a4ec875e65",
+    "id": "bundle--0b43e2ea-6a7c-4eee-97c0-cbe1fc3ecc9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-08T20:15:04.671Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) can encode queries sent to LLMs.(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e8c9ac1a-9fbd-4c47-9b98-65a6e6f03ee7",
+    "id": "bundle--fef53a0c-2ff2-4897-9b3f-35e3aa038b75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.191Z",
+            "modified": "2026-09-03T19:46:57.977Z",
             "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) has file transfer capabilities.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7cc63f0f-f24f-4cda-9e9f-61bde1d52297",

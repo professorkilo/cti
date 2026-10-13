@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5879f8e-9f41-4304-8640-88cec6bfa6c6",
+    "id": "bundle--56400737-5e03-4498-bcba-5e8922de4d64",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-02T18:05:12.958Z",
             "description": "Some endpoint security solutions can be configured to block some types of behaviors related to process injection/memory tampering based on common sequences of indicators (ex: execution of specific API functions).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--90f39ee1-d5a3-4aaa-9f28-3b42815b0d46",

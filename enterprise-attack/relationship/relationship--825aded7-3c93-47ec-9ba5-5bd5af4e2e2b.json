@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a52c7bff-c07b-4f05-88a0-0436ca9bbe4f",
+    "id": "bundle--81dd84b5-c044-4183-996a-74c1488c4816",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:04.083Z",
+            "modified": "2026-09-03T19:47:01.667Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has used HTTP and HTTPS for C2 communications.(Citation: ESET Turla Mosquito Jan 2018)(Citation: ESET Turla Mosquito May 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

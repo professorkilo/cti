@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c008bd58-0e22-4ad1-8452-e4ba6e1a7fb3",
+    "id": "bundle--66fdf479-1344-44fa-8b3f-0d6899805907",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-03T19:46:48.024Z",
             "description": "[Ebury](https://attack.mitre.org/software/S0377) has used DNS requests over UDP port 53 for C2.(Citation: ESET Ebury Feb 2014)\t",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",

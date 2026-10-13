@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4b52419-2034-4926-881f-0d1c47ace7e3",
+    "id": "bundle--a79abd19-35bb-4794-bb5a-8a50a978aeb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-03T19:47:01.723Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) creates a backdoor through which remote attackers can download files and additional malware components.(Citation: Symantec Trojan.Hydraq Jan 2010)(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50565539-6738-4a25-87eb-0fca642ba1a3",
+    "id": "bundle--63494e23-e18d-424a-a5e9-bf20dfcea49f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.110Z",
+            "modified": "2026-09-03T19:47:01.865Z",
             "description": "[SLIGHTPULSE](https://attack.mitre.org/software/S1110) has the ability to process HTTP GET requests as a normal web server and to insert logic that will read or write files or execute commands in response to HTTP POST requests.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d1008b78-960c-4b36-bdc4-39a734e1e4e3",

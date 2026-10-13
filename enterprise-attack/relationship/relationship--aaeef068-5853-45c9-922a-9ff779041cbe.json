@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97ffb8e9-6639-4b2e-a401-a638e2f94447",
+    "id": "bundle--e6dec9fe-8e42-4936-b4ce-d0ffea65ccde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:50.823Z",
+            "modified": "2026-09-02T17:55:53.264Z",
             "description": "[Andariel](https://attack.mitre.org/groups/G0138) has used a variety of publicly-available remote access Trojans (RATs) for its operations.(Citation: FSI Andariel Campaign Rifle July 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--39d6890e-7f23-4474-b8ef-e7b0343c5fc8",

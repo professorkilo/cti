@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14da7c80-8846-4a1f-b0b4-ef51d70c1cf6",
+    "id": "bundle--e7ecf483-7fdc-4f5a-a732-a6983727c2c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-03T19:46:52.394Z",
             "description": "[ROKRAT](https://attack.mitre.org/software/S0240) has used legitimate social networking sites and cloud platforms (including but not limited to Twitter, Yandex, Dropbox, and Mediafire) for C2 communications.(Citation: Talos ROKRAT)(Citation: Securelist ScarCruft May 2019)(Citation: Volexity InkySquid RokRAT August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--60a9c2f0-b7a5-4e8e-959c-e1a3ff314a5f",

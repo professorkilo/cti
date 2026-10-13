@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2773d83-d407-4147-87af-f7b8b46c8811",
+    "id": "bundle--e964a1c3-5715-4c5d-a9bc-3a1eb11b1538",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.146Z",
+            "modified": "2026-09-03T19:47:04.075Z",
             "description": "[UPPERCUT](https://attack.mitre.org/software/S0275) can download and upload files to and from the victim\u2019s machine.(Citation: FireEye APT10 Sept 2018)(Citation: Trend Micro Earth Kasha Updates APR 2025)(Citation: Trend Micro Earth Kasha Anel NOV 2024)\n",
             "relationship_type": "uses",
             "source_ref": "malware--fb4e3792-e915-4fdd-a9cd-92dfa2ace7aa",

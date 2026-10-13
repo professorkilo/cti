@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--082d138c-296a-4fb5-8f9f-7d0218763ebd",
+    "id": "bundle--a0218436-cb29-4723-8f28-fb827d8809d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:46:57.751Z",
             "description": "[xCaon](https://attack.mitre.org/software/S0653) has used Base64 to encode its C2 traffic.(Citation: Checkpoint IndigoZebra July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--21583311-6321-4891-8a37-3eb4e57b0fb1",

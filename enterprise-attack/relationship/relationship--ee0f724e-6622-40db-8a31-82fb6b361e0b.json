@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00355f40-7395-43e1-96f3-22fbbb00fcf1",
+    "id": "bundle--314715c5-81d5-4368-8c11-0be70aa04050",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.249Z",
+            "modified": "2026-09-03T19:46:53.641Z",
             "description": "Use network appliances to filter ingress or egress traffic and perform protocol-based filtering. Configure software on endpoints to filter network traffic.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

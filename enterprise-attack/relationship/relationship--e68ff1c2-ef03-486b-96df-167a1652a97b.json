@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a43387c-0ca3-4d54-b8bf-af95165c351b",
+    "id": "bundle--85b1358a-dc88-435e-93dc-b4b425efb285",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.239Z",
+            "modified": "2026-09-03T19:46:58.710Z",
             "description": "For C2 over HTTP, [Helminth](https://attack.mitre.org/software/S0170) encodes data with base64 and sends it via the \"Cookie\" field of HTTP requests. For C2 over DNS, [Helminth](https://attack.mitre.org/software/S0170) converts ASCII characters into their hexadecimal values and sends the data in cleartext.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",

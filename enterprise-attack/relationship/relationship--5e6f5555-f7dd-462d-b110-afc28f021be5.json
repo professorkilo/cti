@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59c95309-1c69-43ec-a342-80ef7b44936b",
+    "id": "bundle--fe9be9fa-dab0-4c4a-aa30-5c30bf5177ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.054Z",
+            "modified": "2026-09-03T19:47:01.784Z",
             "description": "[SombRAT](https://attack.mitre.org/software/S0615) has the ability to download and execute additional payloads.(Citation: BlackBerry CostaRicto November 2020)(Citation: FireEye FiveHands April 2021)(Citation: CISA AR21-126A FIVEHANDS May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--425771c5-48b4-4ecd-9f95-74ed3fc9da59",

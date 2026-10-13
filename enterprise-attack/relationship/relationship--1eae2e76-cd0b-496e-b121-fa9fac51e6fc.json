@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba334834-2e10-4d85-88e7-d93a424e4400",
+    "id": "bundle--a552ba07-e0b8-40ec-b287-ac959470b98f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.422Z",
+            "modified": "2026-09-02T17:31:48.770Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has dropped malware into the Windows Startup folder to establish persistence.(Citation: Aikido TeamPCP Telnyx MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

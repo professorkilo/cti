@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e253c770-419a-4699-8e79-7caa1fd65217",
+    "id": "bundle--5ccb10fd-3edc-4ea2-aeea-3769a62ff002",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.989Z",
+            "modified": "2026-09-03T19:46:55.286Z",
             "description": "[RARSTONE](https://attack.mitre.org/software/S0055) uses SSL to encrypt its communication with its C2 server.(Citation: Aquino RARSTONE)",
             "relationship_type": "uses",
             "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",

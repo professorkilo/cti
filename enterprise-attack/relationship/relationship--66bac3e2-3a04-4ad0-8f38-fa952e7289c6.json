@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfd12828-5bf6-46d3-822c-295940b75581",
+    "id": "bundle--8484ba9e-d0c4-4c4c-8273-ed95ee57d81c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.065Z",
+            "modified": "2026-09-03T19:46:49.675Z",
             "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) can use DNS tunneling for C2 communications.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dff90475-9f72-41a6-84ed-1fbefd3874c0",

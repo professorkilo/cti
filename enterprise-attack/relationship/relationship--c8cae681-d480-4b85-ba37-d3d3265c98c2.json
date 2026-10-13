@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1015fab-06a7-4f50-a2fa-046cfad8b753",
+    "id": "bundle--f252b93d-1379-42fc-b44b-a23c5bcdfa96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.975Z",
+            "modified": "2026-09-03T19:46:56.265Z",
             "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used the Iox and NPS proxy and tunneling tools in combination  create multiple connections through a single tunnel.(Citation: Sygnia Emperor Dragonfly October 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",

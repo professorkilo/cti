@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f446be2f-d655-46cc-b30c-4846426380c7",
+    "id": "bundle--ec2adf7c-6e15-4a2f-90ff-506c95c1fe30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-03T19:47:00.495Z",
             "description": "[Caterpillar WebShell](https://attack.mitre.org/software/S0572) can upload files over the C2 channel.(Citation: ClearSky Lebanese Cedar Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--751b77e6-af1f-483b-93fe-eddf17f92a64",

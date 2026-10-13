@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3360d392-371f-465b-bf3a-e9d603d2bca3",
+    "id": "bundle--1fe6e07c-1a11-47b6-95c6-df8ce8be27b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.225Z",
+            "modified": "2026-09-03T19:47:01.710Z",
             "description": "[CallMe](https://attack.mitre.org/software/S0077) exfiltrates data to its C2 server over the same protocol as C2 communications.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48a8c868-cc9b-463d-8903-8ec243e7e806",
+    "id": "bundle--c6175e3f-5664-440d-9608-a96bbbf78d66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.265Z",
+            "modified": "2026-09-02T20:07:48.055Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) can use AES-CBC to encrypt data sent to its C2 server.(Citation: MalwareBytes WoodyRAT Aug 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",

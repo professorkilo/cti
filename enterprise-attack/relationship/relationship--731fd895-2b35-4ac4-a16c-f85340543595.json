@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--710aa832-5089-4529-9b89-78c93abdc4e8",
+    "id": "bundle--c54cee75-f703-451a-8d9e-5da35f24bbac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.083Z",
+            "modified": "2026-09-03T19:46:56.862Z",
             "description": "[Qilin](https://attack.mitre.org/software/S1242) has used [PsExec](https://attack.mitre.org/software/S0029) to distribute a second encryptor, named encryptor_1.exe, across the targeted environment.(Citation: Cisco Talos Qilin Ransomware OCT 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e23d2777-b85d-44fc-861e-9149d399fbb9",

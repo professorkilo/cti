@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5760df6c-bb7f-4a78-9fce-3b6a4792f9c0",
+    "id": "bundle--5d153769-5af0-4769-aa77-8494208eca32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.791Z",
+            "modified": "2026-09-03T19:47:00.358Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has conducted C2 over HTTP and HTTPS.(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)(Citation: Lazarus APT January 2022)(Citation: Qualys LolZarus)(Citation: ESET Twitter Ida Pro Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

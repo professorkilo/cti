@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec4fc9d0-611f-4848-8da1-8de691ef88cc",
+    "id": "bundle--b7552308-2b00-446b-a486-13638a74695a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-07-31T20:48:45.103Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) regularly deploys both publicly available (ex: [Mimikatz](https://attack.mitre.org/software/S0002)) and custom password retrieval tools on victims.(Citation: ESET Sednit Part 2)(Citation: DOJ GRU Indictment Jul 2018)(Citation: US District Court Indictment GRU Oct 2018)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",

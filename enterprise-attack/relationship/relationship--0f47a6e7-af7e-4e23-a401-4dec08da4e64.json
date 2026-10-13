@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d125da7-c832-417b-9ce3-7850bac189e9",
+    "id": "bundle--f9a7f1bb-ec18-41b8-bb80-3d924cb859c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:56.947Z",
+            "modified": "2026-09-03T19:46:55.795Z",
             "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has used a delivered trojan to download additional files.(Citation: TrendMicro Tropic Trooper May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",

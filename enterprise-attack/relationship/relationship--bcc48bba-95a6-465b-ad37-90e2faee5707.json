@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb3d6e45-e11b-47a3-8f24-3be2bb3c3231",
+    "id": "bundle--99fe3c56-13ee-442a-a27e-91d5ebbb686e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.183Z",
+            "modified": "2026-09-02T20:07:47.547Z",
             "description": "[Epic](https://attack.mitre.org/software/S0091) encrypts commands from the C2 server using a hardcoded key.(Citation: Kaspersky Turla)",
             "relationship_type": "uses",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",

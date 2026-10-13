@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f212fa8-03cc-42e4-931b-5d21fd445909",
+    "id": "bundle--48b4f170-85b8-4437-a0c1-efa13c213391",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-03T19:47:00.858Z",
             "description": "[Milan](https://attack.mitre.org/software/S1015) can use HTTPS for communication with C2.(Citation: ClearSky Siamesekitten August 2021)(Citation: Kaspersky Lyceum October 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--aea6d6b8-d832-4c90-a1bb-f52c6684db6c",

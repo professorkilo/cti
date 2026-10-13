@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8b6a658c-a1fb-4be1-98ae-00468568c21c",
+    "id": "bundle--37ca7f4e-3e02-4d8e-8f02-545c815c66cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:25.606Z",
+            "modified": "2026-09-03T19:46:51.338Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used FTP to download additional malware to the target machine.(Citation: VirusBulletin Kimsuky October 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

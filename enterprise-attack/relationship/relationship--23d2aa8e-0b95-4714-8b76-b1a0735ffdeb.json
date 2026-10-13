@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6a74706-112a-4647-9fd4-5e1768eedff9",
+    "id": "bundle--157f2d38-e4e3-44b5-bec1-d83d71d949f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.954Z",
+            "modified": "2026-09-03T19:46:54.904Z",
             "description": "[SLOTHFULMEDIA](https://attack.mitre.org/software/S0533) has used HTTP and HTTPS for C2 communications.(Citation: CISA MAR SLOTHFULMEDIA October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--feb2d7bb-aacb-48df-ad04-ccf41a30cd90",

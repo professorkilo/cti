@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c731fdfa-65db-4e2f-8f7c-1ef7cde5814f",
+    "id": "bundle--4b19bc0c-a79c-4576-80e9-42ca5b9395cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-03T19:47:03.679Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has communicated via `curl` over HTTP to identify device IP data.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024) [PUBLOAD](https://attack.mitre.org/software/S1228) has also utilized HTTP for a command-and-control protocol through HTTP POST.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: Palo Alto Networks, Unit 42) [PUBLOAD](https://attack.mitre.org/software/S1228) has also leveraged HTTPS for C2.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

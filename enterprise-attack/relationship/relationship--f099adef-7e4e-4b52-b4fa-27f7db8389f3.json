@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28f5c1a0-2538-4026-9956-4eaaec89f683",
+    "id": "bundle--9ed867b2-c239-4e8c-baa2-04dd3f29658a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-03T19:47:05.923Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can download additional stages of malware from a Discord CDN channel.(Citation: Microsoft WhisperGate January 2022)(Citation: Unit 42 WhisperGate January 2022)(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",

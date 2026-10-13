@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e851f68-b44c-4673-ac8d-38c59a03be3d",
+    "id": "bundle--e9641f14-0111-475b-85f2-79739e3ea107",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Accenture MUDCARP March 2019",
                     "description": "Accenture iDefense Unit. (2019, March 5). Mudcarp's Focus on Submarine Technologies. Retrieved August 24, 2021.",
-                    "url": "https://www.accenture.com/us-en/blogs/cyber-defense/mudcarps-focus-on-submarine-technologies"
+                    "url": "https://web.archive.org/web/20210722005437/https://www.accenture.com/_acnmedia/PDF-96/Accenture-Security-MUDCARP.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-06-13T12:04:40.994Z",
             "description": "[BADFLICK](https://attack.mitre.org/software/S0642) has captured victim computer name, memory space, and CPU details.(Citation: Accenture MUDCARP March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--57d83eac-a2ea-42b0-a7b2-c80c55157790",

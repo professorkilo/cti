@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50de75ac-a8b0-4b0c-8cc7-3995c15cc944",
+    "id": "bundle--1e2fec0e-fc02-4f89-9d9c-3879e6ac5768",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.189Z",
+            "modified": "2026-09-03T19:46:58.088Z",
             "description": "[Ebury](https://attack.mitre.org/software/S0377) has encoded C2 traffic in hexadecimal format.(Citation: ESET Ebury Feb 2014)\t",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e796b09f-f537-4f35-bdd2-b409a42d3050",
+    "id": "bundle--f82de54e-0070-4cea-9e35-484b925d07f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-29T21:35:02.297Z",
+            "modified": "2026-09-02T19:42:04.476Z",
             "description": "[Mini Shai-Hulud](https://attack.mitre.org/software/S9043) has leveraged GitHub commit-search API to recover fallback C2 domains stored in auto-created public Github repositories.(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)(Citation: Flashpoint Mini Shai-Hulud MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--7f211b2e-c008-4cac-9ea8-29bd7edd50a4",

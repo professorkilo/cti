@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d165419-4ead-4a33-bc95-622da947434b",
+    "id": "bundle--82462821-8cfb-4c89-9431-b74d1b8073bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.113Z",
+            "modified": "2026-09-03T19:46:52.247Z",
             "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) can use an inverse negotiated SSH connection as part of its C2.(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--4816d361-f82b-4a18-aa05-b215e7cf9200",

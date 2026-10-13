@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dcd34cd1-6de3-46bb-8d4e-a54984664c0d",
+    "id": "bundle--98db28ff-8c4d-4a2b-ac5d-bad32eb16814",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.204Z",
+            "modified": "2026-09-03T19:46:55.213Z",
             "description": "[gh0st RAT](https://attack.mitre.org/software/S0032) has encrypted TCP communications to evade detection.(Citation: Gh0stRAT ATT March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",

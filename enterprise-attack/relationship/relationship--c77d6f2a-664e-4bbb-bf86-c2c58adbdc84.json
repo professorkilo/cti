@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e7a88a8-521b-4642-9356-ca1b88eece05",
+    "id": "bundle--8cb95028-9d54-48c5-8255-3e034bbe5f35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-03T19:47:05.108Z",
             "description": "[Octopus](https://attack.mitre.org/software/S0340) can download additional files and tools onto the victim\u2019s machine.(Citation: Securelist Octopus Oct 2018)(Citation: Security Affairs DustSquad Oct 2018)(Citation: ESET Nomadic Octopus 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",

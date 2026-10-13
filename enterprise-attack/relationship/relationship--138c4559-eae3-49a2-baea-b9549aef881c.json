@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--773e1677-7e64-458c-b60b-813c99608ae3",
+    "id": "bundle--fc5b5680-b29c-4b6c-8e57-f80b9c4b680d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-03T19:46:57.240Z",
             "description": "[Elise](https://attack.mitre.org/software/S0081) can download additional files from the C2 server for execution.(Citation: Accenture Dragonfish Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",

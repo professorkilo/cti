@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--faea75b5-092b-4116-8e03-0ac3a69e9666",
+    "id": "bundle--347b65f4-6fba-4c13-a358-c7a0fb1303c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-03T19:46:58.425Z",
             "description": "[RainyDay](https://attack.mitre.org/software/S0629) can use TCP in C2 communications.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--29231689-5837-4a7a-aafc-1b65b3f50cc7",

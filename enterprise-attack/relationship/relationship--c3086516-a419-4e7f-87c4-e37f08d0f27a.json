@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a90ee6f-a1ae-46cf-8a04-c6174a7da23a",
+    "id": "bundle--a80e326a-a9f8-4b43-8da1-1f1b3eb76a4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:47:03.378Z",
             "description": "[BackConfig](https://attack.mitre.org/software/S0475) has the ability to use HTTPS for C2 communiations.(Citation: Unit 42 BackConfig May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",

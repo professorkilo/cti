@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5277135-a956-4282-819a-f860450a3938",
+    "id": "bundle--f367e962-dbda-4be2-9291-2fad30c2f7c6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-03T19:46:56.629Z",
             "description": "[PowerShower](https://attack.mitre.org/software/S0441) has the ability to encode C2 communications with base64 encoding.(Citation: Unit 42 Inception November 2018)(Citation: Kaspersky Cloud Atlas August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--53486bc7-7748-4716-8190-e4f1fde04c53",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04876cf8-e7bb-4b10-8528-d166c0e1a4b1",
+    "id": "bundle--a6146e1c-6695-45d4-8fb8-060a767c2a0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:27.624Z",
+            "modified": "2026-09-03T19:46:58.338Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) uses remote shares to move and remotely execute payloads during lateral movemement.(Citation: Rostovcev APT41 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",

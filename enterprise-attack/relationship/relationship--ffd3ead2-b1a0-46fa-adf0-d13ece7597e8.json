@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c1048e3-5a7f-4968-8905-05959efb2f04",
+    "id": "bundle--9323a30e-3bb0-4857-83c5-75d347cb4d70",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.272Z",
+            "modified": "2026-09-03T19:47:04.653Z",
             "description": "[DarkTortilla](https://attack.mitre.org/software/S1066) has used HTTP and HTTPS for C2.(Citation: Secureworks DarkTortilla Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5faaf81a-aa5b-4a4b-bae5-522439e068f8",

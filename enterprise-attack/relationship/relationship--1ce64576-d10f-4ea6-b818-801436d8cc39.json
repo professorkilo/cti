@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--824266f4-f1dd-4f48-a822-5b2bd94165ef",
+    "id": "bundle--2d89c669-e302-4cef-8445-8beda3285e61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:58.633Z",
+            "modified": "2026-09-02T20:09:42.701Z",
             "description": "[ShinyHunters](https://attack.mitre.org/groups/G1057) has established a connection between the staging host and the C2 using SSH.(Citation: Google_SHOracle_Jun2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299",

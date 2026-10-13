@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da6d1a4a-0e37-430e-be72-0389f40eb53f",
+    "id": "bundle--3ecba054-c213-4690-bb78-8c5060778cc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-09T18:39:17.240Z",
             "description": "The C2 server used by [XTunnel](https://attack.mitre.org/software/S0117) provides a port number to the victim to use as a fallback in case the connection closes on the currently used port.(Citation: ESET Sednit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",

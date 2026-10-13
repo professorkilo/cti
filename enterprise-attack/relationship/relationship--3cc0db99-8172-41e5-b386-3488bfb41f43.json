@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ae51627-36ba-4a57-a940-5945a5eeb228",
+    "id": "bundle--5b3cbf83-0e6e-4b1e-acc1-26e04ecb3244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.007Z",
+            "modified": "2026-09-03T19:46:58.057Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has exfiltrated collected credentials to the C2 server.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",

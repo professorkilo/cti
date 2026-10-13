@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--737fec19-0a14-4712-a913-5a6dafd49902",
+    "id": "bundle--3bd8ec47-5f6c-440f-997c-139dca4ef266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.934Z",
+            "modified": "2026-09-03T19:46:54.638Z",
             "description": "A [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample encodes data with base64.(Citation: McAfee Lazarus Resurfaces Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

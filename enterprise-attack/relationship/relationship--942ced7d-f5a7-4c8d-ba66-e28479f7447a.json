@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--231e0bb4-6d9a-402d-a6ce-0bf6e44a33f7",
+    "id": "bundle--5f4bb9d6-3df4-4e55-97bd-553079fc7330",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.127Z",
+            "modified": "2026-09-03T19:46:49.649Z",
             "description": "[SharpDisco](https://attack.mitre.org/software/S1089) has the ability to transfer data between SMB shares.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1fefb062-feda-484a-8f10-0cebf65e20e3",

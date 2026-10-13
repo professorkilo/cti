@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d22d3c6-866e-4c2d-b0df-2cb29ba2a59e",
+    "id": "bundle--49877b10-ab59-4ad5-9ab4-836bd1ad3ab3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.169Z",
+            "modified": "2026-09-03T19:46:58.464Z",
             "description": "Properly configure firewalls and proxies to limit outgoing traffic to only necessary ports and through proper network gateway systems. Also ensure hosts are only provisioned to communicate over authorized interfaces.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--86598de0-b347-4928-9eb0-0acbfc21908c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7fd057a-a277-428c-b77b-9d4810d5477c",
+    "id": "bundle--7eade702-2e12-4924-bda0-9a9304736ada",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-02T20:07:47.280Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has used encryption and compression algorithms to obfuscate the traffic between the system and C2 server, methods observed included RC4, AES, XOR with 0x5a, and LZO. (Citation: Unit42 Bookworm Nov2015)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

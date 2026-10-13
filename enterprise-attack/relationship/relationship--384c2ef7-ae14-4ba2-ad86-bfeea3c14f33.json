@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5fa9fcf2-c82a-4985-85b6-d02dcaf2e52b",
+    "id": "bundle--9c27279a-b57a-49d3-85fb-79c00c80e023",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-08T20:28:08.262Z",
             "description": "[WarzoneRAT](https://attack.mitre.org/software/S0670) has the capability to act as a reverse proxy.(Citation: Check Point Warzone Feb 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",

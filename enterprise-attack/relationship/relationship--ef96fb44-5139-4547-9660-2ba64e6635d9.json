@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1acf8e9c-b968-43be-8173-89bd4fb6feb8",
+    "id": "bundle--3afe29fe-2a25-4bb4-b087-095c9eed054e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-03T19:47:05.885Z",
             "description": "[STEADYPULSE](https://attack.mitre.org/software/S1112) can add lines to a Perl script on a targeted server to import additional Perl modules.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--ca0fead6-5277-427a-825b-42ff1fbe476e",

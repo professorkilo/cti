@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--708bfbba-eb34-4a12-a722-70bebc55fd3b",
+    "id": "bundle--ba9574a5-e697-41ae-ae9e-3c72a7363729",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:31.090Z",
+            "modified": "2026-09-02T20:09:43.730Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) used the Plink command-line utility to create SSH tunnels to C2 servers.(Citation: FireEye FIN6 April 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d8cdb156-0779-4f66-955a-9f289aad7239",
+    "id": "bundle--242abf60-4d26-406f-90fa-81429a051474",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-03T19:47:03.831Z",
             "description": "After downloading its main config file, [Downdelph](https://attack.mitre.org/software/S0134) downloads multiple payloads from C2 servers.(Citation: ESET Sednit Part 3)",
             "relationship_type": "uses",
             "source_ref": "malware--08d20cd2-f084-45ee-8558-fa6ef5a18519",

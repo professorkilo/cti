@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2fc2409d-3b19-490c-af3c-13be53c2805e",
+    "id": "bundle--11bbc81b-3371-4042-a943-84db947e077f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.072Z",
+            "modified": "2026-09-03T19:47:02.272Z",
             "description": "[DanBot](https://attack.mitre.org/software/S1014) can download additional files to a targeted system.(Citation: SecureWorks August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f5078ab-eb26-4e40-a178-2b10871a3013",
+    "id": "bundle--2fc26c4d-5be0-4655-a493-bfcaf80271d3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-03T19:47:00.321Z",
             "description": "[SVCReady](https://attack.mitre.org/software/S1064) has the ability to download additional tools such as the RedLine Stealer to an infected host.(Citation: HP SVCReady Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7230ded7-3b1a-4d6e-9735-d0ffd47af9f6",

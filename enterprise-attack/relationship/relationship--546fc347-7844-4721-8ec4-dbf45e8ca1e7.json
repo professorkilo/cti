@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63d64580-a5fc-44c7-8d6b-7f99f17b11cf",
+    "id": "bundle--d40a2bff-7501-46f8-a21b-03b3894aa4d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.040Z",
+            "modified": "2026-09-03T19:46:58.984Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) has exfiltrated data to the designated C2 server using HTTP POST requests.(Citation: Accenture SNAKEMACKEREL Nov 2018)(Citation: CISA Zebrocy Oct 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

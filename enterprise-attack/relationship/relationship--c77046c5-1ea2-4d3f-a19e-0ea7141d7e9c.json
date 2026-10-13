@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d7e0079-9952-4ad6-8a30-6a6d8add22d5",
+    "id": "bundle--b3ff9379-2271-4edd-9508-957d0160fd0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-03T19:46:55.020Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) can support encrypted communications between the client and server.(Citation: Threatpost Lizar May 2021)(Citation: BiZone Lizar May 2021)(Citation: Cocomazzi FIN7 Reboot)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

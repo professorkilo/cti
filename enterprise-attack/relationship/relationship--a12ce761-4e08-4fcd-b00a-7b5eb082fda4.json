@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e057e711-ceb8-40ec-8b1a-dd3d353cadd6",
+    "id": "bundle--ac7ae666-db22-41d9-bdac-1132ea7eac3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.144Z",
+            "modified": "2026-09-03T19:47:00.478Z",
             "description": "[Drovorub](https://attack.mitre.org/software/S0502) can exfiltrate files over C2 infrastructure.(Citation: NSA/FBI Drovorub August 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",

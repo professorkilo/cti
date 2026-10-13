@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b923434-f9be-43fd-a0e4-052ee8f92753",
+    "id": "bundle--e42fc8f5-914f-4bac-bc5c-9cf666fb562f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-03T19:46:49.851Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) can encode C2 data with a custom technique that utilizes Base64.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",

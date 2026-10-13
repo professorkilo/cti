@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d737f5c0-28ba-4b8f-b9a6-260943999b33",
+    "id": "bundle--7a7b78be-92d3-41b5-a95b-4913cf76f46d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-03T19:46:58.699Z",
             "description": "[SVCReady](https://attack.mitre.org/software/S1064) can send collected data in JSON format to its C2 server.(Citation: HP SVCReady Jun 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--7230ded7-3b1a-4d6e-9735-d0ffd47af9f6",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--992a1072-90c3-4e10-8a8a-fb54cc773e25",
+    "id": "bundle--55217ecb-add3-4608-9bc4-febc1d0111eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-02T20:07:47.796Z",
             "description": "The [IceApple](https://attack.mitre.org/software/S1022) Result Retriever module can AES encrypt C2 responses.(Citation: CrowdStrike IceApple May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd889a55-fb2c-4ec7-8e9f-c399939a49e1",

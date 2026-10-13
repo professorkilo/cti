@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d93d48a-9925-4fce-a35e-caa98df6b1f9",
+    "id": "bundle--f6e58691-d23c-43a5-896f-85fb2689057c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.937Z",
+            "modified": "2026-09-02T20:07:45.488Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) variants reported on in 2014 and 2015 used a simple XOR cipher for C2. Some [Bisonal](https://attack.mitre.org/software/S0268) samples encrypt C2 communications with RC4.(Citation: Unit 42 Bisonal July 2018)(Citation: Kaspersky CactusPete Aug 2020)(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",

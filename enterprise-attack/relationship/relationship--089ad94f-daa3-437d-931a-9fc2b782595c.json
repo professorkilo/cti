@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f850fa7-ca1b-444a-8de2-59b09aec8dfa",
+    "id": "bundle--ce2cc5c3-ccbf-4568-9a86-01bb9bc4f902",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.915Z",
+            "modified": "2026-09-02T20:07:43.542Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has used DES to encrypt all C2 communications.(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",

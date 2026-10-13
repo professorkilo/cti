@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac473e36-cf3f-424a-a3b4-ce5df73eabc9",
+    "id": "bundle--d848f000-5e4d-4c02-81a8-4644af849c19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-03T19:46:56.787Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) can download additional payloads.(Citation: Cyberreason Anchor December 2019)(Citation: Medium Anchor DNS July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",

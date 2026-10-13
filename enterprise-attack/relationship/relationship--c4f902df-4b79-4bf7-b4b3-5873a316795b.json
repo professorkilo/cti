@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--656cff3f-8232-4513-88f1-55e272a79d31",
+    "id": "bundle--bd2b9cb9-aec7-4730-b7bb-0a92276e7dd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:28.638Z",
+            "modified": "2026-09-09T18:44:33.892Z",
             "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has accessed email accounts using Outlook Web Access.(Citation: US-CERT TA18-074A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",

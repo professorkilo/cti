@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--289a7fb8-1792-4449-bf18-88c3ecd58ae7",
+    "id": "bundle--fe203e05-1a9a-470a-9a11-4c733a45d970",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.636Z",
+            "modified": "2026-09-03T19:46:51.308Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used DNS for C2 including the publicly available <code>requestbin.net</code> tunneling service.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

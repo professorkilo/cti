@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5c91fa7-97cb-426e-8156-bd34275aa29f",
+    "id": "bundle--d988504b-8b58-403b-ab2f-9680a7dd5c60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.261Z",
+            "modified": "2026-09-03T19:47:06.057Z",
             "description": "[Lokibot](https://attack.mitre.org/software/S0447) downloaded several staged items onto the victim's machine.(Citation: Talos Lokibot Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",

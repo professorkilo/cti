@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22c49453-e0e8-4ddb-bdb1-c63960de1750",
+    "id": "bundle--3a7f25b3-a120-4f5c-b277-738b16231350",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.090Z",
+            "modified": "2026-09-02T20:07:46.983Z",
             "description": "[XCSSET](https://attack.mitre.org/software/S0658) uses RC4 encryption over TCP to communicate with its C2 server.(Citation: trendmicro xcsset xcode project 2020)  ",
             "relationship_type": "uses",
             "source_ref": "malware--e14085cb-0e8d-4be6-92ba-e3b93ee5978f",

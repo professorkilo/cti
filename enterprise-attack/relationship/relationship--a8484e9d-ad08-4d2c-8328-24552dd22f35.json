@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ae7e383-405f-4e34-a2f8-9017bc261973",
+    "id": "bundle--ba3945c0-f610-4402-bf03-368c49279e41",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-03T19:47:04.174Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has the ability to download additional modules and a configuration file from C2.(Citation: IBM IcedID November 2017)(Citation: Juniper IcedID June 2020)(Citation: DFIR_Quantum_Ransomware)(Citation: Latrodectus APR 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",

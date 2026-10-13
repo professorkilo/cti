@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--143a4c9d-356f-4871-a0d7-185468a9f07c",
+    "id": "bundle--99039a88-3c1f-4dd4-b8ed-f8cfc447d06c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.124Z",
+            "modified": "2026-09-02T20:07:47.270Z",
             "description": "[Downdelph](https://attack.mitre.org/software/S0134) uses RC4 to encrypt C2 responses.(Citation: ESET Sednit Part 3)",
             "relationship_type": "uses",
             "source_ref": "malware--08d20cd2-f084-45ee-8558-fa6ef5a18519",

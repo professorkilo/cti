@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6473f720-b509-4acc-a6dc-37e1cfe91370",
+    "id": "bundle--52353b53-d1fd-4b1f-aa7b-ab71023cfd1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:47:01.845Z",
             "description": "[Line Runner](https://attack.mitre.org/software/S1188) utilizes an HTTP-based Lua backdoor on victim machines.(Citation: Cisco ArcaneDoor 2024)(Citation: CCCS ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5f8c69a5-7acd-4a36-a929-de558d9c8223",

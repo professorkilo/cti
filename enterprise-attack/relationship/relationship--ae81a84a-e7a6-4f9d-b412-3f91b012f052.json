@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7982a9b-4d0a-4f57-98a1-8449b4b92d8e",
+    "id": "bundle--a44dafbd-a780-4313-aa61-2fa4f40f9821",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.163Z",
+            "modified": "2026-09-03T19:47:00.906Z",
             "description": "[SideTwist](https://attack.mitre.org/software/S0610) has exfiltrated data over its C2 channel.(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",

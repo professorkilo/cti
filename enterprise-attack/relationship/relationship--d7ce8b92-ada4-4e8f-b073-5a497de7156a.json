@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4ba56f3-044d-4bb0-ae32-6321f1e408e0",
+    "id": "bundle--7732afe8-b34a-4a9a-b230-97da5af54dcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-03T19:47:01.617Z",
             "description": "[Spark](https://attack.mitre.org/software/S0543) has exfiltrated data over the C2 channel.(Citation: Unit42 Molerat Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--03ea629c-517a-41e3-94f8-c7e5368cf8f4",

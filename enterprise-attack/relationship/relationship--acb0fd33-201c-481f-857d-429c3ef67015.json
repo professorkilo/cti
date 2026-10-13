@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70f4dd4e-fdd2-4086-93e6-5657b4ce7599",
+    "id": "bundle--e33dc008-2aa3-4b81-b4c7-3074c57952e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:41.508Z",
+            "modified": "2026-09-02T18:26:03.159Z",
             "description": "[Chimera](https://attack.mitre.org/groups/G0114) has collected data of interest from network shares.(Citation: NCC Group Chimera January 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",

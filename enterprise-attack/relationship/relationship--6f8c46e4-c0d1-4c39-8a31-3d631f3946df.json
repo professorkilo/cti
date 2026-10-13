@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07f170f6-aae7-4ff8-b26d-c4827f9e035e",
+    "id": "bundle--b9630752-c94e-4588-b684-899da42c4e48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:19.718Z",
+            "modified": "2026-09-03T19:46:50.583Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries had communicated to both Dropbox and Pastebin.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5dcd54d3-6a9a-49cc-b201-cf017ae7a755",
+    "id": "bundle--d9f69b20-172b-43b9-9367-ad8082c7ef7d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-02T20:07:47.051Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) C2 traffic is encrypted using bitwise NOT and XOR operations.(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f057271-9b38-4813-b3ec-8d0670ab6601",
+    "id": "bundle--82cb0b1e-9169-4875-92e7-defe6a869be2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-03T19:46:58.886Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) can use HTTP/S listeners to establish and maintain C2 communications. (Citation: Havoc Framework Documentation)(Citation: Zscaler Havoc FEB 2023)(Citation: Fortinet Havoc MAR 2025)(Citation: Immersive Labs Havoc C2 APR 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",

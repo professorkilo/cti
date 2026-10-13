@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab99041a-5f0e-4b81-8395-6a38d363b528",
+    "id": "bundle--640df362-6e0f-4e66-b873-c63d21a0a726",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.193Z",
+            "modified": "2026-09-02T20:07:47.623Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can use RC4 encryption in C2 communications.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Proofpoint TA416 Europe March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3c77d50-9608-4200-939f-34a241c9885e",
+    "id": "bundle--9294fc97-7228-4a8e-8e43-567af5a00892",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:58.673Z",
+            "modified": "2026-09-03T19:46:59.944Z",
             "description": "[ShinyHunters](https://attack.mitre.org/groups/G1057) has deployed custom scripts to targeted systems from customized MeshAgents in their staging environment.(Citation: Google_SHOracle_Jun2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--5e30362d-935b-4b1c-8bf2-96c7b7b7e299",

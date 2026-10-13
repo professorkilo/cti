@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9b9adb5-516c-4a67-97ae-adc966335f94",
+    "id": "bundle--e44599ef-45b6-4c98-9c0e-c6cd1d54e3ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.135Z",
+            "modified": "2026-09-09T18:44:33.844Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) can collect sensitive mailing information from Exchange servers, including credentials and the domain certificate of an enterprise.(Citation: Cybereason Valak May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",

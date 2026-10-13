@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a43d925-22ae-4878-9c0c-d5423fedc4b7",
+    "id": "bundle--18530477-9e50-43af-88ff-abbe2a598da8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.978Z",
+            "modified": "2026-09-03T19:46:57.286Z",
             "description": "[Carberp](https://attack.mitre.org/software/S0484) has exfiltrated data via HTTP to already established C2 servers.(Citation: Prevx Carberp March 2011)(Citation: Trusteer Carberp October 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--bbcd7a02-ef24-4171-ac94-a93540173b94",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efddb688-c648-4599-a2a5-ad235de11c1a",
+    "id": "bundle--62cef2b8-91a2-4099-a39a-9323ae845b72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:18.859Z",
+            "modified": "2026-09-03T19:46:58.398Z",
             "description": "[APT-C-36](https://attack.mitre.org/groups/G0099) has used port 4050 for C2 communications.(Citation: QiAnXin APT-C-36 Feb2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c4d50cdf-87ce-407d-86d8-862883485842",

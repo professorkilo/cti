@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--502891ed-ca4b-493d-88ba-8cb0068c602d",
+    "id": "bundle--a9d97fef-f13b-4f23-ab06-eb05a23bdaa3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.595Z",
+            "modified": "2026-09-08T20:29:09.573Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has used multiple proxies to obfuscate network traffic from victims.(Citation: US-CERT FALLCHILL Nov 2017)(Citation: TrendMicro macOS Dacls May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

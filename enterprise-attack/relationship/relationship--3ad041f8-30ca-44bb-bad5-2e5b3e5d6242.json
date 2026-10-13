@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ac059af-6c53-4f58-8b21-0176c791c749",
+    "id": "bundle--f0c9189e-768f-4e6d-8832-9ebd37cd6b87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.002Z",
+            "modified": "2026-09-03T14:50:23.854Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can compress and encrypt archived files into multiple .sft files with a repeated xor encryption scheme.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

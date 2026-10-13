@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd3eebfb-d3ad-4867-b441-7a563d49ad9e",
+    "id": "bundle--5111f0c9-70a2-4659-bc74-5d24fde2f6a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.206Z",
+            "modified": "2026-09-03T19:46:58.109Z",
             "description": "[OutSteel](https://attack.mitre.org/software/S1017) can download the [Saint Bot](https://attack.mitre.org/software/S1018) malware for follow-on execution.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
             "relationship_type": "uses",
             "source_ref": "malware--c113230f-f044-423b-af63-9b63c802f5ae",

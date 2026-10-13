@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2164af52-3af7-4632-9e00-7662d3b43dc0",
+    "id": "bundle--543b8e01-ad98-42dc-a733-4ffbe8a00f81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-03T19:47:02.126Z",
             "description": "[DRATzarus](https://attack.mitre.org/software/S0694) can deploy additional tools onto an infected machine.(Citation: ClearSky Lazarus Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--56aa3c82-ed40-4b5a-84bf-7231356d9e96",

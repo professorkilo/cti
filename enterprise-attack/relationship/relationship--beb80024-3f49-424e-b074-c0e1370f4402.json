@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91d95482-ce21-4dcf-a13a-459868708973",
+    "id": "bundle--3d32e311-a228-4021-8b37-65962cefb252",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-03T19:46:50.569Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) can use an SMB listener for C2 communication.(Citation: Havoc Framework Documentation)(Citation: Zscaler Havoc FEB 2023)(Citation: Immersive Labs Havoc C2 APR 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",

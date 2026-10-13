@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75b7022d-a17d-45c9-a536-76e48cb23544",
+    "id": "bundle--863ff50b-66f3-4e67-b66c-2cefd60fb3a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.130Z",
+            "modified": "2026-09-03T19:46:56.389Z",
             "description": "[Ixeshe](https://attack.mitre.org/software/S0015) uses custom Base64 encoding schemes to obfuscate command and control traffic in the message body of HTTP requests.(Citation: Moran 2013)(Citation: Trend Micro IXESHE 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--8beac7c2-48d2-4cd9-9b15-6c452f38ac06",

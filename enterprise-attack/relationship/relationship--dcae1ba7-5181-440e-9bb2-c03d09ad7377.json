@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9bd4b39-b078-48cb-be1d-0b23bb9aa12b",
+    "id": "bundle--0e90a917-42ed-4016-a038-ca7b9d3caa32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.226Z",
+            "modified": "2026-09-03T19:47:03.961Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) can respond to specific HTTP `POST` requests to `/api/v1/cav/client/visits`.(Citation: Mandiant Cutting Edge January 2024)(Citation: Volexity Ivanti Zero-Day Exploitation January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",

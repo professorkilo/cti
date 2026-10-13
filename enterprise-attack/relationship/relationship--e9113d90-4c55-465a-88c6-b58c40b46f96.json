@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cba8d975-c18c-4144-bb2d-e0804f6448f2",
+    "id": "bundle--61c1c7f9-11bb-45cc-9c79-63f4c3f9dd2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-03T19:46:53.638Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) can use DNS in C2 communications.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82b35b7f-f04b-490b-8264-6b5d6e54a25b",
+    "id": "bundle--3d267d24-cc63-4d8f-b4ef-37e3950d72fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-03T19:46:57.584Z",
             "description": "[Taidoor](https://attack.mitre.org/software/S0011) has used HTTP GET and POST requests for C2.(Citation: TrendMicro Taidoor)",
             "relationship_type": "uses",
             "source_ref": "malware--b143dfa4-e944-43ff-8429-bfffc308c517",

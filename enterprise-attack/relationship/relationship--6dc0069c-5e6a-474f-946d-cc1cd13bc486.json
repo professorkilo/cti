@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d58069a-5a8d-4476-807d-962fe72fafe3",
+    "id": "bundle--978c1a64-b1e3-4b17-8852-f6fa613aeb7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.637Z",
+            "modified": "2026-09-03T19:46:59.353Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor has exfiltrated data using the already opened channel with its C&C server.(Citation: ESET OceanLotus Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",

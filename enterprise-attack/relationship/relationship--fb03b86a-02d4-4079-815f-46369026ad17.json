@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d1e0b15-ee5d-4796-af10-c080c0320739",
+    "id": "bundle--0228d866-de19-4165-b475-07b18c567e40",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:19.002Z",
+            "modified": "2026-09-03T19:47:06.108Z",
             "description": "[Tonto Team](https://attack.mitre.org/groups/G0131) has downloaded malicious DLLs which served as a [ShadowPad](https://attack.mitre.org/software/S0596) loader.(Citation: ESET Exchange Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c5b81590-6814-4d2a-8baa-15c4b6c7f960",

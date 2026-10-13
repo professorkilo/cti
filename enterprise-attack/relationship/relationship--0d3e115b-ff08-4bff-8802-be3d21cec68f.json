@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cf0d4b7-17e7-4e85-b930-9fa96b108575",
+    "id": "bundle--4aa0f2eb-9ac8-4843-93bc-0ee9a73c05e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.921Z",
+            "modified": "2026-09-02T20:07:44.396Z",
             "description": "[Prikormka](https://attack.mitre.org/software/S0113) encrypts some C2 traffic with the Blowfish cipher.(Citation: ESET Operation Groundbait)",
             "relationship_type": "uses",
             "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",

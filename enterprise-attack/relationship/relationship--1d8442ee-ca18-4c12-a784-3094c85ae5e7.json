@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9b8ea63-3c4e-476d-80fd-13f7f50e65c3",
+    "id": "bundle--61193df3-2cf0-440b-bb27-1fdbfecd7d21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.945Z",
+            "modified": "2026-09-03T19:46:53.137Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has obtained the WebSocket C2 address by making remote procedure call (RPC) APIs to Ethereum blockchain nodes.(Citation: SecureListUbiedo_Tsundere_Nov2025)(Citation: CAL_MuddyWater_Mar2026)  ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

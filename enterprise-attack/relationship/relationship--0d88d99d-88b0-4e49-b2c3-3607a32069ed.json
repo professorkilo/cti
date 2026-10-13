@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--860ab474-1d60-4885-a578-78ced96b7f8b",
+    "id": "bundle--062dbfa3-4395-489d-a0a4-b3746ca02048",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.922Z",
+            "modified": "2026-09-03T19:46:54.706Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has dropped payload and configuration files to disk. [Ursnif](https://attack.mitre.org/software/S0386) has also been used to download and execute additional payloads.(Citation: TrendMicro PE_URSNIF.A2)(Citation: TrendMicro BKDR_URSNIF.SM)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",

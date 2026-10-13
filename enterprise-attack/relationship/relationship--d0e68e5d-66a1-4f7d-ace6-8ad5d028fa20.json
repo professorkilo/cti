@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45faa330-3529-43f7-9009-6fcc969a4dbd",
+    "id": "bundle--88205a90-56f1-487a-b511-069154d5ef4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:50.045Z",
+            "modified": "2026-09-03T19:46:53.328Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has used an IRC bot for C2 communications.(Citation: Trend Micro TeamTNT)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",

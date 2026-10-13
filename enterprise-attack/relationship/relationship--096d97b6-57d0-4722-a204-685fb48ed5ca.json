@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb332650-693c-41e6-8ab9-f33b5cc14ff7",
+    "id": "bundle--1a5fbe49-226e-47f6-9c2b-76baf528696c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.916Z",
+            "modified": "2026-09-08T20:28:07.928Z",
             "description": "[ZIPLINE](https://attack.mitre.org/software/S1114) can create a proxy server on compromised hosts.(Citation: Mandiant Cutting Edge January 2024)(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d9765cbd-4c88-4805-ba98-4c6ccb56b864",

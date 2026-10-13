@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b4e1d21-356d-41b8-93df-12da607670a4",
+    "id": "bundle--2e1f203c-8002-42c2-a3c1-006d808b79ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-02T18:23:57.166Z",
             "description": "[ObliqueRAT](https://attack.mitre.org/software/S0644) can break large files of interest into smaller chunks to prepare them for exfiltration.(Citation: Talos Oblique RAT March 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5864e59f-eb4c-43ad-83b2-b5e4fae056c9",

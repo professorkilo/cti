@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40dd5773-1d8e-404a-9f9f-a249434df8d1",
+    "id": "bundle--22922d14-db50-433f-b5f2-b0cae49ef1dc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.003Z",
+            "modified": "2026-09-03T19:46:58.559Z",
             "description": "[Sakula](https://attack.mitre.org/software/S0074) uses HTTP for C2.(Citation: Dell Sakula)",
             "relationship_type": "uses",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",

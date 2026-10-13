@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdba2810-356a-453a-aa3b-ee34d51c272f",
+    "id": "bundle--d14da1f2-6c89-4bd7-b4a8-b715828f4616",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.091Z",
+            "modified": "2026-09-02T20:07:46.993Z",
             "description": "[Samurai](https://attack.mitre.org/software/S1099) can encrypt C2 communications with AES.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",

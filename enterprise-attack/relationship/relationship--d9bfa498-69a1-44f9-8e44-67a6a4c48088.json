@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c45eba2d-e3a8-4ef7-86ba-64e29a74aa32",
+    "id": "bundle--9539cc34-c7e5-4f26-8ebb-3ce23fef88a1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-02T20:09:43.705Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) uses [Tor](https://attack.mitre.org/software/S0183) for command and control traffic and routes a custom cryptographic protocol over the [Tor](https://attack.mitre.org/software/S0183) circuit.(Citation: SecureWorks WannaCry Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",

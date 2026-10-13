@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc28e196-ceee-44d5-8ec6-43676eb34516",
+    "id": "bundle--60458a2a-eee3-4073-a0b3-8bab83d89839",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-03T19:46:58.899Z",
             "description": "[Umbreon](https://attack.mitre.org/software/S0221) provides access to the system via SSH or any other protocol that uses PAM to authenticate.(Citation: Umbreon Trend Micro)",
             "relationship_type": "uses",
             "source_ref": "malware--3d8e547d-9456-4f32-a895-dc86134e282f",

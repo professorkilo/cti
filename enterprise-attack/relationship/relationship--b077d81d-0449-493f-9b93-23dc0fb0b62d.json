@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb75576d-38a1-41cf-94cc-64ec9f70ee48",
+    "id": "bundle--62066e25-81b6-4c3d-8375-4421083e8fc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:32.125Z",
+            "modified": "2026-09-03T19:47:04.513Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has downloaded additional malware to execute on the victim's machine, including by using a PowerShell script to launch shellcode that retrieves an additional payload.(Citation: FireEye FIN7 April 2017)(Citation: DOJ FIN7 Aug 2018)(Citation: Mandiant FIN7 Apr 2022)(Citation: Gemini_FIN7_Jan2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",

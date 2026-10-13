@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1577c9c8-7574-4484-bca5-39bb9e6b5f0e",
+    "id": "bundle--f3252248-a68e-46e4-a31c-7f0c98b476af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-03T19:46:58.265Z",
             "description": " [PingPull](https://attack.mitre.org/software/S1031) variants have the ability to communicate with C2 servers using ICMP or TCP.(Citation: Unit 42 PingPull Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3a0f6128-0a01-421d-8eca-e57d8671b1f1",

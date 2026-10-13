@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2e0ed2a-0aaf-4a17-8071-2b5684340f3a",
+    "id": "bundle--5e96228c-ca24-456b-86f5-236e980065ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-09-03T19:46:50.435Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can support C2 communications over DNS.(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Bishop Fox Sliver Framework August 2019)(Citation: GitHub Sliver C2 DNS)(Citation: Cybereason Sliver Undated)(Citation: Microsoft Sliver 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

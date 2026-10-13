@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7036da03-ed29-4465-b44b-e611ce9dcdd4",
+    "id": "bundle--e9bd59f4-176e-4e61-b056-2ec552b704e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-03T19:46:48.587Z",
             "description": "The [Regin](https://attack.mitre.org/software/S0019) malware platform supports many standard protocols, including SMB.(Citation: Kaspersky Regin)",
             "relationship_type": "uses",
             "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",

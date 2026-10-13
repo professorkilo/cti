@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--538cbae3-dc6d-4574-bbba-c519a818a170",
+    "id": "bundle--171fdd0a-8e1a-4268-9c84-b2af4555864f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.136Z",
+            "modified": "2026-09-03T19:47:03.773Z",
             "description": "[CoinTicker](https://attack.mitre.org/software/S0369) executes a Python script to download its second stage.(Citation: CoinTicker 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d1531eaa-9e17-473e-a680-3298469662c3",

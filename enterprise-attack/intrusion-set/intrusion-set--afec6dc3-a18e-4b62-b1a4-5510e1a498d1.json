@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0f9a1cf-34c9-430a-9b89-e0fb8926620d",
+    "id": "bundle--f2258bfa-7085-40b3-8f70-17b434feeb26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -38,7 +38,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.267Z",
+            "modified": "2026-09-02T18:52:46.473Z",
             "name": "Windshift",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) is a threat group that has been active since at least 2017, targeting specific individuals for surveillance in government departments and critical infrastructure across the Middle East.(Citation: SANS Windshift August 2018)(Citation: objective-see windtail1 dec 2018)(Citation: objective-see windtail2 jan 2019)",
             "aliases": [

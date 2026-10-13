@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5f57d7c-8617-44a9-9bd3-778b9fe47832",
+    "id": "bundle--4cac7775-9d90-4b24-bc98-4c36cf8f9449",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:42.634Z",
+            "modified": "2026-09-03T19:47:01.807Z",
             "description": "[Gorgon Group](https://attack.mitre.org/groups/G0078) malware can download additional files from C2 servers.(Citation: Unit 42 Gorgon Group Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1f21da59-6a13-455b-afd0-d58d0a5a7d27",

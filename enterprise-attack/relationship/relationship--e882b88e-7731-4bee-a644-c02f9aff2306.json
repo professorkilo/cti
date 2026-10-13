@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--773cecbe-e610-474f-8738-e8c1054a7e5e",
+    "id": "bundle--8c5c6037-3f50-43fb-998f-7b4c778f2b87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-03T19:47:04.263Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) uses HTTPS to communicate with its C2 servers, to get malware updates, modules that perform most of the malware logic and various configuration files.(Citation: S2 Grupo TrickBot June 2017)(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

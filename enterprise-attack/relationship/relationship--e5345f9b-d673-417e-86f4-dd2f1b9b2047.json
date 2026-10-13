@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6306c5f-b11b-45b2-977a-fb571245ddf3",
+    "id": "bundle--45f3fc45-0512-4136-9872-7db19acea06f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-03T19:46:56.892Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can hide its IP lookup by using DNS over HTTPS (DoH) for C2.(Citation: Trend Micro Earth Kasha Updates APR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

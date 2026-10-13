@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42cf92b6-ed97-4fc2-881a-cac53a15a039",
+    "id": "bundle--911d957a-d1a1-45cc-b5d4-bb9e04e3e06a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.140Z",
+            "modified": "2026-09-03T19:46:56.801Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) has used a custom base64 key to encode stolen data before exfiltration.(Citation: Medium KONNI Jan 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",

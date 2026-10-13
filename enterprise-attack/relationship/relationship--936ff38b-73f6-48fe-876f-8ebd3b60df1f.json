@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e696d67-6061-4b6b-8431-664f2893925b",
+    "id": "bundle--50fa6213-9a47-4530-b944-cee36e183c1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-09-03T19:46:51.418Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) has used DNS tunneling for C2 communications.(Citation: Kaspersky ShadowPad Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",

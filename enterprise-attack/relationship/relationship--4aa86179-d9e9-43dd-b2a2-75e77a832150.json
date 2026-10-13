@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e489294-09f9-4dcb-bb00-fe10c2d9a69b",
+    "id": "bundle--b278acd9-93d5-4e7c-997d-dd201ba84d53",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:27.024Z",
+            "modified": "2026-09-03T19:46:59.399Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) used HTTP to download payloads for CVE-2019-19781 and CVE-2020-10189 exploits.(Citation: FireEye APT41 March 2020) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",

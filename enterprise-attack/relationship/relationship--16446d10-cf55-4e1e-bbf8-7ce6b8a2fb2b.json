@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2efd6adb-98e8-4227-9806-351fd36a34be",
+    "id": "bundle--03d0d754-ed8a-4398-82ef-4cfcd89f2a20",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.934Z",
+            "modified": "2026-09-03T19:46:57.574Z",
             "description": "[QuietSieve](https://attack.mitre.org/software/S0686) can download and execute payloads on a target host.(Citation: Microsoft Actinium February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--03eb4a05-6a02-43f6-afb7-3c7835501828",

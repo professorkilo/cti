@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82894d37-5046-41ff-97f1-38552de8640d",
+    "id": "bundle--8ba683d8-f501-4553-8a42-b0df9ae139a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.161Z",
+            "modified": "2026-09-03T19:47:04.376Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can upload and download files to and from the victim\u2019s machine.(Citation: Riskiq Remcos Jan 2018)(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

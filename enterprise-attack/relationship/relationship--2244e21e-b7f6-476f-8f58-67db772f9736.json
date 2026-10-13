@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ee49c11-139a-4a8c-8ee8-f9782f1f2bc6",
+    "id": "bundle--ae996748-4c69-4516-9a58-73b61c43b91a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-03T19:46:48.417Z",
             "description": "The [CALENDAR](https://attack.mitre.org/software/S0025) malware communicates through the use of events in Google Calendar.(Citation: Mandiant APT1)(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--5a84dc36-df0d-4053-9b7c-f0c388a57283",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd8df886-af99-43d3-b5cb-16dd816d0fbd",
+    "id": "bundle--3b10176e-bfe5-42f3-bf42-8988864e9d43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-08T20:29:10.464Z",
             "description": "[Regin](https://attack.mitre.org/software/S0019) leveraged several compromised universities as proxies to obscure its origin.(Citation: Kaspersky Regin)",
             "relationship_type": "uses",
             "source_ref": "malware--4c59cce8-cb48-4141-b9f1-f646edfaadb0",

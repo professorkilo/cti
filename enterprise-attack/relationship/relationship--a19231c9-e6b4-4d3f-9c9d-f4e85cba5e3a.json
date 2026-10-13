@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--460b2a33-214b-4bc6-9fce-b24556f7c7ed",
+    "id": "bundle--8a8658fb-0a44-491b-88f3-a266a6b3d7a8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-03T19:47:04.031Z",
             "description": "[Lizar](https://attack.mitre.org/software/S0681) can download additional plugins, files, and tools.(Citation: BiZone Lizar May 2021)(Citation: SekoiaBourhis_DiceLoader_Feb2024)(Citation: Cocomazzi FIN7 Reboot)",
             "relationship_type": "uses",
             "source_ref": "malware--f74a5069-015d-4404-83ad-5ca01056c0dc",

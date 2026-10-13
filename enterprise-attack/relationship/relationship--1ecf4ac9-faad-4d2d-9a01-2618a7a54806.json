@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e619aea-ae86-4abc-89d7-e28accaf983e",
+    "id": "bundle--69be5204-3201-4293-a350-da9e21618cad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.011Z",
+            "modified": "2026-09-03T19:46:54.504Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) has deployed tools after moving laterally using administrative accounts.(Citation: Cybereason Cobalt Kitty 2017)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d67b12c6-b467-4da9-b506-eabb02f6494d",
+    "id": "bundle--6e89e44b-1ac2-4553-902e-4cf327e24889",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.983Z",
+            "modified": "2026-09-03T19:46:57.393Z",
             "description": "[FRAMESTING](https://attack.mitre.org/software/S1120) can retrieve C2 commands from values stored in the `DSID` cookie from the current HTTP request or from decompressed zlib data within the request's `POST` data.(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--bcaae558-9697-47a2-9ec7-c75000ddf58c",

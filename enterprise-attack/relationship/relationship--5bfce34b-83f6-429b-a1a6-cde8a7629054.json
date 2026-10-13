@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4894d04a-306c-42c3-a68c-0d78fcd1ecfa",
+    "id": "bundle--170f57ed-533d-4704-8f83-43b8f9d3fc62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:19.686Z",
+            "modified": "2026-09-03T19:46:56.239Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries had placed the malicious payload on an accessible network share to facilitate propagation.(Citation: CERT Polska)(Citation: ESET DynoWiper JAN 2026)(Citation: ESET DynoWiper Update JAN 2026)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

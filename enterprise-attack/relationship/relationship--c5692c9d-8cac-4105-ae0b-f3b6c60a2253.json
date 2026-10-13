@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--577c125a-bb3e-49d3-9c88-829a6a604681",
+    "id": "bundle--f615614b-f16f-42ed-96f8-3c877ce07e13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-03T19:46:58.090Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has used random, high-number, non-standard ports to listen for subsequent actions and C2 activities.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

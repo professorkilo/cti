@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--add263ab-9562-4b2a-992c-3117b84f4c85",
+    "id": "bundle--858fcc76-65e7-4363-8795-eae6a1ab29c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-03T19:46:59.933Z",
             "description": "[WindTail](https://attack.mitre.org/software/S0466) has the ability to use HTTP for C2 communications.(Citation: objective-see windtail2 jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--0d1f9f5b-11ea-42c3-b5f4-63cce0122541",

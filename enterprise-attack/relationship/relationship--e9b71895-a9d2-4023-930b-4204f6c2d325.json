@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac1df39b-6bcd-451c-bb52-2368b64d1ab6",
+    "id": "bundle--29a4a7eb-c2fc-401f-97b2-61acc824deb4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-03T19:46:58.563Z",
             "description": "[Bankshot](https://attack.mitre.org/software/S0239) binds and listens on port 1058 for HTTP traffic while also utilizing a FakeTLS method.(Citation: US-CERT Bankshot Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--1f6e3702-7ca1-4582-b2e7-4591297d05a8",

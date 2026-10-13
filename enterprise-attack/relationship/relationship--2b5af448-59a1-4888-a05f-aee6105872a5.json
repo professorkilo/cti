@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--799de974-983c-498a-aa9e-86538a570853",
+    "id": "bundle--8285a356-1cb7-4ca5-bebf-d6a112a3755e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:28.240Z",
+            "modified": "2026-09-03T19:46:51.320Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) malware has used IRC for C2.(Citation: Unit 42 Magic Hound Feb 2017)(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",

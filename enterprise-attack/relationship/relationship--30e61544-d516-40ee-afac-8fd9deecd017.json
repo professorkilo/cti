@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0c8aa82-0435-41f0-a8de-2fb438d732d6",
+    "id": "bundle--ee6c0849-5f11-44e1-8696-0eabb2c44037",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.979Z",
+            "modified": "2026-09-03T19:46:57.349Z",
             "description": "[Ramsay](https://attack.mitre.org/software/S0458) has used HTTP for C2.(Citation: Antiy CERT Ramsay April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997",

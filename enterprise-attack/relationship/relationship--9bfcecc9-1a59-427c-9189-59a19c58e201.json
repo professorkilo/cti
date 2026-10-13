@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ac2c12f-ec72-4352-9978-aba1ebeb37f9",
+    "id": "bundle--ac229b81-e4ea-4f13-ba0b-b595a87a27ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-02T20:07:47.309Z",
             "description": "[PipeMon](https://attack.mitre.org/software/S0501) communications are RC4 encrypted.(Citation: ESET PipeMon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",

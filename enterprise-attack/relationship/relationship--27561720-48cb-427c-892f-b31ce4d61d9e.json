@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--198903f6-3ef0-4390-9e3f-b36e5ba8db98",
+    "id": "bundle--4d208095-ae84-4891-8ae5-6ae458d14615",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-03T19:46:55.467Z",
             "description": "[China Chopper](https://attack.mitre.org/software/S0020)'s server component executes code sent via HTTP POST commands.(Citation: FireEye Periscope March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",

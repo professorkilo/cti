@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d20c51f6-ec9b-46f4-b5d8-360033959e23",
+    "id": "bundle--b07106b7-a117-489e-94f7-30b39cee9f0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-03T19:46:48.350Z",
             "description": "[ccf32](https://attack.mitre.org/software/S1043) can upload collected data and files to an FTP server.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a394448a-4576-41b8-81cc-9b61abad94ab",

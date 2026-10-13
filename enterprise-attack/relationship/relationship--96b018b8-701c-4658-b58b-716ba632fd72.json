@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cfb6038-5d00-453e-9773-70e877eb9e70",
+    "id": "bundle--91cce078-893a-481e-b3e1-6d4452572fe2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.130Z",
+            "modified": "2026-09-03T19:47:03.596Z",
             "description": "[P8RAT](https://attack.mitre.org/software/S0626) can download additional payloads to a target system.(Citation: Securelist APT10 March 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--7c58fff0-d206-4db1-96b1-e3a9e0e320b9",

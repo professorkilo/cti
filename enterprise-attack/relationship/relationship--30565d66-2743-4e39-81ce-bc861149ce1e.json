@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb13e486-27ae-4186-b263-68a765aed793",
+    "id": "bundle--d63bb139-3cb2-4b5a-b9e5-12d270600f5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.977Z",
+            "modified": "2026-09-03T19:46:57.241Z",
             "description": "[Tomiris](https://attack.mitre.org/software/S0671) can use HTTP to establish C2 communications.(Citation: Kaspersky Tomiris Sep 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--327b3a25-9e60-4431-b3b6-93b9c64eacbc",

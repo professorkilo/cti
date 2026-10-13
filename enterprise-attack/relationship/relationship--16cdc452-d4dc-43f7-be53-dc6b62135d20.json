@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c080f24-4c96-4d30-a734-c7a10141a2df",
+    "id": "bundle--ef5faa55-dd6a-4515-a112-f5df0d75462f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:34.324Z",
+            "modified": "2026-09-03T19:46:57.681Z",
             "description": "During [CostaRicto](https://attack.mitre.org/campaigns/C0004), the threat actors downloaded malware and tools onto a compromised host.(Citation: BlackBerry CostaRicto November 2020)",
             "relationship_type": "uses",
             "source_ref": "campaign--f9cc545e-b0ef-4b92-8884-a3a4427609f6",

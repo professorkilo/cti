@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c312b47c-bb1a-43c8-8a57-204c99637044",
+    "id": "bundle--a98fcb18-4409-486a-874d-7c7feb800fb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.157Z",
+            "modified": "2026-09-03T19:46:58.319Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has utilized TCP-based reverse shells.(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--532d407d-7aa9-4308-9690-acd18d5ceb82",
+    "id": "bundle--bf5fc163-f94d-4c1d-9039-84d78e4fcee7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.164Z",
+            "modified": "2026-09-08T20:28:43.417Z",
             "description": "[metaMain](https://attack.mitre.org/software/S1059) can create a named pipe to listen for and send data to a named pipe-based C2 server.(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df350889-4de9-44e5-8cb3-888b8343e97c",

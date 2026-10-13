@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5624020-0b72-47e0-9816-a22fedd7add7",
+    "id": "bundle--d298efd2-110b-4c10-bd5b-24355cad50b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.236Z",
+            "modified": "2026-09-09T18:39:17.227Z",
             "description": "[OilBooster](https://attack.mitre.org/software/S1172) can use a backup channel to request a new refresh token from its C2 server after 10 consecutive unsuccessful connections to the primary OneDrive C2 server.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--b0381480-d5ba-4dd8-a39e-fb8f1afea3a0",

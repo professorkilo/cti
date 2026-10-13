@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24af94d6-5e20-4118-8538-253d015e6240",
+    "id": "bundle--8a15f8b6-7772-4318-aa41-eaf70e29ac77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.270Z",
+            "modified": "2026-09-03T19:47:06.142Z",
             "description": "[PLAINTEE](https://attack.mitre.org/software/S0254) has downloaded and executed additional plugins.(Citation: Rancor Unit42 June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--21c0b55b-5ff3-4654-a05e-e3fc1ee1ce1b",

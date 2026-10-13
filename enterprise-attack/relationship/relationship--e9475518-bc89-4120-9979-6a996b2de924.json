@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73c78345-9efa-47fb-9a7c-edb4108bffdf",
+    "id": "bundle--680e3e40-f342-4d53-81c2-2e297fe5d913",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-02T20:09:43.807Z",
             "description": "[Kobalos](https://attack.mitre.org/software/S0641)'s authentication and key exchange is performed using RSA-512.(Citation: ESET Kobalos Feb 2021)(Citation: ESET Kobalos Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--9abdda30-08e0-4ab1-9cf0-d447654c6de9",

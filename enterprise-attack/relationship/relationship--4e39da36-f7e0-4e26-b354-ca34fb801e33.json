@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f2d1e70e-f530-4f51-ac28-8ab84013fb8e",
+    "id": "bundle--c668c827-ba27-4bdb-921e-39e2808f3bfa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-03T19:47:01.177Z",
             "description": "[Milan](https://attack.mitre.org/software/S1015) has received files from C2 and stored them in log folders beginning with the character sequence `a9850d2f`.(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--aea6d6b8-d832-4c90-a1bb-f52c6684db6c",

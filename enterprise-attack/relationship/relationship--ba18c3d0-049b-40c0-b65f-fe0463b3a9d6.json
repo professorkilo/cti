@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1b29c64-20cc-44ed-8790-5a99827ffe4e",
+    "id": "bundle--4356b68b-c8a9-422a-a5cf-7aadc1cd3eae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:24.599Z",
+            "modified": "2026-09-02T20:09:43.536Z",
             "description": "During [C0021](https://attack.mitre.org/campaigns/C0021), the threat actors used SSL via TCP port 443 for C2 communications.(Citation: FireEye APT29 Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--712e38c3-a656-426a-9b3b-a6bfb63294c6",

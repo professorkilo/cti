@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cdb83cf8-e185-41a9-8989-97dcd9adc1b3",
+    "id": "bundle--3f48fda5-7191-43c9-966d-90335e36c550",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:46:55.802Z",
             "description": "[MoonWind](https://attack.mitre.org/software/S0149) communicates over ports 80, 443, 53, and 8080 via raw sockets instead of the protocols usually associated with the ports.(Citation: Palo Alto MoonWind March 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",

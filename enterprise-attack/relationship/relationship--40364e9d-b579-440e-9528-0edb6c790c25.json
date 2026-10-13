@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad231781-9692-44e9-b34a-0008c3feb111",
+    "id": "bundle--c27d4e92-7aca-4689-8d67-ac17300af909",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-02T20:07:46.558Z",
             "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) can use the AES algorithm to encrypt C2 data.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d0270367-37fc-471e-9206-483582c5f47d",

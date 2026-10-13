@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5eb4e360-995c-412b-a553-e8f92234bc19",
+    "id": "bundle--1a4954e1-42eb-4fae-a8bf-9347f1753d5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-03T19:46:54.673Z",
             "description": "Operators deploying [Netwalker](https://attack.mitre.org/software/S0457) have used psexec to copy the [Netwalker](https://attack.mitre.org/software/S0457) payload across accessible systems.(Citation: Sophos Netwalker May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--754effde-613c-4244-a83e-fb659b2a4d06",

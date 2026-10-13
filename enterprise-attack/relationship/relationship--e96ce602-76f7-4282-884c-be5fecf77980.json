@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85190c17-ca42-48ed-a6ec-90219505193b",
+    "id": "bundle--798d4276-6672-463f-9fb5-138b891002ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-02T20:09:43.821Z",
             "description": "[Covenant](https://attack.mitre.org/software/S1155) can utilize SSL to encrypt command and control traffic.(Citation: Github Covenant)",
             "relationship_type": "uses",
             "source_ref": "tool--05fb53c8-e2ac-4e17-a0c9-a0825e1198bf",

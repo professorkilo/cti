@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e419ea2b-f6c9-4bb9-af39-a866b7b3f620",
+    "id": "bundle--f16a14a7-c906-4430-abdf-ebdd20bead1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T20:09:42.765Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) uses custom encryption for C2 that uses RSA.(Citation: ESET Gazer Aug 2017)(Citation: Securelist WhiteBear Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",

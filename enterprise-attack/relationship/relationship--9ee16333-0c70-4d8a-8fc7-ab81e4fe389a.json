@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d232c9c1-426e-40a8-9180-79306a0b7c2a",
+    "id": "bundle--d6bfe40c-01fc-4504-8ccb-98ca6dd54f6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.142Z",
+            "modified": "2026-09-03T19:47:00.443Z",
             "description": "[AppleSeed](https://attack.mitre.org/software/S0622) can exfiltrate files via the C2 channel.(Citation: Malwarebytes Kimsuky June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--295721d2-ee20-4fa3-ade3-37f4146b4570",

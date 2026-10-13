@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10203e9d-2c0b-4964-8393-eff8f750519d",
+    "id": "bundle--6e4c182e-175f-4105-b036-5d9e7c73b60c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:16.020Z",
+            "modified": "2026-09-03T19:46:58.945Z",
             "description": "[Metador](https://attack.mitre.org/groups/G1013) has used TCP for C2.(Citation: SentinelLabs Metador Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",

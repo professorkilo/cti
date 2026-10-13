@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--891298db-10d1-43ae-817b-d2eb27298fc6",
+    "id": "bundle--1119f61b-6b1e-4d57-af98-fd0ac4a58133",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.189Z",
+            "modified": "2026-09-03T19:46:58.135Z",
             "description": "[Mango](https://attack.mitre.org/software/S1169) can receive Base64-encoded commands from C2.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--c5ec3344-e156-4b41-accb-274362e5dae8",

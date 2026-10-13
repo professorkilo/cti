@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d2366bb-9ed1-4672-956d-39a58e83cc12",
+    "id": "bundle--9278d066-6eb7-4577-9b96-a783c10aa0ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.166Z",
+            "modified": "2026-09-03T19:47:02.809Z",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) has used HTTP and HTTPS for command and control.(Citation: Dell TG-3390)(Citation: ThreatStream Evasion Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",

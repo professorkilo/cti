@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--077c0ec7-47be-4b7a-9e68-9cc4999c3038",
+    "id": "bundle--be783eab-223c-4e23-878d-c72957ce26cc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-02T18:23:57.229Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) can upload a file via HTTP POST response to the C2 split into 102,400-byte portions. [RDAT](https://attack.mitre.org/software/S0495) can also download data from the C2 which is split into 81,920-byte portions.(Citation: Unit42 RDAT July 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

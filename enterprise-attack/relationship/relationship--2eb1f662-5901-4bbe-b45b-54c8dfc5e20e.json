@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fcf7620-c638-45cb-a175-9e22c8eda6bc",
+    "id": "bundle--75ec3a7a-661c-4b01-8731-a93678346cb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.968Z",
+            "modified": "2026-09-03T19:46:59.417Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has downloaded additional files for execution on the victim\u2019s machine.(Citation: SophosGnGal_SystemBC_Dec2020)(Citation: TrumanKroll_SYSTEMBCServer_Jan2024) The server component of [SystemBC](https://attack.mitre.org/software/S9001) has the ability to send additional files to victim machines.(Citation: TrumanKroll_SYSTEMBCServer_Jan2024)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e231e79-0d03-4a78-9d54-4c8448fe2467",
+    "id": "bundle--32bce78e-0624-49f0-bb7c-449eec125d62",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-03T19:46:52.872Z",
             "description": "[Matryoshka](https://attack.mitre.org/software/S0167) uses DNS for C2.(Citation: ClearSky Wilted Tulip July 2017)(Citation: CopyKittens Nov 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--1cc934e4-b01d-4543-a011-b988dfc1a458",

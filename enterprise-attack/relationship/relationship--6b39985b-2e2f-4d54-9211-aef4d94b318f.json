@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--513694cb-ba61-4e37-85b3-4a1a5d2196e1",
+    "id": "bundle--169e761b-ba99-4f77-9f22-324fcbe0414c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.071Z",
+            "modified": "2026-09-03T19:46:49.394Z",
             "description": "[OnionDuke](https://attack.mitre.org/software/S0052) uses Twitter as a backup C2.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--b136d088-a829-432c-ac26-5529c26d4c7e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a32b50f4-02a2-43d1-90ff-f8e448ed6c5f",
+    "id": "bundle--024b20b6-0cc4-4c5f-a7f8-4c4fa078c9ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.250Z",
+            "modified": "2026-09-03T19:46:59.520Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has established a connection with the C2 server over TCP traffic.(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023) [InvisibleFerret](https://attack.mitre.org/software/S1245) has also created a TCP reverse shell communicating via a socket connection over ports 1245, 80, 2245, 3001, and 5000.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

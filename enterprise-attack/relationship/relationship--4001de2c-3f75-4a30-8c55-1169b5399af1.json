@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16184fdf-c4f5-4314-b8b3-85f6326e79ba",
+    "id": "bundle--8ad90767-5e10-48f2-92a1-173e075ffb3c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:46:58.738Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can use HTTP to send victim host information to C2.(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)(Citation: INCIBE-CERT LockBit MAR 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

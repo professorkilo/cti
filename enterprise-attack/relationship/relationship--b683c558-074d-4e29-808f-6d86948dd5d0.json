@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05d1419c-181b-4b9d-af9e-0cd77ac45524",
+    "id": "bundle--f09718d8-86b7-49f1-a9b5-44247cc424a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:11.311Z",
+            "modified": "2026-09-03T19:47:04.716Z",
             "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has downloaded additional files and tools onto a compromised host.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",

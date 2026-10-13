@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d48de07-68ad-4b7a-88d4-c8f83a8759ab",
+    "id": "bundle--665b71fb-c07d-454c-8ac6-f2d6553c5c5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-03T19:46:51.314Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can use junk data in the Base64 string for additional obfuscation.(Citation: CISA WellMess July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",

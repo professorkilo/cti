@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f174024b-79eb-4479-b654-468da584ddee",
+    "id": "bundle--580f1c3f-38ae-4234-8c23-3df675adddd0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -16,9 +16,39 @@
                     "external_id": "G1045"
                 },
                 {
+                    "source_name": "CarySentinelLabs_CiscoSaltTyphoon_Dec2025",
+                    "description": "Cary, D. (2025, December 10). Malicious Apprentice | How Two Hackers Went From Cisco Academy to Cisco CVEs. Retrieved September 22, 2026.",
+                    "url": "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+                },
+                {
+                    "source_name": "CISA_AA25-239ASaltTyphoon_Sept2025",
+                    "description": "CISA. (2025, September 3). Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System. Retrieved September 22, 2026.",
+                    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+                },
+                {
                     "source_name": "Cisco Salt Typhoon FEB 2025",
                     "description": "Cisco Talos. (2025, February 20). Weathering the storm: In the midst of a Typhoon. Retrieved February 24, 2025.",
                     "url": "https://blog.talosintelligence.com/salt-typhoon-analysis/"
+                },
+                {
+                    "source_name": "CrowdStrike_OperatorPanda_NoDate",
+                    "description": "CrowdStrike. (n.d.). Operator Panda. Retrieved September 22, 2026.",
+                    "url": "https://www.crowdstrike.com/en-us/adversaries/operator-panda/"
+                },
+                {
+                    "source_name": "RF_SaltTyphoon_Feb2025",
+                    "description": "Insikt Group. (2025, February 13). RedMike (Salt Typhoon) Exploits Cisco Vulnerabilities for Cyber Espionage. Retrieved September 22, 2026.",
+                    "url": "https://www.recordedfuture.com/research/redmike-salt-typhoon-exploits-vulnerable-devices"
+                },
+                {
+                    "source_name": "Mandiant_M-Trends2026_Mar2026",
+                    "description": "Kutscher, J. (2026, March 23). M-Trends 2026: Data, Insights, and Strategies From the Frontlines. Retrieved September 22, 2026.",
+                    "url": "https://cloud.google.com/blog/topics/threat-intelligence/m-trends-2026"
+                },
+                {
+                    "source_name": "Microsoft_ThreatActorNaming_NoDate",
+                    "description": "Microsoft. (n.d.). How Microsoft names threat actors. Retrieved September 22, 2026.",
+                    "url": "https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming"
                 },
                 {
                     "source_name": "US Dept. of Treasury Salt Typhoon JAN 2025",
@@ -29,9 +59,9 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:41.313Z",
+            "modified": "2026-09-23T16:05:01.158Z",
             "name": "Salt Typhoon",
-            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP).(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)\n",
+            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) is a People's Republic of China (PRC) state-backed actor that has been active since at least 2019 and responsible for numerous compromises of network infrastructure at major U.S. telecommunication and internet service providers (ISP). [Salt Typhoon](https://attack.mitre.org/groups/G1045) has targeted and leveraged public facing network edge devices to gain access to victim environments. [Salt Typhoon](https://attack.mitre.org/groups/G1045) has been publicly associated with activities resembling other security industry reported activity groups to include OPERATOR PANDA, RedMike, GhostEmperor, and UNC5807.(Citation: US Dept. of Treasury Salt Typhoon JAN 2025)(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)(Citation: CarySentinelLabs_CiscoSaltTyphoon_Dec2025)(Citation: CrowdStrike_OperatorPanda_NoDate)(Citation: RF_SaltTyphoon_Feb2025)(Citation: Microsoft_ThreatActorNaming_NoDate)(Citation: Mandiant_M-Trends2026_Mar2026)",
             "aliases": [
                 "Salt Typhoon"
             ],
@@ -40,7 +70,7 @@
             "x_mitre_domains": [
                 "enterprise-attack"
             ],
-            "x_mitre_version": "1.0",
+            "x_mitre_version": "2.0",
             "x_mitre_attack_spec_version": "3.3.0"
         }
     ]

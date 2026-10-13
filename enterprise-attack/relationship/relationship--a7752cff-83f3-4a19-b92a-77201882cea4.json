@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9824706-0790-4f0a-ad2b-2cc3d0a53548",
+    "id": "bundle--7db32658-3cbf-4cf2-a66f-199775722ef2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.153Z",
+            "modified": "2026-07-31T18:47:36.358Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) used tools such as [Cobalt Strike](https://attack.mitre.org/software/S0154) and [Mimikatz](https://attack.mitre.org/software/S0002) to dump credentials from victim systems.(Citation: Picus BlackByte 2022)(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",

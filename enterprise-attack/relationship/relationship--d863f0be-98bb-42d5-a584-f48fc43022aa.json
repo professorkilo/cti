@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e705bc7a-ad4c-4555-ab0b-da78dc6ddb19",
+    "id": "bundle--6e7a5644-fdce-4db1-931a-a318f00500cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-03T19:46:53.439Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) is capable of contacting the TOR network for delivering second-stage payloads.(Citation: RedCanary RaspberryRobin 2022)(Citation: TrendMicro RaspberryRobin 2022)(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

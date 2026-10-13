@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40896b15-39a6-4fd4-a569-bb290d428ea6",
+    "id": "bundle--39abc378-8fa3-48ab-9831-5a8b3bb23c78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.937Z",
+            "modified": "2026-09-03T19:46:48.155Z",
             "description": "[Clambling](https://attack.mitre.org/software/S0660) can use Dropbox to download malicious payloads, send commands, and receive information.(Citation: Trend Micro DRBControl February 2020)(Citation: Talent-Jump Clambling February 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--6e95feb1-78ee-48d3-b421-4d76663b5c49",

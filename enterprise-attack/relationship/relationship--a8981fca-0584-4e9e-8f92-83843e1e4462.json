@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3aefc288-aa4e-4672-88f5-295e2311e2fb",
+    "id": "bundle--18e5406e-c8a4-4bd1-8798-63be2887e130",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:08.624Z",
+            "modified": "2026-09-03T19:46:54.645Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) has used multiple layers of encryption within malware to protect C2 communication.(Citation: Secureworks IRON HEMLOCK Profile)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",

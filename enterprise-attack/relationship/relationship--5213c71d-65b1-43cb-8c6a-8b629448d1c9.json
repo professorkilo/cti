@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a453a70-5680-497a-b6c1-a1ed06377fc0",
+    "id": "bundle--b9a18b87-e1fa-487d-b4d8-b263e3bf4549",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.037Z",
+            "modified": "2026-07-31T18:48:03.637Z",
             "description": "[Storm-0501](https://attack.mitre.org/groups/G1053) has utilized DCSync to extract credentials from victims.(Citation: Microsoft Storm-0501 Embargo Ransomware August 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7b404cd0-3ae9-41d4-90c0-023793d35d97",

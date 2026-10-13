@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f293c94-a194-4350-a016-1bb87da7a1b7",
+    "id": "bundle--59ed44ae-19ce-4a06-b40b-59357f5efff8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.173Z",
+            "modified": "2026-09-03T19:46:57.895Z",
             "description": "[Impacket](https://attack.mitre.org/software/S0357) has used its `wmiexec` command, leveraging Windows Management Instrumentation, to remotely stage and execute payloads in victim networks.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "tool--26c87906-d750-42c5-946c-d4162c73fc7b",

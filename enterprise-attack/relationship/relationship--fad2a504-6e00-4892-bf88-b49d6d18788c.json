@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86465e6f-df3e-4e81-bb3c-d42643ba9ac8",
+    "id": "bundle--d322623c-3f02-4e22-969b-9758b5d67a8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.265Z",
+            "modified": "2026-07-31T18:48:12.535Z",
             "description": "[Axiom](https://attack.mitre.org/groups/G0001) has been known to dump credentials.(Citation: Novetta-Axiom)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a0cb9370-e39b-44d5-9f50-ef78e412b973",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea5a4185-ac08-4778-b2f5-eb20f1476a74",
+    "id": "bundle--ac826ffe-4c9b-49a5-b58c-d42e5d3011c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.231Z",
+            "modified": "2026-09-08T20:29:10.642Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) has been known to reach a command and control server via one of nine proxy IP addresses. (Citation: Bitdefender Trickbot C2 infra Nov 2020) (Citation: Bitdefender Trickbot VNC module Whitepaper 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

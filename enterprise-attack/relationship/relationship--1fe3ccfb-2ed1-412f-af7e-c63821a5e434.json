@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12475154-1940-4029-bbcd-a4ef672ca3f0",
+    "id": "bundle--73f4c482-6167-4c4f-b1bb-9b77c529da72",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:05.961Z",
+            "modified": "2026-09-02T18:26:02.950Z",
             "description": "[RedCurl](https://attack.mitre.org/groups/G1039) has collected data about network drives.(Citation: group-ib_redcurl1)(Citation: group-ib_redcurl2)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--82323c70-4186-4b61-94f5-b227c3b28e89",

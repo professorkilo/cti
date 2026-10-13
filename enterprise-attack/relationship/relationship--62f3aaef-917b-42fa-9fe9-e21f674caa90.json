@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58e8bf88-51d6-4085-b794-af4f1d3d2224",
+    "id": "bundle--f20d31e2-d814-4100-bff5-1f5d2974a4bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-08T20:28:43.141Z",
             "description": "The [Winnti for Windows](https://attack.mitre.org/software/S0141) HTTP/S C2 mode can make use of a local proxy.(Citation: Novetta Winnti April 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--d3afa961-a80c-4043-9509-282cdf69ab21",

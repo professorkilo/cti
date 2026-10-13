@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4db93e4f-1d54-4d0f-a4b8-2bfad2890e4b",
+    "id": "bundle--accd47e6-c8c3-4a24-8a68-c5cfcefb179d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.170Z",
+            "modified": "2026-09-02T20:09:43.455Z",
             "description": "[POSHSPY](https://attack.mitre.org/software/S0150) encrypts C2 traffic with AES and RSA.(Citation: FireEye POSHSPY April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",

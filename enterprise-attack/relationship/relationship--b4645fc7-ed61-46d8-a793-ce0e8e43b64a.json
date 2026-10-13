@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ec561c01-89b2-4cf5-82e4-9404b3dc0d58",
+    "id": "bundle--f7ad4972-6acd-4ac1-ada4-b1f669ed0df5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-03T19:46:55.623Z",
             "description": "[Uroburos](https://attack.mitre.org/software/S0022) has the ability to communicate over custom communications methodologies that ride over common network protocols including raw TCP and UDP sockets, HTTP, SMTP, and DNS.(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",

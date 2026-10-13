@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5030b37c-6ce3-4282-b779-256c4ffcf344",
+    "id": "bundle--409c13e8-aa94-4827-aca0-897009efc968",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:13:11.077Z",
+            "modified": "2026-09-09T18:44:33.735Z",
             "description": "During [HomeLand Justice](https://attack.mitre.org/campaigns/C0038), threat actors made multiple HTTP POST requests to the Exchange servers of the victim organization to transfer data.(Citation: CISA Iran Albanian Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--7e21077d-2589-43a7-a5f9-490061289526",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47f7e88c-7b42-43e3-94db-760271bc1dea",
+    "id": "bundle--4b62f61d-ce35-47f0-a1e1-96e722795716",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-03T19:47:02.983Z",
             "description": "[GuLoader](https://attack.mitre.org/software/S0561) can use HTTP to retrieve additional binaries.(Citation: Unit 42 NETWIRE April 2020)(Citation: Medium Eli Salem GuLoader April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--45c759ac-b490-48bb-80d4-c8eee3431027",

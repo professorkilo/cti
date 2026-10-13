@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36c61e25-f930-45d9-84b6-cdcc655fd7e1",
+    "id": "bundle--f50872f8-fe9c-4e94-808b-107780c772ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:46:59.825Z",
             "description": "[EVILNUM](https://attack.mitre.org/software/S0568) can upload files over the C2 channel from the infected host.(Citation: Prevailion EvilNum May 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--7cdfccda-2950-4167-981a-60872ff5d0db",

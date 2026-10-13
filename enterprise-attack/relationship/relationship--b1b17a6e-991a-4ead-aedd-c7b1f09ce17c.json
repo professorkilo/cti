@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1b14eb4-ff2c-4e6f-a7ae-e3a45fce7c5e",
+    "id": "bundle--1ad0ffe3-259a-45c4-8e2f-201edc122403",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-03T19:46:57.539Z",
             "description": "[Gootloader](https://attack.mitre.org/software/S1138) can retrieve a Base64 encoded stager from C2.(Citation: SentinelOne Gootloader June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",

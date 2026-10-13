@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9b7d72d-b96f-4339-bae7-10365021a49c",
+    "id": "bundle--39be736f-2e04-4cdc-a361-6884b82a036c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-03T19:47:00.253Z",
             "description": "[Chrommme](https://attack.mitre.org/software/S0667) can exfiltrate collected data via C2.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--579607c2-d046-40df-99ab-beb479c37a2a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f8d08494-73c5-4665-816a-632a1f52a794",
+    "id": "bundle--0a46c76f-63fe-4dcc-856d-9b976eeb9bfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -14,14 +14,19 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/techniques/T1027/005",
                     "external_id": "T1027.005"
+                },
+                {
+                    "source_name": "Files and Antivirus Detection",
+                    "description": "OPSWAT. (n.d.). Why can small file changes bypass the Antivirus detection?. Retrieved September 2, 2026.",
+                    "url": "https://www.opswat.com/docs/mdcore/knowledge-base/why-can-small-file-changes-bypass-the-antivirus-detection-"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.707Z",
+            "modified": "2026-09-11T19:58:00.789Z",
             "name": "Indicator Removal from Tools",
-            "description": "Adversaries may remove indicators from tools if they believe their malicious tool was detected, quarantined, or otherwise curtailed. They can modify the tool by removing the indicator and using the updated version that is no longer detected by the target's defensive systems or subsequent targets that may use similar systems.\n\nA good example of this is when malware is detected with a file signature and quarantined by anti-virus software. An adversary who can determine that the malware was quarantined because of its file signature may modify the file to explicitly avoid that signature, and then re-use the malware.",
+            "description": "Adversaries may remove indicators from tools if they believe their malicious tool was detected, quarantined, or otherwise curtailed. They can modify the tool by removing the indicator and using the updated version that is no longer detected by the target's defensive systems or subsequent targets that may use similar systems.\n\nA good example of this is when malware is detected with a file signature and quarantined by anti-virus software. An adversary who can determine that the malware was quarantined because of its file signature may modify the file to explicitly avoid that signature, and then re-use the malware.(Citation: Files and Antivirus Detection)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
@@ -40,7 +45,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "2.0"
+            "x_mitre_version": "2.1"
         }
     ]
 }

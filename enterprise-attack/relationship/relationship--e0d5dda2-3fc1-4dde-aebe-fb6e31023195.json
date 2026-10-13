@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ae3f9a3-cc0b-4569-8937-713941ccf961",
+    "id": "bundle--c811c1f0-0cf8-47e5-ae53-dad3ee084cf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.232Z",
+            "modified": "2026-09-02T20:07:47.853Z",
             "description": "[PLAINTEE](https://attack.mitre.org/software/S0254) encodes C2 beacons using XOR.(Citation: Rancor Unit42 June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--21c0b55b-5ff3-4654-a05e-e3fc1ee1ce1b",

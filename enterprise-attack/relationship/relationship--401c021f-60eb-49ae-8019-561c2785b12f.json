@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--463261fc-df7c-4909-a332-228f9caa9e16",
+    "id": "bundle--04b364d4-6b2b-49c7-9231-f48d77f0f26b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:46:58.192Z",
             "description": "[STARWHALE](https://attack.mitre.org/software/S1037) can exfiltrate collected data to its C2 servers.(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--e355fc84-6f3c-4888-8e0a-d7fa9c378532",

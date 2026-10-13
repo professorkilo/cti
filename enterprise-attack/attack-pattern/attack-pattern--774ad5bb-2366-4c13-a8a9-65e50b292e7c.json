@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--750bd479-c88b-419d-a1b0-bcddf74d74bb",
+    "id": "bundle--3faea72e-24e9-4006-8787-5c2371e22c51",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,14 +22,14 @@
                 },
                 {
                     "source_name": "ThreatConnect Infrastructure Dec 2020",
-                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved October 12, 2021.",
-                    "url": "https://threatconnect.com/blog/infrastructure-research-hunting/"
+                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved September 17, 2026.",
+                    "url": "https://web.archive.org/web/20221130114004/https://threatconnect.com/blog/infrastructure-research-hunting/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.642Z",
+            "modified": "2026-09-18T00:31:18.339Z",
             "name": "Client Configurations",
             "description": "Adversaries may gather information about the victim's client configurations that can be used during targeting. Information about client configurations may include a variety of details and settings, including operating system/version, virtualization, architecture (ex: 32 or 64 bit), language, and/or time zone.\n\nAdversaries may gather this information in various ways, such as direct collection actions via [Active Scanning](https://attack.mitre.org/techniques/T1595) (ex: listening ports, server banners, user agent strings) or [Phishing for Information](https://attack.mitre.org/techniques/T1598). Adversaries may also compromise sites then include malicious content designed to collect host information from visitors.(Citation: ATT ScanBox) Information about the client configurations may also be exposed to adversaries via online or other accessible data sets (ex: job postings, network maps, assessment reports, resumes, or purchase invoices). Gathering this information may reveal opportunities for other forms of reconnaissance (ex: [Search Open Websites/Domains](https://attack.mitre.org/techniques/T1593) or [Search Open Technical Databases](https://attack.mitre.org/techniques/T1596)), establishing operational resources (ex: [Develop Capabilities](https://attack.mitre.org/techniques/T1587) or [Obtain Capabilities](https://attack.mitre.org/techniques/T1588)), and/or initial access (ex: [Supply Chain Compromise](https://attack.mitre.org/techniques/T1195) or [External Remote Services](https://attack.mitre.org/techniques/T1133)).",
             "kill_chain_phases": [

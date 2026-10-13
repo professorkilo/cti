@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42a92729-2db0-412d-bafe-ac7706ed412a",
+    "id": "bundle--ca7501d0-259d-4a4a-8f35-3321b81e6904",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.908Z",
+            "modified": "2026-09-09T18:44:33.623Z",
             "description": "[MailSniper](https://attack.mitre.org/software/S0413) can be used for searching through email in Exchange and Office 365 environments.(Citation: GitHub MailSniper)",
             "relationship_type": "uses",
             "source_ref": "tool--999c4e6e-b8dc-4b4f-8d6e-1b829f29997e",

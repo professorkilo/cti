@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3053a62f-01eb-48be-a334-f284baee69fe",
+    "id": "bundle--121fdeca-4207-4f06-a150-9394d63658aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.214Z",
+            "modified": "2026-09-03T19:46:50.959Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can emulate an FTP server to connect to actor-controlled C2 servers.(Citation: BitDefender BADHATCH Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",

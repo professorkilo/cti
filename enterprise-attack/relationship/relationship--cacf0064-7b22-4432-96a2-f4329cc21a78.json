@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2909bf7f-39ba-454f-8d76-bd75532b56e1",
+    "id": "bundle--193ba719-0933-4131-a1bf-3a6bacd23570",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:19.960Z",
+            "modified": "2026-09-09T18:44:33.941Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries  leveraged stolen credentials within cloud services to gather data and email messages from Exchange services related to OT topics and technical work carried out within organizations.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

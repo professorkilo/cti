@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ab29276-d1ec-4efe-a2a2-66208e082e49",
+    "id": "bundle--e885d467-5afb-43bc-ab47-50942873d295",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:50.856Z",
+            "modified": "2026-09-03T19:47:03.850Z",
             "description": "[APT18](https://attack.mitre.org/groups/G0026) uses HTTP for C2 communications.(Citation: PaloAlto DNS Requests May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--38fd6a28-3353-4f2b-bb2b-459fecd5c648",

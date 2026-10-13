@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8521c2ac-e03e-46d5-bc7e-ce4370fbf65d",
+    "id": "bundle--57cbf78b-6c96-449a-82e6-cb93539a56fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.249Z",
+            "modified": "2026-09-03T19:47:05.816Z",
             "description": "[RGDoor](https://attack.mitre.org/software/S0258) uploads and downloads files to and from the victim\u2019s machine.(Citation: Unit 42 RGDoor Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b9eec47e-98f4-4b3c-b574-3fa8a87ebe05",

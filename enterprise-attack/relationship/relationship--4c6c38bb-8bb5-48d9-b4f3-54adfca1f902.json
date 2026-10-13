@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ba4e6561-5fe9-4a6c-8bfa-28c276097e45",
+    "id": "bundle--d78c719b-618f-4143-b736-46b767c7bc24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:52.248Z",
+            "modified": "2026-09-03T19:46:59.460Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) has communicated with its C2 via HTTP POST requests.(Citation: Anomali MUSTANG PANDA October 2019)(Citation: Secureworks BRONZE PRESIDENT December 2019)(Citation: Recorded Future REDDELTA July 2020)(Citation: Unit42 Bookworm Nov2015)(Citation: McAfee Dianxun March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--420ac20b-f2b9-42b8-aa1a-6d4b72895ca4",

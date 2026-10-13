@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2d849a3-2144-4609-91b4-eb5098711beb",
+    "id": "bundle--982f9b2f-4501-4406-b510-9cdd4bf294b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.124Z",
+            "modified": "2026-09-03T19:47:03.401Z",
             "description": "[BadPatch](https://attack.mitre.org/software/S0337) can download and execute or update malware.(Citation: Unit 42 BadPatch Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9af05de0-bc09-4511-a350-5eb8b06185c1",

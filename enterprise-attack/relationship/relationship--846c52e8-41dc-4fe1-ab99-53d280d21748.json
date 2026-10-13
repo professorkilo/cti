@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c549837a-11d9-4555-ade8-b214bc8764de",
+    "id": "bundle--5c270fe7-aeb4-421b-9c99-2514fae2bce0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:29.951Z",
+            "modified": "2026-09-02T20:07:47.078Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used AES to encrypt C2 responses.(Citation: Talos MuddyWater Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

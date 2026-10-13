@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4ccce3fa-4a64-4bc5-9505-d67cb94c07d5",
+    "id": "bundle--d8e4ce44-9422-43b6-8901-4d31a1530967",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:38.824Z",
+            "modified": "2026-09-08T20:28:08.456Z",
             "description": "[MoustachedBouncer](https://attack.mitre.org/groups/G1019) has used a reverse proxy tool similar to the GitHub repository revsocks.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7251b44b-6072-476c-b8d9-a6e32c355b28",

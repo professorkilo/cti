@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--294ab41e-ad07-4238-bddd-2b9eb642f3ad",
+    "id": "bundle--d8e21ef9-2f14-4d48-9ef3-ee4cf082bb33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-03T19:46:50.220Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) samples were found to be highly obfuscated with junk code.(Citation: ESET PLEAD Malware July 2018)(Citation: TrendMicro BlackTech June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",

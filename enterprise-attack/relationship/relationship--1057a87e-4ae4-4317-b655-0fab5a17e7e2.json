@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3517419c-ab5c-41f5-85ac-c780ffdb032e",
+    "id": "bundle--1fa9df16-e624-4a9c-bb89-55bf98817189",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-08T20:28:41.782Z",
             "description": "[Pay2Key](https://attack.mitre.org/software/S0556) has designated machines in the compromised network to serve as reverse proxy pivot points to channel communications with C2.(Citation: ClearkSky Fox Kitten February 2020)(Citation: Check Point Pay2Key November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--77ca1aa3-280c-4b67-abaa-e8fb891a8f83",

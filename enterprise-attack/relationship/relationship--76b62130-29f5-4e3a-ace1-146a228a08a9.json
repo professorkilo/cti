@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0aa6a9ee-452a-41af-9dc0-319f809ca4a0",
+    "id": "bundle--9263915d-95d2-47d1-a7bb-a42548e5f31b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-03T19:46:54.967Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) sends stolen data to the C2 server every 10 minutes.(Citation: ESET Machete July 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

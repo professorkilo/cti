@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fce984cc-0b58-4233-acaa-b82ffac8e18b",
+    "id": "bundle--5e8ccead-790c-4518-9888-0b704ce2a99d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.177Z",
+            "modified": "2026-09-02T20:07:47.488Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can use AES-GCM-256 to encrypt a session key for C2 message exchange.(Citation: GitHub Sliver Encryption)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

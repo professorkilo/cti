@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1698aef-c214-4942-a641-5578e1d7ee78",
+    "id": "bundle--1628a30a-bca9-4e10-8972-3fe6e9523ded",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-03T19:47:05.914Z",
             "description": "[SharpDisco](https://attack.mitre.org/software/S1089) has been used to download a Python interpreter to `C:\\Users\\Public\\WinTN\\WinTN.exe` as well as other plugins from external sources.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1fefb062-feda-484a-8f10-0cebf65e20e3",

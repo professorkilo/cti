@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--367dfe83-e0c8-4a98-b96b-d8e5a6db16eb",
+    "id": "bundle--311e0686-85e7-4c9e-977f-3913a35399a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.136Z",
+            "modified": "2026-09-03T19:46:58.133Z",
             "description": "Filter network traffic to prevent use of protocols across the network boundary that are unnecessary.  If VMCI is not required in ESXi environments, consider restricting guest virtual machines from accessing VMCI services.(Citation: Broadcom VMCI Firewall)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

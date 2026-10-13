@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbfb1209-f172-4cef-a377-464d8ff1afb4",
+    "id": "bundle--b89ba451-45a9-46b8-b2ee-25cc8b22f98d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-08T20:28:08.596Z",
             "description": "[reGeorg](https://attack.mitre.org/software/S1187) can establish an HTTP or SOCKS proxy to tunnel data in and out of a network.(Citation: GitHub reGeorg 2016)(Citation: Fortinet reGeorg MAR 2019)(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34",

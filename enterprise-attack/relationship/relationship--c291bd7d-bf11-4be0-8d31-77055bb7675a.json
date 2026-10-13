@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c799d82-0ff3-41f6-8075-7744b5510e4a",
+    "id": "bundle--86656215-ddcd-48fd-9383-8a9858c40b2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.191Z",
+            "modified": "2026-09-03T19:46:51.758Z",
             "description": "[Kessel](https://attack.mitre.org/software/S0487) can exfiltrate credentials and other information via HTTP POST request, TCP, and DNS.(Citation: ESET ForSSHe December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c984b414-b766-44c5-814a-2fe96c913c12",

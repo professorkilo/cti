@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94c7ed15-b9b4-4c36-980c-a0147d16dc7e",
+    "id": "bundle--2f73c407-7368-49d2-ae91-7112cf144094",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-03T19:47:02.822Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has utilized HTTP for C2 communications.(Citation: McAfee RedLine Stealer April 2024) [RedLine Stealer](https://attack.mitre.org/software/S1240) has also conducted C2 communications to hardcoded C2 servers over HTTPS.(Citation: ESET RedLine Stealer November 2024)(Citation: Splunk RedLine Stealer June 2023) [RedLine Stealer](https://attack.mitre.org/software/S1240) has  leveraged SOAP protocol for C2 communications.(Citation: Proofpoint RedLine Stealer March 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

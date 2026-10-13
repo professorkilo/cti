@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7b2b4f6-5b51-4071-b762-8e672fe97ca9",
+    "id": "bundle--eaab2015-099e-4015-be48-7102fbedc968",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:53.221Z",
+            "modified": "2026-09-03T19:47:03.179Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used HTTP for command and control.(Citation: Symantec Elfin Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",

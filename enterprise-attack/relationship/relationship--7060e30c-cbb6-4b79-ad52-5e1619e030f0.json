@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4b4758f-6fa7-40a7-a20c-54fb8b08a33f",
+    "id": "bundle--39cfb6f2-675c-448d-925a-0bcd23c98fe6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.078Z",
+            "modified": "2026-09-03T19:46:54.865Z",
             "description": "[ShimRat](https://attack.mitre.org/software/S0444) can sleep when instructed to do so by the C2.(Citation: FOX-IT May 2016 Mofang)\t",
             "relationship_type": "uses",
             "source_ref": "malware--5763217a-05b6-4edd-9bca-057e47b5e403",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2102ab10-f6d9-4984-bf0c-1b287dea2dd3",
+    "id": "bundle--84613526-7931-43c9-8633-c8f2d09ceca4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-03T19:47:05.332Z",
             "description": "[Gootloader](https://attack.mitre.org/software/S1138) can fetch second stage code from hardcoded web domains.(Citation: Sophos Gootloader)(Citation: SentinelOne Gootloader June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--396c18b9-26fb-4435-8589-fb856502e4c4",

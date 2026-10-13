@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--073e7db5-1056-4328-a870-3b9d28aaecb6",
+    "id": "bundle--a4a5f281-5370-4b90-9c47-665e5b99b40d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.637Z",
+            "modified": "2026-09-02T17:31:48.928Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) impersonated legitimate maintainers to push imposter commits to the Aquasecurity Trivy scanner GitHub repository.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

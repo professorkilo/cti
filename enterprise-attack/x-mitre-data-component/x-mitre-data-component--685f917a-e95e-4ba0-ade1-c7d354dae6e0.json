@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3e073f2-bbb3-4a5a-bf28-ae7ef744efd4",
+    "id": "bundle--b161df54-d484-41f9-8a83-79f26e90df06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.774Z",
+            "modified": "2026-10-13T17:43:48.219Z",
             "name": "Command Execution",
             "description": "Command Execution involves monitoring and capturing the execution of textual commands (including shell commands, cmdlets, and scripts) within an operating system or application. These commands may include arguments or parameters and are typically executed through interpreters such as `cmd.exe`, `bash`, `zsh`, `PowerShell`, or programmatic execution. Examples: \n\n- Windows Command Prompt\n    - dir \u2013 Lists directory contents.\n    - net user \u2013 Queries or manipulates user accounts.\n    - tasklist \u2013 Lists running processes.\n- PowerShell\n    - Get-Process \u2013 Retrieves processes running on a system.\n    - Set-ExecutionPolicy \u2013 Changes PowerShell script execution policies.\n    - Invoke-WebRequest \u2013 Downloads remote resources.\n- Linux Shell\n    - ls \u2013 Lists files in a directory.\n    - cat /etc/passwd \u2013 Reads the user accounts file.\n    - curl http://malicious-site.com \u2013 Retrieves content from a malicious URL.\n- Container Environments\n    - docker exec \u2013 Executes a command inside a running container.\n    - kubectl exec \u2013 Runs commands in Kubernetes pods.\n- macOS Terminal\n    - open \u2013 Opens files or URLs.\n    - dscl . -list /Users \u2013 Lists all users on the system.\n    - osascript -e \u2013 Executes AppleScript commands.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -29,7 +29,7 @@
                 "mobile-attack",
                 "enterprise-attack"
             ],
-            "x_mitre_version": "2.1",
+            "x_mitre_version": "2.2",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
                 {
@@ -601,10 +601,6 @@
                     "channel": "process execution involving curl, grep, or awk on secrets"
                 },
                 {
-                    "name": "linus:syslog",
-                    "channel": "None"
-                },
-                {
                     "name": "linux:cli",
                     "channel": "command logging"
                 },
@@ -631,6 +627,10 @@
                 {
                     "name": "linux:shell",
                     "channel": "Manual invocation of software enumeration commands via interactive shell"
+                },
+                {
+                    "name": "linux:syslog",
+                    "channel": "None"
                 },
                 {
                     "name": "linux:syslog",
@@ -1058,6 +1058,10 @@
                 },
                 {
                     "name": "networkdevice:syslog",
+                    "channel": "CLI command audit / configuration command history"
+                },
+                {
+                    "name": "networkdevice:syslog",
                     "channel": "Command Audit / Configuration Change"
                 },
                 {
@@ -1150,6 +1154,10 @@
                 },
                 {
                     "name": "WinEventLog:PowerShell",
+                    "channel": "EventCode=4103/4104/4105/4106; command/script-block content "
+                },
+                {
+                    "name": "WinEventLog:PowerShell",
                     "channel": "Get-ADTrust|GetAllTrustRelationships"
                 },
                 {
@@ -1195,6 +1203,58 @@
                 {
                     "name": "WinEventLog:Security",
                     "channel": "EventCode=4103, 4104, 4105, 4106"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Unix shell process (sh, bash, busybox sh, toybox) spawns as child of app process with command-line arguments indicating scripted operation \u2014 shell with arguments confirms script execution not interactive terminal"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Shell or command-executing child process with arguments spawned under managed app context on supervised iOS device"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: pm uninstall OR rm -f called by process NOT IN $MDMAgentPackageList$ for package_count > $BulkUninstallThreshold$ within $DestructionWindow$ \u2014 command-line destruction activity"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: App spawns sh, bash, toybox, toolbox, or su child process with command arguments within $ShellActivityWindow$ of shell launch \u2014 child shell process with arguments is the script execution signal"
+                },
+                {
+                    "name": "mobile:DynamicAnalysis",
+                    "channel": "Dynamic API/runtime trace: Shell process (sh, bash) or command-executing child process spawned under app context on supervised iOS device \u2014 any shell spawn on stock iOS indicates jailbreak or kernel exploit"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): sequential reads across ICS data paths by uid not in authorized data access UIDs, followed by tar/zip invocation within a short window"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): execve of screenshot utility (scrot, import, xwd) on Industrial Control Systems (ICS) Human-Machine Interface (HMI) by User Identifier (UID) not in approved operator UIDs"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): system binary executing with command line piping or decoding external content, from Industrial Control Systems (ICS) service account User Identifier (UID)"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): raw socket creation (SOCK_RAW) or tcpdump/tshark execution by uid not in authorized capture User Identifiers (UIDs)"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): Industrial Control Systems (ICS) tool execution following Secure Shell (SSH) lateral movement session"
+                },
+                {
+                    "name": "gpo:deployment",
+                    "channel": "destructive payload deployed via Group Policy Object (GPO) to multiple hosts simultaneously"
+                },
+                {
+                    "name": "historian:applog",
+                    "channel": "bulk export query returning above bulk query threshold records from account not in approved historian clients"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4688: EventCode=1102 correlated with any other Medium+ confidence alert on the same host within log clear lookback window"
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc6246f8-f393-4023-b7ff-b9aa5e81426b",
+    "id": "bundle--7e99a58d-76a8-42f6-90e2-124dc824909b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:18.993Z",
+            "modified": "2026-09-08T20:28:08.781Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors used Fast Reverse Proxy to communicate with C2.(Citation: Microsoft SharePoint Exploit JUL 2025)(Citation: ESET ToolShell JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bbed43f-e205-4b9f-8e80-b1bdcce3570d",
+    "id": "bundle--1f88559f-3f3c-4bcc-b3dc-f06368b301fe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.096Z",
+            "modified": "2026-09-03T19:47:01.410Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) will initially beacon out to the NKN network via an HTTP POST over TCP 30003.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",

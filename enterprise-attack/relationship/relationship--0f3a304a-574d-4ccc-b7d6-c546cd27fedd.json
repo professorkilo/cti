@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b3db70b-5d43-4294-91c0-a188f3833231",
+    "id": "bundle--d00bd6f0-43b8-4ae1-a76f-2a3ddc0f8a12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:48.027Z",
             "description": "[Crutch](https://attack.mitre.org/software/S0538) can use Dropbox to receive commands and upload stolen data.(Citation: ESET Crutch December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--925a6c52-5cf0-4fec-99de-b0d6917d8593",

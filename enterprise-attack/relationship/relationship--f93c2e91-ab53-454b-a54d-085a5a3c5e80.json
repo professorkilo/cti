@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18f29505-5de4-466a-bea5-3aea4e09a0ed",
+    "id": "bundle--c0d4d404-1367-443a-8d85-e38270f3d1e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:34.598Z",
+            "modified": "2026-09-02T17:55:53.351Z",
             "description": "[Scattered Spider](https://attack.mitre.org/groups/G1015) has obtained malware to use at multiple stages of operations including information stealers, remote access tools, and ransomware.(Citation: Mandiant UNC3944 May 2025)(Citation: Check Point Scattered Spider JUL 2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44d37b89-a739-4810-9111-0d2617a8939b",

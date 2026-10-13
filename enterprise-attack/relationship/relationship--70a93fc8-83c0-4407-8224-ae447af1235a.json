@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1eb1026e-03ec-4aec-acd4-666898a80aee",
+    "id": "bundle--33c4b5a4-b8fd-41fc-aaeb-d228a8b96064",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.079Z",
+            "modified": "2026-09-09T18:39:16.753Z",
             "description": "[WinMM](https://attack.mitre.org/software/S0059) is usually configured with primary and backup domains for C2 communications.(Citation: Baumgartner Naikon 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--22addc7b-b39f-483d-979a-1b35147da5de",

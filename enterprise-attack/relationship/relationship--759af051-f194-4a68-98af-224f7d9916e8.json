@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--220f0bd7-145b-4a13-b7d6-7a4e6b692406",
+    "id": "bundle--0d8af7ad-36c6-4206-8b87-cf0147fe7e1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:33.012Z",
+            "modified": "2026-09-03T19:46:57.029Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has used port 6789 to accept connections on the group's SSH server.(Citation: ESET BlackEnergy Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",

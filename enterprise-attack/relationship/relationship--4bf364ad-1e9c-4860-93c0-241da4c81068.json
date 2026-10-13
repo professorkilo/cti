@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc3f1584-9bca-45f0-82d5-f1dda094ff2e",
+    "id": "bundle--60fd840e-b462-4633-a056-4903f1d8eb2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:47:01.080Z",
             "description": "[RARSTONE](https://attack.mitre.org/software/S0055) downloads its backdoor component from a C2 server and loads it directly into memory.(Citation: Aquino RARSTONE)",
             "relationship_type": "uses",
             "source_ref": "malware--8c553311-0baa-4146-997a-f79acef3d831",

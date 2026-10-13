@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57ba36e8-12e2-45ff-adf1-3e0ce25a7ab1",
+    "id": "bundle--6c8838e9-c269-426b-9b1e-40d687b14023",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:31.778Z",
+            "modified": "2026-09-08T20:28:08.608Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) used the Cloudflare CDN to proxy C2 traffic.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

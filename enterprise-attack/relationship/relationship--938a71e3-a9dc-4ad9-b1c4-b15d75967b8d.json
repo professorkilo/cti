@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c86fce95-3981-4291-b0fb-955add5b952c",
+    "id": "bundle--f28fa3dc-a500-42a0-a599-8a1f8e076102",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Symantec W32.Duqu",
                     "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.",
-                    "url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
+                    "url": "https://web.archive.org/web/20111213083345/https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-06-12T15:51:16.725Z",
             "description": "The discovery modules used with [Duqu](https://attack.mitre.org/software/S0038) can collect information on network connections.(Citation: Symantec W32.Duqu)",
             "relationship_type": "uses",
             "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",

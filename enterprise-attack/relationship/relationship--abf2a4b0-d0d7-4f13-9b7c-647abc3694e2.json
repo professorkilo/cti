@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48dc0a39-0913-410d-97f5-dae051d7f1fc",
+    "id": "bundle--9be9723c-122e-4299-962e-3c92caef73ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-02T20:07:47.420Z",
             "description": "[Okrum](https://attack.mitre.org/software/S0439) uses AES to encrypt network traffic. The key can be hardcoded or negotiated with the C2 server in the registration phase. (Citation: ESET Okrum July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",

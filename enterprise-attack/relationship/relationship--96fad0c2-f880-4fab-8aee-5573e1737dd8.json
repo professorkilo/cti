@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9fc1f46f-4e74-4f8d-a6c4-588db8bb3e4f",
+    "id": "bundle--df2bcd2d-60b7-4b0a-8c46-b6d600772d55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.131Z",
+            "modified": "2026-09-02T20:07:47.299Z",
             "description": "[BendyBear](https://attack.mitre.org/software/S0574) communicates to a C2 server over port 443 using modified RC4 and XOR-encrypted chunks.(Citation: Unit42 BendyBear Feb 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--805480f1-6caa-4a67-8ca9-b2b39650d986",

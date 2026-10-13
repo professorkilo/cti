@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--944b27cc-9152-4b1c-802e-b7b1e5930c90",
+    "id": "bundle--d3b29712-4b77-4ffe-b265-b5b1b3deb4da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.203Z",
+            "modified": "2026-09-03T19:47:03.564Z",
             "description": "[MarkiRAT](https://attack.mitre.org/software/S0652) can initiate communication over HTTP/HTTPS for its C2 server.(Citation: Kaspersky Ferocious Kitten Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--532c6004-b1e8-415b-9516-f7c14ba783b1",

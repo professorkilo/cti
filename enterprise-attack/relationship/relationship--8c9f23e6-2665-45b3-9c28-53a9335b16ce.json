@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05ff6d8b-022a-440e-81e6-52e244936b4b",
+    "id": "bundle--2ab3e5a8-7583-4a55-9353-e6efa13283aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.117Z",
+            "modified": "2026-09-03T19:46:51.722Z",
             "description": "[LOWBALL](https://attack.mitre.org/software/S0042) uses the Dropbox cloud storage service for command and control.(Citation: FireEye admin@338)",
             "relationship_type": "uses",
             "source_ref": "malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b",

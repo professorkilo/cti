@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94099e16-7e04-421e-9eab-e5fa5d887c57",
+    "id": "bundle--6ab8c713-123e-4aa7-9a96-32da51db0997",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.101Z",
+            "modified": "2026-09-03T19:46:54.464Z",
             "description": "[AutoIt backdoor](https://attack.mitre.org/software/S0129) has sent a C2 response that was base64-encoded.(Citation: Forcepoint Monsoon)",
             "relationship_type": "uses",
             "source_ref": "malware--f5352566-1a64-49ac-8f7f-97e1d1a03300",

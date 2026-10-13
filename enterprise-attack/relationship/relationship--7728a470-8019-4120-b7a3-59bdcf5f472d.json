@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f6369d5-8d68-4715-bd10-f57beb736f8a",
+    "id": "bundle--6b8452b7-cfba-4bf2-9e2a-b3c9f1536051",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.088Z",
+            "modified": "2026-09-02T20:09:43.129Z",
             "description": "[FRP](https://attack.mitre.org/software/S1144) can be configured to only accept TLS connections.(Citation: FRP GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",

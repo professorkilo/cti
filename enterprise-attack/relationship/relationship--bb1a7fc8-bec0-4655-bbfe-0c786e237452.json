@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adbf4af9-2364-44e9-b74a-2b514f74ce99",
+    "id": "bundle--65b20ddb-7786-4587-8cd8-3d23296b8118",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:47:04.803Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) can download and execute additional files.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",

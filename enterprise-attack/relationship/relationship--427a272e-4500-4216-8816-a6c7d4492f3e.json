@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77a83796-6fb7-4ea5-b709-bc2acb8388a3",
+    "id": "bundle--b527a769-0c57-4e25-8d9f-5aeef8f2d460",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-03T19:46:55.447Z",
             "description": "[Lucifer](https://attack.mitre.org/software/S0532) can use [certutil](https://attack.mitre.org/software/S0160) for propagation on Windows hosts within intranets.(Citation: Unit 42 Lucifer June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--54a73038-1937-4d71-a253-316e76d5413c",

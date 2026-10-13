@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c40516d-a2fa-4670-8002-1af50fbc9f5b",
+    "id": "bundle--8d2d6bb4-9a55-4c3a-92eb-93b8e196fe1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.951Z",
+            "modified": "2026-09-03T19:46:58.807Z",
             "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) can download additional files onto the host.(Citation: Volexity InkySquid BLUELIGHT August 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",

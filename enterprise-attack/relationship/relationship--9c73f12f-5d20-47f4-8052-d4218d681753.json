@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f05392ef-6689-46df-a496-100190ab2a6f",
+    "id": "bundle--82efdd74-6c27-4d80-9716-7f7fd2da49b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-03T19:47:02.372Z",
             "description": "[Doki](https://attack.mitre.org/software/S0600) has communicated with C2 over HTTPS.(Citation: Intezer Doki July 20)",
             "relationship_type": "uses",
             "source_ref": "malware--4f1c389e-a80e-4a3e-9b0e-9be8c91df64f",

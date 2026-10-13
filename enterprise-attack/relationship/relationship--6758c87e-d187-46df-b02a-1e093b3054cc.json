@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be1a82d2-7660-4e90-a976-69bdf91bd39c",
+    "id": "bundle--8427ab7b-35a7-4d3b-afe2-bffa6be3b143",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.066Z",
+            "modified": "2026-09-03T19:47:02.148Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) has the ability to drop additional files to an infected machine.(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",

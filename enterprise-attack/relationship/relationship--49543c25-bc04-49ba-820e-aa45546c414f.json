@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b95c7da-471a-4837-bb06-bc5b34cd5f58",
+    "id": "bundle--83160df2-2786-4f88-b65d-64a19476296c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:53.983Z",
             "description": "[SMOKEDHAM](https://attack.mitre.org/software/S0649) has used Google Drive and Dropbox to host files downloaded by victims via malicious links.(Citation: FireEye Shining A Light on DARKSIDE May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--7e0f8b0f-716e-494d-827e-310bd6ed709e",

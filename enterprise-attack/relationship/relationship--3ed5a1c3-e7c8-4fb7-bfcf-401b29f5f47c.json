@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2dd072a3-06f9-4476-ac1c-93dc83798ab1",
+    "id": "bundle--010f77df-26c2-4ec3-9cad-903cc9f705be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.010Z",
+            "modified": "2026-09-03T19:46:58.146Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) can send information about the compromised host and upload data to a hardcoded C2 server.(Citation: Cyberreason Anchor December 2019)(Citation: Bitdefender Trickbot VNC module Whitepaper 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

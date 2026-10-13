@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70860009-80b2-45bb-a869-6875bee907a8",
+    "id": "bundle--8d471ea1-f8a3-4550-bdf3-0e1b9b7199f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.949Z",
+            "modified": "2026-09-03T19:46:52.489Z",
             "description": "[PureCrypter](https://attack.mitre.org/software/S9019) can use Telegram or Discord to send infection status messages.(Citation: Zscaler PureCrypter JUN 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6f22487c-dbbf-4a5b-85ca-a8c85e8f2f80",

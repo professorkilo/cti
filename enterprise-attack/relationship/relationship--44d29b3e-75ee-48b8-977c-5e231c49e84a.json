@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d69513d9-6323-4991-bf99-bf071bc2c44f",
+    "id": "bundle--889829c1-b544-4555-9f87-e8bc5bc82a7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.019Z",
+            "modified": "2026-09-02T19:42:04.142Z",
             "description": "[GlassWorm](https://attack.mitre.org/software/S9010) has leveraged blockchain-based C2 infrastructure to include Solana blockchain that contains additional C2 details within the memo field.(Citation: Koi Glassworm New Tricks December 2025)(Citation: Koi Glassworm Extensions November 2025)(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Aikido GlassWorm October 2025)(Citation: Socket GlassWorm January 2026)(Citation: Koi GlassWorm Rust December 2025)  [GlassWorm](https://attack.mitre.org/software/S9010) has also leveraged Google Calendar to host encoded data.(Citation: Koi Glassworm InvisibleCode October 2025)(Citation: Socket GlassWorm January 2026)(Citation: Koi GlassWorm Rust December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--809bc57b-4d4c-43de-b698-448334ed8185",

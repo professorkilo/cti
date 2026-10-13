@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83acf17f-e324-49bf-aabc-5c91fc88216b",
+    "id": "bundle--00fad07c-6699-4281-9537-df8ca16df08e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.445Z",
+            "modified": "2026-09-03T19:46:51.306Z",
             "description": "Several [BRONZE BUTLER](https://attack.mitre.org/groups/G0060) tools encode data with base64 when posting it to a C2 server.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",

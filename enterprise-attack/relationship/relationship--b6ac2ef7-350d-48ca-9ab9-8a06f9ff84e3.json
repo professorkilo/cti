@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--647b5986-6105-4727-9a02-98f4ad7c23c5",
+    "id": "bundle--30c7ad27-34c9-4850-83f5-3c863c68da67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:47:02.997Z",
             "description": "[Chaes](https://attack.mitre.org/software/S0631) has used HTTP for C2 communications.(Citation: Cybereason Chaes Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--77e0ecf7-ca91-4c06-8012-8e728986a87a",

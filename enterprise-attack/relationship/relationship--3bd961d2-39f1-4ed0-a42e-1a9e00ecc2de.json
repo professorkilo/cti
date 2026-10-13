@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e9def4b-8756-4ba5-9ecc-d693d434ada2",
+    "id": "bundle--7c075175-15e9-440b-aa94-d4df218cab85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.004Z",
+            "modified": "2026-09-03T19:46:48.091Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has modified HTTP POST requests to resemble legitimate communications.(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: Palo Alto Networks, Unit 42)  PUBLOAD used FakeTLS headers in network packets to impersonate various versions of TLS protocols to blend in with legitimate network traffic.  [PUBLOAD](https://attack.mitre.org/software/S1228) has utilized FakeTLS headers with the bytes 17 03 03.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

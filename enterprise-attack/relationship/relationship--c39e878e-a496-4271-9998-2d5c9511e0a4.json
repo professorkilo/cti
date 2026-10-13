@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee763e50-eeef-4d6b-9c65-092421051008",
+    "id": "bundle--b26b9f3f-dd25-4277-8747-e05e080500e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.193Z",
+            "modified": "2026-09-03T19:47:04.958Z",
             "description": "[Kasidet](https://attack.mitre.org/software/S0088) has the ability to download and execute additional files.(Citation: Zscaler Kasidet)",
             "relationship_type": "uses",
             "source_ref": "malware--26fed817-e7bf-41f9-829a-9075ffac45c2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93ff22e5-bfff-4d06-ab34-6e868d0b0105",
+    "id": "bundle--58c37351-7951-41a0-b74f-b01ed6bcc3d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.119Z",
+            "modified": "2026-09-03T19:47:03.220Z",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) can download additional files and payloads to compromised hosts.(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Morphisec ShellTea June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",

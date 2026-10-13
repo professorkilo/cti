@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d0f3f55-8c6c-4b26-bacd-1b20d52d98c0",
+    "id": "bundle--ad88b9e4-f9a0-49cd-b608-efe76ef9a8e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.233Z",
+            "modified": "2026-09-02T20:09:43.757Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) can use TLS to encrypt its C2 channel.(Citation: Github PowerShell Empire)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74586fef-d95c-4764-991f-ee30a2c94074",
+    "id": "bundle--2a10cbf0-3c82-4d85-bda8-c2b52f781723",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:46:50.760Z",
             "description": "[Turian](https://attack.mitre.org/software/S0647) can insert pseudo-random characters into its network encryption setup.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--350f12cf-fd3b-4dad-b323-14b943090df4",

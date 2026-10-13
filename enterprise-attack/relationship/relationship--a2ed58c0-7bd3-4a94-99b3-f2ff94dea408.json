@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b84edc2-c97b-462e-be7c-3a121de4bac3",
+    "id": "bundle--a214c0ca-5a3e-4af7-ba43-c4ff9409596f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.147Z",
+            "modified": "2026-09-02T20:09:43.364Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) has used TLS-encrypted FTP to exfiltrate data.(Citation: Cylance Machete Mar 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d596b38d-f9fd-4c4d-8d1b-fa191dc5b67c",
+    "id": "bundle--d0ff44a3-ccdc-476d-86bf-50e976f69953",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:54.092Z",
+            "modified": "2026-09-08T20:28:43.740Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) used custom tools to create SOCK5 and custom protocol proxies between infected hosts.(Citation: FireEye APT39 Jan 2019)(Citation: BitDefender Chafer May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",

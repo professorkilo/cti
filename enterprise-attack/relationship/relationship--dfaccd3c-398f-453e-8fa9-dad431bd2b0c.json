@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--365085ce-ac53-4a17-b9ce-8a3e4fb0798e",
+    "id": "bundle--28d7bf2b-b2af-4512-999b-6c963db32b0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.230Z",
+            "modified": "2026-09-03T19:46:58.497Z",
             "description": "[WARPWIRE](https://attack.mitre.org/software/S1116) can Base64 encode captured credentials with `btoa()` prior to sending to C2.(Citation: Mandiant Cutting Edge January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a5818d36-e9b0-46da-842d-b727a5e36ea6",

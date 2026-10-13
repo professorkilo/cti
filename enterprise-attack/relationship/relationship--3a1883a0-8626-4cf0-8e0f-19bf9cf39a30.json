@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f2fab9b-ca9b-4f7d-a498-77cd13c1a852",
+    "id": "bundle--739e65cb-17c0-4e45-92d2-aca0b10f22be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-03T19:46:49.450Z",
             "description": "[Astaroth](https://attack.mitre.org/software/S0373) encodes data using Base64 before sending it to the C2 server. (Citation: Cofense Astaroth Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--edb24a93-1f7a-4bbf-a738-1397a14662c6",

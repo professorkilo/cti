@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d41eb2f3-383a-468f-bb11-d9c96069af96",
+    "id": "bundle--90aafa16-fc11-4603-a03d-1a60ee5bede4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.183Z",
+            "modified": "2026-09-02T20:00:41.250Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has abused compromised credentials to exfiltrate data from SharePoint.(Citation: Microsoft Silk Typhoon MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",

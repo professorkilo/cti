@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b9a16f5-5da1-423e-a5fc-8f4b5ced209d",
+    "id": "bundle--329301fa-ae85-4fcc-ba80-611d8ecd494b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-09T18:39:16.674Z",
             "description": "[FatDuke](https://attack.mitre.org/software/S0512) has used several C2 servers per targeted organization.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--54a01db0-9fab-4d5f-8209-53cef8425f4a",

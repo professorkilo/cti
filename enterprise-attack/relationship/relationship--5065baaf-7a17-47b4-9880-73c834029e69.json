@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94f1e263-f3d7-4017-8259-7ce23d71c007",
+    "id": "bundle--637679e0-7de5-4aab-9931-7fa624500c93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.572Z",
+            "modified": "2026-09-02T17:31:48.868Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has set up Clouflare Tunnels for malware C2.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Aikido TeamPCP Telnyx MAR 2026)(Citation: Trend Micro TeamPCP MAY 2026) [TeamPCP](https://attack.mitre.org/groups/G1056) has also used the session messenger network for decentralized, encrypted exfiltration via\u202f *.getsession[.]org\u202fto recipient \u202fID\u202f`05f9e609d79eed391015e11380dee4b5c9ead0b6e2e7f0134e6e51767a87323026`.(Citation: Wiz Mini Shai-Hulud MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

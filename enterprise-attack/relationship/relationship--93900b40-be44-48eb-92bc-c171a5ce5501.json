@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--42dfe422-28af-4d9e-ba13-1ecb4f6c1993",
+    "id": "bundle--911033b6-facf-4041-84c5-74ec5f1743ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-09-08T20:28:08.656Z",
             "description": "[FunnyDream](https://attack.mitre.org/software/S1044) can identify and use configured proxies in a compromised network for C2 communication.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--be25c1c0-1590-4219-a3d5-6f31799d1d1b",

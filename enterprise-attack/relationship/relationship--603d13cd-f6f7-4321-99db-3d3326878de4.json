@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53823a05-5856-49a5-b6e3-09ba831ef347",
+    "id": "bundle--82cd9dfc-2ef4-438f-ab21-11eb8821bd91",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.056Z",
+            "modified": "2026-09-02T20:07:46.773Z",
             "description": "[HiddenWasp](https://attack.mitre.org/software/S0394) uses an RC4-like algorithm with an already computed PRGA generated key-stream for network communication.(Citation: Intezer HiddenWasp Map 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--fc774af4-533b-4724-96d2-ac1026316794",

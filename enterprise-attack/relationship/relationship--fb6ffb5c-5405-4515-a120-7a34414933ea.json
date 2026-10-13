@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7d50e72-e8e3-4620-a085-2621ee7935a8",
+    "id": "bundle--7f22ec44-217d-40db-aac3-f8b45d8a6846",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:36.034Z",
+            "modified": "2026-09-02T18:17:25.367Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.(Citation: Palo Alto OilRig April 2017)(Citation: Unit42 OilRig Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

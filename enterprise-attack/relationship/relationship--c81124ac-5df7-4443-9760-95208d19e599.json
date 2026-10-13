@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9cceea5d-6591-4304-a657-2b07ffab76f7",
+    "id": "bundle--37b3fd7e-aa8c-464a-a8ec-1699404c478a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-03T19:46:50.330Z",
             "description": "[Goopy](https://attack.mitre.org/software/S0477) has the ability to use a Microsoft Outlook backdoor macro to communicate with its C2.(Citation: Cybereason Cobalt Kitty 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",

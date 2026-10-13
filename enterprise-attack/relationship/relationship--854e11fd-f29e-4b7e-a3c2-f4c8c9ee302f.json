@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--29151012-16a7-4685-af93-479d64e6c311",
+    "id": "bundle--9f422022-87fd-4343-a053-7a5ac6487352",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.107Z",
+            "modified": "2026-09-09T18:44:33.816Z",
             "description": "Use of multi-factor authentication for public-facing webmail servers is a recommended best practice to minimize the usefulness of usernames and passwords to adversaries.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--b045d015-6bed-4490-bd38-56b41ece59a0",

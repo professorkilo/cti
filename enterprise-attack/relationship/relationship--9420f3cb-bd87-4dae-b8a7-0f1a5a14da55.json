@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--894923d2-ca69-4eec-bbd9-7dca9a9f3a4d",
+    "id": "bundle--19ae77df-fbba-4df9-bd5d-809c44fca490",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.127Z",
+            "modified": "2026-09-03T19:46:51.825Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) has used compromised WordPress blogs as C2 servers.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4baadde-d840-4178-9d72-de0c9ef4d770",
+    "id": "bundle--2c80cfa9-1695-4b31-84eb-5d79c6f738cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.231Z",
+            "modified": "2026-09-03T19:47:05.593Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) has the ability to download additional modules to a compromised host.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

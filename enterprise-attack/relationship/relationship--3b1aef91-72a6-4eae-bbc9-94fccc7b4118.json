@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c967cbe3-1ed2-4c7c-a331-99aaea5b9b87",
+    "id": "bundle--f2b59187-70d6-4f24-8ed9-41d99837650f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.003Z",
+            "modified": "2026-09-03T19:46:58.527Z",
             "description": "[Dacls](https://attack.mitre.org/software/S0497) can use HTTPS in C2 communications.(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3aa169f8-bbf6-44bb-b57d-7f6ada5c2128",

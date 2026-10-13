@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74969502-ded1-47ad-b5ba-8f5f4b1ce44b",
+    "id": "bundle--11a5d28a-f1e2-4683-8d33-fa12c36b3c73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.158Z",
+            "modified": "2026-09-03T19:47:02.736Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) has utilized HTTP for a C2 protocol through HTTP POST.(Citation: CSIRT CTI MUSTANG PANDA PUBLOAD TONESHELL JAN 2024)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload) [TONESHELL](https://attack.mitre.org/software/S1239) has also utilized HTTPS for C2.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

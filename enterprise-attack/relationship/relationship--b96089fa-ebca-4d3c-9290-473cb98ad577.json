@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--998b7f37-eb9a-4609-8720-609ffa041892",
+    "id": "bundle--a90678ea-503e-4303-b8a0-adaf4b154730",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-03T19:47:04.766Z",
             "description": "[MechaFlounder](https://attack.mitre.org/software/S0459) has the ability to upload and download files to and from a compromised host.(Citation: Unit 42 MechaFlounder March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--dfa03c7d-79ed-4ce2-b9d1-ddc9dbf56ad2",

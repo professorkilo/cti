@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--77043283-367c-40df-be87-82000d7534a9",
+    "id": "bundle--dd810b25-b53c-42f5-b735-f11e9125bc9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -67,8 +67,8 @@
                 },
                 {
                     "source_name": "ThreatConnect Infrastructure Dec 2020",
-                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved October 12, 2021.",
-                    "url": "https://threatconnect.com/blog/infrastructure-research-hunting/"
+                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved September 17, 2026.",
+                    "url": "https://web.archive.org/web/20221130114004/https://threatconnect.com/blog/infrastructure-research-hunting/"
                 },
                 {
                     "source_name": "FireEye EPS Awakens Part 2",
@@ -79,7 +79,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-24T17:49:01.181Z",
+            "modified": "2026-09-18T00:31:20.766Z",
             "name": "Compromise Infrastructure",
             "description": "Adversaries may compromise third-party infrastructure that can be used during targeting. Infrastructure solutions include physical or cloud servers, domains, network devices, and third-party web and DNS services. Instead of buying, leasing, or renting infrastructure an adversary may compromise infrastructure and use it during other phases of the adversary lifecycle.(Citation: Mandiant APT1)(Citation: ICANNDomainNameHijacking)(Citation: Talos DNSpionage Nov 2018)(Citation: FireEye EPS Awakens Part 2) Additionally, adversaries may compromise numerous machines to form a botnet they can leverage.\n\nUse of compromised infrastructure allows adversaries to stage, launch, and execute operations. Compromised infrastructure can help adversary operations blend in with traffic that is seen as normal, such as contact with high reputation or trusted sites. For example, adversaries may leverage compromised infrastructure (potentially also in conjunction with [Digital Certificates](https://attack.mitre.org/techniques/T1588/004)) to further blend in and support staged information gathering and/or [Phishing](https://attack.mitre.org/techniques/T1566) campaigns.(Citation: FireEye DNS Hijack 2019) Adversaries may also compromise numerous machines to support [Proxy](https://attack.mitre.org/techniques/T1090) and/or proxyware services or to form a botnet.(Citation: amnesty_nso_pegasus)(Citation: Sysdig Proxyjacking) Additionally, adversaries may compromise infrastructure residing in close proximity to a target in order to gain [Initial Access](https://attack.mitre.org/tactics/TA0001) via [Wi-Fi Networks](https://attack.mitre.org/techniques/T1669).(Citation: Nearest Neighbor Volexity)\n\nBy using compromised infrastructure, adversaries may enable follow-on malicious operations. Prior to targeting, adversaries may also compromise the infrastructure of other adversaries.(Citation: NSA NCSC Turla OilRig)",
             "kill_chain_phases": [
@@ -88,7 +88,7 @@
                     "phase_name": "resource-development"
                 }
             ],
-            "x_mitre_attack_spec_version": "3.2.0",
+            "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_contributors": [
                 "Jeremy Galloway",
                 "Shailesh Tiwary (Indian Army)",

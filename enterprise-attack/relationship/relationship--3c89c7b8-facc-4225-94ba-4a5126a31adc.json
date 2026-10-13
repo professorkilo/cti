@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--328607b3-9246-485b-a7c4-bbc15c13d386",
+    "id": "bundle--b56de7ce-ee98-4d73-b68d-9cc270bd584c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.781Z",
+            "modified": "2026-09-03T19:47:00.164Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) has downloaded additional tools and malware onto compromised networks.(Citation: Mandiant No Easy Breach)(Citation: PWC WellMess July 2020)(Citation: F-Secure The Dukes)(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa9fc8e6-b777-4da5-858f-2549b8d4c825",
+    "id": "bundle--31f3f9fd-b1eb-4b88-9a39-47aab7cb84e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-03T19:46:56.432Z",
             "description": "[CostaBricks](https://attack.mitre.org/software/S0614) can download additional payloads onto a compromised host.(Citation: BlackBerry CostaRicto November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--13183cdf-280b-46be-913a-5c6df47831e7",

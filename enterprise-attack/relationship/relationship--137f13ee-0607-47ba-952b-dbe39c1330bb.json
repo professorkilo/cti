@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--104d0a45-afba-45ac-b942-58dad617af1a",
+    "id": "bundle--624aa627-6262-47a2-8f3d-c70596c1daa6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-03T19:46:57.191Z",
             "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) had the ability to download additional payloads.(Citation: FOX-IT May 2016 Mofang)",
             "relationship_type": "uses",
             "source_ref": "tool--115f88dd-0618-4389-83cb-98d33ae81848",

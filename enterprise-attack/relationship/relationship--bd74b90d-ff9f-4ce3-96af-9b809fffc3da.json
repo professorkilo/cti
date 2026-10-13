@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75c526f7-8f11-486e-936d-5a81bfec4862",
+    "id": "bundle--85621cb4-eb7e-4e4b-a0e7-410c3711a2f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.184Z",
+            "modified": "2026-09-09T18:39:17.081Z",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) uses a backup communication method with an HTTP beacon.(Citation: Fidelis Turbo)",
             "relationship_type": "uses",
             "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",

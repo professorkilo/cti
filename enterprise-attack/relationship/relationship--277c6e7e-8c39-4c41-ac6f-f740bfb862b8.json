@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--437eafe3-93b9-4178-8fc7-140aaa516c98",
+    "id": "bundle--6a21f4f8-ec70-4b04-9ffb-814de325645a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.959Z",
+            "modified": "2026-09-03T19:46:55.676Z",
             "description": "[FatDuke](https://attack.mitre.org/software/S0512) can be controlled via a custom C2 protocol over HTTP.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--54a01db0-9fab-4d5f-8209-53cef8425f4a",

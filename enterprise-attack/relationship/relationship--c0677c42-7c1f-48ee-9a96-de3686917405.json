@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c106559-2772-4820-a891-0cca5022c320",
+    "id": "bundle--398103c2-3560-46ef-a37f-bebcb4dd936f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.188Z",
+            "modified": "2026-09-03T19:46:58.033Z",
             "description": "[Mori](https://attack.mitre.org/software/S1047) can use Base64 encoded JSON libraries used in C2.(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7e100ca4-e639-48d9-9a9d-8ad84aa7b448",

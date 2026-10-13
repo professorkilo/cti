@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fcc6b9b-9524-4afb-8eb0-ce5479ee5043",
+    "id": "bundle--2f5d89a8-68e7-4b38-9f83-3abe28963aea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:30.084Z",
+            "modified": "2026-09-03T19:46:57.123Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used tools to encode C2 communications including Base64 encoding.(Citation: ClearSky MuddyWater June 2019)(Citation: Trend Micro Muddy Water March 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

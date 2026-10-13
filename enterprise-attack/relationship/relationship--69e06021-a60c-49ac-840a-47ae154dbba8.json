@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82b6a868-586f-42ff-ab82-e0dca797afa9",
+    "id": "bundle--1b8b791c-f114-4a7f-b307-43609054cb07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.069Z",
+            "modified": "2026-09-02T20:00:41.299Z",
             "description": "Consider periodic review of accounts and privileges for critical and sensitive SharePoint repositories.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

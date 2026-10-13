@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c73a04a-bd64-445e-8b69-ac0905b26bfa",
+    "id": "bundle--c174f6bc-78a3-492a-9c5d-6b07b2896b8f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-03T19:46:50.650Z",
             "description": "[BITSAdmin](https://attack.mitre.org/software/S0190) can be used to create [BITS Jobs](https://attack.mitre.org/techniques/T1197) to upload files from a compromised host.(Citation: Microsoft BITSAdmin)",
             "relationship_type": "uses",
             "source_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",

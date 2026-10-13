@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7df61a33-f423-4d2b-8d30-112855b8957b",
+    "id": "bundle--55b418c5-16f5-4083-993a-5c69100305c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.010Z",
+            "modified": "2026-09-02T17:31:49.168Z",
             "description": "In May 2026 [TeamPCP](https://attack.mitre.org/groups/G1056) announced co-ownership of the BreachForums cybercriminal forum claiming responsibility for platform operations, dispute resolution, personnel vetting, and hosting monetary contests.(Citation: Flashpoint Mini Shai-Hulud MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

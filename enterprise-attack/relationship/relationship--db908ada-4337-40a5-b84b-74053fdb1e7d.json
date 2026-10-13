@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c180563-fc5e-48ba-8425-51e56795a2d9",
+    "id": "bundle--bb6f45ca-dd98-4814-9386-8b8f6bb02a14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-15T18:31:28.461Z",
+            "modified": "2026-09-02T20:07:47.817Z",
             "description": "[TeamPCP Cloud Stealer](https://attack.mitre.org/software/S9041) has encrypted collected data using a hybrid AES-256 and RSA-4096 encryption prior to exfiltration over 'curl`.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Sysdig TeamPCP MAR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--fe5b2f0f-8fdc-459d-85b7-dd45c0217a0c",

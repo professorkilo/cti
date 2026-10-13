@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9b82099-9521-4bf3-805f-993d74cf6ba5",
+    "id": "bundle--21b29af8-ce23-4e09-958e-5f0526973efe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-03T19:46:47.146Z",
             "description": "[SeaDuke](https://attack.mitre.org/software/S0053) C2 traffic is base64-encoded.(Citation: Unit 42 SeaDuke 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",

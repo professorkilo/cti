@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc0501cc-5a4b-4c01-8b68-2f4cbcb2981f",
+    "id": "bundle--af18c931-ab68-4fc3-a9aa-4d293623b603",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.962Z",
+            "modified": "2026-09-03T19:46:59.251Z",
             "description": "[TAMECAT](https://attack.mitre.org/software/S1193) has used `wget` and `curl` to download additional content.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--12fdf05a-4bd1-4f45-9cde-d3af35f82db1",

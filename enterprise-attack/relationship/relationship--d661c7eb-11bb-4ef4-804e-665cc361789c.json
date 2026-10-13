@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73d80ccc-dca0-4e8e-999d-0133caa3b205",
+    "id": "bundle--207c592c-bdfc-4a08-a2f2-dd1d083fe2b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-03T19:46:59.153Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) has the ability to use TCP for external C2.(Citation: Palo Alto Brute Ratel July 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",

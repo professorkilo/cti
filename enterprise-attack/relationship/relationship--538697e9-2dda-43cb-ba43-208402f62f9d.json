@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76f3ceb6-a2ec-4828-adf4-f3ec00e25c48",
+    "id": "bundle--bd325604-cc51-4095-bd42-32d30ddc2ecc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.039Z",
+            "modified": "2026-09-03T19:47:01.296Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) retrieves its second stage payload in a variety of ways such as through msiexec.exe abuse, or running the curl command to download the payload to the victim's <code>%AppData%</code> folder.(Citation: HP RaspberryRobin 2024)(Citation: RedCanary RaspberryRobin 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

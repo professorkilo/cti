@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb62398b-07f8-40f5-bc13-e12378b01a7c",
+    "id": "bundle--8d2552db-5d93-4c37-8be8-3a9548f9fafa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:31.125Z",
+            "modified": "2026-09-03T19:47:04.700Z",
             "description": "[Nomadic Octopus](https://attack.mitre.org/groups/G0133) has used malicious macros to download additional files to the victim's machine.(Citation: ESET Nomadic Octopus 2018) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fed4f0a2-4347-4530-b0f5-6dfd49b29172",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac7194d8-ae6a-496e-a713-c99d7b7d06b4",
+    "id": "bundle--b3b8c28f-cb4d-4161-bc96-100ddda646ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:30.922Z",
+            "modified": "2026-09-03T19:46:59.414Z",
             "description": "[Versa Director Zero Day Exploitation](https://attack.mitre.org/campaigns/C0039) used a non-standard TCP session to initialize communication prior to establishing HTTPS command and control.(Citation: Lumen Versa 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--af0ec65a-caa9-40ef-b1c7-21b71fbf3a10",

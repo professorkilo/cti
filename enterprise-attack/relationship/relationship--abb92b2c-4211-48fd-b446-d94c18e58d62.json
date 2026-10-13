@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c974d9f4-f54f-4212-ab04-c7e7344ca0cb",
+    "id": "bundle--f66c1227-1bff-40c2-9b91-8e5a37a20f07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:47:02.753Z",
             "description": "[COATHANGER](https://attack.mitre.org/software/S1105) uses an HTTP GET request to initialize a follow-on TLS tunnel for command and control.(Citation: NCSC-NL COATHANGER Feb 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--0c242cc5-58d3-4fe3-a866-b00a4b6fb817",

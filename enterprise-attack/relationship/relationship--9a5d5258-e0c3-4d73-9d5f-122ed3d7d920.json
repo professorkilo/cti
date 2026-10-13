@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--90c03ea0-6341-4dfb-85fd-e25e4f1a6959",
+    "id": "bundle--9f4492aa-4acc-4114-b8b8-35ca675e45fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.136Z",
+            "modified": "2026-09-03T19:47:02.343Z",
             "description": "[FlawedAmmyy](https://attack.mitre.org/software/S0381) has used HTTP for C2.(Citation: Proofpoint TA505 Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--432555de-63bf-4f2a-a3fa-f720a4561078",

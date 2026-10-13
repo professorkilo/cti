@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce8de534-9438-4622-854d-7a4ee7716f05",
+    "id": "bundle--afc6ffbe-dd3d-41a1-a174-cc274664d993",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.051Z",
+            "modified": "2026-09-03T14:50:23.887Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) has used encrypted strings in its dropper component.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

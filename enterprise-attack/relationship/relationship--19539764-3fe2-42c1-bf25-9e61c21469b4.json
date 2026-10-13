@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22ce55e4-d3d5-449e-acc1-de6adc4f64f6",
+    "id": "bundle--7d4c807e-390d-42e8-9092-a85ad3a73c55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.939Z",
+            "modified": "2026-09-03T19:46:52.572Z",
             "description": "[Heyoka Backdoor](https://attack.mitre.org/software/S1027) can use spoofed DNS requests to create a bidirectional tunnel between a compromised host and its C2 servers.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dff90475-9f72-41a6-84ed-1fbefd3874c0",

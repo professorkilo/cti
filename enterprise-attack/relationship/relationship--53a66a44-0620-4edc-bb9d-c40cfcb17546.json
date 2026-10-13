@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e73743e6-190a-4c89-931c-a8b2511ffe49",
+    "id": "bundle--230a747a-4151-43fd-bf87-2af85746e1ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.714Z",
+            "modified": "2026-09-03T19:46:49.822Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has used GitHub as C2, pulling hosted image payloads then committing command execution output to files in specific directories.(Citation: Lazarus APT January 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

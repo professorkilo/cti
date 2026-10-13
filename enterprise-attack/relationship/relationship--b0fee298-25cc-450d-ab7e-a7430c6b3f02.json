@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--426c895c-8ede-491e-bce3-9bcedcfb5fab",
+    "id": "bundle--6aa08ab5-be45-4522-8ba6-eb38918db98f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-03T19:46:56.120Z",
             "description": "[WhisperGate](https://attack.mitre.org/software/S0689) can download additional payloads hosted on a Discord channel.(Citation: Crowdstrike WhisperGate January 2022)(Citation: Unit 42 WhisperGate January 2022)(Citation: Microsoft WhisperGate January 2022)(Citation: Cisco Ukraine Wipers January 2022)(Citation: Medium S2W WhisperGate January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--49fee0b0-390e-4bde-97f8-97ed46bd19b7",

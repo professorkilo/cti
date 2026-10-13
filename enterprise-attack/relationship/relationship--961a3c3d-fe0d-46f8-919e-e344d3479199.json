@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3b3d63e-af81-4c17-b80a-8e0b04f4f2e0",
+    "id": "bundle--64c5a95d-3e53-40bd-9dfc-96ee678ec043",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:47.020Z",
+            "modified": "2026-09-02T20:09:43.306Z",
             "description": "[RedEcho](https://attack.mitre.org/groups/G1042) uses SSL for network communication.(Citation: RecordedFuture RedEcho 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2c40f629-6cf9-4f75-af32-9a98caec24ae",

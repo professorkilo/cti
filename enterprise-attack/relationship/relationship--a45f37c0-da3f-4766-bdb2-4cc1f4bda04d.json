@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9167c06b-5f37-47d7-88c7-b9921116da2a",
+    "id": "bundle--f426282f-5de4-4f5b-988c-8f0f045ce135",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.149Z",
+            "modified": "2026-09-03T19:47:02.590Z",
             "description": "[httpclient](https://attack.mitre.org/software/S0068) uses HTTP for command and control.(Citation: CrowdStrike Putter Panda)",
             "relationship_type": "uses",
             "source_ref": "malware--e8268361-a599-4e45-bd3f-71c8c7e700c0",

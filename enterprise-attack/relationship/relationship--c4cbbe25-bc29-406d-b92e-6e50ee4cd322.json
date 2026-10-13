@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f37af3f5-519e-472d-8b60-ce0c755d6625",
+    "id": "bundle--11247bf9-b3bd-4734-b53f-27ee3f6154b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-03T19:47:05.047Z",
             "description": "[SHUTTERSPEED](https://attack.mitre.org/software/S0217) can download and execute an arbitary executable.(Citation: FireEye APT37 Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--4189a679-72ed-4a89-a57c-7f689712ecf8",

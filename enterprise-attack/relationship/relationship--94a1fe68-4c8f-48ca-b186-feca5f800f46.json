@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0220857c-9063-4bd8-b16e-56be01ed4d50",
+    "id": "bundle--1992e820-c102-4747-b750-afa8b01f8878",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-09T18:39:16.835Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can change its C2 channel once every 360 loops by retrieving a new domain from the actors\u2019 S3 bucket.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

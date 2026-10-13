@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf08cb70-40b9-48bd-82d6-246ccbfc1929",
+    "id": "bundle--17dc4dd0-d8a3-4017-be81-19d4edc33a28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:28.663Z",
+            "modified": "2026-09-03T19:47:05.192Z",
             "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has copied and installed tools for operations once in the victim environment.(Citation: US-CERT TA18-074A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",

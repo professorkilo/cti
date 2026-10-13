@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1244a5ae-4e8e-40db-95b3-0efbe056720c",
+    "id": "bundle--2e74f05d-4dd6-4e31-a1a2-bf912680e6c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.254Z",
+            "modified": "2026-09-03T19:46:55.927Z",
             "description": "[Emotet](https://attack.mitre.org/software/S0367) has encrypted data before sending to the C2 server.(Citation: Fortinet Emotet May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",

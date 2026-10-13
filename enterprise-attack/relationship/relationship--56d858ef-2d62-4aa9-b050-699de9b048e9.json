@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5f0e60a9-fc1c-4f51-a3d6-11c83f3e3caa",
+    "id": "bundle--80105fd7-981c-44db-9989-36e83f68a28c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.044Z",
+            "modified": "2026-09-03T19:47:01.477Z",
             "description": "[MobileOrder](https://attack.mitre.org/software/S0079) has a command to download a file from the C2 server to the victim mobile device's SD card.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",

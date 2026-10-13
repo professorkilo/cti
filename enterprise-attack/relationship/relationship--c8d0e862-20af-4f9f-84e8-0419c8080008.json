@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--38abdeca-9176-4198-b6a6-5085601b3b42",
+    "id": "bundle--c687cf67-ab34-41f5-8dc8-fe61ee2caa7e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-02T20:07:47.659Z",
             "description": "[SeaDuke](https://attack.mitre.org/software/S0053) C2 traffic has been encrypted with RC4 and AES.(Citation: Mandiant No Easy Breach)(Citation: Unit 42 SeaDuke 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",

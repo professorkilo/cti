@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1185aebe-8891-406b-ab3b-d910ee3e293f",
+    "id": "bundle--dac40d00-5c8b-43fc-beab-c1c41411a989",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.216Z",
+            "modified": "2026-09-03T19:46:58.359Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can Base64 encode system information sent to C2.(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",

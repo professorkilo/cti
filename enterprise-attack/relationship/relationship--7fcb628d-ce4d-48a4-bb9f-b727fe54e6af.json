@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56897b9f-d63c-407c-ad37-ca08b83801fb",
+    "id": "bundle--86128ce7-3776-43cd-9384-00a9ce0eb580",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:25.178Z",
+            "modified": "2026-09-03T19:47:01.519Z",
             "description": "[Inception](https://attack.mitre.org/groups/G0100) has used HTTP, HTTPS, and WebDav in network communications.(Citation: Kaspersky Cloud Atlas December 2014)(Citation: Unit 42 Inception November 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",

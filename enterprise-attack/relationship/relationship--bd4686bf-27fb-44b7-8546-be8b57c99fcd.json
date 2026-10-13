@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f6b46273-d5a6-4892-ac85-bde3303c2bec",
+    "id": "bundle--10c70a09-01cc-43fb-b538-169f7a9c4dc0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.184Z",
+            "modified": "2026-08-27T17:55:54.048Z",
             "description": "Some vendors of embedded network devices provide cryptographic signing to ensure the integrity of operating system images at boot time.  Implement where available, following vendor guidelines. (Citation: Cisco IOS Software Integrity Assurance - Secure Boot)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb",

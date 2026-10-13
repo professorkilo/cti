@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e74bd74a-b373-44ca-ba4f-75306d9b8a6d",
+    "id": "bundle--71008473-7c71-4d03-8c8c-4ecc740d0a3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -64,7 +64,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.357Z",
+            "modified": "2026-09-02T17:31:48.716Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has registered domains resembling legitimate victim sites such as scan.aquasecurtiy[.]org, checkmarx[.]zone, and git-tanstack[.]com to mask C2 and exfiltration endpoints.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Sysdig TeamPCP MAR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026) [TeamPCP](https://attack.mitre.org/groups/G1056) has also set up a dark web leak site to post stolen data.(Citation: Palo Alto TeamPCP MAR 2026)(Citation: FBI TeamPCP JUL 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

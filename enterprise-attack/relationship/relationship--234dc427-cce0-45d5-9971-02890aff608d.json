@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca51ddeb-4e6b-4397-8c3c-e05ac36a6bec",
+    "id": "bundle--7c210d19-2ac1-43b6-b68c-013ce543cb81",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-03T19:46:48.635Z",
             "description": "[yty](https://attack.mitre.org/software/S0248) communicates to the C2 server by retrieving a Google Doc.(Citation: ASERT Donot March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0817aaf2-afea-4c32-9285-4dcd1df5bf14",

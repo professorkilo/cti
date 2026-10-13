@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--173207de-3023-4e5f-9d10-3a532fd335ed",
+    "id": "bundle--73277e89-4a7f-4752-8245-55280ec108ac",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-03T19:46:55.264Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has exfiltrated data collected from victim devices to C2 servers.(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

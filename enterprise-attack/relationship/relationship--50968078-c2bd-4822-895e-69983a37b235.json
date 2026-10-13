@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f199f259-f40b-4fcd-8aab-ac5c0198c02e",
+    "id": "bundle--223f2d8a-a22f-490f-9df8-bdfaf9c943b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,11 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "CISA_AA25-239ASaltTyphoon_Sept2025",
+                    "description": "CISA. (2025, September 3). Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System. Retrieved September 22, 2026.",
+                    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+                },
+                {
                     "source_name": "Cisco Salt Typhoon FEB 2025",
                     "description": "Cisco Talos. (2025, February 20). Weathering the storm: In the midst of a Typhoon. Retrieved February 24, 2025.",
                     "url": "https://blog.talosintelligence.com/salt-typhoon-analysis/"
@@ -19,8 +24,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:41.809Z",
-            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has exfiltrated configuration files from exploited network devices over FTP and TFTP.(Citation: Cisco Salt Typhoon FEB 2025)",
+            "modified": "2026-09-23T15:16:50.532Z",
+            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has exfiltrated configuration files from exploited network devices over FTP and TFTP.(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",
             "target_ref": "attack-pattern--fb8d023d-45be-47e9-bc51-f56bcae6435b",

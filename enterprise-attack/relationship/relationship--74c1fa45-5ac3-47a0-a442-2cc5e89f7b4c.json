@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18bcdcf7-d61a-4f7a-8663-5348ce00c921",
+    "id": "bundle--f1d60565-94a0-4f34-8ac5-ae5faf3815a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.085Z",
+            "modified": "2026-09-03T19:47:02.559Z",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) can download files and upgrade itself.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",

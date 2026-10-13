@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e1a2142-592d-4d86-a807-a5c1c0bb96a7",
+    "id": "bundle--0cafce89-3890-4ebc-a247-45928c59822b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-29T21:20:36.777Z",
+            "modified": "2026-09-09T18:39:16.714Z",
             "description": "[TeamPCP Cloud Stealer](https://attack.mitre.org/software/S9041) can compress and encrypt data and exfiltrate it via POST to an attacker-controlled domain. If that method fails it can use the victim's own GitHub account to create a public repository and uploads the encrypted data as a release asset.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--fe5b2f0f-8fdc-459d-85b7-dd45c0217a0c",

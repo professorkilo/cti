@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bba404bb-3381-4810-a811-e6c05c77f14c",
+    "id": "bundle--6aee93c5-c090-4ecb-846f-6164529b8fe1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-03T19:46:50.985Z",
             "description": "[GrimAgent](https://attack.mitre.org/software/S0632) can base64 encode C2 replies.(Citation: Group IB GrimAgent July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",

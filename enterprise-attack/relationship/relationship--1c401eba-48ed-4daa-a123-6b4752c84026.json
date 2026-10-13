@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--354a8498-b39f-480c-a767-23e7076a0ccd",
+    "id": "bundle--74882518-edbf-45c1-8a34-80fedc7cb356",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:19.170Z",
+            "modified": "2026-09-08T20:28:08.062Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) proxied communication through the Cloudflare CDN service during [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047).(Citation: Recorded Future RedDelta 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--276671b5-5425-48db-ad65-c8c2564a969b",

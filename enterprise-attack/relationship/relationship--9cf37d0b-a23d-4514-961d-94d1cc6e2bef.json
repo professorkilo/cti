@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75143023-9cba-406f-adcf-1db8f21d6bb0",
+    "id": "bundle--2161973f-f1c5-4359-8200-79f3e8214346",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.139Z",
+            "modified": "2026-09-03T19:46:56.723Z",
             "description": "[Prikormka](https://attack.mitre.org/software/S0113) encodes C2 traffic with Base64.(Citation: ESET Operation Groundbait)",
             "relationship_type": "uses",
             "source_ref": "malware--37cc7eb6-12e3-467b-82e8-f20f2cc73c69",

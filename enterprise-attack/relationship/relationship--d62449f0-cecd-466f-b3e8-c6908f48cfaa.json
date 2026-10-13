@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08d60c9a-c468-428e-83f2-3543f3c25820",
+    "id": "bundle--cb2b9a25-a248-4ee7-b90d-61ca58521a32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-03T19:46:55.299Z",
             "description": "SSL/TLS inspection can be used to see the contents of encrypted sessions to look for network-based indicators of malware communication protocols.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7bb5fae9-53ad-4424-866b-f0ea2a8b731d",

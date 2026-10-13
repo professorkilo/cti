@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8bc16b7f-bf57-4802-856e-0b46a6333590",
+    "id": "bundle--389bb4b3-4af2-48f1-9b40-58e73efcd07b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -64,7 +64,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.423Z",
+            "modified": "2026-09-03T19:46:56.701Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has downloaded files, malware, and tools from its C2 onto a compromised host.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: Novetta Blockbuster Loaders)(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)(Citation: Kaspersky ThreatNeedle Feb 2021)(Citation: Google TAG Lazarus Jan 2021)(Citation: Lazarus APT January 2022)(Citation: Qualys LolZarus)(Citation: ESET Twitter Ida Pro Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0b2a59a-157b-41e0-80a2-ed9736a6129a",
+    "id": "bundle--460f7dcc-b555-4d19-8ce6-0e4ef05110fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-03T19:47:03.469Z",
             "description": "[APT12](https://attack.mitre.org/groups/G0005) has used [RIPTIDE](https://attack.mitre.org/software/S0003), a RAT that uses HTTP to communicate.(Citation: Moran 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--ad4f146f-e3ec-444a-ba71-24bffd7f0f8e",

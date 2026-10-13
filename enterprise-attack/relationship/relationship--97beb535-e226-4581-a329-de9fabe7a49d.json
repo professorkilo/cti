@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa8af453-6019-4089-960d-216b99c1c6fb",
+    "id": "bundle--812bb704-70f1-4490-9159-b42036d7487c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.132Z",
+            "modified": "2026-09-03T19:46:56.533Z",
             "description": "[CreepySnail](https://attack.mitre.org/software/S1024) can use Base64 to encode its C2 traffic.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--d23de441-f9cf-4802-b1ff-f588a11a896b",

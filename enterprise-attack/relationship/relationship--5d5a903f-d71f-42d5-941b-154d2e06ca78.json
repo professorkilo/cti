@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79c52bdd-e4bf-4241-87fd-46e49d014f02",
+    "id": "bundle--ebfb52fc-703a-4d81-804d-ad44416f7bff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-03T19:46:59.999Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to use HTTP and HTTPS in communication with C2 servers.(Citation: Trend Micro Qakbot May 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Kaspersky QakBot September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",

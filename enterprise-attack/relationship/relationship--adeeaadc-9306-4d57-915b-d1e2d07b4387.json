@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e34a2cc1-0b0a-43c6-8cdd-e4874f544da4",
+    "id": "bundle--8721f8fc-b734-4523-8239-f5bd926959bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:24.935Z",
+            "modified": "2026-09-03T19:47:04.390Z",
             "description": "[Moonstone Sleet](https://attack.mitre.org/groups/G1036) retrieved a final stage payload from command and control infrastructure during initial installation on victim systems.(Citation: Microsoft Moonstone Sleet 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e6db1e55-b199-4b6b-8633-989345ee45e0",

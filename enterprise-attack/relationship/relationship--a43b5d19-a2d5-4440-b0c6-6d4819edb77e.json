@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc149b8c-bc28-481b-8f06-6603707c7122",
+    "id": "bundle--da8d11d3-8a88-423d-a714-46928b4373d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.148Z",
+            "modified": "2026-09-03T19:46:50.249Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) has used FTP for C2 communications.(Citation: Kaspersky ShadowPad Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9946b06d-c52a-46db-9113-581846736f87",
+    "id": "bundle--27367676-7473-470e-af5f-252eda54ea7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-03T19:46:55.070Z",
             "description": "[SideTwist](https://attack.mitre.org/software/S0610) can embed C2 responses in the source code of a fake Flickr webpage.(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",

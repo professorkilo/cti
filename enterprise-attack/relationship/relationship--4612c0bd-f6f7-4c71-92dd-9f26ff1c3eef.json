@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d201fef5-afd9-43bb-9468-0beabc1649dc",
+    "id": "bundle--7aa671cb-ccd2-4b07-a52e-6a12f99ef74f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:22.067Z",
+            "modified": "2026-09-03T19:46:48.974Z",
             "description": "[Thrip](https://attack.mitre.org/groups/G0076) has used WinSCP to exfiltrate data from a targeted organization over FTP.(Citation: Symantec Thrip June 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d69e568e-9ac8-4c08-b32c-d93b43ba9172",

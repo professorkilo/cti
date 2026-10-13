@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c1751b5e-9f94-4311-bfee-424d4362ec43",
+    "id": "bundle--eaaec1c7-c69a-4b58-b1c3-ac3709f1893e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-02T20:09:43.268Z",
             "description": "[DarkWatchman](https://attack.mitre.org/software/S0673) can use TLS to encrypt its C2 channel.(Citation: Prevailion DarkWatchman 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--63686509-069b-4143-99ea-4e59cad6cb2a",

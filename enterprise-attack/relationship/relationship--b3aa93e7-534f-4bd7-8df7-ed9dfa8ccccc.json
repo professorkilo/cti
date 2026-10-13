@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a882a1da-97ed-434e-adb5-26a095914941",
+    "id": "bundle--04d8c785-2756-477d-a957-85c8bf87befb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:47:00.997Z",
             "description": "[Rising Sun](https://attack.mitre.org/software/S0448) can send data gathered from the infected machine via HTTP POST request to the C2.(Citation: McAfee Sharpshooter December 2018)\t",
             "relationship_type": "uses",
             "source_ref": "malware--56e6b6c2-e573-4969-8bab-783205cebbbf",

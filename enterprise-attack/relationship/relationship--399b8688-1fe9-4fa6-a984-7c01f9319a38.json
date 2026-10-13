@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--443fcbc7-aded-4c51-b0b3-cda82acadc00",
+    "id": "bundle--63831d6a-3491-4244-a807-1354a5054b87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-03T19:46:57.847Z",
             "description": "[XCSSET](https://attack.mitre.org/software/S0658) retrieves files that match the pattern defined in the INAME_QUERY variable within the user's home directory, such as `*test.txt`, and are below a specific size limit. It then archives the files and exfiltrates the data over its C2 channel.(Citation: trendmicro xcsset xcode project 2020)(Citation: Microsoft March 2025 XCSSET)",
             "relationship_type": "uses",
             "source_ref": "malware--e14085cb-0e8d-4be6-92ba-e3b93ee5978f",

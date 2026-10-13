@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4502fd57-7707-400b-b52b-d2a1c95dbcf1",
+    "id": "bundle--ef7e5bf3-c685-4a61-a09c-aaabdb50a76e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-03T19:47:05.343Z",
             "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) installers have used obfuscated PowerShell scripts to retrieve follow-on payloads from WebDAV servers.(Citation: IBM StrelaStealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--951313b3-6064-4ce0-b4b6-a153c3973da7",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8d6bf4b7-373c-4b22-b7b5-de7c6b9fb00c",
+    "id": "bundle--8063a623-a360-449b-8af4-9ecad40c3e32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.067Z",
+            "modified": "2026-09-03T19:47:02.175Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) downloads various library files enabling interaction with various data stores and structures to facilitate follow-on information theft.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",

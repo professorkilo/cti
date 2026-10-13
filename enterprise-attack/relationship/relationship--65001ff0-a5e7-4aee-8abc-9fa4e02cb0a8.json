@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d81b0e5-7469-4e99-8039-23e9c572e8f9",
+    "id": "bundle--2ece0fee-0150-47e3-a9a8-a0600c6f6658",
     "spec_version": "2.0",
     "objects": [
         {
@@ -54,7 +54,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.651Z",
+            "modified": "2026-09-02T17:31:48.943Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used compromised credentials for GitHub and software package repositories, including privileged service accounts, to inject malicious code into CI/CD pipelines.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

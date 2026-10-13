@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5a0f086-7333-48d8-bae6-e3adb67d0eb5",
+    "id": "bundle--33061def-926e-4945-bec5-86e2d50c140a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.056Z",
+            "modified": "2026-09-03T19:47:00.098Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has used HTTP GET requests over port 443 and with the WINHTTP_FLAG_SECURE set to SSL/TLS via the WinHTTP API.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

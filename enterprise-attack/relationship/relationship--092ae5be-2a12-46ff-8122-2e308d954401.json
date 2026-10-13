@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--83b471a7-040b-415d-bad4-af9c8153a718",
+    "id": "bundle--cfc54e1e-3426-4fd5-83e7-0aa5574ab7fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.916Z",
+            "modified": "2026-09-03T19:46:47.201Z",
             "description": "[BoxCaon](https://attack.mitre.org/software/S0651) has used DropBox for C2 communications.(Citation: Checkpoint IndigoZebra July 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--919a056e-5104-43b9-ad55-2ac929108b71",

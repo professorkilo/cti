@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9cb4c8f-f6cc-4264-81cd-8d64558e2026",
+    "id": "bundle--7f95f319-29b3-4886-bee7-7bd0aa8ddcbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.229Z",
+            "modified": "2026-09-02T18:05:13.273Z",
             "description": "[Saint Bot](https://attack.mitre.org/software/S1018) will use the malicious file <code>slideshow.mp4</code> if present to load the core API provided by <code>ntdll.dll</code> to avoid any hooks placed on calls to the original <code>ntdll.dll</code> file by endpoint detection and response or antimalware software.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
             "relationship_type": "uses",
             "source_ref": "malware--7724581b-06ff-4d2b-b77c-80dc8d53070b",

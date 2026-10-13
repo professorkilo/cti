@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb049d20-f2e1-4d81-9378-957ae68d828e",
+    "id": "bundle--6ec4189a-9e54-4e6c-affd-65e989fce785",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:47:01.237Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) has sent data and files to its C2 server.(Citation: Talos Konni May 2017)(Citation: Malwarebytes Konni Aug 2021)(Citation: Malwarebytes KONNI Evolves Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",

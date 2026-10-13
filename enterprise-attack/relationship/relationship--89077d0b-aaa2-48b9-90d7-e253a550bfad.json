@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2978d4e-8b7d-44e4-9c27-9d164b62a59a",
+    "id": "bundle--e5d9bd27-7741-4617-b53f-39481244d97a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:21.270Z",
+            "modified": "2026-09-08T20:29:10.511Z",
             "description": "[Silence](https://attack.mitre.org/groups/G0091) has used ProxyBot, which allows the attacker to redirect traffic from the current node to the backconnect server via Sock4\\Socks5.(Citation: Group IB Silence Sept 2018)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d13c8a7f-740b-4efa-a232-de7d6bb05321",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02fe9eb9-5010-436c-8127-592c25be8d89",
+    "id": "bundle--827cba36-02fa-4085-b0c7-9a0f1517ebd4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.254Z",
+            "modified": "2026-09-09T18:39:17.273Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) can use a list of C2 URLs as fallback mechanisms in case one IP or domain gets blocked.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

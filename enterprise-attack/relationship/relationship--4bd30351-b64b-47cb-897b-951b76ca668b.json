@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa893683-a622-4c38-9acb-7ccbfe750a8b",
+    "id": "bundle--cd89e2b0-2f33-47e2-9143-d2a9cc1b6c4e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:46:56.838Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has used raw TCP for C2.(Citation: FireEye Metamorfo Apr 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

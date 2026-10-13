@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5668657a-4881-46c4-8670-8d004c3c7fb6",
+    "id": "bundle--70f00ddd-d35a-4adc-8e69-72ac190ba1d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:19.254Z",
+            "modified": "2026-09-03T19:47:05.753Z",
             "description": "During [SharePoint ToolShell Exploitation](https://attack.mitre.org/campaigns/C0058), threat actors used a loader to download and execute ransomware.(Citation: Palo Alto SharePoint Vulnerabilities JUL 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--1a0576df-df21-4775-843e-844d8a58a94b",

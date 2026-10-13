@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cd55881-f7e3-4367-9f93-13ec1f98cdbd",
+    "id": "bundle--d976a41c-4562-44b3-8640-ae79cf93167d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.124Z",
+            "modified": "2026-09-02T20:09:43.256Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can beacon to a hardcoded C2 IP address using TLS encryption every 5 minutes.(Citation: Gigamon BADHATCH Jul 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",

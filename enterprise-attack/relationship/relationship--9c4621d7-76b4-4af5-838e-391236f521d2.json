@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da9a8bb7-948e-4f1a-8687-e333cf498ae6",
+    "id": "bundle--277f3fc8-f54f-4498-a651-001344461ec6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-03T19:46:51.061Z",
             "description": "Enforce proxies and use dedicated servers for services such as DNS and only allow those systems to communicate over respective ports/protocols, instead of all systems within a network. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

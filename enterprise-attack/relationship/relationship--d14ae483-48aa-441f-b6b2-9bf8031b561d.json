@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ec912bb-c591-48aa-bf7f-d98df3db63da",
+    "id": "bundle--559942cb-d7e4-4433-a762-06abb6f5653c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.212Z",
+            "modified": "2026-09-02T20:07:47.754Z",
             "description": "[Troll Stealer](https://attack.mitre.org/software/S1196) encrypts data sent to command and control infrastructure using a combination of RC4 and RSA-4096 algorithms.(Citation: S2W Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d6748457-75c2-4989-a41f-2d017994057e",

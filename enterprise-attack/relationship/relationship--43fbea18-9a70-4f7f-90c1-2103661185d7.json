@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9355600-f4b3-4126-be4c-b2e43edc8d52",
+    "id": "bundle--3aebed0b-3905-4c0e-842b-9d3e3fbf8556",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.018Z",
+            "modified": "2026-09-03T19:46:58.364Z",
             "description": "[PowerExchange](https://attack.mitre.org/software/S1173) can exfiltrate files via its email C2 channel.(Citation: Symantec Crambus OCT 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2c9d23e7-bfd6-4e23-a512-aee3bc1474f4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--36f76e4b-ec11-4710-ac10-369e79a4f6cf",
+    "id": "bundle--4af15e51-1f1e-4720-bb0f-5e0dd0893867",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:25.392Z",
+            "modified": "2026-09-02T20:07:47.693Z",
             "description": "[Inception](https://attack.mitre.org/groups/G0100) has encrypted network communications with AES.(Citation: Kaspersky Cloud Atlas December 2014)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ead23196-d7b6-4ce6-a124-4ab4b67d81bd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc071145-db47-4b92-a1ce-69bc03b37bc9",
+    "id": "bundle--8121c7d1-e3bb-4f12-b24a-6d4b3f6cb204",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-03T19:46:52.184Z",
             "description": "[RegDuke](https://attack.mitre.org/software/S0511) can use Dropbox as its C2 server.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--47124daf-44be-4530-9c63-038bc64318dd",

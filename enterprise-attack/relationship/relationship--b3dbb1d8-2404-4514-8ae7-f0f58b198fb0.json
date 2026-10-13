@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ddec819-5bb1-410b-b87a-fe05ad2f54e6",
+    "id": "bundle--0b0ac523-004f-4f2c-a177-22a3abde6c96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:47:02.911Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has used HTTPS and HTTP GET requests with custom HTTP cookies for C2.(Citation: MSTIC NOBELIUM Mar 2021)(Citation: FireEye SUNSHUTTLE Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",

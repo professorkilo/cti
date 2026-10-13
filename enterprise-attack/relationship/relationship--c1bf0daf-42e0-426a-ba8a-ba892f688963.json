@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65f85028-c5ed-4547-b5ba-0c8070331350",
+    "id": "bundle--fd2d4db5-2cb7-4644-80b1-388b71bf33f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.190Z",
+            "modified": "2026-09-03T19:47:01.153Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) can upload files and information from a compromised host to its C2 server.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",

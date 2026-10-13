@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b036dc4c-abbc-490c-bed5-05d7e055bf7e",
+    "id": "bundle--657d4c37-a4e0-4e6c-a14c-860b25e361ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.976Z",
+            "modified": "2026-09-03T19:47:05.413Z",
             "description": "[BRONZE BUTLER](https://attack.mitre.org/groups/G0060) has used various tools to download files, including DGet (a similar tool to wget).(Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--93f52415-0fe4-4d3d-896c-fc9b8e88ab90",

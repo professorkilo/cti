@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--588ce6bb-a7f0-497b-bb49-8ded16f26479",
+    "id": "bundle--35612ae7-16f0-41cc-af94-fd999f8b2df5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.164Z",
+            "modified": "2026-09-03T19:47:04.485Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has been used to download a malicious payload to include Python based malware [InvisibleFerret](https://attack.mitre.org/software/S1245).(Citation: Esentire ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)(Citation: PaloAlto Unit42 ContagiousInterview BeaverTail InvisibileFerret October 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

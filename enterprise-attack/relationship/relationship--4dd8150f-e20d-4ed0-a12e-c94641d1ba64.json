@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--720a3160-5383-4cd1-9d7b-2fe46d91c5f6",
+    "id": "bundle--2e75d5f0-8c9b-468e-b693-96fde3e3c61c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-03T19:46:47.988Z",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) can send email over SMTP.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",

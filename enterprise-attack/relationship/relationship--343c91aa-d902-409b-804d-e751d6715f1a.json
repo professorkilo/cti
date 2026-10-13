@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b20e72fe-4c68-441f-8f2a-af70f2ebead3",
+    "id": "bundle--2f68b495-880b-4e85-8476-d7e3ed5e9bcd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.989Z",
+            "modified": "2026-09-03T19:46:59.857Z",
             "description": "On macOS, [LightSpy](https://attack.mitre.org/software/S1185) downloads a `.json` file from the C2 server. The `.json` file contains metadata about the plugins to be downloaded, including their URL, name, version, and MD5 hash. [LightSpy](https://attack.mitre.org/software/S1185) retrieves the plugins specified in the `.json` file, which are compiled `.dylib` files. These `.dylib` files provide task and platform specific functionality. [LightSpy](https://attack.mitre.org/software/S1185) also imports open-source libraries to manage socket connections.(Citation: Huntress LightSpy macOS 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

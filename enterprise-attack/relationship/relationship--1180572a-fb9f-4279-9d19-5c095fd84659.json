@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--31369a1d-cd89-4dda-ba76-85695c6da361",
+    "id": "bundle--bcfa6584-6a9c-4ccc-9939-067a024250d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-03T19:46:49.063Z",
             "description": "[Mori](https://attack.mitre.org/software/S1047) has obfuscated the FML.dll with 200MB of junk data.(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7e100ca4-e639-48d9-9a9d-8ad84aa7b448",

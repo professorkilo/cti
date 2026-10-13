@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbe03f40-61dd-48f4-91ff-6297a37ae2a2",
+    "id": "bundle--5d213976-66c3-4090-8a0a-41ff6eceb1e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.077Z",
+            "modified": "2026-09-08T20:28:08.490Z",
             "description": "[Dridex](https://attack.mitre.org/software/S0384) contains a backconnect module for tunneling network traffic through a victim's computer. Infected computers become part of a P2P botnet that can relay C2 traffic to other infected peers.(Citation: Dell Dridex Oct 2015)(Citation: Checkpoint Dridex Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--f01e2711-4b48-4192-a2e8-5f56c945ca19",

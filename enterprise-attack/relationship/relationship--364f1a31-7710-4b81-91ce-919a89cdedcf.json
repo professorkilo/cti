@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efb6c7f9-2f81-4ede-b826-4ff910b198e9",
+    "id": "bundle--f15392cb-4f6f-4f54-8bb9-62614bc583e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.994Z",
+            "modified": "2026-09-03T19:46:48.195Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) supports SMB-based peer-to-peer C2 profiles.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

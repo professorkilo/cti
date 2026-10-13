@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61610da7-a3ec-476b-b1bd-c7251697106c",
+    "id": "bundle--084c3e2c-ce5b-417f-b053-f32d251cfd8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:18.985Z",
+            "modified": "2026-09-03T19:47:01.122Z",
             "description": "During [Frankenstein](https://attack.mitre.org/campaigns/C0001), the threat actors downloaded files and tools onto a victim machine.(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--26d9ebae-de59-427f-ae9a-349456bae4b1",

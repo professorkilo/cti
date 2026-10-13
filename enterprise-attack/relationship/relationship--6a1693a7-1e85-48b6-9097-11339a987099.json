@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eaff7b32-3aef-49a1-80f8-1f14879496ea",
+    "id": "bundle--114ffdbf-4984-4d7f-acfe-5bf6fa1e0b2c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:29.066Z",
+            "modified": "2026-09-03T19:47:02.207Z",
             "description": "[Threat Group-3390](https://attack.mitre.org/groups/G0027) has downloaded additional malware and tools, including through the use of `certutil`, onto a compromised host .(Citation: Dell TG-3390)(Citation: Trend Micro DRBControl February 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fb366179-766c-4a4a-afa1-52bff1fd601c",

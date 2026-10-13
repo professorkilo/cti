@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2b9077c-a8d6-410b-aaa5-464a52ae55e3",
+    "id": "bundle--82f190d5-6387-4419-8b3f-1bb71f9f286d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.049Z",
+            "modified": "2026-09-03T19:46:59.917Z",
             "description": "[SVCReady](https://attack.mitre.org/software/S1064) can communicate with its C2 servers via HTTP.(Citation: HP SVCReady Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7230ded7-3b1a-4d6e-9735-d0ffd47af9f6",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9da12959-f965-48e5-884d-66b9e877422d",
+    "id": "bundle--be3da6cd-27b3-42e8-af66-58c3eb20a0d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-03T19:47:02.775Z",
             "description": "[Micropsia](https://attack.mitre.org/software/S0339) can download and execute an executable from the C2 server.(Citation: Talos Micropsia June 2017)(Citation: Radware Micropsia July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8c050cea-86e1-4b63-bf21-7af4fa483349",

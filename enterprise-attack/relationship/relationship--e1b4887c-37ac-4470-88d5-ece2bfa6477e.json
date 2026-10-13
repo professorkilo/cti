@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cad09f33-cc93-4dd5-bc97-53c9d266f3af",
+    "id": "bundle--2d8314d2-3b31-41ce-aea9-8485ca138244",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.233Z",
+            "modified": "2026-09-03T19:47:04.063Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) uses HTTP for C2 communications.(Citation: ESET InvisiMole June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

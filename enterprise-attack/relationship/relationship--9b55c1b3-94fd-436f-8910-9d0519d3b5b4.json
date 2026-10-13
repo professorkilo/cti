@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fcb81c6f-b105-4ee0-970c-0006c9da5d1a",
+    "id": "bundle--814a2a31-dbb4-4feb-9309-95d397c6cdc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:27.395Z",
+            "modified": "2026-09-02T17:55:53.237Z",
             "description": "For [FunnyDream](https://attack.mitre.org/campaigns/C0007), the threat actors used a new backdoor named [FunnyDream](https://attack.mitre.org/software/S1044).(Citation: Bitdefender FunnyDream Campaign November 2020) ",
             "relationship_type": "uses",
             "source_ref": "campaign--8d2bc130-89fe-466e-a4f9-6bce6129c2b8",

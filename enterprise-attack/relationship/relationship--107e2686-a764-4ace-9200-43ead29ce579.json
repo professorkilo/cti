@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c1d7589-3ca8-44db-92c7-cb3c57542c7f",
+    "id": "bundle--6282d9a1-51df-4a00-abca-c81eda490118",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-03T19:46:56.252Z",
             "description": "[Nerex](https://attack.mitre.org/software/S0210) creates a backdoor through which remote attackers can download files onto a compromised host.(Citation: Symantec Ristol May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--c251e4a5-9a2e-4166-8e42-442af75c3b9a",

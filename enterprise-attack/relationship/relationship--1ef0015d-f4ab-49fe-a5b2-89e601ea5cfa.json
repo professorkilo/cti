@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f7d48a05-4e63-4604-b603-b2b8231793fc",
+    "id": "bundle--d8aac596-71b3-40db-b17e-81a213dba1a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.947Z",
+            "modified": "2026-09-03T19:46:52.325Z",
             "description": "[Carbon](https://attack.mitre.org/software/S0335) can use Pastebin to receive C2 commands.(Citation: Accenture HyperStack October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f",

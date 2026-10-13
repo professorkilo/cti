@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46d2fde7-9d64-4b69-b827-5791a7d33150",
+    "id": "bundle--c4d81a7e-a260-4278-bfc4-8f27d2759933",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-02T20:07:47.647Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) has the ability to use AES-256 symmetric encryption in CBC mode with HMAC-SHA-256 to encrypt task commands and XOR to encrypt shell code and configuration data.(Citation: Talos Cobalt Strike September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

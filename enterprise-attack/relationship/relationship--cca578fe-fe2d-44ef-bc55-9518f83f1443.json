@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72e47e36-e4c9-4838-9ac3-f2eb2180f54f",
+    "id": "bundle--72a614ff-2f37-49ed-9fd5-9bec2a2833b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.205Z",
+            "modified": "2026-09-03T19:47:05.213Z",
             "description": "[MoleNet](https://attack.mitre.org/software/S0553) can download additional payloads from the C2.(Citation: Cybereason Molerats Dec 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--8a59f456-79a0-4151-9f56-9b1a67332af2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0960baf2-f548-46bb-9e61-bbcbdaca5f16",
+    "id": "bundle--7dd6d3d3-3032-4d4e-a388-9196645ffd13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.946Z",
+            "modified": "2026-09-03T19:46:53.619Z",
             "description": "[Out1](https://attack.mitre.org/software/S0594) can use HTTP and HTTPS in communications with remote hosts.(Citation: Trend Micro Muddy Water March 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--80c815bb-b24a-4b9c-9d73-ff4c075a278d",

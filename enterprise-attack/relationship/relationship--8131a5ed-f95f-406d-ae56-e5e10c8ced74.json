@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f48ffa5d-c19f-4e5d-8f30-704a41bc98f7",
+    "id": "bundle--89031dc6-e121-4531-ac2a-8664e38d555f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:46:57.225Z",
             "description": "[njRAT](https://attack.mitre.org/software/S0385) has used port 1177 for HTTP C2 communications.(Citation: Trend Micro njRAT 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d906e6f7-434c-44c0-b51a-ed50af8f7945",

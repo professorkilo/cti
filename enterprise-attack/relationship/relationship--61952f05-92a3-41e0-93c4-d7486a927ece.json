@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f29600dc-556e-4b4a-b6a6-8efbf66aa755",
+    "id": "bundle--23c44612-6e3e-4990-8886-142b77c8df1d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.058Z",
+            "modified": "2026-09-09T18:39:16.727Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) can update its configuration to use a different C2 server.(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86e6288b-55bf-4738-a5e7-65016055bc9e",
+    "id": "bundle--38e861b0-6809-47cc-b527-67ebc21d948a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.535Z",
+            "modified": "2026-09-02T17:31:48.836Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has compromised credentials associated with open source security scanning tools and used them to push malicious code to all the resources the tools had access to.(Citation: Aikido TeamPCP Telnyx MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

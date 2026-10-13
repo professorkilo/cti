@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f5ff9b46-a493-4133-bb10-f7ab6a46f684",
+    "id": "bundle--ce96c998-8733-4349-bede-8b64ef07cbcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.068Z",
+            "modified": "2026-09-03T19:46:49.222Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has downloaded a zip file for execution on the system.(Citation: Medium Metamorfo Apr 2020)(Citation: FireEye Metamorfo Apr 2018)(Citation: Fortinet Metamorfo Feb 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

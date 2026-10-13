@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12f68fca-b7dc-461a-b38a-45d209fe5307",
+    "id": "bundle--dff2ae14-1626-437f-b2fd-e5db05bd7359",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.147Z",
+            "modified": "2026-09-03T19:47:04.115Z",
             "description": "[LiteDuke](https://attack.mitre.org/software/S0513) has the ability to download files.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--95e2cbae-d82c-4f7b-b63c-16462015d35d",

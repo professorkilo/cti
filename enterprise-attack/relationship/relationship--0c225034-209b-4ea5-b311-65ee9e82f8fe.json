@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a88c13b-0fdf-451a-b767-d1e82f6082a4",
+    "id": "bundle--2a653b05-dc5a-43e7-b468-d62e7f5464d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-03T19:46:50.336Z",
             "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) uses HTTPS and HTTP for C2 communications.(Citation: Unit 42 QUADAGENT July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7e6c2a9d-9dc1-4eb0-b27c-91e8076a9d77",

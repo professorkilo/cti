@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e76cf766-5d93-473f-b9a0-ec2c363f8984",
+    "id": "bundle--ab8e8bcb-c6d9-4c50-ac79-d9e9ddecfac1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.360Z",
+            "modified": "2026-09-02T20:09:42.636Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors' proxy implementation \"Agent\" upgraded the socket in use to a TLS socket.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

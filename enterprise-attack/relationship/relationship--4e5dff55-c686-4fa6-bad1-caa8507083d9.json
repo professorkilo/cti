@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbd461c2-1c14-4141-9bc5-b09e33154a29",
+    "id": "bundle--6b101974-e641-4442-981d-e62a17520de7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-02T20:07:46.682Z",
             "description": "[Sakula](https://attack.mitre.org/software/S0074) encodes C2 traffic with single-byte XOR keys.(Citation: Dell Sakula)",
             "relationship_type": "uses",
             "source_ref": "malware--96b08451-b27a-4ff6-893f-790e26393a8e",

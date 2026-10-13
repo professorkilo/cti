@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09cb292b-2796-45d5-acff-8f9b2d89fa1c",
+    "id": "bundle--999ae6be-f59a-474b-87d4-9ac6c86275be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.410Z",
+            "modified": "2026-09-02T17:31:48.758Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has poisoned PyPi packages with malicious code and has used a 13 file modular Python framework for data collection.(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Aikido TeamPCP Telnyx MAR 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5c8ba46-7cf4-4b53-93d9-cb378ced69b3",
+    "id": "bundle--94c52f1b-f54d-439e-9020-69ce6ee93943",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.918Z",
+            "modified": "2026-09-03T19:46:46.612Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) can use email attachments for command and control.(Citation: ESET ComRAT May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",

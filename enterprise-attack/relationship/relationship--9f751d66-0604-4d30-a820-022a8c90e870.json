@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef2ffab5-b585-4564-b9d3-9cb191d053de",
+    "id": "bundle--eb679614-e11e-4618-a41c-77ceef116d69",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.142Z",
+            "modified": "2026-09-03T14:50:24.015Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) has created new services and modified existing services for persistence.(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

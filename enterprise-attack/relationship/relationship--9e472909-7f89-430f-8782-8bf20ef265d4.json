@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b6abcd0-daa4-4b16-9e4e-9e0d677747e2",
+    "id": "bundle--dae147b9-c803-480b-a623-eb453403d73c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-03T19:46:56.879Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) has encoded binary data with Base64 and ASCII.(Citation: Kaspersky CactusPete Aug 2020)(Citation: Talos Bisonal Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",

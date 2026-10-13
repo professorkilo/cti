@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5675436d-4e62-4514-8baa-c169147c679e",
+    "id": "bundle--0b756558-6cb0-4009-aa28-f728397f863c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.233Z",
+            "modified": "2026-09-09T18:39:17.209Z",
             "description": "[Kwampirs](https://attack.mitre.org/software/S0236) uses a large list of C2 servers that it cycles through until a successful connection is established.(Citation: Symantec Orangeworm April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c2417bab-3189-4d4d-9d60-96de2cdaf0ab",

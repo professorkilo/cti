@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--891ec468-1850-48a0-ae4d-d244b118dfea",
+    "id": "bundle--c7da9ff7-5f0e-4673-93b4-42ecce3c15c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-09T18:39:17.151Z",
             "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) can communicate over multiple C2 host and port combinations.(Citation: PaloAlto CardinalRat Apr 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4",

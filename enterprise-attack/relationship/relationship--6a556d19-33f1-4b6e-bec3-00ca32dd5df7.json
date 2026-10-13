@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--41cfde34-136a-476c-8200-dc94493bc5fc",
+    "id": "bundle--71cf558f-82cd-496d-9e7e-23df4673094c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-03T19:47:02.222Z",
             "description": "[Doki](https://attack.mitre.org/software/S0600) has downloaded scripts from C2.(Citation: Intezer Doki July 20)",
             "relationship_type": "uses",
             "source_ref": "malware--4f1c389e-a80e-4a3e-9b0e-9be8c91df64f",

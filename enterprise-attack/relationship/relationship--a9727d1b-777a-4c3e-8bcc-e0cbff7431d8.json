@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ea30013-4232-44b3-8b03-30423db14831",
+    "id": "bundle--e301c2ee-41e4-4ec4-8200-12f2c893d82c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-03T19:47:02.694Z",
             "description": "[CosmicDuke](https://attack.mitre.org/software/S0050) can use HTTP or HTTPS for command and control to hard-coded C2 servers.(Citation: F-Secure The Dukes)(Citation: F-Secure Cosmicduke)",
             "relationship_type": "uses",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",

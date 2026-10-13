@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af37016b-8e23-4ef0-8031-dc86fd1e96be",
+    "id": "bundle--7f12b39f-39ed-4a61-ab39-576b434e285a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.072Z",
+            "modified": "2026-09-03T19:47:00.463Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can be configured to use HTTP for command and control.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Dell TG-3390)(Citation: EclecticIQ Mustang Panda PlugX)(Citation: Proofpoint TA416 Europe March 2022) [PlugX](https://attack.mitre.org/software/S0013) has also used HTTPS for C2.(Citation: Google Threat Intelligence Group MUSTANG PANDA PLUGX August 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

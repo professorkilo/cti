@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f78d4fa-cb01-4219-980a-c47c4d29d8bf",
+    "id": "bundle--b975a298-e61f-4624-9bae-3e495a24dfcb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.268Z",
+            "modified": "2026-09-03T19:46:50.713Z",
             "description": "[Okrum](https://attack.mitre.org/software/S0439) leverages the HTTP protocol for C2 communication, while hiding the actual messages in the Cookie and Set-Cookie headers of the HTTP requests.(Citation: ESET Okrum July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",

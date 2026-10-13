@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d3c43a3-7260-4a65-a692-139855326d16",
+    "id": "bundle--70f5f438-52c4-441f-a024-8a809bccd63d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.950Z",
+            "modified": "2026-09-03T19:46:54.186Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has used HTTP for communications with command and control (C2) servers.(Citation: JPCert PLEAD Downloader June 2018)(Citation: TrendMicro BlackTech June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",

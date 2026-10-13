@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2f52ec6-33c2-43ce-a7ef-6231b823a7bf",
+    "id": "bundle--fbd8beaf-c403-4b1d-9b11-ca84c0e90306",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.234Z",
+            "modified": "2026-09-02T20:07:47.875Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has encrypted its C2 traffic with RC4.(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

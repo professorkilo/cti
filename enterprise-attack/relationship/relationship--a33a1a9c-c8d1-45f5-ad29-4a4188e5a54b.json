@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b903185-4130-42b3-9df6-f862ab72db5c",
+    "id": "bundle--664a48a2-c914-4203-9238-5c07ccab5513",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.147Z",
+            "modified": "2026-09-03T19:47:04.101Z",
             "description": "[WEBC2](https://attack.mitre.org/software/S0109) can download and execute a file.(Citation: Mandiant APT1)",
             "relationship_type": "uses",
             "source_ref": "malware--1d808f62-cf63-4063-9727-ff6132514c22",

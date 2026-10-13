@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--797f6e37-a04e-4406-bf31-b550c7da5b47",
+    "id": "bundle--0c014c2d-9dbe-48d2-bea1-652838753fb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.160Z",
+            "modified": "2026-09-03T19:47:00.843Z",
             "description": "[Kessel](https://attack.mitre.org/software/S0487) has exfiltrated information gathered from the infected system to the C2 server.(Citation: ESET ForSSHe December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c984b414-b766-44c5-814a-2fe96c913c12",

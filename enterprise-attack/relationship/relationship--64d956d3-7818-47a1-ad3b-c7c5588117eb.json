@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c9f6d85-4efb-41e0-ad9c-fa420433ad28",
+    "id": "bundle--872c8a2c-e91d-4835-b780-41c6b3e6a060",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.062Z",
+            "modified": "2026-09-03T19:46:48.754Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has used `curl` for data exfiltration over FTP.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

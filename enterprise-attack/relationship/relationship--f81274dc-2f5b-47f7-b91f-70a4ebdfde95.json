@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a49f5729-5540-499b-9078-157bf44a2cd6",
+    "id": "bundle--b92ea002-d2d1-47f1-824d-132b8609aac5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.262Z",
+            "modified": "2026-09-02T18:23:57.345Z",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) splits data into chunks up to 23 bytes and sends the data in DNS queries to its C2 server.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",

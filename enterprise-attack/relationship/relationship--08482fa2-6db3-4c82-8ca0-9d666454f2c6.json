@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52f9a210-4292-424f-b665-5408bfe0a478",
+    "id": "bundle--28808bcc-f8fa-4403-bc03-2127998fe4c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.915Z",
+            "modified": "2026-09-03T19:46:54.587Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) has the ability to upload files from the compromised host over a DNS or HTTP C2 channel.(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

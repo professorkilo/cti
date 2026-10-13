@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--20b8257a-d11c-4b4f-bda0-41ea3393ab03",
+    "id": "bundle--0f55eece-fcc9-4896-91b8-13af33b799be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.261Z",
+            "modified": "2026-09-03T19:46:50.639Z",
             "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) uses fake Transport Layer Security (TLS) to communicate with its C2 server.(Citation: US-CERT FALLCHILL Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",

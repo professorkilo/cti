@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2528b56b-92e7-4cd6-997c-7d28d316e822",
+    "id": "bundle--d0d259f3-38ea-49f3-bad1-104eaefd130c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-03T19:46:52.699Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can utilize the Wireguard VPN protocol for command and control.(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

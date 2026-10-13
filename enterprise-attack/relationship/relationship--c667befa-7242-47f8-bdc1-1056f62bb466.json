@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24d81be9-1466-40da-b340-112c0cb8fe22",
+    "id": "bundle--7decec0f-291f-4494-be28-e0a5f92480b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:46:58.219Z",
             "description": "[Elise](https://attack.mitre.org/software/S0081) exfiltrates data using cookie values that are Base64-encoded.(Citation: Lotus Blossom Jun 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",

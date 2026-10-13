@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8785e886-8626-48fe-bfc3-fd407739d461",
+    "id": "bundle--f7406aab-c61d-4e87-900f-c583b3c7490d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.157Z",
+            "modified": "2026-09-03T19:47:04.237Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) has the ability to download additional components and malware.(Citation: Trend Micro Qakbot May 2020)(Citation: Crowdstrike Qakbot October 2020)(Citation: Trend Micro Qakbot December 2020)(Citation: Cyberint Qakbot May 2021)(Citation: Kaspersky QakBot September 2021)(Citation: Group IB Ransomware September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",

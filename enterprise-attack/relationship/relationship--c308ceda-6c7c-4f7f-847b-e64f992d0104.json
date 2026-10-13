@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e6b27b7-f6c4-4ac8-a6b1-440dbbd0ea55",
+    "id": "bundle--98019106-e3be-4d94-bad0-8a1186d35c9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:47.958Z",
+            "modified": "2026-09-03T19:46:58.052Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used port 6856 for C2 communications.(Citation: VenereCiscoTalos_Gamaredon_Mar2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",

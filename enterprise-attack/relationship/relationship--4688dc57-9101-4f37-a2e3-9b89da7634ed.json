@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3104a66d-a89c-4ad8-8c87-8ca74856fb01",
+    "id": "bundle--fc9a48f9-7cc2-4dca-94c8-974658cc5da0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:14.709Z",
+            "modified": "2026-09-03T19:46:59.139Z",
             "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used HTTP for C2.(Citation: Kaspersky LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",

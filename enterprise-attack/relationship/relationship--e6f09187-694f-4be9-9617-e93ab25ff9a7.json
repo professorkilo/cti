@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a439a0d-c686-41d7-8f01-56bbd2ddc67e",
+    "id": "bundle--81fff429-71ca-48e4-b42c-7d1231ae67da",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.239Z",
+            "modified": "2026-09-03T19:47:04.206Z",
             "description": "[TinyTurla](https://attack.mitre.org/software/S0668) can use HTTPS in C2 communications.(Citation: Talos TinyTurla September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab",

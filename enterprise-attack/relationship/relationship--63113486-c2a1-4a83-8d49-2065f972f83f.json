@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--424ca183-c43f-488b-b658-24109b8fc1d0",
+    "id": "bundle--0991e294-15ad-45a7-b1e9-39bfe504f7b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-09-02T20:07:46.805Z",
             "description": "Earlier [Pikabot](https://attack.mitre.org/software/S1145) variants use a custom encryption procedure leveraging multiple mechanisms including AES with multiple rounds of Base64 encoding for its command and control communication.(Citation: Zscaler Pikabot 2023) Later [Pikabot](https://attack.mitre.org/software/S1145) variants eliminate the use of AES and instead use RC4 encryption for transmitted information.(Citation: Elastic Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--02739f57-7585-4319-acd3-794ae8ff3a70",

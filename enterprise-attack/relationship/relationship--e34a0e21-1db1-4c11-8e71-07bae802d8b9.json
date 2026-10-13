@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2944a25b-4d81-454a-b382-05f8647bd23b",
+    "id": "bundle--6cc30583-6b4b-455c-b83a-9fc476a3c7ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-03T19:47:05.636Z",
             "description": "[ZIPLINE](https://attack.mitre.org/software/S1114) can download files to be saved on the compromised system.(Citation: Mandiant Cutting Edge January 2024)(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d9765cbd-4c88-4805-ba98-4c6ccb56b864",

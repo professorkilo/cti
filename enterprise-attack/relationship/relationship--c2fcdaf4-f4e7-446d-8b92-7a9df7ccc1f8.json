@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d46de046-57a4-4357-90fe-be929ad7b42a",
+    "id": "bundle--d060e196-c221-4787-9d52-d2fcdab345e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:46:53.198Z",
             "description": "[DOGCALL](https://attack.mitre.org/software/S0213) is capable of leveraging cloud storage APIs such as Cloud, Box, Dropbox, and Yandex for C2.(Citation: FireEye APT37 Feb 2018)(Citation: Unit 42 Nokki Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--0852567d-7958-4f4b-8947-4f840ec8d57d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--85cc8a71-58e9-458c-83f0-71d085d75d69",
+    "id": "bundle--44a2d344-9b17-42b9-8646-6c4ef09ed6db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-02T20:07:47.786Z",
             "description": "[Bandook](https://attack.mitre.org/software/S0234) has used AES encryption for C2 communication.(Citation: CheckPoint Bandook Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--835a79f1-842d-472d-b8f4-d54b545c341b",

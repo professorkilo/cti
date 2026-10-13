@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b46aa09-b59c-4682-aada-11095455eb5f",
+    "id": "bundle--03ef2977-aca1-4533-a4cd-d22c144a8101",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:47:05.097Z",
             "description": "[Donut](https://attack.mitre.org/software/S0695) can download and execute previously staged shellcode payloads.(Citation: Donut Github)",
             "relationship_type": "uses",
             "source_ref": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",

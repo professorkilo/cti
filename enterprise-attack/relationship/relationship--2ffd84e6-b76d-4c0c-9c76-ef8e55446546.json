@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c4d3acf-2c52-46e0-b3be-f78966361b61",
+    "id": "bundle--2c3041cc-80e3-4b50-a376-e4ae7869c631",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.975Z",
+            "modified": "2026-09-03T19:46:59.548Z",
             "description": "[Small Sieve](https://attack.mitre.org/software/S1035) has the ability to download files.(Citation: NCSC GCHQ Small Sieve Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ff41b9b6-4c1d-407b-a7e2-835109c8dbc5",

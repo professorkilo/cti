@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59a515ad-78a5-416a-85ea-a6c3c4d99b7d",
+    "id": "bundle--21d50909-e159-498d-a4d6-64d58029d4f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:47:04.285Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) can download files via DNS.(Citation: Unit42 RDAT July 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

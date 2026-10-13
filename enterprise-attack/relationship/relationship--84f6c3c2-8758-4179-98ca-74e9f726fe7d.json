@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ccbab588-11e4-41f6-aea4-62952a591111",
+    "id": "bundle--f91f7ea7-dfa4-4e8b-ae61-4274c57c6f4a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:31.741Z",
+            "modified": "2026-09-02T18:05:13.160Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) established persistence by loading malicious libraries via modifications to the Import Address Table (IAT) within legitimate Microsoft binaries.(Citation: Mandiant APT41) ",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ce234fe-f073-4ae4-a664-77666d23a99e",
+    "id": "bundle--1a85617d-63b7-4181-b11c-22f117d607e5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.014Z",
+            "modified": "2026-09-03T19:47:00.433Z",
             "description": "[Koadic](https://attack.mitre.org/software/S0250) can download additional files and tools.(Citation: Github Koadic)(Citation: MalwareBytes LazyScripter Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",

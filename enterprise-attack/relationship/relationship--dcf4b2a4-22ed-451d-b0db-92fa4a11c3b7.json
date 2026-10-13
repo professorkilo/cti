@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ffcf2bc9-97ec-485e-8ed7-0aa4166ae133",
+    "id": "bundle--03f3c7b4-e9b0-4c3b-84c1-dbb7ff51cd61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.948Z",
+            "modified": "2026-09-02T17:31:49.134Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used [TeamPCP Cloud Stealer](https://attack.mitre.org/software/S9041) in credential harvesting and exfiltration.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Sysdig TeamPCP MAR 2026)(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

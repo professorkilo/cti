@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbb2538f-038d-4350-9695-b5dc6176133e",
+    "id": "bundle--617ee9b1-fd1b-43c6-b10e-594a0b9fddbd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.916Z",
+            "modified": "2026-09-03T19:46:53.114Z",
             "description": "Some variants of [FakeM](https://attack.mitre.org/software/S0076) use SSL to communicate with C2 servers.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--bb3c1098-d654-4620-bf40-694386d28921",

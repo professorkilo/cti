@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f8d765f-9f82-4056-bd71-39b9cf8e3d89",
+    "id": "bundle--0c840609-2af0-4c95-8f1f-9d71a81c1599",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.936Z",
+            "modified": "2026-09-03T19:46:57.776Z",
             "description": "[YAHOYAH](https://attack.mitre.org/software/S0388) uses HTTP GET requests to download other files that are executed in memory.(Citation: TrendMicro TropicTrooper 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--cb444a16-3ea5-4a91-88c6-f329adcb8af3",

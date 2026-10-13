@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ccf5e873-a04f-4534-ab15-05efc3589411",
+    "id": "bundle--d4e306ba-e4a5-4ac2-a8b9-3c4b9cdba21e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.210Z",
+            "modified": "2026-09-03T19:46:56.520Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) can use SOCKS proxies to tunnel traffic through another protocol.(Citation: Mythc Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5831465a-2495-4b48-9667-17d8fd32ddc4",
+    "id": "bundle--5f4a4ee8-ad0b-4a1a-8e22-1f6ea64b0e0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.049Z",
+            "modified": "2026-09-02T20:07:46.733Z",
             "description": "[Volgmer](https://attack.mitre.org/software/S0180) uses a simple XOR cipher to encrypt traffic and files.(Citation: US-CERT Volgmer 2 Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--495b6cdb-7b5a-4fbc-8d33-e7ef68806d08",

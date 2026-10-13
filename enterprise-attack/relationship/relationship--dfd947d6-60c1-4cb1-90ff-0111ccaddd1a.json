@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62056e9d-20b4-432a-94b0-ddcdac6d161f",
+    "id": "bundle--cb59fe43-3b17-4dfe-86f0-a62e59856cd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:34.501Z",
+            "modified": "2026-09-03T19:46:56.683Z",
             "description": "During [CostaRicto](https://attack.mitre.org/campaigns/C0004), the threat actors set up remote SSH tunneling into the victim's environment from a malicious domain.(Citation: BlackBerry CostaRicto November 2020) ",
             "relationship_type": "uses",
             "source_ref": "campaign--f9cc545e-b0ef-4b92-8884-a3a4427609f6",

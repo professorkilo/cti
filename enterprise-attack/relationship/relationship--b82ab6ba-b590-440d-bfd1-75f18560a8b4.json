@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a95acc8-9147-4c1d-b28b-496287b64180",
+    "id": "bundle--7bf14eaa-b6b4-415f-bfcd-44fdcca8f6aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.177Z",
+            "modified": "2026-09-03T19:47:03.072Z",
             "description": "[IcedID](https://attack.mitre.org/software/S0483) has used HTTPS in communications with C2.(Citation: Juniper IcedID June 2020)(Citation: DFIR_Quantum_Ransomware)(Citation: DFIR_Sodinokibi_Ransomware)",
             "relationship_type": "uses",
             "source_ref": "malware--5147ef15-1cae-4707-8ea1-bee8d98b7f1d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--10f0894d-3674-496f-9e44-471f050f7e0e",
+    "id": "bundle--0d747681-2736-4a34-9de3-5ab5c385f055",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.668Z",
+            "modified": "2026-09-02T18:52:47.089Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used string encoding with floating point calculations.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--777fcb87-506f-4a32-9913-22be447d64ab",
+    "id": "bundle--2f17cb6d-c002-4eb4-b1db-502ce6db30b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.257Z",
+            "modified": "2026-09-02T18:23:57.331Z",
             "description": "[Carbanak](https://attack.mitre.org/software/S0030) exfiltrates data in compressed chunks if a message is larger than 4096 bytes .(Citation: FireEye CARBANAK June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87d1c60c-0184-439f-ad29-729b818a5a2a",
+    "id": "bundle--e8112e7d-6ef2-49aa-a0e9-132476802bce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-08T20:28:08.643Z",
             "description": "[Green Lambert](https://attack.mitre.org/software/S0690) can use proxies for C2 traffic.(Citation: Objective See Green Lambert for OSX Oct 2021)(Citation: Glitch-Cat Green Lambert ATTCK Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--59c8a28c-200c-4565-9af1-cbdb24870ba0",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8e97918c-1cf5-4cec-9eb0-19bf4c0ab77c",
+    "id": "bundle--54629349-6d22-4e32-9f06-830510decd74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.240Z",
+            "modified": "2026-09-03T14:50:24.144Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can install a service to execute itself as a service.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2b2fc67b-8f14-49f2-b463-f24201eb5e19",
+    "id": "bundle--43e655bd-6c07-43a3-bb4b-d40723e13fe2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:47:04.315Z",
             "description": "[CreepyDrive](https://attack.mitre.org/software/S1023) can download files to the compromised host.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--750eb92a-7fdf-451e-9592-1d42357018f1",

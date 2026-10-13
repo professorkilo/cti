@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3dae1a4-e77c-460c-bbe0-a30eb7683f0c",
+    "id": "bundle--8bd03260-f263-48bb-a1a5-af530f134ece",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-08T20:29:10.654Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) InvisiMole can identify proxy servers used by the victim and use them for C2 communication.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--569b3066-42af-4643-b69a-4e066ef4c9ae",
+    "id": "bundle--dd5f6bd1-dd6b-43a7-8365-4f5503f7150b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:40.783Z",
+            "modified": "2026-09-02T18:51:44.275Z",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) has used UPX to pack [Bandook](https://attack.mitre.org/software/S0234).(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",

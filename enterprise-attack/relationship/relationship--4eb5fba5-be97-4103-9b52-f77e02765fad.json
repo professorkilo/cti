@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58495445-085d-49f4-aeba-96f7552e4c91",
+    "id": "bundle--ac098b35-b02e-4ce8-8281-558baa614782",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:01.186Z",
+            "modified": "2026-09-09T18:44:33.719Z",
             "description": "[APT1](https://attack.mitre.org/groups/G0006) uses two utilities, GETMAIL and MAPIGET, to steal email. MAPIGET steals email still on Exchange servers that has not yet been archived.(Citation: Mandiant APT1)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--6a2e693f-24e5-451a-9f88-b36a108e5662",

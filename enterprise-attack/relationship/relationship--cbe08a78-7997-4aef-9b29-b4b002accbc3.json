@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0074169e-e70c-4b7c-9c2a-0549a0e18e18",
+    "id": "bundle--37a15276-b8ce-434f-880d-92fb5346a9ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.204Z",
+            "modified": "2026-09-03T19:46:59.043Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) has the ability to use TCP and UDP in C2 communications.(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",

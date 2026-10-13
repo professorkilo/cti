@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76c979c7-c491-49e5-ba75-b075544bc27a",
+    "id": "bundle--00441575-fb67-4061-aeb0-b5f24b387836",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.041Z",
+            "modified": "2026-09-03T19:46:54.543Z",
             "description": "[DropBook](https://attack.mitre.org/software/S0547) can communicate with its operators by exploiting the Simplenote, DropBox, and the social media platform, Facebook, where it can create fake accounts to control the backdoor and receive instructions.(Citation: Cybereason Molerats Dec 2020)(Citation: BleepingComputer Molerats Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3ae6097d-d700-46c6-8b21-42fc0bcb48fa",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4bc8a9f-281b-44a6-a66e-2c9219e4274e",
+    "id": "bundle--436d3615-8e44-415b-9df2-23434361c8a4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.015Z",
+            "modified": "2026-09-03T19:47:00.485Z",
             "description": "[Chrommme](https://attack.mitre.org/software/S0667) can download its code from C2.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--579607c2-d046-40df-99ab-beb479c37a2a",

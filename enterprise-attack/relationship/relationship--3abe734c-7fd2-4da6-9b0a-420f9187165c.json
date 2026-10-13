@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d712fbe-4d4d-4cd1-9a8b-2b186b55b7d9",
+    "id": "bundle--a457ec4d-7d46-4e29-b2af-7493f3c48da2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.001Z",
+            "modified": "2026-09-03T19:46:57.930Z",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can send screenshots files, keylogger data, files, and recorded audio back to the C2 server.(Citation: GitHub Pupy)",
             "relationship_type": "uses",
             "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",

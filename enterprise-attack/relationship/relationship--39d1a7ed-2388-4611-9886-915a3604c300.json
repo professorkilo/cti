@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a8d6451-2068-47b2-b2d2-22477d10c406",
+    "id": "bundle--caae2837-8676-4dbf-8b55-c681ca2d4d2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-03T19:46:57.888Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) can send data gathered from a target through the command and control channel.(Citation: Github PowerShell Empire)(Citation: Talos Frankenstein June 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",

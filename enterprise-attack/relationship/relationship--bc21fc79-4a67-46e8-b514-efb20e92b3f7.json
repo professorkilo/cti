@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b580ab9c-ce2b-45aa-a404-3749b4fca740",
+    "id": "bundle--6ea23db4-623a-4e4c-8336-44e470b83d25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-29T20:56:58.144Z",
+            "modified": "2026-09-09T18:39:17.068Z",
             "description": "[Mini Shai-Hulud](https://attack.mitre.org/software/S9043) has established Fallback Channels to exfiltrate data to Github when other configured infrastructure is found to be unreachable.(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--7f211b2e-c008-4cac-9ea8-29bd7edd50a4",

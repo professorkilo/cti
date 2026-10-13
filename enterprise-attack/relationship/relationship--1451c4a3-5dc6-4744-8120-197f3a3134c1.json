@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6727f86-104d-4f5b-9992-36bb58c7f22e",
+    "id": "bundle--7782cd25-0786-400c-bf98-fcf76ef60863",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Symantec W32.Duqu",
                     "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.",
-                    "url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
+                    "url": "https://web.archive.org/web/20111213083345/https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.932Z",
+            "modified": "2026-09-08T20:28:41.853Z",
             "description": "[Duqu](https://attack.mitre.org/software/S0038) can be configured to have commands relayed over a peer-to-peer network of infected hosts if some of the hosts do not have Internet access.(Citation: Symantec W32.Duqu)",
             "relationship_type": "uses",
             "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",

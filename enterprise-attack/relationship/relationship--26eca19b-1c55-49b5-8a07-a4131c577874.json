@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a70aaa44-ae32-454a-a774-9b45b138c8cb",
+    "id": "bundle--a7190bb6-6d4f-4461-b8a4-bf1327fe4fcd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.958Z",
+            "modified": "2026-09-02T18:17:25.202Z",
             "description": "[PowerSploit](https://attack.mitre.org/software/S0194)'s <code>Find-AVSignature</code> AntivirusBypass module can be used to locate single byte anti-virus signatures.(Citation: GitHub PowerSploit May 2012)(Citation: PowerSploit Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--13cd9151-83b7-410d-9f98-25d0f0d1d80d",

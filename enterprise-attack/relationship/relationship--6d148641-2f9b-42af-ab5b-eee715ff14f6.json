@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4547861-1c4c-4d62-91b1-a5bf652bd52e",
+    "id": "bundle--2523495d-6989-49ca-a036-454da5215a49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-03T19:46:59.304Z",
             "description": "[Cuckoo Stealer](https://attack.mitre.org/software/S1153) can send information about the targeted system to C2 including captured passwords, OS build, hostname, and username.(Citation: Kandji Cuckoo April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--457a5e8d-d964-4130-bde3-c07bb41a093e",

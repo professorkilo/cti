@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7752d215-0218-4486-8ebd-d2d23998c2f2",
+    "id": "bundle--61e66d60-9a8a-4ea4-94bd-ac57942e29d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.950Z",
+            "modified": "2026-09-03T19:46:58.776Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can download its second stage from a hardcoded URL within the loader's code.(Citation: IBM Grandoreiro April 2020)(Citation: ESET Grandoreiro April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",

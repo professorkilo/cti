@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5c946e4-c177-41b2-9322-aea690e74107",
+    "id": "bundle--2c7267a5-8f2e-49a0-ad03-4999280c79aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.116Z",
+            "modified": "2026-09-02T18:41:22.119Z",
             "description": "[Agent.btz](https://attack.mitre.org/software/S0092) creates a file named thumb.dd on all USB flash drives connected to the victim. This file contains information about the infected system and activity logs.(Citation: Securelist Agent.btz)",
             "relationship_type": "uses",
             "source_ref": "malware--40d3e230-ed32-469f-ba89-be70cc08ab39",

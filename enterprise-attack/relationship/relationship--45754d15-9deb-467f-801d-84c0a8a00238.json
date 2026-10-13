@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17c970b7-6530-41c2-8075-c52c2e351bcf",
+    "id": "bundle--858589b2-fd82-43ec-b52c-4da35cc23ffb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-03T19:46:56.611Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can use a custom TCP protocol over Port 443 for C2.(Citation: ESET HiddenFace 2024)(Citation: Trend Micro Earth Kasha NOV 2024)(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

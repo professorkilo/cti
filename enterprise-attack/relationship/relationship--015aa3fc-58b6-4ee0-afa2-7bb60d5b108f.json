@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8be68398-95f6-4c17-8372-9a339fb25207",
+    "id": "bundle--2a3f4fac-2176-4aab-b996-391df81532db",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.904Z",
+            "modified": "2026-09-03T19:46:52.787Z",
             "description": "[Hannotog](https://attack.mitre.org/software/S1211) uses non-standard listening ports, such as UDP 5900, for command and control purposes.(Citation: Symantec Bilbug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--273e2b53-64ec-48be-9ad9-8f3dc0e53718",

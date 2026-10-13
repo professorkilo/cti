@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f963b59-50b7-4adb-9659-81a5231afbd9",
+    "id": "bundle--21bba8db-889d-484b-af30-4320824c359f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-03T19:47:03.872Z",
             "description": "[CARROTBAT](https://attack.mitre.org/software/S0462) has the ability to download and execute a remote file via [certutil](https://attack.mitre.org/software/S0160).(Citation: Unit 42 CARROTBAT November 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--1b9f0800-035e-4ed1-9648-b18294cc5bc8",

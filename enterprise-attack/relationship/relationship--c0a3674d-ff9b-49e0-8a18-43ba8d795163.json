@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--751ca3e7-a8fa-4b7d-bf31-426ce2803301",
+    "id": "bundle--2add24a7-729a-418d-a3da-4d586e91ac7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.189Z",
+            "modified": "2026-09-03T19:46:57.966Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has the ability to bind on a localhost and listen on port 8300.(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: JPCERT SPAWNCHIMERA Ivanti February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

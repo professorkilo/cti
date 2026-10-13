@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bad7bd29-35e5-479b-a1a9-95232990b444",
+    "id": "bundle--7f789cbc-b602-49e2-aa30-fafa2b08af79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.066Z",
+            "modified": "2026-09-03T19:46:57.591Z",
             "description": "Some [Reaver](https://attack.mitre.org/software/S0172) variants use raw TCP for C2.(Citation: Palo Alto Reaver Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",

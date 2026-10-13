@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c3e471b-b53c-431e-b19f-78f4df1d39a1",
+    "id": "bundle--2f111dd3-e1ec-4add-863c-4266ef609a33",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-03T19:46:59.727Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can use HTTP and HTTPS over port 443 to communicate with actor-controlled C2 servers.(Citation: Gigamon BADHATCH Jul 2019)(Citation: BitDefender BADHATCH Mar 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",

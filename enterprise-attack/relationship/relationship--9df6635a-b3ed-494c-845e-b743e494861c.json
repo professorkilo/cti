@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d680dcd3-451e-40e7-b4ba-56cc7d9b7f7b",
+    "id": "bundle--92e46637-3926-47a6-8734-48228f1833d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.812Z",
+            "modified": "2026-09-08T20:28:08.669Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors used a custom proxy tool called \"Agent\" which has support for multiple hops.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

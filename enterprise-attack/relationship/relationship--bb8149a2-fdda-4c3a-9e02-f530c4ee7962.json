@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95145d0c-fda3-4d1e-bc8f-bb492d2768e5",
+    "id": "bundle--34127eeb-9458-465b-a56b-74b4b7a964e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:46:52.546Z",
             "description": "[GLOOXMAIL](https://attack.mitre.org/software/S0026) communicates to servers operated by Google using the Jabber/XMPP protocol.(Citation: Mandiant APT1)(Citation: CyberESI GTALK)",
             "relationship_type": "uses",
             "source_ref": "malware--f2e8c7a1-cae1-45c4-baf0-6f21bdcbb2c2",

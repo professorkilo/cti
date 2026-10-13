@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c54e62f-527c-44ca-b5a3-8e8d22adc7d6",
+    "id": "bundle--f15ae34f-6a32-4ec2-aa59-fd98f9e69b0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.001Z",
+            "modified": "2026-09-03T19:46:48.203Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) supports DNS-based C2 profiles.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

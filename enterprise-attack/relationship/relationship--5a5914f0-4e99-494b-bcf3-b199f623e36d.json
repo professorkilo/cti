@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1396df22-431f-4437-858e-9932c512e1c3",
+    "id": "bundle--6fb473e2-e57a-40d8-b19e-142fdc970d6f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-08T20:28:43.116Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) can leverage a peer-to-peer C2 profile between agents.(Citation: Mythc Documentation)\t\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1b77afa-9438-4be1-a085-bc14ebc7b745",
+    "id": "bundle--24596ba4-cdb6-4ea1-962e-e7539c1d9f57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.905Z",
+            "modified": "2026-09-03T19:46:46.706Z",
             "description": "[Denis](https://attack.mitre.org/software/S0354) has used DNS tunneling for C2 communications.(Citation: Cybereason Oceanlotus May 2017)(Citation: Securelist Denis April 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",

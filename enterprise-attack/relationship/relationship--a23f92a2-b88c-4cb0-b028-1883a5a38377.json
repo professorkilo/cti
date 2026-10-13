@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8a013d1-657b-4a1b-a02c-55fff84cd9f9",
+    "id": "bundle--3de4100f-209a-4db6-a4fa-f230fe180f9e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.146Z",
+            "modified": "2026-09-03T19:46:55.838Z",
             "description": "[NETWIRE](https://attack.mitre.org/software/S0198) has used web services including Paste.ee to host payloads.(Citation: FireEye NETWIRE March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",

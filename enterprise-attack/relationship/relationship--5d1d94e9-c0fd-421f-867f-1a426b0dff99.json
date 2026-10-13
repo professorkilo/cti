@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--893d0f4f-d60b-4213-8c6b-e66d6c40e4ab",
+    "id": "bundle--7b655543-35fe-446f-81d8-e43c51a4cbcc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.052Z",
+            "modified": "2026-09-03T19:46:48.379Z",
             "description": "[NavRAT](https://attack.mitre.org/software/S0247) uses the email platform, Naver, for C2 communications, leveraging SMTP.(Citation: Talos NavRAT May 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53a42597-1974-4b8e-84fd-3675e8992053",

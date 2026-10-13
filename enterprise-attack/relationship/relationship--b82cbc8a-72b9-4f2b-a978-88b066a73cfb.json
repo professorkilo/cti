@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7de874a7-31ae-4167-b2c7-3a332c577e02",
+    "id": "bundle--bd3d322d-0d67-4217-a7db-09fcef7c6232",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.177Z",
+            "modified": "2026-09-02T18:17:25.268Z",
             "description": "[QakBot](https://attack.mitre.org/software/S0650) can make small changes to itself in order to change its checksum and hash value.(Citation: Crowdstrike Qakbot October 2020)(Citation: Cyberint Qakbot May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--edc5e045-5401-42bb-ad92-52b5b2ee0de9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad59a5fd-4197-403f-83e4-dbef668f02df",
+    "id": "bundle--5498b553-7b68-4a71-a7af-89386a5321d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:46:52.733Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has used a Github repository for C2.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",

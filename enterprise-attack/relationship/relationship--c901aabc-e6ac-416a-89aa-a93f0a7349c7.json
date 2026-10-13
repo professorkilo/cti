@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--819c25d7-011e-417c-84bb-c9453da3379b",
+    "id": "bundle--b6e067e8-df01-41d9-ab91-48cca7432ba4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-03T19:46:50.394Z",
             "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) uses the IMAP email protocol for command and control purposes.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7170d54d-ea55-4445-92a5-ca766428e69b",
+    "id": "bundle--2053eed3-8b77-479d-9669-609dfc539729",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.979Z",
+            "modified": "2026-09-03T19:46:47.160Z",
             "description": "[BadPatch](https://attack.mitre.org/software/S0337) uses SMTP for C2.(Citation: Unit 42 BadPatch Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9af05de0-bc09-4511-a350-5eb8b06185c1",

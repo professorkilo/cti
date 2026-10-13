@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfcc78a9-115c-480c-beec-478060528ec9",
+    "id": "bundle--35706d2c-4596-4d55-9bf6-751a7a84a7c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.092Z",
+            "modified": "2026-09-03T19:47:01.322Z",
             "description": "[Rising Sun](https://attack.mitre.org/software/S0448) has used HTTP and HTTPS for command and control.(Citation: McAfee Sharpshooter December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--56e6b6c2-e573-4969-8bab-783205cebbbf",

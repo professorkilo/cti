@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--22d3ea6b-9199-4188-9b1a-90781e389804",
+    "id": "bundle--4deb251d-0700-400f-937c-d068082f6201",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.205Z",
+            "modified": "2026-09-09T18:39:16.520Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.(Citation: OilRig ISMAgent July 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de618a45-d590-4225-8f06-b5273a5010f9",
+    "id": "bundle--ee28c7dc-1411-4826-aa9a-1e09843b398e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:46:53.749Z",
             "description": "[SPAWNCHIMERA](https://attack.mitre.org/software/S9024) has created SSH tunnels to facilitate C2 communications.(Citation: CISA SPAWNCHIMERA RESURGE February 2026)(Citation: Google UNC5221 Ivanti January 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d1974f35-0e06-478e-bc74-7530545d814b",

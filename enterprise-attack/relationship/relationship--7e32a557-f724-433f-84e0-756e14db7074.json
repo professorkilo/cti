@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97357411-04e7-4886-88d1-f7cef776fe7e",
+    "id": "bundle--ae6271bf-efdb-48e2-b03d-a4835371f931",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.098Z",
+            "modified": "2026-09-03T14:50:23.956Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can identify if ESET or BitDefender antivirus are installed before dropping its payload.(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--151420f8-5f90-44b0-8ae8-95beb5d1c450",
+    "id": "bundle--30879581-eb27-46b6-aab4-a8b123bac66f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.088Z",
+            "modified": "2026-09-02T20:07:46.956Z",
             "description": "[Torisma](https://attack.mitre.org/software/S0678) has encrypted its C2 communications using XOR and VEST-32.(Citation: McAfee Lazarus Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--0715560d-4299-4e84-9e20-6e80ab57e4f2",

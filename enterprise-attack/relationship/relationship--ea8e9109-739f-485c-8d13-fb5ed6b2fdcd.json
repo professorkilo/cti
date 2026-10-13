@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af4fee23-a6c1-496c-b28f-9a0467a34fa9",
+    "id": "bundle--4655d1c7-3a81-4840-a136-7af4943a5993",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.244Z",
+            "modified": "2026-09-02T20:09:43.841Z",
             "description": "[WellMail](https://attack.mitre.org/software/S0515) can use hard coded client and certificate authority certificates to communicate with C2 over mutual TLS.(Citation: CISA WellMail July 2020)(Citation: NCSC APT29 July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--959f3b19-2dc8-48d5-8942-c66813a5101a",

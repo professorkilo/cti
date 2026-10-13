@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b7874ca-d6ca-4f5f-8bcf-08e591daf21c",
+    "id": "bundle--092f1ced-c324-4082-adc3-ed62c8b06a9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.150Z",
+            "modified": "2026-09-03T19:47:02.608Z",
             "description": "[ZeroT](https://attack.mitre.org/software/S0230) has used HTTP for C2.(Citation: Proofpoint TA459 April 2017)(Citation: Proofpoint ZeroT Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--4ab44516-ad75-4e43-a280-705dc0420e2f",

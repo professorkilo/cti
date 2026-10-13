@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dabfcae3-add1-4841-94ef-a4988d4a7565",
+    "id": "bundle--8b5a8d07-bc1a-46a1-8a36-73779cadb4ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-03T19:47:01.835Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has the ability to exfiltrate data from the victim appliance.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bea5a31-5299-439a-88ce-c6cd57fafeb6",
+    "id": "bundle--f9992e5d-a843-42e2-a405-4dbc6e7df0c0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:27.536Z",
+            "modified": "2026-09-08T20:28:08.888Z",
             "description": "[APT41](https://attack.mitre.org/groups/G0096) used a tool called CLASSFON to covertly proxy network communications.(Citation: FireEye APT41 Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--18854f55-ac7c-4634-bd9a-352dd07613b7",

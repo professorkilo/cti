@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16ddad98-7378-4f4a-8bc9-bf58050290cf",
+    "id": "bundle--31b0f058-be74-4cb6-a9bb-8bcc745e55e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-02T20:07:46.478Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to encrypt C2 communication using AES-CBC using the CNG API, the key `0608101047106453101617106423101013101012101083109710108585106969`, and the initialization vector `0`.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c95a9486-9776-4151-b691-e0e76dcb4f84",
+    "id": "bundle--543c9057-f136-4a7e-81c6-0798308055b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:18.115Z",
+            "modified": "2026-09-03T19:46:57.951Z",
             "description": "[KV Botnet Activity](https://attack.mitre.org/campaigns/C0035) command and control traffic uses a non-standard, likely custom protocol for communication.(Citation: Lumen KVBotnet 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--0c259854-4044-4f6c-ac49-118d484b3e3b",

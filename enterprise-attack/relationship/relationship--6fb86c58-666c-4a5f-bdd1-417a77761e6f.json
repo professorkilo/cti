@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f980cb13-2112-42f3-84ae-2ad70af89ff6",
+    "id": "bundle--a833f5d2-7e1f-4ea4-babb-027240df3c35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.078Z",
+            "modified": "2026-09-08T20:29:10.477Z",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) has connected to C2 servers through proxies.(Citation: FireEye MuddyWater Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",

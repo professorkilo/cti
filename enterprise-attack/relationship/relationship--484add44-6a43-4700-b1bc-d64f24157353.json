@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e3a0591-ae27-4646-90da-b98a77bfba81",
+    "id": "bundle--2ae1cf95-d4a7-4510-b69b-9cdb901a6b7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.024Z",
+            "modified": "2026-09-03T19:47:00.902Z",
             "description": "[NanHaiShu](https://attack.mitre.org/software/S0228) can download additional files from URLs.(Citation: Proofpoint Leviathan Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--705f0783-5f7d-4491-b6b7-9628e6e006d2",

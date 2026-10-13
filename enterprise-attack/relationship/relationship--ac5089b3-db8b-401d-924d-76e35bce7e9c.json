@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d14fa50-3b84-474b-b4a1-4250043906bb",
+    "id": "bundle--417f92fc-fe59-4633-89a9-806d9d1bc08a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:46:57.428Z",
             "description": "[More_eggs](https://attack.mitre.org/software/S0284) has used basE91 encoding, along with encryption, for C2 communication.(Citation: Security Intelligence More Eggs Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",

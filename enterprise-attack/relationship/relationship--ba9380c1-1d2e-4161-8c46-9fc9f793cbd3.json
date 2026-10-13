@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d5a0d1a-0eb5-4f03-88cd-247e7c927d8d",
+    "id": "bundle--e16c0fad-e9e8-445a-b6a0-e744ac05a63c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.179Z",
+            "modified": "2026-09-02T20:09:43.548Z",
             "description": "[KEYPLUG](https://attack.mitre.org/software/S1051) can use TLS-encrypted WebSocket Protocol (WSS) for C2.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",

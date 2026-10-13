@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ac02b71f-b769-484d-ae02-2e3b10d5086b",
+    "id": "bundle--25d1c525-0167-495b-b6df-95ad1da090e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.183Z",
+            "modified": "2026-09-03T19:46:50.390Z",
             "description": "[SYSCON](https://attack.mitre.org/software/S0464) has the ability to use FTP in C2 communications.(Citation: Unit 42 CARROTBAT November 2018)(Citation: Unit 42 CARROTBAT January 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edf5aee2-9b1c-4252-8e64-25b12f14c8b3",

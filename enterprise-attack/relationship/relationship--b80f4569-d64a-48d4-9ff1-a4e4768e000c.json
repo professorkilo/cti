@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b1edb93-2f25-4307-b403-b3ed71bb646d",
+    "id": "bundle--ac9435de-89a9-469c-9516-92eb5ec83bb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-03T19:46:58.759Z",
             "description": "[REPTILE](https://attack.mitre.org/software/S1219) can communicate using TLS over raw TCP.(Citation: Google Cloud Mandiant UNC3886 2024)(Citation: Mandiant Fortinet Zero Day)\n",
             "relationship_type": "uses",
             "source_ref": "malware--4ea492ee-36f8-4017-938f-d01ce951ef94",

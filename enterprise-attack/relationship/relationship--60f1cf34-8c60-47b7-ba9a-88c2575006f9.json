@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d7a6145-bc33-499a-a36f-34ffaf7531f0",
+    "id": "bundle--de59d580-9b90-4335-9508-23b793cb57d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:53.707Z",
+            "modified": "2026-09-03T19:47:01.850Z",
             "description": "[APT39](https://attack.mitre.org/groups/G0087) has downloaded tools to compromised hosts.(Citation: Symantec Chafer February 2018)(Citation: FBI FLASH APT39 September 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44e43fad-ffcb-4210-abcf-eaaed9735f80",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--178d66a8-cb63-4c96-b7e2-7c12a4d5ec76",
+    "id": "bundle--b1697a05-523a-4ae2-8c36-d6bb63074087",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.270Z",
+            "modified": "2026-09-02T20:09:43.907Z",
             "description": "[Gomir](https://attack.mitre.org/software/S1198) uses reverse proxy functionality that employs SSL to encrypt communications.(Citation: Symantec Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3128c86d-bd0d-445c-850f-96abf68fbfc3",

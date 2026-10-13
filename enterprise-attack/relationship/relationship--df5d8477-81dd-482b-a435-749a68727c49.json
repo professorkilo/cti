@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d06660b-c4ce-47ef-91a1-7354eb49417d",
+    "id": "bundle--2ec3af8d-15e6-493e-ae37-c43a09e38871",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.230Z",
+            "modified": "2026-07-31T20:48:25.568Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has searched for vulnerabilities, tools, and geopolitical trends on Google to target victims.(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

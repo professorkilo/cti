@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d52ddd1-0e06-4fff-bbad-112451f656ed",
+    "id": "bundle--5340876d-feb0-46b0-ad42-717480146935",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.026Z",
+            "modified": "2026-09-03T19:46:59.332Z",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) can use HTTP for C2.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",

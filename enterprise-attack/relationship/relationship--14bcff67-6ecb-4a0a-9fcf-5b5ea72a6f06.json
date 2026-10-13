@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91ad425b-eb02-4b45-abba-45fe6c56ff30",
+    "id": "bundle--4fb92fe5-1465-4008-a287-e137b05ec278",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.932Z",
+            "modified": "2026-09-03T19:46:47.347Z",
             "description": "[Latrodectus](https://attack.mitre.org/software/S1160) has Base64-encoded the message body of a HTTP request sent to C2.(Citation: Latrodectus APR 2024)(Citation: Elastic Latrodectus May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--76fde8df-3495-47c9-82eb-125c4f7fb621",

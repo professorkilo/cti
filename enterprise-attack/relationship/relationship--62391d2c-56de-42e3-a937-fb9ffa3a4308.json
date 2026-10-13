@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04a9804a-3146-4c3b-a04a-e52471f1e7e0",
+    "id": "bundle--0472ea52-899c-42e4-9527-a353b0a3a234",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-03T19:46:48.591Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) uses SMTP/S and POP3/S for C2 communications by sending and receiving emails.(Citation: Unit42 Cannon Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbff3f32-7e29-4517-8370-f90720c88b02",
+    "id": "bundle--186134ce-43f6-4064-bc09-916aa703ae65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:47:01.170Z",
             "description": "[Mispadu](https://attack.mitre.org/software/S1122) can sends the collected financial data to the C2 server.(Citation: ESET Security Mispadu Facebook Ads 2019)(Citation: SCILabs Malteiro 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6464d2-69df-4e56-8d4c-1973f84d7b80",

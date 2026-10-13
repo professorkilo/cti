@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dc0d36b-30db-4e92-a911-d796ed7db62d",
+    "id": "bundle--93fbc9f4-3430-4e2a-8ebc-3845c5156b5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-03T19:47:05.290Z",
             "description": "[MCMD](https://attack.mitre.org/software/S0500) can upload additional files to a compromised host.(Citation: Secureworks MCMD July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--975737f1-b10d-476f-8bda-3ec26ea57172",

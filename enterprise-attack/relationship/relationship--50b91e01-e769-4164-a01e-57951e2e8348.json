@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c1886d7-11e7-4d5b-a732-d473b3e04088",
+    "id": "bundle--8d679e8e-0580-4171-98f0-6f5fd4611d22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:13.060Z",
+            "modified": "2026-09-03T19:46:54.073Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has used ProxyChains to tunnel protocols to internal networks.(Citation: CISA GRU29155 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",

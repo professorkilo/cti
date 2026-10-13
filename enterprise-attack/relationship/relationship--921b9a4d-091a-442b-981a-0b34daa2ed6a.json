@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7185445-8215-4edc-9991-e870636a682a",
+    "id": "bundle--b1b69ec2-d65c-4121-bc8c-4dc12609fcf0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:32.044Z",
+            "modified": "2026-09-03T19:46:57.398Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has used port-protocol mismatches on ports such as 53, 80, 443, and 8080 during C2.(Citation: FireEye FIN7 Aug 2018) [FIN7](https://attack.mitre.org/groups/G0046) has used TCP ports 59999 and 9898 for firewall rules.(Citation: BlackBerry_FIN7_April2024)  ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a13294cc-c318-497e-a48c-368510448362",
+    "id": "bundle--8829f96a-9482-485e-a89b-d68e3dd1a9bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.936Z",
+            "modified": "2026-09-03T19:46:51.995Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) has used HTTP requests for command and control.(Citation: NorthSec 2015 GData Uroburos Tools)(Citation: ESET ComRAT May 2020)(Citation: CISA ComRAT Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",

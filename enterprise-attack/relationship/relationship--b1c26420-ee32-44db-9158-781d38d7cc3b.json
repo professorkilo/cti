@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d393c99-193d-47d1-b735-54fb302009bb",
+    "id": "bundle--ec12e9f1-6510-4ff1-b6c7-8af02dca775f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.168Z",
+            "modified": "2026-09-03T19:47:02.853Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) has initiated connections to external domains using HTTPS.(Citation: Unit42 Redaman January 2019)\t",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",

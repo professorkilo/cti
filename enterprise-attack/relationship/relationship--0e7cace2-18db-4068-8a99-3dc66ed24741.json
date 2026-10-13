@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fafcaa5-74e9-4c9d-8ec4-1e399206cc0d",
+    "id": "bundle--461e0dfa-4bda-4f8d-879a-e98231366573",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.923Z",
+            "modified": "2026-09-03T19:46:55.283Z",
             "description": "[Action RAT](https://attack.mitre.org/software/S1028) has the ability to download additional payloads onto an infected machine.(Citation: MalwareBytes SideCopy Dec 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--36801ffb-5c85-4c50-9121-6122e389366d",

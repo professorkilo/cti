@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--158ab309-dab2-4e65-bb99-f37ac4b2b4ec",
+    "id": "bundle--0a457c1e-15d7-43f7-85de-9b4436ab2a7b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.422Z",
+            "modified": "2026-09-03T19:47:03.209Z",
             "description": "[TA551](https://attack.mitre.org/groups/G0127) has used HTTP for C2 communications.(Citation: Unit 42 Valak July 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",

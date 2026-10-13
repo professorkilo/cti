@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc0555d4-ee17-4240-b4ae-4c55c4ed6790",
+    "id": "bundle--8db75488-45a1-45a1-9704-a7849399f766",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:46:55.851Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) uses a custom command and control protocol that is encapsulated in HTTP, HTTPS, or DNS. In addition, it conducts peer-to-peer communication over Windows named pipes encapsulated in the SMB protocol. All protocols use their standard assigned ports.(Citation: cobaltstrike manual)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

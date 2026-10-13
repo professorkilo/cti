@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a8bdbf1-fd49-4fb5-9612-7570d33cc565",
+    "id": "bundle--d6756bc8-75e3-4051-94df-87ef8df81776",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.118Z",
+            "modified": "2026-09-02T20:07:47.192Z",
             "description": "[Kobalos](https://attack.mitre.org/software/S0641)'s post-authentication communication channel uses a 32-byte-long password with RC4 for inbound and outbound traffic.(Citation: ESET Kobalos Feb 2021)(Citation: ESET Kobalos Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--9abdda30-08e0-4ab1-9cf0-d447654c6de9",

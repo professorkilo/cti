@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc558987-c661-46eb-8e41-83c63c24e09f",
+    "id": "bundle--4980e749-e5d9-41df-9845-c65d6072e4a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-09-02T20:09:42.833Z",
             "description": "[ServHelper](https://attack.mitre.org/software/S0382) may set up a reverse SSH tunnel to give the attacker access to services running on the victim, such as RDP.(Citation: Proofpoint TA505 Jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--aae22730-e571-4d17-b037-65f2a3e26213",

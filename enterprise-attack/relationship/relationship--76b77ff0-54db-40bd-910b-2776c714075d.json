@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad40279b-a95d-4634-a134-1cf931aa26cb",
+    "id": "bundle--6d84d675-02f5-4b36-8979-d761ba1d0ca7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.088Z",
+            "modified": "2026-09-03T19:46:59.471Z",
             "description": "[Astaroth](https://attack.mitre.org/software/S0373) exfiltrates collected information from its r1.log file to the external C2 server. (Citation: Cybereason Astaroth Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--edb24a93-1f7a-4bbf-a738-1397a14662c6",

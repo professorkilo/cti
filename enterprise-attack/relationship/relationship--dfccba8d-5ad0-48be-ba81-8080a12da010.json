@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8893319f-969d-4397-ba99-bd241964a7ef",
+    "id": "bundle--fdf54e3e-a52f-4461-8d02-a5f83a922db6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.230Z",
+            "modified": "2026-09-03T19:47:03.982Z",
             "description": "[STEADYPULSE](https://attack.mitre.org/software/S1112) can parse web requests made to a targeted server to determine the next stage of execution.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--ca0fead6-5277-427a-825b-42ff1fbe476e",

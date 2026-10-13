@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5462538e-d4ee-4cd9-8549-327f62dbdf5c",
+    "id": "bundle--45f519b4-8246-486f-9598-4c23a4f9733d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.907Z",
+            "modified": "2026-09-03T19:46:54.139Z",
             "description": "[MechaFlounder](https://attack.mitre.org/software/S0459) has the ability to send the compromised user's account name and hostname within a URL to C2.(Citation: Unit 42 MechaFlounder March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--dfa03c7d-79ed-4ce2-b9d1-ddc9dbf56ad2",

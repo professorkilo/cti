@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2a39d5a8-d891-4806-b654-8a1eef294042",
+    "id": "bundle--0a776f1f-7f95-4c18-99c5-9b1e697cd6b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-03T19:46:57.530Z",
             "description": "[Pay2Key](https://attack.mitre.org/software/S0556) has sent its public key to the C2 server over TCP.(Citation: Check Point Pay2Key November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--77ca1aa3-280c-4b67-abaa-e8fb891a8f83",

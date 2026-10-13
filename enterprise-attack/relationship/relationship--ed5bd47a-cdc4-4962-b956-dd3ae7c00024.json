@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23a8bda7-4a63-452d-ba2b-c05cb4c404e0",
+    "id": "bundle--29f09ab6-c355-4a7b-8f01-972652f774f4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:11.450Z",
+            "modified": "2026-09-02T17:55:53.339Z",
             "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has obtained and used leaked malware, including DoublePulsar, EternalBlue, EternalRocks, and EternalSynergy, in its operations.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d6590a7-60a6-44d3-8a6c-26364ea440ac",
+    "id": "bundle--b09a5c68-42cb-4e95-9c36-81425a569cfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-02T20:07:46.500Z",
             "description": "[BADCALL](https://attack.mitre.org/software/S0245) encrypts C2 traffic using an XOR/ADD cipher.(Citation: US-CERT BADCALL)",
             "relationship_type": "uses",
             "source_ref": "malware--9dbdadb6-fdbf-490f-a35f-38762d06a0d2",

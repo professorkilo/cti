@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--361afcb8-5b99-4874-84dd-f36124b003dd",
+    "id": "bundle--8a352bc9-c2d3-49e0-847f-1bdebf350db8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-06-08T19:34:13.888Z",
+            "modified": "2026-09-03T19:24:24.809Z",
             "description": "Use Trusted Platform Module technology and a secure or trusted boot process to prevent system integrity from being compromised. Check the integrity of the existing BIOS or EFI to determine if it is vulnerable to modification.(Citation: TCG Trusted Platform Module)(Citation: TechNet Secure Boot Process)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--7da0387c-ba92-4553-b291-b636ee42b2eb",

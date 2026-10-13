@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8774d9ad-17ef-45b1-817e-6037cee16f51",
+    "id": "bundle--27406e1b-b533-472a-9318-2b5c8d54deab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,11 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "CISA_AA25-239ASaltTyphoon_Sept2025",
+                    "description": "CISA. (2025, September 3). Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System. Retrieved September 22, 2026.",
+                    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+                },
+                {
                     "source_name": "Cisco Salt Typhoon FEB 2025",
                     "description": "Cisco Talos. (2025, February 20). Weathering the storm: In the midst of a Typhoon. Retrieved February 24, 2025.",
                     "url": "https://blog.talosintelligence.com/salt-typhoon-analysis/"
@@ -19,8 +24,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:41.895Z",
-            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has cracked passwords for accounts with weak encryption obtained from the configuration files of compromised network devices.(Citation: Cisco Salt Typhoon FEB 2025)",
+            "modified": "2026-09-22T22:09:38.953Z",
+            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has cracked passwords for accounts with weak encryption obtained from the configuration files of compromised network devices.(Citation: Cisco Salt Typhoon FEB 2025)\n\n[Salt Typhoon](https://attack.mitre.org/groups/G1045) has cracked weak hashed passwords stolen from configuration files.(Citation: CISA_AA25-239ASaltTyphoon_Sept2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",
             "target_ref": "attack-pattern--1d24cdee-9ea2-4189-b08e-af110bf2435d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09ddcced-71f9-4850-970f-267884607bb8",
+    "id": "bundle--576efd54-9547-48dc-8693-cc2f32a43fe8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:44.472Z",
+            "modified": "2026-09-09T18:44:33.659Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has collected emails from victim Microsoft Exchange servers.(Citation: DOJ GRU Indictment Jul 2018)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23d4b077-91d7-4464-8b78-8470bff3bfbd",
+    "id": "bundle--3d9c9e81-763c-427a-a095-88ba416de9df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,8 +19,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:47.748Z",
-            "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has queried ` HKEY_CURRENT_USER\\\\Console\\\\WindowsUpdates` to obtain the C2 addresses.(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025) [Gamaredon Group](https://attack.mitre.org/groups/G0047) has queried ` HKEY_CURRENT_USER\\\\Console\\\\WindowsUpdates` to obtain the C2 addresses.(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025) ",
+            "modified": "2026-10-01T23:35:36.847Z",
+            "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has queried ` HKEY_CURRENT_USER\\\\Console\\\\WindowsUpdates` to obtain the C2 addresses.(Citation: SymantecCarbonBlack_ShuckwormUSB_Apr2025) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",
             "target_ref": "attack-pattern--c32f7008-9fea-41f7-8366-5eb9b74bd896",

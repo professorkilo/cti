@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb7ac965-0321-4f93-a6da-09920d4cda53",
+    "id": "bundle--40993138-d04e-4ac9-b022-c8aee1101b0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.542Z",
+            "modified": "2026-09-02T18:52:46.903Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has sent spearphishing emails with attachment to harvest credentials and deliver malware.(Citation: SANS Windshift August 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

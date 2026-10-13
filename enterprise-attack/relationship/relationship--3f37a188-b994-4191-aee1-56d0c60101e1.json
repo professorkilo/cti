@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfbe618e-90e6-4f34-95af-fe488c630885",
+    "id": "bundle--c15fa439-9f95-4d7f-bf09-98f68e60eda9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-03T19:46:49.539Z",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) can use multiple C2 channels, including RSS feeds, Github, forums, and blogs.(Citation: Forcepoint Monsoon)(Citation: PaloAlto Patchwork Mar 2018)(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",

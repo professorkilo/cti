@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c25aedcc-7fef-4945-b178-3f9d0918d00d",
+    "id": "bundle--ee3a8c83-7bc1-42a8-aed1-32e1ab526026",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.090Z",
+            "modified": "2026-09-03T19:46:53.436Z",
             "description": "[Okrum](https://attack.mitre.org/software/S0439) has used base64 to encode C2 communication.(Citation: ESET Okrum July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",

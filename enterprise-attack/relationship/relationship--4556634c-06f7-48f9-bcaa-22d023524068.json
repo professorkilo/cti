@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--875f8168-2627-4afd-8b85-c49c0a8f2cfd",
+    "id": "bundle--ffc0dcd1-447b-42da-a33b-892bf99b579d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-03T19:46:59.059Z",
             "description": "The \"Uploader\" variant of [HAMMERTOSS](https://attack.mitre.org/software/S0037) visits a hard-coded server over HTTP/S to download the images [HAMMERTOSS](https://attack.mitre.org/software/S0037) uses to receive commands.(Citation: FireEye APT29)",
             "relationship_type": "uses",
             "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",

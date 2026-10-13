@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87061de1-fab4-4374-b3f3-41b7ccaa4960",
+    "id": "bundle--36e58a25-cfb4-4670-ae2f-71223e7bf6ca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-03T19:47:01.911Z",
             "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) sends device and other collected data back to the C2 using the established C2 channels over TCP. (Citation: RotaJakiro 2021 netlab360 analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde",

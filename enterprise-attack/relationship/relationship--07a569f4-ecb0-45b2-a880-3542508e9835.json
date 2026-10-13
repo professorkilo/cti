@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--39ebbeda-3a74-4110-a896-9f8c1999205d",
+    "id": "bundle--416ebaee-e79e-4a52-88ca-515dd8e81599",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:14.566Z",
+            "modified": "2026-09-02T18:23:57.039Z",
             "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has split archived files into multiple parts to bypass a 5MB limit.(Citation: Bitdefender LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",

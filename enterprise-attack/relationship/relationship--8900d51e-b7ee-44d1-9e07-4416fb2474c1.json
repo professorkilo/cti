@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b70b88fe-8b09-4a18-9f16-09c5b605a669",
+    "id": "bundle--f7e45b1b-1e34-4c98-810a-34a939fa0950",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.112Z",
+            "modified": "2026-09-02T20:07:47.155Z",
             "description": "[Solar](https://attack.mitre.org/software/S1166) can XOR encrypt C2 communications.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--b921a2fa-09fe-46b8-bd3c-8118781bf1f8",

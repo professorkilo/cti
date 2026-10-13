@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b20dc65-ed97-4832-91bb-22d10a061e18",
+    "id": "bundle--95179033-c077-4bc0-9a23-5d5ec50fc9d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.223Z",
+            "modified": "2026-09-03T19:47:03.895Z",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) uses HTTP and HTTPS for command and control.(Citation: F-Secure The Dukes)(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",

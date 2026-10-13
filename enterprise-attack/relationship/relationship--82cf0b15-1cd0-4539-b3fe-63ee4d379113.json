@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53532ec9-76aa-4a0a-9ade-d8d93bb53f48",
+    "id": "bundle--b1b475e5-9060-49af-9a0d-a17f491024fc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.104Z",
+            "modified": "2026-09-03T19:46:54.193Z",
             "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate some obfuscation activity at the network level.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",

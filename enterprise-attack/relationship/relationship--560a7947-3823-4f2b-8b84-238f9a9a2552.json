@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e883900e-cd19-4549-b5bc-2dd99e0b7c15",
+    "id": "bundle--487d772b-0a3f-4452-9c3e-8fd84c75f2ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-03T19:46:48.202Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) is capable of using SMTP for C2.(Citation: Symantec Remsec IOCs)(Citation: Kaspersky ProjectSauron Full Report)(Citation: Kaspersky ProjectSauron Technical Analysis)(Citation: Threatpost Sauron)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",

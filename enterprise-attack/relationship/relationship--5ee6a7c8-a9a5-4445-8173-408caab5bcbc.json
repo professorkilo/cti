@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--72336e1e-8da3-4b3f-b805-1e5eabb8b0cf",
+    "id": "bundle--ee3020dd-7a00-408e-86b9-4821c1341c13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.054Z",
+            "modified": "2026-09-03T19:46:54.197Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can use a custom protocol tunneled through DNS or HTTP.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

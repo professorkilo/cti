@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d9af8fc-d4c0-4e53-9390-40783c75361c",
+    "id": "bundle--6204df55-e4b2-4433-b6bd-d00441bc6eca",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.023Z",
+            "modified": "2026-09-03T19:46:58.476Z",
             "description": "[Cannon](https://attack.mitre.org/software/S0351) exfiltrates collected data over email via SMTP/S and POP3/S C2 channels.(Citation: Unit42 Cannon Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d20b397a-ea47-48a9-b503-2e2a3551e11d",

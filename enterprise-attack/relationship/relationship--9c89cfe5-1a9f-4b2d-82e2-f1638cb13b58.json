@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--349cb2dd-c8bd-4411-ab1d-3ba034410858",
+    "id": "bundle--84fae6ce-95fe-44e1-a9fb-daaba18647b1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.138Z",
+            "modified": "2026-09-03T19:47:02.402Z",
             "description": "[Maze](https://attack.mitre.org/software/S0449) has communicated to hard-coded IP addresses via HTTP.(Citation: McAfee Maze March 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--d9f7383c-95ec-4080-bbce-121c9384457b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1be0fa0-6045-4e9c-84e9-b503dbfb2563",
+    "id": "bundle--65ab31c6-94ad-43a3-9052-6de4e108676a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-03T19:46:59.980Z",
             "description": "[Dacls](https://attack.mitre.org/software/S0497) can download its payload from a C2 server.(Citation: SentinelOne Lazarus macOS July 2020)(Citation: TrendMicro macOS Dacls May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3aa169f8-bbf6-44bb-b57d-7f6ada5c2128",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59d4dbf8-3178-49cd-a852-7bcb96b324d4",
+    "id": "bundle--5495a8b4-9628-4614-898f-d2f8a038bd3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.162Z",
+            "modified": "2026-09-03T19:47:02.795Z",
             "description": "[PUNCHBUGGY](https://attack.mitre.org/software/S0196) enables remote interaction and can obtain additional code over HTTPS GET and POST requests.(Citation: FireEye Fin8 May 2016)(Citation: FireEye Know Your Enemy FIN8 Aug 2016)(Citation: Morphisec ShellTea June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5c6ed2dc-37f4-40ea-b2e1-4c76140a388c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23c9260f-bdf6-4f13-afe5-be3eaa357997",
+    "id": "bundle--39e23bfc-1b7d-49ff-8b6e-2c2bc8241be4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:13.086Z",
+            "modified": "2026-09-02T17:55:53.130Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) has acquired malware and related tools from dark web forums.(Citation: CISA GRU29155 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",

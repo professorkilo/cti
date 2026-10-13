@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e6b3962-bf57-4461-b9b4-bea1e36c3e80",
+    "id": "bundle--ae935fcf-5a87-4dca-ab29-8891192a548c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.890Z",
+            "modified": "2026-09-02T17:31:49.093Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has queried the Kubernetes API for local service account tokens and has used  `kubectl` for lateral movement.(Citation: Phoenix TeamPCP 20 MAY 2026)(Citation: Wiz TeamPCP KICS MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

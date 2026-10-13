@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4228254-3547-4594-95a5-a550cae39961",
+    "id": "bundle--165ca3b9-7698-42ce-817b-54075716e93d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.183Z",
+            "modified": "2026-09-02T20:09:43.578Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) uses SSL and AES ECB for encrypting C2 communications.(Citation: ESET Zebrocy Nov 2018)(Citation: ESET Zebrocy May 2019)(Citation: CISA Zebrocy Oct 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

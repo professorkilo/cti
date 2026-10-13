@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f2ccfe4-9856-4ab8-b5c3-c67617e1554a",
+    "id": "bundle--0331c453-c322-4178-9226-86c5509b4872",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:56.550Z",
+            "modified": "2026-09-03T19:46:52.006Z",
             "description": "[Carbanak](https://attack.mitre.org/groups/G0008) has used a VBScript named \"ggldr\" that uses Google Apps Script, Sheets, and Forms services for C2.(Citation: Forcepoint Carbanak Google C2)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--55033a4d-3ffe-46b2-99b4-2c1541e9ce1c",

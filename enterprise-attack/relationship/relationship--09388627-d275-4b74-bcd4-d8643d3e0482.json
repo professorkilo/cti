@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--378b13f3-f6cb-4ad4-a0ad-7f390d376c0d",
+    "id": "bundle--e3ffd975-c222-4a6e-b45c-f478689f0b85",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.916Z",
+            "modified": "2026-09-03T19:46:52.676Z",
             "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) encrypts the payload of HTTP POST communications using the same XOR key used for the malware's DLL payload.(Citation: DCSO StrelaStealer 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--951313b3-6064-4ce0-b4b6-a153c3973da7",

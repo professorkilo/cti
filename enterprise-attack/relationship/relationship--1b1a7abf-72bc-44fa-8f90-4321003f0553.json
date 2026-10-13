@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--efbf2ad1-1172-4a5d-a6f2-e2f548bd0f71",
+    "id": "bundle--dc116404-6eec-4a39-b82b-1affc9bb8167",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-03T19:46:47.829Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has used Base64 to encode its C2 traffic.(Citation: Lunghi Iron Tiger Linux) ",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",

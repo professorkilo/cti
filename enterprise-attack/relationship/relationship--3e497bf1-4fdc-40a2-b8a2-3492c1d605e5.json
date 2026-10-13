@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf639d29-279a-4225-9086-3f4d18e92898",
+    "id": "bundle--b3b09b71-66f6-492c-9329-f64b22c57c83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.010Z",
+            "modified": "2026-09-02T18:23:57.112Z",
             "description": "[POSHSPY](https://attack.mitre.org/software/S0150) uploads data in 2048-byte chunks.(Citation: FireEye POSHSPY April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--5e595477-2e78-4ce7-ae42-e0b059b17808",

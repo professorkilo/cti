@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0ecf05a7-dca8-4fb0-a5f8-22855d2202f6",
+    "id": "bundle--777af884-c885-40ce-a206-19b9d6e2607a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:25.697Z",
+            "modified": "2026-09-02T18:26:03.182Z",
             "description": "During [C0015](https://attack.mitre.org/campaigns/C0015), the threat actors collected files from network shared drives prior to network encryption.(Citation: DFIR Conti Bazar Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--78068e68-4124-4243-b6f4-76e4e5be8a06",

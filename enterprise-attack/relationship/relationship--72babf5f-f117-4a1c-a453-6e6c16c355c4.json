@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09bbd5c9-5b2d-4a90-b278-6be1f2cfb39e",
+    "id": "bundle--546f283f-5727-4a9e-8581-59a3be0809f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-03T19:47:02.457Z",
             "description": "[SharpStage](https://attack.mitre.org/software/S0546) has the ability to download and execute additional payloads via a DropBox API.(Citation: Cybereason Molerats Dec 2020)(Citation: BleepingComputer Molerats Dec 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--0ba9281c-93fa-4b29-8e9e-7ef918c7b13a",

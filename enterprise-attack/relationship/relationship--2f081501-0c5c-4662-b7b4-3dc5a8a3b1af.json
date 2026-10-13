@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cd8bfd5-c3a6-42bc-862d-5c0afcf3c7c6",
+    "id": "bundle--e4011d87-655e-4108-ae80-e61bf1318d43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.969Z",
+            "modified": "2026-09-03T19:46:59.436Z",
             "description": "[WarzoneRAT](https://attack.mitre.org/software/S0670) can download and execute additional files.(Citation: Check Point Warzone Feb 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--fde19a18-e502-467f-be14-58c71b4e7f4b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4c0f089-45e3-4128-b6a2-69880dba4849",
+    "id": "bundle--335f8ee3-65fa-46ed-9de3-f4b8e91d2d77",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.462Z",
+            "modified": "2026-09-03T19:46:58.604Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has modified legitimate software binaries to retrieve secondary payloads from C2.(Citation: Wiz TeamPCP KICS MAR 2026)(Citation: Aikido TeamPCP Telnyx MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

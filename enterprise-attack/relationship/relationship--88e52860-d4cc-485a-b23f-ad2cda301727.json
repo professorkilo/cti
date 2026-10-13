@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8909bc08-4b8c-4dd4-a113-e5f617f22e51",
+    "id": "bundle--89126df2-075f-4d1a-955f-7269d3f5ed49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.112Z",
+            "modified": "2026-09-03T19:47:03.106Z",
             "description": "[Woody RAT](https://attack.mitre.org/software/S1065) can download files from its C2 server, including the .NET DLLs, `WoodySharpExecutor` and `WoodyPowerSession`.(Citation: MalwareBytes WoodyRAT Aug 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--3bc7e862-5610-4c02-9c48-15b2e2dc1ddb",

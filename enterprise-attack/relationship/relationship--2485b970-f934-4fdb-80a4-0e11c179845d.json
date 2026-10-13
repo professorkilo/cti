@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce2ec8f6-f613-4c30-95e2-053bc341dc05",
+    "id": "bundle--7f47116f-00a9-4cf9-92ba-24c5f786a340",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-08T20:28:08.135Z",
             "description": "[AuditCred](https://attack.mitre.org/software/S0347) can utilize proxy for communications.(Citation: TrendMicro Lazarus Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--24b4ce59-eaac-4c8b-8634-9b093b7ccd92",

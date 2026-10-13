@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b306ec3-8f70-4010-9141-801c494e068e",
+    "id": "bundle--8533505e-2cb6-4cdc-85fc-d16520d4cd71",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:46:59.989Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) has the ability to exfiltrate data over the C2 channel.(Citation: Cybereason Valak May 2020)(Citation: Unit 42 Valak July 2020)(Citation: SentinelOne Valak June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",

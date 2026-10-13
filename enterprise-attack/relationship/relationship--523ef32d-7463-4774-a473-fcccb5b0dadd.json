@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--06fc8a3f-421f-4b6f-9665-b45f93bcddc3",
+    "id": "bundle--31642a8b-1aa9-4fb8-a973-327fc2c37713",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-02T18:05:13.016Z",
             "description": "Limit privileges of user accounts and groups so that only authorized administrators can interact with service changes and service binary target path locations. Deny execution from user directories such as file download directories and temp directories where able.\n\nEnsure that proper permissions and directory access control are set to deny users the ability to write files to the top-level directory <code>C:</code> and system directories, such as <code>C:\\Windows\\</code>, to reduce places where malicious files could be placed for execution.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

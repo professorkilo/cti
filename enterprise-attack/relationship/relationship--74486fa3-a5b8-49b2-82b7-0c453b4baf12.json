@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7a4d556d-657f-4701-a52c-bac88af9669c",
+    "id": "bundle--af1b5644-0933-440c-92ea-4f3264e330f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.084Z",
+            "modified": "2026-09-02T20:09:43.114Z",
             "description": "[Tor](https://attack.mitre.org/software/S0183) encapsulates traffic in multiple layers of encryption, using TLS by default.(Citation: Dingledine Tor The Second-Generation Onion Router)",
             "relationship_type": "uses",
             "source_ref": "tool--ed7d0cb1-87a6-43b4-9f46-ef1bc56d6c68",

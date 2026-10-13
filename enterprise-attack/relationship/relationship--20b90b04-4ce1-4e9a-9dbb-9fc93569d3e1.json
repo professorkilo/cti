@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3175f05e-0314-40a2-b853-aaed13cf6430",
+    "id": "bundle--98887443-7ed2-4808-9bab-414342282f93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:03.637Z",
+            "modified": "2026-09-03T19:46:58.739Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has used shellcode to download Meterpreter after compromising a victim.(Citation: ESET Turla Mosquito May 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

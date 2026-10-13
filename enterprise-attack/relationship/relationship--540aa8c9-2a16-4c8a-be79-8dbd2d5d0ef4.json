@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--084d588a-1a83-43ad-8271-52497d8b182e",
+    "id": "bundle--a1fe53b1-1f57-49b9-acb9-403e3bbfb84b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.040Z",
+            "modified": "2026-09-03T19:46:59.748Z",
             "description": "[Koadic](https://attack.mitre.org/software/S0250) has used HTTP for C2 communications.(Citation: MalwareBytes LazyScripter Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",

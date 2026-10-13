@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--297f7826-fe1c-4ca6-b242-cc0a473ec4a6",
+    "id": "bundle--5c9ea188-4ff8-4a21-8f56-76ee4885fb37",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.948Z",
+            "modified": "2026-09-03T19:46:58.678Z",
             "description": "[Meteor](https://attack.mitre.org/software/S0688) has the ability to download additional files for execution on the victim's machine.(Citation: Check Point Meteor Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--d79e7a60-5de9-448e-a074-f95d2d80f8d0",

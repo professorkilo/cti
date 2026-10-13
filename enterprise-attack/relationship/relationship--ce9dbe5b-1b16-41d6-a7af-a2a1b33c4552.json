@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f70c712-9de0-4dca-9705-0503483a477d",
+    "id": "bundle--e92961ca-4c8b-40ca-8530-7e775224f2f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-02T20:07:47.722Z",
             "description": "[Daserf](https://attack.mitre.org/software/S0187) uses RC4 encryption to obfuscate HTTP traffic.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",

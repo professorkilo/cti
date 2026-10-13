@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a43b0d7-d1d3-427b-b382-dc38babdceec",
+    "id": "bundle--4cc117bc-5a3e-430c-8f32-ebf2bc3e5929",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.058Z",
+            "modified": "2026-09-03T19:47:01.924Z",
             "description": "[Emotet](https://attack.mitre.org/software/S0367) can download follow-on payloads and items via malicious `url` parameters in obfuscated PowerShell code.(Citation: Pincus Emotet 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fc23327-ebf2-42e7-8c35-bf6c3c170bf1",
+    "id": "bundle--d7cf7ea0-46c5-44d0-a47a-ae99fdd416a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.130Z",
+            "modified": "2026-09-02T20:09:43.316Z",
             "description": "[Trojan.Karagany](https://attack.mitre.org/software/S0094) can secure C2 communications with SSL and TLS.(Citation: Secureworks Karagany July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d47d11a-cbdd-4918-b7fb-ab669200dd39",
+    "id": "bundle--1700b4de-f04b-48ab-8d66-da1abb7b3d08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.137Z",
+            "modified": "2026-09-03T19:47:02.357Z",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) network traffic can communicate over HTTP.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",

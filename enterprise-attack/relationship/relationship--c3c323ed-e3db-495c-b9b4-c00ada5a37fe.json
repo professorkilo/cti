@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bdb4fbc3-b873-45e5-827a-df241fa157cb",
+    "id": "bundle--b526cc8a-f2a7-4259-94e2-a52812b8caff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.193Z",
+            "modified": "2026-09-03T19:47:03.440Z",
             "description": "[Clambling](https://attack.mitre.org/software/S0660) has the ability to communicate over HTTP.(Citation: Trend Micro DRBControl February 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--6e95feb1-78ee-48d3-b421-4d76663b5c49",

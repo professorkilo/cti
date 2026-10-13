@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f1c4913-5b98-4ecb-be7b-9b86aa177b70",
+    "id": "bundle--f047dbf4-3faa-425d-b72a-a017ce576a30",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-02T18:05:12.841Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) edits the Registry key <code>HKCU\\Software\\Classes\\mscfile\\shell\\open\\command</code> to execute a malicious AutoIt script.(Citation: Ensilo Darkgate 2018) When eventvwr.exe is executed, this will call the Microsoft Management Console (mmc.exe), which in turn references the modified Registry key.",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",

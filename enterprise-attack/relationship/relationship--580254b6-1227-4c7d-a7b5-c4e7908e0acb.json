@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2acb4577-38be-44e3-b190-1df1f3859194",
+    "id": "bundle--ac6a9d4a-1332-4af9-87c7-bcd7bb3a564f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.045Z",
+            "modified": "2026-09-03T14:50:23.868Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) has named services to appear legitimate.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

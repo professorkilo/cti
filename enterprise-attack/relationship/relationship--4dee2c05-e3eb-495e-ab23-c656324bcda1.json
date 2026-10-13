@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4552bc45-324c-4766-bf65-857f8fd8a73c",
+    "id": "bundle--d310eca9-04a3-4b5b-ae87-fff175f1c7d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.365Z",
+            "modified": "2026-09-03T19:46:59.538Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has communicated through reverse or bind shells over port 443 (HTTPS).(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

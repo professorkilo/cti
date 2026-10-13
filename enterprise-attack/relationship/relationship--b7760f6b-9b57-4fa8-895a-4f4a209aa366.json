@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60af280c-f7a2-47f0-9520-149647dad73c",
+    "id": "bundle--f2b19256-e858-483a-b659-a6c0d7252fe9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-03T19:47:04.742Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can upload files to the victim's machine for operations.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

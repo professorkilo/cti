@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--705de40a-59f2-462c-8fff-84ba776a4f8c",
+    "id": "bundle--ded63591-9deb-4843-ae63-1043b4d04614",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.935Z",
+            "modified": "2026-09-03T19:46:55.661Z",
             "description": "[HotCroissant](https://attack.mitre.org/software/S0431) has the ability to download files from the infected host to the command and control (C2) server.(Citation: Carbon Black HotCroissant April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--aad11e34-02ca-4220-91cd-2ed420af4db3",

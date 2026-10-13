@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16078899-b198-428c-97c2-035c91b1e0b8",
+    "id": "bundle--0f3e0a21-c07e-4309-8efb-2690a3946a26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-03T19:46:54.538Z",
             "description": "[CozyCar](https://attack.mitre.org/software/S0046)'s main method of communicating with its C2 servers is using HTTP or HTTPS.(Citation: F-Secure CozyDuke)",
             "relationship_type": "uses",
             "source_ref": "malware--e6ef745b-077f-42e1-a37d-29eecff9c754",

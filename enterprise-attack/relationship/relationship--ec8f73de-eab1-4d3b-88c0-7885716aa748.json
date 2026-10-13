@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--32368b38-2341-4331-812e-89b4e27461ec",
+    "id": "bundle--9b7975bc-72e2-4085-91e5-157499464220",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:40.868Z",
+            "modified": "2026-09-02T18:51:44.414Z",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) took screenshots using their Windows malware.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",

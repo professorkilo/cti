@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--66b539ce-7339-4ea2-abe9-40ab877e5925",
+    "id": "bundle--6a345918-8836-4d55-bd7f-5c6fc2cdfae2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-03T19:46:55.743Z",
             "description": "[Sibot](https://attack.mitre.org/software/S0589) has used a legitimate compromised website to download DLLs to the victim's machine.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--979adb5a-dc30-48f0-9e3d-9a26d866928c",

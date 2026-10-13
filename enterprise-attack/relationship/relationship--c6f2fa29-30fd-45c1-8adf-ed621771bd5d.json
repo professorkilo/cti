@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce64b324-263b-4500-95eb-cb03e9f2b0b6",
+    "id": "bundle--4220051c-72eb-46eb-aea3-4b7fe3c85fd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:47:01.262Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can exfiltrate files from the victim using the <code>download</code> command.(Citation: GitHub Sliver Download)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

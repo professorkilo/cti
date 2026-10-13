@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3f8e13b-4e27-4959-a835-952f667170ba",
+    "id": "bundle--b48f6b3a-3c4d-4ba7-832b-f8f3d8dea83c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:44.983Z",
+            "modified": "2026-09-03T19:46:49.349Z",
             "description": "[APT28](https://attack.mitre.org/groups/G0007) has used IMAP, POP3, and SMTP for a communication channel in various implants, including using self-registered Google Mail accounts and later compromised email servers of its victims.(Citation: FireEye APT28)(Citation: Cybersecurity Advisory GRU Brute Force Campaign July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bef4c620-0787-42a8-a96d-b7eb6e85917c",

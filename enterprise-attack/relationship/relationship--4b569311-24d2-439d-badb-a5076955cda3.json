@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df7a0540-c7bf-458b-bda8-ec5b7b3ce4b2",
+    "id": "bundle--77e6245c-4d83-4e5c-aaa2-cabb3156ba93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-03T19:46:48.482Z",
             "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) has the ability to use FTP in C2 communications.(Citation: Unit 42 CARROTBAT January 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",

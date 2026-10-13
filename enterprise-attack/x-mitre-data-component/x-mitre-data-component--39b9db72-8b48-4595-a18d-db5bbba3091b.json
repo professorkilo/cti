@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1da3b5e5-a465-48ea-a698-0da5f9401df7",
+    "id": "bundle--8fcd930a-c8aa-406c-9633-b9e694097162",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-10-13T17:43:51.337Z",
             "name": "Logon Session Metadata",
             "description": "Contextual data about a logon session, such as username, logon type, access tokens (security context, user SIDs, logon identifiers, and logon SID), and any activity associated within it",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -166,6 +166,30 @@
                 {
                     "name": "esxi:auth",
                     "channel": "None"
+                },
+                {
+                    "name": "vpn:authlog",
+                    "channel": "Industrial Control Systems (ICS)-role account authentication from source geolocation/Autonomous System Number (ASN) not in approved remote access origins or outside expected session pattern"
+                },
+                {
+                    "name": "syslog:auth",
+                    "channel": "authentication attempt or success from internet-sourced Internet Protocol (IP) address not in organizational IP space"
+                },
+                {
+                    "name": "syslog:auth",
+                    "channel": "Secure Shell (SSH) session from Virtual Private Network (VPN)-assigned Internet Protocol (IP) address correlated with remote access authentication anomaly"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4624/4625: EventCode=4672 for Industrial Control Systems (ICS)-role account from anomalous session"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4624/4625: EventCode=4672 for Industrial Control Systems (ICS)-role account without corresponding admin-group logon in preceding session"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4624/4625: inbound authentication attempt or successful session from internet-sourced Internet Protocol (IP) address to Industrial Control Systems (ICS) application port"
                 }
             ]
         }

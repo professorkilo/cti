@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a6d0a64-bbb0-46e7-b922-ed73ed1483ff",
+    "id": "bundle--6228c31e-0d9d-4d0a-98fb-e503aef1bc16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -16,27 +16,22 @@
                     "external_id": "T1573.002"
                 },
                 {
-                    "source_name": "SANS Decrypting SSL",
-                    "description": "Butler, M. (2013, November). Finding Hidden Threats by Decrypting SSL. Retrieved April 5, 2016.",
-                    "url": "http://www.sans.org/reading-room/whitepapers/analyst/finding-hidden-threats-decrypting-ssl-34840"
+                    "source_name": "What is asymmetric encryption",
+                    "description": "IBM Annie Badman, Matthew Kosinski. (n.d.). What is asymmetric encryption. Retrieved September 2, 2026.",
+                    "url": "https://www.ibm.com/think/topics/asymmetric-encryption"
                 },
                 {
-                    "source_name": "SEI SSL Inspection Risks",
-                    "description": "Dormann, W. (2015, March 13). The Risks of SSL Inspection. Retrieved April 5, 2016.",
-                    "url": "https://insights.sei.cmu.edu/cert/2015/03/the-risks-of-ssl-inspection.html"
-                },
-                {
-                    "source_name": "University of Birmingham C2",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
-                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                    "source_name": "Symmetric vs Asymmetric Cryptography",
+                    "description": "Keyfactor. (2026, July 22). Symmetric vs Asymmetric Cryptography: What\u2019s the Difference and When to Use Each. Retrieved September 2, 2026.",
+                    "url": "https://www.keyfactor.com/blog/symmetric-vs-asymmetric-cryptography-whats-the-difference-and-when-to-use-each/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.713Z",
+            "modified": "2026-09-11T19:44:43.501Z",
             "name": "Asymmetric Cryptography",
-            "description": "Adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. Due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. This ensures that only the intended recipient can read the encrypted data. Common public key encryption algorithms include RSA and ElGamal.\n\nFor efficiency, many protocols (including SSL/TLS) use symmetric cryptography once a connection is established, but use asymmetric cryptography to establish or transmit a key. As such, these protocols are classified as [Asymmetric Cryptography](https://attack.mitre.org/techniques/T1573/002).",
+            "description": "Adversaries may employ a known asymmetric encryption algorithm to conceal command and control traffic rather than relying on any inherent protections provided by a communication protocol. Asymmetric cryptography, also known as public key cryptography, uses a keypair per party: one public that can be freely distributed, and one private. Due to how the keys are generated, the sender encrypts data with the receiver\u2019s public key and the receiver decrypts the data with their private key. This ensures that only the intended recipient can read the encrypted data. Common public key encryption algorithms include RSA and ElGamal.\n\nFor efficiency, many protocols (including SSL/TLS) use symmetric cryptography once a connection is established, but use asymmetric cryptography to establish or transmit a key. As such, these protocols are classified as [Asymmetric Cryptography](https://attack.mitre.org/techniques/T1573/002).(Citation: What is asymmetric encryption)(Citation: Symmetric vs Asymmetric Cryptography)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
@@ -57,7 +52,7 @@
                 "Network Devices",
                 "Windows"
             ],
-            "x_mitre_version": "1.2"
+            "x_mitre_version": "1.3"
         }
     ]
 }

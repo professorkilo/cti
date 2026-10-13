@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00caea9b-7e61-478d-b4de-4ddbd3ffff8a",
+    "id": "bundle--c549ba34-44d4-4b5e-b267-0dd659a9164f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-03T19:47:00.758Z",
             "description": "[Donut](https://attack.mitre.org/software/S0695) can use HTTP to download previously staged shellcode payloads.(Citation: Donut Github)",
             "relationship_type": "uses",
             "source_ref": "tool--a7b5df47-73bb-4d47-b701-869f185633a6",

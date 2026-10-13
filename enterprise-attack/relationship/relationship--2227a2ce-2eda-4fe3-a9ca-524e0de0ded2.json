@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18d36eb9-c7b5-4cdc-8912-f425a5cfc4c1",
+    "id": "bundle--55db18a6-f25f-4c29-91a6-df4da6c152f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-03T19:46:58.826Z",
             "description": "[RogueRobin](https://attack.mitre.org/software/S0270) can save a new file to the system from the C2 server.(Citation: Unit 42 DarkHydrus July 2018)(Citation: Unit42 DarkHydrus Jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8ec6e3b4-b06d-4805-b6aa-af916acc2122",

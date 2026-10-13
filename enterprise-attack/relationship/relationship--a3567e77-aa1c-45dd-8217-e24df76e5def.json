@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fe9ee78-961e-4034-b871-cb6f8043e443",
+    "id": "bundle--1509fc23-5e01-4c9a-a502-e8057d7287c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.147Z",
+            "modified": "2026-09-03T19:47:02.562Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use a custom command and control protocol that can be encapsulated in HTTP or HTTPS. All protocols use their standard assigned ports.(Citation: cobaltstrike manual)(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)(Citation: Securelist APT10 March 2021)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

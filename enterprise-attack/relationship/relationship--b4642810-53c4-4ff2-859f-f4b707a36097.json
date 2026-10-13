@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25a13ccc-ecff-4165-bdd4-b897ef8fa28b",
+    "id": "bundle--012ff65c-b6ee-40f5-a7c2-7a68ceded4f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-09T18:39:17.041Z",
             "description": "[TinyTurla](https://attack.mitre.org/software/S0668) can go through a list of C2 server IPs and will try to register with each until one responds.(Citation: Talos TinyTurla September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab",

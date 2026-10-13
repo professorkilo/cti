@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--740c33a5-529d-4c41-99ef-7b8e5e40e858",
+    "id": "bundle--0668efe9-d3af-4aca-8db9-dabd5c88a68e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-02T20:07:46.660Z",
             "description": "[Mongall](https://attack.mitre.org/software/S1026) has the ability to RC4 encrypt C2 communications.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--6fb36c6f-bb3d-4ed6-9471-cb9933e5c154",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd4b64c7-66ba-4f93-b141-f042b3bda9b2",
+    "id": "bundle--0ba76d6d-3cd2-4873-bd3b-4fbbaae49f6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.065Z",
+            "modified": "2026-09-03T19:47:00.378Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) uses outbound HTTP requests containing victim information for retrieving second stage payloads.(Citation: RedCanary RaspberryRobin 2022) Variants of [Raspberry Robin](https://attack.mitre.org/software/S1130) can download archive files (such as 7-Zip files) via the victim web browser for second stage execution.(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

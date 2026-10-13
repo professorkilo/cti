@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8767a1a9-1e6c-477f-9eec-20828127ee0f",
+    "id": "bundle--ec8fe95c-fc40-472f-a714-410c73b9b7ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.241Z",
+            "modified": "2026-09-03T19:46:50.488Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has modified HTTP POST requests to resemble legitimate communications.(Citation: Palo Alto Networks, Unit 42)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

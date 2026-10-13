@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58f09f35-0377-40f9-ad41-65e06c923e6f",
+    "id": "bundle--46b68943-6966-4e36-857d-3e5465789749",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.010Z",
+            "modified": "2026-09-03T19:47:00.273Z",
             "description": "[PipeMon](https://attack.mitre.org/software/S0501) can install additional modules via C2 commands.(Citation: ESET PipeMon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",

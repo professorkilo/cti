@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf6d6a7d-75c7-46fd-a88a-2f57a922d7e5",
+    "id": "bundle--b38f776b-b38d-47a9-9da5-e1e2ccb4d616",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:34.050Z",
+            "modified": "2026-09-08T20:29:10.488Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has initialized SOCKS5 proxies on compromised devices.(Citation: Microsoft Storm-0940)(Citation: Bitsight 7777 Botnet)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

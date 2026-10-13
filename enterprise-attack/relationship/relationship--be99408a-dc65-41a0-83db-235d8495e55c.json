@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edb54a03-ebb4-44eb-b0bc-56d91756fca0",
+    "id": "bundle--61b5e7c3-7fa1-4e9d-b0be-e61c46f097c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-03T19:46:57.937Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) has returned C2 data as encoded ASCII.(Citation: Unit 42 Valak July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",

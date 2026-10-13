@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cea6ef4c-adfe-458a-a987-75735b4a9e6e",
+    "id": "bundle--e84e3b4c-40b9-401f-8e9a-e5bf9f187d49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-03T19:46:58.852Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) downloads additional plug-ins to load on the victim\u2019s machine, including the ability to upgrade and replace its own binary.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca5509f3-89a7-4b0d-9ee1-6b1f7edb934b",
+    "id": "bundle--425cd9a8-b479-43bb-9224-28f6952c2687",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.937Z",
+            "modified": "2026-09-03T19:46:53.697Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) can pause C2 communications for a specified time.(Citation: ClearSky Siamesekitten August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

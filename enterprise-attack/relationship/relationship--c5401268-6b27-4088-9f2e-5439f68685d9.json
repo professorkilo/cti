@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3845c6f-f553-4e54-bd5a-b38d0e19df7d",
+    "id": "bundle--ba7a3b9b-383e-4a63-9b11-40dfc3e24fd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-03T19:46:50.268Z",
             "description": "[Agent Tesla](https://attack.mitre.org/software/S0331) has used SMTP for C2 communications.(Citation: Cofense Agent Tesla)(Citation: Fortinet Agent Tesla June 2017)(Citation: Bitdefender Agent Tesla April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e7a5229f-05eb-440e-b982-9a6d2b2b87c8",

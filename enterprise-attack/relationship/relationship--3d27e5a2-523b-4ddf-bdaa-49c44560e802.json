@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--971ceb62-fed2-44b7-9d67-34f471e8e7d7",
+    "id": "bundle--59e63b42-92e6-4d2c-8226-0f17cf3ac0ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-30T21:33:04.287Z",
+            "modified": "2026-09-03T19:46:53.647Z",
             "description": "[Kali365](https://attack.mitre.org/software/S9044) has used Cloudflare Workers to redirect traffic and to host malicious phishing pages.(Citation: Artic Wolf Labs Kali365 Device Code April 2026)(Citation: Artic Wolf Kali365 Device Code OAuth June 2026)(Citation: SpyCloud Kali365 June 2026) [Kali365](https://attack.mitre.org/software/S9044) has also leveraged Telegram chat to facilitate administrative tasks for the panel across affiliate users.(Citation: Artic Wolf Labs Kali365 Device Code April 2026)(Citation: FBI IC3 Alert I-052126 Kali365 May 2026)(Citation: SpyCloud Kali365 June 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--f5a56c26-e192-489d-a77e-a8b38fd70eee",

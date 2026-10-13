@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4e0f5a18-6ae9-47f8-9e96-61e98ef4078b",
+    "id": "bundle--10eb46cf-2e84-42a5-bdd0-0bc447b112fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-02T20:07:45.631Z",
             "description": "[Sys10](https://attack.mitre.org/software/S0060) uses an XOR 0x1 loop to encrypt its C2 domain.(Citation: Baumgartner Naikon 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",

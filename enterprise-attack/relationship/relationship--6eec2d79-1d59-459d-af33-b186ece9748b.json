@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dba5e2a7-8cf2-433f-9636-5564f53737a0",
+    "id": "bundle--d4b8a2a8-9d37-4100-b799-997319922f98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.076Z",
+            "modified": "2026-09-03T19:46:54.074Z",
             "description": "Enforce proxies and use dedicated servers for services such as DNS and only allow those systems to communicate over respective ports/protocols, instead of all systems within a network. Cloud service providers support IP-based restrictions when accessing cloud resources. Consider using IP allowlisting along with user account management to ensure that data access is restricted not only to valid users but only from expected IP ranges to mitigate the use of stolen credentials to access data.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

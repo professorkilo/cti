@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1e373b0-086b-4dce-89ab-58cfb73ec949",
+    "id": "bundle--431db297-5679-46c0-9545-48d5df3dae5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-11-12T22:03:39.105Z",
+            "modified": "2026-10-13T17:43:47.221Z",
             "name": "Script Execution",
             "description": "The execution of a text file that contains code via the interpreter.",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -158,6 +158,10 @@
                 {
                     "name": "m365:unified",
                     "channel": "Scripted Activity"
+                },
+                {
+                    "name": "auditd:SYSCALL",
+                    "channel": "Linux Audit SYSCALL/EXECVE/SOCKADDR records (configured audit rule): execve of scripting interpreter making sequential Industrial Control Systems (ICS) protocol reads with output to file, by User Identifier (UID) not in authorized scripting UIDs"
                 }
             ]
         }

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--baeaa04c-eb9b-4fd3-ba0d-9194ea1e7cd2",
+    "id": "bundle--fbe12b03-83b8-4486-9cd4-f0bf50ee7e32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.092Z",
+            "modified": "2026-09-03T19:47:02.703Z",
             "description": "[DUSTTRAP](https://attack.mitre.org/software/S1159) can retrieve and load additional payloads.(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--33139388-de0c-49ff-862a-041c315b142d",

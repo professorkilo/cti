@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62a1a518-7faf-4b5a-acdf-359848063b6b",
+    "id": "bundle--5f712100-1e25-4d77-beba-05fe027d1e90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:17.633Z",
+            "modified": "2026-09-03T19:46:56.057Z",
             "description": "[Fox Kitten](https://attack.mitre.org/groups/G0117) has used protocol tunneling for communication and RDP activity on compromised hosts through the use of open source tools such as [ngrok](https://attack.mitre.org/software/S0508) and custom tool SSHMinion.(Citation: CrowdStrike PIONEER KITTEN August 2020)(Citation: CISA AA20-259A Iran-Based Actor September 2020)(Citation: ClearSky Pay2Kitten December 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c21dd6f1-1364-4a70-a1f7-783080ec34ee",

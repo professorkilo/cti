@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f7a2550-0660-45c9-a7c9-ed2f40fc38c4",
+    "id": "bundle--15af7ef8-5136-4a76-9a80-d3b40ccd5778",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:15.873Z",
+            "modified": "2026-09-03T19:46:50.388Z",
             "description": "[Metador](https://attack.mitre.org/groups/G1013) has used HTTP for C2.(Citation: SentinelLabs Metador Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--bfc5ddb3-4dfb-4278-8928-020e1b3feddd",

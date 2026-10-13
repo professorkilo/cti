@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a7f87dc-72e1-4709-992f-1cef649d0d94",
+    "id": "bundle--70ea5125-e5ad-4833-ac36-9d36c3268d47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-02T20:09:43.782Z",
             "description": "[BISCUIT](https://attack.mitre.org/software/S0017) uses SSL for encrypting C2 communications.(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--b8eb28e4-48a6-40ae-951a-328714f75eda",

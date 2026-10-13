@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1afe8995-013e-400f-a7e3-01dd1b925f4d",
+    "id": "bundle--5eefc00e-b86d-4787-832a-d0379dcd5f94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:48.137Z",
+            "modified": "2026-09-02T18:35:03.408Z",
             "description": "[Storm-1811](https://attack.mitre.org/groups/G1046) has exfiltrated captured user credentials via Secure Copy Protocol (SCP).(Citation: rapid7-email-bombing)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--319fd652-edde-46b2-9987-3519493989f5",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abe8bfbc-1cad-44a7-b03c-b3d79f785eab",
+    "id": "bundle--b746a882-4541-4b93-bd6f-d2b699d3cdfd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.922Z",
+            "modified": "2026-09-03T19:46:54.968Z",
             "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) exfiltrates collected email credentials via HTTP POST to command and control servers.(Citation: DCSO StrelaStealer 2022)(Citation: PaloAlto StrelaStealer 2024)(Citation: Fortgale StrelaStealer 2023)(Citation: IBM StrelaStealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--951313b3-6064-4ce0-b4b6-a153c3973da7",

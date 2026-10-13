@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a23439d-4294-4a07-bcb9-01031c83e7aa",
+    "id": "bundle--0e89bbef-f97d-4501-8f8e-c301fc771171",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:33.372Z",
+            "modified": "2026-09-03T19:47:05.773Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has pushed additional malicious tools onto an infected system to steal user credentials, move laterally, and destroy data.(Citation: ESET Telebots Dec 2016)(Citation: US District Court Indictment GRU Unit 74455 October 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",

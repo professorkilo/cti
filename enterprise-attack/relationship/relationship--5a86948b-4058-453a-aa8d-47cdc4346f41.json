@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2f0cc10-bc92-4a0d-80d8-4179afb62570",
+    "id": "bundle--594bb4c5-1ab9-408f-a6c6-318edfa4bccb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:49.348Z",
+            "modified": "2026-09-02T17:55:53.147Z",
             "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) acquired and used the Redline password stealer in their operations.(Citation: MSTIC DEV-0537 Mar 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",

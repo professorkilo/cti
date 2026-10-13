@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4419f711-2a66-45aa-ba26-3040174a7a42",
+    "id": "bundle--a156176f-c576-479c-b3e1-c08f5f54789f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.188Z",
+            "modified": "2026-09-03T19:46:50.156Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can mimic HTTP protocol with custom HTTP \u201cverbs\u201d HIDE, ZVVP, and NOP.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

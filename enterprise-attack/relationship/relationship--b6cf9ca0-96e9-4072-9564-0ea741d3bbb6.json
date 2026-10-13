@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c32d379f-69db-4b96-8ee4-492d151d53d7",
+    "id": "bundle--e99d7e76-8f8e-40f3-aca5-79f4ed10bbc7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:47:03.012Z",
             "description": "[Turian](https://attack.mitre.org/software/S0647) has the ability to use HTTP for its C2.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--350f12cf-fd3b-4dad-b323-14b943090df4",

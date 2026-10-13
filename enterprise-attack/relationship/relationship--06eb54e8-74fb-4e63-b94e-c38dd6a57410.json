@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--190bf953-b28f-4e91-9c1a-88f0fb1d28d3",
+    "id": "bundle--db85cfdb-0c5b-4b4b-81e5-6ee73af0c501",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.913Z",
+            "modified": "2026-09-03T19:46:52.019Z",
             "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) can tunnel data in and out of targeted networks.(Citation: GitHub Neo-reGeorg 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bae6edd1-eb36-4581-ba7e-6cbfe0e24eac",

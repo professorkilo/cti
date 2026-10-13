@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff22378d-8abc-41ae-8d8c-0d6f4ca4bdd7",
+    "id": "bundle--a95a508f-b982-49a8-943f-bd5c2b5074c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.004Z",
+            "modified": "2026-09-03T19:47:00.132Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) has the ability to download files to compromised devices.(Citation: Mandiant Cutting Edge January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",

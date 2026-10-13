@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c1600f2-6645-4a7f-8f49-4dc2d14da769",
+    "id": "bundle--36ccecbd-09df-4d36-a5ef-100f1f142746",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-03T19:46:58.328Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has used HTTP POSTs to exfil gathered information.(Citation: TrendMicro Ursnif Mar 2015)(Citation: FireEye Ursnif Nov 2017)(Citation: ProofPoint Ursnif Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",

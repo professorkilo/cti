@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69c5b472-a72c-4a69-8774-07f451658943",
+    "id": "bundle--4ec8fb76-7db2-4191-8c25-c97712481fda",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.041Z",
+            "modified": "2026-09-09T18:39:16.701Z",
             "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) can attempt to connect to a second hard-coded C2 if the first hard-coded C2 address fails.(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--4816d361-f82b-4a18-aa05-b215e7cf9200",

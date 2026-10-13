@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddf3c5c9-158c-4050-b8f6-e1e711f5434b",
+    "id": "bundle--b9bca271-f275-4ea9-9815-c1d1c9e4b4ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.160Z",
+            "modified": "2026-09-03T19:46:57.634Z",
             "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) has created listeners on hard coded TCP port 546.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7cc63f0f-f24f-4cda-9e9f-61bde1d52297",

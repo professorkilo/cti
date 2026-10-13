@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dacdcdcb-4683-40e1-b1e5-50cb8e816ebc",
+    "id": "bundle--656dfcb3-ef52-4927-8c70-234f385a4582",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.923Z",
+            "modified": "2026-09-03T14:50:23.692Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can automatically exfiltrate collected documents to the C2 server.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a1157f7-08ae-4139-a5f2-90e9825f5365",
+    "id": "bundle--c2a44592-6c2b-4a5e-bcd6-835697d6039e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:47:00.808Z",
             "description": "[Psylo](https://attack.mitre.org/software/S0078) exfiltrates data to its C2 server over the same protocol as C2 communications.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",

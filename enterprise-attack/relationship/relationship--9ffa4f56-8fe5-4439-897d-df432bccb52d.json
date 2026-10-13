@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cf05cd8-a136-4ba5-9080-6e2d08cba5ec",
+    "id": "bundle--9108592f-01ef-46df-bd7e-fc3196267951",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-03T19:47:03.945Z",
             "description": "[ABK](https://attack.mitre.org/software/S0469) has the ability to download files from C2.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a0ebedca-d558-4e48-8ff7-4bf76208d90c",

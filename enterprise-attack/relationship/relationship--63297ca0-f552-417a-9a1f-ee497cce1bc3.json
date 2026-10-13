@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3a53cee-05c4-4fa6-9f2d-b42c04bf4e9f",
+    "id": "bundle--d6c35c79-5baa-48dc-b88d-25a596d527d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-09-03T19:47:00.240Z",
             "description": "[CSPY Downloader](https://attack.mitre.org/software/S0527) can use GET requests to download additional payloads from C2.(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--5256c0f8-9108-4c92-8b09-482dfacdcd94",

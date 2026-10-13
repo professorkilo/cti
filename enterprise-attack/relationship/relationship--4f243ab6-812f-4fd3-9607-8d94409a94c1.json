@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15d6f8fa-3f0e-4203-8a08-62732889e0ec",
+    "id": "bundle--907b85e1-7ea3-48e7-a825-624dd054e2e4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:50.168Z",
+            "modified": "2026-09-03T19:46:55.866Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) has used stolen credentials to copy tools into the <code>%TEMP%</code> directory of domain controllers.(Citation: CrowdStrike Grim Spider May 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

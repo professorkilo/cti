@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9796c16d-56b8-4ebb-b210-f893ff8beef3",
+    "id": "bundle--037b8f9e-eab4-43df-a84d-ca4a723c26f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:36.322Z",
+            "modified": "2026-09-03T19:47:06.122Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) downloaded malicious payloads onto compromised systems.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

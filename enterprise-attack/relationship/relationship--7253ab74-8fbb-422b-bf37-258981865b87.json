@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1081ae70-f064-406e-9d6f-837d3a9dc306",
+    "id": "bundle--de5279c3-b093-479a-bcf1-c1bb20ca6367",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.081Z",
+            "modified": "2026-09-02T18:05:13.111Z",
             "description": "Install software in write-protected locations. Set directory access controls to prevent file writes to the search paths for applications, both in the folders where applications are run from and the standard library folders.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--987988f0-cf86-4680-a875-2f6456ab2448",

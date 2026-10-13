@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dfe6a78-d3e0-46b1-ac18-f83e96b4d0bc",
+    "id": "bundle--7e90ed2a-8989-4dd1-80d9-485e09d620a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.948Z",
+            "modified": "2026-09-03T19:46:58.708Z",
             "description": "[ZLib](https://attack.mitre.org/software/S0086) has the ability to download files.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--166c0eca-02fd-424a-92c0-6b5106994d31",

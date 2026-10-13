@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cbb74c8-7b63-45fd-bd1b-93e545f8d6dc",
+    "id": "bundle--f6a95a9d-9783-4e41-a61f-aa77cc882963",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.119Z",
+            "modified": "2026-09-03T19:47:02.072Z",
             "description": "[Hikit](https://attack.mitre.org/software/S0009) has used HTTP for C2.(Citation: FireEye HIKIT Rootkit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",

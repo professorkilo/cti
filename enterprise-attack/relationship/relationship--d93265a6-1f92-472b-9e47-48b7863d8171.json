@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--148d7e48-e63f-484e-9d21-d363ebb21c3f",
+    "id": "bundle--14b371ae-1746-4647-8a76-24e701b004c9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-07-31T18:48:21.367Z",
             "description": "[Sowbug](https://attack.mitre.org/groups/G0054) has used credential dumping tools.(Citation: Symantec Sowbug Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d1acfbb3-647b-4723-9154-800ec119006e",

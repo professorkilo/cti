@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--588d4af8-74f2-42be-8fc0-aec5d0fb468a",
+    "id": "bundle--37b0d4ac-1b79-480d-ab30-b149f129bce6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.044Z",
+            "modified": "2026-09-03T19:46:51.746Z",
             "description": "[Denis](https://attack.mitre.org/software/S0354) encodes the data sent to the server in Base64.(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f25aab1a-0cef-4910-a85d-bb38b32ea41a",

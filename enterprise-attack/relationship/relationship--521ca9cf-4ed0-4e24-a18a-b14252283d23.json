@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--274d7453-a480-4056-a22e-36d550dfa80c",
+    "id": "bundle--d2867da9-722c-41b1-b60e-2845bad929b5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.037Z",
+            "modified": "2026-09-02T20:09:42.912Z",
             "description": "[Doki](https://attack.mitre.org/software/S0600) has used the embedTLS library for network communications.(Citation: Intezer Doki July 20)",
             "relationship_type": "uses",
             "source_ref": "malware--4f1c389e-a80e-4a3e-9b0e-9be8c91df64f",

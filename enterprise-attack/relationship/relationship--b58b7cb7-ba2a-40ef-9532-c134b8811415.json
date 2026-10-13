@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4281beb-a31d-400c-aeb6-bdaa1d6533fa",
+    "id": "bundle--611becf8-5ffb-4319-a603-be21520d73bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.173Z",
+            "modified": "2026-09-03T19:47:02.953Z",
             "description": "[Octopus](https://attack.mitre.org/software/S0340) has used HTTP GET and POST requests for C2 communications.(Citation: Securelist Octopus Oct 2018)(Citation: ESET Nomadic Octopus 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",

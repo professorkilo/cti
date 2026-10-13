@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce74dea2-26b3-4f48-8052-b4dbbaaada0b",
+    "id": "bundle--27f10234-51c7-4ed9-9775-33d48ad7865f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.312Z",
+            "modified": "2026-09-03T19:47:01.123Z",
             "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware communicates with its C2 server via HTTPS.(Citation: Citizen Lab Stealth Falcon May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",

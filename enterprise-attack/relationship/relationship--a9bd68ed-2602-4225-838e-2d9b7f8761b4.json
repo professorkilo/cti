@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3732524-7fcd-463f-928e-98555f0ed612",
+    "id": "bundle--9988dc64-0a16-4148-96e6-d48b83f30d68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-02T20:07:47.400Z",
             "description": "[Carbanak](https://attack.mitre.org/software/S0030) encrypts the message body of HTTP traffic with RC2 (in CBC mode). [Carbanak](https://attack.mitre.org/software/S0030) also uses XOR with random keys for its communications.(Citation: Kaspersky Carbanak)(Citation: FireEye CARBANAK June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--72f54d66-675d-4587-9bd3-4ed09f9522e4",

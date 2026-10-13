@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0222e3f1-1f80-4e38-b2d7-452254bb08ad",
+    "id": "bundle--a5333fa2-f59e-4bc3-b841-c7f207830918",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.232Z",
+            "modified": "2026-09-03T19:47:05.615Z",
             "description": "[OutSteel](https://attack.mitre.org/software/S1017) can download files from its C2 server.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
             "relationship_type": "uses",
             "source_ref": "malware--c113230f-f044-423b-af63-9b63c802f5ae",

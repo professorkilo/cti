@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce6446db-11f2-4711-bc4a-e97cd439e472",
+    "id": "bundle--b63262e0-fe72-44ab-8930-ac439a7af61d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:49.392Z",
+            "modified": "2026-09-09T18:44:33.985Z",
             "description": "[Leafminer](https://attack.mitre.org/groups/G0077) used a tool called MailSniper to search through the Exchange server mailboxes for keywords.(Citation: Symantec Leafminer July 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--32bca8ff-d900-4877-aa65-d70baa041b74",

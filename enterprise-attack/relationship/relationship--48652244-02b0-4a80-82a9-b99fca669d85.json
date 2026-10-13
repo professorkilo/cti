@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--265048f0-f890-4c01-972f-843421b9db40",
+    "id": "bundle--8196648f-5c4e-4ea3-a6c6-8c18bc82d2ad",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.024Z",
+            "modified": "2026-09-03T19:47:00.922Z",
             "description": "[CostaBricks](https://attack.mitre.org/software/S0614) has been used to load [SombRAT](https://attack.mitre.org/software/S0615) onto a compromised host.(Citation: BlackBerry CostaRicto November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--5d342981-5194-41e7-b33f-8e91998d7d88",

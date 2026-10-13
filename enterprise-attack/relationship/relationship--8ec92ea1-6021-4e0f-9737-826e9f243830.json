@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--910c5a11-bee6-4c88-a0fa-5944ef70bb30",
+    "id": "bundle--b833b50c-0790-4a72-885b-1039af80dbb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-03T14:50:23.981Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) has a file searcher component that can automatically collect and archive files based on a predefined list of file extensions.(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fa384c2-75d7-4914-885b-afbec9366ccc",
+    "id": "bundle--895333ba-0c1c-4185-91c3-ac11a8b2e00c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.126Z",
+            "modified": "2026-09-03T19:46:55.977Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has leveraged Base64 to encode C2 communications.(Citation: NVISO BRICKSTORM April 2025)(Citation: Resecurity UNC5221 BRICKSTORM F5 Big-IP October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

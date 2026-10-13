@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01a43c36-0f9f-4775-b039-7ac123efa051",
+    "id": "bundle--08ef544f-3f71-488b-b01e-92dbdc5e6e01",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.210Z",
+            "modified": "2026-09-03T19:47:05.323Z",
             "description": "[POWERSOURCE](https://attack.mitre.org/software/S0145) has been observed being used to download [TEXTMATE](https://attack.mitre.org/software/S0146) and the Cobalt Strike Beacon payload onto victims.(Citation: FireEye FIN7 March 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--17e919aa-4a49-445c-b103-dbb8df9e7351",

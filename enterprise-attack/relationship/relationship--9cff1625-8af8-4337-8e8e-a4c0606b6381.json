@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd6b9cd9-b921-4eda-b56c-d95aedc95ba9",
+    "id": "bundle--21971f98-bff7-49d2-9328-f26b441b2c75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.139Z",
+            "modified": "2026-09-03T19:47:02.415Z",
             "description": "[metaMain](https://attack.mitre.org/software/S1059) can use HTTP for C2 communications.(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df350889-4de9-44e5-8cb3-888b8343e97c",

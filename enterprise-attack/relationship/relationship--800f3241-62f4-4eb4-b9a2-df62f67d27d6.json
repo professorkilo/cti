@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5153ff96-e6af-43c5-80e9-8893ef2b1bb3",
+    "id": "bundle--8e7b68d6-15cb-4dbd-90f2-d8b287d1bbc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.927Z",
+            "modified": "2026-09-03T19:46:57.171Z",
             "description": "Some [Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses a list of ordered port numbers to choose a port for C2 traffic, creating port-protocol mismatches.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster RATs)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

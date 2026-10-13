@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e6265a7-cf21-48c5-9328-fe228a63b458",
+    "id": "bundle--32e7ac3c-ac74-4c3c-81e0-3644ad0018e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-03T19:46:51.136Z",
             "description": "[MacSpy](https://attack.mitre.org/software/S0282) uses HTTP for command and control.(Citation: objsee mac malware 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--f72251cb-2be5-421f-a081-99c29a1209e7",

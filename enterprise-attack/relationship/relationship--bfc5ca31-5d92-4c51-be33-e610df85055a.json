@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7d221a69-33f6-4665-a53b-2e0c249f93eb",
+    "id": "bundle--eb871b6c-e6f0-4e9f-9b1c-35cdd21c8b6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-03T19:46:52.830Z",
             "description": "[Lucifer](https://attack.mitre.org/software/S0532) can use the Stratum protocol on port 10001 for communication between the cryptojacking bot and the mining server.(Citation: Unit 42 Lucifer June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--54a73038-1937-4d71-a253-316e76d5413c",

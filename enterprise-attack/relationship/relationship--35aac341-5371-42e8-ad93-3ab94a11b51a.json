@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--881eab8c-cf68-42c5-9984-da626cfde478",
+    "id": "bundle--efdc268b-b12d-4c51-8807-20ce0ebeb992",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-07-31T18:48:05.179Z",
             "description": "[Poseidon Group](https://attack.mitre.org/groups/G0033) conducts credential dumping on victims, with a focus on obtaining credentials belonging to domain and database servers.(Citation: Kaspersky Poseidon Group)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7ecc3b4f-5cdb-457e-b55a-df376b359446",

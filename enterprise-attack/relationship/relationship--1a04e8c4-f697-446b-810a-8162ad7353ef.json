@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--faa66878-ecad-4c3f-94af-71c332cce856",
+    "id": "bundle--b6b49934-9996-4b46-a9df-16a851f1aca6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-03T19:46:48.222Z",
             "description": "[Orz](https://attack.mitre.org/software/S0229) has used Technet and Pastebin web pages for command and control.(Citation: Proofpoint Leviathan Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--06d735e7-1db1-4dbe-ab4b-acbe419f902b",

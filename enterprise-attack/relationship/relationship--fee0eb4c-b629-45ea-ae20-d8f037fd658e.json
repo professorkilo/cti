@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6802d2b2-c695-4cf3-a880-e28bc34964e7",
+    "id": "bundle--4d2b997d-05aa-4744-89c4-01d4f10afc6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.271Z",
+            "modified": "2026-09-03T19:46:59.653Z",
             "description": "[SUGARUSH](https://attack.mitre.org/software/S1049) has used TCP for C2.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--44e2a842-415b-47f4-8549-83fbdb8a5674",

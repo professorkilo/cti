@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--217afec3-6c30-43df-b4da-2d005ad1b1af",
+    "id": "bundle--6cb1df48-263d-4d02-a9a7-ecfdb826fabb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.023Z",
+            "modified": "2026-09-03T19:47:00.838Z",
             "description": "[Dyre](https://attack.mitre.org/software/S0024) has a command to download and executes additional files.(Citation: Symantec Dyre June 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",

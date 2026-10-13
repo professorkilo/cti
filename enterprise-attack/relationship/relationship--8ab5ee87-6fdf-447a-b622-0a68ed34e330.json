@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4bc2462f-ffd1-47e5-9ff2-31687ef950da",
+    "id": "bundle--011ac69d-a208-4580-86a2-b14ad6ae3335",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:46:57.457Z",
             "description": "[Shamoon](https://attack.mitre.org/software/S0140) attempts to copy itself to remote machines on the network.(Citation: Palo Alto Shamoon Nov 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",

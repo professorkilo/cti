@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed0e9217-e93c-4c16-9ba2-5f197dc68317",
+    "id": "bundle--74ad5bb1-cab5-4be5-984d-cd8f2d612d05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-03T19:47:00.404Z",
             "description": "[SMOKEDHAM](https://attack.mitre.org/software/S0649) has exfiltrated data to its C2 server.(Citation: FireEye SMOKEDHAM June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--7e0f8b0f-716e-494d-827e-310bd6ed709e",

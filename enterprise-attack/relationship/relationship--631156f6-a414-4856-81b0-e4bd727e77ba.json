@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0686c3cd-ced0-46b1-b423-4fcf26bc8c05",
+    "id": "bundle--22518a7a-e40a-4222-8e75-9b45a3c95db1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-09-03T19:47:01.985Z",
             "description": "[PHPsert](https://attack.mitre.org/software/S9028) has the ability to retrieve remote payloads.(Citation: sentinelone operationDigitalEye Dec 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9491a623-5861-4d0a-9958-8c05d0d17442",

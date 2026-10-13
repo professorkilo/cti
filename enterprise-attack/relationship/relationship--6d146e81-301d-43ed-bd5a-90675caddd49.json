@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1994f1f-b972-4b03-b6f9-8c4f46b29918",
+    "id": "bundle--b65d4b29-e563-42fe-9f6b-6cc2c4b9f192",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-02T20:09:43.019Z",
             "description": "[Remcos](https://attack.mitre.org/software/S0332) can use TLS to encrypt C2 communication.(Citation: Fortinet Remcos Campaign NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--7cd0bc75-055b-4098-a00e-83dc8beaff14",

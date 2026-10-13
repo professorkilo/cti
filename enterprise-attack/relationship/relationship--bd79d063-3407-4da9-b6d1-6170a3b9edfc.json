@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14fe3b40-f938-4f62-a00b-84e13a2bc439",
+    "id": "bundle--7fd9197e-cb55-4f75-bbee-daf52ebee51a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.184Z",
+            "modified": "2026-09-03T19:47:04.866Z",
             "description": "[OSX/Shlayer](https://attack.mitre.org/software/S0402) can download payloads, and extract bytes from files. [OSX/Shlayer](https://attack.mitre.org/software/S0402) uses the <code>curl -fsL \"$url\" >$tmp_path</code> command to download malicious payloads into a temporary directory.(Citation: Carbon Black Shlayer Feb 2019)(Citation: sentinelone shlayer to zshlayer)(Citation: 20 macOS Common Tools and Techniques)(Citation: objectivesee osx.shlayer apple approved 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--f1314e75-ada8-49f4-b281-b1fb8b48f2a7",

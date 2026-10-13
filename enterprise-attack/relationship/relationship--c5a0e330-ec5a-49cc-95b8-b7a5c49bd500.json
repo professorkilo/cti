@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d7cc9ae-9539-42c8-837d-64753a466dff",
+    "id": "bundle--47f912f6-4ffd-4d56-837e-917ac22aedb6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-03T19:46:54.633Z",
             "description": "[Hydraq](https://attack.mitre.org/software/S0203) connects to a predefined domain on port 443 to exfil gathered information.(Citation: Symantec Hydraq Jan 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--73a4793a-ce55-4159-b2a6-208ef29b326f",

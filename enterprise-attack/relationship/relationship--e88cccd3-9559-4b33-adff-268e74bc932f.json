@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0cb97b5-79b0-48d7-9b00-cc63c87dd821",
+    "id": "bundle--a12e7078-be31-4858-81f9-295a4778a394",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.242Z",
+            "modified": "2026-09-03T19:46:59.392Z",
             "description": "[reGeorg](https://attack.mitre.org/software/S1187) can tunnel TCP sessions into targeted networks.(Citation: Fortinet reGeorg MAR 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34",

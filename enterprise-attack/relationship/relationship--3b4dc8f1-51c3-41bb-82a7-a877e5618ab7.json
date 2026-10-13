@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57800145-efa9-48d3-a8e8-6ee7f8108ab4",
+    "id": "bundle--c9167665-6f47-4c5a-bcd2-3ad82b5296e6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.003Z",
+            "modified": "2026-09-03T19:47:00.114Z",
             "description": "[FYAnti](https://attack.mitre.org/software/S0628) can download additional payloads to a compromised host.(Citation: Securelist APT10 March 2021)\t ",
             "relationship_type": "uses",
             "source_ref": "malware--434ba392-ebdc-488b-b1ef-518deea65774",

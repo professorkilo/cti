@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--030891f3-06eb-4103-95cd-0e23af3840f8",
+    "id": "bundle--ea51345f-6d7a-4693-a8c8-5a2956b5c749",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.701Z",
+            "modified": "2026-09-02T20:09:43.328Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) used the [PowerExchange](https://attack.mitre.org/software/S1173) utility and other tools to create tunnels to C2 servers.(Citation: FireEye APT34 Webinar Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

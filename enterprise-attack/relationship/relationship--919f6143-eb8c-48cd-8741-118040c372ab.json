@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2663e0d-13e1-4416-92c6-27524f2e8b52",
+    "id": "bundle--d3c35478-c4a4-4ecf-bbbe-0c859aa8c505",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.401Z",
+            "modified": "2026-09-02T18:17:25.228Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) ensured each payload had a unique hash, including by using different types of packers.(Citation: Cybereason Soft Cell June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",

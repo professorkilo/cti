@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de107df8-299d-4f8e-83c5-dd41373d9b04",
+    "id": "bundle--0cbc80e4-a408-499d-8360-04b9ea02d2cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.207Z",
+            "modified": "2026-09-03T19:47:05.271Z",
             "description": "[Pisloader](https://attack.mitre.org/software/S0124) has a command to upload a file to the victim machine.(Citation: Palo Alto DNS Requests)",
             "relationship_type": "uses",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",

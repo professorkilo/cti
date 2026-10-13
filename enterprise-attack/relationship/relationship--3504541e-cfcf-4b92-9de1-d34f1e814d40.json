@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8c7b9d3a-ca08-42f3-a833-db680b6d7ef5",
+    "id": "bundle--fd594032-91f5-4e02-9052-9bde46eaec22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:08.420Z",
+            "modified": "2026-09-08T20:28:08.250Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has used the GO Simple Tunnel (GOST) proxy tool.(Citation: JPCERT MirrorFace JUL 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

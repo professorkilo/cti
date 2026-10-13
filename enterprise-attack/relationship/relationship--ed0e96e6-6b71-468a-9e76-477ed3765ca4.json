@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c21f85f-8023-41ac-b5a7-0e97fd950472",
+    "id": "bundle--14a9f8c8-0205-4746-91fa-0d2b2c1d6afd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.248Z",
+            "modified": "2026-09-03T19:47:05.795Z",
             "description": "Operators deploying [Netwalker](https://attack.mitre.org/software/S0457) have used psexec and certutil to retrieve the [Netwalker](https://attack.mitre.org/software/S0457) payload.(Citation: Sophos Netwalker May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--754effde-613c-4244-a83e-fb659b2a4d06",

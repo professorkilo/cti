@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab366639-7098-40bb-8d20-9374ca21fd8c",
+    "id": "bundle--e9e7530e-ad5d-4c0b-afac-d90d4fe795cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-03T19:47:05.456Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) downloads several additional files and saves them to the victim's machine.(Citation: Trend Micro Totbrick Oct 2016)(Citation: Bitdefender Trickbot VNC module Whitepaper 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

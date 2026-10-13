@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c94bf62b-82c9-44ae-a12a-2406cfbcfcbe",
+    "id": "bundle--43674612-87d8-4e21-be54-2836670b1c4d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-09-03T19:46:59.119Z",
             "description": "[Smoke Loader](https://attack.mitre.org/software/S0226) uses HTTP for C2.(Citation: Malwarebytes SmokeLoader 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",

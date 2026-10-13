@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd6e95df-60ab-47da-b41f-23e26e7c13f2",
+    "id": "bundle--39bf2b79-5012-48b3-956c-5ae1728f39f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.118Z",
+            "modified": "2026-09-02T20:07:47.182Z",
             "description": "[TAINTEDSCRIBE](https://attack.mitre.org/software/S0586) uses a Linear Feedback Shift Register (LFSR) algorithm for network encryption.(Citation: CISA MAR-10288834-2.v1  TAINTEDSCRIBE MAY 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--7f4bbe05-1674-4087-8a16-8f1ad61b6152",

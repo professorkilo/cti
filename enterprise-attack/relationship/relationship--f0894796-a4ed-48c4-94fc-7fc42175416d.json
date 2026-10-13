@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6c5c73a-e81d-42ea-ab1a-13aeda4774fb",
+    "id": "bundle--fcec59b0-7ed8-4bdd-83b2-80b33f9fadb0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-02T18:17:25.355Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) has undergone regular technical improvements in an attempt to evade detection.(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

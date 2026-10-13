@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c53a165-5ca6-4a50-a72c-6ac04945d770",
+    "id": "bundle--d03edc58-af52-4543-84c7-c3fe1dc2ff9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-03T19:46:53.883Z",
             "description": "[FunnyDream](https://attack.mitre.org/software/S1044) can connect to HTTP proxies via TCP to create a tunnel to C2.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--be25c1c0-1590-4219-a3d5-6f31799d1d1b",

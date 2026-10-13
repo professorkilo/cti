@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25801247-9bf9-4801-9755-b4fe559f63ee",
+    "id": "bundle--771972ca-6f40-4943-a535-0aa91e7d648c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.196Z",
+            "modified": "2026-09-03T19:47:05.085Z",
             "description": "[Bazar](https://attack.mitre.org/software/S0534) can download and deploy additional payloads, including ransomware and post-exploitation frameworks such as [Cobalt Strike](https://attack.mitre.org/software/S0154).(Citation: Cybereason Bazar July 2020)(Citation: Zscaler Bazar September 2020)(Citation: NCC Group Team9 June 2020)(Citation: CrowdStrike Wizard Spider October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",

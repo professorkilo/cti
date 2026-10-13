@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afa9bc77-697b-4af9-bbe0-590bad954dcd",
+    "id": "bundle--5fc5d60d-fa4b-4053-bedd-fafaa8879414",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.122Z",
+            "modified": "2026-09-03T19:47:03.348Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has the ability to upload and download files to and from an infected host.(Citation: JPCert PLEAD Downloader June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",

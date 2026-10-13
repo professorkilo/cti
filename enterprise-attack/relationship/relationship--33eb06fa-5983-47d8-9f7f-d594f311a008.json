@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fcebdb1-81da-40ad-9aec-f420c78d6bbb",
+    "id": "bundle--4a547375-e285-44b1-a3d4-4f88fbc56944",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.988Z",
+            "modified": "2026-09-03T19:46:59.814Z",
             "description": "[BoomBox](https://attack.mitre.org/software/S0635) has the ability to download next stage malware components to a compromised system.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",

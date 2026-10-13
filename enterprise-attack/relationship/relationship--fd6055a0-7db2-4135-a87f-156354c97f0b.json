@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--815f7860-272b-43e0-bb0c-7b93fdbb73bc",
+    "id": "bundle--5dad7600-77a1-425a-8ee9-fa1a8f3da95a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.269Z",
+            "modified": "2026-09-03T19:46:54.553Z",
             "description": "[BLACKCOFFEE](https://attack.mitre.org/software/S0069) has also obfuscated its C2 traffic as normal traffic to sites such as Github.(Citation: FireEye APT17)(Citation: FireEye Periscope March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d69c8146-ab35-4d50-8382-6fc80e641d43",

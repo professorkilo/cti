@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8be500bb-12c5-4ba4-a901-86193136fbeb",
+    "id": "bundle--15b79d8d-ba0e-4005-8c8a-fa15d1b96120",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.180Z",
+            "modified": "2026-09-02T20:09:43.564Z",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) has encrypted C2 traffic with RSA.(Citation: FireEye MuddyWater Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",

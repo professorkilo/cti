@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5bf55da-02fb-4dba-ba15-b4fb349edc7f",
+    "id": "bundle--ae92c63a-ccaf-4d8a-8404-9c435372308d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:24.658Z",
+            "modified": "2026-09-03T19:46:48.713Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used Blogspot pages and a Github repository for C2.(Citation: Talos Kimsuky Nov 2021)(Citation: Zscaler Kimsuky TRANSLATEXT) [Kimsuky](https://attack.mitre.org/groups/G0094) has also leveraged Dropbox for downloading payloads and uploading victim system information.(Citation: Securonix Kimsuky February 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

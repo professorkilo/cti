@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78e210bc-c1ff-48b2-8954-264c122a81f0",
+    "id": "bundle--a61dee56-cc5a-4066-ba14-384a0b4f311d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.027Z",
+            "modified": "2026-09-03T19:46:50.635Z",
             "description": "[Daserf](https://attack.mitre.org/software/S0187) uses custom base64 encoding to obfuscate HTTP traffic.(Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",

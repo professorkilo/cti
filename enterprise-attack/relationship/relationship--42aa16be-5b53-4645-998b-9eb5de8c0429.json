@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8944eb72-69d7-4619-8c03-3905e8087360",
+    "id": "bundle--d7cf7801-723f-4303-8cd2-61e637e1f5f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-03T19:46:58.868Z",
             "description": "[GravityRAT](https://attack.mitre.org/software/S0237) uses HTTP for C2.(Citation: Talos GravityRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--1d1fce2f-0db5-402b-9843-4278a0694637",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6c5559be-b74c-45e6-9c8a-77656605d117",
+    "id": "bundle--ced45cac-fae2-48c8-95c7-99ba1f8d5888",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.118Z",
+            "modified": "2026-09-03T19:46:51.766Z",
             "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) can use different cloud providers for its C2.(Citation: Volexity InkySquid BLUELIGHT August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",

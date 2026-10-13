@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c27a6f5-bdbb-42c2-bc5f-1d7d25e5611f",
+    "id": "bundle--42c1d380-8994-48f3-87ce-a20e5acd9213",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-02T20:07:43.033Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has leveraged two 256-byte XOR keys to encrypt and decrypt  network packets using a custom algorithm.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

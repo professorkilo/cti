@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8fc0a88-42cc-4150-8682-71440a91d924",
+    "id": "bundle--055a62c9-1eee-4ae5-bb48-c07600b80b25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.053Z",
+            "modified": "2026-09-03T19:46:57.391Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) supports WebSocket and TCP-based C2 profiles.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

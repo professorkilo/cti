@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b64f6a6d-4620-4c1e-91a7-50cea97b5a2f",
+    "id": "bundle--7b122e01-6703-4cfa-854a-cd897165d661",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:53.285Z",
+            "modified": "2026-09-02T20:07:47.833Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used AES for encryption of command and control traffic.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",

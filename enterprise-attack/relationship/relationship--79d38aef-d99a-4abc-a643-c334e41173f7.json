@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49cf5f35-6c6e-4871-9f99-ff92860c2ec7",
+    "id": "bundle--a8d2434c-cbce-48fe-8b85-0d49335594aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.092Z",
+            "modified": "2026-09-03T19:47:01.301Z",
             "description": "[DanBot](https://attack.mitre.org/software/S1014) can use HTTP in C2 communication.(Citation: SecureWorks August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",

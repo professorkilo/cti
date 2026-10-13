@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--de0ffe6f-32a0-498e-9224-c715265c105c",
+    "id": "bundle--cd7882e3-a558-4544-b75d-1a510d5da100",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.146Z",
+            "modified": "2026-09-03T19:47:04.088Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) can download and execute files to further infect a host machine with additional malware.(Citation: BlackBerry Amadey 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",

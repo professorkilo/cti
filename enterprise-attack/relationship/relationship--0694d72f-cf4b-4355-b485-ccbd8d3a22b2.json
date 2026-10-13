@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8a4cc1d3-fd23-46f5-8f96-8f0cc96997f3",
+    "id": "bundle--c3e22189-bffd-459b-bd47-4ce3f3303b96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.912Z",
+            "modified": "2026-09-03T19:46:54.008Z",
             "description": "[Emotet](https://attack.mitre.org/software/S0367) has copied itself to remote systems using the `service.exe` filename.(Citation: Binary Defense Emotes Wi-Fi Spreader)",
             "relationship_type": "uses",
             "source_ref": "malware--32066e94-3112-48ca-b9eb-ba2b59d2f023",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07e8b07e-4c3a-43cc-a546-ba3ab332729d",
+    "id": "bundle--cf6cae10-7abc-429c-8102-d7c15a1ff60f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-09T18:39:17.164Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) has used HTTP if DNS C2 communications were not functioning.(Citation: Unit42 RDAT July 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

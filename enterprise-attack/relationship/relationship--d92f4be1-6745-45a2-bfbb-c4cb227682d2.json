@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d6dd6f7e-5e93-4916-8734-b06153ca6a8a",
+    "id": "bundle--46037ffc-f5ae-4abc-8a9a-7494a1434c2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:11.414Z",
+            "modified": "2026-09-03T19:46:59.214Z",
             "description": "[BackdoorDiplomacy](https://attack.mitre.org/groups/G0135) has used EarthWorm for network tunneling with a SOCKS5 server and port transfer functionalities.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--9735c036-8ebe-47e9-9c77-b0ae656dab93",

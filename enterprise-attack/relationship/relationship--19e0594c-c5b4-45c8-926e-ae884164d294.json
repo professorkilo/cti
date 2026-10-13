@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab9487dd-a8d0-4d09-a542-eff05f249efa",
+    "id": "bundle--5c27498c-0508-4f66-9cef-a88b74e6118d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-03T19:46:52.266Z",
             "description": "[More_eggs](https://attack.mitre.org/software/S0284) uses HTTPS for C2.(Citation: Talos Cobalt Group July 2018)(Citation: Security Intelligence More Eggs Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",

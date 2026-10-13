@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b3711f38-6b72-40fa-938c-a4a43a3aabed",
+    "id": "bundle--b6d98cb3-ed1d-4e9a-af13-0b7a62701e13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:46:59.424Z",
             "description": "[SoreFang](https://attack.mitre.org/software/S0516) can use HTTP in C2 communications.(Citation: CISA SoreFang July 2016)(Citation: NCSC APT29 July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--e33e4603-afab-402d-b2a1-248d435b5fe0",

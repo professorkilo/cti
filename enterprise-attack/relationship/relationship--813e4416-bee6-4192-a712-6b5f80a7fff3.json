@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--443fdc43-d26b-4c85-88a2-cd1592c438c4",
+    "id": "bundle--b335708e-b0f6-4ca8-af1d-ba0cbbd1523f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:46:54.557Z",
             "description": "[S-Type](https://attack.mitre.org/software/S0085) uses Base64 encoding for C2 traffic.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--66b1dcde-17a0-4c7b-95fa-b08d430c2131",

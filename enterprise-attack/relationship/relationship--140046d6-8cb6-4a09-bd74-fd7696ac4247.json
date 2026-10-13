@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99375bf4-eaac-4cef-ba2e-9c8aff360589",
+    "id": "bundle--8466b066-204f-4877-8fe1-47244779d6a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-02T20:07:45.367Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) has used AES to exfiltrate documents.(Citation: ESET Machete July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

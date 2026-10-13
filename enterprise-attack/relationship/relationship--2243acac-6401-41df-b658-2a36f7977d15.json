@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b60b4eca-abcc-4bc0-8d76-60c353ddec85",
+    "id": "bundle--db007707-dd6a-448b-8572-5b819ae3ccbc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.952Z",
+            "modified": "2026-09-03T19:46:54.193Z",
             "description": "[GoldenSpy](https://attack.mitre.org/software/S0493) has used HTTP over ports 9005 and 9006 for network traffic, 9002 for C2 requests, 33666 as a WebSocket, and 8090 to download files.(Citation: Trustwave GoldenSpy June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--b9704a7d-feef-4af9-8898-5280f1686326",

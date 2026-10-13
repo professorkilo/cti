@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c54d425b-112f-40f8-865e-5dba122cba16",
+    "id": "bundle--66a2e640-3fe7-4025-9376-6417bfcc384f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-08T20:28:43.221Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) has a built-in SOCKS5 proxying capability allowing for [Sliver](https://attack.mitre.org/software/S0633) clients to proxy network traffic through other clients within a victim network.(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

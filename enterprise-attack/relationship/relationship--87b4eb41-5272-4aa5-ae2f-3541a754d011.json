@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e98f8209-8309-494d-9868-35331196ea53",
+    "id": "bundle--7254519b-840d-4d21-a4e6-47410e153dc3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.110Z",
+            "modified": "2026-09-03T19:47:01.882Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) uses HTTP for Command & Control.(Citation: ESET Machete July 2019)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

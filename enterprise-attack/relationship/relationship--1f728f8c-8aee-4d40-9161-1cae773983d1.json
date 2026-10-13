@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55078774-0203-49d1-a4df-356586c3f7da",
+    "id": "bundle--0b86050a-485c-4da4-af95-dde7c5b2fe9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.947Z",
+            "modified": "2026-09-09T18:39:16.580Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) has been configured with several servers available for alternate C2 communications.(Citation: ESET InvisiMole June 2018)(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--722885c7-21fb-49ff-9d3a-f5a2fb19265c",
+    "id": "bundle--95cb99ea-d321-462c-b854-1ea99325f80c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.137Z",
+            "modified": "2026-09-03T19:47:03.800Z",
             "description": "[GuLoader](https://attack.mitre.org/software/S0561) can download further malware for execution on the victim's machine.(Citation: Medium Eli Salem GuLoader April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--45c759ac-b490-48bb-80d4-c8eee3431027",

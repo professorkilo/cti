@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53650e34-37cb-49ee-92aa-ffa048151dbe",
+    "id": "bundle--8e07fa8b-1284-4bc3-b745-3c64a4db8965",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-03T19:47:00.426Z",
             "description": "[Flagpro](https://attack.mitre.org/software/S0696) has exfiltrated data to the C2 server.(Citation: NTT Security Flagpro new December 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--592260fb-dd5c-4a30-8d99-106a0485be0d",

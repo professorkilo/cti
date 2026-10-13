@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9bbd792-a8de-4693-9581-29f3d45d81c4",
+    "id": "bundle--cd1a27e3-ac56-4888-a849-7b6877bd847e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.929Z",
+            "modified": "2026-09-03T19:46:57.123Z",
             "description": "[Disco](https://attack.mitre.org/software/S1088) can download files to targeted systems via SMB.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--e1445afd-c359-45ed-8f27-626dc4d5e157",

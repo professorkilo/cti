@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2d36966d-d25f-4473-b7dc-2d4786fe2ecb",
+    "id": "bundle--c3a66436-7fc7-4af0-b326-54e7ab4b5e82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-03T19:46:53.210Z",
             "description": "Some [Backdoor.Oldrea](https://attack.mitre.org/software/S0093) samples use standard Base64 + bzip2, and some use standard Base64 + reverse XOR + RSA-2048 to decrypt data received from C2 servers.(Citation: Symantec Dragonfly)",
             "relationship_type": "uses",
             "source_ref": "malware--083bb47b-02c8-4423-81a2-f9ef58572974",

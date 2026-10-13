@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfd62782-aebb-4f6c-955f-49d68236a9ff",
+    "id": "bundle--59e4a0f3-4943-4864-80ec-ef6a91c1defe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-03T19:46:49.164Z",
             "description": "[JPIN](https://attack.mitre.org/software/S0201) can communicate over FTP.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--de6cb631-52f6-4169-a73b-7965390b0c30",

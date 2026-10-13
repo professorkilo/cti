@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d63e1a20-225f-4022-b2be-0f831b026f16",
+    "id": "bundle--12598a86-8a2a-4c16-bf0d-ada3b3d7b5e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.058Z",
+            "modified": "2026-09-03T19:47:01.873Z",
             "description": "[WellMess](https://attack.mitre.org/software/S0514) can write files to a compromised host.(Citation: PWC WellMess July 2020)(Citation: CISA WellMess July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3a4197ae-ec63-4162-907b-9a073d1157e4",

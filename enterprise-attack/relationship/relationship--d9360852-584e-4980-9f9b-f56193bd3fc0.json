@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--859a66f8-a31a-4e84-8702-bc370ed5199e",
+    "id": "bundle--7837db04-50b7-42e2-b343-3a4ad7a9aee9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:35.999Z",
+            "modified": "2026-09-03T19:47:05.468Z",
             "description": "[Indrik Spider](https://attack.mitre.org/groups/G0119) has downloaded additional scripts, malware, and tools onto a compromised host.(Citation: Crowdstrike Indrik November 2018)(Citation: Symantec WastedLocker June 2020)(Citation: Mandiant_UNC2165)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--01e28736-2ffc-455b-9880-ed4d1407ae07",

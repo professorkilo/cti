@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82dbbe53-39a0-4d8d-aa78-5182a54082b4",
+    "id": "bundle--71eb217b-ac1b-4369-acb5-69378ad88d27",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-03T19:46:59.120Z",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) network traffic can communicate over a raw socket.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",

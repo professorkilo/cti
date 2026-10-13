@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27f43a6a-68e3-4962-b8ed-889066f9e1e6",
+    "id": "bundle--f6d50f96-f388-4051-b187-1430188c5c52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.081Z",
+            "modified": "2026-09-03T19:46:50.746Z",
             "description": "[OilBooster](https://attack.mitre.org/software/S1172) uses the Microsoft Graph API to connect to an actor-controlled OneDrive account to download and execute files and shell commands, and to create directories to share exfiltrated data.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--b0381480-d5ba-4dd8-a39e-fb8f1afea3a0",

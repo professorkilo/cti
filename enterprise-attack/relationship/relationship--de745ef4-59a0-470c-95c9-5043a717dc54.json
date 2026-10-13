@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--389f4331-2a90-4226-bbe8-d15147a1d035",
+    "id": "bundle--aa26b67b-759d-4433-923d-2bd4bca30d86",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.229Z",
+            "modified": "2026-09-03T19:47:05.564Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has used MSI files to download additional files to execute.(Citation: Medium Metamorfo Apr 2020)(Citation: FireEye Metamorfo Apr 2018)(Citation: Fortinet Metamorfo Feb 2020)(Citation: ESET Casbaneiro Oct 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

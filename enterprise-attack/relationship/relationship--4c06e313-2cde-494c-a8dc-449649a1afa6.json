@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df8ff29e-78a7-47dc-936f-3f5e81879f83",
+    "id": "bundle--6ca80cf8-1302-48d6-b889-f5852a65ccdf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.673Z",
+            "modified": "2026-09-02T20:07:46.646Z",
             "description": "Several [Lazarus Group](https://attack.mitre.org/groups/G0032) malware families encrypt C2 traffic using custom code that uses XOR with an ADD operation and XOR with a SUB operation. Another [Lazarus Group](https://attack.mitre.org/groups/G0032) malware sample XORs C2 traffic. Other [Lazarus Group](https://attack.mitre.org/groups/G0032) malware uses Caracachs encryption to encrypt C2 payloads. [Lazarus Group](https://attack.mitre.org/groups/G0032) has also used AES to encrypt C2 traffic.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: McAfee GhostSecret)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

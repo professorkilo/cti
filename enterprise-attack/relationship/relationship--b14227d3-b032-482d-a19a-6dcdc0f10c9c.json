@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2aed5918-0f1e-485b-9017-c540546846de",
+    "id": "bundle--670d4eb6-2f8b-43dd-be90-5cabfd1b9a5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-03T19:46:56.291Z",
             "description": "[DarkTortilla](https://attack.mitre.org/software/S1066) can retrieve its primary payload from public sites such as Pastebin and Textbin.(Citation: Secureworks DarkTortilla Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5faaf81a-aa5b-4a4b-bae5-522439e068f8",

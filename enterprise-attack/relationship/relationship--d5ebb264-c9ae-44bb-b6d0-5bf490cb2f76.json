@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8078779-4c43-4fff-b34d-0357f1f4da1b",
+    "id": "bundle--8c98a560-9a79-422d-b30a-3859946397e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-03T19:47:03.780Z",
             "description": "[OutSteel](https://attack.mitre.org/software/S1017) has used HTTP for C2 communications.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 )",
             "relationship_type": "uses",
             "source_ref": "malware--c113230f-f044-423b-af63-9b63c802f5ae",

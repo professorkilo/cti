@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--59ecd512-a64a-4eff-98d1-8e8dc642c485",
+    "id": "bundle--d85a347c-37f9-4e7a-a7dc-da015d267a00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.912Z",
+            "modified": "2026-09-03T19:46:59.056Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors used a custom protocol for command and control.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

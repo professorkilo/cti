@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--352a3739-7156-4682-91f2-8abfb8719166",
+    "id": "bundle--2ed19ef9-5cfa-41b9-b16e-8ab1dbb3de67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.907Z",
+            "modified": "2026-09-02T17:31:49.104Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has leveraged malware capable of execution via the Linux CLI.(Citation: Hunt.io TeamPCP Toolkit MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

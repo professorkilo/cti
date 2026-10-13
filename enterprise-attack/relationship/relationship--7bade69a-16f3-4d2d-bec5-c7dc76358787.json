@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--296ec6b6-d316-43e6-b908-d0fc152443da",
+    "id": "bundle--c7dfe5ab-d17f-4c38-8d72-0a0317605ec4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-03T19:46:53.736Z",
             "description": "[TrailBlazer](https://attack.mitre.org/software/S0682) can masquerade its C2 traffic as legitimate Google Notifications HTTP requests.(Citation: CrowdStrike StellarParticle January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdad6f3b-de88-42fa-9295-d29b5271808e",

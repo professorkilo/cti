@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ca8345a-3ca2-434b-86e7-a5dc1cb39290",
+    "id": "bundle--7664a72c-1dce-4440-9ca3-2290f8d07197",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.071Z",
+            "modified": "2026-09-03T19:46:57.636Z",
             "description": "[SombRAT](https://attack.mitre.org/software/S0615) has the ability to use TCP sockets to send data and ICMP to ping the C2 server.(Citation: BlackBerry CostaRicto November 2020)(Citation: FireEye FiveHands April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--425771c5-48b4-4ecd-9f95-74ed3fc9da59",

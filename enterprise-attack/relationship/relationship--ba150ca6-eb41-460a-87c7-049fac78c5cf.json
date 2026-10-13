@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50d0b58e-8932-4d29-b7de-561f110ffd52",
+    "id": "bundle--ee45e1a3-1a1b-43e3-a360-ca506e734d60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:20.335Z",
+            "modified": "2026-09-03T19:47:04.779Z",
             "description": "During [Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013), additional payloads were downloaded after a target was infected with a first-stage downloader.(Citation: McAfee Sharpshooter December 2018)",
             "relationship_type": "uses",
             "source_ref": "campaign--37764c78-2a99-46d1-a7ea-6454b9bf93a0",

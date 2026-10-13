@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7a507e6-183d-41ff-a2cd-3fc0adecdf48",
+    "id": "bundle--acf6f222-989e-4f35-a3aa-bcb8bf59fc5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-03T19:47:01.641Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) has exfiltrated stolen data and files to its C2 server.(Citation: DOJ Affidavit Search and Seizure PlugX December 2024)(Citation: Sophos PlugX September 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

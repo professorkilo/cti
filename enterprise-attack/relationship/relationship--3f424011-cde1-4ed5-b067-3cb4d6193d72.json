@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d21cbede-4334-4296-8e1f-b77af59e3174",
+    "id": "bundle--f344a9d0-7c7b-4d7d-9d23-ff084f327dd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-03T19:46:55.926Z",
             "description": "[Mafalda](https://attack.mitre.org/software/S1060) can use raw TCP for C2.(Citation: SentinelLabs Metador Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",

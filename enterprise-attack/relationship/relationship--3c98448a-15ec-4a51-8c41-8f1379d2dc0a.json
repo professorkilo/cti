@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33e79d56-e804-4f79-a9e8-b12991d01489",
+    "id": "bundle--1c3da3ee-7c94-462f-94d0-dabac27d1345",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.007Z",
+            "modified": "2026-09-03T19:46:58.635Z",
             "description": "[POWERTON](https://attack.mitre.org/software/S0371) has used HTTP/HTTPS for C2 traffic.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "malware--e85cae1a-bce3-4ac4-b36b-b00acac0567b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ce97dc7-e2e1-4ada-87c8-9d71bf86f605",
+    "id": "bundle--7ff19ed9-5253-497f-8129-5f77578b1d39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.921Z",
+            "modified": "2026-09-08T20:29:08.703Z",
             "description": "[ShimRat](https://attack.mitre.org/software/S0444) can use pre-configured HTTP proxies.(Citation: FOX-IT May 2016 Mofang)",
             "relationship_type": "uses",
             "source_ref": "malware--5763217a-05b6-4edd-9bca-057e47b5e403",

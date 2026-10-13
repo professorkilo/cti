@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd8b9162-4f04-4a82-9a78-bbbcc2e5bd73",
+    "id": "bundle--ce8e9749-e1ab-4560-a205-35e1a5a65829",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.058Z",
+            "modified": "2026-09-03T19:46:56.411Z",
             "description": "[BlackByte Ransomware](https://attack.mitre.org/software/S1180) spreads itself laterally by writing the JavaScript launcher file to mapped shared folders.(Citation: Trustwave BlackByte 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9454bb5d-3bdb-40f9-a878-b5fb446ded3d",

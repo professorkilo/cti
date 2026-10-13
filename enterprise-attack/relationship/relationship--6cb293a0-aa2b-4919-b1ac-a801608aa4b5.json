@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--667f0ddf-50e9-421b-a838-ae88c4e72e61",
+    "id": "bundle--767767d0-b7bf-413e-89a5-a5cf2eedbc52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.073Z",
+            "modified": "2026-09-03T19:47:00.514Z",
             "description": "[OopsIE](https://attack.mitre.org/software/S0264) uses HTTP for C2 communications.(Citation: Unit 42 OopsIE! Feb 2018)(Citation: Unit 42 OilRig Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--8e101fdd-9f7f-4916-bb04-6bd9e94c129c",

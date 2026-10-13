@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6b3c3379-44c1-402e-9763-53d9f0502a13",
+    "id": "bundle--b9600b7a-375a-4577-9bb0-4c7bed6942f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.214Z",
+            "modified": "2026-09-09T18:39:17.139Z",
             "description": "[TAINTEDSCRIBE](https://attack.mitre.org/software/S0586) can randomly pick one of five hard-coded IP addresses for C2 communication; if one of the IP fails, it will wait 60 seconds and then try another IP address.(Citation: CISA MAR-10288834-2.v1  TAINTEDSCRIBE MAY 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--7f4bbe05-1674-4087-8a16-8f1ad61b6152",

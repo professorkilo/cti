@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47d73d51-b9e2-48bf-90d5-df634dee7493",
+    "id": "bundle--b4d64661-23c8-4ddd-8a42-75d6735a486f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:46.348Z",
             "description": "[Fysbis](https://attack.mitre.org/software/S0410) can use Base64 to encode its C2 traffic.(Citation: Fysbis Dr Web Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--50d6688b-0985-4f3d-8cbe-0c796b30703b",

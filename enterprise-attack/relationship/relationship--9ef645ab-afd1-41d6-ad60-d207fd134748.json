@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e37ce9c2-16ad-4025-ad77-030642189005",
+    "id": "bundle--de5686ec-1b83-4e00-8291-07877b7e22d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.142Z",
+            "modified": "2026-09-03T19:47:02.473Z",
             "description": "[SeaDuke](https://attack.mitre.org/software/S0053) uses HTTP and HTTPS for C2.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--67e6d66b-1b82-4699-b47a-e2efb6268d14",

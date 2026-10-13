@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75d6b0c2-c2f8-46cb-ab8c-0373b03f90ca",
+    "id": "bundle--835b3beb-0f3d-4bcc-b50c-66e40238aa98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.189Z",
+            "modified": "2026-09-03T19:47:03.242Z",
             "description": "[QUIETCANARY](https://attack.mitre.org/software/S1076) can use HTTPS for C2 communications.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--93289ecf-4d15-4d6b-a9c3-4ab27e145ef4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--91c3b4c2-32f4-4069-b20c-12c14b4bc1f7",
+    "id": "bundle--4e76c1fc-0d9c-4872-8d86-f99f17675039",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:59.368Z",
+            "modified": "2026-09-02T17:55:53.209Z",
             "description": "[Aquatic Panda](https://attack.mitre.org/groups/G0143) has acquired and used [njRAT](https://attack.mitre.org/software/S0385) in its operations.(Citation: CrowdStrike AQUATIC PANDA December 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64b52e7d-b2c4-4a02-9372-08a463f5dc11",

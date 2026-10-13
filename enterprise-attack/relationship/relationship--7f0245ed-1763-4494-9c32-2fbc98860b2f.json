@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af18826c-0bee-40de-aa3e-9c812db0d76a",
+    "id": "bundle--d0fd3336-4d1c-47f3-81d5-c3764550b991",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-03T19:47:01.471Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has utilized curl to install Bun over HTTPS.(Citation: Microsoft Shai-Hulud December 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

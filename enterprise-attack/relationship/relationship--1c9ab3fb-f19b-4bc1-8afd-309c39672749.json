@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14bb0e5c-f6ca-44ea-a49a-4756e47afcfe",
+    "id": "bundle--e2f355a3-03cf-4a9f-9ff3-0ab7f252690b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-03T19:46:52.701Z",
             "description": "[THINCRUST](https://attack.mitre.org/software/S1223) can use HTTP POST requests in C2 communications.(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "malware--351b63d3-7b2c-4ede-b3fe-ff291527b397",

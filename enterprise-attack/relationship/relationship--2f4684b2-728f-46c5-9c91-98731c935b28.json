@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48069b46-934a-4f9b-900e-780f1d2da4d8",
+    "id": "bundle--ea06323f-3b2a-4f30-b6cc-d6e5cf235b49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.970Z",
+            "modified": "2026-09-03T19:46:59.457Z",
             "description": "[MarkiRAT](https://attack.mitre.org/software/S0652) can download additional files and tools from its C2 server, including through the use of [BITSAdmin](https://attack.mitre.org/software/S0190).(Citation: Kaspersky Ferocious Kitten Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--532c6004-b1e8-415b-9516-f7c14ba783b1",

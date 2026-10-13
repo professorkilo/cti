@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--928abc8b-39eb-4404-a5ed-f16fb998e905",
+    "id": "bundle--b04043c8-dded-44b5-9c21-554e2a642ffd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-03T19:46:58.952Z",
             "description": "[AppleJeus](https://attack.mitre.org/software/S0584) has sent data to its C2 server via <code>POST</code> requests.(Citation: CISA AppleJeus Feb 2021)(Citation: ObjectiveSee AppleJeus 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--e2d34c63-6f5a-41f5-86a2-e2380f27f858",

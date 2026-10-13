@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e3ef616-fc43-48fc-a589-ac2331ea3a90",
+    "id": "bundle--25226d52-277b-4d9f-ab99-72475125cb7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.034Z",
+            "modified": "2026-09-03T19:46:58.808Z",
             "description": "[MobileOrder](https://attack.mitre.org/software/S0079) exfiltrates data to its C2 server over the same protocol as C2 communications.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--463f68f1-5cde-4dc2-a831-68b73488f8f4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8622123-e2ed-4fbf-9433-b67db5245c0b",
+    "id": "bundle--c61a735f-aa94-48db-8f7d-7e238dff2bc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:40.807Z",
+            "modified": "2026-09-02T18:51:44.309Z",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) leveraged a watering hole to serve up malicious code.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",

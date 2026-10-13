@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--175c1803-8a73-41e1-9b37-16b63814aeb5",
+    "id": "bundle--b5d5c185-90f6-471e-b6e4-e0b74dbe96fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-03T19:46:59.044Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can send data from the victim host through a DNS C2 channel.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

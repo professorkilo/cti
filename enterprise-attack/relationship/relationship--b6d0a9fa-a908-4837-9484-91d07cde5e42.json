@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--046513df-7667-4855-abe3-27487fbe1600",
+    "id": "bundle--29479984-c5b1-4931-a326-cf3b7edf1275",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:28.576Z",
+            "modified": "2026-09-03T19:47:03.027Z",
             "description": "During [Operation CuckooBees](https://attack.mitre.org/campaigns/C0012), the threat actors enabled HTTP and HTTPS listeners.(Citation: Cybereason OperationCuckooBees May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--93c23946-49af-41f4-ac03-40f9ffc7419b",

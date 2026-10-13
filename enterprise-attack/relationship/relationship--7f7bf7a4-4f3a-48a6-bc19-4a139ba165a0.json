@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12fec618-6350-43e1-96a5-ab358e6caa88",
+    "id": "bundle--3f4ac5f0-bdb3-4f9b-aaa5-fca9e5c03200",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-03T19:46:59.780Z",
             "description": "[Attor](https://attack.mitre.org/software/S0438) has exfiltrated data over the C2 channel.(Citation: ESET Attor Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",

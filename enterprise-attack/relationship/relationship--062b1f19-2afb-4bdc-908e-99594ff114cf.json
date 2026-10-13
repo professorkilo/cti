@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e2381e80-2851-4d8c-9ebf-087b9ee4bf17",
+    "id": "bundle--22723854-d051-4786-a8c7-7064f7d86986",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.911Z",
+            "modified": "2026-09-03T19:46:49.390Z",
             "description": "[Epic](https://attack.mitre.org/software/S0091) uses HTTP and HTTPS for C2 communications.(Citation: Kaspersky Turla)(Citation: Kaspersky Turla Aug 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--6b62e336-176f-417b-856a-8552dd8c44e1",

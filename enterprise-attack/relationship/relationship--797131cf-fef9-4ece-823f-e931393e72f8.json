@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30175eec-2893-4404-b9de-e097e3efc5ed",
+    "id": "bundle--532a2254-3c6d-4f63-9928-b89b6e79ff08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.091Z",
+            "modified": "2026-09-03T19:47:01.279Z",
             "description": "Some [Reaver](https://attack.mitre.org/software/S0172) variants use HTTP for C2.(Citation: Palo Alto Reaver Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--65341f30-bec6-4b1d-8abf-1a5620446c29",

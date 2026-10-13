@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3f65ef0-0548-4cc0-9f16-e10664a58e05",
+    "id": "bundle--4e8244a6-70e4-443a-b4b3-e6e8f1904266",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.177Z",
+            "modified": "2026-09-03T19:46:57.798Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) can Base64 encode process output sent to C2.(Citation: Mandiant Cutting Edge January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",

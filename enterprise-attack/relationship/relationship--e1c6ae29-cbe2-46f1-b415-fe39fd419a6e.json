@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76a9a7e4-e196-4910-8ef6-702c1d35eba0",
+    "id": "bundle--984d410d-be9e-48be-8a70-3fd3f1c4034f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.233Z",
+            "modified": "2026-09-02T18:41:22.186Z",
             "description": "Data loss prevention can detect and block sensitive data being copied to USB devices.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",

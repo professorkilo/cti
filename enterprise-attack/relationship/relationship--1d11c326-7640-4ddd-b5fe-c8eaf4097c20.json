@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24b01a28-73d2-4293-b2ae-2ad32f8ebe42",
+    "id": "bundle--3721ab68-228c-471b-b456-475eed12d3aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-03T19:46:56.146Z",
             "description": "[Bumblebee](https://attack.mitre.org/software/S1039) can send collected data in JSON format to C2.(Citation: Google EXOTIC LILY March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",

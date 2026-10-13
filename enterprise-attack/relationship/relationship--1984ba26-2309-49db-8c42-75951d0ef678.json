@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3df33fe-9496-4aa4-b221-b1e942225e3d",
+    "id": "bundle--f4d10eca-837c-4047-ad3e-af8a4e424ee5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.939Z",
+            "modified": "2026-09-03T19:46:53.865Z",
             "description": "[WINDSHIELD](https://attack.mitre.org/software/S0155) C2 traffic can communicate via TCP raw sockets.(Citation: FireEye APT32 May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--98e8a977-3416-43aa-87fa-33e287e9c14c",

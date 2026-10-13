@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd16a7c9-3b00-4474-bce5-672bedb44758",
+    "id": "bundle--ac4e2750-4c16-4e40-884b-148e9b1682eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.113Z",
+            "modified": "2026-09-03T19:46:59.924Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) will exfiltrate victim system information along with the encryption key via an HTTP POST.(Citation: Kaspersky ShrinkLocker 2024)(Citation: Splunk ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",

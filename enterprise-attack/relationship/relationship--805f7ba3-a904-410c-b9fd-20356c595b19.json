@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff77c79f-a4b7-41cd-9290-88ca235f2df0",
+    "id": "bundle--2972f467-bb4d-48cf-804d-d99d84aa02fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.101Z",
+            "modified": "2026-09-02T20:07:47.061Z",
             "description": "[BBSRAT](https://attack.mitre.org/software/S0127) uses a custom encryption algorithm on data sent back to the C2 server over HTTP.(Citation: Palo Alto Networks BBSRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--64d76fa5-cf8f-469c-b78c-1a4f7c5bad80",

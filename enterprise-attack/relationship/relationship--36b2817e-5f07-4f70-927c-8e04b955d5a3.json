@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b511dcb2-b1b3-4b53-b04e-33a495019408",
+    "id": "bundle--c8d9c428-d2e1-47dd-b6ca-461f1dbb42b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.995Z",
+            "modified": "2026-09-02T20:07:46.467Z",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) encrypts C2 data with AES256 in ECB mode.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3d7a580c-3d24-432b-9bb9-549979ccee7e",
+    "id": "bundle--381744b2-c8c8-4b18-aee5-dea48f4c9682",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:52.442Z",
+            "modified": "2026-09-02T19:42:04.218Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106) has used Pastebin to check the version of beaconing malware and redirect to another Pastebin hosting updated malware.(Citation: Anomali Rocke March 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d816b5b5-4fbc-4f47-b130-a8a5e8929140",
+    "id": "bundle--30d9f2fa-6c08-486e-82a6-5deafcc57537",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.099Z",
+            "modified": "2026-09-03T19:47:02.802Z",
             "description": "[CookieMiner](https://attack.mitre.org/software/S0492) can download additional scripts from a web server.(Citation: Unit42 CookieMiner Jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--eedc01d5-95e6-4d21-bcd4-1121b1df4586",

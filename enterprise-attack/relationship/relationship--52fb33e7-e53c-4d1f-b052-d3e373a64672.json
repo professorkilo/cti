@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1aa862f8-d4cc-4184-803c-dbb86ab866cb",
+    "id": "bundle--0c567e8f-7750-485e-bf47-deb727ab9f5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.038Z",
+            "modified": "2026-09-03T19:46:58.890Z",
             "description": "[Amadey](https://attack.mitre.org/software/S1025) has sent victim data to its C2 servers.(Citation: BlackBerry Amadey 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--05318127-5962-444b-b900-a9dcfe0ff6e9",

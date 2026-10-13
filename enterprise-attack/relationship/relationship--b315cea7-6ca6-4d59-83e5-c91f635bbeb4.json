@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afc7ec6a-f4d2-4755-a562-4c07351fc5ae",
+    "id": "bundle--624a64d1-cecd-49e1-ba35-299f8cdcf2e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:34.045Z",
+            "modified": "2026-09-03T19:46:49.791Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) frequently configured the URL endpoints of their stealthy passive backdoor LOWKEY.PASSIVE to masquerade as normal web application traffic on an infected server.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

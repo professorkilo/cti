@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--acf73369-c6f1-4d40-8ada-d6e51eea9fd1",
+    "id": "bundle--49514f8c-1d3b-4e3a-b6b4-86a222537d31",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:55.084Z",
             "description": "[OutSteel](https://attack.mitre.org/software/S1017) can upload files from a compromised host over its C2 channel.(Citation: Palo Alto Unit 42 OutSteel SaintBot February 2022 ) ",
             "relationship_type": "uses",
             "source_ref": "malware--c113230f-f044-423b-af63-9b63c802f5ae",

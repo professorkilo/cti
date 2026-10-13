@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e873bbb-f40c-4d64-acb2-251bfc6d1b4a",
+    "id": "bundle--22a31d1f-0661-4562-bd33-b816d13462ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.015Z",
+            "modified": "2026-09-08T20:28:08.297Z",
             "description": "[LITTLELAMB.WOOLTEA](https://attack.mitre.org/software/S1121) has the ability to function as a SOCKS proxy.(Citation: Mandiant Cutting Edge Part 3 February 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--19256855-65e9-48f2-8b74-9f3d0a994428",

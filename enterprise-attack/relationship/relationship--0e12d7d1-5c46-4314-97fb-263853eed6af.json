@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c15fbc7b-87fd-49db-9154-06bbbb6fb170",
+    "id": "bundle--70b35aa5-6255-4aaa-8e1c-a0ef62840239",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.922Z",
+            "modified": "2026-09-03T19:46:54.982Z",
             "description": "[HTTPBrowser](https://attack.mitre.org/software/S0070) is capable of writing a file to the compromised system from the C2 server.(Citation: Dell TG-3390)",
             "relationship_type": "uses",
             "source_ref": "malware--e066bf86-9cfb-407a-9d25-26fd5d91e360",

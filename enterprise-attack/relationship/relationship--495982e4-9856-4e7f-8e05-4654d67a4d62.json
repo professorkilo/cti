@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8519590e-8ce8-4773-bab8-aef894dea954",
+    "id": "bundle--6c209c7e-e42a-45f5-be42-76e857a22ce4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-09T18:39:16.648Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) can communicate over multiple C2 hosts.(Citation: Unit 42 Valak July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",

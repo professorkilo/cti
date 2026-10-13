@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--381be185-75e0-4880-b808-0091795f1919",
+    "id": "bundle--18ed7fd1-34aa-486a-9319-1089764c7fc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.250Z",
+            "modified": "2026-09-02T20:07:47.941Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has encrypted C2 commands with AES-256.(Citation: ESET Casbaneiro Oct 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44c1aec0-6158-45d1-a101-a35b08840fb8",
+    "id": "bundle--419fdafa-8fe0-4617-bbe2-f36daa00271f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.096Z",
+            "modified": "2026-09-03T19:46:59.722Z",
             "description": "[BoxCaon](https://attack.mitre.org/software/S0651) uploads files and data from a compromised host over the existing C2 channel.(Citation: Checkpoint IndigoZebra July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--919a056e-5104-43b9-ad55-2ac929108b71",

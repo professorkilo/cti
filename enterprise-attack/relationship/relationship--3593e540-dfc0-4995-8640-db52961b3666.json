@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc15e14c-7bc1-4baf-a8c9-4939e85a7da7",
+    "id": "bundle--78203889-8613-4970-94b7-c9ec48a9bef4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.992Z",
+            "modified": "2026-09-03T19:46:59.893Z",
             "description": "[LitePower](https://attack.mitre.org/software/S0680) has the ability to download payloads containing system commands to a compromised host.(Citation: Kaspersky WIRTE November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9020f5c7-efde-4125-a4f1-1b70f1274ddd",

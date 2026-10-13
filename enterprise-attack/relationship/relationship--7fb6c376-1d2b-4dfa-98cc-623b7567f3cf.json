@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb5cc181-5485-41e3-a043-959e8522ca5f",
+    "id": "bundle--42724012-4fd4-4a17-a5ee-498ba9314dc4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-03T19:46:50.649Z",
             "description": "[Mori](https://attack.mitre.org/software/S1047) can use DNS tunneling to communicate with C2.(Citation: DHS CISA AA22-055A MuddyWater February 2022)(Citation: CYBERCOM Iranian Intel Cyber January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7e100ca4-e639-48d9-9a9d-8ad84aa7b448",

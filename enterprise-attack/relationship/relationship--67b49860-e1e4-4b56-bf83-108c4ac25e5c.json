@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7990bb39-36ea-436c-966c-97d4c610d6a6",
+    "id": "bundle--5bdea6c6-c30e-4ee1-affb-408940ef2c49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.066Z",
+            "modified": "2026-09-03T19:47:02.161Z",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) can download additional encrypted backdoors onto the victim via GIF files.(Citation: Securelist MiniDuke Feb 2013)(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",

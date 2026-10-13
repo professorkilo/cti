@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ab58a124-0c7f-4b5b-8261-ac7ff7817e77",
+    "id": "bundle--f08f6be6-f3f8-4aa9-bd45-9b36bf542436",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:47:04.826Z",
             "description": "[esentutl](https://attack.mitre.org/software/S0404) can be used to copy files from a given URL.(Citation: LOLBAS Esentutl)",
             "relationship_type": "uses",
             "source_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",

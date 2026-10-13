@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6557564e-376a-403e-b35b-37825881784e",
+    "id": "bundle--bbebfdaf-d3e0-4ad2-b8a4-6529af504123",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T20:09:43.515Z",
             "description": "[Sagerunex](https://attack.mitre.org/software/S1210) uses HTTPS for command and control communication.(Citation: Symantec Bilbug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7f269253-c225-45ff-87c2-5e8ef6dd369f",

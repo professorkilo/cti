@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--462c4ff3-e6ad-4f51-affc-1f044af9c2b4",
+    "id": "bundle--747d085a-2156-4846-bec1-6875dcb12b9d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.123Z",
+            "modified": "2026-09-03T19:47:02.156Z",
             "description": "[Line Dancer](https://attack.mitre.org/software/S1186) uses HTTP POST requests to interact with compromised devices.(Citation: Cisco ArcaneDoor 2024)(Citation: CCCS ArcaneDoor 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4c8ad4ed-3bbb-4088-bf14-f4caf2bf62a0",

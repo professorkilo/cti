@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09942825-6b89-43a0-8837-5051e2607058",
+    "id": "bundle--a5a546f9-7549-4890-8980-2f193d2c4c73",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.134Z",
+            "modified": "2026-09-03T19:47:03.701Z",
             "description": " [Machete](https://attack.mitre.org/software/S0409) can download additional files for execution on the victim\u2019s machine.(Citation: ESET Machete July 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

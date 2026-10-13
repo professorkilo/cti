@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e377a228-4d65-45e9-b5d5-a56896d6a7be",
+    "id": "bundle--d4ce1140-e185-486b-aa24-1577530f207d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.061Z",
+            "modified": "2026-09-03T19:46:56.472Z",
             "description": "Consider using the host firewall to restrict file sharing communications such as SMB. (Citation: Microsoft Preventing SMB)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

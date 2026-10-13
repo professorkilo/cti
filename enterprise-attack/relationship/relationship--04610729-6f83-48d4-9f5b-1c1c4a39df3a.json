@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26dcf5c8-1536-4367-89c0-307e40ed32c9",
+    "id": "bundle--f7a6d5b4-ba4b-4e91-9db8-1a1917e66f75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.909Z",
+            "modified": "2026-09-03T19:46:52.790Z",
             "description": "[OSX_OCEANLOTUS.D](https://attack.mitre.org/software/S0352) has used a custom binary protocol over port 443 for C2 traffic.(Citation: Unit42 OceanLotus 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b00f90b6-c75c-4bfd-b813-ca9e6c9ebf29",

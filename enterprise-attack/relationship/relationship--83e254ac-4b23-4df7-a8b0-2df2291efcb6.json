@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ea0920d-51bd-4cf4-9346-3812576680e3",
+    "id": "bundle--42bebfc8-4d64-4c2d-b860-c93b800c3c55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.105Z",
+            "modified": "2026-09-03T19:47:01.687Z",
             "description": "[Cuckoo Stealer](https://attack.mitre.org/software/S1153) can use the curl API for C2 communications.(Citation: Kandji Cuckoo April 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--457a5e8d-d964-4130-bde3-c07bb41a093e",

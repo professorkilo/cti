@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b7e838e0-3d22-4125-aadd-b843f6ab7d01",
+    "id": "bundle--e98ca859-157c-4461-a77d-dd809b9616a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.191Z",
+            "modified": "2026-09-03T19:47:03.314Z",
             "description": "[AppleSeed](https://attack.mitre.org/software/S0622) has the ability to communicate with C2 over HTTP.(Citation: Malwarebytes Kimsuky June 2021)(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "malware--295721d2-ee20-4fa3-ade3-37f4146b4570",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24f210a1-3132-442e-9d87-df48494a8a69",
+    "id": "bundle--832e95ac-c289-4140-93a8-82753a5e1568",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:46:54.683Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) can use DNS over HTTPS for C2.(Citation: Palo Alto Brute Ratel July 2022)(Citation: Trend Micro Black Basta October 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",

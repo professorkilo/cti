@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abf7cc4c-6c5e-4c44-bded-2e311330de77",
+    "id": "bundle--3aa82e95-cd5b-4355-809f-a464f90a4572",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-03T19:46:52.147Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has used HTTPS over port 443 for command and control.(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53174367-1d4c-41c4-89db-d0c632093316",
+    "id": "bundle--2bde2c77-5f82-4f72-992b-4ed8d4b35d55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:46.492Z",
             "description": "[DnsSystem](https://attack.mitre.org/software/S1021) can Base64 encode data sent to C2.(Citation: Zscaler Lyceum DnsSystem June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3dc95a0d-783c-4c2e-aad7-c84c62298029",
+    "id": "bundle--c423ac8c-3259-456e-a59a-7783154dba89",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.122Z",
+            "modified": "2026-09-08T20:28:43.331Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) can function as a proxy to create a server that relays communication between the client and C&C server, or between two clients.(Citation: ESET InvisiMole June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

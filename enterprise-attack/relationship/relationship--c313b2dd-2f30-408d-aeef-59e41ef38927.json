@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a119c57-e1b6-4d30-9ce3-5d8acbf8f31d",
+    "id": "bundle--026ad785-2372-4b6f-a723-3e2ba35d593a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:46:56.871Z",
             "description": "[CHIMNEYSWEEP](https://attack.mitre.org/software/S1149) has the ability to use use Telegram channels to return a list of commands to be executed, to download additional payloads, or to create a reverse shell.(Citation: Mandiant ROADSWEEP August 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--542e3384-341a-455b-bb48-4917b25e3b00",

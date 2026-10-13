@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97620a22-7abf-4eb8-be9a-478adad1b91f",
+    "id": "bundle--18c21011-00ce-47a3-8da4-784c1691a47e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.959Z",
+            "modified": "2026-09-03T19:46:48.588Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) has used FTP to exfiltrate reconnaissance data out.(Citation: Medium KONNI Jan 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",

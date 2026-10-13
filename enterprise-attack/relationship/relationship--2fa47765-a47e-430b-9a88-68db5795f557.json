@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ab48957-f3b2-4892-b438-7815af19d54b",
+    "id": "bundle--17eb6f07-aa87-472c-a697-80976dda4b4c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.974Z",
+            "modified": "2026-09-03T19:46:59.498Z",
             "description": "[KARAE](https://attack.mitre.org/software/S0215) can upload and download files, including second-stage malware.(Citation: FireEye APT37 Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--3c02fb1f-cbdb-48f5-abaf-8c81d6e0c322",

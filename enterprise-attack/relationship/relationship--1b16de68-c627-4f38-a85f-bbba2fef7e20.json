@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9295a758-6a64-4af0-9b40-ac775eae9d37",
+    "id": "bundle--67869752-b1c6-4a52-9133-e8fca8b21331",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-03T19:46:58.091Z",
             "description": "[SILENTTRINITY](https://attack.mitre.org/software/S0692) can load additional files and tools, including [Mimikatz](https://attack.mitre.org/software/S0002).(Citation: GitHub SILENTTRINITY Modules July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--1244e058-fa10-48cb-b484-0bcf671107ae",

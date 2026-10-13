@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--260de39b-00aa-416c-bb64-3ff2b3255429",
+    "id": "bundle--b2ecc9a4-d289-41ae-8fd4-5ea5e9f0dfdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-03T19:46:58.355Z",
             "description": "[Okrum](https://attack.mitre.org/software/S0439) uses HTTP for communication with its C2.(Citation: ESET Okrum July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--4b6ec280-7bbb-48ff-ae59-b189520ebe83",

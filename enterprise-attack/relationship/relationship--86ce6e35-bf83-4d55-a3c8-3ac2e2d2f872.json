@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ed39369-8371-41da-8d51-dcca2f59726e",
+    "id": "bundle--7fdcca34-4e39-42ab-a54a-5f8d52c2df08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:47:03.014Z",
             "description": "[Valak](https://attack.mitre.org/software/S0476) has downloaded a variety of modules and payloads to the compromised host, including [IcedID](https://attack.mitre.org/software/S0483) and NetSupport Manager RAT-based malware.(Citation: Unit 42 Valak July 2020)(Citation: Cybereason Valak May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ade37ada-14af-4b44-b36c-210eec255d53",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0d7f1d95-5c2d-4b73-9af9-8c126f09d2cb",
+    "id": "bundle--4f258ae4-cb0c-47e4-9d88-89a11326f8fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.228Z",
+            "modified": "2026-09-03T14:50:24.133Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can determine if a user is logged in by checking to see if explorer.exe is running.(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d287c6e-1dcc-4de0-9328-c84f04a29c19",
+    "id": "bundle--e48f5988-857b-4419-9c88-39b15566aaa5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.105Z",
+            "modified": "2026-09-03T19:46:54.929Z",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) encodes C2 traffic with base64.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",

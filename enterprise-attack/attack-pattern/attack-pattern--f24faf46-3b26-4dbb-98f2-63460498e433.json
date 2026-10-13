@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5a590322-6913-469f-838c-34482dcbb869",
+    "id": "bundle--157b5036-fa60-46b4-ba17-1dbaf61be48f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -14,17 +14,12 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/techniques/T1008",
                     "external_id": "T1008"
-                },
-                {
-                    "source_name": "University of Birmingham C2",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
-                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.724Z",
+            "modified": "2026-09-09T18:39:15.900Z",
             "name": "Fallback Channels",
             "description": "Adversaries may use fallback or alternate communication channels if the primary channel is compromised or inaccessible in order to maintain reliable command and control and to avoid data transfer thresholds.",
             "kill_chain_phases": [

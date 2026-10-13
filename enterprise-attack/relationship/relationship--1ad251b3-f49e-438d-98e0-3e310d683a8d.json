@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3808ee28-5413-48de-aca6-840f0a379acb",
+    "id": "bundle--4aa5362b-4957-491f-a4f9-b206cfb070ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-03T19:46:47.834Z",
             "description": "[FRAMESTING](https://attack.mitre.org/software/S1120) uses a cookie named `DSID` to mimic the name of a cookie used by Ivanti Connect Secure appliances for maintaining VPN sessions.(Citation: Mandiant Cutting Edge Part 2 January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--bcaae558-9697-47a2-9ec7-c75000ddf58c",

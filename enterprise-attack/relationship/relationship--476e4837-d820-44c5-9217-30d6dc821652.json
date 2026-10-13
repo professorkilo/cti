@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a057a97a-d50c-4d37-a7a1-ee54d59a4470",
+    "id": "bundle--3a9b4fa2-5a19-4e32-a265-887c4f0057a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.023Z",
+            "modified": "2026-09-03T19:46:50.400Z",
             "description": "[TAMECAT](https://attack.mitre.org/software/S1193) has encoded C2 traffic with Base64.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--12fdf05a-4bd1-4f45-9cde-d3af35f82db1",

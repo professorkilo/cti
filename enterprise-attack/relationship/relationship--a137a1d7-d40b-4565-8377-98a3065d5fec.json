@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbfb648e-cfdb-4e57-b50a-5d7aea1983e2",
+    "id": "bundle--9921a60c-186d-4700-8187-7ad1f61bf2ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:50.407Z",
+            "modified": "2026-09-03T19:47:03.997Z",
             "description": "[Wizard Spider](https://attack.mitre.org/groups/G0102) can transfer malicious payloads such as ransomware to compromised machines.(Citation: Mandiant FIN12 Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dd2d9ca6-505b-4860-a604-233685b802c7",

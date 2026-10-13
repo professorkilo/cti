@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c89f753-5b09-4f30-b9c3-cc552fcf6c41",
+    "id": "bundle--9d3d63b4-87f6-4a5e-b5d6-9e8877191280",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.072Z",
+            "modified": "2026-09-03T19:46:57.680Z",
             "description": "[Samurai](https://attack.mitre.org/software/S1099) can use a proxy module to forward TCP packets to external hosts.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",

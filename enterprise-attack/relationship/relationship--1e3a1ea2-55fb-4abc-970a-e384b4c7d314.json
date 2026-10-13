@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12737a09-2437-4ad9-aece-46daa69baf68",
+    "id": "bundle--13d6b040-18b2-489b-a7fb-cb7ade36c85e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.946Z",
+            "modified": "2026-09-02T20:07:46.189Z",
             "description": "[Attor](https://attack.mitre.org/software/S0438) has encrypted data symmetrically using a randomly generated Blowfish (OFB) key which is encrypted with a public RSA key.(Citation: ESET Attor Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8f423bd7-6ca7-4303-9e85-008c7ad5fdaa",

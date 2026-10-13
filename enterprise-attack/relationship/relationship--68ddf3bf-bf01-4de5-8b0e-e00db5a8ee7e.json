@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54475808-34c0-4552-b172-537b05ec5e05",
+    "id": "bundle--df7051a3-b7cb-465f-9eb2-96c2007e5ff0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.068Z",
+            "modified": "2026-09-03T19:46:49.864Z",
             "description": "[DnsSystem](https://attack.mitre.org/software/S1021)  can direct queries to custom DNS servers and return C2 commands using TXT records.(Citation: Zscaler Lyceum DnsSystem June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--8a2867f9-e8fc-4bf1-a860-ef6e46311900",

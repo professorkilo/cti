@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--174b9a43-e47e-42f9-aeab-30de050c8cff",
+    "id": "bundle--3a1d2b1a-cd48-44dd-b9c9-fce16fe9c69c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-03T19:46:53.137Z",
             "description": "[Chaes](https://attack.mitre.org/software/S0631) has used encryption for its C2 channel.(Citation: Cybereason Chaes Nov 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--77e0ecf7-ca91-4c06-8012-8e728986a87a",

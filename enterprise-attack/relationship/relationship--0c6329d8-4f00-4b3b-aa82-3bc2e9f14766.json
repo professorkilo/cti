@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf3ca811-7284-4959-b622-c86aff81125a",
+    "id": "bundle--370cffc1-5cf3-41dc-aee3-6bc4f8012414",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-03T19:46:54.872Z",
             "description": "[SLOTHFULMEDIA](https://attack.mitre.org/software/S0533) has sent system information to a C2 server via HTTP and HTTPS POST requests.(Citation: CISA MAR SLOTHFULMEDIA October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--feb2d7bb-aacb-48df-ad04-ccf41a30cd90",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6bc7c8b-1d50-4289-8d86-96e4413691b2",
+    "id": "bundle--afce8d90-feb7-4e54-aca7-71fcbd120420",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-03T19:46:58.210Z",
             "description": "[LockerGoga](https://attack.mitre.org/software/S0372) has been observed moving around the victim network via SMB, indicating the actors behind this ransomware are manually copying files form computer to computer instead of self-propagating.(Citation: Unit42 LockerGoga 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5af7a825-2d9f-400d-931a-e00eb9e27f48",

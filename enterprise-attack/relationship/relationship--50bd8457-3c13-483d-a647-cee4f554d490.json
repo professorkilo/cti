@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da03aba8-38a7-427e-8970-71825e62a6a4",
+    "id": "bundle--1899a795-a119-4190-8a29-fd3a8652c754",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-02T19:42:04.181Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can retrieve C2 domain information from actor-controlled S3 buckets.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--569cd800-5ea9-408d-ae4d-a183ba996646",
+    "id": "bundle--80d0c116-2954-4757-9750-56a3d763f0ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.009Z",
+            "modified": "2026-09-03T19:47:00.180Z",
             "description": "[Hancitor](https://attack.mitre.org/software/S0499) has the ability to download additional files from C2.(Citation: Threatpost Hancitor)",
             "relationship_type": "uses",
             "source_ref": "malware--ef2247bf-8062-404b-894f-d65d00564817",

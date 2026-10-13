@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c735656a-3877-4131-bb27-b7208b3e6dd8",
+    "id": "bundle--cfd4ca0e-adf0-4d5d-9a6d-3b261e86eba0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:30.834Z",
+            "modified": "2026-09-03T19:47:02.840Z",
             "description": "[Versa Director Zero Day Exploitation](https://attack.mitre.org/campaigns/C0039) established HTTPS communications from adversary-controlled SOHO devices over port 443 with compromised Versa Director servers.(Citation: Lumen Versa 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--af0ec65a-caa9-40ef-b1c7-21b71fbf3a10",

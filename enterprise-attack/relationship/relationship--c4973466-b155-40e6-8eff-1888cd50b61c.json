@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f391ed16-e5c3-4ed5-aa3c-3de63949a66f",
+    "id": "bundle--f63e88f0-c213-4b8d-9f1d-d8e17cf9b6be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.194Z",
+            "modified": "2026-09-03T19:47:05.036Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has the ability to download files from the Adversaries C2 server to the compromised system.(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)(Citation: Google BRICKSTORM September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

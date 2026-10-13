@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96f22066-d5b6-4315-9795-75889be81338",
+    "id": "bundle--a6de75b7-48f2-49eb-9bf0-415e336d6838",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.153Z",
+            "modified": "2026-09-03T19:47:05.830Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors used administrative utilities to deliver Trojan components to remote systems.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",

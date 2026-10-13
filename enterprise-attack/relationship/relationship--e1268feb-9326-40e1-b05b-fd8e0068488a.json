@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93245131-b264-493a-9b39-0c1172f5991a",
+    "id": "bundle--0f813710-031c-4016-9cdc-7a3cd6b1721b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.601Z",
+            "modified": "2026-09-03T19:47:05.605Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) dropped additional tools to victims during their operation, including portqry.exe, a renamed cmd.exe file, winrar, and [HTRAN](https://attack.mitre.org/software/S0040).(Citation: Cybereason Soft Cell June 2019)(Citation: Microsoft GALLIUM December 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5721dc92-5f94-425f-868c-93692662ab67",
+    "id": "bundle--18ff7a82-fc4d-4430-8acd-47314048ce24",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.263Z",
+            "modified": "2026-09-02T20:07:48.012Z",
             "description": "[down_new](https://attack.mitre.org/software/S0472) has the ability to AES encrypt C2 communications.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8be7c69e-d8e3-4970-9668-61de08e508cc",

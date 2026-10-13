@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07380517-1283-4a38-92f3-c88f546fcb98",
+    "id": "bundle--2bef1ee4-6be6-44cc-825b-043a69724595",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:47:02.004Z",
             "description": "[Gomir](https://attack.mitre.org/software/S1198) periodically communicates to its command and control infrastructure through HTTP POST requests.(Citation: Symantec Troll Stealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3128c86d-bd0d-445c-850f-96abf68fbfc3",

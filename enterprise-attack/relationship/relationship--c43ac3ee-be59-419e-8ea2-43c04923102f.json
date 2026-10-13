@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18c9ec65-7e0a-4e71-b179-1387c2ce1d09",
+    "id": "bundle--47bc7d3f-01cd-43f2-87da-7d0aaa15af8e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:41.561Z",
+            "modified": "2026-09-09T18:44:33.873Z",
             "description": "[Chimera](https://attack.mitre.org/groups/G0114) has harvested data from remote mailboxes including through execution of <code>\\\\<hostname>\\c$\\Users\\<username>\\AppData\\Local\\Microsoft\\Outlook*.ost</code>.(Citation: NCC Group Chimera January 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--abf2743c-6ffe-45a6-8f41-7c2c8b0574be",
+    "id": "bundle--b77d7679-a250-4c24-9de7-0942c7fa88f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:26.331Z",
+            "modified": "2026-09-08T20:28:41.990Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) used SSH port forwarding capabilities on public-facing systems, and configured at least one instance of [Cobalt Strike](https://attack.mitre.org/software/S0154) to use a network pipe over SMB.(Citation: CrowdStrike StellarParticle January 2022)(Citation: Symantec RAINDROP January 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",

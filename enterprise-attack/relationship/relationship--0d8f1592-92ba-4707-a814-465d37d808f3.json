@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6244f81e-1b0d-42c8-9d77-6ceb0482badc",
+    "id": "bundle--bd3c2fa4-9c9d-4599-9acb-0cc3e1f22a07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:19.091Z",
+            "modified": "2026-09-03T19:46:50.569Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) used HTTP POST messages for command and control from [PlugX](https://attack.mitre.org/software/S0013) installations during [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047).(Citation: Recorded Future RedDelta 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--276671b5-5425-48db-ad65-c8c2564a969b",

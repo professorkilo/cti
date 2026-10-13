@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6837ab1-6ff2-463c-9feb-98dca84864f5",
+    "id": "bundle--a5b15471-8aea-4d36-9d51-0a7c39dd436b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-08T20:28:08.690Z",
             "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) can act as a reverse proxy.(Citation: PaloAlto CardinalRat Apr 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4",

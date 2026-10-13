@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--352f4353-d42d-4e34-bb8a-338ae1a5e4d3",
+    "id": "bundle--a7dda80c-bee0-4e70-9c49-2a8030abc7c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-02T20:07:46.383Z",
             "description": "[Bonadan](https://attack.mitre.org/software/S0486) can XOR-encrypt C2 communications.(Citation: ESET ForSSHe December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--4c6d62c2-89f5-4159-8fab-0190b1f9d328",

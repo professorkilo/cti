@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc45a11e-3b61-47ae-beb7-5535360dfd11",
+    "id": "bundle--7cc850f1-a8e3-46b8-a988-481db44827cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.051Z",
+            "modified": "2026-09-03T19:47:01.679Z",
             "description": "[Waterbear](https://attack.mitre.org/software/S0579) can receive and load executables from remote C2 servers.(Citation: Trend Micro Waterbear December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f3f1fbed-7e29-49cb-8579-4a378f858deb",

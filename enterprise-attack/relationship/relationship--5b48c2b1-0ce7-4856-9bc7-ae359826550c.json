@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--427da81e-f753-46be-8eef-817ec8d45390",
+    "id": "bundle--13ec3944-da4c-4e4f-8c19-3918badbe74f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-03T19:47:01.632Z",
             "description": "[NavRAT](https://attack.mitre.org/software/S0247) can download files remotely.(Citation: Talos NavRAT May 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53a42597-1974-4b8e-84fd-3675e8992053",

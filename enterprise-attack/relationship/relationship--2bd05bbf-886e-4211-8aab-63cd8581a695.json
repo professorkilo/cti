@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb207009-6de6-4b96-ab7d-93bb3f78d9df",
+    "id": "bundle--df94f7dc-b036-4113-b8a4-92a3978a7c87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.964Z",
+            "modified": "2026-09-08T20:28:08.159Z",
             "description": "[ZxShell](https://attack.mitre.org/software/S0412) can set up an HTTP or SOCKS proxy.(Citation: FireEye APT41 Aug 2019)(Citation: Talos ZxShell Oct 2014) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",

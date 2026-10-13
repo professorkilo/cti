@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1f2062bf-f3bf-4f69-a561-54337d4ad735",
+    "id": "bundle--b6037920-0d1c-4303-8fb6-b0e6a6dc5ced",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.122Z",
+            "modified": "2026-09-03T19:46:55.715Z",
             "description": "[Kessel](https://attack.mitre.org/software/S0487) has exfiltrated data via hexadecimal-encoded subdomain fields of DNS queries.(Citation: ESET ForSSHe December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c984b414-b766-44c5-814a-2fe96c913c12",

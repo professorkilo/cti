@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd9844e0-dbe9-4093-b98a-f90611d6ba12",
+    "id": "bundle--7e9b9a6a-c430-4f88-96f1-9804bc81783c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-03T19:46:52.149Z",
             "description": "[SocGholish](https://attack.mitre.org/software/S1124) can exfiltrate data directly to its C2 domain via HTTP.(Citation: Red Canary SocGholish March 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5911d2ca-64f6-49b3-b94f-29b5d185085c",

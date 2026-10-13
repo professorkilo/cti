@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dadb93e8-2125-4dcf-b33b-50bc311d8cd8",
+    "id": "bundle--3bac764c-20a1-4c6b-9e2d-76ce5776f59a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:47.902Z",
             "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) can retrieve C2 commands from an encrypted file on Google Drive then upload the results of command execution back to Google Drive.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d0270367-37fc-471e-9206-483582c5f47d",

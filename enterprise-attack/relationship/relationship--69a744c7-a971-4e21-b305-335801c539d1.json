@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48c9c700-6acc-4fd9-8bae-dca256a1f4f2",
+    "id": "bundle--42fcbd90-a1cf-449a-ab9c-b925d8bf1927",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.069Z",
+            "modified": "2026-09-03T19:46:54.296Z",
             "description": "[Industroyer](https://attack.mitre.org/software/S0604) attempts to perform an HTTP CONNECT via an internal proxy to establish a tunnel.(Citation: Dragos Crashoverride 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",

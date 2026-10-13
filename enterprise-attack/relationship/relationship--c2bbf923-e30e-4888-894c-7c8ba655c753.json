@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52448331-6764-4549-a877-6c66ca7c12d9",
+    "id": "bundle--b821d453-b361-4a0b-8c13-f4103c45f2a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.191Z",
+            "modified": "2026-09-08T20:28:08.850Z",
             "description": "[Ursnif](https://attack.mitre.org/software/S0386) has used a peer-to-peer (P2P) network for C2.(Citation: NJCCIC Ursnif Sept 2016)(Citation: ProofPoint Ursnif Aug 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--1492d0f8-7e14-4af3-9239-bc3fe10d3407",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d3b61410-4437-4601-9b56-83143a18b777",
+    "id": "bundle--2a729600-c398-45f1-b01d-980bcb139838",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:46:55.822Z",
             "description": "[Chrommme](https://attack.mitre.org/software/S0667) can set itself to sleep before requesting a new command from C2.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--579607c2-d046-40df-99ab-beb479c37a2a",

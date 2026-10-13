@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7fc1e0c6-5eaf-4d90-83ab-a62ba0b3e066",
+    "id": "bundle--6d552dc9-8692-415d-987f-a22cc4e70f06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.015Z",
+            "modified": "2026-09-02T20:07:46.595Z",
             "description": "[SideTwist](https://attack.mitre.org/software/S0610) can encrypt C2 communications with a randomly generated key.(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",

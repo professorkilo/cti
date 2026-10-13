@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddf53479-1fe4-4258-8160-41b06356ae07",
+    "id": "bundle--9d5edf21-1690-4ba8-8168-d179d443b784",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:20.145Z",
+            "modified": "2026-09-02T20:07:46.942Z",
             "description": "During [RedPenguin](https://attack.mitre.org/campaigns/C0056), [UNC3886](https://attack.mitre.org/groups/G1048) malware used the RC4 cipher to encrypt outgoing C2 messages.(Citation: Juniper RedPenguin MAR 2025)\n",
             "relationship_type": "uses",
             "source_ref": "campaign--35879bf3-0a21-4cc1-9e42-6de917a22501",

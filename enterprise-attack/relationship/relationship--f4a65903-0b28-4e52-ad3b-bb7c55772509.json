@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a2e3004e-cefe-468c-992b-0bf791e85c13",
+    "id": "bundle--1dfb3451-130f-4a7b-8edb-5d65cf777dba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.257Z",
+            "modified": "2026-09-03T19:46:58.666Z",
             "description": "[Cyclops Blink](https://attack.mitre.org/software/S0687) can use non-standard ports for C2 not typically associated with HTTP or HTTPS traffic.(Citation: NCSC Cyclops Blink February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b350b47f-88fe-4921-8538-6d9c59bac84e",

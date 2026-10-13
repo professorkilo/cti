@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76afbbbd-691b-47aa-8f8b-d5fd5d66be3c",
+    "id": "bundle--ac3f73ae-0579-409b-adaf-e124e548e424",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-03T19:46:49.366Z",
             "description": "[Pisloader](https://attack.mitre.org/software/S0124) uses DNS as its C2 protocol.(Citation: Palo Alto DNS Requests)",
             "relationship_type": "uses",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",

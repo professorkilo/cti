@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81d043b-e404-4142-873d-29465e0676df",
+    "id": "bundle--0542115b-4c4a-4b9a-82bf-b5d154d9028b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.502Z",
+            "modified": "2026-09-02T18:52:46.849Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used malware to enumerate active processes.(Citation: BlackBerry Bahamut)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

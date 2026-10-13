@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09a45c8f-bf1f-41ab-b2e9-1e50c36714ad",
+    "id": "bundle--d1d5f64d-92a1-4427-a932-737eec037e74",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.075Z",
+            "modified": "2026-09-08T20:28:43.167Z",
             "description": "[MiniDuke](https://attack.mitre.org/software/S0051) can can use a named pipe to forward communications from one compromised machine with internet access to other compromised machines.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e7ef1dc-7fb6-4913-ac75-e06113b59e0c",

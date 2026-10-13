@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef1b7376-2284-4dbd-acc6-8c6b1e8295cf",
+    "id": "bundle--6d3db529-6a63-47b3-b567-ea9a6d87a8f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-03T19:46:59.066Z",
             "description": "[Manjusaka](https://attack.mitre.org/software/S1156) data exfiltration takes place over HTTP channels.(Citation: Talos Manjusaka 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd2ad3d7-d7ef-4af5-a919-bfe8f2571705",

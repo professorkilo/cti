@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6b9cb46-e981-4b9e-934e-7cbf68374e94",
+    "id": "bundle--0a428441-080f-410b-88ca-73f058e9ff7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:09.016Z",
+            "modified": "2026-09-03T19:46:50.646Z",
             "description": "[MirrorFace](https://attack.mitre.org/groups/G1054) has used the the PuTTY suite Secure Copy Protocol (SCP) client for file transfer.(Citation: ESET MirrorFace DEC 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8cf6e33b-b6ef-4a1f-a77c-0ecdde93161f",

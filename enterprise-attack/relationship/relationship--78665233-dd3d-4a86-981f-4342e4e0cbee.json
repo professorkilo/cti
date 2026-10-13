@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa9ac767-5f3c-4b93-8019-966bad1092c5",
+    "id": "bundle--c2dfccb6-fae1-4c00-9e25-42906b4a1ac8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.090Z",
+            "modified": "2026-09-02T20:07:46.974Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) has used AES ciphertext to encode C2 communications.(Citation: Unit42 RDAT July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

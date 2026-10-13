@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--78f5824e-579b-4f80-8739-7377209f23fd",
+    "id": "bundle--8fb8b170-95c6-46cf-9e21-534c8b0f5896",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:17.427Z",
+            "modified": "2026-09-02T19:42:04.395Z",
             "description": "[RTM](https://attack.mitre.org/groups/G0048) has used an RSS feed on Livejournal to update a list of encrypted C2 server names.(Citation: ESET RTM Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c416b28c-103b-4df1-909e-78089a7e0e5f",

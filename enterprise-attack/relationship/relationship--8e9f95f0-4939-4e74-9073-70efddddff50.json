@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--799096ef-c254-4a63-8861-ad95c4fe64d2",
+    "id": "bundle--50138080-e7de-4f02-a196-595f46043e84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.644Z",
+            "modified": "2026-09-03T19:47:03.234Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) had downloaded remote files onto victim infrastructure.(Citation: FireEye APT34 Dec 2017)(Citation: Trend Micro Earth Simnavaz October 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

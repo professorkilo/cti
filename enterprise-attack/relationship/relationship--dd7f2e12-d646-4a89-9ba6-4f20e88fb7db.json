@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a974e55-6883-4be1-a592-809205d0242e",
+    "id": "bundle--8f994d3e-155b-47c5-b2e2-389b3e752999",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.227Z",
+            "modified": "2026-09-03T19:46:53.981Z",
             "description": "[Small Sieve](https://attack.mitre.org/software/S1035) has the ability to use the Telegram Bot API from Telegram Messenger to send and receive messages.(Citation: NCSC GCHQ Small Sieve Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ff41b9b6-4c1d-407b-a7e2-835109c8dbc5",

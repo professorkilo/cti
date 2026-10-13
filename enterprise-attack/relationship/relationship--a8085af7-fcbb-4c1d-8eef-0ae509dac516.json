@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--066fc38e-2389-471b-af34-2ad7c9a7fe1c",
+    "id": "bundle--5399cb1d-c8b3-4579-8c28-bf3e2878ac07",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:08.606Z",
+            "modified": "2026-09-08T20:29:10.569Z",
             "description": "[APT29](https://attack.mitre.org/groups/G0016) uses compromised residential endpoints as proxies for defense evasion and network access.(Citation: NCSC et al APT29 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--899ce53f-13a0-479b-a0e4-67d46e241542",

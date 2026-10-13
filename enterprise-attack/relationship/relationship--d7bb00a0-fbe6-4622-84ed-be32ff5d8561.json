@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5cad35fb-544a-4964-9afd-2749d9bd7856",
+    "id": "bundle--4bcc8dc8-f5df-402a-b7df-a4816a66daf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.220Z",
+            "modified": "2026-09-03T19:47:03.836Z",
             "description": "[DownPaper](https://attack.mitre.org/software/S0186) communicates to its C2 server over HTTP.(Citation: ClearSky Charming Kitten Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e48df773-7c95-4a4c-ba70-ea3d15900148",

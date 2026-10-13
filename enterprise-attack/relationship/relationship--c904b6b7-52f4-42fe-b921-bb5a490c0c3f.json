@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fbe16bef-b0c2-4674-8e0d-83b05a894a0b",
+    "id": "bundle--0a279b30-7904-46b3-b19b-72e877261dc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-03T19:46:59.002Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can be configured to use TCP, ICMP, and UDP for C2 communications.(Citation: Talos Cobalt Strike September 2020)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

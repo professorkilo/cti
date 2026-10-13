@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b451f588-2d3d-4cac-af7a-d739181cc4d5",
+    "id": "bundle--ac88398b-a9c7-4c8d-9001-0d7e9218b3f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-02T20:07:47.088Z",
             "description": "A variant of [ADVSTORESHELL](https://attack.mitre.org/software/S0045) encrypts some C2 with 3DES.(Citation: Bitdefender APT28 Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",

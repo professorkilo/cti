@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fca9454-c71a-4553-bb25-fc74ab02b44f",
+    "id": "bundle--6973ae1d-b744-4456-b530-c436694b58b7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:46:59.903Z",
             "description": "[MarkiRAT](https://attack.mitre.org/software/S0652) can exfiltrate locally stored data via its C2.(Citation: Kaspersky Ferocious Kitten Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--532c6004-b1e8-415b-9516-f7c14ba783b1",

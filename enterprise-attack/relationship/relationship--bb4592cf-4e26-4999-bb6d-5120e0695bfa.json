@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54bd2048-d796-4359-bfdd-f0ce58b1c33c",
+    "id": "bundle--6091c2f6-d9a0-45d6-b318-8fc68bd38898",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:47:04.815Z",
             "description": "[ftp](https://attack.mitre.org/software/S0095) may be abused by adversaries to transfer tools or files from an external system into a compromised environment.(Citation: Microsoft FTP)(Citation: Linux FTP)",
             "relationship_type": "uses",
             "source_ref": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",

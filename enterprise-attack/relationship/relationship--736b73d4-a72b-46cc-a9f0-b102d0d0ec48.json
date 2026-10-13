@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f1a2b17d-2489-4397-81aa-8cb7c8d38589",
+    "id": "bundle--b81d926b-b9a8-446d-9484-7ebb514ab25e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.083Z",
+            "modified": "2026-09-03T19:47:00.917Z",
             "description": "[Anchor](https://attack.mitre.org/software/S0504) has used HTTP and HTTPS in C2 communications.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5f1d4579-4e8f-48e7-860e-2da773ae432e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e7b7ebec-f691-4fa8-992a-67ba6cbf0f83",
+    "id": "bundle--8e91a7f8-466c-49f5-b6d1-86c3dcbc5578",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-09T18:39:17.124Z",
             "description": "[Crutch](https://attack.mitre.org/software/S0538) has used a hardcoded GitHub repository as a fallback channel.(Citation: ESET Crutch December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--925a6c52-5cf0-4fec-99de-b0d6917d8593",

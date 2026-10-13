@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--73e0b476-1377-4455-9119-6c44bf03e29f",
+    "id": "bundle--3c06d748-48ad-4c9c-8cf0-6ff25a46f3b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.967Z",
+            "modified": "2026-09-03T19:46:59.395Z",
             "description": "[Cardinal RAT](https://attack.mitre.org/software/S0348) can download and execute additional payloads.(Citation: PaloAlto CardinalRat Apr 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b879758f-bbc4-4cab-b5ba-177ac9b009b4",

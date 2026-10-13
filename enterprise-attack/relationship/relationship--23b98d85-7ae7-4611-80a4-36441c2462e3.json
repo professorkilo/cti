@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--50875926-8cda-42f0-b77d-ab13174f6e9a",
+    "id": "bundle--a1632f95-fe86-4380-84ec-90d682000a8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.954Z",
+            "modified": "2026-09-03T19:46:58.950Z",
             "description": "[CHIMNEYSWEEP](https://attack.mitre.org/software/S1149) can download additional files from C2.(Citation: Mandiant ROADSWEEP August 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--542e3384-341a-455b-bb48-4917b25e3b00",

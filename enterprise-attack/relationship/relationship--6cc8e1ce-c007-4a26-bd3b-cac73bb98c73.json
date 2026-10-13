@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9291ecac-e783-478d-9517-e4acc30ca932",
+    "id": "bundle--eeff43c6-84ca-4ce6-9837-193ea1da5d82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.073Z",
+            "modified": "2026-09-03T19:46:56.807Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has communicated with hosts over raw TCP on port 9999.(Citation: FireEye Metamorfo Apr 2018) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--edeadd8b-4318-4833-ad08-4d01535220ac",
+    "id": "bundle--cbdfb32e-250d-4302-9ef9-cd81b6400754",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.096Z",
+            "modified": "2026-09-03T19:46:59.674Z",
             "description": "[Lokibot](https://attack.mitre.org/software/S0447) has the ability to initiate contact with command and control (C2) to exfiltrate stolen data.(Citation: FSecure Lokibot November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",

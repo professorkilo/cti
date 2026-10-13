@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4beacc62-4fe8-408e-b488-b189d43eb244",
+    "id": "bundle--efaef7a7-6fd6-405f-9499-72146bbbeea7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-03T19:46:49.154Z",
             "description": "[NightClub](https://attack.mitre.org/software/S1090) can use a DNS tunneling plugin to exfiltrate data by adding it to the subdomain portion of a DNS request.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6",

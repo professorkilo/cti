@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61cbb25e-49cc-4ed5-86a0-b8610c35982d",
+    "id": "bundle--2d8cafc0-b77e-4995-addc-caa0c592ccdb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:13:11.217Z",
+            "modified": "2026-09-03T19:47:05.554Z",
             "description": "During [HomeLand Justice](https://attack.mitre.org/campaigns/C0038), threat actors used web shells to download files to compromised infrastructure.(Citation: Microsoft Albanian Government Attacks September 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--7e21077d-2589-43a7-a5f9-490061289526",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f80cd1d5-7e00-4bd7-b152-d5b24f3b9d4a",
+    "id": "bundle--3f97781c-be35-4bab-b7ee-b8923be2ea3b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.271Z",
+            "modified": "2026-09-03T19:47:04.637Z",
             "description": "[Brute Ratel C4](https://attack.mitre.org/software/S1063) can use HTTPS and HTTPS for C2 communication.(Citation: Palo Alto Brute Ratel July 2022)(Citation: Trend Micro Black Basta October 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",

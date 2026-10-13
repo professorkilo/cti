@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8387e2a8-7a64-45dc-ad13-e5ef0ad85148",
+    "id": "bundle--f67f6c24-73ce-4c08-81de-fdad57acac21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.435Z",
+            "modified": "2026-09-02T17:31:48.781Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used malware to extract SSH and GPG keys from victim environments.(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: FBI TeamPCP JUL 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

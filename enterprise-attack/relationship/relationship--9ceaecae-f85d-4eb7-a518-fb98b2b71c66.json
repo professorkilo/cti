@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1d1af89-7a62-4c6d-b5d7-ed2654993225",
+    "id": "bundle--3ba71776-5ebb-4ebc-8e6b-b7a788f4d023",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.139Z",
+            "modified": "2026-09-02T18:41:22.133Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) has a feature to copy files from every drive onto a removable drive in a hidden folder.(Citation: ESET Machete July 2019)(Citation: Securelist Machete Aug 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45094ca9-e1b6-44f3-ad38-be9ca5ba5d22",
+    "id": "bundle--44895f84-07be-48ce-bcf7-8e0c3b87ac5a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-03T19:46:59.648Z",
             "description": "[Pteranodon](https://attack.mitre.org/software/S0147) can use HTTP for C2.(Citation: Palo Alto Gamaredon Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--5f9f7648-04ba-4a9f-bb4c-2a13e74572bd",

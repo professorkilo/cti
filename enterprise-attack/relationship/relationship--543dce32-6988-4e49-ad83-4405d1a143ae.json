@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0efdba18-99c1-49e7-b906-01b7a90cf2f3",
+    "id": "bundle--7013eea8-3120-40e3-9d9a-c379961b9455",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:40.800Z",
+            "modified": "2026-09-02T18:51:44.298Z",
             "description": "[Dark Caracal](https://attack.mitre.org/groups/G0070) leveraged a compiled HTML file that contained a command to download and run an executable.(Citation: Lookout Dark Caracal Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8a831aaa-f3e0-47a3-bed8-a9ced744dd12",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a9fb648-bf0c-4036-aa96-2e2a8e4c9cb5",
+    "id": "bundle--47ef7581-a2fb-40e3-b6aa-724bc0828c05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.016Z",
+            "modified": "2026-09-03T19:47:00.504Z",
             "description": "[TYPEFRAME](https://attack.mitre.org/software/S0263) can upload and download files to the victim\u2019s machine.(Citation: US-CERT TYPEFRAME June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7ba0fc46-197d-466d-8b9f-f1c64d5d81e5",

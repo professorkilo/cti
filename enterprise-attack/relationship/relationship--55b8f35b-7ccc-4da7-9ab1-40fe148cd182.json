@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0083fd45-9ba3-4495-9e53-cf27863eaef7",
+    "id": "bundle--725c2dd0-7e5f-472f-8dd6-ee0857c92a18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.042Z",
+            "modified": "2026-09-03T19:46:57.162Z",
             "description": "[HiddenWasp](https://attack.mitre.org/software/S0394) communicates with a simple network protocol over TCP.(Citation: Intezer HiddenWasp Map 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--fc774af4-533b-4724-96d2-ac1026316794",

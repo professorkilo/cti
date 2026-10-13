@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75c04f42-2ecd-4292-9f4d-51e73a1e72c9",
+    "id": "bundle--5f719c1e-1461-4fa6-9a11-e0a8b6b1b72f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-03T19:47:05.127Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can download files to specified targets.(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

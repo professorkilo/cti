@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27aac427-8afe-4111-bf48-866a5ef236ad",
+    "id": "bundle--9e78aea8-383f-42e9-8360-0148075dee1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.970Z",
+            "modified": "2026-09-02T20:07:46.325Z",
             "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) uses AES with a hardcoded pre-shared key to encrypt network communication.(Citation: GitHub QuasarRAT)(Citation: Volexity Patchwork June 2018)(Citation: CISA AR18-352A Quasar RAT December 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",

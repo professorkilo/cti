@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--012c0482-aefa-44ec-aa38-208a1c196e8d",
+    "id": "bundle--d8cbbecd-237c-4b7a-b881-fa0cd089d872",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:46:49.750Z",
             "description": "[Uroburos](https://attack.mitre.org/software/S0022) can add extra characters in encoded strings to help mimic DNS legitimate requests.(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",

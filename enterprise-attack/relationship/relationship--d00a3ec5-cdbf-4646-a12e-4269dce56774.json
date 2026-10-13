@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c5aa1728-9730-4db7-bf13-084ed20d23b7",
+    "id": "bundle--ade621b7-8f03-450a-92e3-2e7c2c9fde98",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:22.187Z",
+            "modified": "2026-09-03T19:46:58.231Z",
             "description": "During [Indian Critical Infrastructure Intrusions](https://attack.mitre.org/campaigns/C0043), [RedEcho](https://attack.mitre.org/groups/G1042) used non-standard ports such as TCP 8080 for HTTP communication.(Citation: RecordedFuture RedEcho 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--4b7f9839-4822-4c19-8a1f-70bb61ba97e1",

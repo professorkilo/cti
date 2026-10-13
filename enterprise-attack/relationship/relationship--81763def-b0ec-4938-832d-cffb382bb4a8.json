@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6a58dae9-857f-4110-934e-d56e8d12ad31",
+    "id": "bundle--4f17c5d6-cbda-40d4-884b-b0622c3e9283",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:47:01.621Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) uses HTTP to communicate with a command and control server. (Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

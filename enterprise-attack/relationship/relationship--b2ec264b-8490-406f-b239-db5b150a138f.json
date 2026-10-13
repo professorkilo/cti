@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff1b2026-048c-4abb-a117-c2b9e843136b",
+    "id": "bundle--6514c63e-eb83-4066-a89e-a094248e3276",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.170Z",
+            "modified": "2026-09-03T19:46:57.581Z",
             "description": "[Samurai](https://attack.mitre.org/software/S1099) can base64 encode data sent in C2 communications prior to its encryption.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",

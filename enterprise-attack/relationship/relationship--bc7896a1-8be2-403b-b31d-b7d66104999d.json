@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12cb3466-5999-430f-898b-2d09502514eb",
+    "id": "bundle--c1f2e046-b30f-4093-9305-a27704028022",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.182Z",
+            "modified": "2026-09-03T19:46:56.697Z",
             "description": "[MOPSLED](https://attack.mitre.org/software/S1221) can use third-party web services such as GitHub and Google Drive for C2.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--bfcb4a75-b6f0-489b-b506-836bfba3d70e",

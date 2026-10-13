@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7168d80e-6220-4381-b60e-750e5eb492f1",
+    "id": "bundle--cc9d8991-aa04-4f86-9269-de0b52894433",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.961Z",
+            "modified": "2026-09-03T19:46:56.407Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) can multiple protocols including HTTP and HTTPS in communication with command and control (C2) servers.(Citation: JPCert BlackTech Malware September 2019)(Citation: JPCert TSCookie March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",

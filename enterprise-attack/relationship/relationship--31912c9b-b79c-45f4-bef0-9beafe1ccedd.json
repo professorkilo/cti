@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0e793994-fd6d-4018-92ca-fe11eee416a9",
+    "id": "bundle--7f908b63-7232-42b1-9950-3253be7e0c00",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.981Z",
+            "modified": "2026-09-02T20:07:46.361Z",
             "description": "[VIRTUALPIE](https://attack.mitre.org/software/S1218) can use a custom RC4 encrypted protocol for C2 communications.(Citation: Google Cloud Threat Intelligence ESXi VIBs 2022)(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--7cc63f0f-f24f-4cda-9e9f-61bde1d52297",

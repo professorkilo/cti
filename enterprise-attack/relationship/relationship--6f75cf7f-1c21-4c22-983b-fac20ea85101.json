@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5fae93dc-37c1-4fdd-816d-2f55fc075475",
+    "id": "bundle--f400def5-5aec-46d1-9302-ff6aa1efd1c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.077Z",
+            "modified": "2026-07-31T18:47:44.674Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050) used GetPassword_x64 to harvest credentials.(Citation: Cybereason Oceanlotus May 2017)(Citation: Cybereason Cobalt Kitty 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",

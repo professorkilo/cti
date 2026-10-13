@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--914f02f6-6201-4116-8173-879e7c6206ec",
+    "id": "bundle--617c092b-5ada-423a-be15-5b8ed8218e4f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:32.705Z",
+            "modified": "2026-09-03T19:46:57.020Z",
             "description": "[Sandworm Team](https://attack.mitre.org/groups/G0034) has sent system information to its C2 server using HTTP.(Citation: ESET Telebots Dec 2016)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--381fcf73-60f6-4ab2-9991-6af3cbc35192",

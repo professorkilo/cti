@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04d45baa-0a3a-4619-b250-ead66f95fd90",
+    "id": "bundle--3f8ee4e0-d631-4965-b269-ea319fd79178",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.256Z",
+            "modified": "2026-09-03T19:46:57.195Z",
             "description": "[Cyclops Blink](https://attack.mitre.org/software/S0687) can use DNS over HTTPS (DoH) to resolve C2 nodes.(Citation: Trend Micro Cyclops Blink March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b350b47f-88fe-4921-8538-6d9c59bac84e",

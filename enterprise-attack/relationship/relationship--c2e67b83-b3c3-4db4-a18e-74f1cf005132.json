@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9263ef5-6889-4fc8-9de1-e4ab1442e964",
+    "id": "bundle--c6b62a32-f579-4318-b8c3-21025d4efd80",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:47:03.359Z",
             "description": "[Bazar](https://attack.mitre.org/software/S0534) can use HTTP and HTTPS over ports 80 and 443 in C2 communications.(Citation: Cybereason Bazar July 2020)(Citation: NCC Group Team9 June 2020)(Citation: DFIR Conti Bazar Nov 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99fdf3b4-96ef-4ab9-b191-fc683441cad0",

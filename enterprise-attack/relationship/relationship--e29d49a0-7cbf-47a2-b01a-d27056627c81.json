@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3249d616-2ea3-4828-8025-26d06911933f",
+    "id": "bundle--a51f2808-9a3f-44c9-bb09-64791391e1b8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.234Z",
+            "modified": "2026-09-03T19:47:04.076Z",
             "description": "[ShimRatReporter](https://attack.mitre.org/software/S0445) communicated over HTTP with preconfigured C2 servers.(Citation: FOX-IT May 2016 Mofang)",
             "relationship_type": "uses",
             "source_ref": "tool--115f88dd-0618-4389-83cb-98d33ae81848",

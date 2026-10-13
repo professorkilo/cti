@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ebc11425-a145-41f7-b14e-ad40d46a3b97",
+    "id": "bundle--04a97369-07ff-4da9-9c26-d3deb404f32a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-02T20:07:46.704Z",
             "description": "[TAMECAT](https://attack.mitre.org/software/S1193) has used AES to encrypt C2 traffic.(Citation: Mandiant APT42-untangling)",
             "relationship_type": "uses",
             "source_ref": "malware--12fdf05a-4bd1-4f45-9cde-d3af35f82db1",

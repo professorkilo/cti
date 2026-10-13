@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad0ca8b1-1b40-4237-8085-2d7e8f683e32",
+    "id": "bundle--d1ffbf33-80fe-4ec1-94f8-a8008580de29",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.036Z",
+            "modified": "2026-09-03T19:46:59.667Z",
             "description": "[ABK](https://attack.mitre.org/software/S0469) has the ability to use HTTP in communications with C2.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a0ebedca-d558-4e48-8ff7-4bf76208d90c",

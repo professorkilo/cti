@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc0453f7-ee06-4fd9-8345-22d7fd4ff008",
+    "id": "bundle--50812fe2-7c00-4826-b740-ad00cc240c1a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.934Z",
+            "modified": "2026-09-03T19:46:57.478Z",
             "description": "[Exaramel for Linux](https://attack.mitre.org/software/S0401) has a command to download a file from  and to a remote C2 server.(Citation: ESET TeleBots Oct 2018)(Citation: ANSSI Sandworm January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--11194d8b-fdce-45d2-8047-df15bb8f16bd",

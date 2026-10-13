@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c6c4e94e-d010-467f-969e-3c4b23a5ce0c",
+    "id": "bundle--7458eba0-8b11-48bb-9b33-9840ab49479b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-03T19:46:58.284Z",
             "description": "[TYPEFRAME](https://attack.mitre.org/software/S0263) has used ports 443, 8080, and 8443 with a FakeTLS method.(Citation: US-CERT TYPEFRAME June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7ba0fc46-197d-466d-8b9f-f1c64d5d81e5",

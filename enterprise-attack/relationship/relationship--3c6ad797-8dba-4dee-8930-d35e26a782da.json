@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a9d71af4-0bfe-4e7e-8dca-7caef06b4930",
+    "id": "bundle--5b67b89c-5aae-4f29-b73e-a48a499b096d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:19.308Z",
+            "modified": "2026-09-03T19:46:55.790Z",
             "description": "[Mustang Panda](https://attack.mitre.org/groups/G0129) communicated over TCP 5000 from adversary administrative servers to adversary command and control nodes during [RedDelta Modified PlugX Infection Chain Operations](https://attack.mitre.org/campaigns/C0047).(Citation: Recorded Future RedDelta 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--276671b5-5425-48db-ad65-c8c2564a969b",

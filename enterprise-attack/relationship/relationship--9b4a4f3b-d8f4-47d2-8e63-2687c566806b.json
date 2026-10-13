@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd626b18-21aa-49f7-8628-4db29f2a0835",
+    "id": "bundle--d4e3d4b2-7588-4028-afe7-714294a1c392",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.016Z",
+            "modified": "2026-09-09T18:39:16.893Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors used company extranet servers as secondary C2 servers.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5dd70cbe-6a18-4613-92c3-e08ee9133bf6",
+    "id": "bundle--2d635225-9e48-46c1-a3ef-a1b864539214",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.018Z",
+            "modified": "2026-09-03T19:46:49.624Z",
             "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) can use the Microsoft Office Exchange Web Services API to access an actor-controlled account and retrieve C2 commands and payloads placed in Draft messages.(Citation: ESET OilRig Campaigns Sep 2023)(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a87c8100-8735-440e-8ee4-27aabb643592",

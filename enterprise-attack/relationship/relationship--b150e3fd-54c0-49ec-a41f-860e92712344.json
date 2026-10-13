@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16ac9bf1-6bca-4c1f-a4ae-da40d19bad23",
+    "id": "bundle--c6cdb290-b281-474b-a812-6e3a2a1e6b1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-08T20:28:08.753Z",
             "description": "[Vasport](https://attack.mitre.org/software/S0207) is capable of tunneling though a proxy.(Citation: Symantec Vasport May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--f4d8a2d6-c684-453a-8a14-cf4a94f755c5",

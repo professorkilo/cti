@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f04d39e-4ca7-4c0f-8263-2c28a5a6e3f4",
+    "id": "bundle--b96bb54c-bc6d-4caa-ada8-eead1c802f02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:23.973Z",
+            "modified": "2026-09-02T20:09:42.963Z",
             "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) has used a reverse SSH shell to securely communicate with victim devices.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",

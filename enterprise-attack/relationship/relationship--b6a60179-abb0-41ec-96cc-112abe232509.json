@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--013ad510-d618-4f75-89e1-f8932d8fd204",
+    "id": "bundle--4cbdfc46-5d71-470f-b63d-ee62ce4a432d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-03T19:46:52.504Z",
             "description": "[SUNBURST](https://attack.mitre.org/software/S0559) used DNS for C2 traffic designed to mimic normal SolarWinds API communications.(Citation: FireEye SUNBURST Backdoor December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a8839c95-029f-44cf-8f3d-a3cf2039e927",

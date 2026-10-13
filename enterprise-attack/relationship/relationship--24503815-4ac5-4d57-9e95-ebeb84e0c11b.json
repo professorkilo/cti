@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d1b2c09-f6bd-40d6-9914-5f677f9a5b57",
+    "id": "bundle--4234d21c-a331-4ee4-8e1a-5ca31b7c2987",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-03T19:46:58.967Z",
             "description": "[Daserf](https://attack.mitre.org/software/S0187) can download remote files.(Citation: Trend Micro Daserf Nov 2017)(Citation: Secureworks BRONZE BUTLER Oct 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",

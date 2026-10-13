@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--041097a8-49b0-44ed-b2ed-a47f068ca4bc",
+    "id": "bundle--8513321e-0f30-4e6f-8ba6-93cb28ce6dd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-02T20:09:43.279Z",
             "description": "[COATHANGER](https://attack.mitre.org/software/S1105) connects to command and control infrastructure using SSL.(Citation: NCSC-NL COATHANGER Feb 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--0c242cc5-58d3-4fe3-a866-b00a4b6fb817",

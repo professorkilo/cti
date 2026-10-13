@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c6c38ee-aec3-4dfe-b345-e31ff9f42d09",
+    "id": "bundle--4c36b2a5-8d3b-412a-baab-c23a545616fa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.185Z",
+            "modified": "2026-09-02T20:07:47.574Z",
             "description": "[Latrodectus](https://attack.mitre.org/software/S1160) can send RC4 encrypted data over C2 channels.(Citation: Latrodectus APR 2024)(Citation: Elastic Latrodectus May 2024)(Citation: Bitsight Latrodectus June 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--76fde8df-3495-47c9-82eb-125c4f7fb621",

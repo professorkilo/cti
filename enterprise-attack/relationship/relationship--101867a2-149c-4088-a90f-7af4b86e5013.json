@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eade380d-f01a-4d80-af68-0653781bcebb",
+    "id": "bundle--f6d01ec8-c4f8-489d-92f9-da5d30b3e59f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-09T18:39:16.475Z",
             "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) can switch to a new C2 channel if the current one is broken.(Citation: ESET Sednit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",

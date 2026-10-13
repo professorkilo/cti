@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b5e5d67d-e6dc-4dde-a3ee-272c2cf334bc",
+    "id": "bundle--5d6842a0-224b-40d3-af60-beeaa52daf95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:29.131Z",
+            "modified": "2026-09-09T18:44:33.858Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has exported emails from compromised Exchange servers including through use of the cmdlet `New-MailboxExportRequest.`(Citation: DFIR Report APT35 ProxyShell March 2022)(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",

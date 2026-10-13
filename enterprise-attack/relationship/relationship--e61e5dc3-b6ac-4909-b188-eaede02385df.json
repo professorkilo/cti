@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e64fd06e-500e-44d4-a37f-de90de09e77d",
+    "id": "bundle--0ebc3657-4658-4b0b-a9f4-1b987d4c9398",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.238Z",
+            "modified": "2026-09-03T19:46:58.493Z",
             "description": "[GravityRAT](https://attack.mitre.org/software/S0237) has used HTTP over a non-standard port, such as TCP port 46769.(Citation: Talos GravityRAT)",
             "relationship_type": "uses",
             "source_ref": "malware--1d1fce2f-0db5-402b-9843-4278a0694637",

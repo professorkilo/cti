@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d817867d-2c85-4301-9ea2-24cc5493c93a",
+    "id": "bundle--c5ebf680-47dc-4b40-b337-5db82bfd82a0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:53.300Z",
+            "modified": "2026-09-03T19:46:58.535Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used base64 to encode command and control traffic.(Citation: FireEye APT33 Guardrail)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",

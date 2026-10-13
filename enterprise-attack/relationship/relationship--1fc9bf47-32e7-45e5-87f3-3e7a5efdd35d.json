@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c74132bf-ad46-40f2-a8be-7425b21c6625",
+    "id": "bundle--732abdba-7118-407f-ab01-802cb3abbd23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:54.987Z",
+            "modified": "2026-09-03T19:46:58.575Z",
             "description": "\n[TA2541](https://attack.mitre.org/groups/G1018) has used malicious scripts and macros with the ability to download additional payloads.(Citation: Cisco Operation Layover September 2021)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--467271fd-47c0-4e90-a3f9-d84f5cf790d0",

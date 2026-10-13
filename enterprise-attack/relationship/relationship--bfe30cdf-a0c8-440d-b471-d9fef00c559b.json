@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef1ff60f-9d4d-409c-8c46-0c49fd89ecd8",
+    "id": "bundle--0f8513f6-99bc-4a55-8e7c-61382e655c55",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.188Z",
+            "modified": "2026-09-02T20:07:47.598Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) has encrypted network communications with RC4.(Citation: JPCert TSCookie March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",

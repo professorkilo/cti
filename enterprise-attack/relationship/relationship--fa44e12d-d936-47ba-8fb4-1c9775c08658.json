@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09d08bcf-60f5-41fe-acbf-096e1ef1c7b2",
+    "id": "bundle--7f6d9a74-c2c4-4fc7-b24c-cb75df3f751e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.265Z",
+            "modified": "2026-09-02T20:07:48.045Z",
             "description": "[Nebulae](https://attack.mitre.org/software/S0630) can use RC4 and XOR to encrypt C2 communications.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--22b17791-45bf-45c0-9322-ff1a0af5cf2b",

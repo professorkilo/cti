@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d038ed2c-4216-4b0a-b3c1-085d0a5ee4dc",
+    "id": "bundle--11fd41cf-abbc-4cbd-a6b4-ddf1a6e04ea9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:46:55.219Z",
             "description": "[RedLine Stealer](https://attack.mitre.org/software/S1240) has leveraged legitimate file sharing web services to host malicious payloads.(Citation: Proofpoint RedLine Stealer March 2020)(Citation: Splunk RedLine Stealer June 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--8c8e8b01-b4b1-479b-a7a9-78c40a12b916",

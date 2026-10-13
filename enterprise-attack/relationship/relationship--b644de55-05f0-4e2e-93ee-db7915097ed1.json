@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca4d91d0-5f04-4bc7-b39e-c115aec17a90",
+    "id": "bundle--6ded1d46-c8a6-41be-b6c0-62c7b08b9628",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-02T20:07:47.477Z",
             "description": "[GreyEnergy](https://attack.mitre.org/software/S0342) encrypts communications using AES256.(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8",

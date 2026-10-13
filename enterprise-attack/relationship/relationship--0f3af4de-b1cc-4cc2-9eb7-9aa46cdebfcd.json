@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--999608f5-9952-4670-8287-9e1658e0515a",
+    "id": "bundle--a8216196-043e-4e51-834d-473683412e43",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Symantec W32.Duqu",
                     "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.",
-                    "url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
+                    "url": "https://web.archive.org/web/20111213083345/https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-06-12T15:51:16.721Z",
             "description": "Modules can be pushed to and executed by [Duqu](https://attack.mitre.org/software/S0038) that copy data to a staging area, compress it, and XOR encrypt it.(Citation: Symantec W32.Duqu)",
             "relationship_type": "uses",
             "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--609914ad-555a-4894-a49c-0ede24a91468",
+    "id": "bundle--79f5a95b-eb01-46a3-a0a1-610c7d7e5c66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-08T20:28:08.876Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) has supported use of a proxy server.(Citation: Talos Bisonal Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",

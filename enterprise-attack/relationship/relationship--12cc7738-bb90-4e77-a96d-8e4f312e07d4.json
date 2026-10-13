@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6cb9e174-5f97-4e09-be86-b44efff12926",
+    "id": "bundle--7fee64bc-3758-4d4a-84a6-14da927e8ded",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.930Z",
+            "modified": "2026-09-03T19:46:51.307Z",
             "description": "[LOWBALL](https://attack.mitre.org/software/S0042) command and control occurs via HTTPS over port 443.(Citation: FireEye admin@338)",
             "relationship_type": "uses",
             "source_ref": "malware--2a6f4c7b-e690-4cc7-ab6b-1f821fb6b80b",

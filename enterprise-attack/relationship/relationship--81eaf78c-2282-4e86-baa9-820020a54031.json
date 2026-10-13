@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--216a33ce-bf4f-408c-8727-ba89776a7695",
+    "id": "bundle--75fe9106-153d-4715-9f59-83667f57d4e7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:58.728Z",
+            "modified": "2026-09-08T20:28:08.554Z",
             "description": "[POLONIUM](https://attack.mitre.org/groups/G1005) has used the AirVPN service for operational activity.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--5f3d0238-d058-44a9-8812-3dd1b6741a8c",

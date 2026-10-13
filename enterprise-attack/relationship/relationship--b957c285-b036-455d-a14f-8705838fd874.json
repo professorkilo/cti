@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4618dc6-fb28-4166-99fb-1e56a95bc467",
+    "id": "bundle--40e4ccb8-c5f1-40e9-b8aa-5bd0b75d3c8a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-03T19:19:41.121Z",
             "description": "Limit the use of USB devices and removable media within a network.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2995bc22-2851-4345-ad19-4e7e295be264",

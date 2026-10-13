@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbb99e66-d0a8-4804-a8f4-be733759a014",
+    "id": "bundle--8dfaca1b-da33-4b7b-b8f5-99af28cce1d9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.449Z",
+            "modified": "2026-09-08T20:29:10.545Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) used a modified version of [HTRAN](https://attack.mitre.org/software/S0040) to redirect connections between networks.(Citation: Cybereason Soft Cell June 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",

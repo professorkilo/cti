@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff03f6cd-6b32-4fbb-bbd0-763d055a2082",
+    "id": "bundle--302f0bcb-7eee-41c6-9d99-ea25eca9d402",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-09T18:39:16.998Z",
             "description": "[SideTwist](https://attack.mitre.org/software/S0610) has primarily used port 443 for C2 but can use port 80 as a fallback.(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",

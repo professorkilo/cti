@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ada904cc-80be-4ba2-83cb-73d0a8ee696e",
+    "id": "bundle--764970e7-4c77-4762-ab13-34afae6c8705",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:19.439Z",
+            "modified": "2026-09-03T19:46:47.596Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries exfiltrated data to an actor-controlled infrastructure using HTTP POSTs.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

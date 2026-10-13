@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4207b00-1a3a-475a-88f6-5f67a065ee2d",
+    "id": "bundle--e65829fd-4bdd-4730-96e7-b929ca08ce87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -49,7 +49,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.933Z",
+            "modified": "2026-09-03T19:46:55.451Z",
             "description": "[BRICKSTORM](https://attack.mitre.org/software/S9015) has uploaded files from the victim system to C2 servers.(Citation: CrowdStrike BRICKSTORM WARP PANDA UNC5221 December 2025)(Citation: CISA BRICKSTORM UNC5221 AR25-338A February 2026)(Citation: Picus Security BRICKSTORM UNC5221 October 2025)(Citation: Google UNC5221 BRICKSTORM SPAWNCHIMERA April 2024)(Citation: NVISO BRICKSTORM April 2025)(Citation: Resecurity UNC5221 BRICKSTORM F5 Big-IP October 2025)(Citation: Google BRICKSTORM September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--0450ed20-e9a7-4799-b601-2f2710300796",

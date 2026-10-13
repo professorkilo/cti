@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e1607ec-0c55-414e-8b2c-da582fe8007c",
+    "id": "bundle--130e7a6b-0d36-4234-b073-040b99134d83",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:14.637Z",
+            "modified": "2026-09-03T19:46:56.901Z",
             "description": "[LuminousMoth](https://attack.mitre.org/groups/G1014) has used malware that exfiltrates stolen data to its C2 server.(Citation: Kaspersky LuminousMoth July 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--b7f627e2-0817-4cd5-8d50-e75f8aa85cc6",

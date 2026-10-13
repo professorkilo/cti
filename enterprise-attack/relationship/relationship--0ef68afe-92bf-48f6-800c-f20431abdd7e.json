@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57f0e5a8-5d7c-4b4d-9df7-877cc7d33c13",
+    "id": "bundle--410b45fc-b975-4892-90f5-8d54990e0093",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-02T20:07:45.168Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can encrypt C2 communications with AES.(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

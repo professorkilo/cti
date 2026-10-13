@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef654537-1c03-448c-842a-5d5e3fecc855",
+    "id": "bundle--9a37d2b4-5aa3-4d72-952f-ae2efa3c53d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-03T19:46:48.091Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) can exfiltrate data via a DNS tunnel or email, separately from its C2 channel.(Citation: Kaspersky ProjectSauron Full Report)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",

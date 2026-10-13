@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbd6f9e2-8e32-4c9f-8ca2-8fb877d1b85a",
+    "id": "bundle--8fa7a902-30b8-4da0-ba9e-d437326cf49f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-09-03T19:47:02.001Z",
             "description": "[Cuba](https://attack.mitre.org/software/S0625) can download files from its C2 server.(Citation: McAfee Cuba April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--6cd07296-14aa-403d-9229-6343d03d4752",

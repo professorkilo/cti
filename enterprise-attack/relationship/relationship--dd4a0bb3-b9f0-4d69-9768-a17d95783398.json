@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--136702de-bba6-4745-96cf-171a0eea1f7e",
+    "id": "bundle--486ef246-ac39-4fd1-9cbe-2481e0486b21",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.227Z",
+            "modified": "2026-09-03T19:47:05.534Z",
             "description": "[BONDUPDATER](https://attack.mitre.org/software/S0360) can download or upload files from its C2 server.(Citation: Palo Alto OilRig Sep 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--d5268dfb-ae2b-4e0e-ac07-02a460613d8a",

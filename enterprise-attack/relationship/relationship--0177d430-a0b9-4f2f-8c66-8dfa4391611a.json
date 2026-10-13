@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a0a8f79-01a8-414e-986d-39f47520fa62",
+    "id": "bundle--6f05e0f1-ba0f-4d6b-b526-d1fbb8f2f507",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.905Z",
+            "modified": "2026-09-03T19:46:54.383Z",
             "description": "[ShimRat](https://attack.mitre.org/software/S0444) can download additional files.(Citation: FOX-IT May 2016 Mofang)",
             "relationship_type": "uses",
             "source_ref": "malware--5763217a-05b6-4edd-9bca-057e47b5e403",

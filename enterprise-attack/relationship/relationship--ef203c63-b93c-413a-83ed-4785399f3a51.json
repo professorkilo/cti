@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15719e81-6045-4cae-a759-c20512036900",
+    "id": "bundle--aa130a48-9b12-4817-8568-65b54c085fa6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.966Z",
+            "modified": "2026-09-03T19:47:05.853Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors downloaded additional files to the infected system.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

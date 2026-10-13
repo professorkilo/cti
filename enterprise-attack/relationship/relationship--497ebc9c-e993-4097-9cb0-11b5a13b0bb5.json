@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddac7273-4614-45e7-84ba-a08e67009803",
+    "id": "bundle--8034fc7e-c6d7-4c63-a262-04f26154d866",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:47:00.964Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has downloaded \u201cAnyDesk.exe\u201d into the user\u2019s home directory from the C2 server when checks for the service fail to identify its presence in the victim environment.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025) [InvisibleFerret](https://attack.mitre.org/software/S1245) has also been configured to download additional payloads using a command which calls to the /bow URI.(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)(Citation: PaloAlto ContagiousInterview BeaverTail InvisibleFerret November 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

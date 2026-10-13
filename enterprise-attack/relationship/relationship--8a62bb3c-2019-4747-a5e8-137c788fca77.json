@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2bbe83ed-e98c-4b70-a9bc-ff675a065719",
+    "id": "bundle--acdc3e6b-ea81-40d4-9dc6-58a92ffd59bf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:46:55.386Z",
             "description": "[ShadowPad](https://attack.mitre.org/software/S0596) has sent data back to C2 every 8 hours.(Citation: Securelist ShadowPad Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--ec9e00dd-0313-4d5b-8105-c20aa47abffc",

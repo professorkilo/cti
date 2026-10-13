@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9d2b0a9-6dfb-4382-ba35-3752cb32f8c6",
+    "id": "bundle--e9903661-19dc-4de4-a4c5-b4c5845c2ecf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:30.268Z",
+            "modified": "2026-09-03T19:47:00.884Z",
             "description": "[APT41 DUST](https://attack.mitre.org/campaigns/C0040) involved execution of `certutil.exe` via web shell to download the [DUSTPAN](https://attack.mitre.org/software/S1158) dropper.(Citation: Google Cloud APT41 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--add4d9de-1256-4166-83b8-57087288dced",

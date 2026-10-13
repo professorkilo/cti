@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--682bf284-4aaf-4b85-ac36-706bc70973bc",
+    "id": "bundle--aef9dd8e-4d6f-4cff-a6d0-a38ac10d7e2a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.185Z",
+            "modified": "2026-09-03T19:47:04.878Z",
             "description": "[CallMe](https://attack.mitre.org/software/S0077) has the capability to download a file to the victim from the C2 server.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",

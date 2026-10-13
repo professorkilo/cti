@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb4ba6ef-0c92-4764-b2de-c30035b07a56",
+    "id": "bundle--5a63ca20-8c34-4999-9656-aed5d93a3730",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.869Z",
+            "modified": "2026-09-03T19:47:03.948Z",
             "description": "[HAFNIUM](https://attack.mitre.org/groups/G0125) has used open-source C2 frameworks, including [Covenant](https://attack.mitre.org/software/S1155).(Citation: Microsoft HAFNIUM March 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2688b13e-8e71-405a-9c40-0dee94bddf87",

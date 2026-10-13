@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2ef18690-76a1-4cc0-8294-498d49d5629d",
+    "id": "bundle--d20d157e-64e0-4db2-9799-ac809e0b7904",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.048Z",
+            "modified": "2026-09-03T19:46:59.901Z",
             "description": "[LightSpy](https://attack.mitre.org/software/S1185)'s C2 communication is performed over WebSockets using the open source library SocketRocket with functionality such as, heartbeat, receiving commands, and updating command status.(Citation: Huntress LightSpy macOS 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

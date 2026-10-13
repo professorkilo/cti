@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6ab8a7c8-12c1-49c7-80e0-b9a84683cb09",
+    "id": "bundle--31c58fb6-b9d6-4379-b451-4822e45cd46f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.148Z",
+            "modified": "2026-09-03T19:46:50.318Z",
             "description": "[UPSTYLE](https://attack.mitre.org/software/S1164) retrieves a non-existent webpage from the command and control server then parses commands from the resulting error logs to decode commands to the web shell.(Citation: Volexity UPSTYLE 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--2692bdd0-da52-44ff-88a3-9db28b948ea2",

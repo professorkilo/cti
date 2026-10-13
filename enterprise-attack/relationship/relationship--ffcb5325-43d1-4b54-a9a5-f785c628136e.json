@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e80345b-168b-49d3-8272-0f1b70b84341",
+    "id": "bundle--05a3d01b-9ab7-46cc-aea9-cd97a020e18a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.272Z",
+            "modified": "2026-09-03T19:46:59.707Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) can communicate with actor-controlled C2 servers by using a custom little-endian binary protocol.(Citation: Bitdefender Sardonic Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",

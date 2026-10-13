@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b0a9ddf-24a2-4899-9ca1-01da27417a9e",
+    "id": "bundle--e85f66a2-28c9-456e-a0f6-7eb59b4226de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:46:58.497Z",
             "description": "If [NETEAGLE](https://attack.mitre.org/software/S0034) does not detect a proxy configured on the infected machine, it will send beacons via UDP/6000. Also, after retrieving a C2 IP address and Port Number, [NETEAGLE](https://attack.mitre.org/software/S0034) will initiate a TCP connection to this socket. The ensuing connection is a plaintext C2 channel in which commands are specified by DWORDs.(Citation: FireEye APT30)",
             "relationship_type": "uses",
             "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",

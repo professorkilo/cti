@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f381d229-f2a3-4528-bc62-82688f743280",
+    "id": "bundle--c1544a23-0c10-4479-b851-1031498396d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.962Z",
+            "modified": "2026-09-03T19:46:59.234Z",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) can download remote files.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",

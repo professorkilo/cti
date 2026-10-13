@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3f31b58f-723a-4cbb-916e-a7c5c0dc37bb",
+    "id": "bundle--03603aac-b714-40b6-83b7-78d9a1d8b7bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.091Z",
+            "modified": "2026-09-02T20:09:43.140Z",
             "description": "[GoldMax](https://attack.mitre.org/software/S0588) has RSA-encrypted its communication with the C2 server.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--5c747acd-47f0-4c5a-b9e5-213541fc01e0",

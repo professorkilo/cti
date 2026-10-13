@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--04125ec0-ffc1-47a7-a358-2a2aad2834ee",
+    "id": "bundle--cbf0ed62-7899-482c-9920-2885dcad5ca9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.056Z",
+            "modified": "2026-09-02T19:42:04.207Z",
             "description": "[TRANSLATEXT](https://attack.mitre.org/software/S1201) has used a dead drop resolver to retrieve configurations and commands from a public blog site.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b72b6a7-72be-45d9-af02-fdcf0fc6d358",

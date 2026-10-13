@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4b17e21e-8e73-43bc-8d6b-952b20ec52c5",
+    "id": "bundle--35ff7019-1512-4b7c-b893-991213e1a133",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.236Z",
+            "modified": "2026-09-03T19:47:04.117Z",
             "description": "[GoldFinder](https://attack.mitre.org/software/S0597) has used HTTP for C2.(Citation: MSTIC NOBELIUM Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--b7010785-699f-412f-ba49-524da6033c76",

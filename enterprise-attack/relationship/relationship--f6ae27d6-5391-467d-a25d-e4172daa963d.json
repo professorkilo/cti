@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--434f5f0c-78a3-44e7-83ef-631b756cdc96",
+    "id": "bundle--eaa20276-283d-4e0d-a78f-60b744e08ff5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-02T20:07:47.999Z",
             "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) encrypts C2 communication using a combination of AES, XOR, ROTATE encryption, and ZLIB compression.(Citation: RotaJakiro 2021 netlab360 analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde",

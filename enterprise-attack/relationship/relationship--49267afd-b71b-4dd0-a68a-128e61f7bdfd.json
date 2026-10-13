@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6be43658-d216-4896-9bca-4a4313cb2144",
+    "id": "bundle--f0b4b5fe-db83-4b2c-9662-59895b263176",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:58.596Z",
             "description": "[Octopus](https://attack.mitre.org/software/S0340) has uploaded stolen files and data from a victim's machine over its C2 channel.(Citation: Securelist Octopus Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",

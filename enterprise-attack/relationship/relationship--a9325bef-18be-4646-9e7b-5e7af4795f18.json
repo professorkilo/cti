@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1ffa436-2b2b-4672-9161-77b029a58da1",
+    "id": "bundle--ebb811f5-69d1-4fd7-85d1-3b481094b0d2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-03T19:47:00.738Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) uses existing HTTP-based command and control channels for exfiltration.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon1 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",

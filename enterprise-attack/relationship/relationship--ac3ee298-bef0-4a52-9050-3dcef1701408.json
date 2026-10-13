@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08d36b5c-bdeb-4643-9bb3-8476163dfed8",
+    "id": "bundle--fba23ba9-384f-4186-827e-4aa9983e2508",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:46:51.342Z",
             "description": "[ftp](https://attack.mitre.org/software/S0095) may be used to exfiltrate data separate from the main command and control protocol.(Citation: Microsoft FTP)(Citation: Linux FTP)",
             "relationship_type": "uses",
             "source_ref": "tool--cf23bf4a-e003-4116-bbae-1ea6c558d565",

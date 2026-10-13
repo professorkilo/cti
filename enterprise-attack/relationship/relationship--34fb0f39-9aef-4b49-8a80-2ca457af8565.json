@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4dec2506-0a04-4cff-8c29-9e87119c3d93",
+    "id": "bundle--6dbee486-76d2-4d41-9744-1764972f18d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.990Z",
+            "modified": "2026-09-02T19:42:04.108Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) has used YouTube to store and hide C&C server domains.(Citation: ESET Casbaneiro Oct 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

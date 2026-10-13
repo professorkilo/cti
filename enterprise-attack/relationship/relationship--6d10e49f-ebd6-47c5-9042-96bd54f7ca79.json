@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--894df433-deda-4182-8dc1-f1d66f475af4",
+    "id": "bundle--799975a2-1600-4451-a9d0-c89a3f783bb2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.073Z",
+            "modified": "2026-09-03T19:46:52.475Z",
             "description": "[Revenge RAT](https://attack.mitre.org/software/S0379) uses Base64 to encode information sent to the C2 server.(Citation: Cylance Shaheen Nov 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--bdb27a1d-1844-42f1-a0c0-826027ae0326",

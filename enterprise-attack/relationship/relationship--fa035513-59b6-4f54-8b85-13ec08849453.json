@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0be35adc-d149-4bf6-aea1-1824be5591f3",
+    "id": "bundle--d63b6dba-b23d-4c60-84b3-4b82ca665cde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.264Z",
+            "modified": "2026-09-02T20:07:48.023Z",
             "description": "Some [Felismus](https://attack.mitre.org/software/S0171) samples use a custom encryption method for C2 traffic that utilizes AES and multiple keys.(Citation: Forcepoint Felismus Mar 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--196f1f32-e0c2-4d46-99cd-234d4b6befe1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94f9344c-b94c-4647-be76-c75fb138a4ac",
+    "id": "bundle--94c147f1-6f77-4deb-83b5-96a481404ffa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:52.152Z",
+            "modified": "2026-09-03T19:46:52.562Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106) has used Pastebin, Gitee, and GitLab for Command and Control.(Citation: Anomali Rocke March 2019)(Citation: Talos Rocke August 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",

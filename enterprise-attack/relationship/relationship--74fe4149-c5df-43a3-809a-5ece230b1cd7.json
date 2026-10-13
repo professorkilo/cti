@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc36d93d-42f4-448a-b6f8-2b457952c368",
+    "id": "bundle--f2174dc8-7b89-4de4-90ea-6010e4eaa06e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:56.643Z",
+            "modified": "2026-09-03T19:46:48.996Z",
             "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used a FakeTLS session for C2 communications.(Citation: Zscaler Higaisa 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",

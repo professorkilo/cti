@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5a82abe-b32a-42a6-b535-af30b87011f2",
+    "id": "bundle--5e3abb8b-3222-41f0-85c4-fe581a82c780",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.217Z",
+            "modified": "2026-09-03T19:46:50.937Z",
             "description": "[GrimAgent](https://attack.mitre.org/software/S0632)  can pad C2 messages with random generated values.(Citation: Group IB GrimAgent July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",

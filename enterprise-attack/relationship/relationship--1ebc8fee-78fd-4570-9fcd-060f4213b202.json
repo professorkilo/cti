@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3f9ecba-3554-413f-9062-c226a76102fb",
+    "id": "bundle--0387a166-ccc0-46aa-af6a-bc5ee4be3c38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.946Z",
+            "modified": "2026-09-03T19:46:52.247Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) second stage payloads can be hosted as RAR files, containing a malicious EXE and DLL, on Discord servers.(Citation: HP RaspberryRobin 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

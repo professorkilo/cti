@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d3fdc45-2278-4032-a2c1-740d9d879ee8",
+    "id": "bundle--bc263680-0e89-46e1-a489-acbb01681874",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:28.607Z",
+            "modified": "2026-09-03T19:46:50.332Z",
             "description": "[Dragonfly](https://attack.mitre.org/groups/G0035) has used SMB for C2.(Citation: US-CERT TA18-074A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c63d4ec-0a75-4daa-b1df-0d11af3d3cc1",

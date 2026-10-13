@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82f02a8d-e1f6-41e5-b367-c012b6d8cab7",
+    "id": "bundle--3ce640c0-bc18-41fb-a9c8-6d2eb05f3374",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.254Z",
+            "modified": "2026-09-03T19:46:58.792Z",
             "description": "[Ramsay](https://attack.mitre.org/software/S0458) has used base64 to encode its C2 traffic.(Citation: Antiy CERT Ramsay April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--ba09b86c-1c40-4ff1-bda0-0d8c4ca35997",

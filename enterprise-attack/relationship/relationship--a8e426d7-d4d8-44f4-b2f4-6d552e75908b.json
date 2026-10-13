@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d134807e-8731-4aad-a76a-f8004a96ac8b",
+    "id": "bundle--720e3409-9684-4d5a-a352-dca9fbac9502",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-03T19:47:02.680Z",
             "description": "[Industroyer](https://attack.mitre.org/software/S0604)\u2019s main backdoor connected to a remote C2 server using HTTPS.(Citation: ESET Industroyer)",
             "relationship_type": "uses",
             "source_ref": "malware--e401d4fe-f0c9-44f0-98e6-f93487678808",

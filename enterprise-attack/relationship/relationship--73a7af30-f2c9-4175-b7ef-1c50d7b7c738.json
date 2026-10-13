@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d0b560fa-70e4-4250-b510-e4f00aabe3c1",
+    "id": "bundle--2c6d6df4-2a1a-452f-bfae-e4c0ea993f48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-27T18:36:57.242Z",
+            "modified": "2026-09-02T19:42:04.252Z",
             "description": "[CanisterWorm](https://attack.mitre.org/software/S9042) can periodically poll a decentralized Internet Computer Protocol (ICP) canister to retrieve a dynamic URL for payload delivery.(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Aikido CanisterWorm MAR 2026)(Citation: Aikido TeamPCP Trivy MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--5b30f717-1d7b-4e91-a97d-be361d00aa5e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--26c9209e-3fae-4e72-b3a5-25eb85863cbf",
+    "id": "bundle--9e44c73d-e194-4c67-8f8c-aa08b0419d90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:14:22.488Z",
+            "modified": "2026-09-03T19:46:59.147Z",
             "description": "During [Operation Dream Job](https://attack.mitre.org/campaigns/C0022), [Lazarus Group](https://attack.mitre.org/groups/G0032) downloaded multistage malware and tools onto a compromised host.(Citation: ClearSky Lazarus Aug 2020)(Citation: ESET Lazarus Jun 2020)(Citation: McAfee Lazarus Jul 2020)",
             "relationship_type": "uses",
             "source_ref": "campaign--0257b35b-93ef-4a70-80dd-ad5258e6045b",

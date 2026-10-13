@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57367b8c-97dc-49cb-9289-5e069e24c032",
+    "id": "bundle--5c509b2d-dca1-419c-89ab-63202b391ee9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.270Z",
+            "modified": "2026-09-03T19:47:06.152Z",
             "description": "[VBShower](https://attack.mitre.org/software/S0442) has the ability to download VBS files to the target computer.(Citation: Kaspersky Cloud Atlas August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8caa18af-4758-4fd3-9600-e8af579e89ed",

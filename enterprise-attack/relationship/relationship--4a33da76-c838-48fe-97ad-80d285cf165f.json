@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a15caaef-0523-4d9f-8712-316bfba0ba00",
+    "id": "bundle--779fb417-cecc-4adb-8212-4182478c87de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.026Z",
+            "modified": "2026-09-03T19:47:00.999Z",
             "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) can download files to the victim\u2019s machine and execute them.(Citation: GitHub QuasarRAT)(Citation: Volexity Patchwork June 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ed276585-7022-4cc7-a4e6-be764208e4bc",
+    "id": "bundle--326cb62d-3afc-43e8-a59e-808697933ba3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.904Z",
+            "modified": "2026-09-03T19:46:54.093Z",
             "description": "[EvilBunny](https://attack.mitre.org/software/S0396) has downloaded additional Lua scripts from the C2.(Citation: Cyphort EvilBunny Dec 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--a8a778f5-0035-4870-bb25-53dc05029586",

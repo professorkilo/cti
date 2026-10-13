@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d79706f5-d0fd-43ad-867a-2daa7d09afbb",
+    "id": "bundle--cde26b52-56c8-412c-a1db-f17305ff9eba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:53.199Z",
+            "modified": "2026-09-03T19:46:51.251Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used FTP to exfiltrate files (separately from the C2 channel).(Citation: Symantec Elfin Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",

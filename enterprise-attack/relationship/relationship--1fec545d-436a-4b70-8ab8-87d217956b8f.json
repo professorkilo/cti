@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4273b2a3-e0f4-45cd-97b8-1e07ecff9136",
+    "id": "bundle--bf791703-c065-4b21-b9ca-72e189fd927f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.948Z",
+            "modified": "2026-09-03T19:46:56.412Z",
             "description": "[NightClub](https://attack.mitre.org/software/S1090) can use SMTP and DNS for file exfiltration and C2.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6",

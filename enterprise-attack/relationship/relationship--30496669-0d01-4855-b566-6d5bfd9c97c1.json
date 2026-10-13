@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16bc873e-f035-41e4-a7ba-97f9dda6d8ec",
+    "id": "bundle--bd6ea823-0984-4daa-aa76-a42cad4efccd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.976Z",
+            "modified": "2026-09-03T19:46:57.195Z",
             "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) uploads files via unencrypted HTTP. (Citation: wardle evilquest partii)(Citation: reed thiefquest ransomware analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--727afb95-3d0f-4451-b297-362a43909923",

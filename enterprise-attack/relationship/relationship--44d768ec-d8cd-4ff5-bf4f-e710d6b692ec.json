@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d488052-053c-468a-a8b8-44de7649fb6d",
+    "id": "bundle--0b330738-5d7e-4cb7-9c30-44169e7ecd5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.019Z",
+            "modified": "2026-09-03T19:46:58.998Z",
             "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) can use customized HTTP headers.(Citation: GitHub Neo-reGeorg 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bae6edd1-eb36-4581-ba7e-6cbfe0e24eac",

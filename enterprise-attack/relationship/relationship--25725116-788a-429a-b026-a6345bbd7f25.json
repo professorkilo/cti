@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3a2afad4-e3df-4ed9-8ec5-384a61ac4236",
+    "id": "bundle--ef89020c-6efe-4a5d-bc7a-82b802d2f2b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.956Z",
+            "modified": "2026-09-03T19:46:59.038Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has the ability to download files from the C2 server. Additionally, [MuddyViper](https://attack.mitre.org/software/S9032) has the ability to download a file in chunks with sleep time between each chunk.(Citation: ESET_MuddyWater_Dec2025)\u202f\u202f\u202f\u202f ",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

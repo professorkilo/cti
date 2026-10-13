@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0826dd68-6678-47b7-8472-2a02bf318d31",
+    "id": "bundle--a8a33802-787d-42b3-9775-aac4c7b13691",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.206Z",
+            "modified": "2026-09-03T19:47:01.506Z",
             "description": "Data loss prevention can detect and block sensitive data being sent over unencrypted protocols.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",

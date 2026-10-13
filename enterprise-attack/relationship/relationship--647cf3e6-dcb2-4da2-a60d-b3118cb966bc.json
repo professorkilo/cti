@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d167069a-98ec-482b-995a-0ba85b9be405",
+    "id": "bundle--e01e508b-47ba-42f9-b38a-8236eef3074d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.061Z",
+            "modified": "2026-09-03T19:46:57.489Z",
             "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) can establish a TCP connection as part of its initial connection to the C2.(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--4816d361-f82b-4a18-aa05-b215e7cf9200",

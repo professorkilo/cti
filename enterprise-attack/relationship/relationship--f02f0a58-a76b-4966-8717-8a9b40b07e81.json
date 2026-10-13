@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0fe579a-8d60-4f66-b218-770ebfaba3dc",
+    "id": "bundle--81c500ac-674b-4c23-b425-baf318bf2bf5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-02T20:07:47.957Z",
             "description": "[SNUGRIDE](https://attack.mitre.org/software/S0159) encrypts C2 traffic using AES with a static key.(Citation: FireEye APT10 April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--3240cbe4-c550-443b-aa76-cc2a7058b870",

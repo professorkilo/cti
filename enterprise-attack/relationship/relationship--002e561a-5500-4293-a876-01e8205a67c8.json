@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49227628-7edf-4121-9d0b-1a8a92a9bff4",
+    "id": "bundle--9c45902e-6fc8-4f02-8eeb-139ed16eb344",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:33.270Z",
+            "modified": "2026-09-03T19:46:51.893Z",
             "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) used SSH tunneling in targeted environments.(Citation: Crowdstrike TELCO BPO Campaign December 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",

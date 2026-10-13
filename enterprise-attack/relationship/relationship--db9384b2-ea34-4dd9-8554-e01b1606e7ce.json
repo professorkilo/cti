@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df135024-ba90-4ccb-be77-6293d8fb3139",
+    "id": "bundle--fedc01dd-51be-4811-a7e7-8090c0329196",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.225Z",
+            "modified": "2026-09-03T19:47:03.922Z",
             "description": "[Get2](https://attack.mitre.org/software/S0460) has the ability to use HTTP to send information collected from an infected host to C2.(Citation: Proofpoint TA505 October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--099ecff2-41b8-436d-843c-038a9aa9aa69",

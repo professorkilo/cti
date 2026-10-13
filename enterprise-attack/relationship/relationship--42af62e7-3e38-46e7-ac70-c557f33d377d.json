@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--74246d5c-be19-4b17-9fd6-f5c3ecec5213",
+    "id": "bundle--1f41e41a-59f1-4ecb-b71b-763bcb72788c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:22.943Z",
+            "modified": "2026-09-03T19:46:56.118Z",
             "description": "During [C0018](https://attack.mitre.org/campaigns/C0018), the threat actors opened a variety of ports, including ports 28035, 32467, 41578, and 46892, to establish RDP connections.(Citation: Costa AvosLocker May 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--519ee082-8ab6-439b-988f-a8a3f02c8d30",

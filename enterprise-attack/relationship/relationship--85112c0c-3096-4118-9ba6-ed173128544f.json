@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9de6944-fcaa-4ac5-a93e-96cb79651364",
+    "id": "bundle--d46b3c8e-146c-4198-9975-34af9d844310",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.107Z",
+            "modified": "2026-09-03T19:47:01.732Z",
             "description": "[Pupy](https://attack.mitre.org/software/S0192) can communicate over HTTP for C2.(Citation: GitHub Pupy)",
             "relationship_type": "uses",
             "source_ref": "tool--cb69b20d-56d0-41ab-8440-4a4b251614d4",

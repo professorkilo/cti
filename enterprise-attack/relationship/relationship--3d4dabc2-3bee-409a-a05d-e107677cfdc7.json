@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f0862f4e-489b-4dd8-b5e1-f51298c9dd49",
+    "id": "bundle--e1f760d3-b4a7-482c-81a3-3a8c9bcf8ee1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.008Z",
+            "modified": "2026-09-03T19:46:48.924Z",
             "description": "[CosmicDuke](https://attack.mitre.org/software/S0050) exfiltrates collected files over FTP or WebDAV. Exfiltration servers can be separately configured from C2 servers.(Citation: F-Secure Cosmicduke)",
             "relationship_type": "uses",
             "source_ref": "malware--2eb9b131-d333-4a48-9eb4-d8dec46c19ee",

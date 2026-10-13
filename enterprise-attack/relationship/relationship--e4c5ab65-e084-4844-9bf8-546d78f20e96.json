@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--68a77b3c-f6f7-4a5b-b480-9163bc5bcdd2",
+    "id": "bundle--d52682c0-0bfe-4bd6-95af-ba7b9bc510ee",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-03T19:47:05.700Z",
             "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) downloads and uploads files to and from the victim\u2019s machine.(Citation: FireEye FELIXROOT July 2018)(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8df906-179c-4a78-bd6e-6605e30f6624",

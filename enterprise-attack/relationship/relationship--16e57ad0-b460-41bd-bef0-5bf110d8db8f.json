@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a5f20d0-3aed-4609-a379-8ecb1e18cfc5",
+    "id": "bundle--64cb5fa9-1f36-46e2-9793-278d7c4e7486",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.935Z",
+            "modified": "2026-09-03T19:46:51.926Z",
             "description": "[PoshC2](https://attack.mitre.org/software/S0378) can use protocols like HTTP/HTTPS for command and control traffic.(Citation: GitHub PoshC2)",
             "relationship_type": "uses",
             "source_ref": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",

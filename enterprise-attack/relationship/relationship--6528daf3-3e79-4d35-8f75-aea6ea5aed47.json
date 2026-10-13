@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1bfbf6d4-b54a-4377-b666-3ff5b398ee23",
+    "id": "bundle--96c906f2-5c0d-4382-bace-66cbfa38bcd2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.063Z",
+            "modified": "2026-09-03T19:47:00.304Z",
             "description": "[STARWHALE](https://attack.mitre.org/software/S1037) has the ability to contact actor-controlled C2 servers via HTTP.(Citation: Mandiant UNC3313 Feb 2022)(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--e355fc84-6f3c-4888-8e0a-d7fa9c378532",

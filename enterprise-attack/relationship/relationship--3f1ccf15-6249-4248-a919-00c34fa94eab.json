@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4495a278-50cd-44b2-8c20-c9c2bbd48ab0",
+    "id": "bundle--36e13db2-0204-44a5-912e-4c3cfd8d1259",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.552Z",
+            "modified": "2026-09-02T17:31:48.849Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has developed and deployed custom malware including [TeamPCP Cloud Stealer](https://attack.mitre.org/software/S9041), [CanisterWorm](https://attack.mitre.org/software/S9042), and [Mini Shai-Hulud](https://attack.mitre.org/software/S9043).(Citation: Wiz Trivy Compromise MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

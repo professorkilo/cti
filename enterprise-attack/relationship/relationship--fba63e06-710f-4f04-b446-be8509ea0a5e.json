@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52cc9613-418a-41b2-9233-3629637dabb2",
+    "id": "bundle--d8b75bb5-0cbf-4220-95a5-cb3547dab6f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.266Z",
+            "modified": "2026-09-03T19:46:52.434Z",
             "description": "[Rclone](https://attack.mitre.org/software/S1040) can exfiltrate data over FTP or HTTP, including HTTP via WebDAV.(Citation: Rclone)",
             "relationship_type": "uses",
             "source_ref": "tool--59096109-a1dd-463b-87e7-a8d110fe3a79",

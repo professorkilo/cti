@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee95beee-4490-443b-9e70-bb17fe5ea1e9",
+    "id": "bundle--71cd8487-e577-4303-9b6e-c13067ddc32e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.950Z",
+            "modified": "2026-09-02T18:05:12.867Z",
             "description": "Turn off UAC's privilege elevation for standard users <code>[HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System]</code> to automatically deny elevation requests, add: <code>\"ConsentPromptBehaviorUser\"=dword:00000000</code>. Consider enabling installer detection for all users by adding: <code>\"EnableInstallerDetection\"=dword:00000001</code>. This will prompt for a password for installation and also log the attempt. To disable installer detection, instead add: <code>\"EnableInstallerDetection\"=dword:00000000</code>. This may prevent potential elevation of privileges through exploitation during the process of UAC detecting the installer, but will allow the installation process to continue without being logged.  (Citation: Executable Installers are Vulnerable)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--2c2ad92a-d710-41ab-a996-1db143bb4808",

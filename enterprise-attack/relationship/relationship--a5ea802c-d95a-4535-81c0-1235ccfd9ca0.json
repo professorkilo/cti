@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a7bd5e76-4747-4d9e-9780-74d5a34f091b",
+    "id": "bundle--f106f889-dc16-4718-86bd-44de2ddfb746",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.778Z",
+            "modified": "2026-09-02T17:31:49.034Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has compromised legitimate software release workflows resulting in malicious packages receiving legitimate project cryptographic signing.(Citation: Trend Micro TeamPCP MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

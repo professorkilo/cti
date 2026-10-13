@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--901612cf-2280-4204-9051-9318f3dfd1c6",
+    "id": "bundle--db12e40f-29bd-4249-afc0-156381979b8d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-03T19:47:02.286Z",
             "description": "[Mosquito](https://attack.mitre.org/software/S0256) can upload and download files to the victim.(Citation: ESET Turla Mosquito Jan 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--92b55426-109f-4d93-899f-1833ce91ff90",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c823e90-71df-474d-b4de-16841f43aa33",
+    "id": "bundle--a22767b6-7f37-4c2b-b257-5b45fc59e53a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.191Z",
+            "modified": "2026-09-03T19:47:03.327Z",
             "description": "[Gold Dragon](https://attack.mitre.org/software/S0249) uses HTTP for communication to the control servers.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--b9799466-9dd7-4098-b2d6-f999ce50b9a8",

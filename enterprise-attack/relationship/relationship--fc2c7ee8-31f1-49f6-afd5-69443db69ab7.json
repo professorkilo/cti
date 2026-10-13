@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4d6a6071-c262-4937-b044-628602c30c29",
+    "id": "bundle--46b254d0-c345-43ef-979e-ac37ba57f40c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-03T19:46:55.037Z",
             "description": "[AADInternals](https://attack.mitre.org/software/S0677) can directly download cloud user data such as OneDrive files.(Citation: AADInternals Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--2c5281dd-b5fd-4531-8aea-c1bf8a0f8756",

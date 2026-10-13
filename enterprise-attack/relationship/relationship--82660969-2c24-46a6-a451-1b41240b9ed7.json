@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef151a3c-7466-4e2c-9d0c-12e4bec69dd1",
+    "id": "bundle--8b0b18d4-60ae-45be-afa7-8a6a3da936b2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -14,13 +14,18 @@
                     "source_name": "CISA AA20-239A BeagleBoyz August 2020",
                     "description": "DHS/CISA. (2020, August 26). FASTCash 2.0: North Korea's BeagleBoyz Robbing Banks. Retrieved September 29, 2021.",
                     "url": "https://us-cert.cisa.gov/ncas/alerts/aa20-239a"
+                },
+                {
+                    "source_name": "Microsoft Sapphire Sleet APR 2026",
+                    "description": "Microsoft Threat Intelligence. (2026, April 16). Dissecting Sapphire Sleet\u2019s macOS intrusion from lure to compromise. Retrieved September 30, 2026.",
+                    "url": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:23.258Z",
-            "description": "[APT38](https://attack.mitre.org/groups/G0082) has enumerated network shares on a compromised host.(Citation: CISA AA20-239A BeagleBoyz August 2020)",
+            "modified": "2026-09-30T20:34:20.687Z",
+            "description": "[APT38](https://attack.mitre.org/groups/G0082) has enumerated network shares on a compromised host.(Citation: CISA AA20-239A BeagleBoyz August 2020)(Citation: Microsoft Sapphire Sleet APR 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--00f67a77-86a4-4adf-be26-1a54fc713340",
             "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f",

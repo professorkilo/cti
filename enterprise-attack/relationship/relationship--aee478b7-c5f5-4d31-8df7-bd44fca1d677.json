@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--143d5f51-dbb6-4bae-90b9-1a936958a79d",
+    "id": "bundle--c25800f0-df3f-4974-85b0-bc63a4452cc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.163Z",
+            "modified": "2026-09-02T20:09:43.443Z",
             "description": "[Rising Sun](https://attack.mitre.org/software/S0448) variants can use SSL for encrypting C2 communications.(Citation: Bleeping Computer Op Sharpshooter March 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--56e6b6c2-e573-4969-8bab-783205cebbbf",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--47d70903-2996-4879-a2d2-3575d9301632",
+    "id": "bundle--ef3bf7b4-3dfc-4669-80b9-9c486b80921f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.188Z",
+            "modified": "2026-09-03T19:46:57.979Z",
             "description": "[SpeakUp](https://attack.mitre.org/software/S0374) encodes C&C communication using Base64. (Citation: CheckPoint SpeakUp Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a5575606-9b85-4e3d-9cd2-40ef30e3672d",

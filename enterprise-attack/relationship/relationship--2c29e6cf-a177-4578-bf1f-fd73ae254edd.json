@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--58a93c9c-e6c0-4900-833d-b6dc2eb22082",
+    "id": "bundle--282e6a8d-a8aa-41f0-9048-89434e62b5c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.964Z",
+            "modified": "2026-09-02T20:07:46.290Z",
             "description": "[Hikit](https://attack.mitre.org/software/S0009) performs XOR encryption.(Citation: Novetta-Axiom)",
             "relationship_type": "uses",
             "source_ref": "malware--95047f03-4811-4300-922e-1ba937d53a61",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c49199f-5e65-40b0-b4ec-c86cadb54c73",
+    "id": "bundle--6360fc05-7bf7-4b57-9079-f9ff805dac0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-03T19:46:58.623Z",
             "description": "[Bisonal](https://attack.mitre.org/software/S0268) has used raw sockets for network communication.(Citation: Talos Bisonal Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--65ffc206-d7c1-45b3-b543-f6b726e7840d",

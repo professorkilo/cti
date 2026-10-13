@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16507e71-6f1e-4d18-b6b4-1f5317dbd1cc",
+    "id": "bundle--48fa360f-36be-4001-b248-26b84214fe75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.106Z",
+            "modified": "2026-09-03T19:46:59.840Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has sent user and system information to a C2 server via HTTP POST requests.(Citation: NHS UK BLINDINGCAN Aug 2020)(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

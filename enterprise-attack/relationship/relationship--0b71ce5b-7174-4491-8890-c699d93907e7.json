@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d9a623a8-822b-469e-899f-bb33ee63a52c",
+    "id": "bundle--cf54ddfc-a494-4486-9183-09219811d202",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-03T19:46:46.249Z",
             "description": "[SideTwist](https://attack.mitre.org/software/S0610) has used Base64 for encoded C2 traffic.(Citation: Check Point APT34 April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--df4cd566-ff2f-4d08-976d-8c86e95782de",

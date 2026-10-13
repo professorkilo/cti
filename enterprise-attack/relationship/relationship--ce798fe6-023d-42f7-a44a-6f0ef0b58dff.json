@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ea2b818-bdf6-4f0c-a260-720a630fb3ae",
+    "id": "bundle--71cb5c9e-3ab2-44f7-a896-53f68010f982",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:23.884Z",
+            "modified": "2026-08-27T14:17:15.096Z",
             "description": "During the [J-magic Campaign](https://attack.mitre.org/campaigns/C0050), threat actors used self-signed certificates on VPS C2 infrastructure.(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "campaign--58c4fd17-88f5-433a-8242-e9cac31f3c45",

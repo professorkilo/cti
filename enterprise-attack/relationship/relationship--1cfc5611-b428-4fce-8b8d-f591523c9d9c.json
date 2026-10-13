@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2b6a823-ee9b-4b03-a6fa-9cda7362f7ce",
+    "id": "bundle--be8314bc-c941-4bdf-93c5-5c78e95d0dd8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-03T19:46:58.294Z",
             "description": "[SQLRat](https://attack.mitre.org/software/S0390) can make a direct SQL connection to a Microsoft database controlled by the attackers, retrieve an item from the bindata table, then write and execute the file on disk.(Citation: Flashpoint FIN 7 March 2019)\t",
             "relationship_type": "uses",
             "source_ref": "malware--8fc6c9e7-a162-4ca4-a488-f1819e9a7b06",

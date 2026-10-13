@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b534468a-ff8a-4259-8050-ae73b5fbb643",
+    "id": "bundle--c42ee05d-74ce-4b52-9eff-dfab3ab24d32",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.102Z",
+            "modified": "2026-09-03T19:47:01.600Z",
             "description": "[Dyre](https://attack.mitre.org/software/S0024) uses HTTPS for C2 communications.(Citation: Symantec Dyre June 2015)(Citation: Malwarebytes Dyreza November 2015)\t ",
             "relationship_type": "uses",
             "source_ref": "malware--63c2a130-8a5b-452f-ad96-07cf0af12ffe",

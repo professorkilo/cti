@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dc21ca8-7fff-4e1a-8f9c-e70aeeb7f515",
+    "id": "bundle--49dbd0ad-2dc7-48f9-b590-6393348260f9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.998Z",
+            "modified": "2026-09-03T19:46:55.674Z",
             "description": "[InvisiMole](https://attack.mitre.org/software/S0260) has used TCP to download additional modules.(Citation: ESET InvisiMole June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--47afe41c-4c08-485e-b062-c3bd209a1cce",

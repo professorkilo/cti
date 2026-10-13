@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dafb1d6b-b105-495e-906c-e2307ff4e0f6",
+    "id": "bundle--9c7fd12f-7d2d-4abc-9c73-e7f78b80f10e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.106Z",
+            "modified": "2026-09-08T20:15:04.768Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) can randomly generate and Base64 encode parameters in phishing links to defeat static detection.(Citation: Breakdev Evilginx 2.4 SEP 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

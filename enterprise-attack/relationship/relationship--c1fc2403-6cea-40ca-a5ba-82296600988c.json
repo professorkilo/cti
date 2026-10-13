@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bc9f54b-5fd8-459e-a11a-a0a9c8b7a42d",
+    "id": "bundle--a5e43c35-14dc-4efc-9052-a528f9f35161",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.190Z",
+            "modified": "2026-09-03T19:47:03.301Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019) has the ability to use HTTP in C2 communications.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

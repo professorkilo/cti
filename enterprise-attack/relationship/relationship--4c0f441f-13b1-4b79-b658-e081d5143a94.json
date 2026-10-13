@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--733f969e-1e9b-4301-b512-1a8e14c9a3e9",
+    "id": "bundle--816dc06f-c3fa-4ab7-b184-6bc5cac85528",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:47:01.102Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) can download additional malware plug-in modules and execute them on the victim\u2019s machine.(Citation: GDATA Zeus Panda June 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",

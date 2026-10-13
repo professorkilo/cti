@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19eb4174-3bd4-44b0-ac27-3ef1fe972a08",
+    "id": "bundle--b5bb02f8-d728-4b0b-b492-81988edcbfc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:25.327Z",
+            "modified": "2026-09-02T19:42:04.427Z",
             "description": "[Kimsuky](https://attack.mitre.org/groups/G0094) has used [TRANSLATEXT](https://attack.mitre.org/software/S1201) and a dead drop resolver to retrieve configurations and commands from a public blog site.(Citation: Zscaler Kimsuky TRANSLATEXT) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0ec2f388-bf0f-4b5c-97b1-fc736d26c25f",

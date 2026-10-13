@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c3cea51-9c9c-4b64-8f5b-f11ef6990ae6",
+    "id": "bundle--05a155da-094d-4909-b28c-aeea772da315",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.978Z",
+            "modified": "2026-09-03T19:46:59.572Z",
             "description": "[China Chopper](https://attack.mitre.org/software/S0020)'s server component can download remote files.(Citation: FireEye Periscope March 2018)(Citation: Lee 2013)(Citation: NCSC Joint Report Public Tools)(Citation: Rapid7 HAFNIUM Mar 2021)(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5a3a31fe-5a8f-48e1-bff0-a753e5b1be70",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--844d4505-ff4b-4dee-b966-9d1d3de1dee4",
+    "id": "bundle--3d7857bb-ce24-4694-a4ba-4d33ef01754a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:57.910Z",
+            "modified": "2026-09-03T19:47:04.307Z",
             "description": "[Sea Turtle](https://attack.mitre.org/groups/G1041) connected over TCP using HTTP to establish command and control channels.(Citation: Hunt Sea Turtle 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56a05d27-4d47-418a-b330-781c5614f202",

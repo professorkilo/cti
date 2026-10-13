@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3b0e7c3-0f25-4769-821c-974195c3cff2",
+    "id": "bundle--60ed6e32-18e9-4bbc-a8d0-295f3cdab06f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.028Z",
+            "modified": "2026-09-03T19:46:56.758Z",
             "description": "[Nebulae](https://attack.mitre.org/software/S0630) can use TCP in C2 communications.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--22b17791-45bf-45c0-9322-ff1a0af5cf2b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--914ea8ae-5988-43bd-a131-d2c91826fc96",
+    "id": "bundle--31498eca-47d8-430c-8a6e-00cb0d3e1b0a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:32.878Z",
+            "modified": "2026-09-03T19:47:04.208Z",
             "description": "During [C0026](https://attack.mitre.org/campaigns/C0026), the threat actors downloaded malicious payloads onto select compromised hosts.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--c89fa3ff-4773-4daf-8aec-d8f43f10116e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--474add4d-8481-4dce-a7b9-d0d0e98717e8",
+    "id": "bundle--14b91bd1-2f5b-4ac1-8292-ce007a97aaf6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.167Z",
+            "modified": "2026-09-03T19:46:56.211Z",
             "description": "[ngrok](https://attack.mitre.org/software/S0508) has been used by threat actors to proxy C2 connections to ngrok service subdomains.(Citation: Zdnet Ngrok September 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",

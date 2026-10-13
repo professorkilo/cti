@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--12ac2b05-28f4-434e-a146-2ab945179230",
+    "id": "bundle--b31b8600-5137-4871-8567-11a475fd5faa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.231Z",
+            "modified": "2026-09-03T19:47:03.998Z",
             "description": "[Samurai](https://attack.mitre.org/software/S1099) can use a .NET HTTPListener class to receive and handle HTTP POST requests.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ae91fb8f-5031-4f57-9839-e3be3ed503f0",

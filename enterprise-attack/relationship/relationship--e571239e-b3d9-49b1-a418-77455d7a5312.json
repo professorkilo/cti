@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0c3027b4-15c8-468f-a7b2-759261e3b6f4",
+    "id": "bundle--c59534c4-955d-43b0-940a-b30f2477d7c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-03T19:47:04.162Z",
             "description": "[Lumma Stealer](https://attack.mitre.org/software/S1213) has used HTTP and HTTP for command and control communication.(Citation: Qualys LummaStealer 2024)(Citation: Fortinet LummaStealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--674c514f-e485-47a8-9d49-1aaa70de155b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37812176-b4da-4720-83e7-dc71291c709c",
+    "id": "bundle--f4ddef4f-cdf0-4e13-ab29-32f6e312e287",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-03T19:46:59.588Z",
             "description": "[HyperBro](https://attack.mitre.org/software/S0398) has used HTTPS for C2 communications.(Citation: Unit42 Emissary Panda May 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--5e814485-012d-423d-b769-026bfed0f451",

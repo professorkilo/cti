@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2091c3c1-bf72-4032-af15-6b53cfeded28",
+    "id": "bundle--fd687679-8851-4b36-9c31-29bed3e8a9b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-29T20:49:34.223Z",
+            "modified": "2026-09-03T19:46:52.987Z",
             "description": "[Mini Shai-Hulud](https://attack.mitre.org/software/S9043) has used base64 encoding to obfuscate URLs used for C2.(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--7f211b2e-c008-4cac-9ea8-29bd7edd50a4",

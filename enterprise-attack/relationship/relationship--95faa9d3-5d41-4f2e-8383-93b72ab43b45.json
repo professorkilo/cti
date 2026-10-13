@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1772878c-a823-4e17-8c1b-acc4b613ce19",
+    "id": "bundle--2e3342a7-8452-4e70-b1d1-334098b1cfc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.805Z",
+            "modified": "2026-09-02T20:09:43.295Z",
             "description": "[Medusa Group](https://attack.mitre.org/groups/G1051) has used HTTPS for command and control.(Citation: CISA Medusa Group Medusa Ransomware March 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--918da025-04bd-48af-b6c4-f3e4d1b915eb",

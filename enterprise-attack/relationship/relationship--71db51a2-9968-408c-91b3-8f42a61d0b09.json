@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b4786675-2e28-4019-8ee0-8b1710aecd7b",
+    "id": "bundle--33ce59ed-c1a3-4933-a2f6-caaaf1db7680",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:56.616Z",
+            "modified": "2026-09-03T19:47:00.822Z",
             "description": "[Higaisa](https://attack.mitre.org/groups/G0126) used HTTP and HTTPS to send data back to its C2 server.(Citation: Malwarebytes Higaisa 2020)(Citation: Zscaler Higaisa 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--54dfec3e-6464-4f74-9d69-b7c817b7e5a3",

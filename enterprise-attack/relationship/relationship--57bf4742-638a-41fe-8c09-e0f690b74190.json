@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cee386b5-86df-41fd-a104-9803fe61b378",
+    "id": "bundle--54f6ff3a-37a2-4e9c-ae57-8bb4e30a2aba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.045Z",
+            "modified": "2026-09-03T19:46:59.827Z",
             "description": "[BBK](https://attack.mitre.org/software/S0470) has the ability to use HTTP in communications with C2.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--f0fc920e-57a3-4af5-89be-9ea594c8b1ea",

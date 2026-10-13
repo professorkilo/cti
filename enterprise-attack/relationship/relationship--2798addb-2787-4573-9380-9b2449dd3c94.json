@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09a0badf-b6f8-45e6-bd5e-91e41a15cee9",
+    "id": "bundle--eca4ed63-b7f9-46b5-a987-5811e3297e14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.959Z",
+            "modified": "2026-09-03T19:46:59.130Z",
             "description": "[CASTLETAP](https://attack.mitre.org/software/S1224) can transfer files to compromised network devices.(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "malware--15c7bcdb-23e1-4ce3-81a7-b109b4d2a4f1",

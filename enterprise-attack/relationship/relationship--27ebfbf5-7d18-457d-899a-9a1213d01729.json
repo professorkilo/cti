@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a137203f-fb32-4762-ad5b-d73c9ca798ed",
+    "id": "bundle--9f13248e-3adf-404c-9560-90d0462fbb7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.959Z",
+            "modified": "2026-09-02T20:07:46.257Z",
             "description": "[Havoc](https://attack.mitre.org/software/S1229) can send an AES encrypted check-in request to the C2 server.(Citation: Zscaler Havoc FEB 2023)(Citation: Fortinet Havoc MAR 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--1996aed9-6234-4c1d-a145-e8a4913679dd",

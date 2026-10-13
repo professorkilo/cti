@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dce38365-5cdc-40d2-b712-7ab82b6b6c80",
+    "id": "bundle--f601ff5c-1eda-4708-ba31-f34779559543",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.950Z",
+            "modified": "2026-09-02T20:09:42.713Z",
             "description": "[LunarWeb](https://attack.mitre.org/software/S1141) can send short C2 commands, up to 512 bytes, encrypted with RSA-4096.(Citation: ESET Turla Lunar toolset May 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--e1284931-3f85-4262-a641-9ae8bb0576a0",

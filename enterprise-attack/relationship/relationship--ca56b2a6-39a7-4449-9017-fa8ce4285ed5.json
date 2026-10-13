@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--506572bb-553d-4f59-9577-f24fc7428ee0",
+    "id": "bundle--2f030914-0653-4a68-b414-a3056717a4cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.202Z",
+            "modified": "2026-09-03T19:46:56.443Z",
             "description": "[ngrok](https://attack.mitre.org/software/S0508) can tunnel RDP and other services securely over internet connections.(Citation: FireEye Maze May 2020)(Citation: Cyware Ngrok May 2019)(Citation: MalwareBytes Ngrok February 2020)(Citation: Trend Micro Ngrok September 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--2f7f03bb-f367-4a5a-ad9b-310a12a48906",

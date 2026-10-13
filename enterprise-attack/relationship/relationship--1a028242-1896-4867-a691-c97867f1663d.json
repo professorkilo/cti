@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3c91acee-ca64-4740-b800-67e021bb596a",
+    "id": "bundle--63189790-e734-409e-91e2-e6eaf1a78efb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-02T20:07:45.652Z",
             "description": "[Elise](https://attack.mitre.org/software/S0081) encrypts exfiltrated data with RC4.(Citation: Lotus Blossom Jun 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--7551188b-8f91-4d34-8350-0d0c57b2b913",

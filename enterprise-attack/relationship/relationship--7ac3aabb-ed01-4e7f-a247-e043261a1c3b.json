@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d06f3c37-9009-43c0-9638-f3714549276b",
+    "id": "bundle--60654103-88f7-4121-a4cf-3ea828633b0c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.093Z",
+            "modified": "2026-09-03T19:46:59.557Z",
             "description": "[HAWKBALL](https://attack.mitre.org/software/S0391) has sent system information and files over the C2 channel.(Citation: FireEye HAWKBALL Jun 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--12a7450d-b03e-4990-a5b8-b405ab9c803b",

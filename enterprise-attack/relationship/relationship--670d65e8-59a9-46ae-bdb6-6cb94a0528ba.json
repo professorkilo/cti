@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fee7a5b0-f1f5-4190-bda6-5198eca2681b",
+    "id": "bundle--7aaee7d7-fb26-4bdd-8229-a6f3a95ed069",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.065Z",
+            "modified": "2026-09-02T20:07:46.866Z",
             "description": "[Winnti for Linux](https://attack.mitre.org/software/S0430) has used a custom TCP protocol with four-byte XOR for command and control (C2).(Citation: Chronicle Winnti for Linux May 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8787e86d-8475-4f13-acea-d33eb83b6105",

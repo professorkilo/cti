@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d07eefcc-7d81-48ee-81cc-779679cb7676",
+    "id": "bundle--de96eef5-c8e4-43e6-8f94-363ab300f57f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:20.800Z",
+            "modified": "2026-09-03T19:46:58.839Z",
             "description": "During [Operation MidnightEclipse](https://attack.mitre.org/campaigns/C0048), threat actors used `wget` via HTTP to retrieve payloads.(Citation: Volexity UPSTYLE 2024)(Citation: Palo Alto MidnightEclipse APR 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--455b011a-2510-49ab-a96f-2f84d6a80189",

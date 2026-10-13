@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f1a1d03-b06d-4b77-8401-e8d850f5cdf2",
+    "id": "bundle--025d2470-5692-4fb3-b734-cd7edaba166c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-03T19:47:02.122Z",
             "description": "[Final1stspy](https://attack.mitre.org/software/S0355) uses HTTP for C2.(Citation: Unit 42 Nokki Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--a2282af0-f9dd-4373-9b92-eaf9e11e0c71",

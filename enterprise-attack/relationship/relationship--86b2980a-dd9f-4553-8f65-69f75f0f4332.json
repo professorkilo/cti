@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--984cae4e-f303-4930-9245-707d16bd417a",
+    "id": "bundle--6d1488bc-ca3e-482a-a8ec-2b3cdba84008",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.109Z",
+            "modified": "2026-09-03T19:47:02.994Z",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) can download additional files.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--60815697-1795-4ebf-b033-ea4774c73f59",
+    "id": "bundle--2efb1e8c-cea0-4aa1-819f-0af02d73708c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-03T19:47:00.673Z",
             "description": "[SMOKEDHAM](https://attack.mitre.org/software/S0649) has used Powershell to download UltraVNC and [ngrok](https://attack.mitre.org/software/S0508) from third-party file sharing sites.(Citation: FireEye SMOKEDHAM June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--7e0f8b0f-716e-494d-827e-310bd6ed709e",

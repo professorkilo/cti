@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf5fcbc7-a4af-4f6d-8c00-62946ad21a0a",
+    "id": "bundle--1c64a9bd-203d-4d82-a8b8-f0b509cb82d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.909Z",
+            "modified": "2026-09-03T19:46:53.297Z",
             "description": "[More_eggs](https://attack.mitre.org/software/S0284) can download and launch additional payloads.(Citation: Talos Cobalt Group July 2018)(Citation: Security Intelligence More Eggs Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bfd2738c-8b43-43c3-bc9f-d523c8e88bf4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bba6552a-8ddb-4848-a1b6-7f25d7e4dd5a",
+    "id": "bundle--a264fbf8-43fc-4bc8-b8e0-270f115c9774",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.140Z",
+            "modified": "2026-09-03T19:47:00.388Z",
             "description": "[MagicRAT](https://attack.mitre.org/software/S1182) exfiltrates data via HTTP over existing command and control channels.(Citation: Cisco MagicRAT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--858b0f9d-3a2a-437e-a058-afe72154f6da",

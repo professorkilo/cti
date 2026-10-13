@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37b9027c-e2b5-4af7-a787-b498698cb8c4",
+    "id": "bundle--f9e63b0f-3c7f-4b02-a950-75ac2ad28054",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.602Z",
+            "modified": "2026-09-02T17:31:48.906Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has modified settings to publish private Aqua Security repositories to GitHub as public.(Citation: Aqua Security Blog Trivy Compromise APR 2026)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

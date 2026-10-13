@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d39cb5f1-e2be-4176-b2a6-3649f55692c2",
+    "id": "bundle--82adeeef-ae23-45cf-a35b-a9b18d6ca2fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-02T19:42:03.998Z",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) collects C2 information via a dead drop resolver.(Citation: Forcepoint Monsoon)(Citation: PaloAlto Patchwork Mar 2018)(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",

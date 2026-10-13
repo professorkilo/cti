@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9e3a8481-fdc9-4374-8db3-58349402f7bd",
+    "id": "bundle--2dcb6ef2-78aa-4d43-9598-28eac73ac572",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.955Z",
+            "modified": "2026-09-03T19:46:54.556Z",
             "description": "[J-magic](https://attack.mitre.org/software/S1203) can monitor incoming C2 communications sent over TCP to the compromised host.(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--2ade64da-5114-42e4-9d56-335379cca561",

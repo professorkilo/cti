@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d313f968-27e2-4991-9ab0-b79bd8bf6fa2",
+    "id": "bundle--e617b36c-d7f8-4add-85d2-fe6c1a0f6c94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.064Z",
+            "modified": "2026-09-03T19:47:02.101Z",
             "description": "[Squirrelwaffle](https://attack.mitre.org/software/S1030) has downloaded and executed additional encoded payloads.(Citation: ZScaler Squirrelwaffle Sep 2021)(Citation: Netskope Squirrelwaffle Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--3c18ad16-9eaf-4649-984e-68551bff0d47",

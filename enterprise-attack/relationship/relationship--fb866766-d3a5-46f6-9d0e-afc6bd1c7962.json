@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a07f3905-f76b-4f59-b590-89c09bb21264",
+    "id": "bundle--91e807b1-7573-4bc2-8148-2cc2cb367ae4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.266Z",
+            "modified": "2026-09-03T19:46:58.464Z",
             "description": "[cmd](https://attack.mitre.org/software/S0106) can be used to copy files to/from a remotely connected internal system.(Citation: TechNet Copy)",
             "relationship_type": "uses",
             "source_ref": "tool--bba595da-b73a-4354-aa6c-224d4de7cb4e",

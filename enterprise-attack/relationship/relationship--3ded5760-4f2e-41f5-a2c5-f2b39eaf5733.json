@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92adb2bb-a35d-4689-a1ff-4f4f34147726",
+    "id": "bundle--80795abe-117b-49eb-8c3c-8a6e0098b6f8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.009Z",
+            "modified": "2026-09-03T19:47:00.203Z",
             "description": "[Shamoon](https://attack.mitre.org/software/S0140) can download an executable to run on the victim.(Citation: Palo Alto Shamoon Nov 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--8901ac23-6b50-410c-b0dd-d8174a86f9b3",

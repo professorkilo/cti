@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2f24c9a-5bd7-4123-8a09-db169e21c6c7",
+    "id": "bundle--3082df00-c8e5-41ab-8791-233dd8eb43cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.240Z",
+            "modified": "2026-09-02T18:17:25.328Z",
             "description": "Analysis of [Daserf](https://attack.mitre.org/software/S0187) has shown that it regularly undergoes technical improvements to evade anti-virus detection.(Citation: Trend Micro Daserf Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b6b3dfc7-9a81-43ff-ac04-698bad48973a",

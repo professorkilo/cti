@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a666ed8-0b79-412c-a8d6-fd5d458dd879",
+    "id": "bundle--d6b8c338-a30e-42b4-ba1f-6dd92ddc4978",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.185Z",
+            "modified": "2026-09-09T18:39:17.095Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) has sent data over HTTP if FTP failed, and has also used a fallback server.(Citation: ESET Machete July 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

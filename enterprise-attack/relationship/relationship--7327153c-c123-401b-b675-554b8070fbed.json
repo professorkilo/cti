@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27500249-2050-41f7-9357-352b9cd349c8",
+    "id": "bundle--df81b0f8-9560-4059-89c4-3ba6561ac682",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.083Z",
+            "modified": "2026-09-09T18:39:16.767Z",
             "description": "[Bumblebee](https://attack.mitre.org/software/S1039) can use backup C2 servers if the primary server fails.(Citation: Proofpoint Bumblebee April 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",

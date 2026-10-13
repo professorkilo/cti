@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--96acf756-f000-474a-a4da-d6f13c925b55",
+    "id": "bundle--4d7edf8c-209a-44d2-a44f-5d44d8151d60",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.979Z",
+            "modified": "2026-09-03T19:46:49.007Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can utilize web services including Google sites to send and receive C2 data.(Citation: IBM Grandoreiro April 2020)(Citation: ESET Grandoreiro April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",

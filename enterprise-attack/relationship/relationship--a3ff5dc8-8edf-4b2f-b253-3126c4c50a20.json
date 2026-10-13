@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--411c7304-be6d-49f5-9fb4-08f072f9dec0",
+    "id": "bundle--869c5064-3033-476f-abd0-c90b8bca9164",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:36.344Z",
+            "modified": "2026-09-03T19:47:00.516Z",
             "description": "[BlackByte](https://attack.mitre.org/groups/G1043) transmitted collected victim host information via HTTP POST to command and control infrastructure.(Citation: Microsoft BlackByte 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--02b16bd6-ae88-417a-8a3f-02c5e166175a",

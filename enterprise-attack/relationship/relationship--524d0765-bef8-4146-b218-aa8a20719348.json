@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e18f2a17-bf43-47fd-b465-acec8c511087",
+    "id": "bundle--859327fc-3da4-4ef8-bd7c-e40c2b207096",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:47.670Z",
+            "modified": "2026-09-03T19:46:48.964Z",
             "description": "[Gamaredon Group](https://attack.mitre.org/groups/G0047) has used Telegram Messenger content to discover the IP address for C2 communications.(Citation: unit42_gamaredon_dec2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2e290bfe-93b5-48ce-97d6-edcd6d32b7cf",

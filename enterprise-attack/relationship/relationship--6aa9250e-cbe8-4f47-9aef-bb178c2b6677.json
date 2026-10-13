@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7876a40d-97f0-473c-8a83-88e6a4f026b5",
+    "id": "bundle--a55eb363-7c67-4fd1-bf65-c1ac07522995",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-03T19:46:56.622Z",
             "description": "[Expand](https://attack.mitre.org/software/S0361) can be used to download or upload a file over a network share.(Citation: LOLBAS Expand)",
             "relationship_type": "uses",
             "source_ref": "tool--ca656c25-44f1-471b-9d9f-e2a3bbb84973",

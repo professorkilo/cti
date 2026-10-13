@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87967edc-5912-41dc-94d5-756ebd0a5712",
+    "id": "bundle--6f94949e-d404-4bb8-bd02-bfcaf4dec021",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.078Z",
+            "modified": "2026-09-03T19:47:02.365Z",
             "description": "[Bumblebee](https://attack.mitre.org/software/S1039) can download and execute additional payloads including through the use of a `Dex` command.(Citation: Google EXOTIC LILY March 2022)(Citation: Proofpoint Bumblebee April 2022)(Citation: Symantec Bumblebee June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--04378e79-4387-468a-a8f7-f974b8254e44",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0b89c16d-2dfa-4c79-bfc4-81cdd14a233a",
+    "id": "bundle--e8f19440-55e2-43d4-b7a9-2c682fb15b08",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.906Z",
+            "modified": "2026-09-03T19:46:48.888Z",
             "description": "[Drovorub](https://attack.mitre.org/software/S0502) can use the WebSocket protocol and has initiated communication with C2 servers with an HTTP Upgrade request.(Citation: NSA/FBI Drovorub August 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--99164b38-1775-40bc-b77b-a2373b14540a",

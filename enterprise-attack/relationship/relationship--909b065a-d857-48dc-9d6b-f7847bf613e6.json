@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a0bbb497-e9b6-49e0-8f75-330c1c1ddc9f",
+    "id": "bundle--e7bdda4a-64c0-4b07-a4c4-f2b97e30ee13",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.122Z",
+            "modified": "2026-09-02T18:23:57.191Z",
             "description": "[AppleSeed](https://attack.mitre.org/software/S0622) has divided files if the size is 0x1000000 bytes or more.(Citation: KISA Operation Muzabi)",
             "relationship_type": "uses",
             "source_ref": "malware--295721d2-ee20-4fa3-ade3-37f4146b4570",

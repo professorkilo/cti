@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80fc25a7-c85c-4ad9-8907-fe78ba2665fa",
+    "id": "bundle--7603a6c6-b99e-4d31-b28a-a03cca129d5f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.190Z",
+            "modified": "2026-09-03T19:47:03.282Z",
             "description": "[IceApple](https://attack.mitre.org/software/S1022) can use HTTP GET to request and pull information from C2.(Citation: CrowdStrike IceApple May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd889a55-fb2c-4ec7-8e9f-c399939a49e1",

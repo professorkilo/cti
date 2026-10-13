@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65a0b59a-4ce9-4373-9957-b0ff77e47fa2",
+    "id": "bundle--2a91d6f2-5a1b-498d-b864-3a99f8bdcc18",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.106Z",
+            "modified": "2026-09-09T18:39:16.791Z",
             "description": "[RainyDay](https://attack.mitre.org/software/S0629) has the ability to switch between TCP and HTTP for C2 if one method is not working.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--29231689-5837-4a7a-aafc-1b65b3f50cc7",

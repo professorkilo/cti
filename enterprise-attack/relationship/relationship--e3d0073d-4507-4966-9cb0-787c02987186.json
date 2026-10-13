@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--308e81b3-d2a9-4cbf-abf3-f97db5cf164f",
+    "id": "bundle--b95b4e54-4603-4797-9021-f631615eab90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-02T19:58:34.418Z",
             "description": "Enforce the principle of least-privilege. Consider implementing access control mechanisms that include both authentication and authorization.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--93e7968a-9074-4eac-8ae9-9f5200ec3317",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--71ec93a7-38c3-45a2-acf5-8769953b9d09",
+    "id": "bundle--7f5607c3-ce68-4cbd-8667-6c6523f7ad16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-02T20:07:46.116Z",
             "description": "[Pandora](https://attack.mitre.org/software/S0664) has the ability to encrypt communications with D3DES.(Citation: Trend Micro Iron Tiger April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--a545456a-f9a7-47ad-9ea6-8b017def38d1",

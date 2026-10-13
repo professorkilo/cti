@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46bf980c-234b-4977-9116-de559ccffdb9",
+    "id": "bundle--583949c7-d66c-4943-ac46-d3aebfe6b0c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-02T20:07:47.968Z",
             "description": "[PLEAD](https://attack.mitre.org/software/S0435) has used RC4 encryption to download modules.(Citation: JPCert PLEAD Downloader June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b57f419e-8b12-49d3-886b-145383725dcd",

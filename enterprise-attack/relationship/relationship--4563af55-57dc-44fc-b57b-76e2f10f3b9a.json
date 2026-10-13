@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c587d858-27ab-489e-85a8-c9fbdb728f85",
+    "id": "bundle--dde2f8b0-b78b-4eb1-9f94-27c2fc8ec5c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-03T19:46:54.179Z",
             "description": "[Dipsind](https://attack.mitre.org/software/S0200) can be configured to only run during normal working hours, which would make its communications harder to distinguish from normal traffic.(Citation: Microsoft PLATINUM April 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--e170995d-4f61-4f17-b60e-04f9a06ee517",

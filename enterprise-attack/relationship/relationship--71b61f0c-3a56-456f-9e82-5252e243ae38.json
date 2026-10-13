@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fea7a892-8231-43db-9d87-e53f3e7e3172",
+    "id": "bundle--e96a582d-5a56-400c-863b-f81840a6e954",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-02T20:09:43.058Z",
             "description": "[LITTLELAMB.WOOLTEA](https://attack.mitre.org/software/S1121) can communicate over SSL using the private key from the Ivanti Connect Secure web server.(Citation: Mandiant Cutting Edge Part 3 February 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--19256855-65e9-48f2-8b74-9f3d0a994428",

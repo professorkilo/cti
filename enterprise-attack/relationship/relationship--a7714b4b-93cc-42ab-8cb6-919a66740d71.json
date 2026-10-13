@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad413861-531d-47c6-901c-f76ea46d816e",
+    "id": "bundle--4528c8c4-09c7-42f5-a9ec-0cd56cc06e41",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.153Z",
+            "modified": "2026-09-03T19:47:02.649Z",
             "description": "[IPsec Helper](https://attack.mitre.org/software/S1132) connects to command and control servers via HTTP POST requests based on parameters hard-coded into the malware.(Citation: SentinelOne Agrius 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--b5dc19b7-588d-403b-848d-c868bd61ffa1",

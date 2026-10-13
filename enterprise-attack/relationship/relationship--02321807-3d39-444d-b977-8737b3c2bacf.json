@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--da961d48-dcdc-4881-ac1f-3aa9c73b49b6",
+    "id": "bundle--3ba9b4f1-6ca0-44c4-b856-d0bdb2602e66",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.906Z",
+            "modified": "2026-09-03T19:46:48.605Z",
             "description": "[PULSECHECK](https://attack.mitre.org/software/S1108) can check HTTP request headers for a specific backdoor key and if found will output the result of the command in the variable `HTTP_X_CMD.`(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9a097d18-d15f-4635-a4f1-189df7efdc40",

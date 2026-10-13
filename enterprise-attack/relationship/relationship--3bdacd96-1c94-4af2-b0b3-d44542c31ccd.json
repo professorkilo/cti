@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4032f4d0-29f2-4c57-ab0d-5f5ef1b94c57",
+    "id": "bundle--d7c15055-fd76-4e60-b404-7e0e04c8c31b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:22.492Z",
+            "modified": "2026-09-03T19:46:53.425Z",
             "description": "During [Operation Spalax](https://attack.mitre.org/campaigns/C0005), the threat actors used OneDrive and MediaFire to host payloads.(Citation: ESET Operation Spalax Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--4c840263-bbda-440d-a22b-674679ddebf1",

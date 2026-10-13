@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e867dd4d-b361-47df-a9fe-180bf676de89",
+    "id": "bundle--469ac5ba-7b09-4d63-9aba-d645b993a7c1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.041Z",
+            "modified": "2026-09-03T19:46:59.000Z",
             "description": "[Remexi](https://attack.mitre.org/software/S0375) performs exfiltration over [BITSAdmin](https://attack.mitre.org/software/S0190), which is also used for the C2 channel.(Citation: Securelist Remexi Jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ecc2f65a-b452-4eaf-9689-7e181f17f7a5",

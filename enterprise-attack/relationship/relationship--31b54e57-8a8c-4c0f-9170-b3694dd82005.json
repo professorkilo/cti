@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9ce98f85-1776-4925-9b93-f4471c103a25",
+    "id": "bundle--a20e6b42-27d8-4039-ba3a-0785fb07a6af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.982Z",
+            "modified": "2026-09-03T19:46:55.070Z",
             "description": "[WellMail](https://attack.mitre.org/software/S0515) has been observed using TCP port 25, without using SMTP, to leverage an open port for secure command and control communications.(Citation: CISA WellMail July 2020)(Citation: NCSC APT29 July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--959f3b19-2dc8-48d5-8942-c66813a5101a",

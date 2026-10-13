@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ebf3b699-6d67-4f85-bd5b-679956b46c4a",
+    "id": "bundle--812d8ab9-9a29-4a20-a828-6977f505e82c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.258Z",
+            "modified": "2026-09-02T20:07:47.990Z",
             "description": "[CORESHELL](https://attack.mitre.org/software/S0137) C2 messages are encrypted with custom stream ciphers using six-byte or eight-byte keys.(Citation: FireEye APT28)",
             "relationship_type": "uses",
             "source_ref": "malware--60c18d06-7b91-4742-bae3-647845cd9d81",

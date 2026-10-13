@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01039546-694e-4a2d-9909-1640569f932a",
+    "id": "bundle--61bbb634-db9d-4461-af0e-34b533a35131",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.098Z",
+            "modified": "2026-09-02T20:07:47.041Z",
             "description": "[Rifdoor](https://attack.mitre.org/software/S0433) has encrypted command and control (C2) communications with a stream cipher.(Citation: Carbon Black HotCroissant April 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--44c75271-0e4d-496f-ae0a-a6d883a42a65",

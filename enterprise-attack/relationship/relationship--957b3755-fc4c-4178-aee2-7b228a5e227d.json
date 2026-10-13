@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d70e1abf-e252-46e9-a740-90ca657a1ace",
+    "id": "bundle--18730b67-be09-413c-88db-1aef8b0bb528",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:34.162Z",
+            "modified": "2026-09-03T19:47:03.540Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has downloaded additional binaries from a remote File Transfer Protocol (FTP) server to compromised devices.(Citation: Microsoft Storm-0940)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--df2401f7-a4a0-4cc1-9bf8-cf094334dbda",
+    "id": "bundle--623e7d3f-a0dc-4590-b25e-03175078a6a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.218Z",
+            "modified": "2026-09-02T20:07:47.765Z",
             "description": "[FatDuke](https://attack.mitre.org/software/S0512) can AES encrypt C2 communications.(Citation: ESET Dukes October 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--54a01db0-9fab-4d5f-8209-53cef8425f4a",

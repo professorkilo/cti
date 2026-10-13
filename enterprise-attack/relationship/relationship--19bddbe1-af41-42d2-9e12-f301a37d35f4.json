@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f23550d0-ec69-46c0-8d36-41eab362bcf6",
+    "id": "bundle--5adb8365-1f2c-42af-a3ab-23e32febf325",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.375Z",
+            "modified": "2026-09-02T17:31:48.730Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used [CanisterWorm](https://attack.mitre.org/software/S9042) in credential harvesting and software supply chain campaigns since at least 2026.(Citation: Aikido TeamPCP Telnyx MAR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Aikido CanisterWorm MAR 2026)(Citation: Aikido TeamPCP Trivy MAR 2026)(Citation: FBI TeamPCP JUL 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

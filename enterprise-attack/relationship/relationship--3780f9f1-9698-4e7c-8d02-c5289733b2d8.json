@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17a1f2eb-9f0c-4dbb-9bc4-d1497070badf",
+    "id": "bundle--494992e6-83f3-4c52-9ab2-3329cc51a99a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.996Z",
+            "modified": "2026-09-08T20:28:42.593Z",
             "description": "[HiddenFace](https://attack.mitre.org/software/S9023) can act as an internal HTTP proxy within the targeted environment.(Citation: Trend Micro Earth Kasha NOV 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--051dd0a2-9877-4853-bcb7-351ebb4619e9",
+    "id": "bundle--9db4c9e7-4657-4a8b-a166-8ae6d5db0878",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.181Z",
+            "modified": "2026-09-03T19:47:01.115Z",
             "description": "[KGH_SPY](https://attack.mitre.org/software/S0526) can exfiltrate collected information from the host to the C2 server.(Citation: Cybereason Kimsuky November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8bdfe255-e658-4ddd-a11c-b854762e451d",

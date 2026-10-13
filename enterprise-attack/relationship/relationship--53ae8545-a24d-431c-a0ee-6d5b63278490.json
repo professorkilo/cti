@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70fcec91-c8c5-45d6-b524-28d70f58fdd2",
+    "id": "bundle--890c3404-a7fb-4802-80f8-89474eb54af7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.039Z",
+            "modified": "2026-09-03T19:46:51.112Z",
             "description": "[STEADYPULSE](https://attack.mitre.org/software/S1112) can transmit URL encoded data over C2.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--ca0fead6-5277-427a-825b-42ff1fbe476e",

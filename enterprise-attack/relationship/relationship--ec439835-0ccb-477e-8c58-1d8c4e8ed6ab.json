@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--27d7c025-e343-4dfa-bf27-7609b8c7edd6",
+    "id": "bundle--48afe079-c3be-4264-8660-2f7540e990dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.246Z",
+            "modified": "2026-09-03T19:46:53.769Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) is capable of using DNS for C2.(Citation: Symantec Remsec IOCs)(Citation: Kaspersky ProjectSauron Full Report)(Citation: Kaspersky ProjectSauron Technical Analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",

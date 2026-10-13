@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be8fcdb7-c878-4e0c-a54a-30e7c3c8275a",
+    "id": "bundle--14e5903a-8b89-463d-986a-2f0429053c14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.978Z",
+            "modified": "2026-09-02T20:07:46.351Z",
             "description": "[HotCroissant](https://attack.mitre.org/software/S0431) has compressed network communications and encrypted them with a custom stream cipher.(Citation: Carbon Black HotCroissant April 2020)(Citation: US-CERT HOTCROISSANT February 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--aad11e34-02ca-4220-91cd-2ed420af4db3",

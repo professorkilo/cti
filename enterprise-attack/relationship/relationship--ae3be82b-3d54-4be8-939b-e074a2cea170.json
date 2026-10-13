@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc6cb53e-e060-442a-a54d-c9e26e665d7e",
+    "id": "bundle--00df2d44-0494-4154-a6a0-a0be59916a35",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.162Z",
+            "modified": "2026-09-03T19:47:04.419Z",
             "description": "[Misdat](https://attack.mitre.org/software/S0083) is capable of downloading files from the C2.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--0db09158-6e48-4e7c-8ce7-2b10b9c0c039",

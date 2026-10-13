@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e9326df0-ee79-4a40-8201-95efdf8ebf8d",
+    "id": "bundle--72bb90e0-8e0c-47e5-a175-e2bd6d4b5b48",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-03T19:46:50.600Z",
             "description": "[BeaverTail](https://attack.mitre.org/software/S1246) has added junk data or a dummy character prepended to a string to hamper decoding attempts.(Citation: ESET Contagious Interview BeaverTail InvisibleFerret February 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--6055aee2-d1c6-4877-94e9-a3bde9936470",

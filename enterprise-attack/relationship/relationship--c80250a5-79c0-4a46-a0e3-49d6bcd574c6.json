@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f26a6245-ee2e-41ff-b961-480314370f69",
+    "id": "bundle--f9ce4dfe-d8d3-4b0b-844e-3fef916757d7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-03T19:47:03.539Z",
             "description": "[Sys10](https://attack.mitre.org/software/S0060) uses HTTP for C2.(Citation: Baumgartner Naikon 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--7f8730af-f683-423f-9ee1-5f6875a80481",

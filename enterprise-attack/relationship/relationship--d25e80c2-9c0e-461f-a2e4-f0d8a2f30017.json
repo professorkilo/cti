@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d6541ef-0749-45d0-8a68-4808f49a1ae3",
+    "id": "bundle--670369f6-23fd-4782-816a-02c37b7e77bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.213Z",
+            "modified": "2026-09-03T19:47:03.693Z",
             "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) can use HTTP `GET` and `PUT` to upload and download files.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d0270367-37fc-471e-9206-483582c5f47d",

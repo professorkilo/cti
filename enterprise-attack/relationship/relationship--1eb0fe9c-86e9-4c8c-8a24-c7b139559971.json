@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--490a0a8e-5c71-4840-9953-aece67e66fe8",
+    "id": "bundle--3e3e88fd-121a-403b-8b42-c96e866b83bb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.946Z",
+            "modified": "2026-09-03T19:46:58.484Z",
             "description": "[Skidmap](https://attack.mitre.org/software/S0468) has the ability to download files on an infected host.(Citation: Trend Micro Skidmap) ",
             "relationship_type": "uses",
             "source_ref": "malware--4b68b5ea-2e1b-4225-845b-8632f702b9a0",

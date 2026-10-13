@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f8ea418-5cfb-465d-9cc5-47fd0267ab3f",
+    "id": "bundle--a6a7c2a5-8951-4b14-8cb8-372e5b988c78",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.019Z",
+            "modified": "2026-09-08T20:15:04.725Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) provides various transform functions to encode and/or randomize C2 data.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

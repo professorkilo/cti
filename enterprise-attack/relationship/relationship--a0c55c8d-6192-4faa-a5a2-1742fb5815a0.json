@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9a4a0d9f-19b6-46fa-ab37-082b344b6733",
+    "id": "bundle--ecea3e6d-3da1-4adc-a306-1d76c75dbf34",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.144Z",
+            "modified": "2026-07-31T18:47:58.038Z",
             "description": "[Suckfly](https://attack.mitre.org/groups/G0039) used a signed credential-dumping tool to obtain victim account credentials.(Citation: Symantec Suckfly May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--5cbe0d3b-6fb1-471f-b591-4b192915116d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4bb8b59-f2d3-47ab-80e3-de8f5976ace6",
+    "id": "bundle--095293b5-5491-4575-8a87-1fb4111e2ac2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.046Z",
+            "modified": "2026-09-02T20:09:42.938Z",
             "description": "[J-magic](https://attack.mitre.org/software/S1203) can communicate back to send a challenge to C2 infrastructure over SSL.(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--2ade64da-5114-42e4-9d56-335379cca561",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--54e1a656-94c2-4799-8917-e6cddf013950",
+    "id": "bundle--b15f9954-d5d4-4000-a0c4-029f31a7fc1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.104Z",
+            "modified": "2026-09-08T20:28:08.567Z",
             "description": "[PoshC2](https://attack.mitre.org/software/S0378) contains modules that allow for use of proxies in command and control.(Citation: GitHub PoshC2)",
             "relationship_type": "uses",
             "source_ref": "tool--4b57c098-f043-4da2-83ef-7588a6d426bc",

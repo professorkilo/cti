@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--366e8892-ad43-46e9-9f95-821376ee307a",
+    "id": "bundle--1f208307-8a90-464b-815b-c4f78b2540ed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.995Z",
+            "modified": "2026-09-03T19:46:57.705Z",
             "description": "To exfiltrate data, [LightSpy](https://attack.mitre.org/software/S1185) configures each module to send an obfuscated JSON blob to hardcoded URL endpoints or paths aligned to the module name.(Citation: Huntress LightSpy macOS 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--5b5d1e6c-e7de-4b46-ab8f-8556e8745927",

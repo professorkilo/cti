@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bc417a3d-5f62-4a04-8ae8-f0ed83e43423",
+    "id": "bundle--924e01d7-6863-415f-933a-ddd8dabddecd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -14,14 +14,19 @@
                     "source_name": "mitre-attack",
                     "url": "https://attack.mitre.org/techniques/T1574",
                     "external_id": "T1574"
+                },
+                {
+                    "source_name": "Execution flow hijack attempt",
+                    "description": "Prisma Cloud Docs. (n.d.). Execution flow hijack attempt. Retrieved September 2, 2026.",
+                    "url": "https://docs.prismacloud.io/admin-guide/runtime-defense/incident-types/execution-flow-hijack-attempt"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.707Z",
+            "modified": "2026-09-02T18:05:12.296Z",
             "name": "Hijack Execution Flow",
-            "description": "Adversaries may execute their own malicious payloads by hijacking the way operating systems run programs. Hijacking execution flow can be for the purposes of persistence, since this hijacked execution may reoccur over time. Adversaries may also use these mechanisms to elevate privileges or evade defenses, such as application control or other restrictions on execution.\n\nThere are many ways an adversary may hijack the flow of execution, including by manipulating how the operating system locates programs to be executed. How the operating system locates libraries to be used by a program can also be intercepted. Locations where the operating system looks for programs/resources, such as file directories and in the case of Windows the Registry, could also be poisoned to include malicious payloads.",
+            "description": "Adversaries may execute their own malicious payloads by hijacking the way operating systems run programs. Hijacking execution flow can be for the purposes of persistence, since this hijacked execution may reoccur over time. Adversaries may also use these mechanisms to elevate privileges or evade defenses, such as application control or other restrictions on execution.\n\nThere are many ways an adversary may hijack the flow of execution, including by manipulating how the operating system locates programs to be executed. How the operating system locates libraries to be used by a program can also be intercepted. Locations where the operating system looks for programs/resources, such as file directories and in the case of Windows the Registry, could also be poisoned to include malicious payloads.(Citation: Execution flow hijack attempt)",
             "kill_chain_phases": [
                 {
                     "kill_chain_name": "mitre-attack",
@@ -44,7 +49,7 @@
                 "macOS",
                 "Windows"
             ],
-            "x_mitre_version": "2.0",
+            "x_mitre_version": "2.1",
             "x_mitre_remote_support": false
         }
     ]

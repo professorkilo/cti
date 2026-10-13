@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1a2e8697-2fdd-43a0-af40-8f141dca5a14",
+    "id": "bundle--4df3cb34-1460-40ba-b4dd-4d47d3bddce8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.233Z",
+            "modified": "2026-09-02T18:35:03.396Z",
             "description": "Data loss prevention can detect and block sensitive data being uploaded via web browsers.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--65401701-019d-44ff-b223-08d520bb0e7b",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dd2e1baf-19a3-4e14-bf8b-6a5814ef7160",
+    "id": "bundle--61b0e651-21f9-4770-aa67-dd15f9bd8b19",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.013Z",
+            "modified": "2026-09-03T19:47:00.390Z",
             "description": "[Calisto](https://attack.mitre.org/software/S0274) has the capability to upload and download files to the victim's machine.(Citation: Symantec Calisto July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--b8fdef82-d2cf-4948-8949-6466357b1be1",

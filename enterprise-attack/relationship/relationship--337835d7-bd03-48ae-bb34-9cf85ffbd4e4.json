@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bc370b3-8037-4384-a237-f1e2f04dd1be",
+    "id": "bundle--ead23378-b495-40f7-90f2-5d8a26ce973a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-03T19:46:55.191Z",
             "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) can create multiple TCP connections for a single session.(Citation: GitHub Neo-reGeorg 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bae6edd1-eb36-4581-ba7e-6cbfe0e24eac",

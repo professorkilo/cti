@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff8de5e4-0e4e-438d-9101-37e5479940b2",
+    "id": "bundle--d43b2870-5f03-4f94-b307-9fcb3d4461d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-03T19:46:57.631Z",
             "description": "[ZxShell](https://attack.mitre.org/software/S0412) has used HTTP for C2 connections.(Citation: Talos ZxShell Oct 2014) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",

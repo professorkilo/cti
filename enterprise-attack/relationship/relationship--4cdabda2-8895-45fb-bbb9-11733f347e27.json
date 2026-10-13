@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7944394e-0af2-469c-b8b2-3cd09a93c680",
+    "id": "bundle--bd5e0044-375c-4675-beff-6fccb3b50573",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.030Z",
+            "modified": "2026-09-03T19:46:59.483Z",
             "description": "[evilginx2](https://attack.mitre.org/software/S9003) can proxy HTTPS connections between victims and destination websites.(Citation: Evilginx 2 July 2018)(Citation: Breakdev Evilginx 2.4 SEP 2020)(Citation: Breakdev Evilginx 3.3 APR 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--1eb9627d-a661-4db6-bf53-41b7dcc63087",

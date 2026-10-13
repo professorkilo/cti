@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--538cfae3-779b-46b0-a247-801bca74ee85",
+    "id": "bundle--3851961c-6b7b-47eb-a86e-dbf2d5a309ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.097Z",
+            "modified": "2026-09-03T14:50:23.943Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can delete previously exfiltrated files from the compromised host.(Citation: Talos Promethium June 2020)(Citation: Bitdefender StrongPity June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

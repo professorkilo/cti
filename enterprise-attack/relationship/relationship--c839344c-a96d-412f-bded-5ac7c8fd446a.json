@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf28f0b9-90b1-4519-b957-4da66029819e",
+    "id": "bundle--a7da33ba-d769-4aba-9982-3b2bedf6c64a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-03T19:47:05.137Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) can download additional files.(Citation: ESET RTM Feb 2017)(Citation: Unit42 Redaman January 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",

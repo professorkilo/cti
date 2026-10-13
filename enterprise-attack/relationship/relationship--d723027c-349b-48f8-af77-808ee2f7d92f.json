@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--76805bd8-34e9-422b-b224-8d73993c2a0b",
+    "id": "bundle--b0d1b3c0-9bd9-4d50-a313-384f38871ea3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.219Z",
+            "modified": "2026-09-03T19:47:05.390Z",
             "description": "\n[Brute Ratel C4](https://attack.mitre.org/software/S1063) can download files to compromised hosts.(Citation: Palo Alto Brute Ratel July 2022)(Citation: Rapid7 Fake W2 July 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--75d8b521-6b6a-42ff-8af3-d97e20ce12a5",

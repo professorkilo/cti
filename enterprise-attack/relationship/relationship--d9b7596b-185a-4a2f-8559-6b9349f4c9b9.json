@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e4d225ec-b0ea-4b9e-89be-6d8d833a4e13",
+    "id": "bundle--83177981-fbdd-4686-b963-273190b1d1b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.222Z",
+            "modified": "2026-09-02T20:09:43.691Z",
             "description": "[Koadic](https://attack.mitre.org/software/S0250) can use SSL and TLS for communications.(Citation: Github Koadic)",
             "relationship_type": "uses",
             "source_ref": "tool--c8655260-9f4b-44e3-85e1-6538a5f6e4f4",

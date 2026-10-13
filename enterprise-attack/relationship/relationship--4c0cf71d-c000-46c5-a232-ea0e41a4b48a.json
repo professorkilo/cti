@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e6d29c2-2910-4ae2-93e2-108b9349b169",
+    "id": "bundle--071eb0de-1ed0-44d1-a968-d1d8e5736189",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:31.879Z",
+            "modified": "2026-09-03T19:46:53.629Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has tunneled C2 traffic via OpenSSH.(Citation: BlackBerry_FIN7_April2024)  ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",

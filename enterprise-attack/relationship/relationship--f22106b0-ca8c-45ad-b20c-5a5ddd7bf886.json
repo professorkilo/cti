@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1527983d-2b84-4e6e-8cb8-e03a4b7c7ba3",
+    "id": "bundle--851963a2-174e-4559-9997-e36d9c292006",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.254Z",
+            "modified": "2026-09-03T19:47:04.424Z",
             "description": "[ROKRAT](https://attack.mitre.org/software/S0240) can use HTTP and HTTPS for command and control communication.(Citation: Talos ROKRAT)(Citation: NCCGroup RokRat Nov 2018)(Citation: Malwarebytes RokRAT VBA January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--60a9c2f0-b7a5-4e8e-959c-e1a3ff314a5f",

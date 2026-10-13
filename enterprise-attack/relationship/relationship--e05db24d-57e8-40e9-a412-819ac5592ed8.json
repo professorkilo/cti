@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8209459b-50d4-4acf-8ecd-9bb12b3a973c",
+    "id": "bundle--3aa59721-32e3-4d08-87db-3d36b8aa03ec",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:47.797Z",
+            "modified": "2026-09-03T19:47:05.577Z",
             "description": "[INC Ransom](https://attack.mitre.org/groups/G1032) has downloaded tools to compromised servers including Advanced IP Scanner. (Citation: Huntress INC Ransom Group August 2023)(Citation: Huntress INC Ransomware May 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--cb41e991-65f4-4668-a65f-f4200545b5a1",

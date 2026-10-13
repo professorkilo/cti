@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--44ad38ae-b1da-435a-bab4-a85eec96dd84",
+    "id": "bundle--adee1ca7-9337-48af-9d76-8f6eb2a8ff5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:03.221Z",
+            "modified": "2026-09-03T19:47:01.036Z",
             "description": "[Winter Vivern](https://attack.mitre.org/groups/G1035) delivered a PowerShell script capable of recursively scanning victim machines looking for various file types before exfiltrating identified files via HTTP.(Citation: CERT-UA WinterVivern 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--75a07184-a7e5-4222-95a1-a04dbc96a29c",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6fcfca44-280d-4961-98aa-5e960894d67b",
+    "id": "bundle--6b24e313-4b45-4612-bcee-1e5bc60a8400",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-03T19:47:05.723Z",
             "description": "[IMAPLoader](https://attack.mitre.org/software/S1152) is a loader used to retrieve follow-on payload encoded in email messages for execution on victim systems.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--3058b264-fe6b-46be-8948-2d1fadaf8adf",

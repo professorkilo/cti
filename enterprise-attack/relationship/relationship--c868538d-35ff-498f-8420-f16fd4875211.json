@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dbf1bfa3-8f1d-4f2f-88df-6f889639182e",
+    "id": "bundle--e576524d-c957-45de-9525-d8104147fcfe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.199Z",
+            "modified": "2026-09-03T19:47:01.311Z",
             "description": "[InvisibleFerret](https://attack.mitre.org/software/S1245) has used HTTP communications to the \u201c/Uploads\u201d URI for file exfiltration.(Citation: Zscaler ContagiousInterview BeaverTail InvisibleFerret November 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--1dac60f2-7d53-4a3e-95d1-cb2e875d5491",

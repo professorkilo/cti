@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fd4bf22d-d8ea-413d-89ac-e9e2f5724aad",
+    "id": "bundle--586a9235-b366-4ca9-bffd-61876e174526",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-03T19:47:04.292Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can use HTTP to exfiltrate files to actor-controlled infrastructure.(Citation: FBI Lockbit 2.0 FEB 2022)(Citation: Cybereason StealBit Exfiltration Tool)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",

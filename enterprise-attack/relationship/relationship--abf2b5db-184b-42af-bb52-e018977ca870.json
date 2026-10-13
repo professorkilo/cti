@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6355d205-14a3-433a-b8dd-f0bfd94b6fea",
+    "id": "bundle--ed096dc2-e07d-4a59-aef2-266d16d2e309",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:47:02.767Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) uses HTTP and HTTPS to communicate with the C2 server. [Kazuar](https://attack.mitre.org/software/S0265) can also act as a webserver and listen for inbound HTTP requests through an exposed API.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",

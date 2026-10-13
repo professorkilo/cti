@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fc59a929-a63b-49ae-adfc-5929a2121a94",
+    "id": "bundle--583ba5fe-3da3-455d-88ea-d9ad3e893f5b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-03T19:47:04.188Z",
             "description": "[NightClub](https://attack.mitre.org/software/S1090) can load multiple additional plugins on an infected host.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--91c57ed3-7c32-4c68-b388-7db00cb8dac6",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9f4a0bd7-f55a-480f-96e3-22e422b32f3e",
+    "id": "bundle--a533dc4f-fbf3-4f33-97c3-1b62b86e21a6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:46:49.555Z",
             "description": "[PowerExchange](https://attack.mitre.org/software/S1173) can receive and send back the results of executed C2 commands through email.(Citation: Symantec Crambus OCT 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--2c9d23e7-bfd6-4e23-a512-aee3bc1474f4",

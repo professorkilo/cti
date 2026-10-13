@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07a8098a-de93-4a94-bec7-ec74e706e54d",
+    "id": "bundle--9502874b-82c3-4e10-852b-a53279cd4680",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.067Z",
+            "modified": "2026-09-03T19:46:48.713Z",
             "description": "[Zebrocy](https://attack.mitre.org/software/S0251) uses SMTP and POP3 for C2.(Citation: Palo Alto Sofacy 06-2018)(Citation: Unit42 Cannon Nov 2018)(Citation: ESET Zebrocy Nov 2018)(Citation: Unit42 Sofacy Dec 2018)(Citation: ESET Zebrocy May 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--a4f57468-fbd5-49e4-8476-52088220b92d",

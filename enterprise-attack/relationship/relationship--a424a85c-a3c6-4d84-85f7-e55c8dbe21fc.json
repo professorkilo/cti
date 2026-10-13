@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b2ae2ab4-e2df-42fe-8f1e-a348f2e4323c",
+    "id": "bundle--9b5f386d-61aa-4533-9dd2-ad38d4cc2e11",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.148Z",
+            "modified": "2026-09-08T20:28:08.716Z",
             "description": "Traffic to known anonymity networks and C2 infrastructure can be blocked through the use of network allow and block lists. It should be noted that this kind of blocking may be circumvented by other techniques like [Domain Fronting](https://attack.mitre.org/techniques/T1090/004).",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

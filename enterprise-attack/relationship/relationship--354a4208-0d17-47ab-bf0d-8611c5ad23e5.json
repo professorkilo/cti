@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--677abae4-7e99-4ce6-9776-52e8c1f5657d",
+    "id": "bundle--17dc7cc4-039c-4a30-a428-8e419919bdf6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.991Z",
+            "modified": "2026-09-03T19:46:47.988Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has utilized TLS record headers in network packets to impersonate various versions of TLS protocols to blend in with legitimate network traffic.  [StarProxy](https://attack.mitre.org/software/S1227) used FakeTLS to communicate with its C2 server.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

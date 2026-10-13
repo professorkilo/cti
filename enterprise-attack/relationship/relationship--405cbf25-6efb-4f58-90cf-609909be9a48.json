@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e717d9e6-a706-494e-a0d9-fad6bdae726e",
+    "id": "bundle--a9b3b2eb-5d88-4f79-9951-6a35dda4cd96",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:13.024Z",
+            "modified": "2026-09-03T19:46:55.384Z",
             "description": "[Ember Bear](https://attack.mitre.org/groups/G1003) retrieves follow-on payloads direct from adversary-owned infrastructure for deployment on compromised hosts.(Citation: Cadet Blizzard emerges as novel threat actor)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a7f57cc1-4540-4429-823f-f4e56b8473c9",

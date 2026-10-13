@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f93b314f-2483-4385-98d2-9ffe3b5b685c",
+    "id": "bundle--b3bec325-6032-4952-ac2f-9a90471b7a36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-03T19:47:04.913Z",
             "description": "[Turian](https://attack.mitre.org/software/S0647) can download additional files and tools from its C2.(Citation: ESET BackdoorDiplomacy Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--350f12cf-fd3b-4dad-b323-14b943090df4",

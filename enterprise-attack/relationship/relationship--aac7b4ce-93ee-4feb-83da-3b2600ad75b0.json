@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65934890-66ed-4c4b-8c6f-cc3ee81e015d",
+    "id": "bundle--8e12d9d1-d964-46f3-849b-a3ddf44be3a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.157Z",
+            "modified": "2026-09-03T19:47:00.785Z",
             "description": "[Imminent Monitor](https://attack.mitre.org/software/S0434) has uploaded a file containing debugger logs, network information and system information to the C2.(Citation: QiAnXin APT-C-36 Feb2019)",
             "relationship_type": "uses",
             "source_ref": "tool--8f8cd191-902c-4e83-bf20-b57c8c4640e9",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--40833fcd-27b3-43c3-af4e-a28db83f1ce4",
+    "id": "bundle--8a860823-e191-4b22-9126-d7974b64942f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.054Z",
+            "modified": "2026-09-03T19:47:00.080Z",
             "description": "[Crimson](https://attack.mitre.org/software/S0115) can use a HTTP GET request to download its final payload.(Citation: Proofpoint Operation Transparent Tribe March 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",

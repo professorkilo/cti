@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be04fbfa-5ef0-4bcf-80ef-f8569c98d7ec",
+    "id": "bundle--ddc700dd-eb39-42c0-a3bf-ccd129a37cdb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.110Z",
+            "modified": "2026-09-03T19:47:03.063Z",
             "description": "[PowerPunch](https://attack.mitre.org/software/S0685) can download payloads from adversary infrastructure.(Citation: Microsoft Actinium February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--d52291b4-bb23-45a8-aef0-3dc7e986ba15",

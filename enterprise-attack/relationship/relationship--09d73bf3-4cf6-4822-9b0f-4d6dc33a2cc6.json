@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d1bbd0a8-da42-4ea2-8477-fe1d4e572484",
+    "id": "bundle--50b15785-f065-4a47-acb3-6d881265bfde",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.917Z",
+            "modified": "2026-09-02T20:09:42.614Z",
             "description": "[PITSTOP](https://attack.mitre.org/software/S1123) has the ability to communicate over TLS.(Citation: Mandiant Cutting Edge Part 3 February 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d79b1800-3b5d-4a4f-8863-8251eca793e2",

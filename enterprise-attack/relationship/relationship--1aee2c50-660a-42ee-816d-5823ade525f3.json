@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--deccbaff-038a-47d0-9904-b1410419f20c",
+    "id": "bundle--901f04ff-bb0d-479b-a48f-b74d9dc9424e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.941Z",
+            "modified": "2026-09-03T19:46:54.059Z",
             "description": "[Gelsemium](https://attack.mitre.org/software/S0666) has the ability to use TCP and UDP in C2 communications.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b",

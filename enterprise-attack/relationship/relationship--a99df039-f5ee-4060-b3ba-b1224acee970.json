@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcd0d012-7a5f-49a3-b626-36fd65981e21",
+    "id": "bundle--47ffdae2-174a-424e-8843-ffe0ac4a127a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.156Z",
+            "modified": "2026-09-03T19:46:56.016Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can download additional modules from actor-controlled Amazon S3 buckets.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

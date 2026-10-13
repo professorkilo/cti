@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bda033f2-2b39-4119-b8f4-71bb8d8ea466",
+    "id": "bundle--1a381282-0769-46e1-9a2c-41b3d9de4687",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-02T18:23:57.203Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) will break large data sets into smaller chunks for exfiltration.(Citation: cobaltstrike manual)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

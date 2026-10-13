@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e3ed3919-31cc-4393-9736-0e87fc41adfb",
+    "id": "bundle--f799e8e2-782b-41a0-a64c-8b5a8a77a71c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.024Z",
+            "modified": "2026-09-03T19:46:59.226Z",
             "description": "[BoomBox](https://attack.mitre.org/software/S0635) has used HTTP POST requests for C2.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",

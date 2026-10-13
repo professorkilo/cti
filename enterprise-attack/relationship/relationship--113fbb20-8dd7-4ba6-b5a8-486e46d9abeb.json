@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--46c447d7-0cbf-47ec-8ea4-9828898919cb",
+    "id": "bundle--4fd5230a-e6d4-484c-ba77-9802d7ba525f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:30.473Z",
+            "modified": "2026-09-02T17:55:53.030Z",
             "description": "During [Night Dragon](https://attack.mitre.org/campaigns/C0002), threat actors used Trojans from underground hacker websites.(Citation: McAfee Night Dragon)",
             "relationship_type": "uses",
             "source_ref": "campaign--ae407e32-87e0-4d92-8705-3ae25d504d8a",

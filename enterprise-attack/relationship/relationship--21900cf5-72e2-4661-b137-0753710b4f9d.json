@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5710fdec-57ed-497f-92ee-759b050edf6b",
+    "id": "bundle--1e265b1a-ebe0-4f77-9a6a-23db6abad27d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.951Z",
+            "modified": "2026-09-03T19:46:56.658Z",
             "description": "[Torisma](https://attack.mitre.org/software/S0678) can send victim data to an actor-controlled C2 server.(Citation: McAfee Lazarus Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--0715560d-4299-4e84-9e20-6e80ab57e4f2",

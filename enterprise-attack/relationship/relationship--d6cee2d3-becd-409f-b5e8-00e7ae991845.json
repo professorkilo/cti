@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f757ad30-37b9-4c43-b853-456e268638f1",
+    "id": "bundle--60c7cd77-828f-49e4-aa8b-cb720ee8dc26",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.219Z",
+            "modified": "2026-09-03T19:47:03.806Z",
             "description": "[NETWIRE](https://attack.mitre.org/software/S0198) has the ability to communicate over HTTP.(Citation: Red Canary NETWIRE January 2020)(Citation: Proofpoint NETWIRE December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",

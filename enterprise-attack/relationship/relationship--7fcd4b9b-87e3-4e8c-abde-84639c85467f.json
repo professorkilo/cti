@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--106f7dd0-7ec7-40f9-bd78-f7f44caaea82",
+    "id": "bundle--8ace41dc-f6d5-4bc6-84ae-431797a07d8b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:04.072Z",
+            "modified": "2026-09-03T19:46:51.134Z",
             "description": "A [Turla](https://attack.mitre.org/groups/G0010) JavaScript backdoor has used Google Apps Script as its C2 server.(Citation: ESET Turla Mosquito Jan 2018)(Citation: ESET Turla Mosquito May 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

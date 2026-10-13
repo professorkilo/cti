@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dfd971a9-7721-4e24-b88e-f6330731cf2c",
+    "id": "bundle--307ed121-bd5f-4a3b-9cda-cb6ae2d5d361",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.201Z",
+            "modified": "2026-09-03T19:46:53.197Z",
             "description": "Network intrusion detection and prevention systems that use network signatures to identify traffic for specific adversary malware can be used to mitigate activity at the network level. ",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--12241367-a8b7-49b4-b86e-2236901ba50c",

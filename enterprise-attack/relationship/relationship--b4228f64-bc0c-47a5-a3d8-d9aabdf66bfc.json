@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--56345fdc-5853-48d3-8e8a-9f6db722a4e8",
+    "id": "bundle--e457e0ac-d7b4-4205-a022-5af02c068a6e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:47:02.925Z",
             "description": "[OnionDuke](https://attack.mitre.org/software/S0052) uses HTTP and HTTPS for C2.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--b136d088-a829-432c-ac26-5529c26d4c7e",

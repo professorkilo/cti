@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6eb56963-ee3e-4120-8770-7ef5c0c3abcc",
+    "id": "bundle--266e7c8f-5972-4eb8-8596-5985152387f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.162Z",
+            "modified": "2026-09-03T19:46:58.371Z",
             "description": "[Carbon](https://attack.mitre.org/software/S0335) uses TCP and UDP for C2.(Citation: ESET Carbon Mar 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--b7e9880a-7a7c-4162-bddb-e28e8ef2bf1f",

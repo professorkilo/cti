@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3cebb3b5-2388-4ba5-a399-4a99a05c8830",
+    "id": "bundle--a89a80dd-312b-48a0-8570-7b5c3b582cb9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:52.376Z",
+            "modified": "2026-09-03T19:47:00.357Z",
             "description": "[ZIRCONIUM](https://attack.mitre.org/groups/G0128) has exfiltrated files via the Dropbox API C2.(Citation: Zscaler APT31 Covid-19 October 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4283ae19-69c7-4347-a35e-b56f08eb660b",

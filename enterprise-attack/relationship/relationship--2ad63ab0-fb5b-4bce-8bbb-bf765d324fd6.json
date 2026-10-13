@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9dc9cf1f-0dfa-48d7-b845-5b90bd3377ac",
+    "id": "bundle--4a541349-6c1b-4ea9-bf38-5e4687782507",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.963Z",
+            "modified": "2026-09-02T19:42:04.079Z",
             "description": "[Grandoreiro](https://attack.mitre.org/software/S0531) can obtain C2 information from Google Docs.(Citation: Securelist Brazilian Banking Malware July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--958b5d06-8bb0-4c5b-a2e7-0130fe654ac7",

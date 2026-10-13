@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a813d692-7693-42d9-9dc3-3832e0361ab3",
+    "id": "bundle--43990266-45a4-4a21-813c-3c35a1ddb829",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-03T19:47:02.437Z",
             "description": "can download and execute a second-stage payload.(Citation: FireEye APT37 Feb 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--211cfe9f-2676-4e1c-a5f5-2c8091da2a68",

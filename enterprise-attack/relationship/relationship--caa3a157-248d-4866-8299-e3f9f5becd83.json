@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0933ed4c-ded0-4c37-a48b-4198aeff8de7",
+    "id": "bundle--3bbd9c74-104a-422d-aaae-b0455482a899",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.202Z",
+            "modified": "2026-09-03T19:46:59.023Z",
             "description": "[StealBit](https://attack.mitre.org/software/S1200) can use the Windows Socket networking library to communicate with attacker-controlled endpoints.(Citation: Cybereason StealBit Exfiltration Tool)\n",
             "relationship_type": "uses",
             "source_ref": "malware--cf8b27df-c494-4a0c-b093-556a80ad2bcf",

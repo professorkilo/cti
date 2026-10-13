@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5a5ff4b-d582-4c84-a9b3-dc28dd8defcb",
+    "id": "bundle--d507b6a5-ef56-4c02-994d-173822bb08e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.010Z",
+            "modified": "2026-09-02T20:07:46.525Z",
             "description": "Before being appended to image files, [HAMMERTOSS](https://attack.mitre.org/software/S0037) commands are encrypted with a key composed of both a hard-coded value and a string contained on that day's tweet. To decrypt the commands, an investigator would need access to the intended malware sample, the day's tweet, and the image file containing the command.(Citation: FireEye APT29)",
             "relationship_type": "uses",
             "source_ref": "malware--2daa14d6-cbf3-4308-bb8e-213c324a08e4",

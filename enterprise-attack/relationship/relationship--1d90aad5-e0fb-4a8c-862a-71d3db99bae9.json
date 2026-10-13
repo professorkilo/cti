@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cf68dbc-8ad9-454a-bb41-b3e33eda71cf",
+    "id": "bundle--8d63cea7-3d2a-4df4-8050-ba11782f6d12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:57.250Z",
+            "modified": "2026-09-03T19:46:53.249Z",
             "description": "[Orangeworm](https://attack.mitre.org/groups/G0071) has used HTTP for C2.(Citation: Symantec Orangeworm IOCs April 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--5636b7b3-d99b-4edd-aa05-ee649c1d4ef1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--672a2e0a-5ce2-45c1-944f-b9bdc697e5db",
+    "id": "bundle--0800af90-9b5c-4936-a968-c40d6f880a45",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.208Z",
+            "modified": "2026-09-03T19:47:05.280Z",
             "description": "[POWERSTATS](https://attack.mitre.org/software/S0223) can retrieve and execute additional [PowerShell](https://attack.mitre.org/techniques/T1059/001) payloads from the C2 server.(Citation: FireEye MuddyWater Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e8545794-b98c-492b-a5b3-4b5a02682e37",

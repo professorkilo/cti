@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee915ae6-01db-4463-a2a8-77489f5474d9",
+    "id": "bundle--7100a0a3-75e2-4240-a474-a21ae54b4ee3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:22.966Z",
+            "modified": "2026-09-08T20:28:08.236Z",
             "description": "[CopyKittens](https://attack.mitre.org/groups/G0052) has used the AirVPN service for operational activity.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dcd81c6e-ebf7-4a16-93e0-9a97fa49c88a",

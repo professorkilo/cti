@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55340742-ddaa-421b-b5f7-86b014973f74",
+    "id": "bundle--9e684a96-fbf4-4697-b64e-787050c372df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.034Z",
+            "modified": "2026-09-08T20:28:08.344Z",
             "description": "[Neo-reGeorg](https://attack.mitre.org/software/S1189) has the ability to establish a SOCKS5 proxy on a compromised web server.(Citation: GitHub Neo-reGeorg 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--bae6edd1-eb36-4581-ba7e-6cbfe0e24eac",

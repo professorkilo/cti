@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5ca3248-4f13-4660-ae0d-fa81c5124979",
+    "id": "bundle--89049220-f624-471f-af44-24a049b639c5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.273Z",
+            "modified": "2026-09-02T20:07:46.922Z",
             "description": "[Stealth Falcon](https://attack.mitre.org/groups/G0038) malware encrypts C2 traffic using RC4 with a hard-coded key.(Citation: Citizen Lab Stealth Falcon May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",

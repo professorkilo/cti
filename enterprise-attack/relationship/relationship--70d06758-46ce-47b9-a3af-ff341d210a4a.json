@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1f5ab5b-8042-4d58-be07-73fb5a86f43c",
+    "id": "bundle--7dad3b0f-6541-47d8-bce0-a4b80f5980b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.079Z",
+            "modified": "2026-09-03T19:47:02.383Z",
             "description": "[Latrodectus](https://attack.mitre.org/software/S1160) can download and execute PEs, DLLs, and shellcode from C2.(Citation: Latrodectus APR 2024)(Citation: Elastic Latrodectus May 2024)(Citation: Bitsight Latrodectus June 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--76fde8df-3495-47c9-82eb-125c4f7fb621",

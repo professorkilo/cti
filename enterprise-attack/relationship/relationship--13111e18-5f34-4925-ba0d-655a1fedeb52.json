@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0a6b81e5-5925-4ab9-bd47-e0fb537062e1",
+    "id": "bundle--044bbc51-9e38-494d-926e-53a5e395031c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.930Z",
+            "modified": "2026-09-02T19:42:04.040Z",
             "description": "The [KEYPLUG](https://attack.mitre.org/software/S1051) Windows variant has retrieved C2 addresses from encoded data in posts on tech community forums.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0de8fb4b-29e0-4c52-8866-c8bd2e27504a",
+    "id": "bundle--0b80fb09-3efc-4ee8-b334-d455ef747775",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.925Z",
+            "modified": "2026-09-03T19:46:50.723Z",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) establishes a backdoor over HTTP.(Citation: PaloAlto Patchwork Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",

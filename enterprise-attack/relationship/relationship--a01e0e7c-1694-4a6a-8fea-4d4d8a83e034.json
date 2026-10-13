@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6319ab69-e87b-4133-bec7-40b1d4a2f8f8",
+    "id": "bundle--1ff12e9f-9cd0-4b91-85dc-0a7cdb457024",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-08T20:28:08.679Z",
             "description": "[RainyDay](https://attack.mitre.org/software/S0629) can use proxy tools including boost_proxy_client for reverse proxy functionality.(Citation: Bitdefender Naikon April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--29231689-5837-4a7a-aafc-1b65b3f50cc7",

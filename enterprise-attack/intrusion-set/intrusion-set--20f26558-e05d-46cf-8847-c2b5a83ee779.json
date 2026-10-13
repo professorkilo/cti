@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4460cbb8-8a25-4b46-ab95-734b12555e55",
+    "id": "bundle--58970705-b3a4-4b45-9ff2-5281a586f2c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -70,7 +70,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:42.686Z",
+            "modified": "2026-09-02T17:31:48.218Z",
             "name": "TeamPCP",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) is a financially-motivated, cloud-native threat group that has been active since at least September 2025. Initially focused on ransomware and cryptocurrency theft, [TeamPCP](https://attack.mitre.org/groups/G1056) shifted in early 2026 to systematic, worm-driven credential theft and software supply chain attacks targeting Continuous Integration and Continuous Delivery (CI/CD) workflows. [TeamPCP](https://attack.mitre.org/groups/G1056) has monetized access through extortion and through partnerships with ransomware actors including Vect and CipherForce.(Citation: Wiz TeamPCP Profile MAY 2026)(Citation: Wiz Trivy Compromise MAR 2026)(Citation: Aqua Security Trivy Compromise MAR 2026)(Citation: Aqua Security Blog Trivy Compromise APR 2026)(Citation: Palo Alto TeamPCP MAR 2026)(Citation: Trend Micro TeamPCP MAY 2026)",
             "aliases": [
@@ -93,7 +93,8 @@
                 "Sareena Karapoola, NEC Corporation India",
                 "Dhanvarshini Gopalsamy, NEC Corporation India",
                 "Rajkumar Barot",
-                "Jose Moya Villalba"
+                "Jose Moya Villalba",
+                "Alberto Arroba Garc\u00eda"
             ]
         }
     ]

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0cd94400-c3c4-43ca-9253-5d71bc92fb46",
+    "id": "bundle--0586a87f-5470-470f-b6f5-eaeade02d70d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.945Z",
+            "modified": "2026-09-03T19:46:53.413Z",
             "description": "[StrelaStealer](https://attack.mitre.org/software/S1183) communicates externally via HTTP POST with encrypted content.(Citation: DCSO StrelaStealer 2022)(Citation: Fortgale StrelaStealer 2023)(Citation: IBM StrelaStealer 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--951313b3-6064-4ce0-b4b6-a153c3973da7",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--523ef132-280e-4f69-bbaa-02fed1035906",
+    "id": "bundle--158ced15-9fcf-4e84-990c-e4860fb7ba65",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-03T19:47:03.150Z",
             "description": "[down_new](https://attack.mitre.org/software/S0472) has the ability to use HTTP in C2 communications.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8be7c69e-d8e3-4970-9668-61de08e508cc",

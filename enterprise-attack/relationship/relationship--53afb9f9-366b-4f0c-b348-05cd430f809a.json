@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a98baa43-9285-4727-abd6-bcfc7eda3537",
+    "id": "bundle--ca40c572-965a-45a8-803f-4243ae878b3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.039Z",
+            "modified": "2026-09-03T19:47:01.313Z",
             "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) can download additional payloads to compromised hosts.(Citation: ESET OilRig Campaigns Sep 2023)(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a87c8100-8735-440e-8ee4-27aabb643592",

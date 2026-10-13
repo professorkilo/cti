@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e850bb42-7c8f-475e-be65-5e28d10bbba7",
+    "id": "bundle--ca821e23-29a0-46fd-8784-405f1ce80c36",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.220Z",
+            "modified": "2026-09-03T19:46:51.760Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used HTTP for C2.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

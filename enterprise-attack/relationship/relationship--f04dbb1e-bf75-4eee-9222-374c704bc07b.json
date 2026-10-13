@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6f92a727-e5ea-4f0a-a1a1-c9a8d995e267",
+    "id": "bundle--e2df6fae-f4d7-489a-9bfa-15deb841e9ce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.252Z",
+            "modified": "2026-09-03T19:46:55.799Z",
             "description": "[MacMa](https://attack.mitre.org/software/S1016) has used TLS encryption to initialize a custom protocol for C2 communications.(Citation: ESET DazzleSpy Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdee9574-7479-4073-a7dc-e86d8acd073a",

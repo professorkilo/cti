@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a3bd044c-269c-43cd-b0f5-979565f40360",
+    "id": "bundle--b24c41e6-3ea3-4a87-94aa-0cf2ab12389a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.250Z",
+            "modified": "2026-09-03T19:47:04.396Z",
             "description": "[DealersChoice](https://attack.mitre.org/software/S0243) uses HTTP for communication with the C2 server.(Citation: Sofacy DealersChoice)",
             "relationship_type": "uses",
             "source_ref": "malware--8f460983-1bbb-4e7e-8094-f0b5e720f658",

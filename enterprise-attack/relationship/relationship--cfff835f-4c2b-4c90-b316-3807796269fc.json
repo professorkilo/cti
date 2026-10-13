@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c3026167-1c04-482c-a891-093c4445ad91",
+    "id": "bundle--4d20fe01-4b09-459c-9f63-42d98fd7cfbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.210Z",
+            "modified": "2026-09-03T19:47:01.547Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) can exfiltrate data gathered from the infected system via the established Exchange Web Services API C2 channel.(Citation: Unit42 RDAT July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

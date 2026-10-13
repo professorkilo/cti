@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a68833af-c5ca-4c03-9cc0-014806320d4c",
+    "id": "bundle--27c67b10-9859-4d9a-9902-642b0f6db620",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.939Z",
+            "modified": "2026-09-03T19:46:58.053Z",
             "description": "[BackConfig](https://attack.mitre.org/software/S0475) can download and execute additional payloads on a compromised host.(Citation: Unit 42 BackConfig May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--c13d9621-aca7-436b-ab3d-3a95badb3d00",

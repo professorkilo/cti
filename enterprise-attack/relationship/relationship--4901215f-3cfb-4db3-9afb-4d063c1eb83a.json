@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--28594ac2-a532-43c4-9c0a-3ef9588212f7",
+    "id": "bundle--12050e86-26b2-43ca-8fe0-a0f719c3f422",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:59.277Z",
             "description": "[P.A.S. Webshell](https://attack.mitre.org/software/S0598) can issue commands via HTTP POST.(Citation: ANSSI Sandworm January 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4800d0f9-00aa-47cd-a4d2-92198585b8fd",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--125f5142-0547-4a3c-ac86-7b8d45236b90",
+    "id": "bundle--f1b46e8c-c5ee-43df-b97c-b73bcfc65b16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.020Z",
+            "modified": "2026-09-02T18:23:57.137Z",
             "description": "[Kessel](https://attack.mitre.org/software/S0487) can split the data to be exilftrated into chunks that will fit in subdomains of DNS queries.(Citation: ESET ForSSHe December 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--c984b414-b766-44c5-814a-2fe96c913c12",

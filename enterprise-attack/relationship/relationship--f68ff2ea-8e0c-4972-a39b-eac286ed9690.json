@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0075edd2-b8dc-43f9-9ebe-e9813bea438e",
+    "id": "bundle--9fcd5c50-6114-466b-a00a-457a6f51acfe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.260Z",
+            "modified": "2026-09-03T19:46:50.564Z",
             "description": "[TONESHELL](https://attack.mitre.org/software/S1239) used FakeTLS headers in network packets to impersonate various versions of TLS protocols to blend in with legitimate network traffic.(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: Zscaler)  [TONESHELL](https://attack.mitre.org/software/S1239) variants have utilized FakeTLS headers with the bytes `0x17 0x03 0x03` to represent TLSv1.2 and `0x17 0x03 0x04` for TLSv1.3.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--2683fde8-1dc4-415c-94bd-9bb95cc5b7ff",

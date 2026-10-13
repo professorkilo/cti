@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--48182c60-24c2-47f2-af2d-f32364da7e37",
+    "id": "bundle--10a02e7c-c5a8-4f79-8e0d-e4308b15d753",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:27.374Z",
+            "modified": "2026-09-03T19:47:03.626Z",
             "description": "During [FunnyDream](https://attack.mitre.org/campaigns/C0007), the threat actors downloaded additional droppers and backdoors onto a compromised system.(Citation: Bitdefender FunnyDream Campaign November 2020) ",
             "relationship_type": "uses",
             "source_ref": "campaign--8d2bc130-89fe-466e-a4f9-6bce6129c2b8",

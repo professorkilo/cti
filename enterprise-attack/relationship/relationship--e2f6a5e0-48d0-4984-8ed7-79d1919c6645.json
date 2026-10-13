@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07e8fc31-6c1e-4aca-8d57-6cc83071dcdc",
+    "id": "bundle--3549641f-23b3-4604-91c4-7783667c7c99",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-29T20:56:15.323Z",
+            "modified": "2026-09-03T19:47:01.794Z",
             "description": "[Mini Shai-Hulud](https://attack.mitre.org/software/S9043) has exfiltrated encrypted archives over C2 domains.(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--7f211b2e-c008-4cac-9ea8-29bd7edd50a4",

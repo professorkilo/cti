@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2bcce65-730f-41ff-ad5f-a0884e8ec542",
+    "id": "bundle--15dcc02c-ab2d-4558-8193-0796bdf28da5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -39,7 +39,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-03T19:47:02.092Z",
             "description": " [Sliver](https://attack.mitre.org/software/S0633) has the ability to support C2 communications over HTTP and HTTPS.(Citation: Cybersecurity Advisory SVR TTP May 2021)(Citation: Bishop Fox Sliver Framework August 2019)(Citation: GitHub Sliver C2)(Citation: Cybereason Sliver Undated)(Citation: Microsoft Sliver 2022)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

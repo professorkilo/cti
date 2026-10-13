@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7ba3c58d-4459-46dc-97b4-609da8cdb021",
+    "id": "bundle--4ae98d70-e2ef-4be8-9c00-cab2d3b23d03",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-02T20:07:47.509Z",
             "description": "[RedLeaves](https://attack.mitre.org/software/S0153) has encrypted C2 traffic with RC4, previously using keys of 88888888 and babybear.(Citation: PWC Cloud Hopper Technical Annex April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",

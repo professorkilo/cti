@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2ca9d47-6b67-408c-b90d-221a0344a88d",
+    "id": "bundle--0c695b2e-c5d9-4843-85a5-29a50aaf518c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.712Z",
+            "modified": "2026-09-02T17:31:48.981Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has deployed privileged DaemonSets to delete files on Kubernetes clusters and has executed recursive file deletions on non-containerized hosts.(Citation: Palo Alto TeamPCP MAR 2026)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

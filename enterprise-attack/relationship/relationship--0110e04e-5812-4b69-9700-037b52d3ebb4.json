@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bd58620f-be1c-4c2e-a8d7-deba77b405a3",
+    "id": "bundle--91b6ec05-d649-4181-a096-bccfea38b031",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.904Z",
+            "modified": "2026-09-03T19:46:54.216Z",
             "description": "[Pandora](https://attack.mitre.org/software/S0664) can load additional drivers and files onto a victim machine.(Citation: Trend Micro Iron Tiger April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--a545456a-f9a7-47ad-9ea6-8b017def38d1",

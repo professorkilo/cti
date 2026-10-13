@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--962d6edf-768a-452b-a08b-31cbcf2610eb",
+    "id": "bundle--5f8467be-6618-4188-b3c3-26975f5a4638",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:51.815Z",
+            "modified": "2026-09-03T19:46:51.313Z",
             "description": "[HEXANE](https://attack.mitre.org/groups/G1001) has used cloud services, including OneDrive, for C2.(Citation: Microsoft POLONIUM June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f29b7c5e-2439-42ad-a86f-9f8984fafae3",

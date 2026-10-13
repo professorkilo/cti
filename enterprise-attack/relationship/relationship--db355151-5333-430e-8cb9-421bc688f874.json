@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--01c752e5-7288-4f48-a538-8b7969f64557",
+    "id": "bundle--f7f8ce2f-24cf-4b3c-8aad-7c9d90ea3c49",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.225Z",
+            "modified": "2026-09-08T20:28:43.609Z",
             "description": "[StarProxy](https://attack.mitre.org/software/S1227) has proxied traffic between infected devices and their C2 servers.(Citation: Zscaler)",
             "relationship_type": "uses",
             "source_ref": "malware--e91d3543-ca5d-474b-8b20-5a753ebc6e49",

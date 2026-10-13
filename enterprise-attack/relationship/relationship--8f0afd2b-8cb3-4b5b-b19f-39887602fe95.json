@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--33149325-8f3e-42f8-b8b5-4b44339a2e4d",
+    "id": "bundle--103d5182-4bf2-4db3-af41-c71d1df71782",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.120Z",
+            "modified": "2026-09-03T19:47:03.276Z",
             "description": "[SHARPSTATS](https://attack.mitre.org/software/S0450) has the ability to upload and download files.(Citation: TrendMicro POWERSTATS V3 June 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--73c4711b-407a-449d-b269-e3b1531fe7a9",

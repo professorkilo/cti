@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3fb57bdb-f84a-481d-9ef4-500f91a055ea",
+    "id": "bundle--61117166-4862-4a22-a229-545377455305",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:32.193Z",
+            "modified": "2026-09-03T19:46:53.312Z",
             "description": "[FIN7](https://attack.mitre.org/groups/G0046) has performed C2 using DNS via A, OPT, and TXT records.(Citation: FireEye FIN7 Aug 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3753cc21-2dae-4dfb-8481-d004e74502cc",

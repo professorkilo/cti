@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb36ea2f-132f-4e7d-b8d3-00c095e83a6a",
+    "id": "bundle--0e720f35-adf9-45fb-8a1c-4126f24d4fa7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:12.656Z",
+            "modified": "2026-09-02T18:17:25.214Z",
             "description": "[Deep Panda](https://attack.mitre.org/groups/G0009) has updated and modified its malware, resulting in different hash values that evade detection.(Citation: Symantec Black Vine)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--a653431d-6a5e-4600-8ad3-609b5af57064",

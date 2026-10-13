@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e5e9d88c-b89c-46a6-914a-79a34d951b5a",
+    "id": "bundle--9f537287-82ef-4d3f-bd42-7c06f28a8bc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-03T19:46:59.437Z",
             "description": "\n[KEYPLUG](https://attack.mitre.org/software/S1051) can use TCP and KCP (KERN Communications Protocol) over UDP for C2 communication.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "malware--6c575670-d14c-4c7f-9b9d-fd1b363e255d",

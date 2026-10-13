@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e130e47-9459-424c-aca2-86d3684c3c7f",
+    "id": "bundle--fa34b45b-79c1-4e3a-9a84-4bcf385dbf1b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.078Z",
+            "modified": "2026-09-03T19:46:50.649Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) has the ability to use the Gmail web UI to receive commands and exfiltrate information.(Citation: ESET ComRAT May 2020)(Citation: CISA ComRAT Oct 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",

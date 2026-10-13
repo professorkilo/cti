@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e869698e-1bbb-4d50-8091-d8ddeed0c7d2",
+    "id": "bundle--f7de6bae-7437-4b40-a171-9b7019d971b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.112Z",
+            "modified": "2026-09-03T19:47:01.961Z",
             "description": "[Torisma](https://attack.mitre.org/software/S0678) can use HTTP and HTTPS for C2 communications.(Citation: McAfee Lazarus Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--0715560d-4299-4e84-9e20-6e80ab57e4f2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--050693b4-c39a-4c91-bb4e-7d43520085cb",
+    "id": "bundle--8c651d47-d522-40c6-aa0f-2f08db9a8cc2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:44.349Z",
+            "modified": "2026-09-03T19:46:49.138Z",
             "description": "[APT32](https://attack.mitre.org/groups/G0050)'s backdoor can exfiltrate data by encoding it in the subdomain field of DNS packets.(Citation: ESET OceanLotus Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--247cb30b-955f-42eb-97a5-a89fef69341e",

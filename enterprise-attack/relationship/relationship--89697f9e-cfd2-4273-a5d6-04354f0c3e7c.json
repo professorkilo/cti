@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--411b2805-1c14-4d43-9b3c-b6d6efdf97c5",
+    "id": "bundle--e652fb90-0160-404e-8839-d73915b0fb4b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.371Z",
+            "modified": "2026-09-03T19:46:57.378Z",
             "description": "[GALLIUM](https://attack.mitre.org/groups/G0093) has used [PsExec](https://attack.mitre.org/software/S0029) to move laterally between hosts in the target network.(Citation: Microsoft GALLIUM December 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--06a11b7e-2a36-47fe-8d3e-82c265df3258",

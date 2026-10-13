@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79c2098a-e76d-4dac-809a-d2f4297d8f34",
+    "id": "bundle--09b37f0b-9ca1-4417-bba9-37133177c5cd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.119Z",
+            "modified": "2026-09-02T20:07:47.204Z",
             "description": "[gh0st RAT](https://attack.mitre.org/software/S0032) uses RC4 and XOR to encrypt C2 traffic.(Citation: Nccgroup Gh0st April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--88c621a7-aef9-4ae0-94e3-1fc87123eb24",

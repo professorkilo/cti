@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f9728807-a689-4cc3-9a2a-162dade16883",
+    "id": "bundle--c989ca3c-8916-49aa-8a55-ea6eb083f1b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-02T20:09:42.648Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455)'s C2 communication has been encrypted using OpenSSL.(Citation: Medium Metamorfo Apr 2020) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

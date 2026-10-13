@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--17749f87-bf58-404b-82b5-de6c65fdb7a0",
+    "id": "bundle--675da6c4-a33a-43e2-a11d-5a3788918283",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-03T19:46:56.111Z",
             "description": "[BabyShark](https://attack.mitre.org/software/S0414) has encoded data using [certutil](https://attack.mitre.org/software/S0160) before exfiltration.(Citation: Unit42 BabyShark Feb 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d1b7830a-fced-4be3-a99c-f495af9d9e1b",

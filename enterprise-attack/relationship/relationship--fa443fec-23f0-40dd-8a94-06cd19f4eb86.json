@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f53c4fda-e74a-4a89-b985-f4af2a57b699",
+    "id": "bundle--366f5055-cc70-4ec6-a60c-349b5ab40b22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.265Z",
+            "modified": "2026-09-03T19:47:06.089Z",
             "description": "[Conficker](https://attack.mitre.org/software/S0608) downloads an HTTP server to the infected machine.(Citation: SANS Conficker)",
             "relationship_type": "uses",
             "source_ref": "malware--58eddbaf-7416-419a-ad7b-e65b9d4c3b55",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d648ec56-c8ed-4b0f-a972-9fe304407ee9",
+    "id": "bundle--dc209a55-88c8-4fe3-af7c-3efc68e9c1fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.089Z",
+            "modified": "2026-09-03T19:46:53.607Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) has the ability to modify headers and URL paths to hide malicious traffic in HTTP requests.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",

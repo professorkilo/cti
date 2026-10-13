@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e3dc67f-b6c7-4072-b39c-13d8a589f031",
+    "id": "bundle--21a0331e-08a1-472b-ab25-6666c7546324",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.903Z",
+            "modified": "2026-09-03T19:46:46.470Z",
             "description": "[Goopy](https://attack.mitre.org/software/S0477) has the ability to communicate with its C2 over DNS.(Citation: Cybereason Cobalt Kitty 2017)\t",
             "relationship_type": "uses",
             "source_ref": "malware--eac3d77f-2b7b-4599-ba74-948dc16633ad",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--642aeef8-eb43-45df-bee4-2031ea5be572",
+    "id": "bundle--e86946bf-1fdc-4427-a926-9c6805253f0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.002Z",
+            "modified": "2026-09-03T19:46:58.477Z",
             "description": "[BOOKWORM](https://attack.mitre.org/software/S1226) has communicated with its C2 via HTTP POST requests. (Citation: Unit42 Bookworm Nov2015)(Citation: Palo Alto Networks, Unit 42)",
             "relationship_type": "uses",
             "source_ref": "malware--2ceddaf9-b16a-4f8b-b252-bcccccd3d79f",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--424d0c2c-10af-40d7-b35a-730c49e4ca6d",
+    "id": "bundle--b1aaedd3-e0ef-46ff-8375-50e9f64ad519",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.232Z",
+            "modified": "2026-09-03T19:47:04.017Z",
             "description": "[Lokibot](https://attack.mitre.org/software/S0447) has used HTTP for C2 communications.(Citation: Infoblox Lokibot January 2019)(Citation: Talos Lokibot Jan 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--cb741463-f0fe-42e0-8d45-bc7e8335f5ae",

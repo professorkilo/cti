@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--99de1e87-ab90-44ec-95fe-5f0eeeabed37",
+    "id": "bundle--1163e590-d390-4f3e-b826-aba3e089cc97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.918Z",
+            "modified": "2026-09-03T19:46:54.462Z",
             "description": "[ANDROMEDA](https://attack.mitre.org/software/S1074) can download additional payloads from C2.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--dcd9548e-df9e-47c2-81f3-bc084289959d",

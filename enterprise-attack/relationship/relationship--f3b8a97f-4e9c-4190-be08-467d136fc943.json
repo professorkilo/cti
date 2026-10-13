@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23d25227-d994-4fee-80ff-817b7d5eaad2",
+    "id": "bundle--e6997656-5d92-43cc-bf91-e595bc9e5aa1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.256Z",
+            "modified": "2026-09-02T20:09:43.875Z",
             "description": "[CHOPSTICK](https://attack.mitre.org/software/S0023) encrypts C2 communications with TLS.(Citation: ESET Sednit Part 2)",
             "relationship_type": "uses",
             "source_ref": "malware--ccd61dfc-b03f-4689-8c18-7c97eab08472",

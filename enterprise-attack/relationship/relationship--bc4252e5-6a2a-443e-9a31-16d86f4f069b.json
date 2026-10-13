@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--905968fb-96d8-4eb4-a7d6-40fd7f4c4e52",
+    "id": "bundle--780428d7-9c27-4d8f-be0e-cf87f2c09ff0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:51.335Z",
+            "modified": "2026-09-03T14:50:24.075Z",
             "description": "(Citation: Bitdefender StrongPity June 2020)(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--efed95ba-d7e8-47ff-8c53-99c42426ee7c",

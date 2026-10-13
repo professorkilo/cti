@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3216691f-b703-4015-b1a2-017596ebeab4",
+    "id": "bundle--341d8ab9-8c09-4f4a-ab26-73b082f7792e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.241Z",
+            "modified": "2026-09-03T19:47:05.733Z",
             "description": "[SUNBURST](https://attack.mitre.org/software/S0559) delivered different payloads, including [TEARDROP](https://attack.mitre.org/software/S0560) in at least one instance.(Citation: FireEye SUNBURST Backdoor December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a8839c95-029f-44cf-8f3d-a3cf2039e927",

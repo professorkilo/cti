@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--24af807a-43d6-4f5d-a0b6-82cd73c96b77",
+    "id": "bundle--99a4bf7b-b5c5-4780-948f-accf57353ddf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.925Z",
+            "modified": "2026-09-09T18:39:16.421Z",
             "description": "[Linfo](https://attack.mitre.org/software/S0211) creates a backdoor through which remote attackers can change C2 servers.(Citation: Symantec Linfo May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fdc3d0e0-d266-4c82-90a2-49e97b21a846",
+    "id": "bundle--cdcd97fd-511e-49be-9524-28aa675e9181",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:42.536Z",
+            "modified": "2026-09-03T19:47:04.331Z",
             "description": "[Evilnum](https://attack.mitre.org/groups/G0120) can deploy additional components or tools as needed.(Citation: ESET EvilNum July 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1f0f9a14-11aa-49aa-9174-bcd0eaa979de",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d55808e7-3932-4af6-8926-f9c7aaa255b4",
+    "id": "bundle--0ec74d91-7f3f-48d1-b4a2-00ad2c682622",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-03T19:47:02.588Z",
             "description": "[Seasalt](https://attack.mitre.org/software/S0345) has a command to download additional files.(Citation: Mandiant APT1 Appendix)(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--b45747dc-87ca-4597-a245-7e16a61bc491",

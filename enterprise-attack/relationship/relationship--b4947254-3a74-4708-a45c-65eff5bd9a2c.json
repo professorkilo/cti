@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1fbd30e6-ed2a-4101-ac98-5c3f8ba02840",
+    "id": "bundle--d9b3727c-d43e-4aa9-872c-5067c1cd4a06",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.172Z",
+            "modified": "2026-09-03T19:46:52.444Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can be configured to use DNS for command and control.(Citation: Dell TG-3390)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

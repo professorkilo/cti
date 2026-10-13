@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e7509ad-935d-41e3-8436-81733018f7d2",
+    "id": "bundle--0dea33de-7bf6-4d68-b680-6f1ca22c0ad1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-03T19:46:58.194Z",
             "description": "[Seasalt](https://attack.mitre.org/software/S0345) uses HTTP for C2 communications.(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--b45747dc-87ca-4597-a245-7e16a61bc491",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4ecf20e-74cd-4b38-a3d6-ae3e9ec77415",
+    "id": "bundle--81c9939f-cefe-4536-89b9-c1eea9ab5240",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.154Z",
+            "modified": "2026-09-02T20:07:47.380Z",
             "description": "[Derusbi](https://attack.mitre.org/software/S0021) obfuscates C2 traffic with variable 4-byte XOR keys.(Citation: Fidelis Turbo)",
             "relationship_type": "uses",
             "source_ref": "malware--94379dec-5c87-49db-b36e-66abc0b81344",

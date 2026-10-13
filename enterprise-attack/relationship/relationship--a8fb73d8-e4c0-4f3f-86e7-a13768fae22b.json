@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6176536-3e58-4e13-bd12-119d00998c59",
+    "id": "bundle--c6bca5fa-0331-4003-94fd-87047e4d0c6d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.155Z",
+            "modified": "2026-09-03T19:46:57.766Z",
             "description": "[HermeticWizard](https://attack.mitre.org/software/S0698) can copy files to other machines on a compromised network.(Citation: ESET Hermetic Wizard March 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ff7ed9c1-dca3-4e62-9da6-72c5d388b8fa",

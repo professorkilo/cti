@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87ffb10f-9e61-4eea-8506-79fa74658710",
+    "id": "bundle--f35ed990-c1a1-42d8-b873-1f5f63e72735",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:28.115Z",
+            "modified": "2026-09-03T19:47:05.894Z",
             "description": "[Ajax Security Team](https://attack.mitre.org/groups/G0130) has used Wrapper/Gholee, custom-developed malware, which downloaded additional malware to the infected system.(Citation: Check Point Rocket Kitten)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fa19de15-6169-428d-9cd6-3ca3d56075b7",

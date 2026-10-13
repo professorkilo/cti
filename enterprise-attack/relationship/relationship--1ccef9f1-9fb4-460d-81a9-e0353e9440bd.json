@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d4f7ea6e-b5ac-45cc-85c9-c42752745b5c",
+    "id": "bundle--1516ba48-f4e4-4b12-a21c-ddef0d85161e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.944Z",
+            "modified": "2026-09-02T20:07:46.159Z",
             "description": "[QUIETCANARY](https://attack.mitre.org/software/S1076) can RC4 encrypt C2 communications.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--93289ecf-4d15-4d6b-a9c3-4ab27e145ef4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ced5ed91-9011-466f-9217-e35ba6aff7c0",
+    "id": "bundle--5ddecb5e-9ef5-4e5f-a36e-933629f75020",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.153Z",
+            "modified": "2026-09-09T18:39:16.965Z",
             "description": "[NETEAGLE](https://attack.mitre.org/software/S0034) will attempt to detect if the infected host is configured to a proxy. If so, [NETEAGLE](https://attack.mitre.org/software/S0034) will send beacons via an HTTP POST request; otherwise it will send beacons via UDP/6000.(Citation: FireEye APT30)",
             "relationship_type": "uses",
             "source_ref": "malware--53cf6cc4-65aa-445a-bcf8-c3d296f8a7a2",

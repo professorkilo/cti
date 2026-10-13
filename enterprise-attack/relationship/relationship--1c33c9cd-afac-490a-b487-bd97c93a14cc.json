@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bcb04447-4ffe-4499-b1c4-bcefa9c80eda",
+    "id": "bundle--4b74323f-5be1-4c2e-8f9a-0f0f94d26efd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.943Z",
+            "modified": "2026-09-03T19:46:58.217Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has downloaded files to a victim machine.(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

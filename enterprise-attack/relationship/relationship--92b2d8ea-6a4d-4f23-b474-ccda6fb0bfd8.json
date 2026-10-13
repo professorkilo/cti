@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c06467ce-2e94-4e9f-bbc9-6322cef80e27",
+    "id": "bundle--dd81fa1e-1173-4a34-993e-6f1efebe9549",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-03T19:47:02.184Z",
             "description": "Variants of [Kevin](https://attack.mitre.org/software/S1020) can communicate with C2 over HTTP.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

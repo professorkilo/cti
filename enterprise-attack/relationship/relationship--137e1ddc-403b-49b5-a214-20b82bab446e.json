@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63324cd3-276f-4773-84f9-17300f271a0c",
+    "id": "bundle--a64f45d5-1911-4e8f-a060-52ce45ee0cdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.931Z",
+            "modified": "2026-09-02T18:41:22.022Z",
             "description": "[Remsec](https://attack.mitre.org/software/S0125) contains a module to move data from airgapped networks to Internet-connected systems by using a removable USB device.(Citation: Kaspersky ProjectSauron Full Report)",
             "relationship_type": "uses",
             "source_ref": "malware--69d6f4a9-fcf0-4f51-bca7-597c51ad0bb8",

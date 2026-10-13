@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--82cc0669-1ff1-4994-a794-79ce813b7f91",
+    "id": "bundle--6f08c49b-e9f7-4b5f-8760-5361f3dc58f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.111Z",
+            "modified": "2026-09-08T20:28:43.305Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) can proxy C2 communications including to and from internal agents without internet connectivity.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",

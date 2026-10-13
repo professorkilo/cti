@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4931177f-f596-4ad9-872f-bcff891f5cbf",
+    "id": "bundle--1dffa6d9-2be5-4fb6-bdb1-74ef0df57daa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.141Z",
+            "modified": "2026-09-03T19:47:03.886Z",
             "description": "[BITSAdmin](https://attack.mitre.org/software/S0190) can be used to create [BITS Jobs](https://attack.mitre.org/techniques/T1197) to upload and/or download files.(Citation: Microsoft BITSAdmin)",
             "relationship_type": "uses",
             "source_ref": "tool--64764dc6-a032-495f-8250-1e4c06bdc163",

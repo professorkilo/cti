@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ffd12ff-c7ff-4f5b-997d-26f7790d3d1d",
+    "id": "bundle--46cfabbe-a6fa-4a73-8e01-d25ad7b0d5f2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-03T19:46:48.091Z",
             "description": "Limit the ability of servers and critical systems to initiate outbound email communications. Filtering SMTP/IMAP/POP3 traffic to only trusted mail servers reduces the risk of attackers using compromised systems to exfiltrate data via email or to receive commands from attacker-controlled email accounts.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--20f6a9df-37c4-4e20-9e47-025983b1b39d",

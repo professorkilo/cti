@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce16a573-1736-43ec-bc77-d6c3db377b3d",
+    "id": "bundle--9c4a814f-808f-46ad-a3f3-8221eaa0d70e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-03T19:46:54.540Z",
             "description": "[ZxxZ](https://attack.mitre.org/software/S1013) can download and execute additional files.(Citation: Cisco Talos Bitter Bangladesh May 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--97cfbdc6-504d-41e9-a46c-78a9f806ff0d",

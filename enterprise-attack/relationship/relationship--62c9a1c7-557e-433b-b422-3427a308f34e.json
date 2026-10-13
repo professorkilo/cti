@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c99e481f-b118-4ff6-b8b8-d6ac2c0bc26b",
+    "id": "bundle--50c29099-a7ad-421f-af31-59ca106980d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-02T18:05:13.050Z",
             "description": "Update software regularly to include patches that fix DLL side-loading vulnerabilities.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--e5d930e9-775a-40ad-9bdb-b941d8dfe86b",

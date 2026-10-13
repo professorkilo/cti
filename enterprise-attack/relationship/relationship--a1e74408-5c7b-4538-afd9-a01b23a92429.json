@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--809e611c-0e82-467f-9b99-24eeb1df4113",
+    "id": "bundle--1253f400-fbba-466e-a2a1-00dc669ce0a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-03T19:47:04.044Z",
             "description": "[Psylo](https://attack.mitre.org/software/S0078) has a command to download a file to the system from its C2 server.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",

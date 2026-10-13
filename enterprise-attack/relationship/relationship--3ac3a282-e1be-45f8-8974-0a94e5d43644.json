@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--80f4df61-6ab0-4b43-8f27-fb1b1e5a2891",
+    "id": "bundle--a589e581-7169-4d41-9dde-e987be4e8867",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.002Z",
+            "modified": "2026-09-09T18:39:16.622Z",
             "description": "[BISCUIT](https://attack.mitre.org/software/S0017) malware contains a secondary fallback command and control server that is contacted after the primary command and control server.(Citation: Mandiant APT1)(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--b8eb28e4-48a6-40ae-951a-328714f75eda",

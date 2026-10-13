@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eca61ea9-778f-46c1-a979-89bbb4b9dc07",
+    "id": "bundle--65bf28ae-0802-4e95-84eb-48fefde552f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.993Z",
+            "modified": "2026-09-02T20:07:46.426Z",
             "description": "[FALLCHILL](https://attack.mitre.org/software/S0181) encrypts C2 data with RC4 encryption.(Citation: US-CERT FALLCHILL Nov 2017)(Citation: CISA AppleJeus Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--fece06b7-d4b1-42cf-b81a-5323c917546e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e16c5dad-eb6f-4cd9-89ed-96d716b7a782",
+    "id": "bundle--82fdc56d-bc2f-4775-8102-532308c293e2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.247Z",
+            "modified": "2026-09-03T19:47:04.320Z",
             "description": "[VaporRage](https://attack.mitre.org/software/S0636) can use HTTP to download shellcode from compromised websites.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--96eca9b9-b37f-42f1-96dc-a2c441403194",

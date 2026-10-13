@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--394d8928-ffbe-4818-bc51-2e7a9d7fa10a",
+    "id": "bundle--84031be2-9ae9-4e69-bad3-7483bbc62f52",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.139Z",
+            "modified": "2026-09-02T20:07:47.329Z",
             "description": "[HyperStack](https://attack.mitre.org/software/S0537) has used RSA encryption for C2 communications.(Citation: Accenture HyperStack October 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--2cf7dec3-66fc-423f-b2c7-58f1de243b4e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--84b22ba3-db32-454d-b5cb-29cf534fcf6e",
+    "id": "bundle--e208817a-5a3d-4b0b-b11c-cfa4a9873317",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.399Z",
+            "modified": "2026-09-03T19:47:01.776Z",
             "description": "After data is collected by [Stealth Falcon](https://attack.mitre.org/groups/G0038) malware, it is exfiltrated over the existing C2 channel.(Citation: Citizen Lab Stealth Falcon May 2016)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--894aab42-3371-47b1-8859-a4a074c804c8",

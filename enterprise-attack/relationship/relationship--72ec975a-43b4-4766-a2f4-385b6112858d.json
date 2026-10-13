@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d67c942-c2ab-4338-aa01-f56795bb4021",
+    "id": "bundle--a10839a6-f560-4365-bdca-12c0bf95babd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-03T19:47:02.468Z",
             "description": "[TinyTurla](https://attack.mitre.org/software/S0668) has the ability to act as a second-stage dropper used to infect the system with additional malware.(Citation: Talos TinyTurla September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab",

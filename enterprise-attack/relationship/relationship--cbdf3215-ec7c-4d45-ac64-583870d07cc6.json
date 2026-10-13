@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2ad6c62-5bb4-4a86-87ee-141b4e838e21",
+    "id": "bundle--ecd3f621-bbae-4931-b84d-cb5d6d937662",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.930Z",
+            "modified": "2026-09-02T17:31:49.120Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has leased infrastructure specifically for offensive operations including Google assets in AS396982.(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: FBI TeamPCP JUL 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

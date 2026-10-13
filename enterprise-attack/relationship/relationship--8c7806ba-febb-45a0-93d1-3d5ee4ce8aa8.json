@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--454c048a-3fe9-4ab4-8181-41dd8b7e55d2",
+    "id": "bundle--f28553df-cc46-4a0f-beab-d581305d4425",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.117Z",
+            "modified": "2026-09-03T19:47:00.096Z",
             "description": "[Solar](https://attack.mitre.org/software/S1166) can send staged files to C2 for exfiltration.(Citation: ESET OilRig Campaigns Sep 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--b921a2fa-09fe-46b8-bd3c-8118781bf1f8",

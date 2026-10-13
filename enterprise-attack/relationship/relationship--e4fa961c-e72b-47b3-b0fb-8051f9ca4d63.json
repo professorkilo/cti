@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1883f037-55e0-4719-9baf-17ba95b12556",
+    "id": "bundle--000f9c61-4939-41e9-b75a-7200e1d7676e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.237Z",
+            "modified": "2026-09-02T20:07:47.897Z",
             "description": "[metaMain](https://attack.mitre.org/software/S1059) can encrypt the data that it sends and receives from the C2 server using an RC4 encryption algorithm.(Citation: SentinelLabs Metador Sept 2022)(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--df350889-4de9-44e5-8cb3-888b8343e97c",

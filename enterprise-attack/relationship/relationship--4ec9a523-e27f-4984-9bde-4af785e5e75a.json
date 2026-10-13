@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--25daa323-bc1d-4ed9-9b5a-671f39fcc7f9",
+    "id": "bundle--60e92f33-93dc-46fc-bdc2-930d8388a1ff",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.032Z",
+            "modified": "2026-09-03T19:46:50.783Z",
             "description": "Responses from the [Pisloader](https://attack.mitre.org/software/S0124) C2 server are base32-encoded.(Citation: Palo Alto DNS Requests)",
             "relationship_type": "uses",
             "source_ref": "malware--b96680d1-5eb3-4f07-b95c-00ab904ac236",

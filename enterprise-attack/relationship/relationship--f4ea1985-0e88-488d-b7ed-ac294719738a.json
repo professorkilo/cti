@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cc6cc5d8-2f36-4d86-9ef3-b9f29b7d448c",
+    "id": "bundle--6072d4c2-ca4c-4629-8647-bb594fef88ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.258Z",
+            "modified": "2026-09-03T19:47:06.024Z",
             "description": "[NETWIRE](https://attack.mitre.org/software/S0198) can downloaded payloads from C2 to the compromised host.(Citation: FireEye NETWIRE March 2019)(Citation: Proofpoint NETWIRE December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--2a70812b-f1ef-44db-8578-a496a227aef2",

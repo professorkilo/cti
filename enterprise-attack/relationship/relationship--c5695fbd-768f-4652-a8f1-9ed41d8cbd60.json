@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86f27b81-99d6-4cdd-8784-b442db416eb2",
+    "id": "bundle--ee91dc03-5456-48c5-ab28-325735e4f11c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.195Z",
+            "modified": "2026-09-02T20:07:47.636Z",
             "description": "[WIREFIRE](https://attack.mitre.org/software/S1115) can AES encrypt process output sent from compromised devices to C2.(Citation: Mandiant Cutting Edge January 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--c93e3079-43fb-4d8d-9e99-db63d07eadc9",

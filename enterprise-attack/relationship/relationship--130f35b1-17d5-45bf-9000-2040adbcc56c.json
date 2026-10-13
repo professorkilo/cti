@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e6844120-3c37-49fa-813e-ec071823cddf",
+    "id": "bundle--6a190826-575b-43e4-bd0c-5fe4cfbc6aa0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.930Z",
+            "modified": "2026-09-03T19:46:46.841Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) transforms encrypted binary data into an ASCII string in order to use it as a URL parameter value.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

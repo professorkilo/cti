@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--09355560-5e87-42b3-99aa-f59616530cad",
+    "id": "bundle--dd3d4b92-547d-44e5-87f1-ff6eb25038b9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.037Z",
+            "modified": "2026-09-03T19:46:59.694Z",
             "description": "[FELIXROOT](https://attack.mitre.org/software/S0267) uses HTTP and HTTPS to communicate with the C2 server.(Citation: FireEye FELIXROOT July 2018)(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--cf8df906-179c-4a78-bd6e-6605e30f6624",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eea30651-5c52-4446-a311-5b83719752b4",
+    "id": "bundle--628e3886-8291-4113-847f-bbfe9128c656",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.904Z",
+            "modified": "2026-09-03T19:46:46.549Z",
             "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) uses DNS for C2 communications.(Citation: Unit 42 QUADAGENT July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7e6c2a9d-9dc1-4eb0-b27c-91e8076a9d77",

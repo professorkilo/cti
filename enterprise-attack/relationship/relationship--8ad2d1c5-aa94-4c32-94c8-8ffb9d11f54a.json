@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--05011707-ccd5-4ecd-bacb-3d3fb8141b6a",
+    "id": "bundle--c3b0d4a1-c095-4d5c-9823-9b6998c4db05",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:46:58.042Z",
             "description": "Periodically investigate ESXi hosts for open VMCI ports. Running the `lsof -A` command and inspecting results with a type of `SOCKET_VMCI` will reveal processes that have open VMCI ports.(Citation: Google Cloud Threat Intelligence ESXi Hardening 2023)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--cc2399fd-3cd3-4319-8d0a-fbd6420cdaf8",

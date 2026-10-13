@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f6eaf2c-9a5b-4fca-9a8a-7eb80f4270af",
+    "id": "bundle--afdba49f-a733-491c-9b4e-4bcb465d3f7a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.002Z",
+            "modified": "2026-09-03T19:46:55.297Z",
             "description": "[esentutl](https://attack.mitre.org/software/S0404) can be used to copy files to/from a remote share.(Citation: LOLBAS Esentutl)",
             "relationship_type": "uses",
             "source_ref": "tool--c256da91-6dd5-40b2-beeb-ee3b22ab3d27",

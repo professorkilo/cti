@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5e3dc0e6-37c6-407c-b60e-b7ce1b543d91",
+    "id": "bundle--0d466adb-c21b-44e7-8736-947f28b0dcce",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:04.457Z",
+            "modified": "2026-09-02T18:17:25.382Z",
             "description": "Based on comparison of [Gazer](https://attack.mitre.org/software/S0168) versions, [Turla](https://attack.mitre.org/groups/G0010) made an effort to obfuscate strings in the malware that could be used as IoCs, including the mutex name and named pipe.(Citation: ESET Gazer Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

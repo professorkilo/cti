@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e5a4874-babd-410f-a9cd-212112d07654",
+    "id": "bundle--e9db5b60-0068-47dc-86ee-8158f3b147a2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.050Z",
+            "modified": "2026-09-02T20:07:46.744Z",
             "description": "[httpclient](https://attack.mitre.org/software/S0068) encrypts C2 content with XOR using a single byte, 0x12.(Citation: CrowdStrike Putter Panda)",
             "relationship_type": "uses",
             "source_ref": "malware--e8268361-a599-4e45-bd3f-71c8c7e700c0",

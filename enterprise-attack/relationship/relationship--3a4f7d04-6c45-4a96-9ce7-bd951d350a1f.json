@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5403519-ea9e-4d2d-82f3-308cd944fa60",
+    "id": "bundle--5a1c3785-9225-41b4-a782-a249e195db2d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-28T16:23:26.026Z",
+            "modified": "2026-09-03T19:47:00.068Z",
             "description": "[CanisterWorm](https://attack.mitre.org/software/S9042) has downloaded and executed binaries from dead drop URLs retrieved from ICP canister C2 nodes.(Citation: Aikido CanisterWorm MAR 2026)(Citation: Aikido TeamPCP Trivy MAR 2026) [CanisterWorm](https://attack.mitre.org/software/S9042) has also downloaded kubectl to compromised environments if it was not already installed.(Citation: Aikido CanisterWorm MAR 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--5b30f717-1d7b-4e91-a97d-be361d00aa5e",

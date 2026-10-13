@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e670018f-067f-4f1b-9aff-b0c938f0cf74",
+    "id": "bundle--ad0c9ccf-90fd-43f5-b78d-de7f31e79ee2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.190Z",
+            "modified": "2026-09-03T19:47:03.269Z",
             "description": "[VBShower](https://attack.mitre.org/software/S0442) has attempted to obtain a VBS script from command and control (C2) nodes over HTTP.(Citation: Kaspersky Cloud Atlas August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8caa18af-4758-4fd3-9600-e8af579e89ed",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb7bd974-4eea-4af9-9f35-4cf24afc4a2f",
+    "id": "bundle--a4b58a5a-1503-46fd-b4d9-99c57818dfc8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-03T19:46:58.983Z",
             "description": "[SystemBC](https://attack.mitre.org/software/S9001) has used raw TCP on non-standard ports, such as 4044, for C2 communications and for HTTP communications, which include downloading binaries.(Citation: SophosGnGal_SystemBC_Dec2020)(Citation: AhnLab_SystemBC_Apr2022)",
             "relationship_type": "uses",
             "source_ref": "malware--39643fb9-00c1-4a45-85e5-801a3f2665d1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bdb35b91-07be-4953-856d-a000466d1d76",
+    "id": "bundle--4b0b27dd-1498-4784-8cdc-4562c356bfd7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:27.702Z",
+            "modified": "2026-09-02T18:35:03.421Z",
             "description": "During the [SolarWinds Compromise](https://attack.mitre.org/campaigns/C0024), [APT29](https://attack.mitre.org/groups/G0016) exfiltrated collected data over a simple HTTPS request to a password-protected archive staged on a victim's OWA servers.(Citation: Volexity SolarWinds)",
             "relationship_type": "uses",
             "source_ref": "campaign--808d6b30-df4e-4341-8248-724da4bac650",

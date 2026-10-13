@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--18f44a94-de76-43d8-913f-ebaa0794d5af",
+    "id": "bundle--a36a630c-7cb7-4b83-9eff-539a7510df7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.074Z",
+            "modified": "2026-09-03T19:47:02.306Z",
             "description": "[CARROTBALL](https://attack.mitre.org/software/S0465) has the ability to download and install a remote payload.(Citation: Unit 42 CARROTBAT January 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--5fc81b43-62b5-41b1-9113-c79ae5f030c4",

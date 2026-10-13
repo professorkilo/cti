@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5bfaab11-1d3b-4b95-9adc-8d34f07bd741",
+    "id": "bundle--d5906a75-4237-4a98-87f8-c4a808b20772",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:59.291Z",
             "description": "[GreyEnergy](https://attack.mitre.org/software/S0342) uses HTTP and HTTPS for C2 communications.(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--86dc7bce-b335-40b6-bb75-e74599a6f874",
+    "id": "bundle--ab279c96-ff0f-45b5-ba96-eb9db36fc9b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-03T19:47:00.783Z",
             "description": "[Kapeka](https://attack.mitre.org/software/S1190) utilizes HTTP for command and control.(Citation: WithSecure Kapeka 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--a43e55c9-0b7c-42c0-81de-b7a42d724db9",

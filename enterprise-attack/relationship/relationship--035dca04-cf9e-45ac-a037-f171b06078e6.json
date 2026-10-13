@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dee4a04-02f6-4a58-aeb8-c592bb07814c",
+    "id": "bundle--0e5f7ef2-0c89-405f-8ae6-2c77bcc1ec7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.907Z",
+            "modified": "2026-09-03T19:46:52.853Z",
             "description": "[SodaMaster](https://attack.mitre.org/software/S0627) has the ability to download additional payloads from C2 to the targeted system.(Citation: Securelist APT10 March 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--94d6d788-07bb-4dcc-b62f-e02626b00108",

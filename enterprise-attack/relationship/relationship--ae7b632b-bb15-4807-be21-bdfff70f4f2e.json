@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--083b5bb8-88d4-4ebc-9987-265ee8eba169",
+    "id": "bundle--6a402fce-ca7e-4e1f-9533-5d890045ac79",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.163Z",
+            "modified": "2026-09-03T19:47:04.443Z",
             "description": "[PoisonIvy](https://attack.mitre.org/software/S0012) creates a backdoor through which remote attackers can upload files.(Citation: Symantec Darkmoon Aug 2005)",
             "relationship_type": "uses",
             "source_ref": "malware--b42378e0-f147-496f-992a-26a49705395b",

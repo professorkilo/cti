@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cf28f851-c00f-44a6-a30e-51cc60a05689",
+    "id": "bundle--3e931a66-fd7b-44f7-b1ff-75df4aca803f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:52.702Z",
+            "modified": "2026-09-03T19:47:04.235Z",
             "description": "[Rocke](https://attack.mitre.org/groups/G0106) has executed wget and curl commands to Pastebin over the HTTPS protocol.(Citation: Anomali Rocke March 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--44102191-3a31-45f8-acbe-34bdb441d5ad",

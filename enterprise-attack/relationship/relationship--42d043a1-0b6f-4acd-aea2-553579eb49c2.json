@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d39a7338-14bf-4ba5-b2bb-c7e01e39fe94",
+    "id": "bundle--1343317d-48c8-4836-b8b8-7cd9970fbd50",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:32.733Z",
+            "modified": "2026-09-02T18:23:57.124Z",
             "description": "During [C0026](https://attack.mitre.org/campaigns/C0026), the threat actors split encrypted archives containing stolen files and information into 3MB parts prior to exfiltration.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "campaign--c89fa3ff-4773-4daf-8aec-d8f43f10116e",

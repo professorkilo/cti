@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1c58040b-a21a-47b6-a96f-a56183a2214f",
+    "id": "bundle--91f4e32d-370c-4557-8740-376ce2166b95",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:35.789Z",
+            "modified": "2026-09-03T19:46:55.744Z",
             "description": "[OilRig](https://attack.mitre.org/groups/G0049) has used the Plink utility and other tools to create tunnels to C2 servers.(Citation: Unit42 OilRig Playbook 2023)(Citation: FireEye APT34 Webinar Dec 2017)(Citation: FireEye APT34 July 2019)(Citation: Symantec Crambus OCT 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--4ca1929c-7d64-4aab-b849-badbfc0c760d",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6458feca-c342-4ed4-b508-81c5994f2bcb",
+    "id": "bundle--8192b4c8-7654-4c32-9c68-f87221acab47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.959Z",
+            "modified": "2026-09-03T19:46:56.114Z",
             "description": "[Ixeshe](https://attack.mitre.org/software/S0015) uses HTTP for command and control.(Citation: Moran 2013)(Citation: Trend Micro IXESHE 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--8beac7c2-48d2-4cd9-9b15-6c452f38ac06",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--75fa6aff-0596-4164-a452-4eec01472a41",
+    "id": "bundle--65c82fa9-b613-40fc-972d-5f185cbe28dd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.258Z",
+            "modified": "2026-09-03T19:47:06.013Z",
             "description": "[JSS Loader](https://attack.mitre.org/software/S0648) has the ability to download malicious executables to a compromised host.(Citation: CrowdStrike Carbon Spider August 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f559f945-eb8b-48b1-904c-68568deebed3",

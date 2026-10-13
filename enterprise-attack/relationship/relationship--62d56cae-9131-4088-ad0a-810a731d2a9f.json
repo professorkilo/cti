@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a4a8a90d-e308-40b8-8cb7-18463eec5a24",
+    "id": "bundle--d60831d8-16d4-4b6a-ac14-33eb4dc10307",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.059Z",
+            "modified": "2026-09-08T20:28:08.418Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can use SOCKS4 and SOCKS5 proxies to connect to actor-controlled C2 servers. [BADHATCH](https://attack.mitre.org/software/S1081) can also emulate a reverse proxy on a compromised machine to connect with actor-controlled C2 servers.(Citation: BitDefender BADHATCH Mar 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",

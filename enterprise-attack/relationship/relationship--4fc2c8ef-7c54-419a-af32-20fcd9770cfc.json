@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eaa8f566-a9dc-4439-8837-426218c0e607",
+    "id": "bundle--ecb28026-fe12-489c-8525-0588b3b5e601",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.034Z",
+            "modified": "2026-09-03T19:47:01.226Z",
             "description": "[RIFLESPINE](https://attack.mitre.org/software/S1222) can download and execute files.(Citation: Google Cloud Mandiant UNC3886 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--d0270367-37fc-471e-9206-483582c5f47d",

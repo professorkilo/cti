@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c0f30797-a8ea-4348-bf52-5361f180b32f",
+    "id": "bundle--85630c7a-8a2a-4ac6-bc28-f3120d640c28",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.990Z",
+            "modified": "2026-09-03T14:50:23.828Z",
             "description": "[StrongPity](https://attack.mitre.org/software/S0491) can identify the IP address of a compromised host.(Citation: Talos Promethium June 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--20945359-3b39-4542-85ef-08ecb4e1c174",

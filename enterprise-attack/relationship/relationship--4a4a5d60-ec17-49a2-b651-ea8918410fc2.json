@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9b4986ab-8d2d-4304-8226-de4a1ea65fae",
+    "id": "bundle--4301900e-5b99-4f51-a0b9-49dd186bd511",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-06-13T12:07:50.834Z",
+            "modified": "2026-09-03T19:46:59.350Z",
             "description": "[JHUHUGIT](https://attack.mitre.org/software/S0044) variants have communicated with C2 servers over HTTP and HTTPS.(Citation: ESET Sednit Part 1)(Citation: Unit 42 Sofacy Feb 2018)(Citation: Unit 42 Playbook Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--8ae43c46-57ef-47d5-a77a-eebb35628db2",

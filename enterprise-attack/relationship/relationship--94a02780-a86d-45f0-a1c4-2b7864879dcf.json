@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--124d71fa-e104-4f71-b9ed-d3818a42fea6",
+    "id": "bundle--0a94a40d-865c-41b2-b88e-8e50cafdc60a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-03T19:47:02.231Z",
             "description": "[HTTPTroy](https://attack.mitre.org/software/S9007) has used HTTP POST requests to communicate with C2.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--52b52f72-88e6-4847-88d6-da3b9e4a4f71",

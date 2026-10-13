@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--547b1d23-6bb9-41e8-97d6-963afeb5b848",
+    "id": "bundle--82a21939-b450-4b2d-9322-127ba0afa4b3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:22.271Z",
+            "modified": "2026-09-02T17:55:53.061Z",
             "description": "For [Operation Spalax](https://attack.mitre.org/campaigns/C0005), the threat actors obtained malware, including [Remcos](https://attack.mitre.org/software/S0332), [njRAT](https://attack.mitre.org/software/S0385), and AsyncRAT.(Citation: ESET Operation Spalax Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "campaign--4c840263-bbda-440d-a22b-674679ddebf1",

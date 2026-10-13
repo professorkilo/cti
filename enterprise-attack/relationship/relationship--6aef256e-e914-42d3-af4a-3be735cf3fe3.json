@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4fdfa285-8851-41da-a693-17f99a1e245c",
+    "id": "bundle--47276031-95d6-4295-80f3-82afbeb185f6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:51.321Z",
+            "modified": "2026-09-02T18:35:03.301Z",
             "description": "[CURIUM](https://attack.mitre.org/groups/G1012) has used SMTPS to exfiltrate collected data from victims.(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3ea7add5-5b8f-45d8-b1f1-905d2729d62a",

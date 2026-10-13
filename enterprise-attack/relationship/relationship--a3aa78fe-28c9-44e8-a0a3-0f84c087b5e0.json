@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6d00b083-d28f-49a5-9ea7-a5e288a42280",
+    "id": "bundle--b2c4193a-8ac3-4617-a06d-6d2273ee764d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.148Z",
+            "modified": "2026-09-02T20:09:43.377Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) can use RSA asymmetric encryption with PKCS1 padding to encrypt data sent to the C2 server.(Citation: Talos Cobalt Strike September 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

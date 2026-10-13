@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--203752f1-c495-47b7-8994-476385d652f9",
+    "id": "bundle--338961df-5740-4a06-bc5d-a19f842a005a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.912Z",
+            "modified": "2026-09-08T20:29:08.401Z",
             "description": "[QUIETEXIT](https://attack.mitre.org/software/S1084) can proxy traffic via SOCKS.(Citation: Mandiant APT29 Eye Spy Email Nov 22)",
             "relationship_type": "uses",
             "source_ref": "malware--4816d361-f82b-4a18-aa05-b215e7cf9200",

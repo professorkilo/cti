@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--94911148-a683-4860-8dcf-a59cdca360a0",
+    "id": "bundle--1f4d82ac-1772-40d9-b436-eb34d0b2a533",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.250Z",
+            "modified": "2026-09-03T19:46:58.763Z",
             "description": "[QUIETCANARY](https://attack.mitre.org/software/S1076) can base64 encode C2 communications.(Citation: Mandiant Suspected Turla Campaign February 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--93289ecf-4d15-4d6b-a9c3-4ab27e145ef4",

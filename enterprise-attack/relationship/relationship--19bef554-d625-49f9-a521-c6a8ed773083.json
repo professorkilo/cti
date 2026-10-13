@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3bc7a7ca-6248-4ea4-a7c6-2e4365319458",
+    "id": "bundle--b9c9cc15-cf80-4c5b-b544-648fdb243eb8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:28.173Z",
+            "modified": "2026-09-03T19:46:52.756Z",
             "description": "[Magic Hound](https://attack.mitre.org/groups/G0059) has used Plink to tunnel RDP over SSH.(Citation: DFIR Phosphorus November 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f9d6633a-55e6-4adc-9263-6ae080421a13",

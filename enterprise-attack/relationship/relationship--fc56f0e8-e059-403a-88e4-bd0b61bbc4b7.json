@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--02a802a2-2913-4daa-9f84-e82896b1bb2f",
+    "id": "bundle--307a2d1c-7f87-4ba6-9029-ac3d4ad7e12e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-02T19:42:04.487Z",
             "description": "[Xbash](https://attack.mitre.org/software/S0341) can obtain a webpage hosted on Pastebin to update its C2 domain list.(Citation: Unit42 Xbash Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6a92d80f-cc65-45f6-aa66-3cdea6786b3c",

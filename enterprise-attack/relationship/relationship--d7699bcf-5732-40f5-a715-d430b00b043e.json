@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b24aa0ea-a338-4d4c-a618-8f8405609476",
+    "id": "bundle--164debc6-bad0-44fa-9989-d3469cc48f76",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.219Z",
+            "modified": "2026-09-03T19:47:05.400Z",
             "description": "[Mivast](https://attack.mitre.org/software/S0080) has the capability to download and execute .exe files.(Citation: Symantec Backdoor.Mivast)",
             "relationship_type": "uses",
             "source_ref": "malware--fbb470da-1d44-4f29-bbb3-9efbe20f94a3",

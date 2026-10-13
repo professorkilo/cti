@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--70e20af1-3dc4-4864-9a0e-a8b972fa6a0c",
+    "id": "bundle--86d94b84-fb65-44b2-9c1d-1138f95f7a47",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.918Z",
+            "modified": "2026-09-03T19:46:54.195Z",
             "description": "[macOS.OSAMiner](https://attack.mitre.org/software/S1048) has used `curl` to download a [Stripped Payloads](https://attack.mitre.org/techniques/T1027/008) from a public facing adversary-controlled webpage. ",
             "relationship_type": "uses",
             "source_ref": "malware--2a59a237-1530-4d55-91f9-2aebf961cc37",

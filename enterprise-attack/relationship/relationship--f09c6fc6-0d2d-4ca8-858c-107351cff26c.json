@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7e28e526-8ce3-4dd3-b287-71006cb0ca5f",
+    "id": "bundle--53300a54-88c4-437e-9fae-8e449bd92e3d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:11:46.183Z",
+            "modified": "2026-09-08T20:28:44.066Z",
             "description": "During [APT28 Nearest Neighbor Campaign](https://attack.mitre.org/campaigns/C0051), [APT28](https://attack.mitre.org/groups/G0007) used the built-in <code>netsh portproxy</code> command to create internal proxies on compromised systems.(Citation: Nearest Neighbor Volexity)",
             "relationship_type": "uses",
             "source_ref": "campaign--a010610e-22cb-437e-bfde-b78861bdca7a",

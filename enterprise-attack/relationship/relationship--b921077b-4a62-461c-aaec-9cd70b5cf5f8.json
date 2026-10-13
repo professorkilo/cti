@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93d42c63-37ac-4c25-b14e-72d8dc33b602",
+    "id": "bundle--14f928b6-7ff1-47a8-b966-bc1bb66f6081",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.178Z",
+            "modified": "2026-09-09T18:39:17.055Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can assign hard-coded fallback domains for C2.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

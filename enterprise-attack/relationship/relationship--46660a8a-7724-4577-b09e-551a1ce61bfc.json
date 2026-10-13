@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3413207c-ba82-41e4-944e-5b22cec31eed",
+    "id": "bundle--a329362b-282e-40ba-953c-3ba2671c595f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Symantec W32.Duqu",
                     "description": "Symantec Security Response. (2011, November). W32.Duqu: The precursor to the next Stuxnet. Retrieved September 17, 2015.",
-                    "url": "https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
+                    "url": "https://web.archive.org/web/20111213083345/https://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/w32_duqu_the_precursor_to_the_next_stuxnet.pdf"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-06-12T15:51:16.722Z",
             "description": "[Duqu](https://attack.mitre.org/software/S0038) creates a new service that loads a malicious driver when the system starts. When Duqu is active, the operating system believes that the driver is legitimate, as it has been signed with a valid private key.(Citation: Symantec W32.Duqu)",
             "relationship_type": "uses",
             "source_ref": "malware--68dca94f-c11d-421e-9287-7c501108e18c",

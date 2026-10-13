@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fb4ae771-b774-429d-b317-d1cfe46ca57b",
+    "id": "bundle--29b5037a-3f8c-4409-b878-f4fbc2916b75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-03T19:47:03.056Z",
             "description": "[DRATzarus](https://attack.mitre.org/software/S0694) can use HTTP or HTTPS for C2 communications.(Citation: ClearSky Lazarus Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--56aa3c82-ed40-4b5a-84bf-7231356d9e96",

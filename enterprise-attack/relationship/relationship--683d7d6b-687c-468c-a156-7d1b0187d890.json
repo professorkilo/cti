@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9af6125a-0845-4487-835c-51bbd87f7c0b",
+    "id": "bundle--1c7ba585-af06-4195-8e06-6f553b31abbe",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.067Z",
+            "modified": "2026-09-02T18:35:03.272Z",
             "description": "[BRUSHFIRE](https://attack.mitre.org/software/S9011) has the ability to exfiltrate data on-demand through executing commands obtained via monitoring for specially crafted packets and sending output back in an embedded SSL response.(Citation: Picus Security UNC5221 Ivanti May 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--e110c9c6-7691-4bcb-874d-3d83a63c06c2",

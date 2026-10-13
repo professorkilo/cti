@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--050d32f2-ef5a-48b7-857f-d2bf1911b377",
+    "id": "bundle--49d1fcca-172d-4685-94c7-49bdfb124def",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.145Z",
+            "modified": "2026-09-03T19:46:50.165Z",
             "description": "[ZxShell](https://attack.mitre.org/software/S0412) has used FTP for C2 connections.(Citation: Talos ZxShell Oct 2014) ",
             "relationship_type": "uses",
             "source_ref": "malware--cfc75b0d-e579-40ae-ad07-a1ce00d49a6c",

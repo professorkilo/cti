@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--07ef39d3-ecf9-414c-b878-5603190228f9",
+    "id": "bundle--06c5bd38-29b2-43e9-9bc7-164106a324ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.935Z",
+            "modified": "2026-09-02T20:09:42.689Z",
             "description": "[TinyTurla](https://attack.mitre.org/software/S0668) has the ability to encrypt C2 traffic with SSL/TLS.(Citation: Talos TinyTurla September 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--2a7c1bb7-cd12-456e-810d-ab3bf8457bab",

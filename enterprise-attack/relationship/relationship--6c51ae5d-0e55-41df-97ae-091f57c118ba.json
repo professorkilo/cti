@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--713e7178-febf-4d82-984a-b226edc8cf04",
+    "id": "bundle--60c0bc11-b567-4fb0-b22d-9f70e42c79e3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.072Z",
+            "modified": "2026-09-02T19:42:04.235Z",
             "description": "[Tsundere Botnet](https://attack.mitre.org/software/S9034) has obtained the C2 address from Ethereum blockchain nodes.(Citation: SecureListUbiedo_Tsundere_Nov2025)(Citation: CAL_MuddyWater_Mar2026)  ",
             "relationship_type": "uses",
             "source_ref": "malware--18f5f8c6-bba5-4aba-93e7-3539fe565883",

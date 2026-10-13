@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4737ddb-bbcd-462d-b78b-66a0be87e904",
+    "id": "bundle--e4db47c4-2a8e-4447-a4b7-a5c7833eed12",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.085Z",
+            "modified": "2026-09-03T19:46:54.929Z",
             "description": "[ShrinkLocker](https://attack.mitre.org/software/S1178) uses a subdomain on the legitimate Cloudflare resource \"trycloudflare[.]com\" to obfuscate the threat actor's actual address and to tunnel information sent from victim systems.(Citation: Kaspersky ShrinkLocker 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3fc44c12-b16e-4de1-8869-cf0eb4446070",

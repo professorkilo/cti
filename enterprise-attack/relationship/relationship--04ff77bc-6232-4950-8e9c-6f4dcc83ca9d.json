@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ee176663-f336-4b04-a083-2cd6c878f510",
+    "id": "bundle--4ee06212-d783-4459-88dc-04c1ee0b4fdd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.910Z",
+            "modified": "2026-09-03T19:46:46.824Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has used DNS TXT requests as for its C2 communication.(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",

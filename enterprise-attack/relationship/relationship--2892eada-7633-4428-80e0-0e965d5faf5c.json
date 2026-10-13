@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a6e0581b-e60c-424b-b56a-84da984b6942",
+    "id": "bundle--362e69b1-6a40-488c-a0f4-73abd082ee23",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.960Z",
+            "modified": "2026-09-03T19:46:56.209Z",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) has used both HTTP and HTTPS for C2.(Citation: DustySky)",
             "relationship_type": "uses",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",

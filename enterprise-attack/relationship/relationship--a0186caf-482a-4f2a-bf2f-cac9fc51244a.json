@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a8384fdb-0d8c-468e-a9d7-c7aeed9b33b1",
+    "id": "bundle--3d11daff-9968-4e5d-bbfa-65f0e9baf808",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-03T19:47:03.958Z",
             "description": "[Crimson](https://attack.mitre.org/software/S0115) contains a command to retrieve files from its C2 server.(Citation: Proofpoint Operation Transparent Tribe March 2016)(Citation: Kaspersky Transparent Tribe August 2020)(Citation: Cisco Talos Transparent Tribe Education Campaign July 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--326af1cd-78e7-45b7-a326-125d2f7ef8f2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--21edc866-9709-472d-8930-841a7e38b428",
+    "id": "bundle--020d38e9-e5c9-4be2-837f-11f62225d13a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.981Z",
+            "modified": "2026-09-03T19:46:53.203Z",
             "description": "[reGeorg](https://attack.mitre.org/software/S1187) can tunnel TCP sessions including RDP, SSH, and SMB through HTTP.(Citation: Fortinet reGeorg MAR 2019)(Citation: Mandiant APT29 Eye Spy Email Nov 22)(Citation: Cadet Blizzard emerges as novel threat actor)",
             "relationship_type": "uses",
             "source_ref": "malware--0e17b066-50dd-4c2f-83bf-205c5eb2bb34",

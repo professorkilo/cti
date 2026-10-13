@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d13bed46-4d9a-4524-a31f-7e52ba4f5c4f",
+    "id": "bundle--8bb517da-59c0-4e01-8c43-77a93bc3c6ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.919Z",
+            "modified": "2026-09-03T19:46:54.242Z",
             "description": "[BlackCat](https://attack.mitre.org/software/S1068) can replicate itself across connected servers via `psexec`.(Citation: Microsoft BlackCat Jun 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--50c44c34-3abb-48ae-9433-a2337de5b0bc",

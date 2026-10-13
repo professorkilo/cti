@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1993c28-0086-4ce2-83e8-029b33cce507",
+    "id": "bundle--31650cdf-089a-43de-a9ea-bd49e6124406",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.146Z",
+            "modified": "2026-09-03T19:47:04.062Z",
             "description": "[GreyEnergy](https://attack.mitre.org/software/S0342) can download additional modules and payloads.(Citation: ESET GreyEnergy Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--308b3d68-a084-4dfb-885a-3125e1a9c1e8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--37c0604c-4381-422f-896c-0e771d6b54a2",
+    "id": "bundle--93517f19-78fb-4bb1-b391-facdd25762a3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.928Z",
+            "modified": "2026-09-03T19:46:47.643Z",
             "description": "Variants of [Kevin](https://attack.mitre.org/software/S1020) can communicate over DNS through queries to the server for constructed domain names with embedded information.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

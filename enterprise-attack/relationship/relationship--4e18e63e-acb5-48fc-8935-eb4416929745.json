@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c7dc87eb-b9ae-4e04-a2ea-ae7b77ae4693",
+    "id": "bundle--8f8d29f6-8221-45a0-a5ab-639de5284bd6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-03T19:46:58.753Z",
             "description": "[Metamorfo](https://attack.mitre.org/software/S0455) can send the data it collects to the C2 server.(Citation: ESET Casbaneiro Oct 2019) ",
             "relationship_type": "uses",
             "source_ref": "malware--81c57a96-fc8c-4f91-af8e-63e24c2927c2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c045d740-5dc1-4194-9ef1-aa6643e8d3ef",
+    "id": "bundle--d56c1c26-6e83-4709-b9db-96f5c191baf4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.142Z",
+            "modified": "2026-09-03T19:47:03.932Z",
             "description": "[Kerrdown](https://attack.mitre.org/software/S0585) can download specific payloads to a compromised host based on OS architecture.(Citation: Unit 42 KerrDown February 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8c1d01ff-fdc0-4586-99bd-c248e0761af5",

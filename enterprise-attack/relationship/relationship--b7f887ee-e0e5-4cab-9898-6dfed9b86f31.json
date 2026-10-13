@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2e61de0-0245-4a9f-8b20-b17d874626bd",
+    "id": "bundle--0fad431e-d0c6-44e6-b80f-0b892022bb7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.176Z",
+            "modified": "2026-09-03T19:46:58.733Z",
             "description": "[RotaJakiro](https://attack.mitre.org/software/S1078) uses a custom binary protocol using a type, length, value format over TCP.(Citation: netlab360 rotajakiro vs oceanlotus)",
             "relationship_type": "uses",
             "source_ref": "malware--08e844a8-371f-4fe3-9d1f-e056e64a7fde",

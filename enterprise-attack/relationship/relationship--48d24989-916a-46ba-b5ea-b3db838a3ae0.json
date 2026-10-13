@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9569ca35-0b4c-480d-8763-7389ef2c9902",
+    "id": "bundle--2a22bf0a-06d7-4174-8693-fb0ccba31065",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.024Z",
+            "modified": "2026-09-03T19:46:58.554Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can exfiltrate gathered data to a hardcoded C2 URL via HTTP POST.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef77fc48-d6db-4df8-9cb2-3cf112d35257",
+    "id": "bundle--147de1a6-7f4b-4786-b1a1-b320ad5b7b9a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.207Z",
+            "modified": "2026-09-02T20:07:47.711Z",
             "description": "[KONNI](https://attack.mitre.org/software/S0356) has used AES to encrypt C2 traffic.(Citation: Malwarebytes KONNI Evolves Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--86b92f6c-9c05-4c51-b361-4c7bb13e21a1",

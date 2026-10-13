@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e56d4f4f-81c3-4dd4-a2ac-9935df72b756",
+    "id": "bundle--69195311-00a4-49cb-807b-edffc9b1aa0f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.135Z",
+            "modified": "2026-09-03T19:47:02.327Z",
             "description": "[ADVSTORESHELL](https://attack.mitre.org/software/S0045) connects to port 80 of a C2 server using Wininet API. Data is exchanged via HTTP POSTs.(Citation: Kaspersky Sofacy)",
             "relationship_type": "uses",
             "source_ref": "malware--fb575479-14ef-41e9-bfab-0b7cf10bec73",

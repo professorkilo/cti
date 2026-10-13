@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5aa92bc-1bf8-4abd-a014-101daed94e92",
+    "id": "bundle--7e550225-4eb0-4ada-912d-1d82dbdab1af",
     "spec_version": "2.0",
     "objects": [
         {
@@ -12,7 +12,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.228Z",
+            "modified": "2026-08-27T17:55:54.065Z",
             "description": "Restrict administrator accounts to as few individuals as possible, following least privilege principles.  Prevent credential overlap across systems of administrator and privileged accounts, particularly between network and non-network platforms, such as servers or endpoints.",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--9bb9e696-bff8-4ae1-9454-961fc7d91d5f",

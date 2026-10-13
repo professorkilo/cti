@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d097a64-5369-48ef-af80-652c7abc9ee0",
+    "id": "bundle--60229af8-b472-4426-956e-cb5d46134818",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.017Z",
+            "modified": "2026-09-03T19:46:58.932Z",
             "description": "[Dridex](https://attack.mitre.org/software/S0384) has used POST requests and HTTPS for C2 communications.(Citation: Kaspersky Dridex May 2017)(Citation: Checkpoint Dridex Jan 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f01e2711-4b48-4192-a2e8-5f56c945ca19",

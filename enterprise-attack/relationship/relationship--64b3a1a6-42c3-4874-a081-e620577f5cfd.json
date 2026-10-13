@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db23a19a-b118-4545-87a5-f99ef1740e42",
+    "id": "bundle--9763aa8d-b89d-4b6b-b6b6-6977c003722e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.062Z",
+            "modified": "2026-09-03T19:46:59.108Z",
             "description": "[IceApple](https://attack.mitre.org/software/S1022)'s Multi File Exfiltrator module can exfiltrate multiple files from a compromised host as an HTTP response over C2.(Citation: CrowdStrike IceApple May 2022) ",
             "relationship_type": "uses",
             "source_ref": "malware--dd889a55-fb2c-4ec7-8e9f-c399939a49e1",

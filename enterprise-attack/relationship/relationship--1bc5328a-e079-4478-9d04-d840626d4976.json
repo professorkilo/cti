@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69f42122-b8e2-418e-b1f7-fa3e9dda3b31",
+    "id": "bundle--ecb25fcb-73b6-4e97-b12a-b9ad73995555",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-02T20:07:46.137Z",
             "description": "[NDiskMonitor](https://attack.mitre.org/software/S0272) uses AES to encrypt certain information sent over its C2 channel.(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--d1183cb9-258e-4f2f-8415-50ac8252c49e",

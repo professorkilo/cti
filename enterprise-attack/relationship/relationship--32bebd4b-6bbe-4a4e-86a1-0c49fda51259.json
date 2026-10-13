@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--786b7328-7742-428d-812e-838a17111886",
+    "id": "bundle--a092660a-76d2-4932-9577-caa98be5153b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:57.051Z",
+            "modified": "2026-09-03T19:46:57.522Z",
             "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081) has used HTTP in communication with the C2.(Citation: Anomali Pirate Panda April 2020)(Citation: TrendMicro Tropic Trooper May 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",

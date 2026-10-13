@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d45e0b17-3e51-4619-b951-efe8a1b404ed",
+    "id": "bundle--02bf07fa-16b0-4439-b9f9-b5a9937b31a9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.210Z",
+            "modified": "2026-09-02T20:07:47.743Z",
             "description": " [HiddenFace](https://attack.mitre.org/software/S9023) can use a randomly selected symmetric encryption algorithm for C2.(Citation: ESET HiddenFace 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--9edc41d1-a13d-4acf-b400-d47fb2f6809d",

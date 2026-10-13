@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--34ff280f-50d1-4814-9023-12df9a936f63",
+    "id": "bundle--e8e3eda3-e313-4b8a-aa26-3be91841a8f7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.729Z",
+            "modified": "2026-09-02T17:31:48.992Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has created Dune-themed GitHub repositories using stolen tokens.(Citation: Wiz Mini Shai-Hulud MAY 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6dc09ccf-ca4f-417b-904a-5d9893db1b84",
+    "id": "bundle--c79b3b23-16e6-4fca-910f-2b345bb80d09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.015Z",
+            "modified": "2026-09-03T19:46:58.820Z",
             "description": "One variant of [CloudDuke](https://attack.mitre.org/software/S0054) uses HTTP and HTTPS for C2.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--cbf646f1-7db5-4dc6-808b-0094313949df",

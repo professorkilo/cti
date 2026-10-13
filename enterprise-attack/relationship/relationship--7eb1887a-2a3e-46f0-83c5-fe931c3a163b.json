@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7bb60d9c-e223-4435-afef-313f94a287d3",
+    "id": "bundle--8ea397ca-09e2-4ec9-b1cc-db76e5b22a93",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.098Z",
+            "modified": "2026-09-03T19:47:01.434Z",
             "description": "[RCSession](https://attack.mitre.org/software/S0662) can use HTTP in C2 communications.(Citation: Trend Micro DRBControl February 2020)(Citation: Profero APT27 December 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--03acae53-9b98-46f6-b204-16b930839055",

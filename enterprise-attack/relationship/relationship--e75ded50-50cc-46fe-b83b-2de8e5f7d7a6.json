@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--be899bb0-fc0b-41a4-84ba-421b9d903265",
+    "id": "bundle--8b014a2a-a7fd-4bd5-b67c-f5c1d5f94448",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:50.128Z",
+            "modified": "2026-09-03T19:47:04.220Z",
             "description": "[TeamTNT](https://attack.mitre.org/groups/G0139) has the `curl` command to send credentials over HTTP and the `curl` and `wget` commands to download new software.(Citation: Intezer TeamTNT September 2020)(Citation: Cado Security TeamTNT Worm August 2020)(Citation: Cisco Talos Intelligence Group) [TeamTNT](https://attack.mitre.org/groups/G0139) has also used a custom user agent HTTP header in shell scripts.(Citation: Trend Micro TeamTNT)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--35d1b3be-49d4-42f1-aaa6-ef159c880bca",

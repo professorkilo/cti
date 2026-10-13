@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c0b1df2-fcb5-4a4d-85b0-757d29baf236",
+    "id": "bundle--47cb85ee-a37b-438c-a767-32bba40f2f25",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.090Z",
+            "modified": "2026-09-03T19:47:01.177Z",
             "description": "[LookBack](https://attack.mitre.org/software/S0582)\u2019s C2 proxy tool sends data to a C2 server over HTTP.(Citation: Proofpoint LookBack Malware Aug 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--c9ccc4df-1f56-49e7-ad57-b383e1451688",

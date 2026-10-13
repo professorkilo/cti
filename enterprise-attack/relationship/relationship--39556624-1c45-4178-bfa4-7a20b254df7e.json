@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e32879ab-80a4-47e2-b190-2c915018b0f5",
+    "id": "bundle--77d7b704-d793-4f05-a707-4c9d970f5cdb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.998Z",
+            "modified": "2026-09-03T19:46:58.235Z",
             "description": "[Keydnap](https://attack.mitre.org/software/S0276) uses HTTPS for command and control.(Citation: synack 2016 review)",
             "relationship_type": "uses",
             "source_ref": "malware--4b072c90-bc7a-432b-940e-016fc1c01761",

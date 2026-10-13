@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ecfa9fe2-d620-4857-ad12-24cefe4a8467",
+    "id": "bundle--f96fed7f-0bde-4df9-83e2-2b0d532da32b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.946Z",
+            "modified": "2026-09-03T19:46:58.437Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) has the ability to upload and download files to and from the infected host.(Citation: JPCert TSCookie March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cef3a523-bb1e-4e2d-881c-08de57399833",
+    "id": "bundle--d38c2db1-0667-4f7e-ab3b-2254f10e9174",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.251Z",
+            "modified": "2026-09-03T19:46:54.966Z",
             "description": "[FlawedAmmyy](https://attack.mitre.org/software/S0381) may obfuscate portions of the initial C2 handshake.(Citation: Proofpoint TA505 Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--432555de-63bf-4f2a-a3fa-f720a4561078",

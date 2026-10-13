@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b58d8c1f-26f4-4172-a54f-51905c4c703c",
+    "id": "bundle--55ea2dbd-f86e-4dd8-ba5a-dd7a0d52a208",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.190Z",
+            "modified": "2026-09-03T19:47:03.255Z",
             "description": "[Egregor](https://attack.mitre.org/software/S0554) has communicated with its C2 servers via HTTPS protocol.(Citation: Intrinsec Egregor Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--cc4c1287-9c86-4447-810c-744f3880ec37",

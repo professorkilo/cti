@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bbd68498-b269-49dc-a156-c5025fd43c74",
+    "id": "bundle--924f6d88-24f5-4bce-b557-74a953d9f22c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.267Z",
+            "modified": "2026-09-03T19:47:04.558Z",
             "description": "[Bundlore](https://attack.mitre.org/software/S0482) uses HTTP requests for C2.(Citation: MacKeeper Bundlore Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--7bef1b56-4870-4e74-b32a-7dd88c390c44",

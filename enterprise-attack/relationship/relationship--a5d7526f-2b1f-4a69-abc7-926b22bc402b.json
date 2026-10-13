@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cb8d71c6-ec52-430b-8a63-24bd9dc0438c",
+    "id": "bundle--266dda70-d6fe-4150-8c15-266be92612e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-02T20:09:43.406Z",
             "description": "[Hi-Zor](https://attack.mitre.org/software/S0087) encrypts C2 traffic with TLS.(Citation: Fidelis Hi-Zor)",
             "relationship_type": "uses",
             "source_ref": "malware--5967cc93-57c9-404a-8ffd-097edfa7bdfc",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2fa6f00e-bb1b-4ba9-85e1-19e68f88a4bb",
+    "id": "bundle--d5fa19c5-d62d-4da4-ba15-da8753e8f94f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.182Z",
+            "modified": "2026-09-03T19:47:03.118Z",
             "description": "[HexEval Loader](https://attack.mitre.org/software/S1249) has used HTTP and HTTPS POST requests to communicate with C2.(Citation: Socket Contagious Interview NPM April 2025)(Citation: Socket BeaverTail XORIndex HexEval Contagious Interview July 2025)(Citation: Socket HexEval BeaverTail Contagious Interview June 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--3d7048f1-012e-468c-a18b-1bf98037d62c",

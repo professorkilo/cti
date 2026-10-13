@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ef31298-f0b9-467b-b3f9-30f22c68b068",
+    "id": "bundle--6adb9f49-39f5-49a6-9a2a-74fa3f8c6dc5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:03.660Z",
+            "modified": "2026-09-08T20:28:08.197Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) RPC backdoors have included local UPnP RPC proxies.(Citation: ESET Turla PowerShell May 2019)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

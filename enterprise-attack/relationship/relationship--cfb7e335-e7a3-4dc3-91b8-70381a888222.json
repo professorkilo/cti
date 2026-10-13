@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c08e2b46-d840-4bfb-808c-2d7c15e6ebaa",
+    "id": "bundle--ed6adf98-ff3d-4824-97c2-9f8b5d860da0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:23.350Z",
+            "modified": "2026-09-02T20:09:43.620Z",
             "description": "[Cobalt Group](https://attack.mitre.org/groups/G0080) has used the Plink utility to create SSH tunnels.(Citation: Group IB Cobalt Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--dc6fe6ee-04c2-49be-ba3d-f38d2463c02a",

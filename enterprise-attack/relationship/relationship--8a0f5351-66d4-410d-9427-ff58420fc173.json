@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--57cde984-0e6b-4dfe-964e-1ac6dc35b7da",
+    "id": "bundle--cad75735-a204-4ee9-b4ff-e224abbc43ef",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.113Z",
+            "modified": "2026-09-03T19:46:59.943Z",
             "description": "[MacMa](https://attack.mitre.org/software/S1016) exfiltrates data from a supplied path over its C2 channel.(Citation: ESET DazzleSpy Jan 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--bdee9574-7479-4073-a7dc-e86d8acd073a",

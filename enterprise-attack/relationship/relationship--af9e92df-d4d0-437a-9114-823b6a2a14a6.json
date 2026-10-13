@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7737e140-8ba5-4ebf-88f5-cc5a353a06c6",
+    "id": "bundle--81f5d3bf-71df-4648-9b74-b3589fc81256",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:57.481Z",
+            "modified": "2026-09-03T19:46:52.342Z",
             "description": "[Tropic Trooper](https://attack.mitre.org/groups/G0081)'s backdoor has communicated to the C2 over the DNS protocol.(Citation: TrendMicro Tropic Trooper May 2020)\t",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--56319646-eb6e-41fc-ae53-aadfa7adb924",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--11c55dbc-69c2-4695-8430-b064412278df",
+    "id": "bundle--948baedc-8de1-48db-952b-3007edd02ddb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.094Z",
+            "modified": "2026-09-03T19:46:57.828Z",
             "description": "The [PipeMon](https://attack.mitre.org/software/S0501) communication module can use a custom protocol based on TLS over TCP.(Citation: ESET PipeMon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--8393dac0-0583-456a-9372-fd81691bca20",

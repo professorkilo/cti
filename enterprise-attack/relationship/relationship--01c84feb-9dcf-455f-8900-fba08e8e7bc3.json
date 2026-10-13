@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2e0a4366-7d89-4ef9-bbf0-8b95689b0448",
+    "id": "bundle--0bfd797d-f84c-476f-b68a-54a20d58c8d1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.905Z",
+            "modified": "2026-09-03T19:46:54.465Z",
             "description": "[PUBLOAD](https://attack.mitre.org/software/S1228) has acted as a stager that can download the next-stage payload from its C2 server.(Citation: Lab52 MUSTANG PANDA PUBLOAD MAY 2023)(Citation: IBM MUSTANG PANDA PUBLOAD CLAIMLOADER JUNE 2025)(Citation: 2025_IBM_PUBLOAD_TONESHELL_HIUPAN_CLAIMLOADER_MUSTANG PANDA)(Citation: 2022 November_TrendMicro_Earth Preta_Toneshell_Pubload)(Citation: Palo Alto Networks, Unit 42) [PUBLOAD](https://attack.mitre.org/software/S1228) has also delivered FDMTP as a secondary control tool and PTSOCKET for exfiltration to some infected systems.(Citation: Trend Micro MUSTANG PANDA PUBLOAD HIUPAN SEPTEMBER 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--3824852d-1957-4712-9da0-38143723c060",

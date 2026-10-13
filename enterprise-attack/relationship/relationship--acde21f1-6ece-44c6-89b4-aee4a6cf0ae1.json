@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00a516b8-6961-40ad-b415-3748a1ce6a40",
+    "id": "bundle--750857d8-b301-4c43-8ff8-006468901dab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:54.775Z",
+            "modified": "2026-09-08T20:28:08.742Z",
             "description": "[Contagious Interview](https://attack.mitre.org/groups/G1052) has leveraged Astrill VPN for C2.(Citation: Recorded Future Contagious Inteview BeaverTail InvisibleFerret OtterCookie February 2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--46599a4a-77ee-4697-9474-2683b6464859",

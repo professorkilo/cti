@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b1fb0ca3-2d88-459b-ba71-7a0315156272",
+    "id": "bundle--a49693ab-1b5b-445a-b7eb-f21041b60e57",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-03T19:47:00.998Z",
             "description": "[MCMD](https://attack.mitre.org/software/S0500) can use HTTPS in communication with C2 web servers.(Citation: Secureworks MCMD July 2019)",
             "relationship_type": "uses",
             "source_ref": "tool--975737f1-b10d-476f-8bda-3ec26ea57172",

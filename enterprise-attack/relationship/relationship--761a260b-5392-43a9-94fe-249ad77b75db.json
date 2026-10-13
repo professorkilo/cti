@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c10b9e11-27c5-4b16-86a2-16bf51f92e2a",
+    "id": "bundle--07a5eb01-f18e-4451-9edc-5aa419046d90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-03T19:47:02.620Z",
             "description": "[PHASEJAM](https://attack.mitre.org/software/S9014) has the ability to upload files onto the compromised appliance.(Citation: Google UNC5221 Ivanti January 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--ca3f5123-b853-45ef-83cb-1d1bca22e03f",

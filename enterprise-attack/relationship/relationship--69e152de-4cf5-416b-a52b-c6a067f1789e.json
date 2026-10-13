@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--55ee323b-a5c4-4d20-985d-e9d05a4ed276",
+    "id": "bundle--02f9e21e-75dd-4fc1-a3da-2920ea592e14",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:20.708Z",
+            "modified": "2026-09-03T19:46:59.262Z",
             "description": "During [Operation Honeybee](https://attack.mitre.org/campaigns/C0006), the threat actors uploaded stolen files to their C2 servers.(Citation: McAfee Honeybee)",
             "relationship_type": "uses",
             "source_ref": "campaign--4553292d-12c6-4a93-934d-12160370d4e0",

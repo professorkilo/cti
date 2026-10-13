@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--610f0a0b-2cc9-4be8-be02-1e180c1346a0",
+    "id": "bundle--711ef086-e61f-4825-9554-bd3dfcd6c9ae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.243Z",
+            "modified": "2026-09-03T19:47:04.276Z",
             "description": "[Trojan.Karagany](https://attack.mitre.org/software/S0094) can communicate with C2 via HTTP POST requests.(Citation: Secureworks Karagany July 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--82cb34ba-02b5-432b-b2d2-07f55cbf674d",

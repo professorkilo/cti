@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c2f501ca-5377-4779-8972-1cd49e43b76c",
+    "id": "bundle--e6be04ef-49f4-4493-b1f5-7a69939e6e22",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.022Z",
+            "modified": "2026-09-03T19:46:50.332Z",
             "description": "[BLINDINGCAN](https://attack.mitre.org/software/S0520) has encoded its C2 traffic with Base64.(Citation: US-CERT BLINDINGCAN Aug 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--01dbc71d-0ee8-420d-abb4-3dfb6a4bf725",

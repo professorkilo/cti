@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1d1a5032-1809-4b71-bd83-9c9a68e28b1e",
+    "id": "bundle--490107d8-b8af-4b65-a17b-547c68f88c1f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:41.779Z",
+            "modified": "2026-09-03T19:46:52.990Z",
             "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has modified device configurations to create and use Generic Routing Encapsulation (GRE) tunnels.(Citation: Cisco Salt Typhoon FEB 2025)\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e955d6ad-8989-4d23-a746-aab86b696a34",
+    "id": "bundle--846a738e-e4ff-4dcb-9839-353b52b3c777",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.134Z",
+            "modified": "2026-09-03T19:47:03.728Z",
             "description": "[Mafalda](https://attack.mitre.org/software/S1060) can download additional files onto the compromised host.(Citation: SentinelLabs Metador Technical Appendix Sept 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--3be1fb7a-0f7e-415e-8e3a-74a80d596e68",

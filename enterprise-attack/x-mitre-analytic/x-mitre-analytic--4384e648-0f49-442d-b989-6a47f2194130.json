@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db443ff2-a79e-4600-9976-bf2ce3a98111",
+    "id": "bundle--905aacce-3cb1-4957-bd61-3e94cfae4954",
     "spec_version": "2.0",
     "objects": [
         {
@@ -8,6 +8,7 @@
             "id": "x-mitre-analytic--4384e648-0f49-442d-b989-6a47f2194130",
             "created": "2025-10-21T15:10:28.402Z",
             "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "revoked": false,
             "external_references": [
                 {
                     "source_name": "mitre-attack",
@@ -16,17 +17,18 @@
                 },
                 {
                     "source_name": "ThreatConnect Infrastructure Dec 2020",
-                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved October 12, 2021.",
-                    "url": "https://threatconnect.com/blog/infrastructure-research-hunting/"
+                    "description": "ThreatConnect. (2020, December 15). Infrastructure Research and Hunting: Boiling the Domain Ocean. Retrieved September 17, 2026.",
+                    "url": "https://web.archive.org/web/20221130114004/https://threatconnect.com/blog/infrastructure-research-hunting/"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2025-10-21T15:10:28.402Z",
+            "modified": "2026-09-18T00:31:18.341Z",
             "name": "Analytic 1991",
             "description": "Once adversaries leverage compromised network devices as infrastructure (ex: for command and control), it may be possible to look for unique characteristics associated with adversary software, if known.(Citation: ThreatConnect Infrastructure Dec 2020) Much of this activity will take place outside the visibility of the target organization, making detection of this behavior difficult. Detection efforts may be focused on related stages of the adversary lifecycle. ",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+            "x_mitre_deprecated": false,
             "x_mitre_version": "1.0",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_domains": [
@@ -41,8 +43,7 @@
                     "name": "Internet Scan",
                     "channel": "None"
                 }
-            ],
-            "x_mitre_deprecated": false
+            ]
         }
     ]
 }

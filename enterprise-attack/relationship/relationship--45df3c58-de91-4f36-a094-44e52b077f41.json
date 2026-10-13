@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a80705e7-52bc-4ff2-87cc-9f9c92a60d00",
+    "id": "bundle--d2c1678d-a04e-44ee-a18b-7eabee6dd0d5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:31.540Z",
+            "modified": "2026-09-03T19:46:59.072Z",
             "description": "During [Operation Wocao](https://attack.mitre.org/campaigns/C0014), threat actors\u2019 XServer tool communicated using HTTP and HTTPS.(Citation: FoxIT Wocao December 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--b03d5112-e23a-4ac8-add0-be7502d24eff",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35d6237f-e7d9-445e-8f65-4d0ae69145b3",
+    "id": "bundle--5c10d692-f50d-4ab3-9921-7a5dd743811e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:33.325Z",
+            "modified": "2026-09-03T19:46:51.836Z",
             "description": "During [C0027](https://attack.mitre.org/campaigns/C0027), [Scattered Spider](https://attack.mitre.org/groups/G1015) downloaded tools from sites including file.io, GitHub, and paste.ee.(Citation: Crowdstrike TELCO BPO Campaign December 2022)",
             "relationship_type": "uses",
             "source_ref": "campaign--df74f7ad-b10d-431c-9f1d-a2bc18dadefa",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--49b24f2d-9c4a-4b6a-919a-10bfb904b247",
+    "id": "bundle--12efc336-2413-4b99-8f33-dec1adab41fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:47:04.628Z",
             "description": "[BADNEWS](https://attack.mitre.org/software/S0128) is capable of downloading additional files through C2 channels, including a new version of itself.(Citation: Forcepoint Monsoon)(Citation: PaloAlto Patchwork Mar 2018)(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--e9595678-d269-469e-ae6b-75e49259de63",

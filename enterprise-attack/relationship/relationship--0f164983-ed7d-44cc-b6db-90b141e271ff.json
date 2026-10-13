@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c96b752-a8f4-4f99-82bb-8d70106ef263",
+    "id": "bundle--503c5654-72c1-415c-94e9-74ecb7c1423a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:55.683Z",
             "description": "[HTTPTroy](https://attack.mitre.org/software/S9007) has the ability to download files from C2 using the `down <FILENAME>` command.(Citation: Gen Digital Kimsuky HTTPTroy October 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--52b52f72-88e6-4847-88d6-da3b9e4a4f71",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3968f9fa-08d9-4687-9f81-848ddb8e9f6b",
+    "id": "bundle--1efe47b1-7237-4ede-93dc-a9c92c989a61",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.170Z",
+            "modified": "2026-09-03T19:47:04.594Z",
             "description": "[RemoteCMD](https://attack.mitre.org/software/S0166) copies a file over to the remote system before execution.(Citation: Symantec Buckeye)",
             "relationship_type": "uses",
             "source_ref": "malware--4e6b9625-bbda-4d96-a652-b3bb45453f26",

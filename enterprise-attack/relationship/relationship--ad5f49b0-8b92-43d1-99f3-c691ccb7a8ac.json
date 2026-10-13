@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d2ccbc8c-69fe-43cf-a74a-9448eeb015e6",
+    "id": "bundle--0e93b9a9-f0df-478d-8083-46384ca6aa82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.161Z",
+            "modified": "2026-09-03T19:46:57.810Z",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) searches for network drives and removable media and duplicates itself onto them.(Citation: DustySky)",
             "relationship_type": "uses",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",

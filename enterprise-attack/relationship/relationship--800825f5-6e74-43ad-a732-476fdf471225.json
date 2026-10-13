@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9d0ad3c4-3d6f-499d-bc17-c863c8d64df9",
+    "id": "bundle--6cbbd19b-388d-499a-960d-0bd1930d507d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.101Z",
+            "modified": "2026-09-03T19:47:02.834Z",
             "description": "[CloudDuke](https://attack.mitre.org/software/S0054) downloads and executes additional malware from either a Web address or a Microsoft OneDrive account.(Citation: F-Secure The Dukes)",
             "relationship_type": "uses",
             "source_ref": "malware--cbf646f1-7db5-4dc6-808b-0094313949df",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5acb440f-6146-4610-8f9c-5c37c4061935",
+    "id": "bundle--2490fd27-c923-40ff-9023-fe9faf17ed46",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:47:00.345Z",
             "description": "[Kevin](https://attack.mitre.org/software/S1020) can download files to the compromised host.(Citation: Kaspersky Lyceum October 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--e7863f5d-cb6a-4f81-8804-0a635eec160a",

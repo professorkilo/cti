@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--79abe5e0-fca1-4c83-a317-032ddea22940",
+    "id": "bundle--7de60dab-8f39-49aa-915d-2070af4e22e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.920Z",
+            "modified": "2026-09-03T19:46:52.817Z",
             "description": "[Bundlore](https://attack.mitre.org/software/S0482) uses the <code>curl -s -L -o</code> command to exfiltrate archived data to a URL.(Citation: 20 macOS Common Tools and Techniques)",
             "relationship_type": "uses",
             "source_ref": "malware--7bef1b56-4870-4e74-b32a-7dd88c390c44",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a1fe4c55-07ad-480d-b205-fb0e041418c6",
+    "id": "bundle--27519e96-acd5-4c4d-aa3d-a2534a22c648",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.057Z",
+            "modified": "2026-09-03T19:47:00.148Z",
             "description": "[Gazer](https://attack.mitre.org/software/S0168) communicates with its C2 servers over HTTP.(Citation: ESET Gazer Aug 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--76abb3ef-dafd-4762-97cb-a35379429db4",

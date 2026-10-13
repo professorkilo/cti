@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53bf0737-46c1-4f07-b83e-fcef7ee11b2b",
+    "id": "bundle--7eb449f3-a1fd-479b-8d93-428c713999d8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.111Z",
+            "modified": "2026-09-02T20:07:47.141Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) encrypts C2 traffic with a custom RC4 variant.(Citation: ESET RTM Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",

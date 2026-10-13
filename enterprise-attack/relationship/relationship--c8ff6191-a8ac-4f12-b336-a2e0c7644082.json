@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2245b4a8-59ad-4c0c-a4ee-1763b282066b",
+    "id": "bundle--63920ab1-8f0e-40a5-9514-4c56ec4b8a42",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.200Z",
+            "modified": "2026-09-03T19:19:41.160Z",
             "description": "Disable Autorun if it is unnecessary. (Citation: Microsoft Disable Autorun) Disallow or restrict removable media at an organizational policy level if they are not required for business operations. (Citation: TechNet Removable Media Control)",
             "relationship_type": "mitigates",
             "source_ref": "course-of-action--eb88d97c-32f1-40be-80f0-d61a4b0b4b31",

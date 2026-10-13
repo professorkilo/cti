@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b86d0c8d-7377-488d-b63e-6c35d72f11e0",
+    "id": "bundle--dd7c059b-da58-4c20-8c78-470cf54852c2",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.226Z",
+            "modified": "2026-09-09T18:39:17.178Z",
             "description": "[QUADAGENT](https://attack.mitre.org/software/S0269) uses multiple protocols (HTTPS, HTTP, DNS) for its C2 server as fallback channels if communication with one is unsuccessful.(Citation: Unit 42 QUADAGENT July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7e6c2a9d-9dc1-4eb0-b27c-91e8076a9d77",

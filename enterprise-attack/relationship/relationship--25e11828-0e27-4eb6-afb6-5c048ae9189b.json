@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--92e86a8a-b6c3-4d23-85a0-eae6458ff25f",
+    "id": "bundle--450e23ab-9c69-4811-9a03-dc5800327b7c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.957Z",
+            "modified": "2026-09-03T19:46:55.194Z",
             "description": "[EvilBunny](https://attack.mitre.org/software/S0396) has executed C2 commands directly via HTTP.(Citation: Cyphort EvilBunny Dec 2014)",
             "relationship_type": "uses",
             "source_ref": "malware--a8a778f5-0035-4870-bb25-53dc05029586",

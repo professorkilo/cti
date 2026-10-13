@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb097ab0-7218-446e-93e8-fc51cd933d94",
+    "id": "bundle--ae20313a-f8a2-44c3-828b-aabaabb723fb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.953Z",
+            "modified": "2026-09-03T19:46:54.463Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) can forward TCP packets between the C2 and a remote host.(Citation: Kaspersky ToddyCat June 2022)(Citation: Kaspersky ToddyCat Check Logs October 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",

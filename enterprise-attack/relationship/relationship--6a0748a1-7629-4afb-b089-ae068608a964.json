@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9931ac03-a90d-48f1-8aa4-c77cd5a61109",
+    "id": "bundle--7109dd4e-ea0c-4255-b33f-e16b12b33467",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.069Z",
+            "modified": "2026-09-02T20:00:41.313Z",
             "description": "[spwebmember](https://attack.mitre.org/software/S0227) is used to enumerate and dump information from Microsoft SharePoint.(Citation: NCC Group APT15 Alive and Strong)",
             "relationship_type": "uses",
             "source_ref": "tool--33b9e38f-103c-412d-bdcf-904a91fff1e4",

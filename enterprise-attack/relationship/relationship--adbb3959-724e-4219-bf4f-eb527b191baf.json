@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d63b1718-5c41-4b2a-b40c-23e021410245",
+    "id": "bundle--b535bb5a-5741-48f5-b72c-c7f395badf0d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.161Z",
+            "modified": "2026-09-03T19:47:00.861Z",
             "description": "[MuddyViper](https://attack.mitre.org/software/S9032) has uploaded files to the C2 server. Additionally, [MuddyViper](https://attack.mitre.org/software/S9032) has the ability to upload the specified file in chunks with sleep time between each chunk.(Citation: ESET_MuddyWater_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "malware--7b92e996-b535-4159-be16-3c3aee4edf54",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7b24bbaa-6845-453a-bcfd-82f2a2b6cd52",
+    "id": "bundle--0ed2635a-9746-44aa-8f8b-ee6c50573cc9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.105Z",
+            "modified": "2026-09-08T20:28:08.583Z",
             "description": "A [TYPEFRAME](https://attack.mitre.org/software/S0263) variant can force the compromised system to function as a proxy server.(Citation: US-CERT TYPEFRAME June 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--7ba0fc46-197d-466d-8b9f-f1c64d5d81e5",

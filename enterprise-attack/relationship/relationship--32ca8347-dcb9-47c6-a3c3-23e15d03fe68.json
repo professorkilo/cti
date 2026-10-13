@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--436b7906-a1b9-4d7b-9aa8-50f4c4f49983",
+    "id": "bundle--e12de43e-516e-469b-833c-ce0c75a5be2f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.986Z",
+            "modified": "2026-09-03T19:46:54.997Z",
             "description": "[LITTLELAMB.WOOLTEA](https://attack.mitre.org/software/S1121) can function as a stand-alone backdoor communicating over the `/tmp/clientsDownload.sock` socket.(Citation: Mandiant Cutting Edge Part 3 February 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--19256855-65e9-48f2-8b74-9f3d0a994428",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf1b3051-57e9-4543-b3eb-ef6b03d81687",
+    "id": "bundle--94a0d45c-061e-4ce5-9e48-4aacdcc0ad9b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.983Z",
+            "modified": "2026-09-03T19:46:59.659Z",
             "description": "[Carberp](https://attack.mitre.org/software/S0484) can download and execute new plugins from the C2 server. (Citation: Prevx Carberp March 2011)(Citation: Trusteer Carberp October 2010)",
             "relationship_type": "uses",
             "source_ref": "malware--bbcd7a02-ef24-4171-ac94-a93540173b94",

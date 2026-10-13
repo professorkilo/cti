@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--19af7535-4179-4519-b493-90ddb325e486",
+    "id": "bundle--6d8ee13f-3c34-4182-8d95-789ec5d3b4de",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.926Z",
+            "modified": "2026-09-02T18:17:25.161Z",
             "description": "[Cobalt Strike](https://attack.mitre.org/software/S0154) includes a capability to modify the Beacon payload to eliminate known signatures or unpacking methods.(Citation: cobaltstrike manual)(Citation: Cobalt Strike Manual 4.3 November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a7881f21-e978-4fe4-af56-92c9416a2616",

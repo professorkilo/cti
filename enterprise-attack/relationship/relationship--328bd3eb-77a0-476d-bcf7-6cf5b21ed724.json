@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f993797e-293a-4c50-8cac-58616c150f83",
+    "id": "bundle--3b04f62b-0dd1-4b33-a695-d3e9641e8792",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:25.453Z",
+            "modified": "2026-09-09T18:44:33.675Z",
             "description": "[VOID MANTICORE](https://attack.mitre.org/groups/G1055) has gathered victim email-content from victim servers.(Citation: DOJ FBI Handala Hack March 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--ebd7ce77-c9ba-4fba-bb28-58296ac66559",

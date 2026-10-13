@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0f294f65-9320-4944-b838-489b1603cc64",
+    "id": "bundle--db130e17-1353-4324-9c6b-89ded5d6ce87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.211Z",
+            "modified": "2026-09-02T20:09:43.633Z",
             "description": "[NICECURL](https://attack.mitre.org/software/S1192) has used HTTPS for C2 communications.(Citation: Mandiant APT42-untangling) ",
             "relationship_type": "uses",
             "source_ref": "malware--0659f55c-3b68-4e5d-8071-12ded6684731",

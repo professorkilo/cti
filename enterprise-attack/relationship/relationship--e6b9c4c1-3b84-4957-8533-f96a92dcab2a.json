@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c8d546e7-b537-4f20-af2e-25e2ff87ed4b",
+    "id": "bundle--004eebc1-ffe1-4dd3-94d1-167fec0ab590",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:53.307Z",
+            "modified": "2026-09-03T19:46:58.533Z",
             "description": "[APT33](https://attack.mitre.org/groups/G0064) has used HTTP over TCP ports 808 and 880 for command and control.(Citation: Symantec Elfin Mar 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--fbd29c89-18ba-4c2d-b792-51c0adee049f",

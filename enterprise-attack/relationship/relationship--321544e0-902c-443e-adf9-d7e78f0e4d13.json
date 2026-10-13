@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bef7ec37-750a-4c2c-bd88-a52a544368bb",
+    "id": "bundle--4f94c0de-a199-4594-8fb6-0b23465472bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.983Z",
+            "modified": "2026-09-03T19:46:59.689Z",
             "description": "[Unknown Logger](https://attack.mitre.org/software/S0130) is capable of downloading remote files.(Citation: Forcepoint Monsoon)",
             "relationship_type": "uses",
             "source_ref": "malware--ab3580c8-8435-4117-aace-3d9fbe46aa56",

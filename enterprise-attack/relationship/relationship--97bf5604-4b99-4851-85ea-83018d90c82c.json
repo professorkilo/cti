@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--997e9ad3-8a53-4de3-930e-1a1ffc831405",
+    "id": "bundle--3b70b705-211d-4a28-916c-024d646efc09",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:47.020Z",
+            "modified": "2026-09-08T20:28:43.347Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) has used a compromised router to serve as a proxy between a victim network's corporate and restricted segments.(Citation: Kaspersky ThreatNeedle Feb 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

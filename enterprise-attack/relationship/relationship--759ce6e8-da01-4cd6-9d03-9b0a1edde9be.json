@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1ae9c33c-e58f-47e6-8493-f4419e6095fe",
+    "id": "bundle--c0c7bad9-3e73-4580-b883-c828db458591",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.086Z",
+            "modified": "2026-09-03T19:47:02.574Z",
             "description": "[SysUpdate](https://attack.mitre.org/software/S0663) has the ability to download files to a compromised host.(Citation: Trend Micro Iron Tiger April 2021)(Citation: Lunghi Iron Tiger Linux)",
             "relationship_type": "uses",
             "source_ref": "malware--c009560a-f097-45a3-8f9f-78ec1440a783",

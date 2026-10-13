@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--967c76e4-0582-41da-80d1-ac4508bc63b2",
+    "id": "bundle--512f3d91-ae0f-4ce8-a47a-7813bdce0ec9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:41.233Z",
+            "modified": "2026-09-03T19:46:58.316Z",
             "description": "[Chimera](https://attack.mitre.org/groups/G0114) has used HTTPS for C2 communications.(Citation: NCC Group Chimera January 2021)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8c1f0187-0826-4320-bddc-5f326cfcfe2c",

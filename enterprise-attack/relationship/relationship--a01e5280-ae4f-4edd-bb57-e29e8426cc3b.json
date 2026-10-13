@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23593ad3-dbae-4b1d-a326-54ee6040709e",
+    "id": "bundle--fd9abfcd-7f96-4ae4-be14-ffb4b57e9c59",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-09T18:39:16.913Z",
             "description": "[Gelsemium](https://attack.mitre.org/software/S0666) can use multiple domains and protocols in C2.(Citation: ESET Gelsemium June 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--efa7c4d6-8e30-41d9-a8fd-26dc337f4a1b",

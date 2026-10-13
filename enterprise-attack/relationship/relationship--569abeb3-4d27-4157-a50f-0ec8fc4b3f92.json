@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--30cb25fa-e946-4ec4-bff8-efaf78728b40",
+    "id": "bundle--b57162bb-744f-437f-b5a4-4461d4e2b6be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.043Z",
+            "modified": "2026-09-03T19:46:56.584Z",
             "description": "[Pikabot](https://attack.mitre.org/software/S1145) uses non-standard ports, such as 2967, 2223, and others, for HTTPS command and control communication.(Citation: Elastic Pikabot 2024)",
             "relationship_type": "uses",
             "source_ref": "malware--02739f57-7585-4319-acd3-794ae8ff3a70",

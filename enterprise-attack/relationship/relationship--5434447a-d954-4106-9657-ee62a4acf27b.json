@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--15030f4c-edc4-4f3a-a3d4-37514576ac52",
+    "id": "bundle--4e4e1539-11c8-43dd-a659-08968db402c8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.040Z",
+            "modified": "2026-09-03T19:46:58.951Z",
             "description": "[DustySky](https://attack.mitre.org/software/S0062) has exfiltrated data to the C2 server.(Citation: Kaspersky MoleRATs April 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--687c23e4-4e25-4ee7-a870-c5e002511f54",

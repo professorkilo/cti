@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--45dd5543-b429-4264-bb02-e408743d1d4f",
+    "id": "bundle--25038997-4202-4061-b92c-a20fc32ef7c7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.957Z",
+            "modified": "2026-09-02T20:07:46.235Z",
             "description": "[Chaos](https://attack.mitre.org/software/S0220) provides a reverse shell connection on 8338/TCP, encrypted via AES.(Citation: Chaos Stolen Backdoor)",
             "relationship_type": "uses",
             "source_ref": "malware--5bcd5511-6756-4824-a692-e8bb109364af",

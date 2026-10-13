@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e7291fa-606f-485f-a385-3504df66a157",
+    "id": "bundle--9cd6846b-95e1-4f56-8e46-cb29777e9872",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.192Z",
+            "modified": "2026-09-03T19:47:03.390Z",
             "description": "[RedLeaves](https://attack.mitre.org/software/S0153) can communicate to its C2 over HTTP and HTTPS if directed.(Citation: FireEye APT10 April 2017)(Citation: Accenture Hogfish April 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--17b40f60-729f-4fe8-8aea-cc9ee44a95d5",

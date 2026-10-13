@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a5f3ebdd-44d7-4613-ad8a-53b9283e8b01",
+    "id": "bundle--1b9ff626-02db-4f61-a2b2-3761b65ca4aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.051Z",
+            "modified": "2026-09-03T19:46:57.335Z",
             "description": "[WellMail](https://attack.mitre.org/software/S0515) can use TCP for C2 communications.(Citation: CISA WellMail July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--959f3b19-2dc8-48d5-8942-c66813a5101a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f81bc3e7-0679-480f-b8c9-d20d8429468b",
+    "id": "bundle--b17aed0a-4ab1-4de6-8b95-95821274f87f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-09T18:39:16.634Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) can use secondary C2 servers for communication after establishing connectivity and relaying victim information to primary C2 servers.(Citation: Cyberreason Anchor December 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

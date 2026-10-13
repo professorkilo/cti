@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8215c4da-e5d5-485b-8d39-21ec6e17c082",
+    "id": "bundle--8552c804-dfd7-435e-96d0-ea63e456a436",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.022Z",
+            "modified": "2026-09-03T19:47:00.765Z",
             "description": "[Shai-Hulud](https://attack.mitre.org/software/S9008) has downloaded packages from code repositories.(Citation: Aikido Shai-Hulud September 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Socket Shai-Hulud November 2025)(Citation: Socket Shai-Hulud Trufflehog September 2025) [Shai-Hulud](https://attack.mitre.org/software/S9008) has also downloaded and executed the secrets-discovery tool [TruffleHog](https://attack.mitre.org/software/S9009) to gather sensitive data.(Citation: Netskope Shai-Hulud November 2025)(Citation: Wiz Shai-Hulud September 2025)(Citation: Microsoft Shai-Hulud December 2025)(Citation: Socket Shai-Hulud November 2025)(Citation: Socket Shai-Hulud Trufflehog September 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--de376fb9-1093-4f59-8d13-aed61042701d",

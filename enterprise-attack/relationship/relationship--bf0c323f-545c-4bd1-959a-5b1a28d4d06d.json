@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1139686a-192c-4ddd-b768-3cd542d7e813",
+    "id": "bundle--f3c1b9b2-5784-4ef1-ba0c-bffa20152ceb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.186Z",
+            "modified": "2026-09-03T19:47:03.165Z",
             "description": "[BLUELIGHT](https://attack.mitre.org/software/S0657) can use HTTP/S for C2 using the Microsoft Graph API.(Citation: Volexity InkySquid BLUELIGHT August 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--8bd47506-29ae-44ea-a5c1-c57e8a1ab6b0",

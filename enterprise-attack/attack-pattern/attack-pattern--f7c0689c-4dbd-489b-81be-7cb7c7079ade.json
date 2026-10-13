@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0dfb7e2c-c5b1-4523-bba8-4f6157dd2a05",
+    "id": "bundle--3afb18ae-73a1-4156-b5db-ae4614c2189d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -22,14 +22,14 @@
                 },
                 {
                     "source_name": "University of Birmingham C2",
-                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016.",
-                    "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf"
+                    "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved September 3, 2026.",
+                    "url": "https://arxiv.org/pdf/1408.1136"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.725Z",
+            "modified": "2026-09-03T19:46:40.087Z",
             "name": "Junk Data",
             "description": "Adversaries may add junk data to protocols used for command and control to make detection more difficult.(Citation: FireEye SUNBURST Backdoor December 2020) By adding random or meaningless data to the protocols used for command and control, adversaries can prevent trivial methods for decoding, deciphering, or otherwise analyzing the traffic. Examples may include appending/prepending data with junk characters or writing junk characters between significant characters. ",
             "kill_chain_phases": [

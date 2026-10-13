@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--384f425e-c78d-426c-87ca-284ff65b8e43",
+    "id": "bundle--c67d91ba-d63d-45ec-b5ba-1092af513a1e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.092Z",
+            "modified": "2026-09-03T19:46:52.033Z",
             "description": "[Siloscape](https://attack.mitre.org/software/S0623) connects to an IRC server for C2.(Citation: Unit 42 Siloscape Jun 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4fbd565b-bf55-4ac7-80b4-b183a7b64b9c",

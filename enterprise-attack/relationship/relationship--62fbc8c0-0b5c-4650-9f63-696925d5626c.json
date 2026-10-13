@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8db0f160-579e-4a1b-af66-5a009dc4aa10",
+    "id": "bundle--c8359afc-bbfb-4345-a55c-d7a5c53cb00d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.060Z",
+            "modified": "2026-09-03T19:47:00.213Z",
             "description": "[UBoatRAT](https://attack.mitre.org/software/S0333) has used HTTP for C2 communications.(Citation: PaloAlto UBoatRAT Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--518bb5f1-91f4-4ff2-b09d-5a94e1ebe95f",

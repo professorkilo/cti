@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cd81f506-5464-4ae8-a7bb-6e3fcd652846",
+    "id": "bundle--b582353c-2134-4d44-bdf7-52594996cec7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.100Z",
+            "modified": "2026-09-03T19:47:02.815Z",
             "description": "[SpicyOmelette](https://attack.mitre.org/software/S0646) can download malicious files from threat actor controlled AWS URL's.(Citation: Secureworks GOLD KINGSWOOD September 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--599cd7b5-37b5-4cdd-8174-2811531ce9d0",

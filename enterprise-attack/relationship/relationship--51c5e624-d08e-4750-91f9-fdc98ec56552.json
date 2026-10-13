@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3ca88ebc-96b4-4563-9679-cbfc00f93635",
+    "id": "bundle--97d6b2de-0458-45af-8044-936254c36520",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.037Z",
+            "modified": "2026-09-03T19:46:57.090Z",
             "description": "[MoonWind](https://attack.mitre.org/software/S0149) completes network communication via raw sockets.(Citation: Palo Alto MoonWind March 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--9ea525fa-b0a9-4dde-84f2-bcea0137b3c1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fa0959c3-ed4e-467e-baeb-1abbe38a3390",
+    "id": "bundle--2fb65756-3b24-4260-9bd1-4337554fe77e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.970Z",
+            "modified": "2026-09-03T19:46:56.870Z",
             "description": "[Diavol](https://attack.mitre.org/software/S0659) has used HTTP GET and POST requests for C2.(Citation: Fortinet Diavol July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e9bdf9a-4957-47f6-87b3-c76898d3f623",

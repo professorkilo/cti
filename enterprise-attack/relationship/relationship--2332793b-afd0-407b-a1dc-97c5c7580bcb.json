@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bb2982ab-dae4-49fc-baab-6f4402f3714e",
+    "id": "bundle--9b0d389e-1b91-462f-8110-9baa3fee69eb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:43.549Z",
+            "modified": "2026-09-02T18:52:46.913Z",
             "description": "[Windshift](https://attack.mitre.org/groups/G0112) has used links embedded in e-mails to lure victims into executing malicious code.(Citation: SANS Windshift August 2018)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--afec6dc3-a18e-4b62-b1a4-5510e1a498d1",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f4ff91eb-20f7-4232-9c7d-219f79f156b3",
+    "id": "bundle--0810ea9d-2a72-400b-8e25-dbafcfd9746f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-03T19:46:50.742Z",
             "description": "[RDAT](https://attack.mitre.org/software/S0495) can communicate with the C2 via base32-encoded subdomains.(Citation: Unit42 RDAT July 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--4b346d12-7f91-48d2-8f06-b26ffa0d825b",

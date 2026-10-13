@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--8772c028-7a02-429e-8e83-fbb775c8b2d1",
+    "id": "bundle--85b5ef2c-3fc2-4493-8157-5298f206922c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:30.824Z",
+            "modified": "2026-09-03T19:46:53.781Z",
             "description": "[FIN6](https://attack.mitre.org/groups/G0037) has used Pastebin and Google Storage to host content for their operations.(Citation: FireEye FIN6 Apr 2019)\t\n",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--2a7914cf-dff3-428d-ab0f-1014d1c28aeb",

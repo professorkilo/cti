@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--fea10982-5d99-46e8-a452-17801c216797",
+    "id": "bundle--2b21e08c-2f41-409b-ae7d-1d5bf2602c68",
     "spec_version": "2.0",
     "objects": [
         {
@@ -44,7 +44,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:43.839Z",
+            "modified": "2026-09-02T17:31:49.071Z",
             "description": "[TeamPCP](https://attack.mitre.org/groups/G1056) has used [Mini Shai-Hulud](https://attack.mitre.org/software/S9043) in supply chain campaigns targeting CI/CD workflows.(Citation: Wiz Mini Shai-Hulud MAY 2026)(Citation: Trend Micro TeamPCP MAY 2026)(Citation: Hunt.io TeamPCP Toolkit MAY 2026)(Citation: Phoenix TeamPCP 20 MAY 2026)(Citation: Flashpoint Mini Shai-Hulud MAY 2026)(Citation: FBI TeamPCP JUL 2026)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--20f26558-e05d-46cf-8847-c2b5a83ee779",

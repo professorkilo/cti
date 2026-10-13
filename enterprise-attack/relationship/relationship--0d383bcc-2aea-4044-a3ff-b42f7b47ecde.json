@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b0781ae0-7ed2-490a-bfb1-12ec10d86b6f",
+    "id": "bundle--8226d9db-a02f-4edb-8a99-1b9fc5ab10a7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:23.712Z",
+            "modified": "2026-09-08T20:28:41.652Z",
             "description": "[Velvet Ant](https://attack.mitre.org/groups/G1047) has tunneled traffic from victims through an internal, compromised host to proxy communications to command and control nodes.(Citation: Sygnia VelvetAnt 2024A)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e1fc262c-dad2-4b82-abda-5f08dd134971",

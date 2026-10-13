@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--685cbdc2-8a73-4dfa-b2d6-621cdfd4f06b",
+    "id": "bundle--cd4d138a-5d5b-4592-955f-3dea8a1c11d6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:37.830Z",
+            "modified": "2026-09-08T20:29:10.022Z",
             "description": "An [APT3](https://attack.mitre.org/groups/G0022) downloader establishes SOCKS5 connections for its initial C2.(Citation: FireEye Operation Double Tap)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--0bbdf25b-30ff-4894-a1cd-49260d0dd2d9",

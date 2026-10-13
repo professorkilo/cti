@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--142b5944-4638-4d99-8733-cd2ff8d370b3",
+    "id": "bundle--15c71e19-2958-4c57-ad82-1e751b7b66df",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.997Z",
+            "modified": "2026-09-02T20:09:42.845Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) supports SSL encrypted C2.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

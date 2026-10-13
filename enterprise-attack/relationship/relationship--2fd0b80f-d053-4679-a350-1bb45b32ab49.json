@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a4f32fa-27f5-4f85-9072-4c940de8a09c",
+    "id": "bundle--45e71ee5-e51a-4c01-a760-76c54a4a35e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:23.567Z",
+            "modified": "2026-09-03T19:46:59.526Z",
             "description": "[Molerats](https://attack.mitre.org/groups/G0021) used executables to download malicious files from different sources.(Citation: Kaspersky MoleRATs April 2019)(Citation: Unit42 Molerat Mar 2020) ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--df71bb3b-813c-45eb-a8bc-f2a419837411",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--afb135c5-e017-41ec-8897-2b2673817ae7",
+    "id": "bundle--86601a84-cbbf-4c90-8cdc-8955ba06156b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.042Z",
+            "modified": "2026-09-03T19:46:54.292Z",
             "description": "[ComRAT](https://attack.mitre.org/software/S0126) has been programmed to sleep outside local business hours (9 to 5, Monday to Friday).(Citation: ESET ComRAT May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--da5880b4-f7da-4869-85f2-e0aba84b8565",

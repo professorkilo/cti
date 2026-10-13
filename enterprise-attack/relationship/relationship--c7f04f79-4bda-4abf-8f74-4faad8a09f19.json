@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d5e19129-eb80-4e84-86db-08a871627101",
+    "id": "bundle--03015a5c-c4b6-4e7f-869a-c29da2afd0be",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.198Z",
+            "modified": "2026-09-03T19:47:01.287Z",
             "description": "[PcShare](https://attack.mitre.org/software/S1050) can upload files and information from a compromised host to its C2 servers.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "tool--3a53b207-aba2-4a2b-9cdb-273d633669e7",

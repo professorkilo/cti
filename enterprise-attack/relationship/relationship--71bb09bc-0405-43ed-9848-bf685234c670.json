@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--35d0453c-4283-4da6-bccf-b0bca86b2981",
+    "id": "bundle--7742af44-1f97-49f6-b1ee-480f99651063",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.080Z",
+            "modified": "2026-09-02T20:07:46.912Z",
             "description": "[TrickBot](https://attack.mitre.org/software/S0266) uses a custom crypter leveraging Microsoft\u2019s CryptoAPI to encrypt C2 traffic.(Citation: Fidelis TrickBot Oct 2016)Newer versions of [TrickBot](https://attack.mitre.org/software/S0266) have been known to use `bcrypt` to encrypt and digitally sign responses to their C2 server. (Citation: Bitdefender Trickbot C2 infra Nov 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--00806466-754d-44ea-ad6f-0caf59cb8556",

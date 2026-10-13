@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c77b153e-500f-4622-ae7d-15888475c8a9",
+    "id": "bundle--6876aecb-bff4-45c5-bff2-5e680fb48f9f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:30.744Z",
+            "modified": "2026-09-02T20:09:43.046Z",
             "description": "[Versa Director Zero Day Exploitation](https://attack.mitre.org/campaigns/C0039) used HTTPS for command and control of compromised Versa Director servers.(Citation: Lumen Versa 2024)",
             "relationship_type": "uses",
             "source_ref": "campaign--af0ec65a-caa9-40ef-b1c7-21b71fbf3a10",

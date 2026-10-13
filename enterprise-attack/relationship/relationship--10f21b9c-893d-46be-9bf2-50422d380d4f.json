@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--23b644fe-7915-4607-ad1c-a71b89339ac7",
+    "id": "bundle--0aa893e9-f6a6-456f-8c0f-195873f61cf3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:24.753Z",
+            "modified": "2026-09-03T19:46:51.057Z",
             "description": "[Moonstone Sleet](https://attack.mitre.org/groups/G1036) used curl to connect to adversary-controlled infrastructure and retrieve additional payloads.(Citation: Microsoft Moonstone Sleet 2024)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--e6db1e55-b199-4b6b-8633-989345ee45e0",

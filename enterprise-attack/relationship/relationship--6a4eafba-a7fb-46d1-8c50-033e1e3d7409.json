@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b28ac24c-34ea-4b12-bec2-fffaaa78e2d3",
+    "id": "bundle--f3afdf5a-9707-486f-86bc-6aca88809a75",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:10.229Z",
+            "modified": "2026-09-03T19:46:52.402Z",
             "description": "[TA551](https://attack.mitre.org/groups/G0127) has used encoded ASCII text for initial C2 communications.(Citation: Unit 42 Valak July 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--94873029-f950-4268-9cfd-5032e15cb182",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--61fecddb-304a-4477-80f2-46bc026904a1",
+    "id": "bundle--a4ecf66e-4ea1-4230-b130-364048324cb5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.271Z",
+            "modified": "2026-09-03T19:46:58.503Z",
             "description": "[WannaCry](https://attack.mitre.org/software/S0366) attempts to copy itself to remote computers after gaining access via an SMB exploit.(Citation: LogRhythm WannaCry)",
             "relationship_type": "uses",
             "source_ref": "malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661",

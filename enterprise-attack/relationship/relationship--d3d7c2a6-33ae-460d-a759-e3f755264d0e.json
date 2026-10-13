@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ad3e8fea-1cfc-4b9a-9fe2-c0cbe0191e16",
+    "id": "bundle--3a7b5b04-226c-4c45-bf17-e9b21874284f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.215Z",
+            "modified": "2026-09-03T19:47:03.722Z",
             "description": "A [SUGARDUMP](https://attack.mitre.org/software/S1042) variant has used HTTP for C2.(Citation: Mandiant UNC3890 Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--9c10cede-c0bb-4c5c-91c0-8baec30abaf6",

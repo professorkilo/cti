@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--531b0aa7-efe6-4d97-a2ee-a270de731c68",
+    "id": "bundle--f7aff237-9ca1-45c5-8125-6906b3f5669a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T21:12:31.464Z",
+            "modified": "2026-09-03T19:46:50.401Z",
             "description": "During [C0017](https://attack.mitre.org/campaigns/C0017), [APT41](https://attack.mitre.org/groups/G0096) exfiltrated victim data via DNS lookups by encoding and prepending it as subdomains to the attacker-controlled domain.(Citation: Mandiant APT41)",
             "relationship_type": "uses",
             "source_ref": "campaign--ba6dfa37-f401-4140-88b0-8938f2895e61",

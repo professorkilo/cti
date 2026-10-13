@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1e9ec302-34be-4f08-9f08-7088170ba41d",
+    "id": "bundle--a8ed0972-53bf-46e3-89ae-52c51124a7c4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.094Z",
+            "modified": "2026-09-03T19:46:59.624Z",
             "description": "[SharpDisco](https://attack.mitre.org/software/S1089) can load a plugin to exfiltrate stolen files to SMB shares also used in C2.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--1fefb062-feda-484a-8f10-0cebf65e20e3",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e1e223ab-9a28-41ee-9a6d-cdc61237661e",
+    "id": "bundle--7a9b5f9e-af79-4496-bde9-beb59af2f6ba",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.082Z",
+            "modified": "2026-09-03T19:47:00.882Z",
             "description": "[Emissary](https://attack.mitre.org/software/S0082) uses HTTP or HTTPS for C2.(Citation: Lotus Blossom Dec 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--0f862b01-99da-47cc-9bdb-db4a86a95bb1",

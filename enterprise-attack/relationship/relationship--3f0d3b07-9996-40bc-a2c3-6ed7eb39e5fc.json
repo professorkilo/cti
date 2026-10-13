@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3dd21dac-1583-4e70-ba0e-3d6c2440839f",
+    "id": "bundle--cb13f18a-5b5e-4182-a54b-22b098d14300",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-03T19:46:58.679Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) supports HTTP-based C2 profiles.(Citation: Mythc Documentation)\t",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--3e86591a-c1e4-450d-b477-7dc459672a7c",
+    "id": "bundle--9c086cac-3101-48b2-9fea-a69d367b2e82",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.057Z",
+            "modified": "2026-09-02T20:07:46.793Z",
             "description": "[Ninja](https://attack.mitre.org/software/S1100) can XOR and AES encrypt C2 messages.(Citation: Kaspersky ToddyCat June 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--023254de-caaf-4a05-b2c7-e4e2f283f7a5",

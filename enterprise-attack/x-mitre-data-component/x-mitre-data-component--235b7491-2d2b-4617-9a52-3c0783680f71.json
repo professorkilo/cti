@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6bff1f30-916e-4d52-b079-9b1ed892cacb",
+    "id": "bundle--d5ad0f3d-bfa2-408d-9389-cdbd229967f1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.770Z",
+            "modified": "2026-10-13T17:43:44.861Z",
             "name": "File Access",
             "description": "To events where a file is opened or accessed, making its contents available to the requester. This includes reading, executing, or interacting with files by authorized or unauthorized entities. Examples include logging file access events (e.g., Windows Event ID 4663), monitoring file reads, and detecting unusual file access patterns. Examples: \n\n- File Read Operations: A user opens a sensitive document (e.g., financial_report.xlsx) on a shared drive.\n- File Execution: A script or executable file is accessed and executed (e.g., malware.exe is run from a temporary directory).\n- Unauthorized File Access: An unauthorized user attempts to access a protected configuration file (e.g., `/etc/passwd` on Linux or `System32` files on Windows).\n- File Access Patterns: Bulk access to multiple files in a short time (e.g., mass access to documents on a file server).\n- File Access via Network: Files on a network share are accessed remotely (e.g., logs of SMB file access).",
             "x_mitre_modified_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
@@ -29,13 +29,9 @@
                 "enterprise-attack",
                 "mobile-attack"
             ],
-            "x_mitre_version": "3.0",
+            "x_mitre_version": "3.1",
             "x_mitre_attack_spec_version": "3.3.0",
             "x_mitre_log_sources": [
-                {
-                    "name": "macOS:unifiedlog",
-                    "channel": "looking for file access to scripts with abnormal encoding patterns"
-                },
                 {
                     "name": "android:logcat",
                     "channel": "READ or COPY operations where path matches external/shared locations of other apps (e.g., /storage/emulated/0/Android/data/<otherpkg>/files/, /storage/emulated/0/Download/<app>/*)"
@@ -373,6 +369,10 @@
                     "channel": "None"
                 },
                 {
+                    "name": "macOS:unifiedlog",
+                    "channel": "looking for file access to scripts with abnormal encoding patterns"
+                },
+                {
                     "name": "macos:unifiedlog",
                     "channel": "Access to ~/Library/*/Safari or Chrome directories by non-browser processes"
                 },
@@ -483,6 +483,54 @@
                 {
                     "name": "WinEventLog:Security",
                     "channel": "EventCode=4663, 4670, 4656"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() for read on path IN /sdcard/ OR on path with file_permissions=777"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: opendir() or File.listFiles() on path IN $ExternalStoragePaths$ called > $FileEnumThreshold$ times within $EnumWindow$ by app NOT IN $FileEnumAllowList$"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: opendir('/proc/') with recursive listdir by app NOT IN $ProcessDiscoveryAllowList$ on device with android_version < $HidepidVersion$"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: open() for read on /proc/cpuinfo"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads files across $MinDirectoryCount$+ distinct parent directories with file_read_count > $FileReadRateThreshold$ within $DataCollectionWindow$ in background or low-interaction state \u2014 bulk cross-directory read is the collection signal"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App reads multiple files from Photos library, Files provider, or iCloud Drive in background or lock-adjacent state exceeding $FileReadRateThreshold$ within $DataCollectionWindow$"
+                },
+                {
+                    "name": "mobile:ForensicArtifacts",
+                    "channel": "Dynamic filesystem trace or acquired app-container/filesystem artifacts: App loads executable or library from writable external directory (/sdcard/, app cache, /data/local/tmp/) \u2014 writable-path library load is exploitable hijack vector"
+                },
+                {
+                    "name": "auditd:SYSCALL+PATH",
+                    "channel": "Linux Audit SYSCALL+PATH records: PATH records show sequential reads of ICS documentation/configuration files by a UID not in the authorized engineering or backup account set"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4663 (requires Object Access auditing and SACL on monitored paths): repeated ReadData/ListDirectory access across ICS data paths by an unapproved process/account"
+                },
+                {
+                    "name": "WinEventLog:Sysmon",
+                    "channel": "Sequential file reads across multiple Industrial Control Systems (ICS) data paths by image not in authorized ICS applications, exceeding bulk access threshold within a short window"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4663 (requires Object Access auditing/SACL): engineering process reads/opens project file from unapproved repository/removable-media/network-share path"
+                },
+                {
+                    "name": "WinEventLog:Security",
+                    "channel": "Windows Security Event ID 4663 (requires Object Access auditing/SACL): Siemens engineering process reads/opens project file from unapproved repository/removable-media/network-share path"
                 }
             ]
         }

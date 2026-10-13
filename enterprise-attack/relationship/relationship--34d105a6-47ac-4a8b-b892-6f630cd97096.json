@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7094ee70-b1b2-4a1a-beaf-8f83d18cafb1",
+    "id": "bundle--1eb82a38-8bbd-4dd0-af4c-55c790a0cdf1",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.990Z",
+            "modified": "2026-09-03T19:46:59.876Z",
             "description": "[NDiskMonitor](https://attack.mitre.org/software/S0272) can download and execute a file from given URL.(Citation: TrendMicro Patchwork Dec 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--d1183cb9-258e-4f2f-8415-50ac8252c49e",

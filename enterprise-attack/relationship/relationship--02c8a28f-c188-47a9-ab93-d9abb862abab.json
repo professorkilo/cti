@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e110b279-bf7b-4d82-8286-0f6e83fc4304",
+    "id": "bundle--3d52f47a-958e-44a7-8f38-b15372533143",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.907Z",
+            "modified": "2026-09-03T19:46:52.748Z",
             "description": "[DarkTortilla](https://attack.mitre.org/software/S1066) can download additional packages for keylogging, cryptocurrency mining, and other capabilities; it can also retrieve malicious payloads such as [Agent Tesla](https://attack.mitre.org/software/S0331), AsyncRat, [NanoCore](https://attack.mitre.org/software/S0336), RedLine, [Cobalt Strike](https://attack.mitre.org/software/S0154), and Metasploit.(Citation: Secureworks DarkTortilla Aug 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--5faaf81a-aa5b-4a4b-bae5-522439e068f8",

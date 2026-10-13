@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6934f060-21f7-4939-b174-929b685239d4",
+    "id": "bundle--b0ced638-4e95-447e-be08-0bf5d8f6005b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.239Z",
+            "modified": "2026-09-03T19:46:51.098Z",
             "description": "[Disco](https://attack.mitre.org/software/S1088) can use SMB to transfer files.(Citation: MoustachedBouncer ESET August 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--e1445afd-c359-45ed-8f27-626dc4d5e157",

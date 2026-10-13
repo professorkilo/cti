@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c9fc0eb6-561d-4231-ac84-748d89b6c1e8",
+    "id": "bundle--fac8c89a-5bb0-4a4b-ad6d-83d1f94da405",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.174Z",
+            "modified": "2026-09-03T19:46:57.706Z",
             "description": "[Manjusaka](https://attack.mitre.org/software/S1156) communication includes a client-created session cookie with base64-encoded information representing information from the victim system.(Citation: Talos Manjusaka 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd2ad3d7-d7ef-4af5-a919-bfe8f2571705",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2718f82a-219e-41d6-ad59-77b3b28b7157",
+    "id": "bundle--1bd2483b-86c4-43c1-8c1b-04cab60f025f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.108Z",
+            "modified": "2026-09-03T19:47:01.827Z",
             "description": "[SampleCheck5000](https://attack.mitre.org/software/S1168) can use the Exchange Web Services API for C2 communication.(Citation: ESET OilRig Downloaders DEC 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--a87c8100-8735-440e-8ee4-27aabb643592",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aa56f90b-3f96-4fe0-8ed2-359ab30b51f4",
+    "id": "bundle--b1fa3893-c84c-470d-8ad4-11402160f1b4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.021Z",
+            "modified": "2026-09-02T20:09:42.885Z",
             "description": "[CASTLETAP](https://attack.mitre.org/software/S1224) can initiate a C2 connection over an SSL socket.(Citation: Mandiant Fortinet Zero Day)",
             "relationship_type": "uses",
             "source_ref": "malware--15c7bcdb-23e1-4ce3-81a7-b109b4d2a4f1",

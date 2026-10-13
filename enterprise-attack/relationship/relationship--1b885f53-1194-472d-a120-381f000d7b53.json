@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--95d2b05b-1476-48fc-883d-8f5f0e7fc5cb",
+    "id": "bundle--367d346a-851f-4be1-ae1b-87a143c5fa16",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-08T20:28:08.050Z",
             "description": "[FRP](https://attack.mitre.org/software/S1144) can proxy communications through a server in public IP space to local servers located behind a NAT or firewall.(Citation: FRP GitHub)",
             "relationship_type": "uses",
             "source_ref": "tool--36dd807e-b5bc-4c3e-91ed-80682360148c",

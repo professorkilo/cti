@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--87ac331e-ff62-411b-82f9-3e3cc31e95ad",
+    "id": "bundle--a91c52b4-b3d1-4227-8874-0249b1ce8c90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.239Z",
+            "modified": "2026-09-03T19:47:01.811Z",
             "description": "[Ebury](https://attack.mitre.org/software/S0377) exfiltrates a list of outbound and inbound SSH sessions using OpenSSH's `known_host` files and `wtmp` records. [Ebury](https://attack.mitre.org/software/S0377) can exfiltrate SSH credentials through custom DNS queries or use the command `Xcat` to send the process's ssh session's credentials to the C2 server.(Citation: ESET Windigo Mar 2014)(Citation: ESET Ebury May 2024) ",
             "relationship_type": "uses",
             "source_ref": "malware--d6b3fcd0-1c86-4350-96f0-965ed02fcc51",

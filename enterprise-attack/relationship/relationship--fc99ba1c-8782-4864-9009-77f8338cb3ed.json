@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e72152d7-30b1-48fd-9225-9bb71e2e61c4",
+    "id": "bundle--96d653af-e916-4567-9c96-5b9dff8fee3e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.268Z",
+            "modified": "2026-09-03T19:46:59.587Z",
             "description": "[FunnyDream](https://attack.mitre.org/software/S1044) can communicate with C2 over TCP and UDP.(Citation: Bitdefender FunnyDream Campaign November 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--be25c1c0-1590-4219-a3d5-6f31799d1d1b",

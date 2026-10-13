@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5578082f-ceb1-4637-9cf7-53740e0c663e",
+    "id": "bundle--d9516e2f-622f-4e6d-a298-bcb37448248c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.932Z",
+            "modified": "2026-09-02T20:07:45.432Z",
             "description": "[Azorult](https://attack.mitre.org/software/S0344) can encrypt C2 traffic using XOR.(Citation: Unit42 Azorult Nov 2018)(Citation: Proofpoint Azorult July 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--f9b05f33-d45d-4e4d-aafe-c208d38a0080",

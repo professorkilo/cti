@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a85ff4d8-201c-4975-9913-7f3636f6e9dc",
+    "id": "bundle--72bbbf85-455f-4da9-bd88-86af05e79071",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:26.219Z",
+            "modified": "2026-09-03T19:46:48.178Z",
             "description": "[Patchwork](https://attack.mitre.org/groups/G0040) used Base64 to encode C2 traffic.(Citation: Cymmetria Patchwork)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--17862c7d-9e60-48a0-b48e-da4dc4c3f6b0",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5ccef155-d8b9-46a4-944d-19e2899c2fbe",
+    "id": "bundle--9fc225f5-9686-4b96-999a-c3ad1166e799",
     "spec_version": "2.0",
     "objects": [
         {
@@ -11,6 +11,16 @@
             "revoked": false,
             "external_references": [
                 {
+                    "source_name": "CarySentinelLabs_CiscoSaltTyphoon_Dec2025",
+                    "description": "Cary, D. (2025, December 10). Malicious Apprentice | How Two Hackers Went From Cisco Academy to Cisco CVEs. Retrieved September 22, 2026.",
+                    "url": "https://www.sentinelone.com/labs/malicious-apprentice-how-two-hackers-went-from-cisco-academy-to-cisco-cves/"
+                },
+                {
+                    "source_name": "CISA_AA25-239ASaltTyphoon_Sept2025",
+                    "description": "CISA. (2025, September 3). Countering Chinese State-Sponsored Actors Compromise of Networks Worldwide to Feed Global Espionage System. Retrieved September 22, 2026.",
+                    "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-239a"
+                },
+                {
                     "source_name": "Cisco Salt Typhoon FEB 2025",
                     "description": "Cisco Talos. (2025, February 20). Weathering the storm: In the midst of a Typhoon. Retrieved February 24, 2025.",
                     "url": "https://blog.talosintelligence.com/salt-typhoon-analysis/"
@@ -19,8 +29,8 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:42.005Z",
-            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has exploited CVE-2018-0171 in the Smart Install feature of Cisco IOS and Cisco IOS XE software for initial access.(Citation: Cisco Salt Typhoon FEB 2025)",
+            "modified": "2026-09-28T13:59:55.533Z",
+            "description": "[Salt Typhoon](https://attack.mitre.org/groups/G1045) has leveraged vulnerabilities in public facing applications and network edge devices including Cisco IOS and IOS XE through CVE-2018-0171, Ivanti Connect Secure through CVE-2023-46805, and Palo Alto Networks GlobalProtect through CVE-2024-3400.(Citation: Cisco Salt Typhoon FEB 2025)(Citation: CISA_AA25-239ASaltTyphoon_Sept2025)(Citation: CarySentinelLabs_CiscoSaltTyphoon_Dec2025)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--1c3dcf91-b859-4aae-a09c-ae26dc8b6390",
             "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",

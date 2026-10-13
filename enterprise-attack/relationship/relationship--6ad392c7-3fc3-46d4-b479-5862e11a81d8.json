@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f06aa74c-7a02-4512-b14a-c4f3b38e5e43",
+    "id": "bundle--15cd2392-6d0f-4a10-a2d7-0bcdd644c447",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.070Z",
+            "modified": "2026-09-03T19:47:00.441Z",
             "description": "[Remexi](https://attack.mitre.org/software/S0375) uses [BITSAdmin](https://attack.mitre.org/software/S0190) to communicate with the C2 server over HTTP.(Citation: Securelist Remexi Jan 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--ecc2f65a-b452-4eaf-9689-7e181f17f7a5",

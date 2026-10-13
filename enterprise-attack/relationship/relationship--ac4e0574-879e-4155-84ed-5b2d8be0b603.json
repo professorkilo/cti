@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--63bc0243-3e75-499e-9ffb-9b1eeef5c8e9",
+    "id": "bundle--cebfbd6f-2a26-449c-9a64-1ceda410d0ea",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.159Z",
+            "modified": "2026-09-03T19:46:52.236Z",
             "description": "[Empire](https://attack.mitre.org/software/S0363) can use Dropbox and GitHub for C2.(Citation: Github PowerShell Empire)",
             "relationship_type": "uses",
             "source_ref": "tool--3433a9e8-1c47-4320-b9bf-ed449061d1c3",

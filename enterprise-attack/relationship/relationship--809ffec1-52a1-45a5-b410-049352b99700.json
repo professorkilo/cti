@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ce7f3373-e424-457c-90c4-f08ce2a5e796",
+    "id": "bundle--2e3f25e8-77ae-4a65-9299-cfc9808595cb",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.101Z",
+            "modified": "2026-09-03T19:47:02.861Z",
             "description": "[Xbash](https://attack.mitre.org/software/S0341) can download additional malicious files from its C2 server.(Citation: Unit42 Xbash Sept 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6a92d80f-cc65-45f6-aa66-3cdea6786b3c",

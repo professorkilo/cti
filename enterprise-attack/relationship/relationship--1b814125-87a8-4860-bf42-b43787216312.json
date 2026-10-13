@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4081e1d3-e03e-4545-9c79-2be7dd405107",
+    "id": "bundle--d65e9c63-6de4-41d2-90e8-9e1ff0ad38aa",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.942Z",
+            "modified": "2026-09-03T19:46:54.188Z",
             "description": "[cd00r](https://attack.mitre.org/software/S1204) can monitor incoming C2 communications sent over TCP to the compromised host.(Citation: Hartrell cd00r 2002)(Citation: Lumen J-Magic JAN 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--00936d7a-451d-4a9c-88fc-05b141aa2d3f",

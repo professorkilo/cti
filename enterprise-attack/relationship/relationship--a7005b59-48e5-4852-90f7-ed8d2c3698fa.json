@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1b42db8e-a9b5-413b-98a1-d9ad89199e95",
+    "id": "bundle--a2556ca1-f254-4f2b-9033-7e98d5c1f736",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.153Z",
+            "modified": "2026-09-09T18:39:16.952Z",
             "description": "[Uroburos](https://attack.mitre.org/software/S0022) can use up to 10 channels to communicate between implants.(Citation: Joint Cybersecurity Advisory AA23-129A Snake Malware May 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--80a014ba-3fef-4768-990b-37d8bd10d7f4",

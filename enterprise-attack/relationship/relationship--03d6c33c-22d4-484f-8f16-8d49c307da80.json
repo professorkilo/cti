@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c81a2365-40e6-43f1-8090-cd47118a3fc6",
+    "id": "bundle--6bfd2b74-1afd-4c55-ab7f-b3799dd3ad46",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.908Z",
+            "modified": "2026-09-03T19:46:53.181Z",
             "description": "[Shark](https://attack.mitre.org/software/S1019)  can download additional files from its C2 via HTTP or DNS.(Citation: ClearSky Siamesekitten August 2021)(Citation: Accenture Lyceum Targets November 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--99854cc8-f202-4e03-aa0a-4f8a4af93229",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7d9b9d2-a48f-4201-901a-7f99d2a43439",
+    "id": "bundle--08aa9fce-5f88-4970-8716-811b0a840138",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.217Z",
+            "modified": "2026-09-03T19:47:05.368Z",
             "description": "[Diavol](https://attack.mitre.org/software/S0659) can receive configuration updates and additional payloads including wscpy.exe from C2.(Citation: Fortinet Diavol July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--4e9bdf9a-4957-47f6-87b3-c76898d3f623",

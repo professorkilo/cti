@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea9dfb1f-7b3a-4ee6-b47e-b0171e2cf0cc",
+    "id": "bundle--d671e82a-8d22-4371-9da4-cd2c70fa388d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.133Z",
+            "modified": "2026-09-03T19:47:03.672Z",
             "description": "[TAINTEDSCRIBE](https://attack.mitre.org/software/S0586) can download additional modules from its C2 server.(Citation: CISA MAR-10288834-2.v1  TAINTEDSCRIBE MAY 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--7f4bbe05-1674-4087-8a16-8f1ad61b6152",

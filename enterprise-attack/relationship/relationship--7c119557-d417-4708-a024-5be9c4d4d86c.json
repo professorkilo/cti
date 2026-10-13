@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--14e24847-7c85-4c2e-b167-3215c592270f",
+    "id": "bundle--874dc083-6ee5-4450-ae9f-b5d648ca0409",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.095Z",
+            "modified": "2026-09-08T20:28:08.531Z",
             "description": "[TSCookie](https://attack.mitre.org/software/S0436) has the ability to proxy communications with command and control (C2) servers.(Citation: JPCert BlackTech Malware September 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--76ac7989-c5cc-42e2-93e3-d6c476f01ace",

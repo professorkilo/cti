@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1dd37754-8174-41c7-afb9-81a31007e5d8",
+    "id": "bundle--39edfac8-acdb-4c17-8afd-eceb41cbdf39",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.087Z",
+            "modified": "2026-09-03T19:47:02.606Z",
             "description": "[DarkComet](https://attack.mitre.org/software/S0334) can load any files onto the infected machine to execute.(Citation: TrendMicro DarkComet Sept 2014)(Citation: Malwarebytes DarkComet March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--53ab35c2-d00e-491a-8753-41d35ae7e547",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--97d2b524-7395-4e63-b101-d3b831f7edeb",
+    "id": "bundle--713902dd-d8da-4bfe-a8fe-653f47ad70fd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.180Z",
+            "modified": "2026-09-03T19:46:58.847Z",
             "description": "[SnappyTCP](https://attack.mitre.org/software/S1163) spawns a reverse TCP shell following an HTTP-based negotiation.(Citation: PWC Sea Turtle 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--5a6fa62e-4ddf-4ae3-974a-f17f24058350",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6187a3de-00bc-4e2f-8726-4bb6c55d7947",
+    "id": "bundle--f40fd259-5a82-4463-8b67-191c99a779c3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.235Z",
+            "modified": "2026-09-08T20:28:43.808Z",
             "description": "[Stuxnet](https://attack.mitre.org/software/S0603) installs an RPC server for P2P communications.(Citation: Nicolas Falliere, Liam O Murchu, Eric Chien February 2011)",
             "relationship_type": "uses",
             "source_ref": "malware--088f1d6e-0783-47c6-9923-9c79b2af43d4",

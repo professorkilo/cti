@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--347f43c4-f553-4ab0-a6f1-65b8b3832d8c",
+    "id": "bundle--430eeb14-46a0-41d5-9552-de9505433ec3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.046Z",
+            "modified": "2026-09-03T19:46:59.848Z",
             "description": "[Psylo](https://attack.mitre.org/software/S0078) uses HTTPS for C2.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--dfb5fa9b-3051-4b97-8035-08f80aef945b",

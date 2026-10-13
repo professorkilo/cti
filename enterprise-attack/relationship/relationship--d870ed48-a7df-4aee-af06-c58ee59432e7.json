@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1503406b-8616-45aa-a389-475a63605d0c",
+    "id": "bundle--0ff041ec-1700-401d-badf-4e930a4e6a87",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-03T19:47:05.435Z",
             "description": "[build_downer](https://attack.mitre.org/software/S0471) has the ability to download files from C2 to the infected host.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--d2c7f8ad-3b50-4cfa-bbb1-799eff06fb40",

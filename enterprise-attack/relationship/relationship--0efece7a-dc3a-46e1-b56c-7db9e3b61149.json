@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4a792c35-be9d-402d-8abe-c4f3a21430e5",
+    "id": "bundle--9da89892-f2b2-4ecf-9feb-e5cb6b0b6803",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.924Z",
+            "modified": "2026-09-03T19:46:55.468Z",
             "description": "[down_new](https://attack.mitre.org/software/S0472) has the ability to download files to the compromised host.(Citation: Trend Micro Tick November 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--8be7c69e-d8e3-4970-9668-61de08e508cc",

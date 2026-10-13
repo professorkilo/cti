@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--e27076ee-3308-4a5e-bea4-e9403f5e135b",
+    "id": "bundle--6e6e15f0-fd42-4b10-9433-f203995e9075",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-02T20:07:47.586Z",
             "description": "[CallMe](https://attack.mitre.org/software/S0077) uses AES to encrypt C2 traffic.(Citation: Scarlet Mimic Jan 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--cb7bcf6f-085f-41db-81ee-4b68481661b5",

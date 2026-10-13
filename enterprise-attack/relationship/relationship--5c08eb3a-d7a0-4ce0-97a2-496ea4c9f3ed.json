@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4600f4a6-240a-4ac5-8ff1-97935ec147b1",
+    "id": "bundle--07829568-58cc-4d88-baa6-6dd44420e5d0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.051Z",
+            "modified": "2026-09-03T19:47:01.654Z",
             "description": "[Linfo](https://attack.mitre.org/software/S0211) creates a backdoor through which remote attackers can download files onto compromised hosts.(Citation: Symantec Linfo May 2012)",
             "relationship_type": "uses",
             "source_ref": "malware--e9e9bfe2-76f4-4870-a2a1-b7af89808613",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4f763c21-591e-4d67-a884-9f0eae3867c4",
+    "id": "bundle--6c16cc70-b2d2-4580-ac48-b8810d9af8bd",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.709Z",
+            "modified": "2026-09-11T19:55:56.428Z",
             "name": "Invalid Code Signature",
             "description": "Adversaries may attempt to mimic features of valid code signatures to increase the chance of deceiving a user, analyst, or tool. Code signing provides a level of authenticity on a binary from the developer and a guarantee that the binary has not been tampered with. Adversaries can copy the metadata and signature information from a signed program, then use it as a template for an unsigned program. Files with invalid code signatures will fail digital signature validation checks, but they may appear more legitimate to users and security tools may improperly handle these files.(Citation: Threatexpress MetaTwin 2017)\n\nUnlike [Code Signing](https://attack.mitre.org/techniques/T1553/002), this activity will not result in a valid signature.",
             "kill_chain_phases": [

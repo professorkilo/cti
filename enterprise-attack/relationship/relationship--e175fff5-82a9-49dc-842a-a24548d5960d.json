@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bf237c80-c108-40e6-906e-8da96d6f10c8",
+    "id": "bundle--17dda4b0-8e1a-4b6c-adb5-fc63d1fa5d46",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T03:16:46.015Z",
+            "modified": "2026-09-03T19:47:04.045Z",
             "description": "[Kali365](https://attack.mitre.org/software/S9044)'s desktop client has made Microsoft Graph API calls using the distinct User-Agent string `kali365-live/1.0.0` to access victim mailboxes and enumerate account data following OAuth token capture.(Citation: Artic Wolf Labs Kali365 Device Code April 2026)",
             "relationship_type": "uses",
             "source_ref": "malware--f5a56c26-e192-489d-a77e-a8b38fd70eee",

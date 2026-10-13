@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--93c69558-1062-4f3c-8117-6101206de5c1",
+    "id": "bundle--7a0b333d-df72-47ca-af54-f8f1c3182656",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-03T19:46:53.655Z",
             "description": "[LAMEHUG](https://attack.mitre.org/software/S9035) has used the Hugging Face API to query the Qwen2.5-Coder-32B-Instruct LLM to generate one-line Windows commands for the collection of system information and documents in specific folders on compromised hosts. [LAMEHUG](https://attack.mitre.org/software/S9035) subsequently executed the returned commands and exfiltrated the collected files and information to adversary-controlled C2 servers.(Citation: Nov AI Threat Tracker)(Citation: Splunk LAMEHUG SEP 2025)",
             "relationship_type": "uses",
             "source_ref": "malware--c55e0410-842d-4365-a2c8-26c0330f85b8",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6088c756-140a-4104-ba99-d23323a91e1a",
+    "id": "bundle--feb89562-9be8-4322-b421-1644629ca523",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.921Z",
+            "modified": "2026-09-03T19:46:52.823Z",
             "description": "[Cryptoistic](https://attack.mitre.org/software/S0498) can engage in encrypted communications with C2.(Citation: SentinelOne Lazarus macOS July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--a04d9a4c-bb52-40bf-98ec-e350c2d6a862",

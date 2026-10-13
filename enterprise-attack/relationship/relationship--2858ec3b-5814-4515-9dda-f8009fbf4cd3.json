@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--1173dbc3-7cbd-4e2f-8697-2e36df403b48",
+    "id": "bundle--e23b5000-f29e-422a-b0db-1ac0a8de934c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -13,13 +13,13 @@
                 {
                     "source_name": "Symantec Beetlejuice",
                     "description": "Symantec Security Response. (2012, May 31). Flamer: A Recipe for Bluetoothache. Retrieved February 25, 2017.",
-                    "url": "https://www.symantec.com/connect/blogs/flamer-recipe-bluetoothache"
+                    "url": "https://web.archive.org/web/20120604050149/https://www.symantec.com/connect/blogs/flamer-recipe-bluetoothache"
                 }
             ],
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.960Z",
+            "modified": "2026-06-12T15:14:52.652Z",
             "description": "[Flame](https://attack.mitre.org/software/S0143) has a module named BeetleJuice that contains Bluetooth functionality that may be used in different ways, including transmitting encoded information from the infected system over the Bluetooth protocol, acting as a Bluetooth beacon, and identifying other Bluetooth devices in the vicinity.(Citation: Symantec Beetlejuice)",
             "relationship_type": "uses",
             "source_ref": "malware--ff6840c9-4c87-4d07-bbb6-9f50aa33d498",

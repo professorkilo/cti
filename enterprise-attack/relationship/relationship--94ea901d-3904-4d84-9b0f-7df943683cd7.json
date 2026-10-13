@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--00dba67c-9a0b-4828-9efe-303db724edd8",
+    "id": "bundle--c2485be9-4e4c-46bb-a0a2-0d95adf44e97",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-03T19:47:03.512Z",
             "description": "[Sliver](https://attack.mitre.org/software/S0633) can download additional content and files from the [Sliver](https://attack.mitre.org/software/S0633) server to the client residing on the victim machine using the <code>upload</code> command.(Citation: GitHub Sliver Upload)(Citation: Cybereason Sliver Undated)",
             "relationship_type": "uses",
             "source_ref": "tool--11f8d7eb-1927-4806-9267-3a11d4d4d6be",

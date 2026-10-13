@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--0bcc4368-3d7c-4b59-8ff7-2da417e2b021",
+    "id": "bundle--6022c231-6a05-4198-9d15-0a003c4eb2f5",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.047Z",
+            "modified": "2026-09-02T18:05:13.038Z",
             "description": "[Raspberry Robin](https://attack.mitre.org/software/S1130) will drop a copy of itself to a subfolder in <code>%Program Data%</code> or <code>%Program Data%\\\\Microsoft\\\\</code> to attempt privilege elevation and defense evasion if not running in Session 0.(Citation: TrendMicro RaspberryRobin 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--4e385fa6-ebe0-43fc-9ccf-5b51b5dc4d79",

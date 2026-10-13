@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9694a9a4-9f15-4440-8d42-94fce57de660",
+    "id": "bundle--dc1ddd96-88ab-4879-a15d-cb4588f013e8",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-05-12T15:12:00.622Z",
+            "modified": "2026-09-11T19:49:27.665Z",
             "name": "Local Data Staging",
             "description": "Adversaries may stage collected data in a central location or directory on the local system prior to Exfiltration. Data may be kept in separate files or combined into one file through techniques such as [Archive Collected Data](https://attack.mitre.org/techniques/T1560). Interactive command shells may be used, and common functionality within [cmd](https://attack.mitre.org/software/S0106) and bash may be used to copy data into a staging location.\n\nAdversaries may also stage collected data in various available formats/locations of a system, including local storage databases/repositories or the Windows Registry.(Citation: Prevailion DarkWatchman 2021)",
             "kill_chain_phases": [

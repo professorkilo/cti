@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4350467a-885f-4e51-a705-bc385b80f4a5",
+    "id": "bundle--d590cfbe-f83f-4840-9b19-e6e93c6a7e0e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.151Z",
+            "modified": "2026-09-09T18:39:16.939Z",
             "description": "[Mis-Type](https://attack.mitre.org/software/S0084) first attempts to use a Base64-encoded network protocol over a raw TCP socket for C2, and if that method fails, falls back to a secondary HTTP-based protocol to communicate to an alternate C2 server.(Citation: Cylance Dust Storm)",
             "relationship_type": "uses",
             "source_ref": "malware--e1161124-f22e-487f-9d5f-ed8efc8dcd61",

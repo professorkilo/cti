@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bfcaaa90-458f-4f76-8a42-04960553f1a3",
+    "id": "bundle--a6236b23-1157-48dc-b49c-6e4986306105",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.165Z",
+            "modified": "2026-09-03T19:47:04.499Z",
             "description": "[BISCUIT](https://attack.mitre.org/software/S0017) has a command to download a file from the C2 server.(Citation: Mandiant APT1 Appendix)",
             "relationship_type": "uses",
             "source_ref": "malware--b8eb28e4-48a6-40ae-951a-328714f75eda",

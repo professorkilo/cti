@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f763d612-2492-4ecd-a033-8f1eccb73944",
+    "id": "bundle--b52cdf28-f474-47a7-997a-bfc29c401cae",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.011Z",
+            "modified": "2026-09-02T20:09:42.858Z",
             "description": "[GrimAgent](https://attack.mitre.org/software/S0632) can use a hardcoded server public RSA key to encrypt the first request to C2.(Citation: Group IB GrimAgent July 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c9b99d03-ff11-4a48-95f0-82660d582c25",

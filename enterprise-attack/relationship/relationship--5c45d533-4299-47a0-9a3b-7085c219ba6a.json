@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--561255c8-68ee-4966-a50d-2e3969e0a510",
+    "id": "bundle--d74282f1-91ea-4434-9509-7e16cf25d16c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.051Z",
+            "modified": "2026-09-03T19:46:49.520Z",
             "description": "[DanBot](https://attack.mitre.org/software/S1014) can use use IPv4 A records and IPv6 AAAA DNS records in C2 communications.(Citation: SecureWorks August 2019)",
             "relationship_type": "uses",
             "source_ref": "malware--b8d48deb-450c-44f6-a934-ac8765aa89cb",

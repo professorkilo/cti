@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--160f4c0b-bf1c-43c4-b6bb-041e44380084",
+    "id": "bundle--a277cb93-309a-4e2e-b49f-2fd57273b7e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.025Z",
+            "modified": "2026-09-03T19:46:50.572Z",
             "description": "[Octopus](https://attack.mitre.org/software/S0340) has encoded C2 communications in Base64.(Citation: Securelist Octopus Oct 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--e2031fd5-02c2-43d4-85e2-b64f474530c2",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ff19fbb5-e7ee-4030-93ab-c43fc6755a8b",
+    "id": "bundle--bdb18c3b-df11-4c26-9703-0a0098e4dc6a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.940Z",
+            "modified": "2026-09-02T20:07:46.090Z",
             "description": "[Winnti for Windows](https://attack.mitre.org/software/S0141) can XOR encrypt C2 traffic.(Citation: Novetta Winnti April 2015)",
             "relationship_type": "uses",
             "source_ref": "malware--d3afa961-a80c-4043-9509-282cdf69ab21",

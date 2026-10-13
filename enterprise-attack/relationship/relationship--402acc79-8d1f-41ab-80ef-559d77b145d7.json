@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--9c82812d-3930-457f-bbd8-57563477be00",
+    "id": "bundle--d7602613-275a-45b6-980e-d1f78f315e0b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.012Z",
+            "modified": "2026-09-03T19:46:58.765Z",
             "description": "[Raccoon Stealer](https://attack.mitre.org/software/S1148) uses HTTP, and particularly HTTP POST requests, for command and control actions.(Citation: S2W Racoon 2022)(Citation: Sekoia Raccoon1 2022)(Citation: Sekoia Raccoon2 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--b5a8fb8b-4ff1-43e5-a1ad-75ae565f5175",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2f771490-8f5d-4d00-a1fd-2c7493b8d92a",
+    "id": "bundle--7c44dd2f-782f-47ec-a1ec-fdf1a02e2645",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:51.597Z",
+            "modified": "2026-09-03T19:47:01.938Z",
             "description": "[CURIUM](https://attack.mitre.org/groups/G1012) has used IMAP and SMTPS for exfiltration via tools such as [IMAPLoader](https://attack.mitre.org/software/S1152).(Citation: PWC Yellow Liderc 2023)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--3ea7add5-5b8f-45d8-b1f1-905d2729d62a",

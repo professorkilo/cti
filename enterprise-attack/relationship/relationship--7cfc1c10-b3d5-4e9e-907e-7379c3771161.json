@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--a67271e5-d221-4098-b24f-99ce06bd1674",
+    "id": "bundle--35fb64b8-e6cf-4da4-b7a1-e78659d9fb94",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.096Z",
+            "modified": "2026-09-03T19:46:59.749Z",
             "description": "[ThiefQuest](https://attack.mitre.org/software/S0595) exfiltrates targeted file extensions in the <code>/Users/</code> folder to the command and control server via unencrypted HTTP. Network packets contain a string with two pieces of information: a file path and the contents of the file in a base64 encoded string.(Citation: wardle evilquest partii)(Citation: reed thiefquest ransomware analysis)",
             "relationship_type": "uses",
             "source_ref": "malware--727afb95-3d0f-4451-b297-362a43909923",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--accee936-ab15-40d6-98a5-61f12dca4c89",
+    "id": "bundle--078e9214-7410-48c3-b8b2-fb8064325f3f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.960Z",
+            "modified": "2026-09-03T19:46:48.662Z",
             "description": "Some [Brave Prince](https://attack.mitre.org/software/S0252) variants have used South  Korea's Daum email service to exfiltrate information, and later variants have posted the data to a web server via an HTTP post command.(Citation: McAfee Gold Dragon)",
             "relationship_type": "uses",
             "source_ref": "malware--28b97733-ef07-4414-aaa5-df50b2d30cc5",

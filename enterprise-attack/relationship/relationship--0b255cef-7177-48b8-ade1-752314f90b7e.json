@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--842c502d-6d06-4014-9cef-609e08b563cd",
+    "id": "bundle--667fdb0e-0f0d-4df2-a0a3-710a794d277b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -34,7 +34,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:46.407Z",
+            "modified": "2026-09-03T19:46:47.654Z",
             "description": "[Lazarus Group](https://attack.mitre.org/groups/G0032) malware also uses a unique form of communication encryption known as FakeTLS that mimics TLS but uses a different encryption method, potentially evading SSL traffic inspection/decryption.(Citation: Novetta Blockbuster)(Citation: Novetta Blockbuster Destructive Malware)(Citation: McAfee Lazarus Resurfaces Feb 2018)(Citation: McAfee-GhostSecret-fixurl)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--c93fccb1-e8e8-42cf-ae33-2ad1d183913a",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69e560fe-a818-4f5d-9fbd-d62d660fb28a",
+    "id": "bundle--c625e285-2d21-4bde-aee8-5ebb79407e1c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.968Z",
+            "modified": "2026-09-03T19:46:54.637Z",
             "description": "[PlugX](https://attack.mitre.org/software/S0013) can be configured to use raw TCP or UDP for command and control.(Citation: Eset PlugX Korplug Mustang Panda March 2022)(Citation: Dell TG-3390)",
             "relationship_type": "uses",
             "source_ref": "malware--64fa0de0-6240-41f4-8638-f4ca7ed528fd",

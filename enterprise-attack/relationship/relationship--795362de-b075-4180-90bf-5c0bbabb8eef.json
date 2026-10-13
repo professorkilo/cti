@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--aec2172c-3cac-4f7d-bdc2-b26ddc6ed295",
+    "id": "bundle--f719879b-9740-4632-9545-e81dc0c9f12a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:19.766Z",
+            "modified": "2026-09-03T19:47:02.673Z",
             "description": "During the [2025 Poland Wiper Attacks](https://attack.mitre.org/campaigns/C0063), the adversaries downloaded malicious payloads to the victim server.(Citation: CERT Polska)",
             "relationship_type": "uses",
             "source_ref": "campaign--a6aba167-5ada-4812-9da1-912c0e73335d",

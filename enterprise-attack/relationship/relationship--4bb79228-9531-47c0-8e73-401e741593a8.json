@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--845aefff-626a-4baa-80ad-3fd6a0c5ad0e",
+    "id": "bundle--129d5d9c-a000-4140-90f0-5f5ec7f7af5e",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.029Z",
+            "modified": "2026-09-03T19:47:01.041Z",
             "description": "[Smoke Loader](https://attack.mitre.org/software/S0226) downloads a new version of itself once it has installed. It also downloads additional plugins.(Citation: Malwarebytes SmokeLoader 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--0c824410-58ff-49b2-9cf2-1c96b182bdf0",

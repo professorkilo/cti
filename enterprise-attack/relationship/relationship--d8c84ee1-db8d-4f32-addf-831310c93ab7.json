@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--cbab32f6-e9f8-48ae-a279-77821920e798",
+    "id": "bundle--7c542805-9bc5-4845-b71a-961615c891d4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.221Z",
+            "modified": "2026-09-03T19:46:54.480Z",
             "description": "[DarkGate](https://attack.mitre.org/software/S1111) will retrieved encrypted commands from its command and control server for follow-on actions such as cryptocurrency mining.(Citation: Ensilo Darkgate 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--6f6f67c9-556d-4459-95c2-78d272190e52",

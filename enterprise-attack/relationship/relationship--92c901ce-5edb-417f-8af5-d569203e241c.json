@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--08e6ed0a-1da5-46b8-a0b1-8550947f83f8",
+    "id": "bundle--c38c7ade-6f89-42da-8047-ae375bb611ab",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.125Z",
+            "modified": "2026-09-03T19:47:03.441Z",
             "description": "[ChChes](https://attack.mitre.org/software/S0144) is capable of downloading files, including additional modules.(Citation: Palo Alto menuPass Feb 2017)(Citation: JPCERT ChChes Feb 2017)(Citation: FireEye APT10 April 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--dc5d1a33-62aa-4a0c-aa8c-589b87beb11e",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--69cd0570-7232-4d48-90de-3d7943ae3983",
+    "id": "bundle--2379ebea-4a3f-4ffb-aa7d-b6bc0e96e7bc",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.182Z",
+            "modified": "2026-09-02T20:07:47.533Z",
             "description": "[FlawedAmmyy](https://attack.mitre.org/software/S0381) has used SEAL encryption during the initial C2 handshake.(Citation: Proofpoint TA505 Mar 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--432555de-63bf-4f2a-a3fa-f720a4561078",

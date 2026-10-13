@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--b454d07d-e5c6-4886-99f9-5f1f7f1fc469",
+    "id": "bundle--ce624814-ccbd-447c-b391-05ccea417804",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.175Z",
+            "modified": "2026-09-03T19:47:04.731Z",
             "description": "[GoldenSpy](https://attack.mitre.org/software/S0493) constantly attempts to download and execute files from the remote C2, including [GoldenSpy](https://attack.mitre.org/software/S0493) itself if not found on the system.(Citation: Trustwave GoldenSpy June 2020)\t",
             "relationship_type": "uses",
             "source_ref": "malware--b9704a7d-feef-4af9-8898-5280f1686326",

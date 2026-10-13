@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--578b727c-0f9d-4225-821d-cfda77f5a54f",
+    "id": "bundle--d309018c-adfd-4d17-85ef-a097b44adf67",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.945Z",
+            "modified": "2026-09-02T20:07:46.168Z",
             "description": "[Sardonic](https://attack.mitre.org/software/S1085) has the ability to use an RC4 key to encrypt communications to and from actor-controlled C2 servers.(Citation: Bitdefender Sardonic Aug 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--0c52f5bc-557d-4083-bd27-66d7cdb794bb",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5d6a19ef-b934-4c3b-bb01-266567161e55",
+    "id": "bundle--2129819d-0fa0-4dce-aee7-8943fac1aee4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:59.440Z",
+            "modified": "2026-09-03T19:46:54.594Z",
             "description": "[Aoqin Dragon](https://attack.mitre.org/groups/G1007) has spread malware in target networks by copying modules to folders masquerading as removable devices.(Citation: SentinelOne Aoqin Dragon June 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--64d5f96a-f121-4d19-89f6-6709f5c49faa",

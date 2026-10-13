@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7c7ff7e-f6ee-4947-9e2c-af65b63d1fef",
+    "id": "bundle--6a1755b0-0445-4c26-9265-def759aa9b5c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.831Z",
+            "modified": "2026-09-08T20:28:08.366Z",
             "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has used a customized version of the Iox port-forwarding and proxy tool.(Citation: Sygnia Emperor Dragonfly October 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",

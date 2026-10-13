@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--51817ec4-0667-41a8-a818-586a3d084e69",
+    "id": "bundle--ccab3b52-1a16-4976-94d1-9ba7d77df90c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.067Z",
+            "modified": "2026-09-03T19:46:48.925Z",
             "description": "[Machete](https://attack.mitre.org/software/S0409) uses FTP for Command & Control.(Citation: ESET Machete July 2019)(Citation: Cylance Machete Mar 2017)(Citation: 360 Machete Sep 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--35cd1d01-1ede-44d2-b073-a264d727bc04",

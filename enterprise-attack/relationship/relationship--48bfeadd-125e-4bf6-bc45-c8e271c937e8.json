@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ca1682ef-c3bf-48be-929c-9ede2795a701",
+    "id": "bundle--f8e66124-39c1-4815-a8ff-82ebefa41453",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:33.977Z",
+            "modified": "2026-09-03T19:46:59.247Z",
             "description": "[Quad7 Activity](https://attack.mitre.org/campaigns/C0055) has used the same User Agents of <code>Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko</code> and <code>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36</code> combined with a reference to the Microsoft Azure PowerShell Application ID <code>1950a258-227b-4e31-a9cf-717495945fc2</code> in their sign-in attempts.(Citation: Microsoft Storm-0940)",
             "relationship_type": "uses",
             "source_ref": "campaign--e7511089-1076-4a3b-984d-1a0a8afe31e9",

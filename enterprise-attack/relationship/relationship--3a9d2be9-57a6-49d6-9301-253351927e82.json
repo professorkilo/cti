@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--4403c0cd-3ca3-48ba-8013-0c823d87ebe6",
+    "id": "bundle--1bf11879-1e6f-4e2d-a89b-e3c475fb26b0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.001Z",
+            "modified": "2026-09-03T19:46:49.602Z",
             "description": "[RustyWater](https://attack.mitre.org/software/S9037) has encoded collected data with Base64.(Citation: CloudSEK_RustyWater_Jan2026)\u202f\u202f\u202f",
             "relationship_type": "uses",
             "source_ref": "malware--50be4e81-db74-41a2-a9aa-423314082bea",

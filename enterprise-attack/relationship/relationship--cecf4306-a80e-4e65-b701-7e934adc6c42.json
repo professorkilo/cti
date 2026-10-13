@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--af63ca93-1f92-4cdb-8e42-b4a021770bbf",
+    "id": "bundle--b55accb9-bed8-4496-a571-5153e9f7c11c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:52.561Z",
+            "modified": "2026-09-03T19:47:05.312Z",
             "description": "[WIRTE](https://attack.mitre.org/groups/G0090) has downloaded PowerShell code from the C2 server to be executed.(Citation: Lab52 WIRTE Apr 2019)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--f8cb7b36-62ef-4488-8a6d-a7033e3271c1",

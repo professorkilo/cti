@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ddc3add8-1d05-498b-955f-2e9bb0536c16",
+    "id": "bundle--1b4d863f-3203-462e-ac78-5dad5c54f84b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.957Z",
+            "modified": "2026-09-08T20:29:09.352Z",
             "description": "[Mythic](https://attack.mitre.org/software/S0699) can leverage a modified SOCKS5 proxy to tunnel egress C2 traffic.(Citation: Mythc Documentation)",
             "relationship_type": "uses",
             "source_ref": "tool--d505fc8b-2e64-46eb-96d6-9ef7ffca5b66",

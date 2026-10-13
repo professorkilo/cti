@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c57b3c5e-7f0b-4dea-b94e-215b8fb2d86d",
+    "id": "bundle--807d5ab8-34cb-4ad2-bdc7-08c30c9c6d90",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.938Z",
+            "modified": "2026-09-03T19:46:48.497Z",
             "description": "[EVILNUM](https://attack.mitre.org/software/S0568) has used a one-way communication method via GitLab and Digital Point to perform C2.(Citation: Prevailion EvilNum May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--7cdfccda-2950-4167-981a-60872ff5d0db",

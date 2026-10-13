@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7c912ca9-bec0-4535-a206-b61e155485bf",
+    "id": "bundle--b6235216-e91f-49a2-a9b5-2bb705718e38",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.248Z",
+            "modified": "2026-09-03T19:46:52.324Z",
             "description": "[Cherry Picker](https://attack.mitre.org/software/S0107) exfiltrates files over FTP.(Citation: Trustwave Cherry Picker)",
             "relationship_type": "uses",
             "source_ref": "malware--b2203c59-4089-4ee4-bfe1-28fa25f0dbfe",

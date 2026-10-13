@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db9a9ead-35a2-40cb-ab6f-cd87ee673c1c",
+    "id": "bundle--3e271925-f455-486e-bd44-1349fd66c875",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.114Z",
+            "modified": "2026-09-03T19:46:55.396Z",
             "description": "[PULSECHECK](https://attack.mitre.org/software/S1108) can base-64 encode encrypted data sent through C2.(Citation: Mandiant Pulse Secure Zero-Day April 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--9a097d18-d15f-4635-a4f1-189df7efdc40",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--faf34504-61dc-48dd-95d1-ca431357f9cf",
+    "id": "bundle--f4d4652c-d3ff-420b-ac1f-84e5cfd38075",
     "spec_version": "2.0",
     "objects": [
         {
@@ -29,7 +29,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.161Z",
+            "modified": "2026-09-03T19:47:04.359Z",
             "description": "[Astaroth](https://attack.mitre.org/software/S0373) uses [certutil](https://attack.mitre.org/software/S0160) and [BITSAdmin](https://attack.mitre.org/software/S0190) to download additional malware. (Citation: Cofense Astaroth Sept 2018)(Citation: Cybereason Astaroth Feb 2019)(Citation: Securelist Brazilian Banking Malware July 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--edb24a93-1f7a-4bbf-a738-1397a14662c6",

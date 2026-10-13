@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c4ba2a6c-bc14-4ab1-ae06-f147c9d3c168",
+    "id": "bundle--33a24956-375c-465f-83d6-32b20baeade3",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.031Z",
+            "modified": "2026-09-03T19:46:59.563Z",
             "description": "[Quick Assist](https://attack.mitre.org/software/S1209) communicates over TCP 443 via HTTPS to a remote session server, under which RDP traffic is transferred.(Citation: Microsoft Quick Assist 2024)",
             "relationship_type": "uses",
             "source_ref": "tool--fcdb30de-5449-4777-a4f4-922e71f65932",

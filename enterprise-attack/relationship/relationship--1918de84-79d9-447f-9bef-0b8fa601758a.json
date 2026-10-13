@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--16cba43b-4cb7-4dfc-a112-75f15891af8a",
+    "id": "bundle--c00cf192-b968-4e9b-ae35-87a2ca784d84",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.939Z",
+            "modified": "2026-09-03T19:46:57.945Z",
             "description": "[MagicRAT](https://attack.mitre.org/software/S1182) can import and execute additional payloads.(Citation: Cisco MagicRAT 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--858b0f9d-3a2a-437e-a058-afe72154f6da",

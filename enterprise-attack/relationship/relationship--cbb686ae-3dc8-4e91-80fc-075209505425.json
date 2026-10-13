@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--690ed9b2-bb61-4868-bd39-bc20a03c41c7",
+    "id": "bundle--e735a33b-fa04-48c8-b1af-d9c8bfdf1a6b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.204Z",
+            "modified": "2026-09-03T19:47:05.202Z",
             "description": "[Aria-body](https://attack.mitre.org/software/S0456) has the ability to download additional payloads from C2.(Citation: CheckPoint Naikon May 2020)",
             "relationship_type": "uses",
             "source_ref": "malware--3161d76a-e2b2-4b97-9906-24909b735386",

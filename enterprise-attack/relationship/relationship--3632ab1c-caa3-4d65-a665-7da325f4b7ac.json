@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--787193c7-cd51-43b0-8c39-2411c1f1633b",
+    "id": "bundle--fee50787-b0c3-4327-ba1f-7126027e355f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:03.729Z",
+            "modified": "2026-09-03T19:46:47.661Z",
             "description": "[Turla](https://attack.mitre.org/groups/G0010) has used multiple backdoors which communicate with a C2 server via email attachments.(Citation: Crowdstrike GTR2020 Mar 2020)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--7a19ecb1-3c65-4de3-a230-993516aed6a6",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ea5e4b78-40a8-4c0d-aaa5-6c85320b78ef",
+    "id": "bundle--e0e7d894-4114-4826-a915-0daccbd25bed",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.187Z",
+            "modified": "2026-09-03T19:46:57.915Z",
             "description": "[QuasarRAT](https://attack.mitre.org/software/S0262) can use port 4782 on the compromised host for TCP callbacks.(Citation: CISA AR18-352A Quasar RAT December 2018)",
             "relationship_type": "uses",
             "source_ref": "tool--da04ac30-27da-4959-a67d-450ce47d9470",

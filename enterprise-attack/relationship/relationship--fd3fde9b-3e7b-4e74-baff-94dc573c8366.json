@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--6e0dabd1-19f0-4924-83e5-409043f3410f",
+    "id": "bundle--4168fa1d-fd50-43bd-8913-781f8ddf56e9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:20.432Z",
+            "modified": "2026-09-08T20:28:08.989Z",
             "description": "For [Operation Sharpshooter](https://attack.mitre.org/campaigns/C0013), the threat actors used the ExpressVPN service to hide their location.(Citation: Bleeping Computer Op Sharpshooter March 2019)",
             "relationship_type": "uses",
             "source_ref": "campaign--37764c78-2a99-46d1-a7ea-6454b9bf93a0",

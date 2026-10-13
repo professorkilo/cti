@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--187e5c28-0ce7-4be6-aa77-b0557929bdd0",
+    "id": "bundle--21df82e0-d73b-47e3-9e7c-4a076a3ca69c",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.966Z",
+            "modified": "2026-09-02T20:07:46.311Z",
             "description": "[Helminth](https://attack.mitre.org/software/S0170) encrypts data sent to its C2 server over HTTP with RC4.(Citation: Palo Alto OilRig May 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--eff1a885-6f90-42a1-901f-eef6e7a1905e",

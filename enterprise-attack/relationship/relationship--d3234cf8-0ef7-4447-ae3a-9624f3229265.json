@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--d7797af3-b893-467e-8456-e9ad8a60c3d9",
+    "id": "bundle--03d619c7-cb1b-49f2-ba9a-0c76e2a9c160",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.214Z",
+            "modified": "2026-09-08T20:28:08.900Z",
             "description": "[XTunnel](https://attack.mitre.org/software/S0117) relays traffic between a C2 server and a victim.(Citation: Crowdstrike DNC June 2016)",
             "relationship_type": "uses",
             "source_ref": "malware--7343e208-7cab-45f2-a47b-41ba5e2f0fab",

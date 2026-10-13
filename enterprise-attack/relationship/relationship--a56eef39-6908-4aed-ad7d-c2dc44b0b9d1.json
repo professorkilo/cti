@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--7cfff0d6-7553-4fc5-9c0e-a5875b9eac9f",
+    "id": "bundle--b2826b24-0607-4e9c-9d0b-68e10ea0e860",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.150Z",
+            "modified": "2026-09-02T20:07:47.359Z",
             "description": "[NGLite](https://attack.mitre.org/software/S1106) will use an AES encrypted channel for command and control purposes, in one case using the key <code>WHATswrongwithUu</code>.(Citation: NGLite Trojan)",
             "relationship_type": "uses",
             "source_ref": "malware--72b5f07f-5448-4e00-9ff2-08bc193a7b77",

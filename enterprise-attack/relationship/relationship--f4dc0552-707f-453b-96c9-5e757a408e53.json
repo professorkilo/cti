@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--db86e16b-a6b5-4fe9-a085-f92989e9b275",
+    "id": "bundle--32c8486c-90ed-41ea-a7da-c8bf000f8ba4",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.258Z",
+            "modified": "2026-09-03T19:47:01.975Z",
             "description": "[BADHATCH](https://attack.mitre.org/software/S1081) can exfiltrate data over the C2 channel.(Citation: Gigamon BADHATCH Jul 2019)(Citation: BitDefender BADHATCH Mar 2021) ",
             "relationship_type": "uses",
             "source_ref": "malware--3553b49d-d4ae-4fb6-ab17-0adbc520c888",

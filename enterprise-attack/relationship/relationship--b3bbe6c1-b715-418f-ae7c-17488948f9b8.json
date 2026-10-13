@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--52f98b21-66d9-45fd-9857-e127c026d6a4",
+    "id": "bundle--ab9a8141-d6f1-4c81-ab3c-cf572924db5d",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:30.123Z",
+            "modified": "2026-09-08T20:28:08.766Z",
             "description": "[MuddyWater](https://attack.mitre.org/groups/G0069) has used NordVPN to proxy phishing emails, making them appear to originate from France.(Citation: FalconFeeds_Iran_Mar2026)   ",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--269e8108-68c6-4f99-b911-14b2e765dec2",

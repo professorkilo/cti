@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--c127ba67-da10-453f-887c-52a393e1f687",
+    "id": "bundle--271a8c82-c041-44c8-bf06-7b6965ddbd3a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.169Z",
+            "modified": "2026-09-03T19:46:57.734Z",
             "description": "[RTM](https://attack.mitre.org/software/S0148) used Port 44443 for its VNC module.(Citation: ESET RTM Feb 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--92ec0cbd-2c30-44a2-b270-73f4ec949841",

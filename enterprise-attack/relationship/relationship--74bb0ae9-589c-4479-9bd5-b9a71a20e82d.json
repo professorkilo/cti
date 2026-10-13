@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--eb779d9c-f703-458a-a429-13de38b7d739",
+    "id": "bundle--e5855dff-8de4-4b5e-997a-1d5aebf7a786",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.085Z",
+            "modified": "2026-09-08T20:28:08.503Z",
             "description": "[HARDRAIN](https://attack.mitre.org/software/S0246) uses the command <code>cmd.exe /c netsh firewall add portopening TCP 443 \"adp\"</code> and makes the victim machine function as a proxy server.(Citation: US-CERT HARDRAIN March 2018)",
             "relationship_type": "uses",
             "source_ref": "malware--bd0536d7-b081-43ae-a773-cfb057c5b988",

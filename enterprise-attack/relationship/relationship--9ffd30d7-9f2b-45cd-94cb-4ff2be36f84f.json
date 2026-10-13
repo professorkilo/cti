@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dae1d7ee-17ea-482c-ba61-fbb060c3634f",
+    "id": "bundle--64ebb30c-4efa-4914-bf4b-74ef8217453b",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.143Z",
+            "modified": "2026-09-03T19:46:56.955Z",
             "description": "[LockBit 3.0](https://attack.mitre.org/software/S1202) can Base64-encode C2 communication.(Citation: Joint Cybersecurity Advisory LockBit 3.0 MAR 2023)",
             "relationship_type": "uses",
             "source_ref": "malware--71fe9df1-1c6f-430c-ab9b-ff3c11074e52",

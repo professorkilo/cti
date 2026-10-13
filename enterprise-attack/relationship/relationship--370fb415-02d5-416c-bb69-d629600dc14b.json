@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--dc5d7ad2-f413-41ca-b8b4-0dfaa9e4ee88",
+    "id": "bundle--d54ca52b-de72-46be-9890-3ef19ebf3ed9",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T20:48:49.297Z",
+            "modified": "2026-09-02T20:00:41.268Z",
             "description": "[LAPSUS$](https://attack.mitre.org/groups/G1004) has searched a victim's network for collaboration platforms like SharePoint to discover further high-privilege account credentials.(Citation: MSTIC DEV-0537 Mar 2022)(Citation: NCC Group LAPSUS Apr 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--d8bc9788-4f7d-41a9-9e9d-ee1ea18a8cf7",

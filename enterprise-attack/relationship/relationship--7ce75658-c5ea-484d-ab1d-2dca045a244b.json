@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--2bf678e2-a802-43d9-9c58-8125cc7a1222",
+    "id": "bundle--4ef0ee56-5340-4262-9e8d-8ebb6c29ad7f",
     "spec_version": "2.0",
     "objects": [
         {
@@ -24,7 +24,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.096Z",
+            "modified": "2026-09-03T19:46:50.516Z",
             "description": "[Green Lambert](https://attack.mitre.org/software/S0690) can use DNS for C2 communications.(Citation: Objective See Green Lambert for OSX Oct 2021)(Citation: Glitch-Cat Green Lambert ATTCK Oct 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--59c8a28c-200c-4565-9af1-cbdb24870ba0",

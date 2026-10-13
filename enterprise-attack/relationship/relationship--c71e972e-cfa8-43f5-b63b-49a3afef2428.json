@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--481e58f3-c40c-4247-bb57-99f3f7684620",
+    "id": "bundle--c1aafbb0-4cae-4fb7-a9ce-f92473b96261",
     "spec_version": "2.0",
     "objects": [
         {
@@ -18,7 +18,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.197Z",
+            "modified": "2026-09-03T19:47:03.511Z",
             "description": "[Manjusaka](https://attack.mitre.org/software/S1156) has used HTTP for command and control communication.(Citation: Talos Manjusaka 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--dd2ad3d7-d7ef-4af5-a919-bfe8f2571705",

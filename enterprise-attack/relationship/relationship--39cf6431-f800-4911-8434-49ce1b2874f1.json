@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--adff8fe3-0258-4e75-b54f-f282aa1d3baf",
+    "id": "bundle--18fac6f4-2791-4d5c-bed2-ead53e9744b6",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.999Z",
+            "modified": "2026-09-02T20:07:46.489Z",
             "description": "[CharmPower](https://attack.mitre.org/software/S0674) can send additional modules over C2 encrypted with a simple substitution cipher.(Citation: Check Point APT35 CharmPower January 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--7acb15b6-fe2c-4319-b136-6ab36ff0b2d4",

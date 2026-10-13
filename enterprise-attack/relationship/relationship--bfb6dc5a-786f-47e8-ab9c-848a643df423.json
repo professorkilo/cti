@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--43e3b7fc-7d7f-4bd6-b4fc-af93faaafcd6",
+    "id": "bundle--d3677abe-d974-4416-b654-378fefcd6cf7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:47:25.584Z",
+            "modified": "2026-09-02T17:55:53.303Z",
             "description": "For [C0015](https://attack.mitre.org/campaigns/C0015), the threat actors used [Cobalt Strike](https://attack.mitre.org/software/S0154) and [Conti](https://attack.mitre.org/software/S0575) ransomware.(Citation: DFIR Conti Bazar Nov 2021) ",
             "relationship_type": "uses",
             "source_ref": "campaign--78068e68-4124-4243-b6f4-76e4e5be8a06",

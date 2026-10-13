@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--ef2abd08-1474-45e8-938b-65363d1ba69a",
+    "id": "bundle--a5d3a02a-cb2b-4dde-af61-787eae72211a",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.993Z",
+            "modified": "2026-09-03T19:46:53.193Z",
             "description": "[BoomBox](https://attack.mitre.org/software/S0635) can download files from Dropbox using a hardcoded access token.(Citation: MSTIC Nobelium Toolset May 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--c26f1c05-b861-4970-94dc-2f7f921a3074",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--f3d6e4a3-a29f-42e8-938b-c73c0e31239a",
+    "id": "bundle--15e3ad27-f212-4758-92ed-c382a4574fb7",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.128Z",
+            "modified": "2026-09-09T18:39:16.850Z",
             "description": "[Kazuar](https://attack.mitre.org/software/S0265) can accept multiple URLs for C2 servers.(Citation: Unit 42 Kazuar May 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--536be338-e2ef-4a6b-afb6-8d5568b91eb2",

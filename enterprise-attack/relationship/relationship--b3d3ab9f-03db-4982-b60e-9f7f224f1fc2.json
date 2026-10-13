@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--541fa05a-4b05-40dc-9949-2cbe15208490",
+    "id": "bundle--0578c5a7-fb93-4fbb-b7f1-3266d6039265",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.171Z",
+            "modified": "2026-09-03T19:47:02.894Z",
             "description": "[Zeus Panda](https://attack.mitre.org/software/S0330) uses HTTP for C2 communications.(Citation: Talos Zeus Panda Nov 2017)",
             "relationship_type": "uses",
             "source_ref": "malware--198db886-47af-4f4c-bff5-11b891f85946",

@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--5c7d0e76-94dc-4dcc-8eb0-4724e9049f70",
+    "id": "bundle--f69e5e3d-2233-4aac-813e-bf5e90d0c6cf",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:05.936Z",
+            "modified": "2026-09-03T19:46:57.725Z",
             "description": "[Seth-Locker](https://attack.mitre.org/software/S0639) has the ability to download and execute files on a compromised host.(Citation: Trend Micro Ransomware February 2021)",
             "relationship_type": "uses",
             "source_ref": "malware--f931a0b9-0361-4b1b-bacf-955062c35746",

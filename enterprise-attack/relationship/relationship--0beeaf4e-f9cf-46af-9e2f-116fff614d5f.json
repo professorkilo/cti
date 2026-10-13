@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--503a4a27-341f-470d-a3af-7029463eca30",
+    "id": "bundle--bacab0b8-6abb-4d30-b2ff-b68d0bd74d02",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-07-31T18:48:07.683Z",
+            "modified": "2026-09-03T19:46:54.629Z",
             "description": "[Cinnamon Tempest](https://attack.mitre.org/groups/G1021) has downloaded files, including [Cobalt Strike](https://attack.mitre.org/software/S0154), to compromised hosts.(Citation: Sygnia Emperor Dragonfly October 2022)",
             "relationship_type": "uses",
             "source_ref": "intrusion-set--8b1e16f6-e7c8-4b7a-a5df-f81232c13e2f",

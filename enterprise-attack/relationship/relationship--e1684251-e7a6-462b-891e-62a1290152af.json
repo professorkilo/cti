@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--65958b55-f45b-4591-90ac-b52f14f338ab",
+    "id": "bundle--c3dfce77-438a-48f1-9ebe-eda1f2aea8f0",
     "spec_version": "2.0",
     "objects": [
         {
@@ -19,7 +19,7 @@
             "object_marking_refs": [
                 "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
             ],
-            "modified": "2026-04-29T14:23:06.232Z",
+            "modified": "2026-09-03T19:47:04.031Z",
             "description": "[Small Sieve](https://attack.mitre.org/software/S1035) can contact actor-controlled C2 servers by using the Telegram API over HTTPS.(Citation: DHS CISA AA22-055A MuddyWater February 2022)",
             "relationship_type": "uses",
             "source_ref": "malware--ff41b9b6-4c1d-407b-a7e2-835109c8dbc5",
